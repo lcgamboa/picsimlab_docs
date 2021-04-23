@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.8.7</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -214,8 +214,8 @@ $(document).ready(function(){initNavTree('picsimlab1_8h_source.html',''); initRe
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">saveprefs</a>(lxString name, lxString value);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">void</span> Configure(CControl * control, <span class="keyword">const</span> <span class="keywordtype">char</span> * home);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordtype">void</span> board_Event(CControl * control);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">void</span> Configure(CControl * control, <span class="keyword">const</span> <span class="keywordtype">char</span> * home, <span class="keywordtype">int</span> use_default_board = 0);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordtype">void</span> board_Event(CControl * control); </div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordtype">void</span> thread1_EvThreadRun(CControl * control);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
 <div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">  165</a></span>&#160;    lxString <a class="code" href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">GetSharePath</a>(<span class="keywordtype">void</span>) {</div>
@@ -357,38 +357,40 @@ $(document).ready(function(){initNavTree('picsimlab1_8h_source.html',''); initRe
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keywordtype">float</span> over;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordtype">int</span> create;</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160; </div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordtype">int</span> ondraw;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordtype">int</span> crt;</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    </div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> error;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    lxString pzw_ver;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    CItemMenu MBoard[BOARDS_MAX];</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    CItemMenu MMicro[MAX_MIC];</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160; </div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;};</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordtype">int</span> need_resize;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    </div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> error;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    lxString pzw_ver;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160; </div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    CItemMenu MBoard[BOARDS_MAX];</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    CItemMenu MMicro[MAX_MIC];</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160; </div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="keyword">extern</span> <a class="code" href="class_c_p_window1.html">CPWindow1</a> Window1;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;};</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    CPU_RUNNING, CPU_STEPPING, CPU_HALTED, CPU_BREAKPOINT, CPU_ERROR</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;};</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160; </div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor">#define ST_T1 0x01</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor">#define ST_T2 0x02</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor">#define ST_TH 0x04</span></div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160; </div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="preprocessor">#define ERR_VERSION 0x1</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="keyword">extern</span> <a class="code" href="class_c_p_window1.html">CPWindow1</a> Window1;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    CPU_RUNNING, CPU_STEPPING, CPU_HALTED, CPU_BREAKPOINT, CPU_ERROR</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;};</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor">#define ST_T1 0x01</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="preprocessor">#define ST_T2 0x02</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="preprocessor">#define ST_TH 0x04</span></div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160; </div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/*#CPWINDOW1*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="preprocessor">#define ERR_VERSION 0x1</span></div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/*#CPWINDOW1*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
 <div class="ttc" id="aclass_c_p_window1_html"><div class="ttname"><a href="class_c_p_window1.html">CPWindow1</a></div><div class="ttdoc">CPWindow1 class.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:71</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a003a0f87f554fef0aff246adc7b3c82d"><div class="ttname"><a href="class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d">CPWindow1::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:277</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_a5293ce669d8269ef2ecf2ed54fb3eb12"><div class="ttname"><a href="class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12">CPWindow1::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:1037</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_a5293ce669d8269ef2ecf2ed54fb3eb12"><div class="ttname"><a href="class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12">CPWindow1::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:1066</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a5ac98dc50ff5f47fd05ebd534d80d1f0"><div class="ttname"><a href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">CPWindow1::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:165</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a7a11614d464e217247ddf0cb60c8f1e9"><div class="ttname"><a href="class_c_p_window1.html#a7a11614d464e217247ddf0cb60c8f1e9">CPWindow1::Get_mcurun</a></div><div class="ttdeci">int Get_mcurun(void)</div><div class="ttdoc">Return the run status of microcontroller Running/Stopped.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:212</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a8b2e0baf9fd9364d618f55dc943dc06c"><div class="ttname"><a href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c">CPWindow1::Set_mcupwr</a></div><div class="ttdeci">void Set_mcupwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:230</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a8ef4c17ea65ff64e43c0c2fbf36f43be"><div class="ttname"><a href="class_c_p_window1.html#a8ef4c17ea65ff64e43c0c2fbf36f43be">CPWindow1::Get_debug_type</a></div><div class="ttdeci">int Get_debug_type(void)</div><div class="ttdoc">Return the selected debugger type.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:184</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_abc98e682c927fc3071eb6da0880b795d"><div class="ttname"><a href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">CPWindow1::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:637</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_abc98e682c927fc3071eb6da0880b795d"><div class="ttname"><a href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">CPWindow1::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:709</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_ac40b92c51fd6dbc50fdd363171440c29"><div class="ttname"><a href="class_c_p_window1.html#ac40b92c51fd6dbc50fdd363171440c29">CPWindow1::Get_debug_port</a></div><div class="ttdeci">unsigned short Get_debug_port(void)</div><div class="ttdoc">Return the selected debugger port.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:191</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_add73d25c4889d4e01489e335b509edb7"><div class="ttname"><a href="class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7">CPWindow1::Get_mcurst</a></div><div class="ttdeci">int Get_mcurst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:219</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_ae06fa45b666a4e0993cb7c9563b73ea8"><div class="ttname"><a href="class_c_p_window1.html#ae06fa45b666a4e0993cb7c9563b73ea8">CPWindow1::GetNSTEPJ</a></div><div class="ttdeci">long int GetNSTEPJ(void)</div><div class="ttdoc">Get the number of steps in 100ms of simulation.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:270</div></div>

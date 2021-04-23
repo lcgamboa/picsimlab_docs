@@ -2,7 +2,7 @@ var classcboard__x =
 [
     [ "cboard_x", "classcboard__x.html#ab1971d36015d4773e53e541d7fa3c725", null ],
     [ "~cboard_x", "classcboard__x.html#a119bf4160507fc5c6222f0a6e13bc682", null ],
-    [ "Draw", "classcboard__x.html#a5a349c545f7cd41b8f04f1b6e75620b7", null ],
+    [ "Draw", "classcboard__x.html#a62b3124f9865b2f90c861e8ec7cfafcb", null ],
     [ "EvKeyPress", "classcboard__x.html#a4ec35f699502dc726d0d127f9fda8bb1", null ],
     [ "EvKeyRelease", "classcboard__x.html#af6cb57797d9e100a624d3029c509d0bc", null ],
     [ "EvMouseButtonPress", "classcboard__x.html#aeca24c97cafc120f6e293faa0e877fda", null ],
@@ -23,6 +23,9 @@ var classcboard__x =
     [ "Run_CPU", "classcboard__x.html#a84da87615eacef12186e019610b407fc", null ],
     [ "WritePreferences", "classcboard__x.html#a1a8ef6de897499136d5d6220b2e7a25f", null ],
     [ "active", "classcboard__x.html#ab0b02797423ba173d76ed25fece03bf2", null ],
+    [ "color1", "classcboard__x.html#a9c914f27da8625209cb3774fe422ca3d", null ],
+    [ "color2", "classcboard__x.html#a655ee994c439958edbdb9b0ac84fc872", null ],
+    [ "font", "classcboard__x.html#a263c93cf0208d6efab395299af550ad3", null ],
     [ "gauge1", "classcboard__x.html#a68701632f6cb78552e5e22333a66a136", null ],
     [ "gauge2", "classcboard__x.html#ac745db44897867e19cba3c63d1dd48ac", null ],
     [ "label2", "classcboard__x.html#acdb2ddced9425be6e42cc0d69799b0a2", null ],

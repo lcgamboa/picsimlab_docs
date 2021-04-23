@@ -24,6 +24,7 @@ var classcpart___e_t_h__w5500 =
     [ "WritePreferences", "classcpart___e_t_h__w5500.html#ac9a2ea1a0f92ef8f96bc958f9ca28e86", null ],
     [ "_ret", "classcpart___e_t_h__w5500.html#a4ca12b2408b679534ca44a0f8a4b4008", null ],
     [ "ethw", "classcpart___e_t_h__w5500.html#af527a65f813ad597fed5f23f67dba7c4", null ],
+    [ "font", "classcpart___e_t_h__w5500.html#a648d59671536daeded963d6f6805dbf9", null ],
     [ "input_pins", "classcpart___e_t_h__w5500.html#a3d4a02341fb9b5b03b01bdece679e2c8", null ],
     [ "link", "classcpart___e_t_h__w5500.html#ac4d43bf4dcc8df4744f2d9e6319834d7", null ],
     [ "output_pins", "classcpart___e_t_h__w5500.html#aafcc7ccdf71b508dd6d56ca14c4735df", null ]

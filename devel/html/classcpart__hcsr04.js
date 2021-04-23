@@ -24,6 +24,8 @@ var classcpart__hcsr04 =
     [ "active", "classcpart__hcsr04.html#aa33e1f2c85c4aefccf82cc7b7f1d8d59", null ],
     [ "count", "classcpart__hcsr04.html#aa505371e64ba43971ec8fa3cb8af70d9", null ],
     [ "delay", "classcpart__hcsr04.html#a538b14a0e519ee5fefe1f0c3f15e5fec", null ],
+    [ "font", "classcpart__hcsr04.html#a0a3c02bd5f4a6c1c008bdf20dbd28279", null ],
+    [ "font_p", "classcpart__hcsr04.html#a2e7b0d65045e44bb55c33e9297fe527b", null ],
     [ "input_pins", "classcpart__hcsr04.html#a63122d8514ad8c3d8d558ab101108f45", null ],
     [ "old_value", "classcpart__hcsr04.html#a9ee9f90d26a3cfe8d23b7f832d87f6f4", null ],
     [ "output_pins", "classcpart__hcsr04.html#ac0f0c43ca05a65673ddf488d0bf455ad", null ],

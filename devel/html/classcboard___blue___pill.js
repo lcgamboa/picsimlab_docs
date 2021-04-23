@@ -2,7 +2,7 @@ var classcboard___blue___pill =
 [
     [ "cboard_Blue_Pill", "classcboard___blue___pill.html#a98e9879a5e288fd65d944642cc7e7489", null ],
     [ "~cboard_Blue_Pill", "classcboard___blue___pill.html#a516f86e0cea99c84f01de57043e53190", null ],
-    [ "Draw", "classcboard___blue___pill.html#a0564fdea6a4de9f3a9ffd90cbd0a4904", null ],
+    [ "Draw", "classcboard___blue___pill.html#a76c1fe87f401ca09f77f7ae057116dd4", null ],
     [ "EvKeyPress", "classcboard___blue___pill.html#aad6cf97b1ca3067543f7ec773bf8d0fe", null ],
     [ "EvKeyRelease", "classcboard___blue___pill.html#a4c2d47fcb555b0941e24a5cd3d2e72e8", null ],
     [ "EvMouseButtonPress", "classcboard___blue___pill.html#a190786c76422fa9bebad4d41230024bf", null ],

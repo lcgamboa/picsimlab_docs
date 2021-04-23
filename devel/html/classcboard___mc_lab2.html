@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.8.7</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -124,10 +124,10 @@ Public Member Functions</h2></td></tr>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___mc_lab2.html#a33394b1e046c288dae11325f42efab69">GetAboutInfo</a> (void)</td></tr>
 <tr class="memdesc:a33394b1e046c288dae11325f42efab69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the about information of part. <br /></td></tr>
 <tr class="separator:a33394b1e046c288dae11325f42efab69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89a4fa676478b4bef11f773acc747e63"><td class="memItemLeft" align="right" valign="top"><a id="a89a4fa676478b4bef11f773acc747e63"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___mc_lab2.html#a89a4fa676478b4bef11f773acc747e63">Draw</a> (CDraw *draw, double scale)</td></tr>
-<tr class="memdesc:a89a4fa676478b4bef11f773acc747e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board. <br /></td></tr>
-<tr class="separator:a89a4fa676478b4bef11f773acc747e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab321a2d5b8688585d723ac53e27ebfa7"><td class="memItemLeft" align="right" valign="top"><a id="ab321a2d5b8688585d723ac53e27ebfa7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___mc_lab2.html#ab321a2d5b8688585d723ac53e27ebfa7">Draw</a> (CDraw *draw)</td></tr>
+<tr class="memdesc:ab321a2d5b8688585d723ac53e27ebfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board. <br /></td></tr>
+<tr class="separator:ab321a2d5b8688585d723ac53e27ebfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94c266eaefaf0460f5ce43621084d349"><td class="memItemLeft" align="right" valign="top"><a id="a94c266eaefaf0460f5ce43621084d349"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___mc_lab2.html#a94c266eaefaf0460f5ce43621084d349">Run_CPU</a> (void)</td></tr>
 <tr class="memdesc:a94c266eaefaf0460f5ce43621084d349"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paralle thread called ever 100ms to run cpu code. <br /></td></tr>
@@ -457,6 +457,16 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <tr class="memdesc:ad33f3c379cd910e781572ea1c110f844 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calc rotary potentiometer angle <br  />
  <br /></td></tr>
 <tr class="separator:ad33f3c379cd910e781572ea1c110f844 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1476dfd91c60ad73a3fadacb9e730a0 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ab1476dfd91c60ad73a3fadacb9e730a0"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab1476dfd91c60ad73a3fadacb9e730a0">SetScale</a> (double scale)</td></tr>
+<tr class="memdesc:ab1476dfd91c60ad73a3fadacb9e730a0 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set board draw scale <br  />
+ <br /></td></tr>
+<tr class="separator:ab1476dfd91c60ad73a3fadacb9e730a0 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a48a971c59a9affa5245f29643d1164eb"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a48a971c59a9affa5245f29643d1164eb">GetScale</a> (void)</td></tr>
+<tr class="memdesc:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board draw scale <br  />
+ <br /></td></tr>
+<tr class="separator:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -482,6 +492,12 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>active</b></
 <tr class="memitem:aacf847544be4fdf6994682f98c51112a"><td class="memItemLeft" align="right" valign="top"><a id="aacf847544be4fdf6994682f98c51112a"></a>
 <a class="el" href="structmi2c__t.html">mi2c_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mi2c</b></td></tr>
 <tr class="separator:aacf847544be4fdf6994682f98c51112a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4c2948573fe872a4c1e6200bee7b10"><td class="memItemLeft" align="right" valign="top"><a id="adc4c2948573fe872a4c1e6200bee7b10"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>vtc</b></td></tr>
+<tr class="separator:adc4c2948573fe872a4c1e6200bee7b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9709fdc1c283c4b0152a5181fd3e8893"><td class="memItemLeft" align="right" valign="top"><a id="a9709fdc1c283c4b0152a5181fd3e8893"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>vt</b></td></tr>
+<tr class="separator:a9709fdc1c283c4b0152a5181fd3e8893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc01af673f5c545a0c46f6bc03a9d589"><td class="memItemLeft" align="right" valign="top"><a id="adc01af673f5c545a0c46f6bc03a9d589"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>lcde</b></td></tr>
 <tr class="separator:adc01af673f5c545a0c46f6bc03a9d589"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -548,9 +564,21 @@ CLabel *&#160;</td><td class="memItemRight" valign="bottom"><b>label4</b></td></
 <tr class="memitem:a1db3b81981fb7bdecd2b7b7c475dcd2c"><td class="memItemLeft" align="right" valign="top"><a id="a1db3b81981fb7bdecd2b7b7c475dcd2c"></a>
 lxaudio&#160;</td><td class="memItemRight" valign="bottom"><b>buzzer</b></td></tr>
 <tr class="separator:a1db3b81981fb7bdecd2b7b7c475dcd2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec3a41e5284e44f9584405005172eaf"><td class="memItemLeft" align="right" valign="top"><a id="a2ec3a41e5284e44f9584405005172eaf"></a>
+lxBitmap *&#160;</td><td class="memItemRight" valign="bottom"><b>vent</b> [2]</td></tr>
+<tr class="separator:a2ec3a41e5284e44f9584405005172eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c218676c8067e2e78050abee15b888"><td class="memItemLeft" align="right" valign="top"><a id="aa9c218676c8067e2e78050abee15b888"></a>
 char&#160;</td><td class="memItemRight" valign="bottom"><b>mi2c_tmp_name</b> [200]</td></tr>
 <tr class="separator:aa9c218676c8067e2e78050abee15b888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7afdd724f1f47284643bb898c94e61e"><td class="memItemLeft" align="right" valign="top"><a id="aa7afdd724f1f47284643bb898c94e61e"></a>
+lxColor&#160;</td><td class="memItemRight" valign="bottom"><b>color1</b></td></tr>
+<tr class="separator:aa7afdd724f1f47284643bb898c94e61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9cae80f19640567e6c8d6f707d95b6c"><td class="memItemLeft" align="right" valign="top"><a id="ad9cae80f19640567e6c8d6f707d95b6c"></a>
+lxColor&#160;</td><td class="memItemRight" valign="bottom"><b>color2</b></td></tr>
+<tr class="separator:ad9cae80f19640567e6c8d6f707d95b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525ab98564aa70e171f14014f1b8a82b"><td class="memItemLeft" align="right" valign="top"><a id="a525ab98564aa70e171f14014f1b8a82b"></a>
+lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
+<tr class="separator:a525ab98564aa70e171f14014f1b8a82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -573,14 +601,14 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">Proc</a></td></tr>
 <tr class="memdesc:a92f1e7588769e3cbc7cc0667c1bf3b8c inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of processor in use. <br /></td></tr>
 <tr class="separator:a92f1e7588769e3cbc7cc0667c1bf3b8c inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c25b0e71ec999af05ef7d43844d7aa2 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a5c25b0e71ec999af05ef7d43844d7aa2"></a>
-<a class="el" href="structinput__t.html">input_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a5c25b0e71ec999af05ef7d43844d7aa2">input</a> [100]</td></tr>
-<tr class="memdesc:a5c25b0e71ec999af05ef7d43844d7aa2 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements <br /></td></tr>
-<tr class="separator:a5c25b0e71ec999af05ef7d43844d7aa2 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae284da1fb18a28bc32ef30aadde45d30 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ae284da1fb18a28bc32ef30aadde45d30"></a>
-<a class="el" href="structoutput__t.html">output_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ae284da1fb18a28bc32ef30aadde45d30">output</a> [100]</td></tr>
-<tr class="memdesc:ae284da1fb18a28bc32ef30aadde45d30 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">output map elements <br /></td></tr>
-<tr class="separator:ae284da1fb18a28bc32ef30aadde45d30 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a637392ea82a18ee9f9716147455031dd"></a>
+<a class="el" href="structinput__t.html">input_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a637392ea82a18ee9f9716147455031dd">input</a> [120]</td></tr>
+<tr class="memdesc:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements <br /></td></tr>
+<tr class="separator:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9694f4430944f5f6e110c3af6feb3e inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="abb9694f4430944f5f6e110c3af6feb3e"></a>
+<a class="el" href="structoutput__t.html">output_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#abb9694f4430944f5f6e110c3af6feb3e">output</a> [120]</td></tr>
+<tr class="memdesc:abb9694f4430944f5f6e110c3af6feb3e inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">output map elements <br /></td></tr>
+<tr class="separator:abb9694f4430944f5f6e110c3af6feb3e inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9f8dc51eeea817a22d9ffec01c1f0c2 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ad9f8dc51eeea817a22d9ffec01c1f0c2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2">inputc</a></td></tr>
 <tr class="memdesc:ad9f8dc51eeea817a22d9ffec01c1f0c2 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements counter <br /></td></tr>
@@ -603,6 +631,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a></td></tr>
 <tr class="memdesc:a7a851447b6b05b5f600cb587aae0c778 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">board /RESET pin state <br /></td></tr>
 <tr class="separator:a7a851447b6b05b5f600cb587aae0c778 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f6a04804e66f2a1f2413b6bdeae7c5 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a77f6a04804e66f2a1f2413b6bdeae7c5"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b></td></tr>
+<tr class="separator:a77f6a04804e66f2a1f2413b6bdeae7c5 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/boards/<a class="el" href="board___mc_lab2_8h_source.html">board_McLab2.h</a></li>

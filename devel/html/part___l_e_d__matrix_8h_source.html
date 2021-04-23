@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.8.7</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('part___l_e_d__matrix_8h_source.html','
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   ########################################################################</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   Copyright (c) : 2010-2019  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   Copyright (c) : 2010-2021  Luis Claudio Gambôa Lopes</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('part___l_e_d__matrix_8h_source.html','
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcpart__led__matrix.html#a56e19bc963443c18dfa293abe837e7cb">Process</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classcpart__led__matrix.html#a5e48bf5b1a0eabc6cda316d716d7d5a2">   46</a></span>&#160;    lxString <a class="code" href="classcpart__led__matrix.html#a5e48bf5b1a0eabc6cda316d716d7d5a2">GetPictureFileName</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;led_matrix/LED_matrix.png&quot;</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;led_matrix/LED_matrix.svg&quot;</span>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classcpart__led__matrix.html#a0b70fcc7b27e56a8aa8f0d0cb3d103d7">   50</a></span>&#160;    lxString <a class="code" href="classcpart__led__matrix.html#a0b70fcc7b27e56a8aa8f0d0cb3d103d7">GetInputMapFile</a>(<span class="keywordtype">void</span>) {</div>
@@ -160,13 +160,14 @@ $(document).ready(function(){initNavTree('part___l_e_d__matrix_8h_source.html','
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> output_pins[1];</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="structldd__max72xx__t.html">ldd_max72xx_t</a> ldd;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">int</span> angle;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    lxFont font;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* PART_LED_MATRIX_H */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* PART_LED_MATRIX_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
 <div class="ttc" id="aclasscpart__led__matrix_html"><div class="ttname"><a href="classcpart__led__matrix.html">cpart_led_matrix</a></div><div class="ttdef"><b>Definition:</b> part_LED_matrix.h:33</div></div>
 <div class="ttc" id="aclasscpart__led__matrix_html_a0b70fcc7b27e56a8aa8f0d0cb3d103d7"><div class="ttname"><a href="classcpart__led__matrix.html#a0b70fcc7b27e56a8aa8f0d0cb3d103d7">cpart_led_matrix::GetInputMapFile</a></div><div class="ttdeci">lxString GetInputMapFile(void)</div><div class="ttdoc">Return the filename of part picture input map.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.h:50</div></div>
 <div class="ttc" id="aclasscpart__led__matrix_html_a1fc92dc7d3e1bf39df806c9b200ac854"><div class="ttname"><a href="classcpart__led__matrix.html#a1fc92dc7d3e1bf39df806c9b200ac854">cpart_led_matrix::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void)</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.h:40</div></div>
@@ -183,7 +184,7 @@ $(document).ready(function(){initNavTree('part___l_e_d__matrix_8h_source.html','
 <div class="ttc" id="aclasscpart__led__matrix_html_a8699b06838446510933322057d8fd381"><div class="ttname"><a href="classcpart__led__matrix.html#a8699b06838446510933322057d8fd381">cpart_led_matrix::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void)</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.cc:187</div></div>
 <div class="ttc" id="aclasscpart__led__matrix_html_ac90ed9f7c829fec979cf7207f78bcd02"><div class="ttname"><a href="classcpart__led__matrix.html#ac90ed9f7c829fec979cf7207f78bcd02">cpart_led_matrix::ConfigurePropertiesWindow</a></div><div class="ttdeci">void ConfigurePropertiesWindow(CPWindow *WProp)</div><div class="ttdoc">Called to configure the properties window.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.cc:201</div></div>
 <div class="ttc" id="aclasscpart__led__matrix_html_acb01fbee290c7798645f2d935abebf97"><div class="ttname"><a href="classcpart__led__matrix.html#acb01fbee290c7798645f2d935abebf97">cpart_led_matrix::ReadPropertiesWindow</a></div><div class="ttdeci">void ReadPropertiesWindow(CPWindow *WProp)</div><div class="ttdoc">Called when properties window close.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.cc:244</div></div>
-<div class="ttc" id="aclasscpart__led__matrix_html_af4e79b608d9574fb82bc2e4e835ace02"><div class="ttname"><a href="classcpart__led__matrix.html#af4e79b608d9574fb82bc2e4e835ace02">cpart_led_matrix::Draw</a></div><div class="ttdeci">void Draw(void)</div><div class="ttdoc">Called ever 100ms to draw part.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.cc:73</div></div>
+<div class="ttc" id="aclasscpart__led__matrix_html_af4e79b608d9574fb82bc2e4e835ace02"><div class="ttname"><a href="classcpart__led__matrix.html#af4e79b608d9574fb82bc2e4e835ace02">cpart_led_matrix::Draw</a></div><div class="ttdeci">void Draw(void)</div><div class="ttdoc">Called ever 100ms to draw part.</div><div class="ttdef"><b>Definition:</b> part_LED_matrix.cc:74</div></div>
 <div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:36</div></div>
 <div class="ttc" id="astructldd__max72xx__t_html"><div class="ttname"><a href="structldd__max72xx__t.html">ldd_max72xx_t</a></div><div class="ttdef"><b>Definition:</b> ldd_max72xx.h:60</div></div>
 </div><!-- fragment --></div><!-- contents -->

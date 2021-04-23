@@ -2,7 +2,7 @@ var classcboard___s_t_m32___h103 =
 [
     [ "cboard_STM32_H103", "classcboard___s_t_m32___h103.html#a7f1cfa64964754c80b00c2fbaac90784", null ],
     [ "~cboard_STM32_H103", "classcboard___s_t_m32___h103.html#acfc255581d56b7a77d674033792a28ff", null ],
-    [ "Draw", "classcboard___s_t_m32___h103.html#a0188758fb3b8e38fe288c599b31c106e", null ],
+    [ "Draw", "classcboard___s_t_m32___h103.html#aaf4209910b960bdee721665dce25cd1a", null ],
     [ "EvKeyPress", "classcboard___s_t_m32___h103.html#ac740adc5a13719c79c0837acc81c164a", null ],
     [ "EvKeyRelease", "classcboard___s_t_m32___h103.html#aef1651b37432045c1993fe70a3cf3ebb", null ],
     [ "EvMouseButtonPress", "classcboard___s_t_m32___h103.html#acce1e63903a14845ac9bbc2a5f06948a", null ],

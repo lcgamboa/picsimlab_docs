@@ -23,6 +23,7 @@ var classcpart___s_d_card =
     [ "Reset", "classcpart___s_d_card.html#a18c81129325a3c04ed0e1514a177d792", null ],
     [ "WritePreferences", "classcpart___s_d_card.html#afe90531689936e53d9abfefc98633974", null ],
     [ "_ret", "classcpart___s_d_card.html#aece32b5696d3b62846ae91a800e86620", null ],
+    [ "font", "classcpart___s_d_card.html#a4994c90b1ec486baf41c6d33d456f186", null ],
     [ "input_pins", "classcpart___s_d_card.html#ac964de7bd222fba21ebed1448e601ddf", null ],
     [ "output_pins", "classcpart___s_d_card.html#a9a7abd66b1482682296aeccc6b03099a", null ],
     [ "sd", "classcpart___s_d_card.html#ac2877f4d6a5f0acae8fb9a6f87095044", null ],

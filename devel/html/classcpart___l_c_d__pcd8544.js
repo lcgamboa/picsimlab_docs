@@ -16,7 +16,10 @@ var classcpart___l_c_d__pcd8544 =
     [ "Process", "classcpart___l_c_d__pcd8544.html#abe92cfa8cf31a95cf0c9465dc9ef92fe", null ],
     [ "ReadPreferences", "classcpart___l_c_d__pcd8544.html#ab31fa25646cfb378f03697e9ad2b53be", null ],
     [ "ReadPropertiesWindow", "classcpart___l_c_d__pcd8544.html#aa13fa22ced925afe64c40b03997b82af", null ],
+    [ "SetOrientation", "classcpart___l_c_d__pcd8544.html#aa113cd14a3ce224c58e36b112d7fffe2", null ],
+    [ "SetScale", "classcpart___l_c_d__pcd8544.html#aa1367e28360cd0bfeb81b8936aac12ea", null ],
     [ "WritePreferences", "classcpart___l_c_d__pcd8544.html#a452961520c75064ed218cc6560bb73ca", null ],
+    [ "font", "classcpart___l_c_d__pcd8544.html#ad361366797f9f17a49f25ceae666b25e", null ],
     [ "input_pins", "classcpart___l_c_d__pcd8544.html#aa32142b6948cb5a7e9791fbb8b1f938f", null ],
     [ "lcd", "classcpart___l_c_d__pcd8544.html#a9174c1ede63d9b322013e03fb4c416b6", null ]
 ];

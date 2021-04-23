@@ -21,6 +21,7 @@ var classcpart__tempsys =
     [ "ReadPropertiesWindow", "classcpart__tempsys.html#a7cf5b2be7099efdabe1308baa4718008", null ],
     [ "SetOrientation", "classcpart__tempsys.html#a5341292f72cac68b74721fdac219fafe", null ],
     [ "WritePreferences", "classcpart__tempsys.html#a1e549e72548a4f5c27fdd1bd2f8ac732", null ],
+    [ "font", "classcpart__tempsys.html#a218fea79842c6aea5a75672ec36a491c", null ],
     [ "input_pins", "classcpart__tempsys.html#a9d539d7629823ae59eb1bc8e5780c91d", null ],
     [ "ref", "classcpart__tempsys.html#ac83cda5dd5d2e00edf83c512ce08f469", null ],
     [ "rpmc", "classcpart__tempsys.html#af6bd85dd0e7c15cdf61d7da78532a7b0", null ],

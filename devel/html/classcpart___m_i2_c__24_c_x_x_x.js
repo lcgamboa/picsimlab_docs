@@ -23,6 +23,7 @@ var classcpart___m_i2_c__24_c_x_x_x =
     [ "f_mi2c", "classcpart___m_i2_c__24_c_x_x_x.html#aef4c38c45a39e70986fc36d88e38d601", null ],
     [ "f_mi2c_name", "classcpart___m_i2_c__24_c_x_x_x.html#a5f7b8c2ba79e5a5196f162070ae90c03", null ],
     [ "f_mi2c_tmp_name", "classcpart___m_i2_c__24_c_x_x_x.html#ad86f91b5384e1462f83107393c0f6b0d", null ],
+    [ "font", "classcpart___m_i2_c__24_c_x_x_x.html#a34d60907380cea91e26c17f6bf6cb1cc", null ],
     [ "input_pins", "classcpart___m_i2_c__24_c_x_x_x.html#a68090d1912b8277b0d64030c57555c73", null ],
     [ "kbits", "classcpart___m_i2_c__24_c_x_x_x.html#accd84d2447081a0addfedb8b317d538e", null ],
     [ "mi2c", "classcpart___m_i2_c__24_c_x_x_x.html#a7bc01736fd7f84f3aeb2d347a7cf765d", null ]

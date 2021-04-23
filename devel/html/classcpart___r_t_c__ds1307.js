@@ -17,6 +17,8 @@ var classcpart___r_t_c__ds1307 =
     [ "ReadPreferences", "classcpart___r_t_c__ds1307.html#a9ad83cdc661c0fd2dc9256dc72d1f4e1", null ],
     [ "ReadPropertiesWindow", "classcpart___r_t_c__ds1307.html#a299480da2e51b0443fd685edfe9b9224", null ],
     [ "WritePreferences", "classcpart___r_t_c__ds1307.html#ad3fd70e8a6f612cfa6e9a6258c9bab5e", null ],
+    [ "font", "classcpart___r_t_c__ds1307.html#a05999c1063b058ed3cc6ed14b0ca09f6", null ],
+    [ "font_p", "classcpart___r_t_c__ds1307.html#a84f7e6864a32066f2ac4d014c9c71f47", null ],
     [ "input_pins", "classcpart___r_t_c__ds1307.html#a57c2b3071af6b075a768bce3389fbfdc", null ],
     [ "rtc2", "classcpart___r_t_c__ds1307.html#abe14c4ca59389302241b1ad792a3b6ef", null ]
 ];

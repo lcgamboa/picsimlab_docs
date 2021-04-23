@@ -24,6 +24,7 @@ var classcpart___signal_generator =
     [ "WritePreferences", "classcpart___signal_generator.html#a53239795c7a90a60982383ff6678547f", null ],
     [ "active", "classcpart___signal_generator.html#a152a5b4ee00244d8e50441c924c398fc", null ],
     [ "ampl", "classcpart___signal_generator.html#a23907c253e316cc6c30853033d631d97", null ],
+    [ "font", "classcpart___signal_generator.html#a6679be26a7195183608c8ed40150b082", null ],
     [ "freq", "classcpart___signal_generator.html#a7ab916a29310390cff5da582c2a3f7c8", null ],
     [ "input_pins", "classcpart___signal_generator.html#aee2190e492aafe58356af73410a0c8e7", null ],
     [ "JUMPSTEPS_", "classcpart___signal_generator.html#aee94ee4b269b284e721ea97e9988449a", null ],

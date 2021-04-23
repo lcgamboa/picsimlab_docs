@@ -21,5 +21,8 @@ var classcpart__step =
     [ "angle", "classcpart__step.html#ad39c9f3771b18c983395d0d851288077", null ],
     [ "b1", "classcpart__step.html#a83e5b7d2bdf56b8ed93361335442e5e9", null ],
     [ "b2", "classcpart__step.html#a1cbf999635b7380dcb023193235e2f6b", null ],
+    [ "color1", "classcpart__step.html#a49e8f5da05736221696cccf32c87f201", null ],
+    [ "color2", "classcpart__step.html#a49ce7de3064d29fd853db2fc3700f68b", null ],
+    [ "font", "classcpart__step.html#ab747f52f88d50fefe8908763b06229a6", null ],
     [ "input_pins", "classcpart__step.html#a3da50407c2419060293a8a7d6da931fa", null ]
 ];

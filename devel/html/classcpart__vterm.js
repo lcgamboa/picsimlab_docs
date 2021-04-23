@@ -26,6 +26,7 @@ var classcpart__vterm =
     [ "SetId", "classcpart__vterm.html#a64632e7bc7b3e4156ce7b41f13bd5944", null ],
     [ "WritePreferences", "classcpart__vterm.html#aed9b3624b0401c3a292a18d63648580c", null ],
     [ "_ret", "classcpart__vterm.html#a1dc19a381aa60ef9b672b5c8fff96510", null ],
+    [ "font", "classcpart__vterm.html#ac8e3f3f74a69da206492a943f5332255", null ],
     [ "input_pins", "classcpart__vterm.html#a55e1a188cd588f4601f36815299850de", null ],
     [ "lending", "classcpart__vterm.html#a9dcaaf0c6f228fb64b40d1702eab45f9", null ],
     [ "output_pins", "classcpart__vterm.html#a37636ebb79843a60988c8396fafb98e3", null ],

@@ -19,6 +19,7 @@ var classcpart__led__matrix =
     [ "RegisterRemoteControl", "classcpart__led__matrix.html#a8699b06838446510933322057d8fd381", null ],
     [ "WritePreferences", "classcpart__led__matrix.html#a6163d4cdcc01a9516e50837c1d0bc95a", null ],
     [ "angle", "classcpart__led__matrix.html#a5c09cd609234c3d06ab26ef9f2a4d5af", null ],
+    [ "font", "classcpart__led__matrix.html#af27f01316809f87e9b222b5ecf15cb48", null ],
     [ "input_pins", "classcpart__led__matrix.html#aad725ca94bfe400a3fdac7b5b0631554", null ],
     [ "ldd", "classcpart__led__matrix.html#a3a50dd431549deece2f54234094809c8", null ],
     [ "output_pins", "classcpart__led__matrix.html#aa24bd55020e5010b7cea48bc988a3b09", null ]

@@ -6,6 +6,7 @@ var dir_44b8a28b46c46acb1deed65f25aca5e6 =
     [ "board_Breadboard.h", "board___breadboard_8h_source.html", null ],
     [ "board_Curiosity.h", "board___curiosity_8h_source.html", null ],
     [ "board_Curiosity_HPC.h", "board___curiosity___h_p_c_8h_source.html", null ],
+    [ "board_Franzininho.h", "board___franzininho_8h_source.html", null ],
     [ "board_gpboard.h", "board__gpboard_8h_source.html", null ],
     [ "board_K16F.h", "board___k16_f_8h_source.html", null ],
     [ "board_McLab1.h", "board___mc_lab1_8h_source.html", null ],

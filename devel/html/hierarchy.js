@@ -26,7 +26,8 @@ var hierarchy =
       ] ],
       [ "bsim_simavr", "classbsim__simavr.html", [
         [ "cboard_Arduino_Uno", "classcboard___arduino___uno.html", null ],
-        [ "cboard_Breadboard", "classcboard___breadboard.html", null ]
+        [ "cboard_Breadboard", "classcboard___breadboard.html", null ],
+        [ "cboard_Franzininho", "classcboard___franzininho.html", null ]
       ] ],
       [ "bsim_ucsim", "classbsim__ucsim.html", [
         [ "cboard_uCboard", "classcboard__u_cboard.html", null ]

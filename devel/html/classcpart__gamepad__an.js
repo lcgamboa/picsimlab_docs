@@ -24,6 +24,7 @@ var classcpart__gamepad__an =
     [ "Reset", "classcpart__gamepad__an.html#a9022a714debba797cba15999cfaf928f", null ],
     [ "WritePreferences", "classcpart__gamepad__an.html#add76718208d7a3c878d4b1f92e93d4ef", null ],
     [ "active", "classcpart__gamepad__an.html#a48119b48910476e96fbe63839f1d8ba7", null ],
+    [ "font", "classcpart__gamepad__an.html#a3af16dc47fcdba24c72bb5d648c04349", null ],
     [ "output_pins", "classcpart__gamepad__an.html#ac07e78112ef5d3d07b03da7418684629", null ],
     [ "output_value", "classcpart__gamepad__an.html#a09c69522b3f3b6b99d3d029ad0aa5f59", null ],
     [ "output_value_an", "classcpart__gamepad__an.html#a7b35363b8f7a9c79839dcb458dcade78", null ]

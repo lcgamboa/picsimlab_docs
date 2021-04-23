@@ -17,6 +17,8 @@ var classcpart___r_t_c__pfc8563 =
     [ "ReadPreferences", "classcpart___r_t_c__pfc8563.html#ae87997af7b293ffb1a97b5cfc047ea5b", null ],
     [ "ReadPropertiesWindow", "classcpart___r_t_c__pfc8563.html#a5e1ef13b217effffed429974ec41e40c", null ],
     [ "WritePreferences", "classcpart___r_t_c__pfc8563.html#a0edf3b20c563aef1fd9dc7b0c290c3dd", null ],
+    [ "font", "classcpart___r_t_c__pfc8563.html#a80cd3a51199c9f4a35cd67dd08aa084c", null ],
+    [ "font_p", "classcpart___r_t_c__pfc8563.html#ab86d624a0145c0a2a2c9e3147f7bbcf0", null ],
     [ "input_pins", "classcpart___r_t_c__pfc8563.html#af497dfbfdcf6bd16cc2ae2225aca96e5", null ],
     [ "rtc", "classcpart___r_t_c__pfc8563.html#acd265a4122692d5030e879623e95a29c", null ]
 ];

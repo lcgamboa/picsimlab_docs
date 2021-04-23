@@ -2,7 +2,7 @@ var classcboard__gpboard =
 [
     [ "cboard_gpboard", "classcboard__gpboard.html#ac056663c940de60c54c3885d40d9cd17", null ],
     [ "~cboard_gpboard", "classcboard__gpboard.html#ad3c48c4ae9cd5b4af8403b158ed3b257", null ],
-    [ "Draw", "classcboard__gpboard.html#a3e9a4e415c8127f97cb82d3b7a6fff47", null ],
+    [ "Draw", "classcboard__gpboard.html#afa3bc13478c604bcc5123c9f836ed439", null ],
     [ "EvKeyPress", "classcboard__gpboard.html#a39b97d147b318812fda031aa02536fae", null ],
     [ "EvKeyRelease", "classcboard__gpboard.html#a7c41f16e4a2e797591f826628d5067e8", null ],
     [ "EvMouseButtonPress", "classcboard__gpboard.html#a9ad558d5f6d0ad25a47efa9655c7013e", null ],
@@ -20,6 +20,8 @@ var classcboard__gpboard =
     [ "RefreshStatus", "classcboard__gpboard.html#ad45612218a43babf812cc6d8587d4403", null ],
     [ "Reset", "classcboard__gpboard.html#ae5908dc87caf75a3ee73dcd1c94da037", null ],
     [ "Run_CPU", "classcboard__gpboard.html#a4ae06866866405669eb04fb8e664c4b3", null ],
+    [ "SetScale", "classcboard__gpboard.html#a853b4c50855cbf3b8c19f446a7083c99", null ],
     [ "WritePreferences", "classcboard__gpboard.html#a9998b9dcf7514c29bd2866936acb80f5", null ],
+    [ "font", "classcboard__gpboard.html#a71fa1d7933b6335d01c232bc0704aaee", null ],
     [ "micbmp", "classcboard__gpboard.html#adf66164476316677670cc5bef9338a0c", null ]
 ];

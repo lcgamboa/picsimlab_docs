@@ -25,6 +25,7 @@ var classcpart__7s__display =
     [ "alm2", "classcpart__7s__display.html#a28c35132a9532ff055c714d5081da4dc", null ],
     [ "alm3", "classcpart__7s__display.html#a4b7e2b48dd280f2365fa47923e70e25e", null ],
     [ "alm4", "classcpart__7s__display.html#a61354f66fc93ebab71cf00dc1a186731", null ],
+    [ "font", "classcpart__7s__display.html#aedf84df1375a96ebf5b98d2438f17dc2", null ],
     [ "input_pins", "classcpart__7s__display.html#ad6b66ac455fdf4bdcbe4a9a018be00e3", null ],
     [ "JUMPSTEPS_", "classcpart__7s__display.html#a0f86ee6f667e1ace9ba64d9c9d27381e", null ],
     [ "lm1", "classcpart__7s__display.html#a413097724bbb18d6537445da449e80b0", null ],

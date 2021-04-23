@@ -24,6 +24,7 @@ var classcpart__gamepad =
     [ "RegisterRemoteControl", "classcpart__gamepad.html#ac72c3b96076e9b222a2ff183e8961e11", null ],
     [ "WritePreferences", "classcpart__gamepad.html#aba47a8c404c0b825e0d84c0aa78ad9e6", null ],
     [ "active", "classcpart__gamepad.html#ae294a7117d0005e91e9d8c5cfe2c6e2e", null ],
+    [ "font", "classcpart__gamepad.html#aa15a68fc99f99434e2473b8d805482b8", null ],
     [ "jr", "classcpart__gamepad.html#a27775a8803013a398001ffebd8f7a5eb", null ],
     [ "output_pins", "classcpart__gamepad.html#a1b5a640b8f225ae20f57eac1dad8111e", null ],
     [ "output_value", "classcpart__gamepad.html#a9522eb215a8c5dd5d931b5844a608bf6", null ],

@@ -19,5 +19,6 @@ var classcpart__rgb__led =
     [ "WritePreferences", "classcpart__rgb__led.html#aff90f5f1185e1daa98c89a3e2390a779", null ],
     [ "active", "classcpart__rgb__led.html#af8d106c4b5f8ddbfaed4a4fcdf213860", null ],
     [ "color", "classcpart__rgb__led.html#ac5e2abb306fc7da2fd0739ac8d731874", null ],
+    [ "font", "classcpart__rgb__led.html#aaf3030aea4ecb001bb6e75cdb3d117e4", null ],
     [ "input_pins", "classcpart__rgb__led.html#a35dde70a418ca340aab9a149aa1dfcf5", null ]
 ];

@@ -53,17 +53,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_c_p_window4.html#aa47040b0c789ae67cc7052c113c9f044",
-"classbsim__picsim.html#a0870a6c94d9a34a921aa093cc40e2b0a",
-"classcboard___breadboard.html#a922062de9c027ef07b01d353e7d08a67",
-"classcboard___p_i_c_genios.html#a64370c20ce21027ad173ff352ec1c05e",
-"classcpart__7s__display.html#ac04e98a623d0a8fbf3490cdee0c92c30",
-"classcpart___l_c_d__pcd8544.html#aa32142b6948cb5a7e9791fbb8b1f938f",
-"classcpart___v_c_d___dump___d_b_g.html#a9b30b709026934dfaf439986012da2c9",
-"classcpart__hcsr04.html#abae001880c8865a2fcf771bc84147c29",
-"classcpart__switchs.html#a01600b360eb0b2ac8f14fe0435b4a0b4",
-"part__encoder_8h_source.html",
-"structlcd__ssd1306__t.html#acbafd5d255290b917d6306376c3cb1d9"
+"class_c_p_window4.html#a9eeb392c933f58fd425987378f17d657",
+"classbsim__gpsim.html#aac1256ef6efde50b9afa28503a024dc3",
+"classcboard___breadboard.html#a595ce410416bd2d375d61ef6a424161b",
+"classcboard___mc_lab2.html#aa7afdd724f1f47284643bb898c94e61e",
+"classcboard__x.html",
+"classcpart___jumpers.html#aef3c9dce53552038de7d90906809970e",
+"classcpart___signal_generator.html#a6679be26a7195183608c8ed40150b082",
+"classcpart__encoder.html#a5abcb987bd2fc8d03a9a3ed96e1be148",
+"classcpart__pot.html#a1b42ef8d670a856ef47af37747a6f4cb",
+"classpart.html#a4ddb5dbfdb5fbff171a7891cba9f82ef",
+"structeth__w5500__t.html#a6d43ea56f8617197298d6e54875deb16",
+"structtsc___x_p_t2046__t.html#a91eceb150ba7e74182bd0047a9713953"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

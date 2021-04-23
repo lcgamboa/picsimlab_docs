@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.8.7</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -225,9 +225,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>filedialog2_EvOnClose
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">saveprefs</a> (lxString name, lxString value)</td></tr>
 <tr class="memdesc:abc98e682c927fc3071eb6da0880b795d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the preferences. <br /></td></tr>
 <tr class="separator:abc98e682c927fc3071eb6da0880b795d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1674ae4d9dce4f36764686ff2282aaf2"><td class="memItemLeft" align="right" valign="top"><a id="a1674ae4d9dce4f36764686ff2282aaf2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Configure</b> (CControl *control, const char *home)</td></tr>
-<tr class="separator:a1674ae4d9dce4f36764686ff2282aaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab077640019122eb2006a8fdfd381266c"><td class="memItemLeft" align="right" valign="top"><a id="ab077640019122eb2006a8fdfd381266c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Configure</b> (CControl *control, const char *home, int use_default_board=0)</td></tr>
+<tr class="separator:ab077640019122eb2006a8fdfd381266c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3df0d235116556571a17d05ce511bef"><td class="memItemLeft" align="right" valign="top"><a id="aa3df0d235116556571a17d05ce511bef"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>board_Event</b> (CControl *control)</td></tr>
 <tr class="separator:aa3df0d235116556571a17d05ce511bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -504,16 +504,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>osc_on</b></td></tr>
 <tr class="memitem:afcec024ae9a876c75710a296586014e4"><td class="memItemLeft" align="right" valign="top"><a id="afcec024ae9a876c75710a296586014e4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>spare_on</b></td></tr>
 <tr class="separator:afcec024ae9a876c75710a296586014e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d5aeb8a863c06452b509adf26744c0"><td class="memItemLeft" ><a id="a67d5aeb8a863c06452b509adf26744c0"></a>
+<tr class="memitem:a12c2cf9d5032ee61a8c7594093a0647b"><td class="memItemLeft" ><a id="a12c2cf9d5032ee61a8c7594093a0647b"></a>
 union {</td></tr>
-<tr class="memitem:a8e10e05a17ed7982d09a2bcd80c250ae"><td class="memItemLeft" >
+<tr class="memitem:ac51ed52bf6336fb7d5884515ecc40d4f"><td class="memItemLeft" >
 &#160;&#160;&#160;char&#160;&#160;&#160;<b>st</b> [2]</td></tr>
-<tr class="separator:a8e10e05a17ed7982d09a2bcd80c250ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac985dac73e8c69fd308ae9e62a026c26"><td class="memItemLeft" >
+<tr class="separator:ac51ed52bf6336fb7d5884515ecc40d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64433467fcd9f295450c4fe8bb07ee44"><td class="memItemLeft" >
 &#160;&#160;&#160;unsigned short int&#160;&#160;&#160;<b>status</b></td></tr>
-<tr class="separator:ac985dac73e8c69fd308ae9e62a026c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d5aeb8a863c06452b509adf26744c0"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
-<tr class="separator:a67d5aeb8a863c06452b509adf26744c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a64433467fcd9f295450c4fe8bb07ee44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c2cf9d5032ee61a8c7594093a0647b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:a12c2cf9d5032ee61a8c7594093a0647b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memItemLeft" align="right" valign="top"><a id="a90c1e060bba9e7a1f0c046e3470fd3f0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>plWidth</b></td></tr>
 <tr class="separator:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -565,9 +565,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>over</b></td></tr>
 <tr class="memitem:af648cb08c39d35e54087c4ba64a3b97d"><td class="memItemLeft" align="right" valign="top"><a id="af648cb08c39d35e54087c4ba64a3b97d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>create</b></td></tr>
 <tr class="separator:af648cb08c39d35e54087c4ba64a3b97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6708fada46aa0531b63c618e53c364c"><td class="memItemLeft" align="right" valign="top"><a id="ad6708fada46aa0531b63c618e53c364c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ondraw</b></td></tr>
-<tr class="separator:ad6708fada46aa0531b63c618e53c364c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d083891f27414a4a8e43e7544de062d"><td class="memItemLeft" align="right" valign="top"><a id="a7d083891f27414a4a8e43e7544de062d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>crt</b></td></tr>
+<tr class="separator:a7d083891f27414a4a8e43e7544de062d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb55181998288d6b1e87d54820d79d40"><td class="memItemLeft" align="right" valign="top"><a id="abb55181998288d6b1e87d54820d79d40"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>need_resize</b></td></tr>
+<tr class="separator:abb55181998288d6b1e87d54820d79d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9d33c44c4d8956a82b5a53a08a0faa"><td class="memItemLeft" align="right" valign="top"><a id="a2a9d33c44c4d8956a82b5a53a08a0faa"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>error</b></td></tr>
 <tr class="separator:a2a9d33c44c4d8956a82b5a53a08a0faa"><td class="memSeparator" colspan="2">&#160;</td></tr>

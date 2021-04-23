@@ -23,6 +23,7 @@ var classcpart__dtfunc =
     [ "Reset", "classcpart__dtfunc.html#a751035841a5592570e8902cff3af8464", null ],
     [ "WritePreferences", "classcpart__dtfunc.html#a0239a8cfa3804e93a19cb6aa5c996a5c", null ],
     [ "den", "classcpart__dtfunc.html#ad11b0c8a29b102406455f2ce1604d226", null ],
+    [ "font", "classcpart__dtfunc.html#ac3fa32c9c8e3680e3a07a064d6ba23c5", null ],
     [ "in_gain", "classcpart__dtfunc.html#a30af229edca82e9ce63b951f6d374121", null ],
     [ "in_off", "classcpart__dtfunc.html#a88c93fcce4ab395d7351b48766db783c", null ],
     [ "input_pin", "classcpart__dtfunc.html#adc97eb5919f32d3645aacb5f1ac6587b", null ],

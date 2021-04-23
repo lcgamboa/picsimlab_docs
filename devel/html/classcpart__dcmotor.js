@@ -21,6 +21,7 @@ var classcpart__dcmotor =
     [ "WritePreferences", "classcpart__dcmotor.html#a54b8d879de75bd4dd088b0ef7f336360", null ],
     [ "count", "classcpart__dcmotor.html#ae00e519d580fd9d74401ca63ef0b1734", null ],
     [ "dir", "classcpart__dcmotor.html#a0169818722e87e4649346cb9a4f918e0", null ],
+    [ "font", "classcpart__dcmotor.html#a513e7964634b0c1b0af38b9aedae483f", null ],
     [ "input_pins", "classcpart__dcmotor.html#a78ec514507ec9d52dd1cec414f3f311c", null ],
     [ "output_pins", "classcpart__dcmotor.html#a47de4b8019d708b832725386c1b20060", null ],
     [ "speed", "classcpart__dcmotor.html#a72b81771e09a291d81fc83dc7cba8ef6", null ],

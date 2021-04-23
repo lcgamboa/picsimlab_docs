@@ -22,6 +22,7 @@ var classcpart__pbuttons =
     [ "Reset", "classcpart__pbuttons.html#a1961cd74faa053d5d3a03fc7fb21548b", null ],
     [ "WritePreferences", "classcpart__pbuttons.html#abe8c8244aba99d813ac81ab34238d68a", null ],
     [ "active", "classcpart__pbuttons.html#abfff075e2f9a36565629158980261652", null ],
+    [ "font", "classcpart__pbuttons.html#a27f5b0ec48f46144f50c196cc7484d42", null ],
     [ "output_pins", "classcpart__pbuttons.html#ae99b8f95cf8da1bc7e137043e9310ebd", null ],
     [ "output_value", "classcpart__pbuttons.html#aea02ff273d4ce344cd5de858c2d557da", null ]
 ];

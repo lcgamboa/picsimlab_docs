@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.8.7</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -147,6 +147,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>draw1_EvKeyboardPress
 <tr class="memitem:a64be398e522ae6433091d39806022f25"><td class="memItemLeft" align="right" valign="top"><a id="a64be398e522ae6433091d39806022f25"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>draw1_EvKeyboardRelease</b> (CControl *control, const uint key, const uint hkey, const uint mask)</td></tr>
 <tr class="separator:a64be398e522ae6433091d39806022f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae78d6a9552976778ef2b9de6068a2ee"><td class="memItemLeft" align="right" valign="top"><a id="aae78d6a9552976778ef2b9de6068a2ee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw1_EvMouseWheel</b> (CControl *control, const int rotation)</td></tr>
+<tr class="separator:aae78d6a9552976778ef2b9de6068a2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a274f6bf910742b15bcf136b99472958d"><td class="memItemLeft" align="right" valign="top"><a id="a274f6bf910742b15bcf136b99472958d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>pmenu2_Properties_EvMenuActive</b> (CControl *control)</td></tr>
 <tr class="separator:a274f6bf910742b15bcf136b99472958d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -343,6 +346,9 @@ CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Outputs</b></
 <tr class="memitem:af59aafd38d1a27b8a24246ab960ffd5e"><td class="memItemLeft" align="right" valign="top"><a id="af59aafd38d1a27b8a24246ab960ffd5e"></a>
 CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Others</b></td></tr>
 <tr class="separator:af59aafd38d1a27b8a24246ab960ffd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c31135425f130b03b88c8dc9c21050"><td class="memItemLeft" align="right" valign="top"><a id="a10c31135425f130b03b88c8dc9c21050"></a>
+CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Virtual</b></td></tr>
+<tr class="separator:a10c31135425f130b03b88c8dc9c21050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7927ddddf06d493db9885bf00c45a489"><td class="memItemLeft" align="right" valign="top"><a id="a7927ddddf06d493db9885bf00c45a489"></a>
 CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>pmenu2</b></td></tr>
 <tr class="separator:a7927ddddf06d493db9885bf00c45a489"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,6 +421,9 @@ CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Help_About
 <tr class="memitem:a6c366b8e0e53edf8c162e786dc76047b"><td class="memItemLeft" align="right" valign="top"><a id="a6c366b8e0e53edf8c162e786dc76047b"></a>
 CFileDialog&#160;</td><td class="memItemRight" valign="bottom"><b>filedialog1</b></td></tr>
 <tr class="separator:a6c366b8e0e53edf8c162e786dc76047b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738301f66e0ed903d587fe23d7a10289"><td class="memItemLeft" align="right" valign="top"><a id="a738301f66e0ed903d587fe23d7a10289"></a>
+CStatusbar&#160;</td><td class="memItemRight" valign="bottom"><b>statusbar1</b></td></tr>
+<tr class="separator:a738301f66e0ed903d587fe23d7a10289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -481,6 +490,18 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><b>oldfname</b></td>
 <tr class="memitem:aabfd8dc656345affc43fda3760480c81"><td class="memItemLeft" align="right" valign="top"><a id="aabfd8dc656345affc43fda3760480c81"></a>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>alias_fname</b></td></tr>
 <tr class="separator:aabfd8dc656345affc43fda3760480c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee32dd7c2e2483a33cdd938ed4fab1f"><td class="memItemLeft" align="right" valign="top"><a id="a5ee32dd7c2e2483a33cdd938ed4fab1f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>offsetx</b></td></tr>
+<tr class="separator:a5ee32dd7c2e2483a33cdd938ed4fab1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38eb871c833d565123d0d6a0078ed154"><td class="memItemLeft" align="right" valign="top"><a id="a38eb871c833d565123d0d6a0078ed154"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>offsety</b></td></tr>
+<tr class="separator:a38eb871c833d565123d0d6a0078ed154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b44bc6d26e3bdd9bcc2eb84731d42a5"><td class="memItemLeft" align="right" valign="top"><a id="a3b44bc6d26e3bdd9bcc2eb84731d42a5"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mouse_scroll</b></td></tr>
+<tr class="separator:a3b44bc6d26e3bdd9bcc2eb84731d42a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5c47cb4cb8d70ab39a636c1855a210"><td class="memItemLeft" align="right" valign="top"><a id="acf5c47cb4cb8d70ab39a636c1855a210"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>need_resize</b></td></tr>
+<tr class="separator:acf5c47cb4cb8d70ab39a636c1855a210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_c_p_window4.html" title="CPWindow4 class.">CPWindow4</a> class. </p>

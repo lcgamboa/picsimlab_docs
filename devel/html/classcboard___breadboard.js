@@ -19,7 +19,7 @@ var classcboard___breadboard =
     [ "DBGTestBP", "classcboard___breadboard.html#a8375e2fd6d6a044e0f303d9ba7bcc259", null ],
     [ "DebugInit", "classcboard___breadboard.html#a845e8a42460ff3d9dd6191ac519f0711", null ],
     [ "DebugLoop", "classcboard___breadboard.html#ace0ff3b5faa2c04492ebdce2724d227c", null ],
-    [ "Draw", "classcboard___breadboard.html#a1a07a0c2bb67705c31ed3b75f996dcc5", null ],
+    [ "Draw", "classcboard___breadboard.html#a3afd2f3ec13faf3a4d4119b98de44131", null ],
     [ "EvKeyPress", "classcboard___breadboard.html#ae1026e4b694ab55168f9442aff9d0aa9", null ],
     [ "EvKeyRelease", "classcboard___breadboard.html#a5ca31783cb70f352e5d9860da46a44dd", null ],
     [ "EvMouseButtonPress", "classcboard___breadboard.html#ae94336109b1aa4de07e182d46f18400e", null ],
@@ -55,7 +55,9 @@ var classcboard___breadboard =
     [ "RefreshStatus", "classcboard___breadboard.html#ae2ae35ca6d91a4884519ddcde7dfd153", null ],
     [ "Reset", "classcboard___breadboard.html#ad9dfdb3a0ab228954374410266d387ee", null ],
     [ "Run_CPU", "classcboard___breadboard.html#a503ba494c75a372194354f8064b4aad3", null ],
+    [ "SetScale", "classcboard___breadboard.html#a6352b4bd2c32a9cf36252c092c792f46", null ],
     [ "WritePreferences", "classcboard___breadboard.html#aa97b1e1e219a7c0d7cf28044163112a1", null ],
+    [ "font", "classcboard___breadboard.html#ab90b49c16fbd8322272c0389bf9d2afd", null ],
     [ "micbmp", "classcboard___breadboard.html#add0e9762632528cf595f51ee0408fba4", null ],
     [ "ptype", "classcboard___breadboard.html#adbb1e7eb24d60fb8235b710f655852a0", null ]
 ];

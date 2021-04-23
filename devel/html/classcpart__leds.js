@@ -18,5 +18,8 @@ var classcpart__leds =
     [ "RegisterRemoteControl", "classcpart__leds.html#a58303193d88c8d50ab90c32062665eea", null ],
     [ "WritePreferences", "classcpart__leds.html#a65b039be56794e7efdc602209b7876e6", null ],
     [ "active", "classcpart__leds.html#a584166aadce067229f2bf84fcb33747c", null ],
+    [ "color1", "classcpart__leds.html#a155780df0352166bd7bdbdf380dac7d0", null ],
+    [ "color2", "classcpart__leds.html#a3ec06c184f3b5ac91b0429d769c83360", null ],
+    [ "font", "classcpart__leds.html#a660db9799bbb1bb0fab3a274bb54af2f", null ],
     [ "input_pins", "classcpart__leds.html#aecd055bf1f783a9ca05ba4ff1acb0597", null ]
 ];

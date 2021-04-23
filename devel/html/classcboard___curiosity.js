@@ -2,7 +2,7 @@ var classcboard___curiosity =
 [
     [ "cboard_Curiosity", "classcboard___curiosity.html#a086f290eedca44bf9361d0a2b7e5780f", null ],
     [ "~cboard_Curiosity", "classcboard___curiosity.html#a0882b4465c09b49d6936173d4d2f31ae", null ],
-    [ "Draw", "classcboard___curiosity.html#a9b11cca08191fd95beb3ded73ae86e3c", null ],
+    [ "Draw", "classcboard___curiosity.html#a4346ab70342dc3761a3b9753b7f505bb", null ],
     [ "EvKeyPress", "classcboard___curiosity.html#aa41ad6999257fdf05884c6fb30996109", null ],
     [ "EvKeyRelease", "classcboard___curiosity.html#acd6e4a478af07af6b87a9964571ee58c", null ],
     [ "EvMouseButtonPress", "classcboard___curiosity.html#a5992766f7139e81cb32454f839e9b4fd", null ],

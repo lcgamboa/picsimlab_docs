@@ -26,6 +26,7 @@ var classcpart__encoder =
     [ "active", "classcpart__encoder.html#a8d0c8d6029bdb8403baeb04b6fe64c9e", null ],
     [ "count", "classcpart__encoder.html#a57f493bbbc394653ed7febed570a3236", null ],
     [ "dir", "classcpart__encoder.html#a7cffea5256c4dc147a8146506271d037", null ],
+    [ "font", "classcpart__encoder.html#ad67a27b53905dc87b57b5006b6ab7b41", null ],
     [ "output_pins", "classcpart__encoder.html#aeb02f6df172a9c8e26cb1e8df10986c4", null ],
     [ "p_BTN", "classcpart__encoder.html#ae027591524bcbd46fce5c3c8ec7636dd", null ],
     [ "state", "classcpart__encoder.html#a0188849e1d9e593e305b0a73fc5b16f1", null ],

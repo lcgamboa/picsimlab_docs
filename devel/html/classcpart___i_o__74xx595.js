@@ -20,6 +20,7 @@ var classcpart___i_o__74xx595 =
     [ "ReadPropertiesWindow", "classcpart___i_o__74xx595.html#a49336daaa69c2590fdc08da8ce3aa728", null ],
     [ "WritePreferences", "classcpart___i_o__74xx595.html#a50f5b699eceb95bddc40f2f1d5c97d95", null ],
     [ "_ret", "classcpart___i_o__74xx595.html#adade34d8911bcf23024649c06bb98112", null ],
+    [ "font", "classcpart___i_o__74xx595.html#ac8584d0bbd86bd82395ebc86afc3b8bd", null ],
     [ "input_pins", "classcpart___i_o__74xx595.html#a4b81be2f463c9c3ad75235897a6322b5", null ],
     [ "JUMPSTEPS_", "classcpart___i_o__74xx595.html#afd0c0b2de9616175baabbda0957f3776", null ],
     [ "mcount", "classcpart___i_o__74xx595.html#a8a3cd27ca21f1732a7e4124733fc9ce1", null ],

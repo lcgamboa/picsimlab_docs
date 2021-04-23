@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.8.7</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -120,6 +120,11 @@ Collaboration diagram for cboard_Breadboard:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a6352b4bd2c32a9cf36252c092c792f46"><td class="memItemLeft" align="right" valign="top"><a id="a6352b4bd2c32a9cf36252c092c792f46"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a6352b4bd2c32a9cf36252c092c792f46">SetScale</a> (double scale)</td></tr>
+<tr class="memdesc:a6352b4bd2c32a9cf36252c092c792f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set board draw scale <br  />
+ <br /></td></tr>
+<tr class="separator:a6352b4bd2c32a9cf36252c092c792f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacb43ca2bb4323d1a13df1f185d0ce11"><td class="memItemLeft" align="right" valign="top"><a id="aacb43ca2bb4323d1a13df1f185d0ce11"></a>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#aacb43ca2bb4323d1a13df1f185d0ce11">GetAboutInfo</a> (void)</td></tr>
 <tr class="memdesc:aacb43ca2bb4323d1a13df1f185d0ce11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the about information of part. <br /></td></tr>
@@ -302,10 +307,10 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memdesc:ac962069b5a5605d3c9750dc37662b636"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get data EEPROM memory size <br  />
  <br /></td></tr>
 <tr class="separator:ac962069b5a5605d3c9750dc37662b636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a07a0c2bb67705c31ed3b75f996dcc5"><td class="memItemLeft" align="right" valign="top"><a id="a1a07a0c2bb67705c31ed3b75f996dcc5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a1a07a0c2bb67705c31ed3b75f996dcc5">Draw</a> (CDraw *draw, double scale)</td></tr>
-<tr class="memdesc:a1a07a0c2bb67705c31ed3b75f996dcc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board. <br /></td></tr>
-<tr class="separator:a1a07a0c2bb67705c31ed3b75f996dcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afd2f3ec13faf3a4d4119b98de44131"><td class="memItemLeft" align="right" valign="top"><a id="a3afd2f3ec13faf3a4d4119b98de44131"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a3afd2f3ec13faf3a4d4119b98de44131">Draw</a> (CDraw *draw)</td></tr>
+<tr class="memdesc:a3afd2f3ec13faf3a4d4119b98de44131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board. <br /></td></tr>
+<tr class="separator:a3afd2f3ec13faf3a4d4119b98de44131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a503ba494c75a372194354f8064b4aad3"><td class="memItemLeft" align="right" valign="top"><a id="a503ba494c75a372194354f8064b4aad3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a503ba494c75a372194354f8064b4aad3">Run_CPU</a> (void)</td></tr>
 <tr class="memdesc:a503ba494c75a372194354f8064b4aad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paralle thread called ever 100ms to run cpu code. <br /></td></tr>
@@ -630,6 +635,11 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <tr class="memdesc:ad33f3c379cd910e781572ea1c110f844 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calc rotary potentiometer angle <br  />
  <br /></td></tr>
 <tr class="separator:ad33f3c379cd910e781572ea1c110f844 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a48a971c59a9affa5245f29643d1164eb"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a48a971c59a9affa5245f29643d1164eb">GetScale</a> (void)</td></tr>
+<tr class="memdesc:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board draw scale <br  />
+ <br /></td></tr>
+<tr class="separator:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbsim__simavr"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classbsim__simavr')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbsim__simavr.html">bsim_simavr</a></td></tr>
 <tr class="memitem:a3092ea45af4cfc9564eff26a380a9059 inherit pub_methods_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="a3092ea45af4cfc9564eff26a380a9059"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a3092ea45af4cfc9564eff26a380a9059">DebugInit</a> (int dtyppe)</td></tr>
@@ -824,6 +834,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>ptype</b></td></tr>
 <tr class="memitem:add0e9762632528cf595f51ee0408fba4"><td class="memItemLeft" align="right" valign="top"><a id="add0e9762632528cf595f51ee0408fba4"></a>
 lxBitmap *&#160;</td><td class="memItemRight" valign="bottom"><b>micbmp</b></td></tr>
 <tr class="separator:add0e9762632528cf595f51ee0408fba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90b49c16fbd8322272c0389bf9d2afd"><td class="memItemLeft" align="right" valign="top"><a id="ab90b49c16fbd8322272c0389bf9d2afd"></a>
+lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
+<tr class="separator:ab90b49c16fbd8322272c0389bf9d2afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -861,14 +874,14 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">Proc</a></td></tr>
 <tr class="memdesc:a92f1e7588769e3cbc7cc0667c1bf3b8c inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of processor in use. <br /></td></tr>
 <tr class="separator:a92f1e7588769e3cbc7cc0667c1bf3b8c inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c25b0e71ec999af05ef7d43844d7aa2 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a5c25b0e71ec999af05ef7d43844d7aa2"></a>
-<a class="el" href="structinput__t.html">input_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a5c25b0e71ec999af05ef7d43844d7aa2">input</a> [100]</td></tr>
-<tr class="memdesc:a5c25b0e71ec999af05ef7d43844d7aa2 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements <br /></td></tr>
-<tr class="separator:a5c25b0e71ec999af05ef7d43844d7aa2 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae284da1fb18a28bc32ef30aadde45d30 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ae284da1fb18a28bc32ef30aadde45d30"></a>
-<a class="el" href="structoutput__t.html">output_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ae284da1fb18a28bc32ef30aadde45d30">output</a> [100]</td></tr>
-<tr class="memdesc:ae284da1fb18a28bc32ef30aadde45d30 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">output map elements <br /></td></tr>
-<tr class="separator:ae284da1fb18a28bc32ef30aadde45d30 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a637392ea82a18ee9f9716147455031dd"></a>
+<a class="el" href="structinput__t.html">input_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a637392ea82a18ee9f9716147455031dd">input</a> [120]</td></tr>
+<tr class="memdesc:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements <br /></td></tr>
+<tr class="separator:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9694f4430944f5f6e110c3af6feb3e inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="abb9694f4430944f5f6e110c3af6feb3e"></a>
+<a class="el" href="structoutput__t.html">output_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#abb9694f4430944f5f6e110c3af6feb3e">output</a> [120]</td></tr>
+<tr class="memdesc:abb9694f4430944f5f6e110c3af6feb3e inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">output map elements <br /></td></tr>
+<tr class="separator:abb9694f4430944f5f6e110c3af6feb3e inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9f8dc51eeea817a22d9ffec01c1f0c2 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ad9f8dc51eeea817a22d9ffec01c1f0c2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2">inputc</a></td></tr>
 <tr class="memdesc:ad9f8dc51eeea817a22d9ffec01c1f0c2 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements counter <br /></td></tr>
@@ -891,6 +904,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a></td></tr>
 <tr class="memdesc:a7a851447b6b05b5f600cb587aae0c778 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">board /RESET pin state <br /></td></tr>
 <tr class="separator:a7a851447b6b05b5f600cb587aae0c778 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f6a04804e66f2a1f2413b6bdeae7c5 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a77f6a04804e66f2a1f2413b6bdeae7c5"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b></td></tr>
+<tr class="separator:a77f6a04804e66f2a1f2413b6bdeae7c5 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classbsim__simavr"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classbsim__simavr')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classbsim__simavr.html">bsim_simavr</a></td></tr>
 <tr class="memitem:ae9784848f9bb1367f03153863325d055 inherit pro_attribs_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="ae9784848f9bb1367f03153863325d055"></a>
 avr_t *&#160;</td><td class="memItemRight" valign="bottom"><b>avr</b></td></tr>

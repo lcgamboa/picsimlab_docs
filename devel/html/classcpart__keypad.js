@@ -22,6 +22,7 @@ var classcpart__keypad =
     [ "ReadPropertiesWindow", "classcpart__keypad.html#ad23adb747c44885116097adf75fb0157", null ],
     [ "RegisterRemoteControl", "classcpart__keypad.html#af7f3aefe848f3651fb5e49ca58cc2426", null ],
     [ "WritePreferences", "classcpart__keypad.html#ac369dadfd6346e0e60a96692ab1810bb", null ],
+    [ "font", "classcpart__keypad.html#a5c4556371ca5cc83b66e6d176a101156", null ],
     [ "keys", "classcpart__keypad.html#a6896c36cc13a7dc34b2dd0c838537967", null ],
     [ "keys2", "classcpart__keypad.html#adc06e1f274355d4f47a6b75196b2d9be", null ],
     [ "output_pins", "classcpart__keypad.html#acc4fbf6ab5b3ece7edadc17a474c9471", null ],

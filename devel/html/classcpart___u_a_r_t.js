@@ -22,6 +22,7 @@ var classcpart___u_a_r_t =
     [ "Reset", "classcpart___u_a_r_t.html#a0c8cc9ad1b15250d3606259e5e1c9b01", null ],
     [ "WritePreferences", "classcpart___u_a_r_t.html#a4da56b2f69301e16bfd918739332a77f", null ],
     [ "_ret", "classcpart___u_a_r_t.html#aba39e1d8dce0fa08722d06cfd8cb3f01", null ],
+    [ "font", "classcpart___u_a_r_t.html#ae83592f12fc847bc5209a0fbce7bea4e", null ],
     [ "input_pins", "classcpart___u_a_r_t.html#a44560408c5b2316f1f4db64422c7e1be", null ],
     [ "output_pins", "classcpart___u_a_r_t.html#a80b5703efba178de889fa017ec4cc4ae", null ],
     [ "sr", "classcpart___u_a_r_t.html#ae036e42ed5239694d4bda701e1302f2d", null ],

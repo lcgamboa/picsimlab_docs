@@ -18,10 +18,12 @@ var classcpart__servo =
     [ "ReadPropertiesWindow", "classcpart__servo.html#a5f9ce011dbeb829625b4c919271bbf22", null ],
     [ "RegisterRemoteControl", "classcpart__servo.html#ab67293719c30afce65256578bfcbdace", null ],
     [ "SetOrientation", "classcpart__servo.html#a897c9a5c22af22f890a436965ddf346b", null ],
+    [ "SetScale", "classcpart__servo.html#aebb0829ccb875cc2ed0f8a1efb7cdf99", null ],
     [ "WritePreferences", "classcpart__servo.html#a2ae2bc599536d6f74d87dba3755edc49", null ],
     [ "angle", "classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019", null ],
     [ "angle_", "classcpart__servo.html#a22893b0e5a587b655f947d0450964303", null ],
     [ "BackGround", "classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519", null ],
+    [ "font", "classcpart__servo.html#ae240c6620ac6486a567c3fa253383a1c", null ],
     [ "in_", "classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181", null ],
     [ "input_pin", "classcpart__servo.html#ac943dc8cf327494608d6540db5349760", null ],
     [ "time", "classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755", null ]

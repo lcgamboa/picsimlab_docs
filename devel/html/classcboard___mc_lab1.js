@@ -2,7 +2,7 @@ var classcboard___mc_lab1 =
 [
     [ "cboard_McLab1", "classcboard___mc_lab1.html#a2aac92ff4076ed34d24633db9c8772c4", null ],
     [ "~cboard_McLab1", "classcboard___mc_lab1.html#a399548c2f9ff1a05e69ff39e1bc0b1d5", null ],
-    [ "Draw", "classcboard___mc_lab1.html#a44a8cea801b07b2f25cca32cce7ef6f7", null ],
+    [ "Draw", "classcboard___mc_lab1.html#ac40d94f3e61816be66e41a0fc34327e8", null ],
     [ "EvKeyPress", "classcboard___mc_lab1.html#a2dedb9741c6cd4267fb006e6a4e85d5d", null ],
     [ "EvKeyRelease", "classcboard___mc_lab1.html#ac20cb82b8cf208e9f2984b444bfad020", null ],
     [ "EvMouseButtonPress", "classcboard___mc_lab1.html#a5c578acb3b611cf546f8bffbec0189b1", null ],
@@ -20,6 +20,9 @@ var classcboard___mc_lab1 =
     [ "Reset", "classcboard___mc_lab1.html#a883a169d616803b423d3aaa666f2abec", null ],
     [ "Run_CPU", "classcboard___mc_lab1.html#a7d9e1443c58d082772f61dc45e967ec3", null ],
     [ "WritePreferences", "classcboard___mc_lab1.html#a03d3cd3d1d5d7b80cdb7b1f0d96cb9bd", null ],
+    [ "color1", "classcboard___mc_lab1.html#abcdd18149622155dac4df0ea24788c55", null ],
+    [ "color2", "classcboard___mc_lab1.html#ad698af101b3214860436ca06dede561c", null ],
+    [ "font", "classcboard___mc_lab1.html#a0dad2b295933d9a4a6f73d8198b9c854", null ],
     [ "gauge1", "classcboard___mc_lab1.html#a256d8ff52d383bcd30266fe0b69d4c99", null ],
     [ "jmp", "classcboard___mc_lab1.html#a6f213cf8dc313bd242c3829f43dae1b9", null ],
     [ "label1", "classcboard___mc_lab1.html#a48889859ff9077955200512b943200f0", null ],

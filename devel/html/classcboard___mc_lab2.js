@@ -2,7 +2,7 @@ var classcboard___mc_lab2 =
 [
     [ "cboard_McLab2", "classcboard___mc_lab2.html#a0dcdbd60fd4ea0b0f9595ac5101c23a6", null ],
     [ "~cboard_McLab2", "classcboard___mc_lab2.html#a43d4bfee99dec66d07500b1f0e94711d", null ],
-    [ "Draw", "classcboard___mc_lab2.html#a89a4fa676478b4bef11f773acc747e63", null ],
+    [ "Draw", "classcboard___mc_lab2.html#ab321a2d5b8688585d723ac53e27ebfa7", null ],
     [ "EvKeyPress", "classcboard___mc_lab2.html#aaafb607776d8eee22f109c26a12698ab", null ],
     [ "EvKeyRelease", "classcboard___mc_lab2.html#abf6e5bdc113886b569ebe9f232cc52bb", null ],
     [ "EvMouseButtonPress", "classcboard___mc_lab2.html#a561705a0ee9792d81178d1a7af4f2dde", null ],
@@ -25,7 +25,10 @@ var classcboard___mc_lab2 =
     [ "WritePreferences", "classcboard___mc_lab2.html#a45794866419d5a5c2ec1a410c0a5e5d7", null ],
     [ "active", "classcboard___mc_lab2.html#a642d8f700de68677d5d78e7ffb8c3941", null ],
     [ "buzzer", "classcboard___mc_lab2.html#a1db3b81981fb7bdecd2b7b7c475dcd2c", null ],
+    [ "color1", "classcboard___mc_lab2.html#aa7afdd724f1f47284643bb898c94e61e", null ],
+    [ "color2", "classcboard___mc_lab2.html#ad9cae80f19640567e6c8d6f707d95b6c", null ],
     [ "d", "classcboard___mc_lab2.html#af91ec6c40ec4afef0874adafdd0d9492", null ],
+    [ "font", "classcboard___mc_lab2.html#a525ab98564aa70e171f14014f1b8a82b", null ],
     [ "gauge1", "classcboard___mc_lab2.html#a9bed7fd8294ae10fbfe627de1de36091", null ],
     [ "gauge2", "classcboard___mc_lab2.html#a06b3103c152924f6416f9f074fd212c1", null ],
     [ "jmp", "classcboard___mc_lab2.html#ac35ef824bdb4d6805c4f06dbe1266473", null ],
@@ -49,6 +52,9 @@ var classcboard___mc_lab2 =
     [ "sda", "classcboard___mc_lab2.html#ab2df93eade52be400620295c5beb522f", null ],
     [ "sound_on", "classcboard___mc_lab2.html#a664aebdeb0c34ddd10f2bc5b5f7ca28a", null ],
     [ "temp", "classcboard___mc_lab2.html#ad0646d50d3b36ac7d985f0b0ee879ee0", null ],
+    [ "vent", "classcboard___mc_lab2.html#a2ec3a41e5284e44f9584405005172eaf", null ],
     [ "vp2", "classcboard___mc_lab2.html#a671dc8af1b239d1410ff53611df8e4f3", null ],
-    [ "vp2in", "classcboard___mc_lab2.html#a43d70cd4d4b0b94ffb6e42775690d8d0", null ]
+    [ "vp2in", "classcboard___mc_lab2.html#a43d70cd4d4b0b94ffb6e42775690d8d0", null ],
+    [ "vt", "classcboard___mc_lab2.html#a9709fdc1c283c4b0152a5181fd3e8893", null ],
+    [ "vtc", "classcboard___mc_lab2.html#adc4c2948573fe872a4c1e6200bee7b10", null ]
 ];
