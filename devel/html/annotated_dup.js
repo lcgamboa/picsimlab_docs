@@ -28,6 +28,7 @@ var annotated_dup =
     [ "cboard_x", "classcboard__x.html", "classcboard__x" ],
     [ "cboard_Xpress", "classcboard___xpress.html", "classcboard___xpress" ],
     [ "cpart_7s_display", "classcpart__7s__display.html", "classcpart__7s__display" ],
+    [ "cpart_7s_display_dec", "classcpart__7s__display__dec.html", "classcpart__7s__display__dec" ],
     [ "cpart_Buzzer", "classcpart___buzzer.html", "classcpart___buzzer" ],
     [ "cpart_dcmotor", "classcpart__dcmotor.html", "classcpart__dcmotor" ],
     [ "cpart_dtfunc", "classcpart__dtfunc.html", "classcpart__dtfunc" ],

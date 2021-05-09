@@ -2,6 +2,7 @@ var dir_74468c6aa5627e796dac9600ce6ada7d =
 [
     [ "part.h", "part_8h_source.html", null ],
     [ "part_7s_Display.h", "part__7s___display_8h_source.html", null ],
+    [ "part_7s_Display_Dec.h", "part__7s___display___dec_8h_source.html", null ],
     [ "part_Buzzer.h", "part___buzzer_8h_source.html", null ],
     [ "part_d_transfer_function.h", "part__d__transfer__function_8h_source.html", null ],
     [ "part_dcmotor.h", "part__dcmotor_8h_source.html", null ],

@@ -57,6 +57,7 @@ var hierarchy =
     [ "output_t", "structoutput__t.html", null ],
     [ "part", "classpart.html", [
       [ "cpart_7s_display", "classcpart__7s__display.html", null ],
+      [ "cpart_7s_display_dec", "classcpart__7s__display__dec.html", null ],
       [ "cpart_Buzzer", "classcpart___buzzer.html", null ],
       [ "cpart_ETH_w5500", "classcpart___e_t_h__w5500.html", null ],
       [ "cpart_IO_74xx595", "classcpart___i_o__74xx595.html", null ],
