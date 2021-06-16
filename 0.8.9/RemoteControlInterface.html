@@ -1,0 +1,228 @@
+<!DOCTYPE html> 
+<html xml:lang='en' lang='en'> 
+<head><title>Remote Control Interface</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='picsimlab.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='picsimlab.tex' /> 
+<link href='style.css' type='text/css' rel='stylesheet' /> 
+</head><body>
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='SimulatorInterface.html#x4-30002'>Simulator Interface</a></span><span class='sectionToc'>2.1 <a href='MainWindow.html#x5-40002.1'>Main Window</a></span><span class='sectionToc'>2.2 <a href='InteractionwiththeBoard.html#x6-50002.2'>Interaction with the Board</a></span><span class='sectionToc'>2.3 <a href='CommandLine.html#x7-60002.3'>Command Line</a></span><span class='sectionToc'>2.4 <a href='#x8-70002.4'>Remote Control Interface</a></span><span class='chapterToc'>3 <a href='Boards.html#x9-80003'>Boards</a></span><span class='chapterToc'>4 <a href='ExperimentalBoards.html#x18-170004'>Experimental Boards</a></span><span class='chapterToc'>5 <a href='SerialCommunicationlabelseriali.html#x27-260005'>Serial Communication </a></span><span class='chapterToc'>6 <a href='ProgrammerandDebuggerSupport.html#x30-290006'>Programmer and Debugger Support </a></span><span class='chapterToc'>7 <a href='Tools.html#x36-350007'>Tools</a></span><span class='chapterToc'>8 <a href='Oscilloscope.html#x46-510008'>Oscilloscope</a></span><span class='chapterToc'>9 <a href='SpareParts.html#x47-520009'>Spare Parts</a></span><span class='chapterToc'>10 <a href='HowTos.html#x94-9900010'>How To’s</a></span><span class='chapterToc'>11 <a href='License.html#x95-10000011'>License</a></span></nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>2.4    </span> <a id='x8-70002.4'></a>Remote Control Interface</h3>
+<!-- l. 112 --><p class='noindent'>The PICSimLab remote control interface supports TCP connections using telnet or nc
+(netcat).
+</p><!-- l. 114 --><p class='indent'>   The default port is 5000 and can be changed in configuration windows.
+</p><!-- l. 116 --><p class='indent'>   The ’rlwrap’ command can be used for best command edition support in telnet or
+nc:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-3'>
+ rlwrap nc 127.0.0.1 5000
+</pre>
+<!-- l. 119 --><p class='nopar'>
+</p><!-- l. 121 --><p class='indent'>   The supported commands can be shown using the “help” command:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-4'>
+ help
+List of supported commands:
+  dumpe [a] [s]- dump internal EEPROM memory
+  dumpf [a] [s]- dump Flash memory
+  dumpr [a] [s]- dump RAM memory
+  exit         - shutdown PICSimLab
+  get ob       - get object value
+  help         - show this message
+  info         - show actual setup info and objects
+  pins         - show pins directions and values
+  pinsl        - show pins formated info
+  quit         - exit remote control interface
+  reset        - reset the board
+  set ob vl    - set object with value
+  sync         - wait to syncronize with timer event
+  version      - show PICSimLab version
+Ok
+</pre>
+<!-- l. 140 --><p class='nopar'>
+</p><!-- l. 143 --><p class='indent'>   The “info” command show all available "objects" and values:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-5'>
+info
+Board:     Arduino Uno
+Processor: atmega328p
+Frequency:   16000000 Hz
+Use Spare: 1
+    board.out[00] LD_L= 254
+  part[00]: LEDs
+    part[00].out[08] LD_1= 254
+    part[00].out[09] LD_2= 30
+    part[00].out[10] LD_3= 254
+    part[00].out[11] LD_4= 254
+    part[00].out[12] LD_5 254
+    part[00].out[13] LD_6= 254
+    part[00].out[14] LD_7= 254
+  part[01]: Buzzer
+    part[01].out[02] LD_1= 140
+  part[02]: Push buttons
+    part[02].in[00] PB_1= 1
+    part[02].in[01] PB_2= 0
+    part[02].in[02] PB_3= 1
+    part[02].in[03] PB_4= 1
+    part[02].in[04] PB_5= 1
+    part[02].in[05] PB_6= 1
+    part[02].in[06] PB_7= 1
+    part[02].in[07] PB_8= 1
+Ok
+</pre>
+<!-- l. 171 --><p class='nopar'>
+</p><!-- l. 173 --><p class='indent'>   The “pins” command show all pins directions and digital values:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-6'>
+pins
+  pin[01] ( PC6/RST) &lt; 0                 pin[15] (  PB1/~9) &gt; 0
+  pin[02] (   PD0/0) &lt; 1                 pin[16] ( PB2/~10) &gt; 0
+  pin[03] (   PD1/1) &lt; 1                 pin[17] ( PB3/~11) &gt; 0
+  pin[04] (   PD2/2) &lt; 1                 pin[18] (  PB4/12) &lt; 0
+  pin[05] (  PD3/~3) &gt; 0                 pin[19] (  PB5/13) &gt; 0
+  pin[06] (   PD4/4) &lt; 1                 pin[20] (     +5V) &lt; 1
+  pin[07] (     +5V) &lt; 1                 pin[21] (    AREF) &lt; 0
+  pin[08] (     GND) &lt; 0                 pin[22] (     GND) &lt; 0
+  pin[09] (  PB6/X1) &lt; 0                 pin[23] (  PC0/A0) &lt; 0
+  pin[10] (  PB7/X2) &lt; 0                 pin[24] (  PC1/A1) &lt; 0
+  pin[11] (  PD5/~5) &lt; 1                 pin[25] (  PC2/A2) &lt; 0
+  pin[12] (  PD6/~6) &lt; 1                 pin[26] (  PC3/A3) &lt; 0
+  pin[13] (   PD7/7) &lt; 1                 pin[27] (  PC4/A4) &gt; 0
+  pin[14] (   PB0/8) &gt; 0                 pin[28] (  PC5/A5) &gt; 0
+Ok
+</pre>
+<!-- l. 191 --><p class='nopar'>
+</p><!-- l. 193 --><p class='indent'>   The “pinsl” command show all pins info in text formatted output:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-7'>
+pinsl
+28 pins [atmega328p]:
+  pin[01] D I 0 000 0.000 "PC6/RST "
+  pin[02] D I 1 200 0.000 "PD0/0   "
+  pin[03] D I 1 200 0.000 "PD1/1   "
+  pin[04] D I 1 200 0.000 "PD2/2   "
+  pin[05] D O 0 007 0.000 "PD3/~3  "
+  pin[06] D I 1 200 0.000 "PD4/4   "
+  pin[07] P I 1 200 0.000 "+5V     "
+  pin[08] P I 0 000 0.000 "GND     "
+  pin[09] D I 0 000 0.000 "PB6/X1  "
+  pin[10] D I 0 000 0.000 "PB7/X2  "
+  pin[11] D I 1 200 0.000 "PD5/~5  "
+  pin[12] D I 1 200 0.000 "PD6/~6  "
+  pin[13] D I 1 200 0.000 "PD7/7   "
+  pin[14] D O 0 000 0.000 "PB0/8   "
+  pin[15] D O 0 000 0.000 "PB1/~9  "
+  pin[16] D O 0 000 0.000 "PB2/~10 "
+  pin[17] D O 0 006 0.000 "PB3/~11 "
+  pin[18] D I 0 000 0.000 "PB4/12  "
+  pin[19] D O 0 000 0.000 "PB5/13  "
+  pin[20] P I 1 200 0.000 "+5V     "
+  pin[21] R I 0 000 0.000 "AREF    "
+  pin[22] P I 0 000 0.000 "GND     "
+  pin[23] A I 0 000 0.875 "PC0/A0  "
+  pin[24] A I 0 000 1.925 "PC1/A1  "
+  pin[25] A I 0 000 2.700 "PC2/A2  "
+  pin[26] A I 0 000 4.275 "PC3/A3  "
+  pin[27] D O 1 179 0.000 "PC4/A4  "
+  pin[28] D O 1 186 0.000 "PC5/A5  "
+Ok
+</pre>
+<!-- l. 226 --><p class='nopar'>
+</p><!-- l. 229 --><p class='indent'>   You can view one input/output state using the “get” command:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-8'>
+get board.out[00]
+
+get part[02].in[01]
+</pre>
+<!-- l. 234 --><p class='nopar'>
+</p><!-- l. 236 --><p class='indent'>   Its possible use the “get” command to view individual pins state:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-9'>
+#digital state
+get pin[19]
+pin[19]= 0
+Ok
+
+#digital mean value (0-200)
+get pinm[19]
+pin[18]= 100
+Ok
+
+#analog state
+get apin[25]
+apin[25]= 2.700
+Ok
+
+#all info
+get pinl[13]
+pin[13] D I 1 200 0.000 "PD7/7   "
+Ok
+</pre>
+<!-- l. 257 --><p class='nopar'>
+</p><!-- l. 261 --><p class='indent'>   And set value of one input using the “set” command:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-10'>
+set part[02].in[01]  0
+set part[02].in[01]  1
+</pre>
+<!-- l. 265 --><p class='nopar'>
+</p><!-- l. 267 --><p class='indent'>   Or set value of one pin using the “set” command:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-11'>
+#digital
+set pin[10]  2
+
+#analog
+set apin[20] 2.345
+</pre>
+<!-- l. 274 --><p class='nopar'>
+</p><!-- l. 280 --><p class='indent'>   For windows users <a href='https://www.putty.org/' target='_blank'>putty telnet client</a> is a good option.
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p>  
+ 
+</body> 
+</html>

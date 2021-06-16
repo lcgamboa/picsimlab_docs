@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html xml:lang='en' lang='en'> 
+<head><title>Arduino IDE Integration (simavr) </title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='picsimlab.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='picsimlab.tex' /> 
+<link href='style.css' type='text/css' rel='stylesheet' /> 
+</head><body>
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='SimulatorInterface.html#x4-30002'>Simulator Interface</a></span><span class='chapterToc'>3 <a href='Boards.html#x9-80003'>Boards</a></span><span class='chapterToc'>4 <a href='ExperimentalBoards.html#x18-170004'>Experimental Boards</a></span><span class='chapterToc'>5 <a href='SerialCommunicationlabelseriali.html#x27-260005'>Serial Communication </a></span><span class='chapterToc'>6 <a href='ProgrammerandDebuggerSupport.html#x30-290006'>Programmer and Debugger Support </a></span><span class='sectionToc'>6.1 <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x31-300006.1'>MPLABX Integrated Debug (picsim and simavr) </a></span><span class='sectionToc'>6.2 <a href='#x32-310006.2'>Arduino IDE Integration (simavr) </a></span><span class='sectionToc'>6.3 <a href='avrgdbDebugsimavrlabelgdbavr.html#x33-320006.3'>avr-gdb Debug (simavr) </a></span><span class='sectionToc'>6.4 <a href='armgdbDebugqemustm32labelgdbarm.html#x34-330006.4'>arm-gdb Debug (qemu-stm32) </a></span><span class='sectionToc'>6.5 <a href='uCsimDebuglabelucsim.html#x35-340006.5'>uCsim Debug </a></span><span class='chapterToc'>7 <a href='Tools.html#x36-350007'>Tools</a></span><span class='chapterToc'>8 <a href='Oscilloscope.html#x46-510008'>Oscilloscope</a></span><span class='chapterToc'>9 <a href='SpareParts.html#x47-520009'>Spare Parts</a></span><span class='chapterToc'>10 <a href='HowTos.html#x94-9900010'>How To’s</a></span><span class='chapterToc'>11 <a href='License.html#x95-10000011'>License</a></span></nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html'>prev</a>] [<a href='ProgrammerandDebuggerSupport.html#ArduinoIDEIntegrationsimavr.html'>up</a>] [<a href='avrgdbDebugsimavrlabelgdbavr.html'>next</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>6.2    </span> <a id='x32-310006.2'></a>Arduino IDE Integration (simavr) </h3>
+<!-- l. 19 --><p class='noindent'>For integrated use with the Arduino IDE, simply configure the serial port as explained in the
+section <a href='SerialCommunicationlabelseriali.html#x27-260005'>5<!-- tex4ht:ref: seriali  --></a> and load the Arduino bootloader. The bootloader can be loaded from the
+“Tools-&gt;Arduino bootloader” menu.
+</p><!-- l. 21 --><p class='indent'>   In Windows, considering com0com making a NULL-MODEM connection
+between COM1 and COM2, simply connect the PICSimLab on the COM1 port
+(defined in configuration window) and the Arduino IDE on the COM2 port or vice
+versa.
+</p><!-- l. 23 --><p class='indent'>   On Linux the operation is the same, but using for example the ports /dev/tnt2 and
+/dev/tnt3.
+</p><!-- l. 25 --><p class='indent'>   In Linux for the virtual ports to be detected in Arduino it is necessary to replace
+the library lib/liblistSerialsj.so of the Arduino with a version which support the
+detection of tty0tty ports, that can be downloaded in the link <a href='https://github.com/lcgamboa/listSerialPortsC/releases' target='_blank'>listSerialC with tty0tty
+support</a>.
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html'>prev</a>] [<a href='ProgrammerandDebuggerSupport.html#ArduinoIDEIntegrationsimavr.html'>up</a>] [<a href='avrgdbDebugsimavrlabelgdbavr.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p>  
+ 
+</body> 
+</html>

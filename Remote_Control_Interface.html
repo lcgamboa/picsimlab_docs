@@ -77,19 +77,25 @@ The supported commands can be shown using the &ldquo;help&rdquo; command:
 <PRE>
  help
 List of supported commands:
-  exit      - shutdown PICSimLab
-  get ob    - get object value
-  help      - show this message
-  info      - show actual setup info and objects
-  quit      - exit remote control interface
-  reset     - reset the board
-  set ob vl - set object with value
-  version   - show PICSimLab version
+  dumpe [a] [s]- dump internal EEPROM memory
+  dumpf [a] [s]- dump Flash memory
+  dumpr [a] [s]- dump RAM memory
+  exit         - shutdown PICSimLab
+  get ob       - get object value
+  help         - show this message
+  info         - show actual setup info and objects
+  pins         - show pins directions and values
+  pinsl        - show pins formated info
+  quit         - exit remote control interface
+  reset        - reset the board
+  set ob vl    - set object with value
+  sync         - wait to syncronize with timer event
+  version      - show PICSimLab version
 Ok
 </PRE>
 
 <P>
-The info command show all available "objects" and values:
+The &ldquo;info&rdquo; command show all available "objects" and values:
 <PRE>
 info
 Board:     Arduino Uno
@@ -120,7 +126,64 @@ Ok
 </PRE>
 
 <P>
-You can view one input/output state using the get command:
+The &ldquo;pins&rdquo; command show all pins directions and digital values:
+<PRE>
+pins
+  pin[01] ( PC6/RST) &lt; 0                 pin[15] (  PB1/~9) &gt; 0 
+  pin[02] (   PD0/0) &lt; 1                 pin[16] ( PB2/~10) &gt; 0 
+  pin[03] (   PD1/1) &lt; 1                 pin[17] ( PB3/~11) &gt; 0 
+  pin[04] (   PD2/2) &lt; 1                 pin[18] (  PB4/12) &lt; 0 
+  pin[05] (  PD3/~3) &gt; 0                 pin[19] (  PB5/13) &gt; 0 
+  pin[06] (   PD4/4) &lt; 1                 pin[20] (     +5V) &lt; 1 
+  pin[07] (     +5V) &lt; 1                 pin[21] (    AREF) &lt; 0 
+  pin[08] (     GND) &lt; 0                 pin[22] (     GND) &lt; 0 
+  pin[09] (  PB6/X1) &lt; 0                 pin[23] (  PC0/A0) &lt; 0 
+  pin[10] (  PB7/X2) &lt; 0                 pin[24] (  PC1/A1) &lt; 0 
+  pin[11] (  PD5/~5) &lt; 1                 pin[25] (  PC2/A2) &lt; 0 
+  pin[12] (  PD6/~6) &lt; 1                 pin[26] (  PC3/A3) &lt; 0 
+  pin[13] (   PD7/7) &lt; 1                 pin[27] (  PC4/A4) &gt; 0 
+  pin[14] (   PB0/8) &gt; 0                 pin[28] (  PC5/A5) &gt; 0 
+Ok
+</PRE>
+
+<P>
+The &ldquo;pinsl&rdquo; command show all pins info in text formatted output:
+<PRE>
+pinsl
+28 pins [atmega328p]:
+  pin[01] D I 0 000 0.000 "PC6/RST " 
+  pin[02] D I 1 200 0.000 "PD0/0   " 
+  pin[03] D I 1 200 0.000 "PD1/1   " 
+  pin[04] D I 1 200 0.000 "PD2/2   " 
+  pin[05] D O 0 007 0.000 "PD3/~3  " 
+  pin[06] D I 1 200 0.000 "PD4/4   " 
+  pin[07] P I 1 200 0.000 "+5V     " 
+  pin[08] P I 0 000 0.000 "GND     " 
+  pin[09] D I 0 000 0.000 "PB6/X1  " 
+  pin[10] D I 0 000 0.000 "PB7/X2  " 
+  pin[11] D I 1 200 0.000 "PD5/~5  " 
+  pin[12] D I 1 200 0.000 "PD6/~6  " 
+  pin[13] D I 1 200 0.000 "PD7/7   " 
+  pin[14] D O 0 000 0.000 "PB0/8   " 
+  pin[15] D O 0 000 0.000 "PB1/~9  " 
+  pin[16] D O 0 000 0.000 "PB2/~10 " 
+  pin[17] D O 0 006 0.000 "PB3/~11 " 
+  pin[18] D I 0 000 0.000 "PB4/12  " 
+  pin[19] D O 0 000 0.000 "PB5/13  " 
+  pin[20] P I 1 200 0.000 "+5V     " 
+  pin[21] R I 0 000 0.000 "AREF    " 
+  pin[22] P I 0 000 0.000 "GND     " 
+  pin[23] A I 0 000 0.875 "PC0/A0  " 
+  pin[24] A I 0 000 1.925 "PC1/A1  " 
+  pin[25] A I 0 000 2.700 "PC2/A2  " 
+  pin[26] A I 0 000 4.275 "PC3/A3  " 
+  pin[27] D O 1 179 0.000 "PC4/A4  " 
+  pin[28] D O 1 186 0.000 "PC5/A5  " 
+Ok
+</PRE>
+
+<P>
+You can view one input/output state using the &ldquo;get&rdquo; command:
 <PRE>
 get board.out[00]
 
@@ -128,14 +191,48 @@ get part[02].in[01]
 </PRE>
 
 <P>
-And set value of one input using the set command:
+Its possible use the &ldquo;get&rdquo; command to view individual pins state:
+<PRE>
+#digital state
+get pin[19]
+pin[19]= 0 
+Ok
+
+#digital mean value (0-200)
+get pinm[19]
+pin[18]= 100 
+Ok
+
+#analog state
+get apin[25]
+apin[25]= 2.700
+Ok
+
+#all info
+get pinl[13]
+pin[13] D I 1 200 0.000 "PD7/7   "
+Ok
+</PRE>
+
+<P>
+And set value of one input using the &ldquo;set&rdquo; command:
 <PRE>
 set part[02].in[01]  0
 set part[02].in[01]  1
 </PRE>
 
 <P>
-For windows users <A ID="tex2html10"
+Or set value of one pin using the &ldquo;set&rdquo; command:
+<PRE>
+#digital
+set pin[10]  2
+
+#analog
+set apin[20] 2.345
+</PRE>
+
+<P>
+For windows users <A ID="tex2html7"
   HREF="https://www.putty.org/">putty telnet client</A>
 is a good option. 
 

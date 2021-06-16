@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html xml:lang='en' lang='en'> 
+<head><title>3 Boards</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='picsimlab.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='picsimlab.tex' /> 
+<link href='style.css' type='text/css' rel='stylesheet' /> 
+</head><body>
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='SimulatorInterface.html#x4-30002'>Simulator Interface</a></span><span class='chapterToc'>3 <a href='#x9-80003'>Boards</a></span><span class='sectionToc'>3.1 <a href='Breadboard.html#x10-90003.1'>Breadboard</a></span><span class='sectionToc'>3.2 <a href='McLab1.html#x11-100003.2'>McLab1</a></span><span class='sectionToc'>3.3 <a href='K16F.html#x12-110003.3'>K16F</a></span><span class='sectionToc'>3.4 <a href='McLab2.html#x13-120003.4'>McLab2</a></span><span class='sectionToc'>3.5 <a href='PICGenios.html#x14-130003.5'>PICGenios</a></span><span class='sectionToc'>3.6 <a href='PQDB.html#x15-140003.6'>PQDB</a></span><span class='sectionToc'>3.7 <a href='ArduinoUno.html#x16-150003.7'>Arduino Uno</a></span><span class='sectionToc'>3.8 <a href='Franzininho.html#x17-160003.8'>Franzininho</a></span><span class='chapterToc'>4 <a href='ExperimentalBoards.html#x18-170004'>Experimental Boards</a></span><span class='chapterToc'>5 <a href='SerialCommunicationlabelseriali.html#x27-260005'>Serial Communication </a></span><span class='chapterToc'>6 <a href='ProgrammerandDebuggerSupport.html#x30-290006'>Programmer and Debugger Support </a></span><span class='chapterToc'>7 <a href='Tools.html#x36-350007'>Tools</a></span><span class='chapterToc'>8 <a href='Oscilloscope.html#x46-510008'>Oscilloscope</a></span><span class='chapterToc'>9 <a href='SpareParts.html#x47-520009'>Spare Parts</a></span><span class='chapterToc'>10 <a href='HowTos.html#x94-9900010'>How To’s</a></span><span class='chapterToc'>11 <a href='License.html#x95-10000011'>License</a></span></nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='SimulatorInterface.html'>prev</a>] [<a href='picsimlab.html#Boards.html'>up</a>] [<a href='ExperimentalBoards.html'>next</a>] </nav> 
+<h2 class='chapterHead'><span class='titlemark'>Chapter 3</span><br /><a id='x9-80003'></a>Boards</h2>
+<!-- l. 5 --><p class='noindent'>PICSimLab currently supports five backend simulators. The stable version supports <a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a>
+and <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>. The experimental version supports <a href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a> and <a href='http://beckus.github.io/qemu_stm32/' target='_blank'>qemu-stm32</a> in addition to
+the stable ones.
+</p><!-- l. 11 --><p class='indent'>   The Figure <a href='#x9-8001r1'>3.1<!-- tex4ht:ref: bback  --></a> shows which cards are based on which backend simulator:
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+<a id='x9-8001r1'></a>
+                                                                  
+
+                                                                  
+<!-- l. 15 --><p class='noindent'><img alt='PIC' src='img/boards.png' style='width:65%' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 3.1:</span><span class='content'>Boards backend simulators </span></figcaption><!-- tex4ht:label?: x9-8001r1  -->
+                                                                  
+
+                                                                  
+   </figure>
+<!-- l. 20 --><p class='indent'>   The below table show the supported debug interface of each simulator:
+</p>
+<div class='center'>
+<!-- l. 22 --><p class='noindent'>
+</p>
+<div class='tabular'> <table id='TBL-2' class='tabular' rules='groups'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /></colgroup><colgroup id='TBL-2-2g'><col id='TBL-2-2' /></colgroup><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-1-1' style='text-align:center; white-space:nowrap;'> <span class='textbf'>Backend</span>  </td><td class='td11' id='TBL-2-1-2' style='text-align:center; white-space:nowrap;'>                      <span class='textbf'>Debug Support</span>                                                     </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-2-1' style='text-align:center; white-space:nowrap;'>  picsim     </td><td class='td11' id='TBL-2-2-2' style='text-align:center; white-space:nowrap;'>            MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x31-300006.1'>6.1<!-- tex4ht:ref: mplaxd  --></a>)                              </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-3-1' style='text-align:center; white-space:nowrap;'>  simavr     </td><td class='td11' id='TBL-2-3-2' style='text-align:center; white-space:nowrap;'>MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x31-300006.1'>6.1<!-- tex4ht:ref: mplaxd  --></a>) and remote avr-gdb (see section <a href='avrgdbDebugsimavrlabelgdbavr.html#x33-320006.3'>6.3<!-- tex4ht:ref: gdbavr  --></a>)</td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-4-1' style='text-align:center; white-space:nowrap;'>qemu-stm32</td><td class='td11' id='TBL-2-4-2' style='text-align:center; white-space:nowrap;'>                remote arm-gdb (see Chapter <a href='armgdbDebugqemustm32labelgdbarm.html#x34-330006.4'>6.4<!-- tex4ht:ref: gdbarm  --></a>)                                       </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-5-1' style='text-align:center; white-space:nowrap;'>  uCsim     </td><td class='td11' id='TBL-2-5-2' style='text-align:center; white-space:nowrap;'>            uCsim remote console (telnet) (see section <a href='uCsimDebuglabelucsim.html#x35-340006.5'>6.5<!-- tex4ht:ref: ucsim  --></a>)                            </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-6-1' style='text-align:center; white-space:nowrap;'>  gpsim     </td><td class='td11' id='TBL-2-6-2' style='text-align:center; white-space:nowrap;'>                         none yet                                                           </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr></table></div></div>
+   <div class='sectionTOCS'>
+    <span class='sectionToc'>3.1 <a href='Breadboard.html#x10-90003.1'>Breadboard</a></span>
+<br />    <span class='sectionToc'>3.2 <a href='McLab1.html#x11-100003.2'>McLab1</a></span>
+<br />    <span class='sectionToc'>3.3 <a href='K16F.html#x12-110003.3'>K16F</a></span>
+<br />    <span class='sectionToc'>3.4 <a href='McLab2.html#x13-120003.4'>McLab2</a></span>
+<br />    <span class='sectionToc'>3.5 <a href='PICGenios.html#x14-130003.5'>PICGenios</a></span>
+<br />    <span class='sectionToc'>3.6 <a href='PQDB.html#x15-140003.6'>PQDB</a></span>
+<br />    <span class='sectionToc'>3.7 <a href='ArduinoUno.html#x16-150003.7'>Arduino Uno</a></span>
+<br />    <span class='sectionToc'>3.8 <a href='Franzininho.html#x17-160003.8'>Franzininho</a></span>
+   </div>
+
+
+
+
+
+
+
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='SimulatorInterface.html'>prev</a>] [<a href='picsimlab.html#Boards.html'>up</a>] [<a href='ExperimentalBoards.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p>  
+ 
+</body> 
+</html>

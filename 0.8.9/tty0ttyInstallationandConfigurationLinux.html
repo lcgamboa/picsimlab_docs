@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html xml:lang='en' lang='en'> 
+<head><title>tty0tty Installation and Configuration (Linux)</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='picsimlab.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='picsimlab.tex' /> 
+<link href='style.css' type='text/css' rel='stylesheet' /> 
+</head><body>
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='SimulatorInterface.html#x4-30002'>Simulator Interface</a></span><span class='chapterToc'>3 <a href='Boards.html#x9-80003'>Boards</a></span><span class='chapterToc'>4 <a href='ExperimentalBoards.html#x18-170004'>Experimental Boards</a></span><span class='chapterToc'>5 <a href='SerialCommunicationlabelseriali.html#x27-260005'>Serial Communication </a></span><span class='sectionToc'>5.1 <a href='Com0comInstallationandConfigurationWindows.html#x28-270005.1'>Com0com Installation and Configuration(Windows)</a></span><span class='sectionToc'>5.2 <a href='#x29-280005.2'>tty0tty Installation and Configuration (Linux)</a></span><span class='chapterToc'>6 <a href='ProgrammerandDebuggerSupport.html#x30-290006'>Programmer and Debugger Support </a></span><span class='chapterToc'>7 <a href='Tools.html#x36-350007'>Tools</a></span><span class='chapterToc'>8 <a href='Oscilloscope.html#x46-510008'>Oscilloscope</a></span><span class='chapterToc'>9 <a href='SpareParts.html#x47-520009'>Spare Parts</a></span><span class='chapterToc'>10 <a href='HowTos.html#x94-9900010'>How To’s</a></span><span class='chapterToc'>11 <a href='License.html#x95-10000011'>License</a></span></nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Com0comInstallationandConfigurationWindows.html'>prev</a>] [<a href='SerialCommunicationlabelseriali.html#tty0ttyInstallationandConfigurationLinux.html'>up</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>5.2    </span> <a id='x29-280005.2'></a>tty0tty Installation and Configuration (Linux)</h3>
+<!-- l. 52 --><p class='noindent'>Download the  href https://github.com/lcgamboa/tty0tty/archive/master.zip tty0tyy. Unzip
+the downloaded folder.
+</p><!-- l. 55 --><p class='indent'>   Open a terminal and enter in the tty0tty/module/ folder and enter the following
+commands:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-12'>
+ sudo apt-get update
+ sudo apt-get -y upgrade
+ sudo apt-get -y install gcc make linux-headers-‘uname -r‘
+ make
+ sudo make install
+</pre>
+<!-- l. 62 --><p class='nopar'>
+</p><!-- l. 64 --><p class='indent'>   The user must be in the <span class='textbf'>dialout</span> group to access the ports. To add your user to <span class='textbf'>dialout</span>
+group use the command:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-13'>
+sudo usermod -a -G dialout your_user_name
+</pre>
+<!-- l. 68 --><p class='nopar'> after this is necessary logout and login to group permissions take effect.
+</p><!-- l. 72 --><p class='indent'>   Once installed, the module creates 8 interconnected ports as follows:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-14'>
+  /dev/tnt0  &lt;=&gt;  /dev/tnt1
+  /dev/tnt2  &lt;=&gt;  /dev/tnt3
+  /dev/tnt4  &lt;=&gt;  /dev/tnt5
+  /dev/tnt6  &lt;=&gt;  /dev/tnt7
+</pre>
+<!-- l. 78 --><p class='nopar'>
+</p><!-- l. 80 --><p class='indent'>   the connection between each pair is of the form:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-15'>
+  TX   -&gt;  RX
+  RX   &lt;-  TX 
+  RTS  -&gt;  CTS
+  CTS  &lt;-  RTS
+  DSR  &lt;-  DTR
+  CD   &lt;-  DTR
+  DTR  -&gt;  DSR
+  DTR  -&gt;  CD
+</pre>
+<!-- l. 90 --><p class='nopar'>
+</p><!-- l. 92 --><p class='indent'>   Any pair of ports form a NULL-MODEM connection, where one port must be used by
+the PICSimLab and another by the application with serial communication.
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='Com0comInstallationandConfigurationWindows.html'>prev</a>] [<a href='SerialCommunicationlabelseriali.html#tty0ttyInstallationandConfigurationLinux.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p>  
+ 
+</body> 
+</html>
