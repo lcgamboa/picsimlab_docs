@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Final Result</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link type='text/css' rel='stylesheet' href='picsimlab.css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link type='text/css' rel='stylesheet' href='style.css' /> 
+</head><body>
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x101-10600011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x102-10700012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x121-12600013'>Creating New Boards</a></span><span class='sectionToc'>13.1 <a href='HowtoCompilePICsimLab.html#x122-12700013.1'>How to Compile PICsimLab</a></span><span class='sectionToc'>13.2 <a href='CreatingaNewBoard.html#x125-13000013.2'>Creating a New Board</a></span><span class='subsectionToc'>13.2.1 <a href='BoardHardwareandSchematic.html#x126-13100013.2.1'>Board Hardware and Schematic</a></span><span class='subsectionToc'>13.2.2 <a href='BoardPicture.html#x127-13200013.2.2'>Board Picture</a></span><span class='subsectionToc'>13.2.3 <a href='Picturemaps.html#x128-13300013.2.3'>Picture maps</a></span><span class='subsectionToc'>13.2.4 <a href='Boardcode.html#x129-13600013.2.4'>Board code</a></span><span class='subsectionToc'>13.2.5 <a href='IntegrationwithPICsimLab.html#x130-14000013.2.5'>Integration with PICsimLab</a></span><span class='subsectionToc'>13.2.6 <a href='#x131-14100013.2.6'>Final Result</a></span><span class='chapterToc'>14 <a href='License.html#x132-14200014'>License</a></span></nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='IntegrationwithPICsimLab.html'>prev</a>] [<a href='CreatingaNewBoard.html#FinalResult.html'>up</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>13.2.6    </span> <a id='x131-14100013.2.6'></a>Final Result</h4>
+<!-- l. 291 --><p class='noindent'>The PICSimLab board created for this tutorial are shown in the figure below. </p><figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!-- l. 294 --><p class='noindent'><img src='img/hb/final.png' alt='PIC' style='width:90%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!-- l. 297 --><p class='indent'>   The sample program below can be used to test new board, this code is write for XC8
+compiler:
+</p>
+   <pre id='fancyvrb17' class='fancyvrb'><a id='x131-141002r1'></a><span class='ptmr8t-x-x-50'>1</span><span class='textcolor-bc7a00'><span class='textit'>#include</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-3f7f7f'><span class='textit'>&lt;xc.h&gt;;</span></span> 
+<a id='x131-141004r2'></a><span class='ptmr8t-x-x-50'>2</span> 
+<a id='x131-141006r3'></a><span class='ptmr8t-x-x-50'>3</span><span class='textcolor-bc7a00'><span class='textit'>#include</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-3f7f7f'><span class='textit'>"config_4550.h"</span></span> 
+<a id='x131-141008r4'></a><span class='ptmr8t-x-x-50'>4</span><span class='textcolor-bc7a00'><span class='textit'>#include</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-3f7f7f'><span class='textit'>"adc.h"</span></span> 
+<a id='x131-141010r5'></a><span class='ptmr8t-x-x-50'>5</span><span class='textcolor-bc7a00'><span class='textit'>#include</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-3f7f7f'><span class='textit'>"serial.h"</span></span> 
+<a id='x131-141012r6'></a><span class='ptmr8t-x-x-50'>6</span><span class='textcolor-bc7a00'><span class='textit'>#include</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-3f7f7f'><span class='textit'>"itoa.h"</span></span> 
+<a id='x131-141014r7'></a><span class='ptmr8t-x-x-50'>7</span> 
+<a id='x131-141016r8'></a><span class='ptmr8t-x-x-50'>8</span><span class='textcolor-af003f'><span class='textbf'>void</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-0000ff'><span class='pcrr8t-x-x-80'>main</span></span><span class='pcrr8t-x-x-80'>()</span> 
+<a id='x131-141018r9'></a><span class='ptmr8t-x-x-50'>9</span><span class='pcrr8t-x-x-80'>{</span> 
+<a id='x131-141020r10'></a><span class='ptmr8t-x-x-50'>10</span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-af003f'><span class='textbf'>unsigned</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-af003f'><span class='textbf'>int</span></span><span class='pcrr8t-x-x-80'>  val;</span> 
+<a id='x131-141022r11'></a><span class='ptmr8t-x-x-50'>11</span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-af003f'><span class='textbf'>char</span></span><span class='pcrr8t-x-x-80'> buffer[</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>10</span></span><span class='pcrr8t-x-x-80'>];</span> 
+<a id='x131-141024r12'></a><span class='ptmr8t-x-x-50'>12</span> 
+<a id='x131-141026r13'></a><span class='ptmr8t-x-x-50'>13</span><span class='pcrr8t-x-x-80'>  ADCON1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0x02</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141028r14'></a><span class='ptmr8t-x-x-50'>14</span><span class='pcrr8t-x-x-80'>  TRISA</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0xFF</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141030r15'></a><span class='ptmr8t-x-x-50'>15</span><span class='pcrr8t-x-x-80'>  TRISB</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0xFC</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141032r16'></a><span class='ptmr8t-x-x-50'>16</span><span class='pcrr8t-x-x-80'>  TRISC</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0xBF</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141034r17'></a><span class='ptmr8t-x-x-50'>17</span><span class='pcrr8t-x-x-80'>  TRISD</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0xFF</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141036r18'></a><span class='ptmr8t-x-x-50'>18</span><span class='pcrr8t-x-x-80'>  TRISE</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0x0F</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141038r19'></a><span class='ptmr8t-x-x-50'>19</span> 
+<a id='x131-141040r20'></a><span class='ptmr8t-x-x-50'>20</span><span class='pcrr8t-x-x-80'>  adc_init();</span> 
+<a id='x131-141042r21'></a><span class='ptmr8t-x-x-50'>21</span><span class='pcrr8t-x-x-80'>  serial_init();</span> 
+<a id='x131-141044r22'></a><span class='ptmr8t-x-x-50'>22</span> 
+<a id='x131-141046r23'></a><span class='ptmr8t-x-x-50'>23</span> 
+<a id='x131-141048r24'></a><span class='ptmr8t-x-x-50'>24</span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-007f00'><span class='textbf'>while</span></span><span class='pcrr8t-x-x-80'>(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>)</span> 
+<a id='x131-141050r25'></a><span class='ptmr8t-x-x-50'>25</span><span class='pcrr8t-x-x-80'>  {</span> 
+<a id='x131-141052r26'></a><span class='ptmr8t-x-x-50'>26</span><span class='pcrr8t-x-x-80'>      val</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>adc_amostra(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x131-141054r27'></a><span class='ptmr8t-x-x-50'>27</span> 
+<a id='x131-141056r28'></a><span class='ptmr8t-x-x-50'>28</span><span class='pcrr8t-x-x-80'>      </span><span class='textcolor-007f00'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(PORTDbits.RD1)</span> 
+<a id='x131-141058r29'></a><span class='ptmr8t-x-x-50'>29</span><span class='pcrr8t-x-x-80'>      {</span> 
+<a id='x131-141060r30'></a><span class='ptmr8t-x-x-50'>30</span><span class='pcrr8t-x-x-80'>        </span><span class='textcolor-007f00'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(val </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&gt;</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>340</span></span><span class='pcrr8t-x-x-80'>)</span> 
+<a id='x131-141062r31'></a><span class='ptmr8t-x-x-50'>31</span><span class='pcrr8t-x-x-80'>           PORTBbits.RB0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=1</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141064r32'></a><span class='ptmr8t-x-x-50'>32</span><span class='pcrr8t-x-x-80'>        </span><span class='textcolor-007f00'><span class='textbf'>else</span></span> 
+<a id='x131-141066r33'></a><span class='ptmr8t-x-x-50'>33</span><span class='pcrr8t-x-x-80'>          PORTBbits.RB0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141068r34'></a><span class='ptmr8t-x-x-50'>34</span> 
+<a id='x131-141070r35'></a><span class='ptmr8t-x-x-50'>35</span><span class='pcrr8t-x-x-80'>        </span><span class='textcolor-007f00'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(val </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&gt;</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>680</span></span><span class='pcrr8t-x-x-80'>)</span> 
+<a id='x131-141072r36'></a><span class='ptmr8t-x-x-50'>36</span><span class='pcrr8t-x-x-80'>          PORTBbits.RB1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=1</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141074r37'></a><span class='ptmr8t-x-x-50'>37</span><span class='pcrr8t-x-x-80'>        </span><span class='textcolor-007f00'><span class='textbf'>else</span></span> 
+<a id='x131-141076r38'></a><span class='ptmr8t-x-x-50'>38</span><span class='pcrr8t-x-x-80'>          PORTBbits.RB1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141078r39'></a><span class='ptmr8t-x-x-50'>39</span><span class='pcrr8t-x-x-80'>      }</span> 
+<a id='x131-141080r40'></a><span class='ptmr8t-x-x-50'>40</span><span class='pcrr8t-x-x-80'>      </span><span class='textcolor-007f00'><span class='textbf'>else</span></span> 
+<a id='x131-141082r41'></a><span class='ptmr8t-x-x-50'>41</span><span class='pcrr8t-x-x-80'>      {</span> 
+<a id='x131-141084r42'></a><span class='ptmr8t-x-x-50'>42</span><span class='pcrr8t-x-x-80'>          </span><span class='textcolor-007f00'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(PORTDbits.RD0)</span> 
+<a id='x131-141086r43'></a><span class='ptmr8t-x-x-50'>43</span><span class='pcrr8t-x-x-80'>          {</span> 
+<a id='x131-141088r44'></a><span class='ptmr8t-x-x-50'>44</span><span class='pcrr8t-x-x-80'>              PORTBbits.RB0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=1</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141090r45'></a><span class='ptmr8t-x-x-50'>45</span><span class='pcrr8t-x-x-80'>              PORTBbits.RB1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141092r46'></a><span class='ptmr8t-x-x-50'>46</span><span class='pcrr8t-x-x-80'>          }</span> 
+<a id='x131-141094r47'></a><span class='ptmr8t-x-x-50'>47</span><span class='pcrr8t-x-x-80'>          </span><span class='textcolor-007f00'><span class='textbf'>else</span></span> 
+<a id='x131-141096r48'></a><span class='ptmr8t-x-x-50'>48</span><span class='pcrr8t-x-x-80'>          {</span> 
+<a id='x131-141098r49'></a><span class='ptmr8t-x-x-50'>49</span><span class='pcrr8t-x-x-80'>              PORTBbits.RB0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=0</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141100r50'></a><span class='ptmr8t-x-x-50'>50</span><span class='pcrr8t-x-x-80'>              PORTBbits.RB1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=1</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x131-141102r51'></a><span class='ptmr8t-x-x-50'>51</span><span class='pcrr8t-x-x-80'>          }</span> 
+<a id='x131-141104r52'></a><span class='ptmr8t-x-x-50'>52</span> 
+<a id='x131-141106r53'></a><span class='ptmr8t-x-x-50'>53</span><span class='pcrr8t-x-x-80'>      }</span> 
+<a id='x131-141108r54'></a><span class='ptmr8t-x-x-50'>54</span> 
+<a id='x131-141110r55'></a><span class='ptmr8t-x-x-50'>55</span><span class='pcrr8t-x-x-80'>      serial_tx_str(itoa(val,buffer));</span> 
+<a id='x131-141112r56'></a><span class='ptmr8t-x-x-50'>56</span><span class='pcrr8t-x-x-80'>      serial_tx_str(</span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"</span></span><span class='textcolor-ba6521'><span class='textbf'>' r' n</span></span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x131-141114r57'></a><span class='ptmr8t-x-x-50'>57</span><span class='pcrr8t-x-x-80'>  }</span> 
+<a id='x131-141116r58'></a><span class='ptmr8t-x-x-50'>58</span> 
+<a id='x131-141118r59'></a><span class='ptmr8t-x-x-50'>59</span><span class='pcrr8t-x-x-80'>}</span></pre>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='IntegrationwithPICsimLab.html'>prev</a>] [<a href='CreatingaNewBoard.html#FinalResult.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p>  
+ 
+</body> 
+</html>

@@ -1,17 +1,17 @@
 <!DOCTYPE html> 
-<html xml:lang='en' lang='en'> 
+<html lang='en' xml:lang='en'> 
 <head><title>Remote Control Interface</title> 
 <meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' type='text/css' rel='stylesheet' /> 
-<meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' type='text/css' rel='stylesheet' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link type='text/css' rel='stylesheet' href='picsimlab.css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link type='text/css' rel='stylesheet' href='style.css' /> 
 </head><body>
-   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='SimulatorInterface.html#x4-30002'>Simulator Interface</a></span><span class='sectionToc'>2.1 <a href='MainWindow.html#x5-40002.1'>Main Window</a></span><span class='sectionToc'>2.2 <a href='InteractionwiththeBoard.html#x6-50002.2'>Interaction with the Board</a></span><span class='sectionToc'>2.3 <a href='CommandLine.html#x7-60002.3'>Command Line</a></span><span class='sectionToc'>2.4 <a href='#x8-70002.4'>Remote Control Interface</a></span><span class='chapterToc'>3 <a href='Boards.html#x9-80003'>Boards</a></span><span class='chapterToc'>4 <a href='ExperimentalBoards.html#x18-170004'>Experimental Boards</a></span><span class='chapterToc'>5 <a href='SerialCommunicationlabelseriali.html#x27-260005'>Serial Communication </a></span><span class='chapterToc'>6 <a href='ProgrammerandDebuggerSupport.html#x30-290006'>Programmer and Debugger Support </a></span><span class='chapterToc'>7 <a href='Tools.html#x36-350007'>Tools</a></span><span class='chapterToc'>8 <a href='Oscilloscope.html#x46-510008'>Oscilloscope</a></span><span class='chapterToc'>9 <a href='SpareParts.html#x47-520009'>Spare Parts</a></span><span class='chapterToc'>10 <a href='HowTos.html#x94-9900010'>How To’s</a></span><span class='chapterToc'>11 <a href='License.html#x95-10000011'>License</a></span></nav> 
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='sectionToc'>3.1 <a href='MainWindow.html#x12-110003.1'>Main Window</a></span><span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#x13-120003.2'>Interaction with the Board</a></span><span class='sectionToc'>3.3 <a href='CommandLine.html#x14-130003.3'>Command Line</a></span><span class='sectionToc'>3.4 <a href='#x15-140003.4'>Remote Control Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x101-10600011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x102-10700012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x121-12600013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x132-14200014'>License</a></span></nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] </nav> 
-<h3 class='sectionHead'><span class='titlemark'>2.4    </span> <a id='x8-70002.4'></a>Remote Control Interface</h3>
+<h3 class='sectionHead'><span class='titlemark'>3.4    </span> <a id='x15-140003.4'></a>Remote Control Interface</h3>
 <!-- l. 112 --><p class='noindent'>The PICSimLab remote control interface supports TCP connections using telnet or nc
 (netcat).
 </p><!-- l. 114 --><p class='indent'>   The default port is 5000 and can be changed in configuration windows.
@@ -21,7 +21,7 @@ nc:
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-3'>
+   <pre id='verbatim-3' class='verbatim'>
  rlwrap nc 127.0.0.1 5000
 </pre>
 <!-- l. 119 --><p class='nopar'>
@@ -30,7 +30,7 @@ nc:
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-4'>
+   <pre id='verbatim-4' class='verbatim'>
  help
 List of supported commands:
   dumpe [a] [s]- dump internal EEPROM memory
@@ -55,7 +55,7 @@ Ok
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-5'>
+   <pre id='verbatim-5' class='verbatim'>
 info
 Board:     Arduino Uno
 Processor: atmega328p
@@ -89,7 +89,7 @@ Ok
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-6'>
+   <pre id='verbatim-6' class='verbatim'>
 pins
   pin[01] ( PC6/RST) &lt; 0                 pin[15] (  PB1/~9) &gt; 0
   pin[02] (   PD0/0) &lt; 1                 pin[16] ( PB2/~10) &gt; 0
@@ -113,7 +113,7 @@ Ok
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-7'>
+   <pre id='verbatim-7' class='verbatim'>
 pinsl
 28 pins [atmega328p]:
   pin[01] D I 0 000 0.000 "PC6/RST "
@@ -152,7 +152,7 @@ Ok
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-8'>
+   <pre id='verbatim-8' class='verbatim'>
 get board.out[00]
 
 get part[02].in[01]
@@ -163,7 +163,7 @@ get part[02].in[01]
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-9'>
+   <pre id='verbatim-9' class='verbatim'>
 #digital state
 get pin[19]
 pin[19]= 0
@@ -190,7 +190,7 @@ Ok
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-10'>
+   <pre id='verbatim-10' class='verbatim'>
 set part[02].in[01]  0
 set part[02].in[01]  1
 </pre>
@@ -200,7 +200,7 @@ set part[02].in[01]  1
 
                                                                   
 </p>
-   <pre class='verbatim' id='verbatim-11'>
+   <pre id='verbatim-11' class='verbatim'>
 #digital
 set pin[10]  2
 

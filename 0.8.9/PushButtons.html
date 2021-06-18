@@ -1,17 +1,17 @@
 <!DOCTYPE html> 
-<html xml:lang='en' lang='en'> 
+<html lang='en' xml:lang='en'> 
 <head><title>Push Buttons</title> 
 <meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' type='text/css' rel='stylesheet' /> 
-<meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' type='text/css' rel='stylesheet' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link type='text/css' rel='stylesheet' href='picsimlab.css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link type='text/css' rel='stylesheet' href='style.css' /> 
 </head><body>
-   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='SimulatorInterface.html#x4-30002'>Simulator Interface</a></span><span class='chapterToc'>3 <a href='Boards.html#x9-80003'>Boards</a></span><span class='chapterToc'>4 <a href='ExperimentalBoards.html#x18-170004'>Experimental Boards</a></span><span class='chapterToc'>5 <a href='SerialCommunicationlabelseriali.html#x27-260005'>Serial Communication </a></span><span class='chapterToc'>6 <a href='ProgrammerandDebuggerSupport.html#x30-290006'>Programmer and Debugger Support </a></span><span class='chapterToc'>7 <a href='Tools.html#x36-350007'>Tools</a></span><span class='chapterToc'>8 <a href='Oscilloscope.html#x46-510008'>Oscilloscope</a></span><span class='chapterToc'>9 <a href='SpareParts.html#x47-520009'>Spare Parts</a></span><span class='sectionToc'>9.1 <a href='Inputs.html#x48-530009.1'>Inputs</a></span><span class='subsectionToc'>9.1.1 <a href='Encoder.html#x49-540009.1.1'>Encoder</a></span><span class='subsectionToc'>9.1.2 <a href='Gamepad.html#x50-550009.1.2'>Gamepad</a></span><span class='subsectionToc'>9.1.3 <a href='GamepadAnalogic.html#x51-560009.1.3'>Gamepad Analogic</a></span><span class='subsectionToc'>9.1.4 <a href='Keypad.html#x52-570009.1.4'>Keypad</a></span><span class='subsectionToc'>9.1.5 <a href='MPU6050.html#x53-580009.1.5'>MPU6050</a></span><span class='subsectionToc'>9.1.6 <a href='Potentiometers.html#x54-590009.1.6'>Potentiometers</a></span><span class='subsectionToc'>9.1.7 <a href='PotentiometersRotary.html#x55-600009.1.7'>Potentiometers (Rotary)</a></span><span class='subsectionToc'>9.1.8 <a href='#x56-610009.1.8'>Push Buttons</a></span><span class='subsectionToc'>9.1.9 <a href='PushButtonsAnalogic.html#x57-620009.1.9'>Push Buttons (Analogic)</a></span><span class='subsectionToc'>9.1.10 <a href='Switchs.html#x58-630009.1.10'>Switchs</a></span><span class='subsectionToc'>9.1.11 <a href='UltrasonicHCSR04.html#x59-640009.1.11'>Ultrasonic HC-SR04</a></span><span class='sectionToc'>9.2 <a href='Outputs.html#x60-650009.2'>Outputs</a></span><span class='sectionToc'>9.3 <a href='Others.html#x75-800009.3'>Others</a></span><span class='sectionToc'>9.4 <a href='Virtual.html#x87-920009.4'>Virtual</a></span><span class='chapterToc'>10 <a href='HowTos.html#x94-9900010'>How To’s</a></span><span class='chapterToc'>11 <a href='License.html#x95-10000011'>License</a></span></nav> 
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='sectionToc'>10.1 <a href='Inputs.html#x55-6000010.1'>Inputs</a></span><span class='subsectionToc'>10.1.1 <a href='Encoder.html#x56-6100010.1.1'>Encoder</a></span><span class='subsectionToc'>10.1.2 <a href='Gamepad.html#x57-6200010.1.2'>Gamepad</a></span><span class='subsectionToc'>10.1.3 <a href='GamepadAnalogic.html#x58-6300010.1.3'>Gamepad Analogic</a></span><span class='subsectionToc'>10.1.4 <a href='Keypad.html#x59-6400010.1.4'>Keypad</a></span><span class='subsectionToc'>10.1.5 <a href='MPU6050.html#x60-6500010.1.5'>MPU6050</a></span><span class='subsectionToc'>10.1.6 <a href='Potentiometers.html#x61-6600010.1.6'>Potentiometers</a></span><span class='subsectionToc'>10.1.7 <a href='PotentiometersRotary.html#x62-6700010.1.7'>Potentiometers (Rotary)</a></span><span class='subsectionToc'>10.1.8 <a href='#x63-6800010.1.8'>Push Buttons</a></span><span class='subsectionToc'>10.1.9 <a href='PushButtonsAnalogic.html#x64-6900010.1.9'>Push Buttons (Analogic)</a></span><span class='subsectionToc'>10.1.10 <a href='Switchs.html#x65-7000010.1.10'>Switchs</a></span><span class='subsectionToc'>10.1.11 <a href='UltrasonicHCSR04.html#x66-7100010.1.11'>Ultrasonic HC-SR04</a></span><span class='sectionToc'>10.2 <a href='Outputs.html#x67-7200010.2'>Outputs</a></span><span class='sectionToc'>10.3 <a href='Others.html#x82-8700010.3'>Others</a></span><span class='sectionToc'>10.4 <a href='Virtual.html#x94-9900010.4'>Virtual</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x101-10600011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x102-10700012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x121-12600013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x132-14200014'>License</a></span></nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='PotentiometersRotary.html'>prev</a>] [<a href='Inputs.html#PushButtons.html'>up</a>] [<a href='PushButtonsAnalogic.html'>next</a>] </nav> 
-<h4 class='subsectionHead'><span class='titlemark'>9.1.8    </span> <a id='x56-610009.1.8'></a>Push Buttons</h4>
+<h4 class='subsectionHead'><span class='titlemark'>10.1.8    </span> <a id='x63-6800010.1.8'></a>Push Buttons</h4>
 <!-- l. 240 --><p class='noindent'>This part consists of 8 push buttons. The output active state can be configurable.
 </p><figure class='figure'> 
 
@@ -21,7 +21,7 @@
                                                                   
 
                                                                   
-<!-- l. 243 --><p class='noindent'><img alt='PIC' src='img/part_buttons.png' style='width:99%' />
+<!-- l. 243 --><p class='noindent'><img src='img/part_buttons.png' alt='PIC' style='width:99%' />
                                                                   
 
                                                                   
@@ -35,7 +35,7 @@
                                                                   
 
                                                                   
-<!-- l. 248 --><p class='noindent'><img alt='PIC' src='img/part_buttons_.png' style='width:99%' />
+<!-- l. 248 --><p class='noindent'><img src='img/part_buttons_.png' alt='PIC' style='width:99%' />
                                                                   
 
                                                                   

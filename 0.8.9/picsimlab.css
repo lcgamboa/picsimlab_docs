@@ -19,8 +19,23 @@
 .ptmr8t-x-x-172{font-size:172%;}
 .ptmr8t-x-x-120{font-size:120%;}
 .pcrr8t-{ font-family: 'Nimbus Mono L', serif;}
+.pcrr8t-{ font-family: 'Nimbus Mono L', serif;}
 .ptmb8t-{  font-weight: bold;}
+.pcrr8t-x-x-80{font-size:80%; font-family: 'Nimbus Mono L', serif;}
+.pcrr8t-x-x-80{ font-family: 'Nimbus Mono L', serif;}
+.tctt-1000{font-family: monospace,monospace;}
 .ptmb8c-{ font-weight: bold;}
+.pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', serif;}
+.pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', serif;}
+.pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', serif;}
+.pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', serif;}
+.ptmri8t-{font-style: italic;}
+.ptmr8t-x-x-50{font-size:50%;}
+.pcrb8t-x-x-80{font-size:80%; font-weight: bold; font-family: 'Nimbus Mono L', serif;}
+.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', serif;}
+.pcrro8t-x-x-80{font-size:80%; font-style: oblique; font-family: 'Nimbus Mono L', serif;}
+.pcrro8t-x-x-80{ font-style: oblique; font-family: 'Nimbus Mono L', serif;}
+.pcrr8c-x-x-80{font-size:80%; font-family: 'Nimbus Mono L', serif;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}
@@ -149,6 +164,20 @@ figure.float img, figure.figure img {display: block; margin-left: auto; margin-r
 figure.figure > p {text-align:center;}
 figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+pre.fancyvrb {white-space: pre-wrap; margin:0em;font-family:monospace,monospace;}
+.framedenv{border: 1px solid black;}
 .rotatebox{display: inline-block;}
 /* end css.sty */
 
+.textcolor-bc7a00{color:rgb(188,122,0);}
+.textcolor-656565{color:rgb(101,101,101);}
+.textcolor-007f00{color:rgb(0,127,0);}
+.textcolor-ba2121{color:rgb(186,33,33);}
+.textcolor-7c8e28{color:rgb(124,142,40);}
+.textcolor-19167c{color:rgb(25,22,124);}
+.textcolor-ba6521{color:rgb(186,101,33);}
+.textcolor-#00FF00{color:#00FF00;}
+.textcolor-af003f{color:rgb(175,0,63);}
+.textcolor-0000ff{color:rgb(0,0,255);}
+.textcolor-a0a000{color:rgb(160,160,0);}
+.textcolor-3f7f7f{color:rgb(63,127,127);}
