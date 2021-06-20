@@ -1,7 +1,7 @@
 var structlcd__ili9341__t =
 [
     [ "am", "structlcd__ili9341__t.html#aaa61ebda33c44a798544596bc5bd4af8", null ],
-    [ "bc", "structlcd__ili9341__t.html#a1f40546c08f3852cae7e0b7e6cb9bb9e", null ],
+    [ "bb_spi", "structlcd__ili9341__t.html#a8d0106151272008d02a05c79adb1abe1", null ],
     [ "cmd_argc", "structlcd__ili9341__t.html#a5655a5e8a1248ab02710e34105efaa68", null ],
     [ "cmd_val", "structlcd__ili9341__t.html#ade2dd9c09a66e10f19b6450d72abc202", null ],
     [ "col_end", "structlcd__ili9341__t.html#af79640bb3c1323ccd4ddd6a8c5257a3c", null ],
@@ -17,7 +17,6 @@ var structlcd__ili9341__t =
     [ "out", "structlcd__ili9341__t.html#a92ee5c10f33095dccc01b4b3e54cd240", null ],
     [ "pag_end", "structlcd__ili9341__t.html#a864c6de4ad944b828798042b4ef6b5cf", null ],
     [ "pag_start", "structlcd__ili9341__t.html#aedd5903635d18db25a4d4d2dd9bbf7e2", null ],
-    [ "pclk", "structlcd__ili9341__t.html#a0e2a85d3acd031e48660214190d3a9c9", null ],
     [ "pf", "structlcd__ili9341__t.html#af98160ef06f97a53b0da9f2abd98e1aa", null ],
     [ "prd", "structlcd__ili9341__t.html#aad9acb466c834ffe9fd379d1c996c3f4", null ],
     [ "pwr", "structlcd__ili9341__t.html#aa1ebafc14cba65d9d358af741c9de3a5", null ],

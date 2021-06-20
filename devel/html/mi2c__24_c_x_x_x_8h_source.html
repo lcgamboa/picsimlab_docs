@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('mi2c__24_c_x_x_x_8h_source.html',''); 
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   ########################################################################</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   Copyright (c) : 2010-2015  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   Copyright (c) : 2010-2021  Luis Claudio Gambôa Lopes</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -113,39 +113,29 @@ $(document).ready(function(){initNavTree('mi2c__24_c_x_x_x_8h_source.html',''); 
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">   ######################################################################## */</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structmi2c__t.html">   26</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> SIZE;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ADDRB;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include&quot;bitbang_i2c.h&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structmi2c__t.html">   28</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *data;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> addr;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> SIZE;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ADDRB;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> datab;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> datas;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *data;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> addr;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ctrl;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <a class="code" href="structmi2c__t.html">mi2c_t</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sclo;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sdao;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ret;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bit;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> byte;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> maddr;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}<a class="code" href="structmi2c__t.html">mi2c_t</a>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> mi2c_init_null(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span> mi2c_rst(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">void</span> mi2c_init(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem,<span class="keywordtype">int</span> sizekbits);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">void</span> mi2c_end(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keywordtype">void</span> mi2c_set_addr(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mi2c_io(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
-<div class="ttc" id="astructmi2c__t_html"><div class="ttname"><a href="structmi2c__t.html">mi2c_t</a></div><div class="ttdef"><b>Definition:</b> mi2c_24CXXX.h:27</div></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> mi2c_init_null(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> mi2c_rst(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> mi2c_init(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem, <span class="keywordtype">int</span> sizekbits);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> mi2c_end(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> mi2c_set_addr(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mi2c_io(<a class="code" href="structmi2c__t.html">mi2c_t</a> *mem, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
+<div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:36</div></div>
+<div class="ttc" id="astructmi2c__t_html"><div class="ttname"><a href="structmi2c__t.html">mi2c_t</a></div><div class="ttdef"><b>Definition:</b> mi2c_24CXXX.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

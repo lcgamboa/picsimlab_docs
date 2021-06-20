@@ -1,5 +1,7 @@
 var dir_6fac9273c1f4413d2ee63ba6cd0b0eb2 =
 [
+    [ "bitbang_i2c.h", "bitbang__i2c_8h_source.html", null ],
+    [ "bitbang_spi.h", "bitbang__spi_8h_source.html", null ],
     [ "bitbang_uart.h", "bitbang__uart_8h_source.html", null ],
     [ "eth_w5500.h", "eth__w5500_8h_source.html", null ],
     [ "io_74xx595.h", "io__74xx595_8h_source.html", null ],
@@ -17,6 +19,7 @@ var dir_6fac9273c1f4413d2ee63ba6cd0b0eb2 =
     [ "rtc_ds1307.h", "rtc__ds1307_8h_source.html", null ],
     [ "rtc_pfc8563.h", "rtc__pfc8563_8h_source.html", null ],
     [ "sdcard.h", "sdcard_8h_source.html", null ],
+    [ "sen_mpu6050.h", "sen__mpu6050_8h_source.html", null ],
     [ "tsc_xpt2046.h", "tsc__xpt2046_8h_source.html", null ],
     [ "uart.h", "uart_8h_source.html", null ],
     [ "vterm.h", "vterm_8h_source.html", null ]

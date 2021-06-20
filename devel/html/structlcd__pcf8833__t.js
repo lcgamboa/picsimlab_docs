@@ -1,8 +1,7 @@
 var structlcd__pcf8833__t =
 [
-    [ "aclk", "structlcd__pcf8833__t.html#af7d08136da18c203cbd723992faea169", null ],
     [ "b", "structlcd__pcf8833__t.html#a913dcb7d9bccb25de0b357028b34cae9", null ],
-    [ "bc", "structlcd__pcf8833__t.html#abbf67c99840ae31f7decfca87bb85c65", null ],
+    [ "bb_spi", "structlcd__pcf8833__t.html#ad3a614037aed15addc05159dd6b01ac0", null ],
     [ "cmax", "structlcd__pcf8833__t.html#a26085aa300d89e27f8de5a03beb78cb8", null ],
     [ "cmin", "structlcd__pcf8833__t.html#aea684cad8a1f19f46cc28fce8f23f8cc", null ],
     [ "colm", "structlcd__pcf8833__t.html#ab120a14502537f5aeac2d28df28f726f", null ],

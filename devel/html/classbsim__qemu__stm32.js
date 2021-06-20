@@ -5,6 +5,7 @@ var classbsim__qemu__stm32 =
     [ "CpuInitialized", "classbsim__qemu__stm32.html#a9460da18e2369f7884606fbcecadc3f1", null ],
     [ "DebugInit", "classbsim__qemu__stm32.html#ac2b46a4ece7702430fd5cc558541805d", null ],
     [ "DebugLoop", "classbsim__qemu__stm32.html#a4e13ceadf9d64c104cb450ef5fb6fbff", null ],
+    [ "EndServers", "classbsim__qemu__stm32.html#a2511855f70dde7f088c61d8c1df920a0", null ],
     [ "GetDebugName", "classbsim__qemu__stm32.html#a6956385380667f157e1533c5748a5ca1", null ],
     [ "MDumpMemory", "classbsim__qemu__stm32.html#a030b2d30dab3302761296ae41c3b411b", null ],
     [ "MEnd", "classbsim__qemu__stm32.html#a5ed5cbec31a62e582fcfbdc4a5ef819a", null ],

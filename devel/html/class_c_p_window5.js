@@ -121,6 +121,7 @@ var class_c_p_window5 =
     [ "scale", "class_c_p_window5.html#ab41465dc5a3b914980d1dac13798fb51", null ],
     [ "statusbar1", "class_c_p_window5.html#a738301f66e0ed903d587fe23d7a10289", null ],
     [ "timer1", "class_c_p_window5.html#a1e7ff67a8973d5d3451b9faaa15dd455", null ],
+    [ "update_all", "class_c_p_window5.html#ab18e788a883c3c21d540fc5b643fa1ac", null ],
     [ "useAlias", "class_c_p_window5.html#ad5488a02c29675c009d57c2db4d56133", null ],
     [ "wprop", "class_c_p_window5.html#a22ad915452e2c41cb49211983de7ed44", null ]
 ];

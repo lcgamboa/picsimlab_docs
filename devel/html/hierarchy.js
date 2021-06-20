@@ -3,6 +3,8 @@ var hierarchy =
     [ "_info", "struct__info.html", null ],
     [ "avr_gdb_t", "structavr__gdb__t.html", null ],
     [ "avr_gdb_watchpoints_t", "structavr__gdb__watchpoints__t.html", null ],
+    [ "bitbang_i2c_t", "structbitbang__i2c__t.html", null ],
+    [ "bitbang_spi_t", "structbitbang__spi__t.html", null ],
     [ "bitbang_uart_t", "structbitbang__uart__t.html", null ],
     [ "board", "classboard.html", [
       [ "bsim_gpsim", "classbsim__gpsim.html", [
@@ -54,6 +56,7 @@ var hierarchy =
     [ "lcd_t", "structlcd__t.html", null ],
     [ "ldd_max72xx_t", "structldd__max72xx__t.html", null ],
     [ "mi2c_t", "structmi2c__t.html", null ],
+    [ "mpu6050_t", "structmpu6050__t.html", null ],
     [ "output_t", "structoutput__t.html", null ],
     [ "part", "classpart.html", [
       [ "cpart_7s_display", "classcpart__7s__display.html", null ],
@@ -70,6 +73,7 @@ var hierarchy =
       [ "cpart_LCD_pcf8833", "classcpart___l_c_d__pcf8833.html", null ],
       [ "cpart_LCD_ssd1306", "classcpart___l_c_d__ssd1306.html", null ],
       [ "cpart_MI2C_24CXXX", "classcpart___m_i2_c__24_c_x_x_x.html", null ],
+      [ "cpart_MPU6050", "classcpart___m_p_u6050.html", null ],
       [ "cpart_RTC_ds1307", "classcpart___r_t_c__ds1307.html", null ],
       [ "cpart_RTC_pfc8563", "classcpart___r_t_c__pfc8563.html", null ],
       [ "cpart_SDCard", "classcpart___s_d_card.html", null ],
@@ -88,6 +92,7 @@ var hierarchy =
       [ "cpart_keypad", "classcpart__keypad.html", null ],
       [ "cpart_led_matrix", "classcpart__led__matrix.html", null ],
       [ "cpart_leds", "classcpart__leds.html", null ],
+      [ "cpart_lm35", "classcpart__lm35.html", null ],
       [ "cpart_pbuttons", "classcpart__pbuttons.html", null ],
       [ "cpart_pbuttons_an", "classcpart__pbuttons__an.html", null ],
       [ "cpart_pot", "classcpart__pot.html", null ],
@@ -100,8 +105,8 @@ var hierarchy =
       [ "cpart_vterm", "classcpart__vterm.html", null ]
     ] ],
     [ "part_desc", "structpart__desc.html", null ],
-    [ "rtc2_t", "structrtc2__t.html", null ],
-    [ "rtc_t", "structrtc__t.html", null ],
+    [ "rtc_ds1307_t", "structrtc__ds1307__t.html", null ],
+    [ "rtc_pfc8563_t", "structrtc__pfc8563__t.html", null ],
     [ "sdcard_t", "structsdcard__t.html", null ],
     [ "tsc_XPT2046_t", "structtsc___x_p_t2046__t.html", null ],
     [ "uart_t", "structuart__t.html", null ],

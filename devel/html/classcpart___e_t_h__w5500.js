@@ -8,12 +8,7 @@ var classcpart___e_t_h__w5500 =
     [ "get_in_id", "classcpart___e_t_h__w5500.html#a26de1e85832070ce3e00e84fc51db0fc", null ],
     [ "get_out_id", "classcpart___e_t_h__w5500.html#a73406d5e8b84f38c5c8ddffd46a727d9", null ],
     [ "GetAboutInfo", "classcpart___e_t_h__w5500.html#ac8345d60d9f593f3b26860be5d5e8adc", null ],
-    [ "GetHelpURL", "classcpart___e_t_h__w5500.html#a49f24e0912a50f2178033e6e399df42c", null ],
-    [ "GetInputMapFile", "classcpart___e_t_h__w5500.html#ad85b8955a1dc176bbb1b64117d487ccb", null ],
     [ "GetName", "classcpart___e_t_h__w5500.html#ae1b93547d083298d12886cbdb891511a", null ],
-    [ "GetOutputMapFile", "classcpart___e_t_h__w5500.html#a4b8c1881663a23dd697b945f071a71f9", null ],
-    [ "GetPictureFileName", "classcpart___e_t_h__w5500.html#a6d7163137ab0d8a85b54a55507d53013", null ],
-    [ "GetPropertiesWindowFile", "classcpart___e_t_h__w5500.html#a4828cb1a057f51defb28d220deb62c12", null ],
     [ "PostProcess", "classcpart___e_t_h__w5500.html#a08e072d2665e6f9648a63365b48d7f6a", null ],
     [ "PreProcess", "classcpart___e_t_h__w5500.html#a902413ca9ce698897f2fd9e64ab9921a", null ],
     [ "Process", "classcpart___e_t_h__w5500.html#a64623939dfafd4d99e0dd5452bde3220", null ],
@@ -27,5 +22,6 @@ var classcpart___e_t_h__w5500 =
     [ "font", "classcpart___e_t_h__w5500.html#a648d59671536daeded963d6f6805dbf9", null ],
     [ "input_pins", "classcpart___e_t_h__w5500.html#a3d4a02341fb9b5b03b01bdece679e2c8", null ],
     [ "link", "classcpart___e_t_h__w5500.html#ac4d43bf4dcc8df4744f2d9e6319834d7", null ],
-    [ "output_pins", "classcpart___e_t_h__w5500.html#aafcc7ccdf71b508dd6d56ca14c4735df", null ]
+    [ "output_pins", "classcpart___e_t_h__w5500.html#aafcc7ccdf71b508dd6d56ca14c4735df", null ],
+    [ "sts", "classcpart___e_t_h__w5500.html#a1ad393c480947b7d076a459f8a39d974", null ]
 ];

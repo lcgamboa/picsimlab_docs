@@ -11,9 +11,7 @@ var classcboard___k16_f =
     [ "get_in_id", "classcboard___k16_f.html#a85b1b7a0dffa8c189914d38b79e59e0e", null ],
     [ "get_out_id", "classcboard___k16_f.html#aa4ddc1c9d8df1139291998136040892e", null ],
     [ "GetAboutInfo", "classcboard___k16_f.html#a774fd5b3a3d4341d458dd75dc8392bc3", null ],
-    [ "GetInputMapFile", "classcboard___k16_f.html#a782e2db23e131a9f5f2481c96e8cba14", null ],
-    [ "GetOutputMapFile", "classcboard___k16_f.html#ac96227ac842d8b4ab28664e89efec458", null ],
-    [ "GetPictureFileName", "classcboard___k16_f.html#a8ff4ea5b3d4cc899913893d99b3fcb93", null ],
+    [ "GetName", "classcboard___k16_f.html#a4e49de5604da212e067d23b9782260d3", null ],
     [ "GetSupportedDevices", "classcboard___k16_f.html#a7717609c5d6bda53fec5edfad3587da8", null ],
     [ "MDumpMemory", "classcboard___k16_f.html#a37ead98e5a3592c414437173a81cd687", null ],
     [ "ReadPreferences", "classcboard___k16_f.html#a05c6366c43082ea25fa31842d76aa556", null ],
@@ -43,7 +41,7 @@ var classcboard___k16_f =
     [ "p_KEY7", "classcboard___k16_f.html#a92c67e5e7240356dcde184db456c06ac", null ],
     [ "p_KEY8", "classcboard___k16_f.html#af80d1dc07028aa7bfa2e690b76a80a1b", null ],
     [ "p_KEY9", "classcboard___k16_f.html#aef6deb778415b385425565da5ddb71cf", null ],
-    [ "rtc", "classcboard___k16_f.html#addf9077b74a6ba91a0604ea0df125f65", null ],
+    [ "rtc", "classcboard___k16_f.html#a43ac4a8469c751bf5ab828f01dfbf416", null ],
     [ "sck", "classcboard___k16_f.html#ab016d8ac85666feaafa704eef3a9a4a2", null ],
     [ "sda", "classcboard___k16_f.html#a822ddc30b1d6b23d0219b9d2e96a36fa", null ]
 ];

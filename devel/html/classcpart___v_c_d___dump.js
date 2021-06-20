@@ -5,15 +5,12 @@ var classcpart___v_c_d___dump =
     [ "ConfigurePropertiesWindow", "classcpart___v_c_d___dump.html#a526f15c18c07ee9093bb09f4c7e9daeb", null ],
     [ "Draw", "classcpart___v_c_d___dump.html#a1bd4538fa84118412ffd6d5a5125e860", null ],
     [ "EvMouseButtonPress", "classcpart___v_c_d___dump.html#a46421538d6bdb3e6c17f017b8319222c", null ],
+    [ "filedialog_EvOnClose", "classcpart___v_c_d___dump.html#aa97dc6ad9dec39bf5abb017413265d44", null ],
     [ "get_in_id", "classcpart___v_c_d___dump.html#a394a04a2db37ca82127988d4b548a6df", null ],
     [ "get_out_id", "classcpart___v_c_d___dump.html#a659c3b0fb9797abccf8663b186277d07", null ],
     [ "GetAboutInfo", "classcpart___v_c_d___dump.html#aaf601e3ff0e0221a745a498f57e803fc", null ],
-    [ "GetHelpURL", "classcpart___v_c_d___dump.html#a816c4e2be2f95b7e60c12af82fe98d7b", null ],
-    [ "GetInputMapFile", "classcpart___v_c_d___dump.html#a6930f37ff878c5172670f9a1517a1b25", null ],
     [ "GetName", "classcpart___v_c_d___dump.html#ab889f27e5c4c624bc8b5beb268813179", null ],
-    [ "GetOutputMapFile", "classcpart___v_c_d___dump.html#a774ae63001cf68d91ea6e14542e244f3", null ],
-    [ "GetPictureFileName", "classcpart___v_c_d___dump.html#a21d960eca8878bd13d5c14fe861568ca", null ],
-    [ "GetPropertiesWindowFile", "classcpart___v_c_d___dump.html#a72ce9c886519e2abe3180c28a6245fc5", null ],
+    [ "PostProcess", "classcpart___v_c_d___dump.html#acd262c1dcf46c9a67e8d0a0a1d8a44a3", null ],
     [ "Process", "classcpart___v_c_d___dump.html#ada4780cc02404f90b551cc542bb9f4bb", null ],
     [ "ReadPreferences", "classcpart___v_c_d___dump.html#a6559c405a39212273c257639479840fa", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___dump.html#a815a0c4f23fcbae989d7ced17fb46c44", null ],
@@ -27,5 +24,7 @@ var classcpart___v_c_d___dump =
     [ "input_pins", "classcpart___v_c_d___dump.html#aa6d1ea4d0c6a7a7082477613adc9ae1d", null ],
     [ "old_value_pins", "classcpart___v_c_d___dump.html#ae22a162766acf8a0f4623690f03c1fa6", null ],
     [ "rec", "classcpart___v_c_d___dump.html#a5cf3f42bde08741ba9d23cd6adf846df", null ],
-    [ "vcd_count", "classcpart___v_c_d___dump.html#a2ed06e672dcaecac2ee62d9c4df31fc5", null ]
+    [ "vcd_count", "classcpart___v_c_d___dump.html#a2ed06e672dcaecac2ee62d9c4df31fc5", null ],
+    [ "VDWProp", "classcpart___v_c_d___dump.html#ad7751d65d242650c24fb86e4c6b9dc0f", null ],
+    [ "viewer", "classcpart___v_c_d___dump.html#adfeeacb1dcdca7bace5f7273ae5d8658", null ]
 ];

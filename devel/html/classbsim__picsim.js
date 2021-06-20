@@ -1,5 +1,6 @@
 var classbsim__picsim =
 [
+    [ "bsim_picsim", "classbsim__picsim.html#a5d9474dea6b160641056e5870f4f3c24", null ],
     [ "CpuInitialized", "classbsim__picsim.html#a009570f93b8da26b23f25ddacffcfbfa", null ],
     [ "DBGGetCONFIG_p", "classbsim__picsim.html#ac104995783b6779115b2396cd1ed22ae", null ],
     [ "DBGGetCONFIGSize", "classbsim__picsim.html#abf10c7bb6af560d961c7dffbaefebdd5", null ],

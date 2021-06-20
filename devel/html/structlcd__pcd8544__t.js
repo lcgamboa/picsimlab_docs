@@ -1,7 +1,6 @@
 var structlcd__pcd8544__t =
 [
-    [ "aclk", "structlcd__pcd8544__t.html#a9c946096ec1c9da3377ae9a4e4e64403", null ],
-    [ "bc", "structlcd__pcd8544__t.html#a0951ad6f46af523619bd65807bd7d14e", null ],
+    [ "bb_spi", "structlcd__pcd8544__t.html#a47c43926b2ee5e118235c2673d431e5e", null ],
     [ "d", "structlcd__pcd8544__t.html#a4f167ff99e2fa79f06652d0c835859ea", null ],
     [ "dat", "structlcd__pcd8544__t.html#ac81de9445b21a0bcbbc9ac5ef0abdd7e", null ],
     [ "e", "structlcd__pcd8544__t.html#a2f60940b6c1fdaea20568136b8dde5ad", null ],

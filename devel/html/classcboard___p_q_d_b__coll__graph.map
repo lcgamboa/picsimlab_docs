@@ -1,10 +1,11 @@
 <map id="cboard_PQDB" name="cboard_PQDB">
-<area shape="rect" id="node1" title=" " alt="" coords="215,260,326,287"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="35,171,139,197"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="57,95,116,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="217,288,327,315"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="35,199,139,225"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="57,109,116,136"/>
 <area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" id="node6" href="$structio__74xx595__t.html" title=" " alt="" coords="163,171,272,197"/>
-<area shape="rect" id="node7" href="$structrtc2__t.html" title=" " alt="" coords="296,171,355,197"/>
-<area shape="rect" id="node8" href="$structlcd__t.html" title=" " alt="" coords="379,171,432,197"/>
+<area shape="rect" id="node6" href="$structio__74xx595__t.html" title=" " alt="" coords="163,199,272,225"/>
+<area shape="rect" id="node7" href="$structrtc__ds1307__t.html" title=" " alt="" coords="297,199,402,225"/>
+<area shape="rect" id="node8" href="$structbitbang__i2c__t.html" title=" " alt="" coords="295,109,404,136"/>
+<area shape="rect" id="node9" href="$structlcd__t.html" title=" " alt="" coords="427,199,480,225"/>
 </map>

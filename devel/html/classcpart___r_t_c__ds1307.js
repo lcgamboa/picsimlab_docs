@@ -7,12 +7,9 @@ var classcpart___r_t_c__ds1307 =
     [ "get_in_id", "classcpart___r_t_c__ds1307.html#a9650cc53b5b22b2b4e48ce0e083ff3f2", null ],
     [ "get_out_id", "classcpart___r_t_c__ds1307.html#ab3f18835859580d2b7909e35e72987e3", null ],
     [ "GetAboutInfo", "classcpart___r_t_c__ds1307.html#abf57b747831effe39d3fbf3d4e6ede8a", null ],
-    [ "GetHelpURL", "classcpart___r_t_c__ds1307.html#a9248c1a6aae29fb594d6d252e51266c2", null ],
-    [ "GetInputMapFile", "classcpart___r_t_c__ds1307.html#a013fbb71897b61162b0dda149beb955a", null ],
+    [ "GetMapFile", "classcpart___r_t_c__ds1307.html#ae66f637a52829655954d2c095aaa5fc0", null ],
     [ "GetName", "classcpart___r_t_c__ds1307.html#aa1cc1f5e370599fa390837a704e334bf", null ],
-    [ "GetOutputMapFile", "classcpart___r_t_c__ds1307.html#aa188e23bdcd53c78bdacfacdd0009f66", null ],
     [ "GetPictureFileName", "classcpart___r_t_c__ds1307.html#a142d9c62640555b3e2f49d9235a7a83b", null ],
-    [ "GetPropertiesWindowFile", "classcpart___r_t_c__ds1307.html#a6b1b8f325f30f241e5e8515758a17141", null ],
     [ "Process", "classcpart___r_t_c__ds1307.html#a2c95de2c77a60f5c857f27d93d832bd8", null ],
     [ "ReadPreferences", "classcpart___r_t_c__ds1307.html#a9ad83cdc661c0fd2dc9256dc72d1f4e1", null ],
     [ "ReadPropertiesWindow", "classcpart___r_t_c__ds1307.html#a299480da2e51b0443fd685edfe9b9224", null ],
@@ -20,5 +17,5 @@ var classcpart___r_t_c__ds1307 =
     [ "font", "classcpart___r_t_c__ds1307.html#a05999c1063b058ed3cc6ed14b0ca09f6", null ],
     [ "font_p", "classcpart___r_t_c__ds1307.html#a84f7e6864a32066f2ac4d014c9c71f47", null ],
     [ "input_pins", "classcpart___r_t_c__ds1307.html#a57c2b3071af6b075a768bce3389fbfdc", null ],
-    [ "rtc2", "classcpart___r_t_c__ds1307.html#abe14c4ca59389302241b1ad792a3b6ef", null ]
+    [ "rtc2", "classcpart___r_t_c__ds1307.html#a6da5b34feaaaf670cb4841caff0eecb9", null ]
 ];

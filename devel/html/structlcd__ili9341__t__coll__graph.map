@@ -1,0 +1,4 @@
+<map id="lcd_ili9341_t" name="lcd_ili9341_t">
+<area shape="rect" id="node1" title=" " alt="" coords="8,95,112,121"/>
+<area shape="rect" id="node2" href="$structbitbang__spi__t.html" title=" " alt="" coords="5,5,115,32"/>
+</map>
