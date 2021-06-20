@@ -1,14 +1,14 @@
 <!DOCTYPE html> 
-<html lang='en' xml:lang='en'> 
+<html xml:lang='en' lang='en'> 
 <head><title>Remote Control Interface</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
-   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='sectionToc'>3.1 <a href='MainWindow.html#x12-110003.1'>Main Window</a></span><span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#x13-120003.2'>Interaction with the Board</a></span><span class='sectionToc'>3.3 <a href='CommandLine.html#x14-130003.3'>Command Line</a></span><span class='sectionToc'>3.4 <a href='#x15-140003.4'>Remote Control Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x101-10600011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x102-10700012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x121-12600013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x132-14100014'>License</a></span></nav> 
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='sectionToc'>3.1 <a href='MainWindow.html#x12-110003.1'>Main Window</a></span><span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#x13-120003.2'>Interaction with the Board</a></span><span class='sectionToc'>3.3 <a href='CommandLine.html#x14-130003.3'>Command Line</a></span><span class='sectionToc'>3.4 <a href='#x15-140003.4'>Remote Control Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x102-10700011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x103-10800012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x122-12700013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x133-14200014'>License</a></span></nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] </nav> 
 <h3 class='sectionHead'><span class='titlemark'>3.4    </span> <a id='x15-140003.4'></a>Remote Control Interface</h3>
@@ -17,198 +17,156 @@
 </p><!-- l. 114 --><p class='indent'>   The default port is 5000 and can be changed in configuration windows.
 </p><!-- l. 116 --><p class='indent'>   The ’rlwrap’ command can be used for best command edition support in telnet or
 nc:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb11'><a id='x15-14003r1'></a><span class='pcrr8t-x-x-80'> rlwrap nc </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>127</span></span><span class='pcrr8t-x-x-80'>.0.0.1 </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>5000</span></span></pre>
+</div>
+<!-- l. 121 --><p class='indent'>   The supported commands can be shown using the “help” command:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb12'><a id='x15-14022r1'></a><span class='pcrr8t-x-x-80'> </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>help</span></span> 
+<a id='x15-14024r2'></a><span class='pcrr8t-x-x-80'>List of supported commands:</span> 
+<a id='x15-14026r3'></a><span class='pcrr8t-x-x-80'>  dumpe </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>a</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>s</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>- dump internal EEPROM memory</span> 
+<a id='x15-14028r4'></a><span class='pcrr8t-x-x-80'>  dumpf </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>a</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>s</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>- dump Flash memory</span> 
+<a id='x15-14030r5'></a><span class='pcrr8t-x-x-80'>  dumpr </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>a</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>s</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>- dump RAM memory</span> 
+<a id='x15-14032r6'></a><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>exit</span></span><span class='pcrr8t-x-x-80'>         - shutdown PICSimLab</span> 
+<a id='x15-14034r7'></a><span class='pcrr8t-x-x-80'>  get ob       - get object value</span> 
+<a id='x15-14036r8'></a><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>help</span></span><span class='pcrr8t-x-x-80'>         - show this message</span> 
+<a id='x15-14038r9'></a><span class='pcrr8t-x-x-80'>  info         - show actual setup info and objects</span> 
+<a id='x15-14040r10'></a><span class='pcrr8t-x-x-80'>  pins         - show pins directions and values</span> 
+<a id='x15-14042r11'></a><span class='pcrr8t-x-x-80'>  pinsl        - show pins formated info</span> 
+<a id='x15-14044r12'></a><span class='pcrr8t-x-x-80'>  quit         - </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>exit</span></span><span class='pcrr8t-x-x-80'> remote control interface</span> 
+<a id='x15-14046r13'></a><span class='pcrr8t-x-x-80'>  reset        - reset the board</span> 
+<a id='x15-14048r14'></a><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> ob vl    - </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> object with value</span> 
+<a id='x15-14050r15'></a><span class='pcrr8t-x-x-80'>  sync         - </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>wait</span></span><span class='pcrr8t-x-x-80'> to syncronize with timer event</span> 
+<a id='x15-14052r16'></a><span class='pcrr8t-x-x-80'>  version      - show PICSimLab version</span> 
+<a id='x15-14054r17'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
+</div>
+<!-- l. 143 --><p class='indent'>   The “info” command show all available "objects" and values:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb13'><a id='x15-14082r1'></a><span class='pcrr8t-x-x-80'>info</span> 
+<a id='x15-14084r2'></a><span class='pcrr8t-x-x-80'>Board:     Arduino Uno</span> 
+<a id='x15-14086r3'></a><span class='pcrr8t-x-x-80'>Processor: atmega328p</span> 
+<a id='x15-14088r4'></a><span class='pcrr8t-x-x-80'>Frequency:   </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>16000000</span></span><span class='pcrr8t-x-x-80'> Hz</span> 
+<a id='x15-14090r5'></a><span class='pcrr8t-x-x-80'>Use Spare: </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14092r6'></a><span class='pcrr8t-x-x-80'>    board.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_L</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14094r7'></a><span class='pcrr8t-x-x-80'>  part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>: LEDs</span> 
+<a id='x15-14096r8'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[08]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_1</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14098r9'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[09]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_2</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>30</span></span> 
+<a id='x15-14100r10'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[10]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_3</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14102r11'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[11]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_4</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14104r12'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[12]</span></span><span class='pcrr8t-x-x-80'> LD_5 </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14106r13'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[13]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_6</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14108r14'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[14]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_7</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>254</span></span> 
+<a id='x15-14110r15'></a><span class='pcrr8t-x-x-80'>  part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>: Buzzer</span> 
+<a id='x15-14112r16'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>LD_1</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>140</span></span> 
+<a id='x15-14114r17'></a><span class='pcrr8t-x-x-80'>  part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>: Push buttons</span> 
+<a id='x15-14116r18'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_1</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14118r19'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_2</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14120r20'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_3</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14122r21'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[03]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_4</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14124r22'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[04]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_5</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14126r23'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[05]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_6</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14128r24'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[06]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_7</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14130r25'></a><span class='pcrr8t-x-x-80'>    part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[07]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>PB_8</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14132r26'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
+</div>
+<!-- l. 173 --><p class='indent'>   The “pins” command show all pins directions and digital values:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb14'><a id='x15-14150r1'></a><span class='pcrr8t-x-x-80'>pins</span> 
+<a id='x15-14152r2'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PC6/RST</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[15]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB1/~9</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14154r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD0/0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[16]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PB2/~10</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14156r4'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[03]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD1/1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[17]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PB3/~11</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14158r5'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[04]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD2/2</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[18]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB4/12</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14160r6'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[05]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PD3/~3</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB5/13</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14162r7'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[06]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD4/4</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[20]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>     +5V</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span> 
+<a id='x15-14164r8'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[07]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>     +5V</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[21]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>    AREF</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14166r9'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[08]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>     GND</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[22]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>     GND</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14168r10'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[09]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB6/X1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[23]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PC0/A0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14170r11'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[10]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB7/X2</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[24]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PC1/A1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14172r12'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[11]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PD5/~5</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[25]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PC2/A2</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14174r13'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[12]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PD6/~6</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[26]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PC3/A3</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14176r14'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[13]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD7/7</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[27]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PC4/A4</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14178r15'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[14]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PB0/8</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[28]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PC5/A5</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14180r16'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
+</div>
+<!-- l. 193 --><p class='indent'>   The “pinsl” command show all pins info in text formatted output:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb15'><a id='x15-14213r1'></a><span class='pcrr8t-x-x-80'>pinsl</span> 
+<a id='x15-14215r2'></a><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>28</span></span><span class='pcrr8t-x-x-80'> pins </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>atmega328p</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>:</span> 
+<a id='x15-14217r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC6/RST "</span></span> 
+<a id='x15-14219r4'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD0/0   "</span></span> 
+<a id='x15-14221r5'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[03]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD1/1   "</span></span> 
+<a id='x15-14223r6'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[04]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD2/2   "</span></span> 
+<a id='x15-14225r7'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[05]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>007</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD3/~3  "</span></span> 
+<a id='x15-14227r8'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[06]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD4/4   "</span></span> 
+<a id='x15-14229r9'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[07]</span></span><span class='pcrr8t-x-x-80'> P I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"+5V     "</span></span> 
+<a id='x15-14231r10'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[08]</span></span><span class='pcrr8t-x-x-80'> P I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"GND     "</span></span> 
+<a id='x15-14233r11'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[09]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB6/X1  "</span></span> 
+<a id='x15-14235r12'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[10]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB7/X2  "</span></span> 
+<a id='x15-14237r13'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[11]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD5/~5  "</span></span> 
+<a id='x15-14239r14'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[12]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD6/~6  "</span></span> 
+<a id='x15-14241r15'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[13]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD7/7   "</span></span> 
+<a id='x15-14243r16'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[14]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB0/8   "</span></span> 
+<a id='x15-14245r17'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[15]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB1/~9  "</span></span> 
+<a id='x15-14247r18'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[16]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB2/~10 "</span></span> 
+<a id='x15-14249r19'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[17]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>006</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB3/~11 "</span></span> 
+<a id='x15-14251r20'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[18]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB4/12  "</span></span> 
+<a id='x15-14253r21'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PB5/13  "</span></span> 
+<a id='x15-14255r22'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[20]</span></span><span class='pcrr8t-x-x-80'> P I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"+5V     "</span></span> 
+<a id='x15-14257r23'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[21]</span></span><span class='pcrr8t-x-x-80'> R I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"AREF    "</span></span> 
+<a id='x15-14259r24'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[22]</span></span><span class='pcrr8t-x-x-80'> P I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"GND     "</span></span> 
+<a id='x15-14261r25'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[23]</span></span><span class='pcrr8t-x-x-80'> A I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.875 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC0/A0  "</span></span> 
+<a id='x15-14263r26'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[24]</span></span><span class='pcrr8t-x-x-80'> A I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>.925 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC1/A1  "</span></span> 
+<a id='x15-14265r27'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[25]</span></span><span class='pcrr8t-x-x-80'> A I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>.700 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC2/A2  "</span></span> 
+<a id='x15-14267r28'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[26]</span></span><span class='pcrr8t-x-x-80'> A I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>4</span></span><span class='pcrr8t-x-x-80'>.275 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC3/A3  "</span></span> 
+<a id='x15-14269r29'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[27]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>179</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC4/A4  "</span></span> 
+<a id='x15-14271r30'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[28]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>186</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC5/A5  "</span></span> 
+<a id='x15-14273r31'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
+</div>
+<!-- l. 229 --><p class='indent'>   You can view one input/output state using the “get” command:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
                                                                   
 
                                                                   
-</p>
-   <pre id='verbatim-3' class='verbatim'>
- rlwrap nc 127.0.0.1 5000
-</pre>
-<!-- l. 119 --><p class='nopar'>
-</p><!-- l. 121 --><p class='indent'>   The supported commands can be shown using the “help” command:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-4' class='verbatim'>
- help
-List of supported commands:
-  dumpe [a] [s]- dump internal EEPROM memory
-  dumpf [a] [s]- dump Flash memory
-  dumpr [a] [s]- dump RAM memory
-  exit         - shutdown PICSimLab
-  get ob       - get object value
-  help         - show this message
-  info         - show actual setup info and objects
-  pins         - show pins directions and values
-  pinsl        - show pins formated info
-  quit         - exit remote control interface
-  reset        - reset the board
-  set ob vl    - set object with value
-  sync         - wait to syncronize with timer event
-  version      - show PICSimLab version
-Ok
-</pre>
-<!-- l. 140 --><p class='nopar'>
-</p><!-- l. 143 --><p class='indent'>   The “info” command show all available "objects" and values:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-5' class='verbatim'>
-info
-Board:     Arduino Uno
-Processor: atmega328p
-Frequency:   16000000 Hz
-Use Spare: 1
-    board.out[00] LD_L= 254
-  part[00]: LEDs
-    part[00].out[08] LD_1= 254
-    part[00].out[09] LD_2= 30
-    part[00].out[10] LD_3= 254
-    part[00].out[11] LD_4= 254
-    part[00].out[12] LD_5 254
-    part[00].out[13] LD_6= 254
-    part[00].out[14] LD_7= 254
-  part[01]: Buzzer
-    part[01].out[02] LD_1= 140
-  part[02]: Push buttons
-    part[02].in[00] PB_1= 1
-    part[02].in[01] PB_2= 0
-    part[02].in[02] PB_3= 1
-    part[02].in[03] PB_4= 1
-    part[02].in[04] PB_5= 1
-    part[02].in[05] PB_6= 1
-    part[02].in[06] PB_7= 1
-    part[02].in[07] PB_8= 1
-Ok
-</pre>
-<!-- l. 171 --><p class='nopar'>
-</p><!-- l. 173 --><p class='indent'>   The “pins” command show all pins directions and digital values:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-6' class='verbatim'>
-pins
-  pin[01] ( PC6/RST) &lt; 0                 pin[15] (  PB1/~9) &gt; 0
-  pin[02] (   PD0/0) &lt; 1                 pin[16] ( PB2/~10) &gt; 0
-  pin[03] (   PD1/1) &lt; 1                 pin[17] ( PB3/~11) &gt; 0
-  pin[04] (   PD2/2) &lt; 1                 pin[18] (  PB4/12) &lt; 0
-  pin[05] (  PD3/~3) &gt; 0                 pin[19] (  PB5/13) &gt; 0
-  pin[06] (   PD4/4) &lt; 1                 pin[20] (     +5V) &lt; 1
-  pin[07] (     +5V) &lt; 1                 pin[21] (    AREF) &lt; 0
-  pin[08] (     GND) &lt; 0                 pin[22] (     GND) &lt; 0
-  pin[09] (  PB6/X1) &lt; 0                 pin[23] (  PC0/A0) &lt; 0
-  pin[10] (  PB7/X2) &lt; 0                 pin[24] (  PC1/A1) &lt; 0
-  pin[11] (  PD5/~5) &lt; 1                 pin[25] (  PC2/A2) &lt; 0
-  pin[12] (  PD6/~6) &lt; 1                 pin[26] (  PC3/A3) &lt; 0
-  pin[13] (   PD7/7) &lt; 1                 pin[27] (  PC4/A4) &gt; 0
-  pin[14] (   PB0/8) &gt; 0                 pin[28] (  PC5/A5) &gt; 0
-Ok
-</pre>
-<!-- l. 191 --><p class='nopar'>
-</p><!-- l. 193 --><p class='indent'>   The “pinsl” command show all pins info in text formatted output:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-7' class='verbatim'>
-pinsl
-28 pins [atmega328p]:
-  pin[01] D I 0 000 0.000 "PC6/RST "
-  pin[02] D I 1 200 0.000 "PD0/0   "
-  pin[03] D I 1 200 0.000 "PD1/1   "
-  pin[04] D I 1 200 0.000 "PD2/2   "
-  pin[05] D O 0 007 0.000 "PD3/~3  "
-  pin[06] D I 1 200 0.000 "PD4/4   "
-  pin[07] P I 1 200 0.000 "+5V     "
-  pin[08] P I 0 000 0.000 "GND     "
-  pin[09] D I 0 000 0.000 "PB6/X1  "
-  pin[10] D I 0 000 0.000 "PB7/X2  "
-  pin[11] D I 1 200 0.000 "PD5/~5  "
-  pin[12] D I 1 200 0.000 "PD6/~6  "
-  pin[13] D I 1 200 0.000 "PD7/7   "
-  pin[14] D O 0 000 0.000 "PB0/8   "
-  pin[15] D O 0 000 0.000 "PB1/~9  "
-  pin[16] D O 0 000 0.000 "PB2/~10 "
-  pin[17] D O 0 006 0.000 "PB3/~11 "
-  pin[18] D I 0 000 0.000 "PB4/12  "
-  pin[19] D O 0 000 0.000 "PB5/13  "
-  pin[20] P I 1 200 0.000 "+5V     "
-  pin[21] R I 0 000 0.000 "AREF    "
-  pin[22] P I 0 000 0.000 "GND     "
-  pin[23] A I 0 000 0.875 "PC0/A0  "
-  pin[24] A I 0 000 1.925 "PC1/A1  "
-  pin[25] A I 0 000 2.700 "PC2/A2  "
-  pin[26] A I 0 000 4.275 "PC3/A3  "
-  pin[27] D O 1 179 0.000 "PC4/A4  "
-  pin[28] D O 1 186 0.000 "PC5/A5  "
-Ok
-</pre>
-<!-- l. 226 --><p class='nopar'>
-</p><!-- l. 229 --><p class='indent'>   You can view one input/output state using the “get” command:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-8' class='verbatim'>
-get board.out[00]
-
-get part[02].in[01]
-</pre>
-<!-- l. 234 --><p class='nopar'>
-</p><!-- l. 236 --><p class='indent'>   Its possible use the “get” command to view individual pins state:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-9' class='verbatim'>
-#digital state
-get pin[19]
-pin[19]= 0
-Ok
-
-#digital mean value (0-200)
-get pinm[19]
-pin[18]= 100
-Ok
-
-#analog state
-get apin[25]
-apin[25]= 2.700
-Ok
-
-#all info
-get pinl[13]
-pin[13] D I 1 200 0.000 "PD7/7   "
-Ok
-</pre>
-<!-- l. 257 --><p class='nopar'>
-</p><!-- l. 261 --><p class='indent'>   And set value of one input using the “set” command:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-10' class='verbatim'>
-set part[02].in[01]  0
-set part[02].in[01]  1
-</pre>
-<!-- l. 265 --><p class='nopar'>
-</p><!-- l. 267 --><p class='indent'>   Or set value of one pin using the “set” command:
-                                                                  
-
-                                                                  
-</p>
-   <pre id='verbatim-11' class='verbatim'>
-#digital
-set pin[10]  2
-
-#analog
-set apin[20] 2.345
-</pre>
-<!-- l. 274 --><p class='nopar'>
-</p><!-- l. 280 --><p class='indent'>   For windows users <a target='_blank' href='https://www.putty.org/'>putty telnet client</a> is a good option.
+   <pre class='fancyvrb' id='fancyvrb16'><a id='x15-14278r1'></a><span class='pcrr8t-x-x-80'>get board.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span> 
+<a id='x15-14280r2'></a> 
+<a id='x15-14282r3'></a><span class='pcrr8t-x-x-80'>get part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span></pre>
+</div>
+<!-- l. 236 --><p class='indent'>   Its possible use the “get” command to view individual pins state:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb17'><a id='x15-14303r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital state</span></span> 
+<a id='x15-14305r2'></a><span class='pcrr8t-x-x-80'>get pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]</span></span> 
+<a id='x15-14307r3'></a><span class='pcrr8t-x-x-80'>pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14309r4'></a><span class='pcrr8t-x-x-80'>Ok</span> 
+<a id='x15-14311r5'></a> 
+<a id='x15-14313r6'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital mean value (0-200)</span></span> 
+<a id='x15-14315r7'></a><span class='pcrr8t-x-x-80'>get pinm</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]</span></span> 
+<a id='x15-14317r8'></a><span class='pcrr8t-x-x-80'>pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[18]=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>100</span></span> 
+<a id='x15-14319r9'></a><span class='pcrr8t-x-x-80'>Ok</span> 
+<a id='x15-14321r10'></a> 
+<a id='x15-14323r11'></a><span class='textcolor-3f7f7f'><span class='textit'>#analog state</span></span> 
+<a id='x15-14325r12'></a><span class='pcrr8t-x-x-80'>get apin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[25]</span></span> 
+<a id='x15-14327r13'></a><span class='pcrr8t-x-x-80'>apin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[25]=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>.700</span> 
+<a id='x15-14329r14'></a><span class='pcrr8t-x-x-80'>Ok</span> 
+<a id='x15-14331r15'></a> 
+<a id='x15-14333r16'></a><span class='textcolor-3f7f7f'><span class='textit'>#all info</span></span> 
+<a id='x15-14335r17'></a><span class='pcrr8t-x-x-80'>get pinl</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[13]</span></span> 
+<a id='x15-14337r18'></a><span class='pcrr8t-x-x-80'>pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[13]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD7/7   "</span></span> 
+<a id='x15-14339r19'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
+</div>
+<!-- l. 261 --><p class='indent'>   And set value of one input using the “set” command:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb18'><a id='x15-14343r1'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+<a id='x15-14345r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span></pre>
+</div>
+<!-- l. 267 --><p class='indent'>   Or set value of one pin using the “set” command:
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb19'><a id='x15-14352r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital</span></span> 
+<a id='x15-14354r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[10]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span> 
+<a id='x15-14356r3'></a> 
+<a id='x15-14358r4'></a><span class='textcolor-3f7f7f'><span class='textit'>#analog</span></span> 
+<a id='x15-14360r5'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> apin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[20]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>.345</span></pre>
+</div>
+<!-- l. 280 --><p class='indent'>   For windows users <a href='https://www.putty.org/' target='_blank'>putty telnet client</a> is a good option.
                                                                   
 
                                                                   
@@ -222,7 +180,7 @@ set apin[20] 2.345
 
                                                                   
 </p>
-   <nav class='crosslinks-bottom'>[<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p>  
+   <nav class='crosslinks-bottom'>[<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
  
 </body> 
 </html>

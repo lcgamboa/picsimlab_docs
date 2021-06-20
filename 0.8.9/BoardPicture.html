@@ -1,22 +1,19 @@
 <!DOCTYPE html> 
-<html lang='en' xml:lang='en'> 
+<html xml:lang='en' lang='en'> 
 <head><title>Board Picture</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
-   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x101-10600011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x102-10700012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x121-12600013'>Creating New Boards</a></span><span class='sectionToc'>13.1 <a href='HowtoCompilePICsimLab.html#x122-12700013.1'>How to Compile PICsimLab</a></span><span class='sectionToc'>13.2 <a href='CreatingaNewBoard.html#x125-13000013.2'>Creating a New Board</a></span><span class='subsectionToc'>13.2.1 <a href='BoardHardwareandSchematic.html#x126-13100013.2.1'>Board Hardware and Schematic</a></span><span class='subsectionToc'>13.2.2 <a href='#x127-13200013.2.2'>Board Picture</a></span><span class='subsectionToc'>13.2.3 <a href='Picturemaps.html#x128-13300013.2.3'>Picture maps</a></span><span class='subsectionToc'>13.2.4 <a href='Boardcode.html#x129-13500013.2.4'>Board code</a></span><span class='subsectionToc'>13.2.5 <a href='IntegrationwithPICsimLab.html#x130-13900013.2.5'>Integration with PICsimLab</a></span><span class='subsectionToc'>13.2.6 <a href='FinalResult.html#x131-14000013.2.6'>Final Result</a></span><span class='chapterToc'>14 <a href='License.html#x132-14100014'>License</a></span></nav> 
+   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x102-10700011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x103-10800012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x122-12700013'>Creating New Boards</a></span><span class='sectionToc'>13.1 <a href='HowtoCompilePICsimLab.html#x123-12800013.1'>How to Compile PICsimLab</a></span><span class='sectionToc'>13.2 <a href='CreatingaNewBoard.html#x126-13100013.2'>Creating a New Board</a></span><span class='subsectionToc'>13.2.1 <a href='BoardHardwareandSchematic.html#x127-13200013.2.1'>Board Hardware and Schematic</a></span><span class='subsectionToc'>13.2.2 <a href='#x128-13300013.2.2'>Board Picture</a></span><span class='subsectionToc'>13.2.3 <a href='Picturemaps.html#x129-13400013.2.3'>Picture maps</a></span><span class='subsectionToc'>13.2.4 <a href='Boardcode.html#x130-13600013.2.4'>Board code</a></span><span class='subsectionToc'>13.2.5 <a href='IntegrationwithPICsimLab.html#x131-14000013.2.5'>Integration with PICsimLab</a></span><span class='subsectionToc'>13.2.6 <a href='FinalResult.html#x132-14100013.2.6'>Final Result</a></span><span class='chapterToc'>14 <a href='License.html#x133-14200014'>License</a></span></nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='BoardHardwareandSchematic.html'>prev</a>] [<a href='CreatingaNewBoard.html#BoardPicture.html'>up</a>] [<a href='Picturemaps.html'>next</a>] </nav> 
-<h4 class='subsectionHead'><span class='titlemark'>13.2.2    </span> <a id='x127-13200013.2.2'></a>Board Picture</h4>
-                                                                  
-
-                                                                  
+<h4 class='subsectionHead'><span class='titlemark'>13.2.2    </span> <a id='x128-13300013.2.2'></a>Board Picture</h4>
 <!-- l. 163 --><p class='noindent'>Because the real board of this tutorial never has been built, the board picture was taken from
-<a target='_blank' href='http://kicad-pcb.org/'>Kicad</a> 3D viewer. The picture image is saved as “share/board/x/board.png”.
+<a href='http://kicad-pcb.org/' target='_blank'>Kicad</a> 3D viewer. The picture image is saved as “share/board/x/board.png”.
 </p>
    <figure class='figure'> 
 
@@ -26,13 +23,14 @@
                                                                   
 
                                                                   
-<!-- l. 168 --><p class='noindent'><img src='files/share/board.png' style='width:80%' alt='PIC' />
+<!-- l. 168 --><p class='noindent'><img alt='PIC' style='width:80%' src='files/share/board.png' />
                                                                   
 
                                                                   
 </p>
    </figure>
-<!-- l. 171 --><p class='indent'>   *********svg version ********
+<!-- l. 171 --><p class='indent'>   It is also possible to use images in SVG format for better viewing quality. <a href='https://github.com/yaqwsx/PcbDraw' target='_blank'>PCBDraw</a> can
+be used to convert a Kicad PCB project to an SVG image.
 </p>
    <figure class='figure'> 
 
@@ -42,7 +40,7 @@
                                                                   
 
                                                                   
-<!-- l. 175 --><p class='noindent'><img src='files/share/board_svg.png' style='width:80%' alt='PIC' />
+<!-- l. 176 --><p class='noindent'><img alt='PIC' style='width:80%' src='files/share/board_svg.png' />
                                                                   
 
                                                                   
@@ -54,7 +52,7 @@
                                                                   
 
                                                                   
-   <nav class='crosslinks-bottom'>[<a href='BoardHardwareandSchematic.html'>prev</a>] [<a href='CreatingaNewBoard.html#BoardPicture.html'>up</a>] [<a href='Picturemaps.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p>  
+   <nav class='crosslinks-bottom'>[<a href='BoardHardwareandSchematic.html'>prev</a>] [<a href='CreatingaNewBoard.html#BoardPicture.html'>up</a>] [<a href='Picturemaps.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
  
 </body> 
 </html>

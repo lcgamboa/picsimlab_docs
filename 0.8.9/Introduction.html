@@ -1,24 +1,24 @@
 <!DOCTYPE html> 
-<html lang='en' xml:lang='en'> 
+<html xml:lang='en' lang='en'> 
 <head><title>1 Introduction</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
-   <nav class='TOC'><span class='chapterToc'>1 <a href='#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x101-10600011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x102-10700012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x121-12600013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x132-14100014'>License</a></span></nav> 
+   <nav class='TOC'><span class='chapterToc'>1 <a href='#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x102-10700011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x103-10800012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x122-12700013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x133-14200014'>License</a></span></nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='contentsname.html'>prev</a>] [<a href='picsimlab.html#Introduction.html'>up</a>] [<a href='Install.html'>next</a>] </nav> 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 1</span><br /><a id='x3-20001'></a>Introduction</h2>
 <!-- l. 4 --><p class='noindent'>PICSimLab means Programmable IC Simulator Laboratory
-</p><!-- l. 6 --><p class='indent'>   PICSimLab is a realtime emulator of <a href='Boards.html#def:boards'>development boards</a> with integrated MPLABX/avr-gdb
-debugger. PICSimLab supports some <a target='_blank' href='https://github.com/lcgamboa/picsim'>picsim</a> microcontrollers and some <a target='_blank' href='https://github.com/buserror/simavr'>simavr</a>
-microcontrollers. PICSimLab have integration with MPLABX/Arduino IDE for
                                                                   
 
                                                                   
+</p><!-- l. 6 --><p class='indent'>   PICSimLab is a realtime emulator of <a href='Boards.html#def:boards'>development boards</a> with integrated MPLABX/avr-gdb
+debugger. PICSimLab supports some <a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a> microcontrollers and some <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>
+microcontrollers. PICSimLab have integration with MPLABX/Arduino IDE for
 programming the boards microcontrollers. As the purpose of PICSimLab is to emulate real
 hardware it does not have any source code editing support. For code editing and debugging
 the same tools used for a real board should be used with PICSimLab, such as MPLABX or
@@ -28,7 +28,7 @@ simulation. As for example LEDs and push buttons for simple outputs and inputs a
 more complex ones like the ethernet shield w5500 for internet connection or the color graphic
 display ili9340 with touchscreen. The the complete list of parts can be accessed in the chapter
 <a href='SpareParts.html#def:spare'>Spare Parts</a>.
-</p><!-- l. 19 --><p class='indent'>   The <a href='ExperimentalBoards.html#def:eboards'>experimental version boards</a> supports <a target='_blank' href='http://mazsola.iit.uni-miskolc.hu/drdani/embedded/ucsim/'>uCsim</a>, <a target='_blank' href='http://gpsim.sourceforge.net/'>gpsim</a> and <a target='_blank' href='http://beckus.github.io/qemu_stm32/'>qemu-stm32</a> simulators in
+</p><!-- l. 19 --><p class='indent'>   The <a href='ExperimentalBoards.html#def:eboards'>experimental version boards</a> supports <a href='http://mazsola.iit.uni-miskolc.hu/drdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a> and <a href='http://beckus.github.io/qemu_stm32/' target='_blank'>qemu-stm32</a> simulators in
 addition to the stable ones.
 </p>
    <figure class='figure'> 
@@ -39,7 +39,7 @@ addition to the stable ones.
                                                                   
 
                                                                   
-<!-- l. 27 --><p class='noindent'><img src='img/screenshot.png' style='width:99%' alt='PIC' />
+<!-- l. 27 --><p class='noindent'><img alt='PIC' style='width:99%' src='img/screenshot.png' />
                                                                   
 
                                                                   
@@ -57,7 +57,7 @@ addition to the stable ones.
                                                                   
 
                                                                   
-   <nav class='crosslinks-bottom'>[<a href='contentsname.html'>prev</a>] [<a href='picsimlab.html#Introduction.html'>up</a>] [<a href='Install.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p>  
+   <nav class='crosslinks-bottom'>[<a href='contentsname.html'>prev</a>] [<a href='picsimlab.html#Introduction.html'>up</a>] [<a href='Install.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
  
 </body> 
 </html>
