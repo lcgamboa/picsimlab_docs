@@ -4,9 +4,9 @@
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
-<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
+<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
 <meta content='picsimlab.tex' name='src' /> 
-<link rel='stylesheet' type='text/css' href='style.css' /> 
+<link rel='stylesheet' href='style.css' type='text/css' /> 
 </head><body>
    <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='sectionToc'>3.1 <a href='MainWindow.html#x12-110003.1'>Main Window</a></span><span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#x13-120003.2'>Interaction with the Board</a></span><span class='sectionToc'>3.3 <a href='CommandLine.html#x14-130003.3'>Command Line</a></span><span class='sectionToc'>3.4 <a href='#x15-140003.4'>Remote Control Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x102-10700011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x103-10800012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x122-12700013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x133-14200014'>License</a></span></nav> 
 <main class='main-content'> 
@@ -20,11 +20,11 @@ through a TCP/IP socket using text formatted commands.
 </p><!-- l. 117 --><p class='indent'>   The default port is 5000 and can be changed in configuration windows.
 </p><!-- l. 119 --><p class='indent'>   The ’rlwrap’ command can be used for best command edition support in telnet or
 nc:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb11' class='fancyvrb'><a id='x15-14003r1'></a><span class='pcrr8t-x-x-80'> rlwrap nc </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>127</span></span><span class='pcrr8t-x-x-80'>.0.0.1 </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>5000</span></span></pre>
 </div>
 <!-- l. 124 --><p class='indent'>   The supported commands can be shown using the “help” command:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb12' class='fancyvrb'><a id='x15-14022r1'></a><span class='pcrr8t-x-x-80'> </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>help</span></span> 
 <a id='x15-14024r2'></a><span class='pcrr8t-x-x-80'>List of supported commands:</span> 
 <a id='x15-14026r3'></a><span class='pcrr8t-x-x-80'>  dumpe </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>a</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>s</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>- dump internal EEPROM memory</span> 
@@ -44,7 +44,7 @@ nc:
 <a id='x15-14054r17'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 146 --><p class='indent'>   The “info” command show all available "objects" and values:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb13' class='fancyvrb'><a id='x15-14082r1'></a><span class='pcrr8t-x-x-80'>info</span> 
 <a id='x15-14084r2'></a><span class='pcrr8t-x-x-80'>Board:     Arduino Uno</span> 
 <a id='x15-14086r3'></a><span class='pcrr8t-x-x-80'>Processor: atmega328p</span> 
@@ -73,7 +73,7 @@ nc:
 <a id='x15-14132r26'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 176 --><p class='indent'>   The “pins” command show all pins directions and digital values:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb14' class='fancyvrb'><a id='x15-14150r1'></a><span class='pcrr8t-x-x-80'>pins</span> 
 <a id='x15-14152r2'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PC6/RST</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[15]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB1/~9</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
 <a id='x15-14154r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD0/0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[16]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PB2/~10</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
@@ -92,7 +92,7 @@ nc:
 <a id='x15-14180r16'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 196 --><p class='indent'>   The “pinsl” command show all pins info in text formatted output:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb15' class='fancyvrb'><a id='x15-14213r1'></a><span class='pcrr8t-x-x-80'>pinsl</span> 
 <a id='x15-14215r2'></a><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>28</span></span><span class='pcrr8t-x-x-80'> pins </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>atmega328p</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>:</span> 
 <a id='x15-14217r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC6/RST "</span></span> 
@@ -126,7 +126,7 @@ nc:
 <a id='x15-14273r31'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 232 --><p class='indent'>   You can view one input/output state using the “get” command:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
                                                                   
 
                                                                   
@@ -135,7 +135,7 @@ nc:
 <a id='x15-14282r3'></a><span class='pcrr8t-x-x-80'>get part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span></pre>
 </div>
 <!-- l. 239 --><p class='indent'>   Its possible use the “get” command to view individual pins state:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb17' class='fancyvrb'><a id='x15-14303r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital state</span></span> 
 <a id='x15-14305r2'></a><span class='pcrr8t-x-x-80'>get pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]</span></span> 
 <a id='x15-14307r3'></a><span class='pcrr8t-x-x-80'>pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
@@ -157,19 +157,19 @@ nc:
 <a id='x15-14339r19'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 264 --><p class='indent'>   And set value of one input using the “set” command:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb18' class='fancyvrb'><a id='x15-14343r1'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
 <a id='x15-14345r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span></pre>
 </div>
 <!-- l. 270 --><p class='indent'>   Or set value of one pin using the “set” command:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
    <pre id='fancyvrb19' class='fancyvrb'><a id='x15-14352r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital</span></span> 
 <a id='x15-14354r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[10]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span> 
 <a id='x15-14356r3'></a> 
 <a id='x15-14358r4'></a><span class='textcolor-3f7f7f'><span class='textit'>#analog</span></span> 
 <a id='x15-14360r5'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> apin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[20]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>.345</span></pre>
 </div>
-<!-- l. 283 --><p class='indent'>   For windows users <a href='https://www.putty.org/' target='_blank'>putty telnet client</a> is a good option.
+<!-- l. 283 --><p class='indent'>   For windows users <a target='_blank' href='https://www.putty.org/'>putty telnet client</a> is a good option.
                                                                   
 
                                                                   
