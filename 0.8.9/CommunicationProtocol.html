@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang='en' xml:lang='en'> 
+<html xml:lang='en' lang='en'> 
 <head><title>Communication Protocol</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
@@ -22,7 +22,7 @@ second byte with value 0x00 for disable or 0x01 for enable.
 
                                                                   
 </p>
-   <pre id='verbatim-10' class='verbatim'>
+   <pre class='verbatim' id='verbatim-10'>
             Serial_write(0x02);
             Serial_write(0x01);
 </pre>
@@ -37,7 +37,7 @@ byte. The byte readed have value 0x00 for disable or 0x01 for enable.
 
                                                                   
 </p>
-   <pre id='verbatim-11' class='verbatim'>
+   <pre class='verbatim' id='verbatim-11'>
       Serial_write(0x13);
       valor=Serial_read(0);
 </pre>
@@ -52,7 +52,7 @@ bytes with the 16 bits value.
 
                                                                   
 </p>
-   <pre id='verbatim-12' class='verbatim'>
+   <pre class='verbatim' id='verbatim-12'>
             Serial_write(0x21);
             valor=230;
             Serial_write((valor&amp;0xFF00)&gt;&gt;8);
@@ -69,7 +69,7 @@ bytes to form the 16 bits value.
 
                                                                   
 </p>
-   <pre id='verbatim-13' class='verbatim'>
+   <pre class='verbatim' id='verbatim-13'>
       Serial_write(0x32);
       valorh=Serial_read(0);
       valorl=Serial_read(0);
@@ -80,7 +80,7 @@ bytes to form the 16 bits value.
 
                                                                   
 </p>
-   <nav class='crosslinks-bottom'>[<a href='SensorsandActuators.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
+   <nav class='crosslinks-bottom'>[<a href='SensorsandActuators.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
  
 </body> 
 </html>
