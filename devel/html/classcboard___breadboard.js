@@ -20,6 +20,7 @@ var classcboard___breadboard =
     [ "DebugInit", "classcboard___breadboard.html#a845e8a42460ff3d9dd6191ac519f0711", null ],
     [ "DebugLoop", "classcboard___breadboard.html#ace0ff3b5faa2c04492ebdce2724d227c", null ],
     [ "Draw", "classcboard___breadboard.html#a3afd2f3ec13faf3a4d4119b98de44131", null ],
+    [ "EndServers", "classcboard___breadboard.html#ab600079847f77a2a183829ce86bd5123", null ],
     [ "EvKeyPress", "classcboard___breadboard.html#ae1026e4b694ab55168f9442aff9d0aa9", null ],
     [ "EvKeyRelease", "classcboard___breadboard.html#a5ca31783cb70f352e5d9860da46a44dd", null ],
     [ "EvMouseButtonPress", "classcboard___breadboard.html#ae94336109b1aa4de07e182d46f18400e", null ],

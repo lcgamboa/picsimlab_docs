@@ -19,6 +19,7 @@ var classbsim__simavr =
     [ "DBGTestBP", "classbsim__simavr.html#af8b8da0e538698d3ced776eabf8a23df", null ],
     [ "DebugInit", "classbsim__simavr.html#a3092ea45af4cfc9564eff26a380a9059", null ],
     [ "DebugLoop", "classbsim__simavr.html#a55caa5607de59002a75e8339234a07c0", null ],
+    [ "EndServers", "classbsim__simavr.html#a1029392e2771b259c62af913a1e62ce2", null ],
     [ "GetDebugName", "classbsim__simavr.html#a9894d4c6ad465c34e2bdd64cb181746d", null ],
     [ "MDumpMemory", "classbsim__simavr.html#abea4a04f7c56801bd4b3a449c11f1a0d", null ],
     [ "MEnd", "classbsim__simavr.html#af7b9791066bf2656e5fd32a4babd8a06", null ],

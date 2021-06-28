@@ -360,6 +360,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>GetClock</b> (void)<
 <tr class="memitem:ab298fd08880fd07e3b32212e68a1eaa3"><td class="memItemLeft" align="right" valign="top"><a id="ab298fd08880fd07e3b32212e68a1eaa3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>EndSimulation</b> (void)</td></tr>
 <tr class="separator:ab298fd08880fd07e3b32212e68a1eaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a730d1d15d6dc83910a9c8745db6d1"><td class="memItemLeft" align="right" valign="top"><a id="ad3a730d1d15d6dc83910a9c8745db6d1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterError</b> (const lxString error)</td></tr>
+<tr class="separator:ad3a730d1d15d6dc83910a9c8745db6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affb90ae2cea6e6d70f8ce9af67408310"><td class="memItemLeft" align="right" valign="top"><a id="affb90ae2cea6e6d70f8ce9af67408310"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSync</b> (unsigned char s)</td></tr>
 <tr class="separator:affb90ae2cea6e6d70f8ce9af67408310"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -543,16 +546,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>osc_on</b></td></tr>
 <tr class="memitem:afcec024ae9a876c75710a296586014e4"><td class="memItemLeft" align="right" valign="top"><a id="afcec024ae9a876c75710a296586014e4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>spare_on</b></td></tr>
 <tr class="separator:afcec024ae9a876c75710a296586014e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acefda28dde112152e5a10149a4d586d5"><td class="memItemLeft" ><a id="acefda28dde112152e5a10149a4d586d5"></a>
+<tr class="memitem:ac4919fd83e5513ab21f7ff70d2cca303"><td class="memItemLeft" ><a id="ac4919fd83e5513ab21f7ff70d2cca303"></a>
 union {</td></tr>
-<tr class="memitem:a2cb70c39660787de775e838f5514be4c"><td class="memItemLeft" >
+<tr class="memitem:a876d43413e7b43391929b0db22380f9c"><td class="memItemLeft" >
 &#160;&#160;&#160;char&#160;&#160;&#160;<b>st</b> [2]</td></tr>
-<tr class="separator:a2cb70c39660787de775e838f5514be4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed4f8e8fc445a3706e1a6d279b9e745"><td class="memItemLeft" >
+<tr class="separator:a876d43413e7b43391929b0db22380f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1077aaa27244fea3619d47f5afa221bf"><td class="memItemLeft" >
 &#160;&#160;&#160;unsigned short int&#160;&#160;&#160;<b>status</b></td></tr>
-<tr class="separator:a7ed4f8e8fc445a3706e1a6d279b9e745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acefda28dde112152e5a10149a4d586d5"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
-<tr class="separator:acefda28dde112152e5a10149a4d586d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1077aaa27244fea3619d47f5afa221bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4919fd83e5513ab21f7ff70d2cca303"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:ac4919fd83e5513ab21f7ff70d2cca303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memItemLeft" align="right" valign="top"><a id="a90c1e060bba9e7a1f0c046e3470fd3f0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>plWidth</b></td></tr>
 <tr class="separator:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,9 +616,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>zerocount</b></td></tr
 <tr class="memitem:abb55181998288d6b1e87d54820d79d40"><td class="memItemLeft" align="right" valign="top"><a id="abb55181998288d6b1e87d54820d79d40"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>need_resize</b></td></tr>
 <tr class="separator:abb55181998288d6b1e87d54820d79d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a9d33c44c4d8956a82b5a53a08a0faa"><td class="memItemLeft" align="right" valign="top"><a id="a2a9d33c44c4d8956a82b5a53a08a0faa"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>error</b></td></tr>
-<tr class="separator:a2a9d33c44c4d8956a82b5a53a08a0faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2bcecfa537692ff4e8d5a397d51c93"><td class="memItemLeft" align="right" valign="top"><a id="a9b2bcecfa537692ff4e8d5a397d51c93"></a>
+lxStringList&#160;</td><td class="memItemRight" valign="bottom"><b>Errors</b></td></tr>
+<tr class="separator:a9b2bcecfa537692ff4e8d5a397d51c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae261f463e50e212925e3feacec1a6ef8"><td class="memItemLeft" align="right" valign="top"><a id="ae261f463e50e212925e3feacec1a6ef8"></a>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>pzw_ver</b></td></tr>
 <tr class="separator:ae261f463e50e212925e3feacec1a6ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>

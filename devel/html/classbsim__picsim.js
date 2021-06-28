@@ -18,6 +18,7 @@ var classbsim__picsim =
     [ "DBGTestBP", "classbsim__picsim.html#a3162d2a28946acc8ee40f3da6c18f827", null ],
     [ "DebugInit", "classbsim__picsim.html#a0a7cc45ca5c64962245fcdba4100ace3", null ],
     [ "DebugLoop", "classbsim__picsim.html#a6c3cec4f081087aeebda4926f5e328cd", null ],
+    [ "EndServers", "classbsim__picsim.html#a3d89c28f885f1fc6d35cdf5ef0aad825", null ],
     [ "GetDebugName", "classbsim__picsim.html#a33dabd7beec5846f8511d6b9071b14b9", null ],
     [ "MDumpMemory", "classbsim__picsim.html#af8685f7dc6eddf2a19dce5cc34334616", null ],
     [ "MEnd", "classbsim__picsim.html#a4a6bb211a7b051d14887c7896d63b2e6", null ],
