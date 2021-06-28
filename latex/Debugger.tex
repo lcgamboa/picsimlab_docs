@@ -1,0 +1,73 @@
+
+\chapter{Debug Support}
+
+The type of debug interface depends on the backend simulator utilized.
+
+
+\section{MPLABX Integrated Debug (picsim and simavr) \label{mplaxd}}
+
+To use the \href{http://www.microchip.com/mplabx}{MPLABX} IDE for debug and program the PicsimLab, install the plugin \href{https://github.com/lcgamboa/picsimlab_md/releases/}{com-picsim-picsimlab.nbm} in MPLABX.
+
+The plugin connect to Picsimlab through a TCP socket using port 1234 (or other defined in configuration window), and you have to allow the access in the firewall.
+
+\hrefb{pdf/How to use MPLABX to program and debug PICsimLab.pdf}{Tutorial: how to use MPLABX to program and debug PICsimLab}.
+
+It's possible import and debug a Arduino sketch into MPLABX using the \href{https://github.com/janegilruud/chipKIT-importer-2.0}{Arduino import plugin}.
+
+\section{Arduino IDE Integration (simavr) }
+
+For integrated use with the Arduino IDE, simply configure the serial port as explained in the section \ref{seriali} and load the Arduino bootloader. The bootloader can be loaded from the ``Tools->Arduino bootloader'' menu.
+
+In Windows, considering com0com making a NULL-MODEM connection between COM1 and COM2, simply connect the PICSimLab on the COM1 port (defined in configuration window) and the Arduino IDE on the COM2 port or vice versa.
+
+On Linux the operation is the same, but using for example the ports /dev/tnt2 and /dev/tnt3.
+
+In Linux for the virtual ports to be detected in Arduino it is necessary to replace the library lib/liblistSerialsj.so of the Arduino with a version which support the detection of tty0tty ports, that can be downloaded in the link \href{https://github.com/lcgamboa/listSerialPortsC/releases} {listSerialC with tty0tty support}.
+
+
+\section{avr-gdb Debug (simavr) \label{gdbavr}}
+ 
+ With debug support enabled you can use avr-gdb to debug the code used in the simulator. 
+ Use the configuration window to choose between MDB (MPLABX) or GDB to debug AVR microcontrollers. 
+ 
+ 
+ Use avr-gdb with the .elf file as the parameter:
+ \begin{verbatim}
+ avr-gdb compiled_file.elf
+ \end{verbatim}
+ and the command below to connect (1234 is the default port):
+ \begin{verbatim}
+ target remote localhost:1234
+ \end{verbatim}
+
+Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with \href{https://eclipse.baeyens.it/}{Sloeber Arduino plugin}.
+ 
+
+ \section{arm-gdb Debug (qemu-stm32) \label{gdbarm}}
+ 
+ With debug support enabled you can use arm-none-eabi-gdb (or gdb-multiarch) to debug the code used in the simulator. 
+ 
+ Use arm-none-eabi-gdb with the .elf file as the parameter:
+ \begin{verbatim}
+ arm-none-eabi-gdb compiled_file.elf
+ \end{verbatim}
+ and the command below to connect (1234 is the default port):
+ \begin{verbatim}
+ target remote localhost:1234
+ \end{verbatim}
+
+Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with 
+\href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT}.
+ 
+\section{uCsim Debug  \label{ucsim}}
+  
+The uCsim debug console can be accessed with the telnet (1234 is the default port):
+ \begin{verbatim}
+ telnet localhost 1234
+ \end{verbatim}
+ 
+All \href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/cmd.html}{uCsim commands} are supported.  
+
+For windows users \href{https://www.putty.org/}{putty telnet client} is a good option to access the uCsim console. 
+ 
+  

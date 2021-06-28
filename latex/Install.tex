@@ -1,0 +1,97 @@
+\chapter{Install}
+
+\section{Stable version executables download} 
+
+If you are on Linux or Windows you can download the last version at:
+
+\href{https://github.com/lcgamboa/picsimlab/releases}{https://github.com/lcgamboa/picsimlab/releases}
+
+If you are on macOS you can run PICSimLab using Wine:
+
+\begin{enumerate}
+ \item  Download and install [`xquartz`](https://www.xquartz.org)
+ \item  Download and install [Wine](https://dl.winehq.org/wine-builds/macosx/download.html)
+ \item  Download the executable and double-click it to run the installer
+\end{enumerate}
+
+\section{Unstable version executables download}
+
+The binaries of last code available on github can be downloaded at: \href{https://sourceforge.net/projects/picsim/files/latest\%20code\%20build\%20\%28unstable\%29/}{Sourceforge.net}
+ 
+The unstable test version have the unreleased features of \href{https://github.com/lcgamboa/picsimlab/blob/master/CHANGELOG_auto.md}{Changelog\_auto.md}
+
+If you need a specific binary that is not available please contact me. 
+
+\section{Install from source}
+
+\subsection{Linux}
+
+ In Debian Linux and derivatives Linux native:
+
+\textbf{Using a user with permission to run the sudo command:}
+
+In first time build:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+git clone --depth=1 https://github.com/lcgamboa/picsimlab.git
+cd picsimlab
+./picsimlab_build_all_and_install.sh
+\end{minted}
+
+To recompile use:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+make -j4
+\end{minted}
+
+\subsection{Windows}
+
+ Cross-compiling for Windows (from Linux or \href{https://docs.microsoft.com/windows/wsl/install-win10}{WSL} on win10)
+
+In first time build in Debian Linux and derivatives target Windows 64 bits:
+
+ \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+git clone https://github.com/lcgamboa/picsimlab.git
+cd picsimlab
+./picsimlab_build_w64.sh
+\end{minted}
+
+To recompile use:
+
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+make FILE=Makefile.cross -j4 
+\end{minted}
+
+For target Windows 32 bits:
+
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+git clone https://github.com/lcgamboa/picsimlab.git
+cd picsimlab
+./picsimlab_build_w32.sh
+\end{minted}
+
+To recompile use:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+make FILE=Makefile.cross_32 -j4 
+\end{minted}
+
+\subsection{macOS}
+
+Theoretically it is possible to compile PICSimLab natively on macOS. But I do not have access to any computer
+ with macOS to try to compile and until today nobody has communicated that they managed to do it. (help wanted) 
+
+
+\subsection{Experimental version}
+Experimental version
+
+Experimental version can be built using the parameter "exp" on scripts:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+./picsimlab_build_all_and_install.sh exp
+./picsimlab_build_w64.sh exp
+./picsimlab_build_w32.sh exp
+\end{minted}
+And recompiled using the parameter "exp" on Makefiles:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+make -j4 exp
+make FILE=Makefile.cross -j4  exp
+make FILE=Makefile.cross_32 -j4 exp
+\end{minted}
+ 

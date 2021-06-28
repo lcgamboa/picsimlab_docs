@@ -4,15 +4,162 @@
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
-<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
+<link type='text/css' href='picsimlab.css' rel='stylesheet' /> 
 <meta content='picsimlab.tex' name='src' /> 
-<link rel='stylesheet' href='style.css' type='text/css' /> 
+<link type='text/css' href='style.css' rel='stylesheet' /> 
 </head><body>
-   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span><span class='sectionToc'>10.1 <a href='Inputs.html#x55-6000010.1'>Inputs</a></span><span class='sectionToc'>10.2 <a href='Outputs.html#x68-7300010.2'>Outputs</a></span><span class='subsectionToc'>10.2.1 <a href='7SegmentsDisplay.html#x69-7400010.2.1'>7 Segments Display</a></span><span class='subsectionToc'>10.2.2 <a href='7SegmentsDisplayDecoder.html#x70-7500010.2.2'>7 Segments Display (Decoder)</a></span><span class='subsectionToc'>10.2.3 <a href='Buzzer.html#x71-7600010.2.3'>Buzzer</a></span><span class='subsectionToc'>10.2.4 <a href='DCMotor.html#x72-7700010.2.4'>DC Motor</a></span><span class='subsectionToc'>10.2.5 <a href='LCDhd44780.html#x73-7800010.2.5'>LCD hd44780</a></span><span class='subsectionToc'>10.2.6 <a href='LCDili9341.html#x74-7900010.2.6'>LCD ili9341</a></span><span class='subsectionToc'>10.2.7 <a href='LCDpcf8833.html#x75-8000010.2.7'>LCD pcf8833</a></span><span class='subsectionToc'>10.2.8 <a href='LCDpcd8544.html#x76-8100010.2.8'>LCD pcd8544 </a></span><span class='subsectionToc'>10.2.9 <a href='LCDssd1306.html#x77-8200010.2.9'>LCD ssd1306 </a></span><span class='subsectionToc'>10.2.10 <a href='LEDMatrix.html#x78-8300010.2.10'>LED Matrix</a></span><span class='subsectionToc'>10.2.11 <a href='#x79-8400010.2.11'>LEDs</a></span><span class='subsectionToc'>10.2.12 <a href='RGBLED.html#x80-8500010.2.12'>RGB LED</a></span><span class='subsectionToc'>10.2.13 <a href='ServoMotor.html#x81-8600010.2.13'>Servo Motor</a></span><span class='subsectionToc'>10.2.14 <a href='StepMotor.html#x82-8700010.2.14'>Step Motor</a></span><span class='sectionToc'>10.3 <a href='Others.html#x83-8800010.3'>Others</a></span><span class='sectionToc'>10.4 <a href='Virtual.html#x95-10000010.4'>Virtual</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x102-10700011'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x103-10800012'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x122-12700013'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x133-14200014'>License</a></span></nav> 
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
+   </span><span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x16-150004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005'>Experimental Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006'>Serial Communication </a></span>
+    
+    
+   <span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007'>Debug Support</a></span>
+    
+    
+    
+                                                                  
+
+                                                                  
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x43-420008'>Tools</a></span>
+    
+    
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009'>Oscilloscope</a>
+   </span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010'>Spare Parts</a></span>
+    <span class='sectionToc'>10.1 <a href='Inputs.html#x55-6000010.1'>Inputs</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.2 <a href='Outputs.html#x71-7600010.2'>Outputs</a></span>
+     <span class='subsectionToc'>10.2.1 <a href='7SegmentsDisplay.html#x72-7700010.2.1'>7 Segments Display</a></span>
+     <span class='subsectionToc'>10.2.2 <a href='7SegmentsDisplayDecoder.html#x73-7800010.2.2'>7 Segments Display (Decoder)</a></span>
+     <span class='subsectionToc'>10.2.3 <a href='Buzzer.html#x74-7900010.2.3'>Buzzer</a></span>
+     <span class='subsectionToc'>10.2.4 <a href='DCMotor.html#x75-8000010.2.4'>DC Motor</a></span>
+     <span class='subsectionToc'>10.2.5 <a href='LCDhd44780.html#x76-8100010.2.5'>LCD hd44780</a></span>
+     <span class='subsectionToc'>10.2.6 <a href='LCDili9341.html#x77-8200010.2.6'>LCD ili9341</a></span>
+     <span class='subsectionToc'>10.2.7 <a href='LCDpcf8833.html#x78-8300010.2.7'>LCD pcf8833</a></span>
+     <span class='subsectionToc'>10.2.8 <a href='LCDpcd8544.html#x79-8400010.2.8'>LCD pcd8544 </a></span>
+     <span class='subsectionToc'>10.2.9 <a href='LCDssd1306.html#x80-8500010.2.9'>LCD ssd1306 </a></span>
+     <span class='subsectionToc'>10.2.10 <a href='LEDMatrix.html#x81-8600010.2.10'>LED Matrix</a></span>
+     <span class='subsectionToc'>10.2.11 <a href='#x82-8700010.2.11'>LEDs</a></span>
+     <span class='subsectionToc'>10.2.12 <a href='RGBLED.html#x83-8800010.2.12'>RGB LED</a></span>
+     <span class='subsectionToc'>10.2.13 <a href='ServoMotor.html#x84-8900010.2.13'>Servo Motor</a></span>
+     <span class='subsectionToc'>10.2.14 <a href='StepMotor.html#x85-9000010.2.14'>Step Motor</a></span>
+    <span class='sectionToc'>10.3 <a href='Others.html#x86-9100010.3'>Others</a></span>
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.4 <a href='Virtual.html#x98-10300010.4'>Virtual</a></span>
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x105-11000011'>Troubleshooting</a>
+   </span><span class='chapterToc'>12 <a href='License.html#x106-11100012'>License</a>
+   </span><span class='appendixToc'>A <a href='UsewithMPLABX.html#x107-112000A'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x126-131000B'>Creating New Boards</a></span>
+    
+     
+     
+    
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+    
+
+   </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='LEDMatrix.html'>prev</a>] [<a href='Outputs.html#LEDs.html'>up</a>] [<a href='RGBLED.html'>next</a>] </nav> 
-<h4 class='subsectionHead'><span class='titlemark'>10.2.11    </span> <a id='x79-8400010.2.11'></a>LEDs</h4>
-<!-- l. 452 --><p class='noindent'>This part is a bar of 8 independent red LEDs.
+<h4 class='subsectionHead'><span class='titlemark'>10.2.11    </span> <a id='x82-8700010.2.11'></a>LEDs</h4>
+<!-- l. 495 --><p class='noindent'>This part is a bar of 8 independent red LEDs.
 </p>
    <figure class='figure'> 
 
@@ -22,7 +169,7 @@
                                                                   
 
                                                                   
-<!-- l. 456 --><p class='noindent'><img style='width:99%' src='img/part_leds.png' alt='PIC' />
+<!-- l. 499 --><p class='noindent'><img src='img/part_leds.png' style='width:99%' alt='PIC' />
                                                                   
 
                                                                   
@@ -36,18 +183,18 @@
                                                                   
 
                                                                   
-<!-- l. 461 --><p class='noindent'><img style='width:80%' src='img/part_leds_.png' alt='PIC' />
+<!-- l. 504 --><p class='noindent'><img src='img/part_leds_.png' style='width:80%' alt='PIC' />
                                                                   
 
                                                                   
 </p>
    </figure>
-<!-- l. 464 --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/examples/examples_index.html#LEDs' target='_blank'>Examples</a>
+<!-- l. 507 --><p class='indent'>   <a target='_blank' href='https://lcgamboa.github.io/picsimlab_examples/examples/examples_index.html#LEDs'>Examples</a>
                                                                   
 
                                                                   
 </p>
-   <nav class='crosslinks-bottom'>[<a href='LEDMatrix.html'>prev</a>] [<a href='Outputs.html#LEDs.html'>up</a>] [<a href='RGBLED.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
+   <nav class='crosslinks-bottom'>[<a href='LEDMatrix.html'>prev</a>] [<a href='Outputs.html#LEDs.html'>up</a>] [<a href='RGBLED.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

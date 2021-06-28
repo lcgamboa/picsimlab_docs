@@ -6,9 +6,9 @@ PICSimLab 0.8.9</title>
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
-<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
+<link type='text/css' href='picsimlab.css' rel='stylesheet' /> 
 <meta content='picsimlab.tex' name='src' /> 
-<link rel='stylesheet' href='style.css' type='text/css' /> 
+<link type='text/css' href='style.css' rel='stylesheet' /> 
 </head><body>
    <div class='maketitle'>
                                                                   
@@ -21,14 +21,14 @@ PICSimLab 0.8.9</title>
 <h2 class='titleHead'>   <br />
   <br />
   <br />
-<img style='width:18.62%' src='img/logo.png' alt='PIC' /><br />
+<img src='img/logo.png' style='width:18.62%' alt='PIC' /><br />
 PICSimLab 0.8.9</h2>
 <div class='author'><span class='ptmr8t-x-x-120'>Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span><br />
-<br />                  <span class='ptmr8t-x-x-120'>Download: </span><a href='https://github.com/lcgamboa/picsimlab' target='_blank'><span class='ptmr8t-x-x-120'>github</span></a><br />
-<br />            <a href='picsimlab.pdf' target='_blank'><span class='ptmr8t-x-x-120'>PDF version of documentation</span></a><br />
-<br />               <a href='https://twitter.com/PICSimLab' target='_blank'><span class='ptmr8t-x-x-120'>PICSimLab on Twitter</span></a><br />
-<br />               <a href='https://discord.gg/fMT8szFYq7' target='_blank'><span class='ptmr8t-x-x-120'>PICSimLab on Discord</span></a> </div><br />
-<div class='date'><span class='ptmr8t-x-x-120'>June 21, 2021</span></div>
+<br />                  <span class='ptmr8t-x-x-120'>Download: </span><a target='_blank' href='https://github.com/lcgamboa/picsimlab'><span class='ptmr8t-x-x-120'>github</span></a><br />
+<br />            <a target='_blank' href='picsimlab.pdf'><span class='ptmr8t-x-x-120'>PDF version of documentation</span></a><br />
+<br />               <a target='_blank' href='https://twitter.com/PICSimLab'><span class='ptmr8t-x-x-120'>PICSimLab on Twitter</span></a><br />
+<br />               <a target='_blank' href='https://discord.gg/fMT8szFYq7'><span class='ptmr8t-x-x-120'>PICSimLab on Discord</span></a> </div><br />
+<div class='date'><span class='ptmr8t-x-x-120'>June 28, 2021</span></div>
                                                                   
 
                                                                   
@@ -36,7 +36,152 @@ PICSimLab 0.8.9</h2>
                                                                   
 
                                                                   
-   <nav class='TOC'><span class='chapterToc'>1 <a href='Introduction.html#x3-20001' id='QQ2-3-2'>Introduction</a></span><span class='chapterToc'>2 <a href='Install.html#x4-30002' id='QQ2-4-3'>Install</a></span><span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003' id='QQ2-11-10'>Simulator Interface</a></span><span class='chapterToc'>4 <a href='Boards.html#x16-150004' id='QQ2-16-15'>Boards</a></span><span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005' id='QQ2-25-25'>Experimental Boards</a></span><span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006' id='QQ2-34-34'>Serial Communication </a></span><span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007' id='QQ2-37-37'>Debug Support</a></span><span class='chapterToc'>8 <a href='Tools.html#x43-420008' id='QQ2-43-43'>Tools</a></span><span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009' id='QQ2-53-59'>Oscilloscope</a></span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010' id='QQ2-54-60'>Spare Parts</a></span><span class='chapterToc'>11 <a href='Troubleshooting.html#x102-10700011' id='QQ2-102-108'>Troubleshooting</a></span><span class='chapterToc'>12 <a href='UsewithMPLABX.html#x103-10800012' id='QQ2-103-109'>Use with MPLABX</a></span><span class='chapterToc'>13 <a href='CreatingNewBoards.html#x122-12700013' id='QQ2-122-128'>Creating New Boards</a></span><span class='chapterToc'>14 <a href='License.html#x133-14200014' id='QQ2-133-142'>License</a></span></nav> 
+                                                                  
+
+                                                                  
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001' id='QQ2-2-1'>Introduction</a>
+   </span><span class='chapterToc'>2 <a href='Install.html#x3-20002' id='QQ2-3-2'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003' id='QQ2-11-10'>Simulator Interface</a></span>
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x16-150004' id='QQ2-16-15'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x25-240005' id='QQ2-25-25'>Experimental Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunicationlabelseriali.html#x34-330006' id='QQ2-34-34'>Serial Communication </a></span>
+    
+    
+   <span class='chapterToc'>7 <a href='DebugSupport.html#x37-360007' id='QQ2-37-37'>Debug Support</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x43-420008' id='QQ2-43-43'>Tools</a></span>
+    
+    
+     
+                                                                  
+
+                                                                  
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x53-580009' id='QQ2-53-59'>Oscilloscope</a>
+   </span><span class='chapterToc'>10 <a href='SpareParts.html#x54-5900010' id='QQ2-54-60'>Spare Parts</a></span>
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x105-11000011' id='QQ2-105-111'>Troubleshooting</a>
+   </span><span class='chapterToc'>12 <a href='License.html#x106-11100012' id='QQ2-106-112'>License</a>
+   </span><span class='appendixToc'>A <a href='UsewithMPLABX.html#x107-112000A' id='QQ2-107-113'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x126-131000B' id='QQ2-126-132'>Creating New Boards</a></span>
+    
+     
+     
+    
+     
+     
+     
+     
+     
+     
+   </nav> 
  
 
                                                                   
@@ -86,15 +231,14 @@ PICSimLab 0.8.9</h2>
                                                                   
 
                                                                   
-
                                                                   
 
                                                                   
-
+<a id='x1-111001r112'></a>
                                                                   
 
                                                                   
-<div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p>  
+<a id='x1-130001r112'></a><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

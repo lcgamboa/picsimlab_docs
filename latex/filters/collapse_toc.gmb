@@ -1,0 +1,142 @@
+-- return toc element type and it's id
+local function get_id(el)
+  local name =  el:get_attribute "class"
+  local a = el:query_selector "a" or {}
+  local first = a[1]
+  local href = first:get_attribute "href"
+  local id = href:match("#(.+)$")
+  return name, id
+end
+
+local function remove_sections(part_elements, currentpart)
+  -- we need to remove toc entries from the previous part if the 
+  -- current document isn't part of it
+  if currentpart == false then
+    for _, part in ipairs(part_elements) do
+      part:remove_node()
+    end
+  end
+end
+
+local function tablel(T)
+  local count = 0
+  for _ in pairs(T) do count = count + 1 end
+  return count
+end
+
+
+-- remove sections from other chapters from TOC
+local function toc_sections (dom)
+  -- local dom = domobject.parse(s)
+  -- search sectioning elements
+  local titles = dom:query_selector(".partHead a, .chapterHead a, .sectionHead a, .subsectionHead a")
+  local section_ids = {}
+  for _, x in ipairs(titles) do
+    -- get their id attributes and save them in a table
+    section_ids[#section_ids+1] = x:get_attribute("id")
+    --print("================================")
+    --print("==>",section_ids[#section_ids])
+  end
+  -- we need to retrieve the first table of contents
+  local toctables = dom:query_selector("nav.TOC") or {}
+  -- process only when we got a TOC
+  if #toctables > 0 then
+    local tableofcontents = toctables[1]
+    -- all toc entries are in span elements
+    local toc = tableofcontents:query_selector("span")
+    local currentpart = false
+    local delsub = false; 
+    local currentname = ""
+    local part_elements = {}
+    local part_elements_sub = {}
+    for _, el in ipairs(toc) do
+      -- get sectioning level and id of the current TOC entry
+      local name, id = get_id(el)
+      --print("id ",id," name ",name,"  currentname ",currentname)
+       if name == "chapterToc" then
+        remove_sections(part_elements,currentpart)
+        --remove_sections(part_elements_sub,currentpart)
+        -- reset toc list
+        currentpart = false
+        part_elements = {}
+       elseif currentname == "chapterToc" then 
+	  if  name == "sectionToc" then
+	     part_elements[#part_elements+1] = el
+          else
+	     el:remove_node()
+          end		  
+       elseif currentname == "sectionToc" then 
+	  if  name == "sectionToc" then
+	     part_elements[#part_elements+1] = el
+             delsub=true; 
+	  elseif  name == "subsectionToc" and delsub then
+	     el:remove_node()
+          else
+	     part_elements[#part_elements+1] = el
+          end		  
+       elseif currentname == "subsectionToc" then 
+	  if  name == "sectionToc" then
+	     part_elements[#part_elements+1] = el
+             delsub=true; 
+	     --remove_sections(part_elements_sub,false)
+	  elseif  name == "subsectionToc" and delsub then
+	     el:remove_node()
+	  else
+	      part_elements[#part_elements+1] = el
+          end		  
+       else
+        -- add child elements of part to table
+	  part_elements[#part_elements+1] = el
+          if  name == "subsectionToc" then
+	    part_elements_sub[#part_elements_sub+1] = el
+          end  
+      end
+      for _, sectid in ipairs(section_ids) do
+        -- detect if the current TOC entry match some sectioning element in the current document
+        if id == sectid then
+          currentpart = true
+	  currentname = name
+          --print("match", id, "name", name)
+	  if name == "sectionToc" then
+	     remove_sections(part_elements_sub,false)
+             delsub=false;
+          end   
+	  if name == "subsectionToc" then
+	    part_elements_sub[#part_elements_sub] = nil
+	    --part_elements_sub={}
+	    --don't remove until reach sectionToc
+	    local remove=false;
+	    for cp, dpart in ipairs(part_elements) do
+                part = part_elements[#part_elements + 1 - cp]
+		if part ~= nil then
+		  local pname, pid = get_id(part)
+		  --print("    =>pname",pname,"  pid ",pid)
+		  if pname == "subsectionToc" then
+                    if remove then
+		      part:remove_node()
+		    end
+	          elseif pname == "sectionToc" then
+		    remove = true  
+	          end
+	        end  
+            end
+          end   
+        end
+      end
+    end
+    -- remove sections from the last part
+    remove_sections(part_elements,currentpart)
+    --remove_sections(part_elements_sub,currentpart)
+    -- remove unneeded br elements
+    local br = tableofcontents:query_selector("br")
+    for _, el in ipairs(br) do el:remove_node() end
+    -- remove unneded whitespace
+    for _, el in ipairs(tableofcontents:get_children()) do
+      if el:is_text() then el:remove_node() end
+    end
+  end
+  return dom
+  --% return dom:serialize()
+end 
+
+return toc_sections

@@ -1,0 +1,22 @@
+-- local domobject = require "luaxml-domobject"
+
+
+local filter = require "make4ht-filter"
+local domfilter = require "make4ht-domfilter"
+
+-- this probably isn't necessary anymore, as we replaced listings with minted
+local fix_code_blocks = require "filters.fix_code_blocks"
+-- Keep only top section levels from other than current chapter
+local toc_sections = require "filters.collapse_toc"
+-- clean CSS file from duplicate colors
+local join_colors = require "filters.join_colors"
+
+filter_settings "collapsetoc" {
+  toc_query = "nav.TOC"
+}
+
+local process = domfilter{toc_sections, fix_code_blocks, join_colors}
+--local process = domfilter{"collapsetoc", fix_code_blocks, join_colors}
+
+-- it removed the whole TOC. What is the issue?
+Make:match("html$", process)

@@ -1,0 +1,117 @@
+\documentclass[oneside]{book}
+
+
+\usepackage[english]{babel}          % em portuguÃªs brasileiro
+\usepackage[utf8]{inputenc}       % acentuação direta
+\usepackage[T1]{fontenc}            % codificaço da fonte em 8 bits
+%\usepackage[active]{srcltx}         % pesquisa inversa no KDVI (arquivos no diretorio do fonte tex:
+%\usepackage{pstricks}
+%\usepackage{colortbl}
+%\usepackage{ascii}
+%\usepackage{textcomp}
+\usepackage{float}
+\usepackage{minted} 
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{xcolor}
+%\usepackage{minitoc}
+\usepackage{html}
+\usepackage{hyperref}
+
+%para gerar pdf
+\def\PNversion{0.8.9}
+\def\FileAuthor{Luis Claudio Gambôa Lopes}
+\def\FileTitle{PICSimLab \PNversion}
+
+\title{ ~~\\ ~~\\ ~~\\ \includegraphics[scale=1.0]{img/logo.png} \\ PICSimLab \PNversion}
+\author{Luis Claudio Gambôa Lopes  <lcgamboa@yahoo.com>\\
+\\
+{\centering Download: \href{https://github.com/lcgamboa/picsimlab}{github}}
+\\
+\ifpdf
+\\
+{\centering \href{https://lcgamboa.github.io/picsimlab\_docs/\PNversion/}{HTML version of documentation}} 
+\else
+\\
+{\centering \hrefb{picsimlab.pdf}{PDF version of documentation}} 
+\fi
+\\
+\\
+{\centering \href{https://twitter.com/PICSimLab}{PICSimLab on Twitter}}
+\\
+\\
+{\centering \href{https://discord.gg/fMT8szFYq7}{PICSimLab on Discord}}
+}
+
+\date{\today}
+
+
+ \hypersetup{
+     colorlinks,
+     linkcolor={red!50!black},
+     citecolor={blue!50!black},
+     urlcolor={blue!80!black}
+}
+
+
+\definecolor{fore}{HTML}{1f497d}
+\definecolor{codec}{HTML}{ffffcc}
+\definecolor{colorbash}{rgb}{0.94,0.94,0.94}
+
+
+%\includeonly{how_to_board}
+
+\begin{document}
+
+%begin{latexonly}
+\def\hrefb#1#2{\href{#1}{#2}}
+\def\hrefr#1#2{\href{run:#1}{#2}}
+%end{latexonly}
+
+
+\maketitle
+
+\ifdefined\HCode\else
+\tableofcontents
+\fi
+
+\include{Introduction}
+\include{Install}
+\include{Interface}
+\include{Boards}
+\include{EBoards}
+\include{Serial}
+\include{Debugger}
+\include{Tools}
+\include{Oscilloscope}
+\include{Spare}
+\include{Troubleshooting}
+
+
+\chapter{License}
+
+Copyright © 2021 Luis Claudio Gambôa Lopes <lcgamboa@yahoo.com>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330,
+Boston, MA 02111-1307, USA.
+
+\appendix
+
+\include{how_to_mplabx}
+\include{how_to_board}
+
+
+
+\end{document}
