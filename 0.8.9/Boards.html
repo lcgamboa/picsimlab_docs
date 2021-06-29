@@ -4,9 +4,9 @@
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
-<link type='text/css' href='picsimlab.css' rel='stylesheet' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta content='picsimlab.tex' name='src' /> 
-<link type='text/css' href='style.css' rel='stylesheet' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -161,7 +161,7 @@
 <h2 class='chapterHead'><span class='titlemark'>Chapter 4</span><br /><a id='x16-150004'></a>Boards</h2>
 <!-- l. 3 --><p class='noindent'><a id='def:boards'></a>
 </p><!-- l. 5 --><p class='indent'>   PICSimLab currently supports five backend simulators. The stable version supports
-<a target='_blank' href='https://github.com/lcgamboa/picsim'>picsim</a> and <a target='_blank' href='https://github.com/buserror/simavr'>simavr</a>. The experimental version supports <a target='_blank' href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/'>uCsim</a>, <a target='_blank' href='http://gpsim.sourceforge.net/'>gpsim</a> and <a target='_blank' href='http://beckus.github.io/qemu_stm32/'>qemu-stm32</a> in
+<a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a> and <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>. The experimental version supports <a href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a> and <a href='http://beckus.github.io/qemu_stm32/' target='_blank'>qemu-stm32</a> in
 addition to the stable ones.
 </p><!-- l. 11 --><p class='indent'>   The Figure <a href='#x16-15001r1'>4.1<!-- tex4ht:ref: bback  --></a> shows which cards are based on which backend simulator:
 </p>
@@ -174,7 +174,7 @@ addition to the stable ones.
                                                                   
 
                                                                   
-<!-- l. 15 --><p class='noindent'><img src='img/boards.png' style='width:65%' alt='PIC' />
+<!-- l. 15 --><p class='noindent'><img style='width:65%' src='img/boards.png' alt='PIC' />
 </p>
 <figcaption class='caption'><span class='id'>Figure 4.1:</span><span class='content'>Boards backend simulators </span></figcaption><!-- tex4ht:label?: x16-15001r1  -->
                                                                   
@@ -186,12 +186,12 @@ addition to the stable ones.
 <div class='center'>
 <!-- l. 22 --><p class='noindent'>
 </p>
-<div class='tabular'> <table class='tabular' id='TBL-2' rules='groups'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /></colgroup><colgroup id='TBL-2-2g'><col id='TBL-2-2' /></colgroup><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-1-'><td class='td11' id='TBL-2-1-1' style='text-align:center; white-space:nowrap;'> <span class='textbf'>Backend</span>  </td><td class='td11' id='TBL-2-1-2' style='text-align:center; white-space:nowrap;'>                      <span class='textbf'>Debug Support</span>                                                     </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-2-'><td class='td11' id='TBL-2-2-1' style='text-align:center; white-space:nowrap;'>  picsim     </td><td class='td11' id='TBL-2-2-2' style='text-align:center; white-space:nowrap;'>            MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x38-370007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>)                              </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-3-'><td class='td11' id='TBL-2-3-1' style='text-align:center; white-space:nowrap;'>  simavr     </td><td class='td11' id='TBL-2-3-2' style='text-align:center; white-space:nowrap;'>MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x38-370007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>) and remote avr-gdb (see section <a href='avrgdbDebugsimavrlabelgdbavr.html#x40-390007.3'>7.3<!-- tex4ht:ref: gdbavr  --></a>)</td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-4-'><td class='td11' id='TBL-2-4-1' style='text-align:center; white-space:nowrap;'>qemu-stm32</td><td class='td11' id='TBL-2-4-2' style='text-align:center; white-space:nowrap;'>                remote arm-gdb (see Chapter <a href='armgdbDebugqemustm32labelgdbarm.html#x41-400007.4'>7.4<!-- tex4ht:ref: gdbarm  --></a>)                                       </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-5-'><td class='td11' id='TBL-2-5-1' style='text-align:center; white-space:nowrap;'>  uCsim     </td><td class='td11' id='TBL-2-5-2' style='text-align:center; white-space:nowrap;'>            uCsim remote console (telnet) (see section <a href='uCsimDebuglabelucsim.html#x42-410007.5'>7.5<!-- tex4ht:ref: ucsim  --></a>)                            </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-6-'><td class='td11' id='TBL-2-6-1' style='text-align:center; white-space:nowrap;'>  gpsim     </td><td class='td11' id='TBL-2-6-2' style='text-align:center; white-space:nowrap;'>                         none yet                                                           </td>
+<div class='tabular'> <table rules='groups' id='TBL-2' class='tabular'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /></colgroup><colgroup id='TBL-2-2g'><col id='TBL-2-2' /></colgroup><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-1-1' style='text-align:center; white-space:nowrap;'> <span class='textbf'>Backend</span>  </td><td class='td11' id='TBL-2-1-2' style='text-align:center; white-space:nowrap;'>                      <span class='textbf'>Debug Support</span>                                                     </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-2-1' style='text-align:center; white-space:nowrap;'>  picsim     </td><td class='td11' id='TBL-2-2-2' style='text-align:center; white-space:nowrap;'>            MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x38-370007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>)                              </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-3-1' style='text-align:center; white-space:nowrap;'>  simavr     </td><td class='td11' id='TBL-2-3-2' style='text-align:center; white-space:nowrap;'>MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x38-370007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>) and remote avr-gdb (see section <a href='avrgdbDebugsimavrlabelgdbavr.html#x40-390007.3'>7.3<!-- tex4ht:ref: gdbavr  --></a>)</td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-4-1' style='text-align:center; white-space:nowrap;'>qemu-stm32</td><td class='td11' id='TBL-2-4-2' style='text-align:center; white-space:nowrap;'>                remote arm-gdb (see Chapter <a href='armgdbDebugqemustm32labelgdbarm.html#x41-400007.4'>7.4<!-- tex4ht:ref: gdbarm  --></a>)                                       </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-5-1' style='text-align:center; white-space:nowrap;'>  uCsim     </td><td class='td11' id='TBL-2-5-2' style='text-align:center; white-space:nowrap;'>            uCsim remote console (telnet) (see section <a href='uCsimDebuglabelucsim.html#x42-410007.5'>7.5<!-- tex4ht:ref: ucsim  --></a>)                            </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr id='TBL-2-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-2-6-1' style='text-align:center; white-space:nowrap;'>  gpsim     </td><td class='td11' id='TBL-2-6-2' style='text-align:center; white-space:nowrap;'>                         none yet                                                           </td>
 </tr><tr class='hline'><td><hr /></td><td><hr /></td></tr></table></div></div>
    <div class='sectionTOCS'>
     <span class='sectionToc'>4.1 <a href='Breadboard.html#x17-160004.1'>Breadboard</a></span>
@@ -213,7 +213,7 @@ addition to the stable ones.
                                                                   
 
                                                                   
-   <nav class='crosslinks-bottom'>[<a href='SimulatorInterface.html'>prev</a>] [<a href='picsimlab.html#Boards.html'>up</a>] [<a href='ExperimentalBoards.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='SimulatorInterface.html'>prev</a>] [<a href='picsimlab.html#Boards.html'>up</a>] [<a href='ExperimentalBoards.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

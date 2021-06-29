@@ -4,9 +4,9 @@
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
-<link type='text/css' href='picsimlab.css' rel='stylesheet' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta content='picsimlab.tex' name='src' /> 
-<link type='text/css' href='style.css' rel='stylesheet' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -159,34 +159,34 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Linux.html'>prev</a>] [<a href='Installfromsource.html#Windows.html'>up</a>] [<a href='macOS.html'>next</a>] </nav> 
 <h4 class='subsectionHead'><span class='titlemark'>2.3.2    </span> <a id='x8-70002.3.2'></a>Windows</h4>
-<!-- l. 47 --><p class='noindent'>Cross-compiling for Windows (from Linux or <a target='_blank' href='https://docs.microsoft.com/windows/wsl/install-win10'>WSL</a> on win10)
+<!-- l. 47 --><p class='noindent'>Cross-compiling for Windows (from Linux or <a href='https://docs.microsoft.com/windows/wsl/install-win10' target='_blank'>WSL</a> on win10)
 </p><!-- l. 49 --><p class='indent'>   In first time build in Debian Linux and derivatives target Windows 64 bits:
 </p>
-   <div class='minted-color-box' style='background-color:#F0F0F0'>
-   <pre class='fancyvrb' id='fancyvrb3'><a id='x8-7005r1'></a><span class='pcrr8t-x-x-80'>git clone https://github.com/lcgamboa/picsimlab.git</span> 
+   <div style='background-color:#F0F0F0' class='minted-color-box'>
+   <pre id='fancyvrb3' class='fancyvrb'><a id='x8-7005r1'></a><span class='pcrr8t-x-x-80'>git clone https://github.com/lcgamboa/picsimlab.git</span> 
 <a id='x8-7007r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>cd</span></span><span class='pcrr8t-x-x-80'> picsimlab</span> 
 <a id='x8-7009r3'></a><span class='pcrr8t-x-x-80'>./picsimlab_build_w64.sh</span></pre>
 </div>
 <!-- l. 57 --><p class='indent'>   To recompile use:
 </p>
-   <div class='minted-color-box' style='background-color:#F0F0F0'>
-   <pre class='fancyvrb' id='fancyvrb4'><a id='x8-7012r1'></a><span class='pcrr8t-x-x-80'>make </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>FILE</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross -j4</span></pre>
+   <div style='background-color:#F0F0F0' class='minted-color-box'>
+   <pre id='fancyvrb4' class='fancyvrb'><a id='x8-7012r1'></a><span class='pcrr8t-x-x-80'>make </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>FILE</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross -j4</span></pre>
 </div>
 <!-- l. 63 --><p class='indent'>   For target Windows 32 bits:
 </p>
-   <div class='minted-color-box' style='background-color:#F0F0F0'>
-   <pre class='fancyvrb' id='fancyvrb5'><a id='x8-7017r1'></a><span class='pcrr8t-x-x-80'>git clone https://github.com/lcgamboa/picsimlab.git</span> 
+   <div style='background-color:#F0F0F0' class='minted-color-box'>
+   <pre id='fancyvrb5' class='fancyvrb'><a id='x8-7017r1'></a><span class='pcrr8t-x-x-80'>git clone https://github.com/lcgamboa/picsimlab.git</span> 
 <a id='x8-7019r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>cd</span></span><span class='pcrr8t-x-x-80'> picsimlab</span> 
 <a id='x8-7021r3'></a><span class='pcrr8t-x-x-80'>./picsimlab_build_w32.sh</span></pre>
 </div>
 <!-- l. 71 --><p class='indent'>   To recompile use:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
-   <pre class='fancyvrb' id='fancyvrb6'><a id='x8-7024r1'></a><span class='pcrr8t-x-x-80'>make </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>FILE</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross_32 -j4</span></pre>
+</p><div style='background-color:#F0F0F0' class='minted-color-box'>
+   <pre id='fancyvrb6' class='fancyvrb'><a id='x8-7024r1'></a><span class='pcrr8t-x-x-80'>make </span><span class='textcolor-19167c'><span class='pcrr8t-x-x-80'>FILE</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross_32 -j4</span></pre>
 </div>
                                                                   
 
                                                                   
-   <nav class='crosslinks-bottom'>[<a href='Linux.html'>prev</a>] [<a href='Installfromsource.html#Windows.html'>up</a>] [<a href='macOS.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='Linux.html'>prev</a>] [<a href='Installfromsource.html#Windows.html'>up</a>] [<a href='macOS.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>
