@@ -33,12 +33,14 @@ The menus and their functions are listed below:
 \end{itemize}
 \item Board
 \begin{itemize}
+\item Arduino Uno - Choose board Arduino Uno
 \item Breadboard - Choose board Breadboard
-\item McLab1 - Choose board McLab1
+\item Franzininho - Choose board Franzininho
 \item K16F - Choose board K16F
+\item McLab1 - Choose board McLab1
 \item McLab2 - Choose board McLab2
 \item PICGenios - Choose board PICGenios
-\item Arduino Uno - Choose board Arduino Uno
+\item PQDB - Choose board PQDB
 \end{itemize}
 \item Microcontroller
 \begin{itemize}
@@ -90,6 +92,8 @@ On the interface area of the board it is possible to interact in some ways:
  \item Click in ICSP connector to load an .hex file.
  \item Click in PWR button to ON/OFF the emulator..
  \item The buttons can be activated through mouse or keys 1, 2, 3 e 4.
+ \item Click and drag in potentiometers to change their values.
+ \item Click on EEPROM memory to view its contents.
 \end{itemize}
 
 
@@ -280,6 +284,52 @@ set apin[20] 2.345
 
 
 
+For windows users \href{https://www.putty.org/}{putty telnet client} is a good option 
+to access the remote control interface. 
 
 
-For windows users \href{https://www.putty.org/}{putty telnet client} is a good option. 
+\section{Picture Map Reference}\hypertarget{def:map}{}
+
+Names used in .map files for boards and parts are standardized and used by the remote control interface. 
+
+The names must start with \textbf{I\_} if it is an input, \textbf{O\_} if it is an output, or \textbf{B\_} if it
+is bidirectional. 
+Followed by one of the two-letter types in the table below before the area name. 
+
+{%
+\newcommand{\mc}[3]{\multicolumn{#1}{#2}{#3}}
+\begin{center}
+\begin{tabular}{cclcc}
+\textbf{Function} & \textbf{Type} & \mc{1}{c}{\textbf{Description}} & \textbf{RControl In} & \textbf{RControl Out}\\
+I & MD & Memory Dump & - & -\\
+I & KB & Keyboard Key & 0 or 1 & 0 or 1\\
+I & PG & Program & - & -\\
+I & CN & Connector & - & -\\
+B & PO & Potentiometer & 0 to 200 & 0 to 200\\
+B & JP & Jumper & 0 or 1 & 0 or 1\\
+B & VS & Value short & -32768 to 32767 & -32768 to 32767\\
+B & PB & Push button & 0 or 1 & 0 or 1\\
+B & DP & Dip switch & 0 or 1 & 0 or 1\\
+B & SW & Switch & 0 or 1 & 0 or 1\\
+B & RT & Rotary encoder & 0 to 200 & 0 to 200\\
+B & AJ & Dip switch & - & -\\
+O & MC & Motor Cooler & - & 0 to 200\\
+O & PN & Pin name & - & -\\
+O & ST & Status & - & -\\
+O & IC & IC name & - & -\\
+O & LR & LED RGB & - & -\\
+O & LM & LED Matrix & - & -\\
+O & DI & Display Info & - & -\\
+O & LD & LED & - & 0 to 200\\
+O & DS & Display & - & if alphanumeric show text\\
+O & MT & DC motor & - & dir 0 or 1, spd. 0 to 200, pos. 0 to 200\\
+O & DG & Degree & - & float angle\\
+O & SS & seven segment & - & decoded number\\
+\end{tabular}
+\end{center}
+}
+ 
+
+For example area named \textbf{B\_PB\_Start}, which describes the position of a push button named "Start". 
+The \textbf{B\_} bidirectional indicates that the mapped area serves as user action input and drawing output.  
+ 

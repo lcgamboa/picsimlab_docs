@@ -49,7 +49,7 @@ In the configuration shown in the figure below, the COM1 and COM2 ports form a N
  
 \section{tty0tty Installation and Configuration (Linux)}
  
-Download the \ href {https://github.com/lcgamboa/tty0tty/archive/master.zip} {tty0tyy}.
+Download the \href{https://github.com/lcgamboa/tty0tty/archive/master.zip}{tty0tyy}.
 Unzip the downloaded folder.
  
 Open a terminal and enter in the tty0tty/module/ folder and enter the following commands:
@@ -57,8 +57,8 @@ Open a terminal and enter in the tty0tty/module/ folder and enter the following 
  sudo apt-get update
  sudo apt-get -y upgrade
  sudo apt-get -y install gcc make linux-headers-`uname -r` 
- make
- sudo make install 
+ sudo ./dkms-install.sh
+ sudo modprobe tty0tty
 \end{verbatim}
 
 The user must be in the \textbf{dialout} group to access the ports. 
