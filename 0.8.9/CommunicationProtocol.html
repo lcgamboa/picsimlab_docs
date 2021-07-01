@@ -167,7 +167,7 @@
 second byte with value 0x00 for disable or 0x01 for enable.
 </p><!-- l. 75 --><p class='indent'>   Example to turn on the input 2:
 </p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre class='fancyvrb' id='fancyvrb20'><a id='x49-49004r1'></a><span class='pcrr8t-x-x-80'>            Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x02</span></span><span class='pcrr8t-x-x-80'>);</span> 
+   <pre id='fancyvrb20' class='fancyvrb'><a id='x49-49004r1'></a><span class='pcrr8t-x-x-80'>            Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x02</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-49006r2'></a><span class='pcrr8t-x-x-80'>            Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x01</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
 </div>
 <!-- l. 82 --><p class='noindent'>
@@ -177,7 +177,7 @@ second byte with value 0x00 for disable or 0x01 for enable.
 byte. The byte readed have value 0x00 for disable or 0x01 for enable.
 </p><!-- l. 85 --><p class='indent'>   Example to read output 3:
 </p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre class='fancyvrb' id='fancyvrb21'><a id='x49-50004r1'></a><span class='pcrr8t-x-x-80'>      Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x13</span></span><span class='pcrr8t-x-x-80'>);</span> 
+   <pre id='fancyvrb21' class='fancyvrb'><a id='x49-50004r1'></a><span class='pcrr8t-x-x-80'>      Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x13</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-50006r2'></a><span class='pcrr8t-x-x-80'>      valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
 </div>
 <!-- l. 92 --><p class='noindent'>
@@ -190,7 +190,7 @@ bytes with the 16 bits value.
                                                                   
 
                                                                   
-   <pre class='fancyvrb' id='fancyvrb22'><a id='x49-51006r1'></a><span class='pcrr8t-x-x-80'>            Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x21</span></span><span class='pcrr8t-x-x-80'>);</span> 
+   <pre id='fancyvrb22' class='fancyvrb'><a id='x49-51006r1'></a><span class='pcrr8t-x-x-80'>            Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x21</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-51008r2'></a><span class='pcrr8t-x-x-80'>            valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=230</span></span><span class='pcrr8t-x-x-80'>;</span> 
 <a id='x49-51010r3'></a><span class='pcrr8t-x-x-80'>            Serial_write((valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&amp;0xFF00</span></span><span class='pcrr8t-x-x-80'>)</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&gt;&gt;8</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-51012r4'></a><span class='pcrr8t-x-x-80'>            Serial_write(valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&amp;0x00FF</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
@@ -202,7 +202,7 @@ bytes with the 16 bits value.
 bytes to form the 16 bits value.
 </p><!-- l. 106 --><p class='indent'>   Example to read analog output 2:
 </p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre class='fancyvrb' id='fancyvrb23'><a id='x49-52006r1'></a><span class='pcrr8t-x-x-80'>      Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x32</span></span><span class='pcrr8t-x-x-80'>);</span> 
+   <pre id='fancyvrb23' class='fancyvrb'><a id='x49-52006r1'></a><span class='pcrr8t-x-x-80'>      Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x32</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-52008r2'></a><span class='pcrr8t-x-x-80'>      valorh</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-52010r3'></a><span class='pcrr8t-x-x-80'>      valorl</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-52012r4'></a><span class='pcrr8t-x-x-80'>      valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>(valorh</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&lt;&lt;8</span></span><span class='pcrr8t-x-x-80'>)</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>|</span></span><span class='pcrr8t-x-x-80'>valorl;</span></pre>
@@ -210,7 +210,7 @@ bytes to form the 16 bits value.
                                                                   
 
                                                                   
-   <nav class='crosslinks-bottom'>[<a href='Sensors.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='Sensors.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>
