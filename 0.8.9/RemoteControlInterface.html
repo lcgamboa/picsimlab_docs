@@ -1,12 +1,12 @@
 <!DOCTYPE html> 
-<html xml:lang='en' lang='en'> 
+<html lang='en' xml:lang='en'> 
 <head><title>Remote Control Interface</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -141,15 +141,16 @@
      
      
      
-    
-   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x129-132000B'>Creating New Boards</a></span>
-    
      
+    
+   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x130-133000B'>Creating New Boards</a></span>
+    
      
      
                                                                   
 
                                                                   
+     
      
      
      
@@ -241,6 +242,9 @@ nc:
 </div>
 <!-- l. 202 --><p class='indent'>   The “pinsl” command show all pins info in text formatted output:
 </p><div style='background-color:#F0F0F0' class='minted-color-box'>
+                                                                  
+
+                                                                  
    <pre id='fancyvrb15' class='fancyvrb'><a id='x15-14216r1'></a><span class='pcrr8t-x-x-80'>pinsl</span> 
 <a id='x15-14218r2'></a><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>28</span></span><span class='pcrr8t-x-x-80'> pins </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>atmega328p</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>:</span> 
 <a id='x15-14220r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC6/RST "</span></span> 
@@ -272,9 +276,6 @@ nc:
 <a id='x15-14272r29'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[27]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>179</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC4/A4  "</span></span> 
 <a id='x15-14274r30'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[28]</span></span><span class='pcrr8t-x-x-80'> D O </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>186</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC5/A5  "</span></span> 
 <a id='x15-14276r31'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
-                                                                  
-
-                                                                  
 </div>
 <!-- l. 238 --><p class='indent'>   You can view one input/output state using the “get” command:
 </p><div style='background-color:#F0F0F0' class='minted-color-box'>
@@ -317,13 +318,13 @@ nc:
 <a id='x15-14361r4'></a><span class='textcolor-3f7f7f'><span class='textit'>#analog</span></span> 
 <a id='x15-14363r5'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> apin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[20]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>.345</span></pre>
 </div>
-<!-- l. 287 --><p class='indent'>   For windows users <a href='https://www.putty.org/' target='_blank'>putty telnet client</a> is a good option to access the remote control
+<!-- l. 287 --><p class='indent'>   For windows users <a target='_blank' href='https://www.putty.org/'>putty telnet client</a> is a good option to access the remote control
 interface.
                                                                   
 
                                                                   
 </p>
-   <nav class='crosslinks-bottom'>[<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] [<a href='PictureMapReference.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='CommandLine.html'>prev</a>] [<a href='SimulatorInterface.html#RemoteControlInterface.html'>up</a>] [<a href='PictureMapReference.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

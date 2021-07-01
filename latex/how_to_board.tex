@@ -5,7 +5,7 @@ First get the source code and compile as described in \hyperlink{def:isource}{In
 \section{Creating a New Board}
 
 The first step is get the schematic and all information about the board hardware.
-The second step is the creation of four files in PICSimLab dir (consider replace the 'x' of board\_x for a number or name in your case):
+The second step is the creation of four files in PICSimLab dir (consider replace the 'x' of board\_x for a name of your board in your case):
 \begin{itemize}
 \item Board Picture (share/boards/x/board.svg) or (share/boards/x/board.png);
 \item Board map (share/boards/x/board.map);
@@ -162,12 +162,8 @@ The header file and c++ code file with comments are listed in the next two subse
 
 \subsection{Integration with PICsimLab}
 
-To integration of the new board in PICSimLab, are necessary edit one file.
 
-The file is Makefile.Common. The only change to be made is include object \textbf{boards/board\_board\_x.o} in 
- objects list. They can be added in variable OBJS or OBJS\_EXP (used only in experimental version).
-
-After change the Makefile.Common and include the five files created for new board, the PICSimLab can be recompiled,
+After include the four files created for new board, the PICSimLab can be recompiled,
 as described in \hyperlink{def:isource}{Install from source}.
 
 

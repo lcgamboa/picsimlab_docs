@@ -1,12 +1,12 @@
 <!DOCTYPE html> 
-<html xml:lang='en' lang='en'> 
+<html lang='en' xml:lang='en'> 
 <head><title>Integration with PICsimLab</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -141,35 +141,32 @@
      
      
      
+     
     
-   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x129-132000B'>Creating New Boards</a></span>
-    <span class='sectionToc'>B.1 <a href='CreatingaNewBoard.html#x130-133000B.1'>Creating a New Board</a></span>
-     <span class='subsectionToc'>B.1.1 <a href='BoardHardwareandSchematic.html#x131-134000B.1.1'>Board Hardware and Schematic</a></span>
-     <span class='subsectionToc'>B.1.2 <a href='BoardPicture.html#x132-135000B.1.2'>Board Picture</a></span>
-     <span class='subsectionToc'>B.1.3 <a href='Picturemap.html#x133-136000B.1.3'>Picture map</a></span>
+   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x130-133000B'>Creating New Boards</a></span>
+    <span class='sectionToc'>B.1 <a href='CreatingaNewBoard.html#x131-134000B.1'>Creating a New Board</a></span>
+     <span class='subsectionToc'>B.1.1 <a href='BoardHardwareandSchematic.html#x132-135000B.1.1'>Board Hardware and Schematic</a></span>
+     <span class='subsectionToc'>B.1.2 <a href='BoardPicture.html#x133-136000B.1.2'>Board Picture</a></span>
                                                                   
 
                                                                   
-     <span class='subsectionToc'>B.1.4 <a href='Boardcode.html#x134-138000B.1.4'>Board code</a></span>
-     <span class='subsectionToc'>B.1.5 <a href='#x135-142000B.1.5'>Integration with PICsimLab</a></span>
-     <span class='subsectionToc'>B.1.6 <a href='FinalResult.html#x136-143000B.1.6'>Final Result</a></span>
+     <span class='subsectionToc'>B.1.3 <a href='Picturemap.html#x134-137000B.1.3'>Picture map</a></span>
+     <span class='subsectionToc'>B.1.4 <a href='Boardcode.html#x135-139000B.1.4'>Board code</a></span>
+     <span class='subsectionToc'>B.1.5 <a href='#x136-143000B.1.5'>Integration with PICsimLab</a></span>
+     <span class='subsectionToc'>B.1.6 <a href='FinalResult.html#x137-144000B.1.6'>Final Result</a></span>
     
 
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Boardcode.html'>prev</a>] [<a href='CreatingaNewBoard.html#IntegrationwithPICsimLab.html'>up</a>] [<a href='FinalResult.html'>next</a>] </nav> 
-<h4 class='subsectionHead'><span class='titlemark'>B.1.5    </span> <a id='x135-142000B.1.5'></a>Integration with PICsimLab</h4>
-<!-- l. 165 --><p class='noindent'>To integration of the new board in PICSimLab, are necessary edit one file.
-</p><!-- l. 167 --><p class='indent'>   The file is Makefile.Common. The only change to be made is include object
-<span class='textbf'>boards/board_board_x.o</span> in objects list. They can be added in variable OBJS or OBJS_EXP
-(used only in experimental version).
-</p><!-- l. 170 --><p class='indent'>   After change the Makefile.Common and include the five files created for new board, the
-PICSimLab can be recompiled, as described in <a href='Installfromsource.html#def:isource'>Install from source</a>.
+<h4 class='subsectionHead'><span class='titlemark'>B.1.5    </span> <a id='x136-143000B.1.5'></a>Integration with PICsimLab</h4>
+<!-- l. 166 --><p class='noindent'>After include the four files created for new board, the PICSimLab can be recompiled, as
+described in <a href='Installfromsource.html#def:isource'>Install from source</a>.
                                                                   
 
                                                                   
 </p>
-   <nav class='crosslinks-bottom'>[<a href='Boardcode.html'>prev</a>] [<a href='CreatingaNewBoard.html#IntegrationwithPICsimLab.html'>up</a>] [<a href='FinalResult.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='Boardcode.html'>prev</a>] [<a href='CreatingaNewBoard.html#IntegrationwithPICsimLab.html'>up</a>] [<a href='FinalResult.html'>next</a>] </nav> </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

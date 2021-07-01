@@ -1,12 +1,12 @@
 <!DOCTYPE html> 
-<html xml:lang='en' lang='en'> 
+<html lang='en' xml:lang='en'> 
 <head><title>Communication Protocol</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link href='style.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='style.css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -141,15 +141,16 @@
      
      
      
-    
-   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x129-132000B'>Creating New Boards</a></span>
-    
      
+    
+   <span class='appendixToc'>B <a href='CreatingNewBoards.html#x130-133000B'>Creating New Boards</a></span>
+    
      
      
                                                                   
 
                                                                   
+     
      
      
      
@@ -186,13 +187,13 @@ byte. The byte readed have value 0x00 for disable or 0x01 for enable.
 bytes with the 16 bits value.
 </p><!-- l. 95 --><p class='indent'>   Example to write the value 230 on analog input 1:
 </p><div style='background-color:#F0F0F0' class='minted-color-box'>
+                                                                  
+
+                                                                  
    <pre id='fancyvrb22' class='fancyvrb'><a id='x49-51006r1'></a><span class='pcrr8t-x-x-80'>            Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x21</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-51008r2'></a><span class='pcrr8t-x-x-80'>            valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=230</span></span><span class='pcrr8t-x-x-80'>;</span> 
 <a id='x49-51010r3'></a><span class='pcrr8t-x-x-80'>            Serial_write((valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&amp;0xFF00</span></span><span class='pcrr8t-x-x-80'>)</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&gt;&gt;8</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x49-51012r4'></a><span class='pcrr8t-x-x-80'>            Serial_write(valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&amp;0x00FF</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
-                                                                  
-
-                                                                  
 </div>
 <!-- l. 103 --><p class='noindent'>
 </p>
@@ -209,7 +210,7 @@ bytes to form the 16 bits value.
                                                                   
 
                                                                   
-   <nav class='crosslinks-bottom'>[<a href='Sensors.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script src='//gc.zgo.at/count.js' data-goatcounter='https://4017.goatcounter.com/count'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='Sensors.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div style='position:absolute;right:0px;top:0px;width:200px;' id='google_translate_element'> </div> <p><script> function googleTranslateElementInit() { new google.translate.TranslateElement( {pageLanguage: 'en',autoDisplay: false}, 'google_translate_element' ); } </script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='//gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>
