@@ -2,11 +2,11 @@
 <html lang='en' xml:lang='en'> 
 <head><title>Remote Control Interface</title> 
 <meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
-<meta name='src' content='picsimlab.tex' /> 
-<link rel='stylesheet' href='style.css' type='text/css' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -168,12 +168,12 @@ through a TCP/IP socket using text formatted commands.
 </p><!-- l. 122 --><p class='indent'>   The default port is 5000 and can be changed in configuration windows.
 </p><!-- l. 124 --><p class='indent'>   The ’rlwrap’ command can be used for best command edition support in telnet or
 nc:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb11' class='fancyvrb'><a id='x15-14003r1'></a><span class='pcrr8t-x-x-80'> rlwrap nc </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>127</span></span><span class='pcrr8t-x-x-80'>.0.0.1 </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>5000</span></span></pre>
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb11'><a id='x15-14003r1'></a><span class='pcrr8t-x-x-80'> rlwrap nc </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>127</span></span><span class='pcrr8t-x-x-80'>.0.0.1 </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>5000</span></span></pre>
 </div>
 <!-- l. 129 --><p class='indent'>   The supported commands can be shown using the “help” command:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb12' class='fancyvrb'><a id='x15-14023r1'></a><span class='pcrr8t-x-x-80'> </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>help</span></span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb12'><a id='x15-14023r1'></a><span class='pcrr8t-x-x-80'> </span><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>help</span></span> 
 <a id='x15-14025r2'></a><span class='pcrr8t-x-x-80'>List of supported commands:</span> 
 <a id='x15-14027r3'></a><span class='pcrr8t-x-x-80'>  dumpe </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>a</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>s</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>- dump internal EEPROM memory</span> 
 <a id='x15-14029r4'></a><span class='pcrr8t-x-x-80'>  dumpf </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>a</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>s</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>- dump Flash memory</span> 
@@ -193,8 +193,8 @@ nc:
 <a id='x15-14057r18'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 152 --><p class='indent'>   The “info” command show all available "objects" and values:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb13' class='fancyvrb'><a id='x15-14085r1'></a><span class='pcrr8t-x-x-80'>info</span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb13'><a id='x15-14085r1'></a><span class='pcrr8t-x-x-80'>info</span> 
 <a id='x15-14087r2'></a><span class='pcrr8t-x-x-80'>Board:     Arduino Uno</span> 
 <a id='x15-14089r3'></a><span class='pcrr8t-x-x-80'>Processor: atmega328p</span> 
 <a id='x15-14091r4'></a><span class='pcrr8t-x-x-80'>Frequency:   </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>16000000</span></span><span class='pcrr8t-x-x-80'> Hz</span> 
@@ -222,8 +222,8 @@ nc:
 <a id='x15-14135r26'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 182 --><p class='indent'>   The “pins” command show all pins directions and digital values:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb14' class='fancyvrb'><a id='x15-14153r1'></a><span class='pcrr8t-x-x-80'>pins</span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb14'><a id='x15-14153r1'></a><span class='pcrr8t-x-x-80'>pins</span> 
 <a id='x15-14155r2'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PC6/RST</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[15]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>  PB1/~9</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
 <a id='x15-14157r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD0/0</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[16]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PB2/~10</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
 <a id='x15-14159r4'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[03]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'>   PD1/1</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &lt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>                 pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[17]</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>(</span></span><span class='pcrr8t-x-x-80'> PB3/~11</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>)</span></span><span class='pcrr8t-x-x-80'> &gt; </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
@@ -241,11 +241,11 @@ nc:
 <a id='x15-14183r16'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 202 --><p class='indent'>   The “pinsl” command show all pins info in text formatted output:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
                                                                   
 
                                                                   
-   <pre id='fancyvrb15' class='fancyvrb'><a id='x15-14216r1'></a><span class='pcrr8t-x-x-80'>pinsl</span> 
+   <pre class='fancyvrb' id='fancyvrb15'><a id='x15-14216r1'></a><span class='pcrr8t-x-x-80'>pinsl</span> 
 <a id='x15-14218r2'></a><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>28</span></span><span class='pcrr8t-x-x-80'> pins </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>atmega328p</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='pcrr8t-x-x-80'>:</span> 
 <a id='x15-14220r3'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>000</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PC6/RST "</span></span> 
 <a id='x15-14222r4'></a><span class='pcrr8t-x-x-80'>  pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'> D I </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>200</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>.000 </span><span class='textcolor-ba2121'><span class='pcrr8t-x-x-80'>"PD0/0   "</span></span> 
@@ -278,14 +278,14 @@ nc:
 <a id='x15-14276r31'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 238 --><p class='indent'>   You can view one input/output state using the “get” command:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb16' class='fancyvrb'><a id='x15-14281r1'></a><span class='pcrr8t-x-x-80'>get board.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb16'><a id='x15-14281r1'></a><span class='pcrr8t-x-x-80'>get board.out</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[00]</span></span> 
 <a id='x15-14283r2'></a> 
 <a id='x15-14285r3'></a><span class='pcrr8t-x-x-80'>get part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span></pre>
 </div>
 <!-- l. 245 --><p class='indent'>   Its possible use the “get” command to view individual pins state:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb17' class='fancyvrb'><a id='x15-14306r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital state</span></span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb17'><a id='x15-14306r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital state</span></span> 
 <a id='x15-14308r2'></a><span class='pcrr8t-x-x-80'>get pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]</span></span> 
 <a id='x15-14310r3'></a><span class='pcrr8t-x-x-80'>pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[19]=</span></span><span class='pcrr8t-x-x-80'> </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
 <a id='x15-14312r4'></a><span class='pcrr8t-x-x-80'>Ok</span> 
@@ -306,13 +306,13 @@ nc:
 <a id='x15-14342r19'></a><span class='pcrr8t-x-x-80'>Ok</span></pre>
 </div>
 <!-- l. 270 --><p class='indent'>   And set value of one input using the “set” command:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb18' class='fancyvrb'><a id='x15-14346r1'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb18'><a id='x15-14346r1'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span> 
 <a id='x15-14348r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> part</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[02]</span></span><span class='pcrr8t-x-x-80'>.in</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[01]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span></pre>
 </div>
 <!-- l. 276 --><p class='indent'>   Or set value of one pin using the “set” command:
-</p><div style='background-color:#F0F0F0' class='minted-color-box'>
-   <pre id='fancyvrb19' class='fancyvrb'><a id='x15-14355r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital</span></span> 
+</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb19'><a id='x15-14355r1'></a><span class='textcolor-3f7f7f'><span class='textit'>#digital</span></span> 
 <a id='x15-14357r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>set</span></span><span class='pcrr8t-x-x-80'> pin</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[10]</span></span><span class='pcrr8t-x-x-80'>  </span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>2</span></span> 
 <a id='x15-14359r3'></a> 
 <a id='x15-14361r4'></a><span class='textcolor-3f7f7f'><span class='textit'>#analog</span></span> 
