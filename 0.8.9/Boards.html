@@ -4,9 +4,9 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
+<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link rel='stylesheet' type='text/css' href='style.css' /> 
+<link rel='stylesheet' href='style.css' type='text/css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -162,7 +162,7 @@
 <h2 class='chapterHead'><span class='titlemark'>Chapter 4</span><br /><a id='x17-160004'></a>Boards</h2>
 <!-- l. 3 --><p class='noindent'><a id='def:boards'></a>
 </p><!-- l. 5 --><p class='indent'>   PICSimLab currently supports five backend simulators. The stable version supports
-<a target='_blank' href='https://github.com/lcgamboa/picsim'>picsim</a> and <a target='_blank' href='https://github.com/buserror/simavr'>simavr</a>. The experimental version supports <a target='_blank' href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/'>uCsim</a>, <a target='_blank' href='http://gpsim.sourceforge.net/'>gpsim</a> and <a target='_blank' href='http://beckus.github.io/qemu_stm32/'>qemu-stm32</a> in
+<a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a> and <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>. The experimental version supports <a href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a> and <a href='http://beckus.github.io/qemu_stm32/' target='_blank'>qemu-stm32</a> in
 addition to the stable ones.
 </p><!-- l. 11 --><p class='indent'>   The Figure <a href='#x17-16001r1'>4.1<!-- tex4ht:ref: bback  --></a> shows which cards are based on which backend simulator:
 </p>
@@ -175,7 +175,7 @@ addition to the stable ones.
                                                                   
 
                                                                   
-<!-- l. 15 --><p class='noindent'><img alt='PIC' style='width:65%' src='img/boards.png' />
+<!-- l. 15 --><p class='noindent'><img alt='PIC' src='img/boards.png' style='width:65%' />
 </p>
 <figcaption class='caption'><span class='id'>Figure 4.1:</span><span class='content'>Boards backend simulators </span></figcaption><!-- tex4ht:label?: x17-16001r1  -->
                                                                   
@@ -187,12 +187,12 @@ addition to the stable ones.
 <div class='center'>
 <!-- l. 22 --><p class='noindent'>
 </p>
-<div class='tabular'> <table rules='groups' class='tabular' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /></colgroup><colgroup id='TBL-3-2g'><col id='TBL-3-2' /></colgroup><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-1-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-1-1'> <span class='textbf'>Backend</span>  </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-1-2'>                      <span class='textbf'>Debug Support</span>                                                     </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-2-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-2-1'>  picsim     </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-2-2'>            MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x39-380007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>)                              </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-3-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-3-1'>  simavr     </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-3-2'>MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x39-380007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>) and remote avr-gdb (see section <a href='avrgdbDebugsimavrlabelgdbavr.html#x41-400007.3'>7.3<!-- tex4ht:ref: gdbavr  --></a>)</td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-4-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-4-1'>qemu-stm32</td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-4-2'>                remote arm-gdb (see Chapter <a href='armgdbDebugqemustm32labelgdbarm.html#x42-410007.4'>7.4<!-- tex4ht:ref: gdbarm  --></a>)                                       </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-5-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-5-1'>  uCsim     </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-5-2'>            uCsim remote console (telnet) (see section <a href='uCsimDebuglabelucsim.html#x43-420007.5'>7.5<!-- tex4ht:ref: ucsim  --></a>)                            </td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-6-'><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-6-1'>  gpsim     </td><td class='td11' style='text-align:center; white-space:nowrap;' id='TBL-3-6-2'>                         none yet                                                           </td>
+<div class='tabular'> <table rules='groups' id='TBL-3' class='tabular'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /></colgroup><colgroup id='TBL-3-2g'><col id='TBL-3-2' /></colgroup><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-1-'><td style='text-align:center; white-space:nowrap;' id='TBL-3-1-1' class='td11'> <span class='textbf'>Backend</span>  </td><td style='text-align:center; white-space:nowrap;' id='TBL-3-1-2' class='td11'>                      <span class='textbf'>Debug Support</span>                                                     </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-2-'><td style='text-align:center; white-space:nowrap;' id='TBL-3-2-1' class='td11'>  picsim     </td><td style='text-align:center; white-space:nowrap;' id='TBL-3-2-2' class='td11'>            MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x39-380007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>)                              </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-3-'><td style='text-align:center; white-space:nowrap;' id='TBL-3-3-1' class='td11'>  simavr     </td><td style='text-align:center; white-space:nowrap;' id='TBL-3-3-2' class='td11'>MPLABX Integrated Debug (see section <a href='MPLABXIntegratedDebugpicsimandsimavrlabelmplaxd.html#x39-380007.1'>7.1<!-- tex4ht:ref: mplaxd  --></a>) and remote avr-gdb (see section <a href='avrgdbDebugsimavrlabelgdbavr.html#x41-400007.3'>7.3<!-- tex4ht:ref: gdbavr  --></a>)</td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-4-'><td style='text-align:center; white-space:nowrap;' id='TBL-3-4-1' class='td11'>qemu-stm32</td><td style='text-align:center; white-space:nowrap;' id='TBL-3-4-2' class='td11'>                remote arm-gdb (see Chapter <a href='armgdbDebugqemustm32labelgdbarm.html#x42-410007.4'>7.4<!-- tex4ht:ref: gdbarm  --></a>)                                       </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-5-'><td style='text-align:center; white-space:nowrap;' id='TBL-3-5-1' class='td11'>  uCsim     </td><td style='text-align:center; white-space:nowrap;' id='TBL-3-5-2' class='td11'>            uCsim remote console (telnet) (see section <a href='uCsimDebuglabelucsim.html#x43-420007.5'>7.5<!-- tex4ht:ref: ucsim  --></a>)                            </td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-3-6-'><td style='text-align:center; white-space:nowrap;' id='TBL-3-6-1' class='td11'>  gpsim     </td><td style='text-align:center; white-space:nowrap;' id='TBL-3-6-2' class='td11'>                         none yet                                                           </td>
 </tr><tr class='hline'><td><hr /></td><td><hr /></td></tr></table></div></div>
    <div class='sectionTOCS'>
     <span class='sectionToc'>4.1 <a href='Breadboard.html#x18-170004.1'>Breadboard</a></span>

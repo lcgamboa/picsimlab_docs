@@ -7,8 +7,8 @@ First get the source code and compile as described in \hyperlink{def:isource}{In
 The first step is get the schematic and all information about the board hardware.
 The second step is the creation of four files in PICSimLab dir (consider replace the 'x' of board\_x for a name of your board in your case):
 \begin{itemize}
-\item Board Picture (share/boards/x/board.svg) or (share/boards/x/board.png);
-\item Board map (share/boards/x/board.map);
+\item Board Picture (share/boards/X/board.svg) or (share/boards/X/board.png);
+\item Board map (share/boards/X/board.map);
 \item Board header (src/boards/board\_x.h);
 \item Board C++ code (src/boards/board\_x.cc);
 \end{itemize}
@@ -41,16 +41,17 @@ And the PCB layout was made in \href{http://kicad-pcb.org/}{Kicad} too. The PCB 
 \subsection{Board Picture}
 
 The PNG board picture was taken from \href{http://kicad-pcb.org/}{Kicad} 3D viewer.
-The picture image is saved as ``share/board/x/board.png''.
+The picture image is saved as ``share/board/X/board.png''.
 
 \begin{figure}[H]
 \center
 \includegraphics[width=0.8\textwidth]{files/share/board.png} 
 \end{figure} 
 
-It is also possible to use images in SVG format for better viewing quality. \href{https://github.com/yaqwsx/PcbDraw}{PCBDraw} can be used to convert a Kicad PCB project to 
+It is also possible to use images in SVG format for better viewing quality. 
+\href{https://github.com/yaqwsx/PcbDraw}{PCBDraw} can be used to convert a Kicad PCB project to 
 an SVG image. 
-
+The picture image is saved as ``share/board/X/board.svg''.
 \begin{figure}[H]
 \center
 \includegraphics[width=0.8\textwidth]{files/share/board_svg.png} 
@@ -148,7 +149,7 @@ The header file and c++ code file with comments are listed in the next two subse
 \href{https://lcgamboa.github.io/picsimlab_docs/devel/html/index.html#binc}{ board\_x.h online doxygen version}.
 
 
-\inputminted[baselinestretch=1.2,fontsize=\footnotesize,linenos]{c++}{files/board_x.h}
+\inputminted[baselinestretch=1.2,fontsize=\footnotesize,linenos,bgcolor=colorbash]{c++}{files/board_x.h}
 
 \pagebreak
 \subsubsection{board\_x.cc}
@@ -157,7 +158,7 @@ The header file and c++ code file with comments are listed in the next two subse
 
 \href{https://lcgamboa.github.io/picsimlab_docs/devel/html/index.html#bcode}{ board\_x.cc online doxygen version}.
 
-\inputminted[baselinestretch=1.2,fontsize=\footnotesize,linenos]{c++}{files/board_x.cc}
+\inputminted[baselinestretch=1.2,fontsize=\footnotesize,linenos,bgcolor=colorbash]{c++}{files/board_x.cc}
 
 
 \subsection{Integration with PICsimLab}

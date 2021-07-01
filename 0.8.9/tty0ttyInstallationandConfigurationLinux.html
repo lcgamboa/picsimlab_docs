@@ -4,9 +4,9 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
+<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link rel='stylesheet' type='text/css' href='style.css' /> 
+<link rel='stylesheet' href='style.css' type='text/css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -160,14 +160,14 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Com0comInstallationandConfigurationWindows.html'>prev</a>] [<a href='SerialCommunicationlabelseriali.html#tty0ttyInstallationandConfigurationLinux.html'>up</a>] </nav> 
 <h3 class='sectionHead'><span class='titlemark'>6.2    </span> <a id='x37-360006.2'></a>tty0tty Installation and Configuration (Linux)</h3>
-<!-- l. 52 --><p class='noindent'>Download the <a target='_blank' href='https://github.com/lcgamboa/tty0tty/archive/master.zip'>tty0tyy</a>. Unzip the downloaded folder.
+<!-- l. 52 --><p class='noindent'>Download the <a href='https://github.com/lcgamboa/tty0tty/archive/master.zip' target='_blank'>tty0tyy</a>. Unzip the downloaded folder.
 </p><!-- l. 55 --><p class='indent'>   Open a terminal and enter in the tty0tty/module/ folder and enter the following
 commands:
                                                                   
 
                                                                   
 </p>
-   <pre id='verbatim-1' class='verbatim'>
+   <pre class='verbatim' id='verbatim-1'>
  sudo apt-get update
  sudo apt-get -y upgrade
  sudo apt-get -y install gcc make linux-headers-`uname -r`
@@ -181,7 +181,7 @@ group use the command:
 
                                                                   
 </p>
-   <pre id='verbatim-2' class='verbatim'>
+   <pre class='verbatim' id='verbatim-2'>
 sudo usermod -a -G dialout your_user_name
 </pre>
 <!-- l. 68 --><p class='nopar'> after this is necessary logout and login to group permissions take effect.
@@ -190,7 +190,7 @@ sudo usermod -a -G dialout your_user_name
 
                                                                   
 </p>
-   <pre id='verbatim-3' class='verbatim'>
+   <pre class='verbatim' id='verbatim-3'>
   /dev/tnt0  &lt;=&gt;  /dev/tnt1
   /dev/tnt2  &lt;=&gt;  /dev/tnt3
   /dev/tnt4  &lt;=&gt;  /dev/tnt5
@@ -202,7 +202,7 @@ sudo usermod -a -G dialout your_user_name
 
                                                                   
 </p>
-   <pre id='verbatim-4' class='verbatim'>
+   <pre class='verbatim' id='verbatim-4'>
   TX   -&gt;  RX
   RX   &lt;-  TX 
   RTS  -&gt;  CTS

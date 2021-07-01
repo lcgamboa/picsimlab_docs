@@ -4,9 +4,9 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link rel='stylesheet' type='text/css' href='picsimlab.css' /> 
+<link rel='stylesheet' href='picsimlab.css' type='text/css' /> 
 <meta name='src' content='picsimlab.tex' /> 
-<link rel='stylesheet' type='text/css' href='style.css' /> 
+<link rel='stylesheet' href='style.css' type='text/css' /> 
 </head><body>
    <nav class='TOC'>
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a>
@@ -160,16 +160,16 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Picturemap.html'>prev</a>] [<a href='CreatingaNewBoard.html#Boardcode.html'>up</a>] [<a href='IntegrationwithPICsimLab.html'>next</a>] </nav> 
 <h4 class='subsectionHead'><span class='titlemark'>B.1.4    </span> <a id='x135-139000B.1.4'></a>Board code</h4>
-<!-- l. 142 --><p class='noindent'>The header file and c++ code file with comments are listed in the next two subsections. This
+<!-- l. 143 --><p class='noindent'>The header file and c++ code file with comments are listed in the next two subsections. This
 files control the behavior of board in simulator.
-</p><!-- l. 144 --><p class='noindent'>
+</p><!-- l. 145 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead'><a id='x135-140000B.1.4'></a>board_x.h</h5>
-<!-- l. 146 --><p class='noindent'><a target='_blank' href='https://github.com/lcgamboa/picsimlab/blob/master/src/boards/board_x.h'> board_x.h online file</a>.
-</p><!-- l. 148 --><p class='indent'>   <a target='_blank' href='https://lcgamboa.github.io/picsimlab_docs/devel/html/index.html##binc'> board_x.h online doxygen version</a>.
-</p><!-- l. 1 --><p class='indent'>
+<!-- l. 147 --><p class='noindent'><a href='https://github.com/lcgamboa/picsimlab/blob/master/src/boards/board_x.h' target='_blank'> board_x.h online file</a>.
+</p><!-- l. 149 --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_docs/devel/html/index.html##binc' target='_blank'> board_x.h online doxygen version</a>.
 </p>
-   <pre id='fancyvrb26' class='fancyvrb'><a id='x135-140002r1'></a><span class='ptmr8t-x-x-50'>1</span><span class='textcolor-3f7f7f'><span class='textit'>/* ########################################################################</span></span> 
+   <div style='background-color:#F0F0F0' class='minted-color-box'>
+   <pre class='fancyvrb' id='fancyvrb26'><a id='x135-140002r1'></a><span class='ptmr8t-x-x-50'>1</span><span class='textcolor-3f7f7f'><span class='textit'>/* ########################################################################</span></span> 
 <a id='x135-140004r2'></a><span class='ptmr8t-x-x-50'>2</span> 
 <a id='x135-140006r3'></a><span class='ptmr8t-x-x-50'>3</span><span class='textcolor-3f7f7f'><span class='textit'>   PICsimLab - PIC laboratory simulator</span></span> 
 <a id='x135-140008r4'></a><span class='ptmr8t-x-x-50'>4</span> 
@@ -266,17 +266,18 @@ files control the behavior of board in simulator.
 <a id='x135-140190r95'></a><span class='ptmr8t-x-x-50'>95</span><span class='pcrr8t-x-x-80'>};</span> 
 <a id='x135-140192r96'></a><span class='ptmr8t-x-x-50'>96</span> 
 <a id='x135-140194r97'></a><span class='ptmr8t-x-x-50'>97</span><span class='textcolor-bc7a00'><span class='textit'>#endif        </span></span><span class='textcolor-3f7f7f'><span class='textit'>/* BOARD_x_H */</span></span></pre>
+</div>
                                                                   
 
                                                                   
-<!-- l. 154 --><p class='noindent'>
+<!-- l. 155 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead'><a id='x135-141000B.1.4'></a>board_x.cc</h5>
-<!-- l. 156 --><p class='noindent'><a target='_blank' href='https://github.com/lcgamboa/picsimlab/blob/master/src/boards/board_x.cc'> board_x.cc online file</a>.
-</p><!-- l. 158 --><p class='indent'>   <a target='_blank' href='https://lcgamboa.github.io/picsimlab_docs/devel/html/index.html##bcode'> board_x.cc online doxygen version</a>.
-</p><!-- l. 1 --><p class='indent'>
+<!-- l. 157 --><p class='noindent'><a href='https://github.com/lcgamboa/picsimlab/blob/master/src/boards/board_x.cc' target='_blank'> board_x.cc online file</a>.
+</p><!-- l. 159 --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_docs/devel/html/index.html##bcode' target='_blank'> board_x.cc online doxygen version</a>.
 </p>
-   <pre id='fancyvrb27' class='fancyvrb'><a id='x135-141002r1'></a><span class='ptmr8t-x-x-50'>1</span><span class='textcolor-3f7f7f'><span class='textit'>/* ########################################################################</span></span> 
+   <div style='background-color:#F0F0F0' class='minted-color-box'>
+   <pre class='fancyvrb' id='fancyvrb27'><a id='x135-141002r1'></a><span class='ptmr8t-x-x-50'>1</span><span class='textcolor-3f7f7f'><span class='textit'>/* ########################################################################</span></span> 
 <a id='x135-141004r2'></a><span class='ptmr8t-x-x-50'>2</span> 
 <a id='x135-141006r3'></a><span class='ptmr8t-x-x-50'>3</span><span class='textcolor-3f7f7f'><span class='textit'>   PICsimLab - PIC laboratory simulator</span></span> 
 <a id='x135-141008r4'></a><span class='ptmr8t-x-x-50'>4</span> 
@@ -1002,6 +1003,7 @@ files control the behavior of board in simulator.
 <a id='x135-142448r724'></a><span class='ptmr8t-x-x-50'>724</span>  
 <a id='x135-142450r725'></a><span class='ptmr8t-x-x-50'>725</span><span class='textcolor-3f7f7f'><span class='textit'>//Register the board in PICSimLab</span></span>  
 <a id='x135-142452r726'></a><span class='ptmr8t-x-x-50'>726</span><span class='pcrr8t-x-x-80'>board_init(BOARD_x_Name, cboard_x);</span> </pre>
+</div>
                                                                   
 
                                                                   
