@@ -77,6 +77,7 @@ var classboard =
     [ "SetUseSpareParts", "classboard.html#aed10607a8c6d8357eb52c76dc9eb2a1f", null ],
     [ "WritePreferences", "classboard.html#a6ae7bb1e6cb15a381c871467b2189f4e", null ],
     [ "input", "classboard.html#a637392ea82a18ee9f9716147455031dd", null ],
+    [ "input_ids", "classboard.html#a310d04440c58dd0d664c62a891518a9c", null ],
     [ "inputc", "classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2", null ],
     [ "output", "classboard.html#abb9694f4430944f5f6e110c3af6feb3e", null ],
     [ "output_ids", "classboard.html#a94afe9318a9cd0d8635d0043424a8682", null ],

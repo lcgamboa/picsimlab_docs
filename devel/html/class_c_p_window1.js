@@ -31,7 +31,7 @@ var class_c_p_window1 =
     [ "GetScale", "class_c_p_window1.html#a68f6dd86d6a142631d0aac6d75106aca", null ],
     [ "GetSharePath", "class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0", null ],
     [ "GetSync", "class_c_p_window1.html#a810131399bbb3183df7ded799df98dc6", null ],
-    [ "LoadHexFile", "class_c_p_window1.html#adf5753bb7d90390a9cdbd4f940fb9f1a", null ],
+    [ "LoadHexFile", "class_c_p_window1.html#ace9e970071ddb77d452d22c9d14e1cdd", null ],
     [ "LoadWorkspace", "class_c_p_window1.html#ab7c9cf08b9803b74ecd678249b9d8227", null ],
     [ "menu1_EvBoard", "class_c_p_window1.html#a046d10db02fb4b45d64c2c3be3831a1c", null ],
     [ "menu1_EvMicrocontroller", "class_c_p_window1.html#a0580400aa18e24f7a191d5d16cf33a2e", null ],
