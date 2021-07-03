@@ -35,5 +35,6 @@ html:
 	rm -rf *.html *.aux
 	sed -i "s/<main class='main-content'>//g" picsimlab/picsimlab.html
 	sed -i "s/<\/main>//g" picsimlab/picsimlab.html
+	cp picsimlab.js picsimlab/
 	firefox picsimlab/picsimlab.html &
 

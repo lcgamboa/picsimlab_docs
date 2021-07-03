@@ -168,15 +168,15 @@ pre.fancyvrb {white-space: pre-wrap; margin:0em;font-family:monospace,monospace;
 .rotatebox{display: inline-block;}
 /* end css.sty */
 
-.textcolor-656565{color:rgb(101,101,101);}
-.textcolor-ba6521{color:rgb(186,101,33);}
-.textcolor-#00FF00{color:#00FF00;}
-.textcolor-0000ff{color:rgb(0,0,255);}
-.textcolor-bc7a00{color:rgb(188,122,0);}
-.textcolor-19167c{color:rgb(25,22,124);}
-.textcolor-3f7f7f{color:rgb(63,127,127);}
-.textcolor-007f00{color:rgb(0,127,0);}
-.textcolor-af003f{color:rgb(175,0,63);}
-.textcolor-a0a000{color:rgb(160,160,0);}
 .textcolor-7c8e28{color:rgb(124,142,40);}
+.textcolor-#00FF00{color:#00FF00;}
 .textcolor-ba2121{color:rgb(186,33,33);}
+.textcolor-3f7f7f{color:rgb(63,127,127);}
+.textcolor-a0a000{color:rgb(160,160,0);}
+.textcolor-19167c{color:rgb(25,22,124);}
+.textcolor-0000ff{color:rgb(0,0,255);}
+.textcolor-007f00{color:rgb(0,127,0);}
+.textcolor-ba6521{color:rgb(186,101,33);}
+.textcolor-bc7a00{color:rgb(188,122,0);}
+.textcolor-af003f{color:rgb(175,0,63);}
+.textcolor-656565{color:rgb(101,101,101);}
