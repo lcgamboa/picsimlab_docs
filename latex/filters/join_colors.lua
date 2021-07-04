@@ -19,7 +19,7 @@ local function extract_colors(csscontent)
   end)
   -- add the used colors to css
   local t = {}
-  for class, color in pairs(used_colors) do
+  for class, color in ipairs(used_colors) do
     t[#t+1] = string.format(".%s{color:%s;}", class, color)
   end
   return csscontent .. table.concat(t, "\n")
