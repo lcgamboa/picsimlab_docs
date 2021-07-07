@@ -1,0 +1,33 @@
+\chapter{Online Simulator}
+
+The online version of PICSimLab is the same source code as the desktop version compiled using 
+\href{https://emscripten.org/}{Emscripten}. The online version does not have the Tools menu, support for 
+debugging and serial communication (only for \hyperlink{def:vterm}{IO Vterm}). 
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.99\textwidth]{img/online.png} 
+\end{figure} 
+
+There are three versions generated with Emscripten: 
+
+\begin{itemize}
+\item \href{https://lcgamboa.github.io/js/picsimlab_mt.html}{WASM with multithread} - Fast speed (50\% of desktop version )
+and worse browser compatibility (currently only work in Chrome desktop and Firefox nightly desktop because 
+javascript SharedArrayBuffer security requirements)
+\item \href{https://lcgamboa.github.io/js/picsimlab_wasm.html}{WASM} - Good speed and good browser compatibility
+\item \href{https://lcgamboa.github.io/js/picsimlab_asmjs.html}{ASM.JS} - Slow speed and better browser compatibility
+\end{itemize}
+
+Clicking on the three-bar menu (botton left) or any loading option in the menus to open the 
+file loading window.
+Files can be loaded by drag and drop or by the load button. 
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.99\textwidth]{img/online2.png} 
+\end{figure} 
+
+The simulator can also be accessed from the \href{https://lcgamboa.github.io/picsimlab_examples/examples_index.html}{examples page} for online viewing of most examples (View Online link). 
+
+Due to the limitations of the online version, it is advisable to use the desktop version which has more resources and higher simulation speed, especially above 8Mhz clocks. 
