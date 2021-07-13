@@ -3,7 +3,7 @@ var dir_44b8a28b46c46acb1deed65f25aca5e6 =
     [ "board.h", "board_8h_source.html", null ],
     [ "board_Arduino_Uno.h", "board___arduino___uno_8h_source.html", null ],
     [ "board_Breadboard.h", "board___breadboard_8h_source.html", null ],
-    [ "board_Franzininho.h", "board___franzininho_8h_source.html", null ],
+    [ "board_Franzininho_DIY.h", "board___franzininho___d_i_y_8h_source.html", null ],
     [ "board_K16F.h", "board___k16_f_8h_source.html", null ],
     [ "board_McLab1.h", "board___mc_lab1_8h_source.html", null ],
     [ "board_McLab2.h", "board___mc_lab2_8h_source.html", null ],

@@ -18,7 +18,7 @@ var annotated_dup =
     [ "cboard_Breadboard", "classcboard___breadboard.html", "classcboard___breadboard" ],
     [ "cboard_Curiosity", "classcboard___curiosity.html", "classcboard___curiosity" ],
     [ "cboard_Curiosity_HPC", "classcboard___curiosity___h_p_c.html", "classcboard___curiosity___h_p_c" ],
-    [ "cboard_Franzininho", "classcboard___franzininho.html", "classcboard___franzininho" ],
+    [ "cboard_Franzininho_DIY", "classcboard___franzininho___d_i_y.html", "classcboard___franzininho___d_i_y" ],
     [ "cboard_gpboard", "classcboard__gpboard.html", "classcboard__gpboard" ],
     [ "cboard_K16F", "classcboard___k16_f.html", "classcboard___k16_f" ],
     [ "cboard_McLab1", "classcboard___mc_lab1.html", "classcboard___mc_lab1" ],

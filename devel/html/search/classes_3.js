@@ -5,7 +5,7 @@ var searchData=
   ['cboard_5fbreadboard_283',['cboard_Breadboard',['../classcboard___breadboard.html',1,'']]],
   ['cboard_5fcuriosity_284',['cboard_Curiosity',['../classcboard___curiosity.html',1,'']]],
   ['cboard_5fcuriosity_5fhpc_285',['cboard_Curiosity_HPC',['../classcboard___curiosity___h_p_c.html',1,'']]],
-  ['cboard_5ffranzininho_286',['cboard_Franzininho',['../classcboard___franzininho.html',1,'']]],
+  ['cboard_5ffranzininho_5fdiy_286',['cboard_Franzininho_DIY',['../classcboard___franzininho___d_i_y.html',1,'']]],
   ['cboard_5fgpboard_287',['cboard_gpboard',['../classcboard__gpboard.html',1,'']]],
   ['cboard_5fk16f_288',['cboard_K16F',['../classcboard___k16_f.html',1,'']]],
   ['cboard_5fmclab1_289',['cboard_McLab1',['../classcboard___mc_lab1.html',1,'']]],
