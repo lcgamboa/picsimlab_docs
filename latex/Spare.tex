@@ -409,6 +409,12 @@ This is a four multiplexed 7 segments displays with BCD to 7 segments decoder (C
 \subsection{Buzzer}
 
 This is a active/passive buzzer.
+The buzzer has 3 operating modes: 
+\begin{itemize}
+\item \textbf{Active}: When powered, the buzzer emits a frequency of 440Hz. 
+\item \textbf{Passive}: In this mode the values read from the input pin are sent directly to the sound card, this mode only works well if the simulation is in real time. 
+\item \textbf{Tone}: This second passive mode measures the frequency on the input and updates the frequency of the buzzer every 100ms, its accuracy is less than the normal passive mode but it works better when the simulation is not in real time. 
+\end{itemize}
 
 \begin{figure}[H]
 \center

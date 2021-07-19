@@ -161,8 +161,16 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='7SegmentsDisplayDecoder.html'>prev</a>] [<a href='Outputs.html#Buzzer.html'>up</a>] [<a href='DCMotor.html'>next</a>] </nav> 
 <h4 class='subsectionHead'><span class='titlemark'>10.3.3    </span> <a id='x77-8000010.3.3'></a>Buzzer</h4>
-<!-- l. 411 --><p class='noindent'>This is a active/passive buzzer.
-</p>
+<!-- l. 411 --><p class='noindent'>This is a active/passive buzzer. The buzzer has 3 operating modes: </p>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='textbf'>Active</span>: When powered, the buzzer emits a frequency of 440Hz.
+     </li>
+     <li class='itemize'><span class='textbf'>Passive</span>: In this mode the values read from the input pin are sent directly to the
+     sound card, this mode only works well if the simulation is in real time.
+     </li>
+     <li class='itemize'><span class='textbf'>Tone</span>:  This  second  passive  mode  measures  the  frequency  on  the  input  and
+     updates the frequency of the buzzer every 100ms, its accuracy is less than the
+     normal passive mode but it works better when the simulation is not in real time.</li></ul>
    <figure class='figure'> 
 
                                                                   
@@ -171,13 +179,13 @@
                                                                   
 
                                                                   
-<!-- l. 415 --><p class='noindent'><img alt='PIC' src='img/part_buzzer.png' style='width:20%' />
+<!-- l. 421 --><p class='noindent'><img alt='PIC' src='img/part_buzzer.png' style='width:20%' />
                                                                   
 
                                                                   
 </p>
    </figure>
-<!-- l. 418 --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/Parts.html#Buzzer' target='_blank'>Examples</a>
+<!-- l. 424 --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/Parts.html#Buzzer' target='_blank'>Examples</a>
                                                                   
 
                                                                   
