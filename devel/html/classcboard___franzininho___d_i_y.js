@@ -17,6 +17,7 @@ var classcboard___franzininho___d_i_y =
     [ "RegisterRemoteControl", "classcboard___franzininho___d_i_y.html#a1a746a45cc9d6789bef23918afbe31b4", null ],
     [ "Reset", "classcboard___franzininho___d_i_y.html#ab4f1b30c985f9097e17e6d836ab16456", null ],
     [ "Run_CPU", "classcboard___franzininho___d_i_y.html#af0e9375367e2887ea1e95887f5756b5c", null ],
+    [ "UpdateHardware", "classcboard___franzininho___d_i_y.html#aae1a532b73ad270bcf4afdf7e7d8646b", null ],
     [ "WritePreferences", "classcboard___franzininho___d_i_y.html#ade5ab6ebdf512a5562014f4aaba40d25", null ],
     [ "color1", "classcboard___franzininho___d_i_y.html#a6a11632e657ff42d42b0a315aaac220e", null ],
     [ "color2", "classcboard___franzininho___d_i_y.html#a4d02ebce1561571b337580907f28be93", null ]

@@ -10,6 +10,7 @@ var classcpart___r_t_c__pfc8563 =
     [ "GetMapFile", "classcpart___r_t_c__pfc8563.html#ad83c931ace6230eb05ffd7941c8ec6a9", null ],
     [ "GetName", "classcpart___r_t_c__pfc8563.html#ac996059336314c5399b67bc621c00822", null ],
     [ "GetPictureFileName", "classcpart___r_t_c__pfc8563.html#a9af417e457fcd6cb19c606992f7219db", null ],
+    [ "PreProcess", "classcpart___r_t_c__pfc8563.html#aabb01dc5bf3294cbbaa7a05734611c2a", null ],
     [ "Process", "classcpart___r_t_c__pfc8563.html#a1e1c729cea9f3542745db47b1283a3e3", null ],
     [ "ReadPreferences", "classcpart___r_t_c__pfc8563.html#ae87997af7b293ffb1a97b5cfc047ea5b", null ],
     [ "ReadPropertiesWindow", "classcpart___r_t_c__pfc8563.html#a5e1ef13b217effffed429974ec41e40c", null ],

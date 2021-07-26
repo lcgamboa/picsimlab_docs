@@ -49,6 +49,7 @@ var classbsim__simavr =
     [ "avr_debug_type", "classbsim__simavr.html#a845cca17b75d66118d034e77d0d1a6b2", null ],
     [ "bb_uart", "classbsim__simavr.html#a934fcd3f90c0ca17bf8c5b40950847f1", null ],
     [ "eeprom", "classbsim__simavr.html#ac2ace01ad7613d9886e4d79f2848c22c", null ],
+    [ "has_usart", "classbsim__simavr.html#aea0135e522148bf1108efc3f9817c655", null ],
     [ "pin_rx", "classbsim__simavr.html#a3d8ec54f48ee20361ab297e3e9dfcf95", null ],
     [ "pin_tx", "classbsim__simavr.html#aa134d206cb029ca49e1132f10e82ba6d", null ],
     [ "pins", "classbsim__simavr.html#ac93f9a08a3b3aa1e61aeb7985476aa12", null ],

@@ -53,6 +53,7 @@ var classpart =
     [ "SetUpdate", "classpart.html#a5898264d532b99966bb50ca246a1de01", null ],
     [ "SetX", "classpart.html#aeb1dcec741ed0694dc2c779d7e2de2d1", null ],
     [ "SetY", "classpart.html#a250abec3d9e515980bc929be4f2b79c4", null ],
+    [ "Stop", "classpart.html#a411d17e2445b3fd5b161b007ed18b054", null ],
     [ "WritePreferences", "classpart.html#aff06ce861fa36bc2010b95e25cedf9f2", null ],
     [ "Bitmap", "classpart.html#a5edfdd836fc264f0e1047d002e4e7e18", null ],
     [ "canvas", "classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817", null ],

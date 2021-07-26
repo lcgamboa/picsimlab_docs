@@ -10,6 +10,7 @@ var classcpart___r_t_c__ds1307 =
     [ "GetMapFile", "classcpart___r_t_c__ds1307.html#ae66f637a52829655954d2c095aaa5fc0", null ],
     [ "GetName", "classcpart___r_t_c__ds1307.html#aa1cc1f5e370599fa390837a704e334bf", null ],
     [ "GetPictureFileName", "classcpart___r_t_c__ds1307.html#a142d9c62640555b3e2f49d9235a7a83b", null ],
+    [ "PreProcess", "classcpart___r_t_c__ds1307.html#a15d0fd9096b9fafc1f84228fa06f006e", null ],
     [ "Process", "classcpart___r_t_c__ds1307.html#a2c95de2c77a60f5c857f27d93d832bd8", null ],
     [ "ReadPreferences", "classcpart___r_t_c__ds1307.html#a9ad83cdc661c0fd2dc9256dc72d1f4e1", null ],
     [ "ReadPropertiesWindow", "classcpart___r_t_c__ds1307.html#a299480da2e51b0443fd685edfe9b9224", null ],

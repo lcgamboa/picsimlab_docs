@@ -9,6 +9,7 @@ var classcpart___l_c_d__ssd1306 =
     [ "GetAboutInfo", "classcpart___l_c_d__ssd1306.html#a447079d3675c7779876cd1f4dd384c9c", null ],
     [ "GetName", "classcpart___l_c_d__ssd1306.html#a36b14961799f53bdd2e799cdcafa6506", null ],
     [ "PostProcess", "classcpart___l_c_d__ssd1306.html#ae44ad20c5309ef516c8a42fed4d94e40", null ],
+    [ "PreProcess", "classcpart___l_c_d__ssd1306.html#ae68433c2ced953bb5f98f0411062f89c", null ],
     [ "Process", "classcpart___l_c_d__ssd1306.html#a590818eef45a172a3b1bfb461acdba4a", null ],
     [ "ReadPreferences", "classcpart___l_c_d__ssd1306.html#a55e3bfaf39ec4767ea2a23932c5f1186", null ],
     [ "ReadPropertiesWindow", "classcpart___l_c_d__ssd1306.html#aba3b841a2257e080d0aa24c6559a4a11", null ],
