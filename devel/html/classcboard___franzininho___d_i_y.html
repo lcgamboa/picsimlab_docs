@@ -108,12 +108,13 @@ Collaboration diagram for cboard_Franzininho_DIY:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcboard___franzininho___d_i_y__coll__graph.png" border="0" usemap="#acboard___franzininho___d_i_y_coll__map" alt="Collaboration graph"/></div>
 <map name="acboard___franzininho___d_i_y_coll__map" id="acboard___franzininho___d_i_y_coll__map">
-<area shape="rect" title=" " alt="" coords="54,275,231,301"/>
-<area shape="rect" href="classbsim__simavr.html" title=" " alt="" coords="89,199,196,225"/>
+<area shape="rect" title=" " alt="" coords="110,275,287,301"/>
+<area shape="rect" href="classbsim__simavr.html" title=" " alt="" coords="145,199,252,225"/>
 <area shape="rect" href="classboard.html" title="Board class." alt="" coords="57,109,116,136"/>
 <area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
 <area shape="rect" href="structbitbang__uart__t.html" title=" " alt="" coords="141,109,257,136"/>
+<area shape="rect" href="structusi__t.html" title=" " alt="" coords="281,109,335,136"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -132,9 +133,6 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___franzininho___d_i_y.html#ad40a4a6a93aae23179a1ceb032b92d9e">Draw</a> (CDraw *draw)</td></tr>
 <tr class="memdesc:ad40a4a6a93aae23179a1ceb032b92d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board. <br /></td></tr>
 <tr class="separator:ad40a4a6a93aae23179a1ceb032b92d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae1a532b73ad270bcf4afdf7e7d8646b"><td class="memItemLeft" align="right" valign="top"><a id="aae1a532b73ad270bcf4afdf7e7d8646b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateHardware</b> (void)</td></tr>
-<tr class="separator:aae1a532b73ad270bcf4afdf7e7d8646b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0e9375367e2887ea1e95887f5756b5c"><td class="memItemLeft" align="right" valign="top"><a id="af0e9375367e2887ea1e95887f5756b5c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___franzininho___d_i_y.html#af0e9375367e2887ea1e95887f5756b5c">Run_CPU</a> (void)</td></tr>
 <tr class="memdesc:af0e9375367e2887ea1e95887f5756b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paralle thread called ever 100ms to run cpu code. <br /></td></tr>
@@ -279,6 +277,9 @@ const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memdesc:af69db6e93c0287d4cb227bc42e2784f3 inherit pub_methods_classbsim__simavr"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct <br  />
  <br /></td></tr>
 <tr class="separator:af69db6e93c0287d4cb227bc42e2784f3 inherit pub_methods_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f2b9bab497352ff4c7d330b9aede2e inherit pub_methods_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="a54f2b9bab497352ff4c7d330b9aede2e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateHardware</b> (void)</td></tr>
+<tr class="separator:a54f2b9bab497352ff4c7d330b9aede2e inherit pub_methods_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fb7a34434eb914e25f98a5878a3c483 inherit pub_methods_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="a3fb7a34434eb914e25f98a5878a3c483"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a3fb7a34434eb914e25f98a5878a3c483">MStep</a> (void)</td></tr>
 <tr class="memdesc:a3fb7a34434eb914e25f98a5878a3c483 inherit pub_methods_classbsim__simavr"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step <br  />
@@ -489,6 +490,10 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>out_hook</b> (
 <tr class="memitem:a86cab80efcade9d0eaf1fb80eea05b20 inherit pub_static_methods_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="a86cab80efcade9d0eaf1fb80eea05b20"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>ddr_hook</b> (struct avr_irq_t *irq, uint32_t value, void *param)</td></tr>
 <tr class="separator:a86cab80efcade9d0eaf1fb80eea05b20 inherit pub_static_methods_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classbsim__simavr"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classbsim__simavr')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classbsim__simavr.html">bsim_simavr</a></td></tr>
+<tr class="memitem:a78e319f973cccb20d4858f59c95aee98 inherit pub_attribs_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="a78e319f973cccb20d4858f59c95aee98"></a>
+<a class="el" href="structusi__t.html">usi_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USI</b></td></tr>
+<tr class="separator:a78e319f973cccb20d4858f59c95aee98 inherit pub_attribs_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classbsim__simavr"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classbsim__simavr')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classbsim__simavr.html">bsim_simavr</a></td></tr>
 <tr class="memitem:ab8e55c49140fcd3d8746faba17f7ff4d inherit pro_methods_classbsim__simavr"><td class="memItemLeft" align="right" valign="top"><a id="ab8e55c49140fcd3d8746faba17f7ff4d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>pins_reset</b> (void)</td></tr>

@@ -36,6 +36,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "board_desc", "structboard__desc.html", null ],
+    [ "ch_status_t", "structch__status__t.html", null ],
     [ "CPWindow", null, [
       [ "CPWindow1", "class_c_p_window1.html", null ],
       [ "CPWindow2", "class_c_p_window2.html", null ],
@@ -113,6 +114,7 @@ var hierarchy =
     [ "sdcard_t", "structsdcard__t.html", null ],
     [ "tsc_XPT2046_t", "structtsc___x_p_t2046__t.html", null ],
     [ "uart_t", "structuart__t.html", null ],
+    [ "usi_t", "structusi__t.html", null ],
     [ "vcd_reg_t", "structvcd__reg__t.html", null ],
     [ "vterm_t", "structvterm__t.html", null ]
 ];

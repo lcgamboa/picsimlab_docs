@@ -29,6 +29,7 @@ var annotated_dup =
     [ "cboard_uCboard", "classcboard__u_cboard.html", "classcboard__u_cboard" ],
     [ "cboard_x", "classcboard__x.html", "classcboard__x" ],
     [ "cboard_Xpress", "classcboard___xpress.html", "classcboard___xpress" ],
+    [ "ch_status_t", "structch__status__t.html", "structch__status__t" ],
     [ "cpart_7s_display", "classcpart__7s__display.html", "classcpart__7s__display" ],
     [ "cpart_7s_display_dec", "classcpart__7s__display__dec.html", "classcpart__7s__display__dec" ],
     [ "cpart_Buzzer", "classcpart___buzzer.html", "classcpart___buzzer" ],
@@ -103,6 +104,7 @@ var annotated_dup =
     [ "sdcard_t", "structsdcard__t.html", "structsdcard__t" ],
     [ "tsc_XPT2046_t", "structtsc___x_p_t2046__t.html", "structtsc___x_p_t2046__t" ],
     [ "uart_t", "structuart__t.html", "structuart__t" ],
+    [ "usi_t", "structusi__t.html", "structusi__t" ],
     [ "vcd_reg_t", "structvcd__reg__t.html", "structvcd__reg__t" ],
     [ "vterm_t", "structvterm__t.html", "structvterm__t" ]
 ];

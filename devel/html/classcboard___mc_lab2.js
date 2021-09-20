@@ -20,6 +20,7 @@ var classcboard___mc_lab2 =
     [ "RegisterRemoteControl", "classcboard___mc_lab2.html#afa76e06a7f3910da2ce577a51818d8d1", null ],
     [ "Reset", "classcboard___mc_lab2.html#a2a5a16d935acb77a49a55f2b183d697b", null ],
     [ "Run_CPU", "classcboard___mc_lab2.html#a94c266eaefaf0460f5ce43621084d349", null ],
+    [ "SetScale", "classcboard___mc_lab2.html#a3a0dab06d30ca505ef17c39ebdc2f010", null ],
     [ "WritePreferences", "classcboard___mc_lab2.html#a45794866419d5a5c2ec1a410c0a5e5d7", null ],
     [ "active", "classcboard___mc_lab2.html#a642d8f700de68677d5d78e7ffb8c3941", null ],
     [ "buzzer", "classcboard___mc_lab2.html#a1db3b81981fb7bdecd2b7b7c475dcd2c", null ],

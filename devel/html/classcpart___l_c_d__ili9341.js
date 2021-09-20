@@ -16,6 +16,7 @@ var classcpart___l_c_d__ili9341 =
     [ "GetName", "classcpart___l_c_d__ili9341.html#a2c7ad7d885cf4feac227c41f16eaa61e", null ],
     [ "GetPictureFileName", "classcpart___l_c_d__ili9341.html#a5115dab1b3aba7e66dea85247963901b", null ],
     [ "PostProcess", "classcpart___l_c_d__ili9341.html#a8cf08f6abe130d254dbfce1359909a79", null ],
+    [ "PreProcess", "classcpart___l_c_d__ili9341.html#a9cb582f8b4c1f090a6fb9a4026f612de", null ],
     [ "Process", "classcpart___l_c_d__ili9341.html#a16038d47e87f21f19191d50455c47b7e", null ],
     [ "ReadPreferences", "classcpart___l_c_d__ili9341.html#a539d8deb3b3c497f0846692c4429a17f", null ],
     [ "ReadPropertiesWindow", "classcpart___l_c_d__ili9341.html#a33a302086175f45fad25e22d92e8d160", null ],
@@ -27,7 +28,14 @@ var classcpart___l_c_d__ili9341 =
     [ "font", "classcpart___l_c_d__ili9341.html#af9d047ba61bcde38bd9f324118f74f1f", null ],
     [ "input_pins", "classcpart___l_c_d__ili9341.html#aef3b94ebc1367656f6ab57bd083fe63b", null ],
     [ "lcd", "classcpart___l_c_d__ili9341.html#ac44ca0238971eb2e75745f3fa225a9ea", null ],
+    [ "lret", "classcpart___l_c_d__ili9341.html#ac3f9753ffb74479bebc28c03a255c1df", null ],
+    [ "pins_value", "classcpart___l_c_d__ili9341.html#aac68e8448d9f36fa4ea721ecac8c865e", null ],
     [ "touch", "classcpart___l_c_d__ili9341.html#aee7e2e07b986e73cd5885b28f098205d", null ],
     [ "touch_pins", "classcpart___l_c_d__ili9341.html#ad5bc9c746dfdb872fd4c909bb793210d", null ],
-    [ "type_com", "classcpart___l_c_d__ili9341.html#ad111322e1f1de21db78bdd9477eeb3d1", null ]
+    [ "tpins_int_value", "classcpart___l_c_d__ili9341.html#ac63e67ed33733c07255f685ec3de9365", null ],
+    [ "tpins_value", "classcpart___l_c_d__ili9341.html#ad2923fa70af9ace18e56729318589f7f", null ],
+    [ "tret", "classcpart___l_c_d__ili9341.html#a135c2e6c0961425e008ed31b9b61fde5", null ],
+    [ "type_com", "classcpart___l_c_d__ili9341.html#ad111322e1f1de21db78bdd9477eeb3d1", null ],
+    [ "valid_lcd_pins", "classcpart___l_c_d__ili9341.html#ae3f4f8022dc608bc2f916cfee16250b7", null ],
+    [ "valid_touch_pins", "classcpart___l_c_d__ili9341.html#a63e431d56250b0b0d6a8a10510d49628", null ]
 ];

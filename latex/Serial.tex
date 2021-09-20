@@ -2,7 +2,8 @@
 
 \chapter{Serial Communication \label{seriali}} \hypertarget{def:seriali}{}
 
-To use the simulator serial port, install a NULL-MODEM emulator:
+To use the simulator serial port emulation, you must install a NULL-MODEM emulator:
+
 \begin{itemize}
  \item Windows: com0com \url{http://sourceforge.net/projects/com0com/}
  \item Linux: tty0tty  \url{https://github.com/lcgamboa/tty0tty}
@@ -19,6 +20,9 @@ Configuration examples linking PICSimLab to \href{https://github.com/neundorf/Cu
  \hline Linux &  /dev/tnt2 & /dev/tnt3 &tty0tty &/dev/tnt2<=>/dev/tnt3\\
  \hline 
  \end{tabular}
+ \vspace{0.5cm}
+ 
+ The PICSimLab serial communication uses the 8N1 format.
  
  \section{Com0com Installation and Configuration(Windows)}
  

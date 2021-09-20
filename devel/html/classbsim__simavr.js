@@ -58,5 +58,6 @@ var classbsim__simavr =
     [ "serialexbaud", "classbsim__simavr.html#a7a17d62ea95ab205d53feacf826f855d", null ],
     [ "serialfd", "classbsim__simavr.html#ab0f07b601f080faa1604888ebf1708ff", null ],
     [ "uart_config", "classbsim__simavr.html#a7558f81a8d2cf5473054a45c617f9259", null ],
+    [ "USI", "classbsim__simavr.html#a78e319f973cccb20d4858f59c95aee98", null ],
     [ "Write_stat_irq", "classbsim__simavr.html#a5185149f566512eacdd79843e4305e05", null ]
 ];

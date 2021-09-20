@@ -133,6 +133,10 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___l_c_d__ili9341.html#a0a91f53a62d0e0782a839c81f964d488">Draw</a> (void)</td></tr>
 <tr class="memdesc:a0a91f53a62d0e0782a839c81f964d488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw part. <br /></td></tr>
 <tr class="separator:a0a91f53a62d0e0782a839c81f964d488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cb582f8b4c1f090a6fb9a4026f612de"><td class="memItemLeft" align="right" valign="top"><a id="a9cb582f8b4c1f090a6fb9a4026f612de"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___l_c_d__ili9341.html#a9cb582f8b4c1f090a6fb9a4026f612de">PreProcess</a> (void)</td></tr>
+<tr class="memdesc:a9cb582f8b4c1f090a6fb9a4026f612de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every start of CPU process. <br /></td></tr>
+<tr class="separator:a9cb582f8b4c1f090a6fb9a4026f612de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16038d47e87f21f19191d50455c47b7e"><td class="memItemLeft" align="right" valign="top"><a id="a16038d47e87f21f19191d50455c47b7e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___l_c_d__ili9341.html#a16038d47e87f21f19191d50455c47b7e">Process</a> (void)</td></tr>
 <tr class="memdesc:a16038d47e87f21f19191d50455c47b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every CPU step. <br /></td></tr>
@@ -210,10 +214,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ChangeType</b> (unsig
 virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a0445a18f52f1dfa584f1c4f50e9189d5">GetHelpURL</a> (void)</td></tr>
 <tr class="memdesc:a0445a18f52f1dfa584f1c4f50e9189d5 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the help url of part. <br /></td></tr>
 <tr class="separator:a0445a18f52f1dfa584f1c4f50e9189d5 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfa8e9eec8b57a811f58c59497ea1c9 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="abcfa8e9eec8b57a811f58c59497ea1c9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#abcfa8e9eec8b57a811f58c59497ea1c9">PreProcess</a> (void)</td></tr>
-<tr class="memdesc:abcfa8e9eec8b57a811f58c59497ea1c9 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every start of CPU process. <br /></td></tr>
-<tr class="separator:abcfa8e9eec8b57a811f58c59497ea1c9 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3faf00e5c17d550d775908bad60f908f inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a3faf00e5c17d550d775908bad60f908f"></a>
 virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a3faf00e5c17d550d775908bad60f908f">GetPropertiesWindowFile</a> (void)</td></tr>
 <tr class="memdesc:a3faf00e5c17d550d775908bad60f908f inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of properties window XML file. <br /></td></tr>
@@ -331,6 +331,10 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a5898264d532b99966bb50ca246a1de01">SetUpdate</a> (unsigned char upd)</td></tr>
 <tr class="memdesc:a5898264d532b99966bb50ca246a1de01 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set part to Draw update. <br /></td></tr>
 <tr class="separator:a5898264d532b99966bb50ca246a1de01 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aaf89f507a5095656d2ec5716476c62ee"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#aaf89f507a5095656d2ec5716476c62ee">GetAwaysUpdate</a> (void)</td></tr>
+<tr class="memdesc:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need to be update every clock cycle. <br /></td></tr>
+<tr class="separator:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -355,6 +359,27 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>active</b> [
 <tr class="memitem:af9d047ba61bcde38bd9f324118f74f1f"><td class="memItemLeft" align="right" valign="top"><a id="af9d047ba61bcde38bd9f324118f74f1f"></a>
 lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
 <tr class="separator:af9d047ba61bcde38bd9f324118f74f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f4f8022dc608bc2f916cfee16250b7"><td class="memItemLeft" align="right" valign="top"><a id="ae3f4f8022dc608bc2f916cfee16250b7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>valid_lcd_pins</b></td></tr>
+<tr class="separator:ae3f4f8022dc608bc2f916cfee16250b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e431d56250b0b0d6a8a10510d49628"><td class="memItemLeft" align="right" valign="top"><a id="a63e431d56250b0b0d6a8a10510d49628"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>valid_touch_pins</b></td></tr>
+<tr class="separator:a63e431d56250b0b0d6a8a10510d49628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac68e8448d9f36fa4ea721ecac8c865e"><td class="memItemLeft" align="right" valign="top"><a id="aac68e8448d9f36fa4ea721ecac8c865e"></a>
+const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>pins_value</b> [13]</td></tr>
+<tr class="separator:aac68e8448d9f36fa4ea721ecac8c865e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2923fa70af9ace18e56729318589f7f"><td class="memItemLeft" align="right" valign="top"><a id="ad2923fa70af9ace18e56729318589f7f"></a>
+const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>tpins_value</b> [5]</td></tr>
+<tr class="separator:ad2923fa70af9ace18e56729318589f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63e67ed33733c07255f685ec3de9365"><td class="memItemLeft" align="right" valign="top"><a id="ac63e67ed33733c07255f685ec3de9365"></a>
+const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>tpins_int_value</b></td></tr>
+<tr class="separator:ac63e67ed33733c07255f685ec3de9365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f9753ffb74479bebc28c03a255c1df"><td class="memItemLeft" align="right" valign="top"><a id="ac3f9753ffb74479bebc28c03a255c1df"></a>
+unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>lret</b></td></tr>
+<tr class="separator:ac3f9753ffb74479bebc28c03a255c1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a135c2e6c0961425e008ed31b9b61fde5"><td class="memItemLeft" align="right" valign="top"><a id="a135c2e6c0961425e008ed31b9b61fde5"></a>
+unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>tret</b></td></tr>
+<tr class="separator:a135c2e6c0961425e008ed31b9b61fde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -371,6 +396,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a393f150c966be76ef1b1adeaa1594a73">PointInside</a> (int x, int y, <a class="el" href="structinput__t.html">input_t</a> <a class="el" href="classpart.html#a4d9e655aaf82d7e7ae3b083a77fd8c6b">input</a>)</td></tr>
 <tr class="memdesc:a393f150c966be76ef1b1adeaa1594a73 inherit pro_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if point x,y is inside of input. <br /></td></tr>
 <tr class="separator:a393f150c966be76ef1b1adeaa1594a73 inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac330b77968faa3c5b837992d8cc6116 inherit pro_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aac330b77968faa3c5b837992d8cc6116"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_slider</b> (const <a class="el" href="structoutput__t.html">output_t</a> *<a class="el" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>, const unsigned char pos, const lxString val, const lxFont font)</td></tr>
+<tr class="separator:aac330b77968faa3c5b837992d8cc6116 inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6baf7771bfd21a5927439b71ae7f8445 inherit pro_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a6baf7771bfd21a5927439b71ae7f8445"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_potentiometer</b> (const <a class="el" href="structoutput__t.html">output_t</a> *<a class="el" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>, const unsigned char pos, const lxString val, const lxFont font)</td></tr>
+<tr class="separator:a6baf7771bfd21a5927439b71ae7f8445 inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classpart"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classpart')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classpart.html">part</a></td></tr>
 <tr class="memitem:aa0537112326292720ad059e75731e6e3 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aa0537112326292720ad059e75731e6e3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#aa0537112326292720ad059e75731e6e3">id</a></td></tr>
@@ -442,6 +473,10 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a4eb152fb7bf5a7ec09b93c7511f385d6">Update</a></td></tr>
 <tr class="memdesc:a4eb152fb7bf5a7ec09b93c7511f385d6 inherit pro_attribs_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">part need draw Update <br /></td></tr>
 <tr class="separator:a4eb152fb7bf5a7ec09b93c7511f385d6 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619ade0f6a0bb95e698bcd977f93eb82 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a619ade0f6a0bb95e698bcd977f93eb82"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a619ade0f6a0bb95e698bcd977f93eb82">aways_update</a></td></tr>
+<tr class="memdesc:a619ade0f6a0bb95e698bcd977f93eb82 inherit pro_attribs_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">part need to be update every clock cycle <br /></td></tr>
+<tr class="separator:a619ade0f6a0bb95e698bcd977f93eb82 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/parts/<a class="el" href="part___l_c_d__ili9341_8h_source.html">part_LCD_ili9341.h</a></li>

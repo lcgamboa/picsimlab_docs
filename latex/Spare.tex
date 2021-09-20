@@ -38,7 +38,7 @@ The main window has the menu with the following functions:
   \item Push Buttons - Adds 8 push buttons
   \item Push Buttons (Analogic) - Adds 8 push buttons with analog output
   \item SHT3X - Adds a analog temperature and humidity sensor
-  \item Switchs - Adds eight switchs
+  \item Switches - Adds eight switches
   \item Ultrasonic HC-SR04 - Adds a ultrasonic range sensor
 \end{itemize}
  \item{Outputs}
@@ -48,6 +48,7 @@ The main window has the menu with the following functions:
    \item Buzzer - Adds a active/passive buzzer
    \item DC Motor - Adds a DC motor with H-bridge and quadrature encoder 
    \item LCD hd44780 - Adds a text display hd44780
+   \item LCD hd44780 I2C - Adds a text display hd44780 connect to one PCF8574 I2C converter
    \item LCD ili9340 - Adds a color graphic display ili9340 with touchscreen 
    \item LCD pcd8544 - Adds a monochrome graphic display pcd8544 (Nokia 5110)
    \item LCD pcf8833 - Adds a color graphic display pcf8833
@@ -347,20 +348,20 @@ voltage output is 22.85mV/°C + 1.53V . The relative humidity range is 0 to 100 
 
 
 
-\subsection{Switchs}
-This part consists of 8 keys with on or off position (0 or 1).
+\subsection{Switches}
+This part consists of 8 switches with on or off position (0 or 1).
 
 \begin{figure}[H]
 \center
-\includegraphics[width=0.99\textwidth]{img/part_switchs.png} 
+\includegraphics[width=0.99\textwidth]{img/part_switches.png} 
 \end{figure} 
 
 \begin{figure}[H]
 \center
-\includegraphics[width=0.99\textwidth]{img/part_switchs_.png} 
+\includegraphics[width=0.99\textwidth]{img/part_switches_.png} 
 \end{figure} 
 
-\href{https://lcgamboa.github.io/picsimlab_examples/Parts.html\#Switchs}{Examples}
+\href{https://lcgamboa.github.io/picsimlab_examples/Parts.html\#Switches}{Examples}
 
 
 
@@ -669,6 +670,7 @@ It is a PCF8574 serial I2C IO expander.
 
 This part is a UART serial port. This part connects the hardware/software UART IO pins of microcontroller to
 one real/virtual PC serial port. To use virtual port is need to install a virtual port software, as described in \ref{seriali}. 
+The serial communication uses the 8N1 format.
 
 \begin{figure}[H]
 \center
@@ -775,8 +777,9 @@ This is a discrete transfer function mathematical model.
 \subsection{IO Virtual Term} \hypertarget{def:vterm}{}
 
 This part is a virtual serial terminal. This part can be used to read and write RX/TX pins UART signals.
-This part don't need the use or install of virtual serial ports on computer.  
+To use this part are don't need to use or install one virtual serial ports on computer.  
 Clik on terminal picture to open the terminal window.
+The serial communication uses the 8N1 format.
 
 \begin{figure}[H]
 \center

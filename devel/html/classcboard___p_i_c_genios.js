@@ -21,6 +21,7 @@ var classcboard___p_i_c_genios =
     [ "RegisterRemoteControl", "classcboard___p_i_c_genios.html#ac75ef9eff84ffdb0c00252ac4694cffc", null ],
     [ "Reset", "classcboard___p_i_c_genios.html#af64fbebcb2aae3b18a856fa998acb835", null ],
     [ "Run_CPU", "classcboard___p_i_c_genios.html#a515beec725dc31a8bda5a8e02cbe64e9", null ],
+    [ "SetScale", "classcboard___p_i_c_genios.html#a9e1ec5faf48eb54711d68d065ea89c2f", null ],
     [ "WritePreferences", "classcboard___p_i_c_genios.html#a13813424f36395fcf50b9ed7ae598f7f", null ],
     [ "active", "classcboard___p_i_c_genios.html#a512ac807d7df360c7f90860e1ba01e40", null ],
     [ "buzzer", "classcboard___p_i_c_genios.html#add7eb555ff7c16779179184a835ea017", null ],

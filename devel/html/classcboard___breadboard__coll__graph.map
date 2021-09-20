@@ -1,9 +1,10 @@
 <map id="cboard_Breadboard" name="cboard_Breadboard">
-<area shape="rect" id="node1" title=" " alt="" coords="53,275,201,301"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="141,199,245,225"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="154,109,213,136"/>
-<area shape="rect" id="node6" href="$classbsim__simavr.html" title=" " alt="" coords="10,199,117,225"/>
-<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="102,5,169,32"/>
-<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="193,5,269,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="156,275,304,301"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="243,199,347,225"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="242,109,301,136"/>
+<area shape="rect" id="node6" href="$classbsim__simavr.html" title=" " alt="" coords="113,199,219,225"/>
+<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="190,5,257,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="281,5,357,32"/>
 <area shape="rect" id="node7" href="$structbitbang__uart__t.html" title=" " alt="" coords="5,109,121,136"/>
+<area shape="rect" id="node8" href="$structusi__t.html" title=" " alt="" coords="146,109,199,136"/>
 </map>

@@ -6,6 +6,7 @@ var classcpart___i_o___p_c_f8574 =
     [ "Draw", "classcpart___i_o___p_c_f8574.html#a41900b1d327002bd210f6ed6bac37330", null ],
     [ "get_in_id", "classcpart___i_o___p_c_f8574.html#a2da5bbd8c09b05bf47ec7372b28cdb33", null ],
     [ "get_out_id", "classcpart___i_o___p_c_f8574.html#ae25c2e7df0e37095927d38066f634106", null ],
+    [ "get_output_pins", "classcpart___i_o___p_c_f8574.html#af0bedd71b8af9f2f9a368fe0cca6f7af", null ],
     [ "GetAboutInfo", "classcpart___i_o___p_c_f8574.html#a5e5e64b1498808a3c84d8d49d6172cb9", null ],
     [ "GetMapFile", "classcpart___i_o___p_c_f8574.html#a0dea9686dadeb029437daea3d8b525b2", null ],
     [ "GetName", "classcpart___i_o___p_c_f8574.html#a206b0cb971022138651ef55136141198", null ],
