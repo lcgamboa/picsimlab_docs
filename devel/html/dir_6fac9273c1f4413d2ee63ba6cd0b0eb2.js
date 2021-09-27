@@ -19,6 +19,7 @@ var dir_6fac9273c1f4413d2ee63ba6cd0b0eb2 =
     [ "rtc_ds1307.h", "rtc__ds1307_8h_source.html", null ],
     [ "rtc_pfc8563.h", "rtc__pfc8563_8h_source.html", null ],
     [ "sdcard.h", "sdcard_8h_source.html", null ],
+    [ "sen_ds1621.h", "sen__ds1621_8h_source.html", null ],
     [ "sen_mpu6050.h", "sen__mpu6050_8h_source.html", null ],
     [ "tsc_xpt2046.h", "tsc__xpt2046_8h_source.html", null ],
     [ "uart.h", "uart_8h_source.html", null ],

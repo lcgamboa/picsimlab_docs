@@ -156,7 +156,7 @@ var class_c_p_window1 =
     [ "spare_on", "class_c_p_window1.html#afcec024ae9a876c75710a296586014e4", null ],
     [ "st", "class_c_p_window1.html#a78790ad780f0bb99f736ba99823ec3f1", null ],
     [ "status", "class_c_p_window1.html#ad87f7ccdf944f1fcbab919c401f73f57", null ],
-    [ "status", "class_c_p_window1.html#ac4919fd83e5513ab21f7ff70d2cca303", null ],
+    [ "status", "class_c_p_window1.html#aa21791771fa181ab2db5a89299ea2211", null ],
     [ "statusbar1", "class_c_p_window1.html#a1b0f337b8fcb1e0d957122f863940d9c", null ],
     [ "sync", "class_c_p_window1.html#a86ae8fb55b8114ff4c6529f269e4b5ab", null ],
     [ "tgo", "class_c_p_window1.html#af410ba3ebb701d0b43a7081040610407", null ],
