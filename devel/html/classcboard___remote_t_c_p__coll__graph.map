@@ -1,0 +1,7 @@
+<map id="cboard_RemoteTCP" name="cboard_RemoteTCP">
+<area shape="rect" id="node1" title=" " alt="" coords="12,261,161,288"/>
+<area shape="rect" id="node2" href="$classbsim__remote.html" title=" " alt="" coords="33,185,141,212"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="57,109,116,136"/>
+<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+</map>

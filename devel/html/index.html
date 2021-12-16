@@ -128,26 +128,26 @@ part_servo.h</h2>
 <div class="line"><span class="keyword">class </span><a class="code" href="classcpart__servo.html">cpart_servo</a>:<span class="keyword">public</span> <a class="code" href="classpart.html">part</a></div>
 <div class="line">{</div>
 <div class="line">   <span class="keyword">public</span>:</div>
-<div class="line">      lxString <a class="code" href="classcpart__servo.html#a1a35aaaa0d3db766ec46a85e5b062c5f">GetName</a>(<span class="keywordtype">void</span>){<span class="keywordflow">return</span> lxT(PART_SERVO_Name);};</div>
-<div class="line">      lxString <a class="code" href="classcpart__servo.html#ac50b965f3eb11dcbfd79b89f9d761430">GetAboutInfo</a>(<span class="keywordtype">void</span>){<span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;L.C. Gamboa \n &lt;lcgamboa@yahoo.com&gt;&quot;</span>);};      </div>
+<div class="line">      lxString <a class="code" href="classcpart__servo.html#a369e48b1d7406e0aa2364c0aef1c9e96">GetName</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{<span class="keywordflow">return</span> lxT(PART_SERVO_Name);};</div>
+<div class="line">      lxString <a class="code" href="classcpart__servo.html#ac842a5c8444381ca1bf23468403ce549">GetAboutInfo</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{<span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;L.C. Gamboa \n &lt;lcgamboa@yahoo.com&gt;&quot;</span>);};      </div>
 <div class="line">      </div>
 <div class="line">      <a class="code" href="classcpart__servo.html#a38f5b70c1f63626da3951a5ce57bc16f">cpart_servo</a>(<span class="keywordtype">unsigned</span> x, <span class="keywordtype">unsigned</span> y);</div>
 <div class="line">     </div>
 <div class="line">      <a class="code" href="classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a">~cpart_servo</a>(<span class="keywordtype">void</span>);</div>
 <div class="line">      </div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a67baf5e61954a20b1ad32ba7be306c1e">Draw</a>(<span class="keywordtype">void</span>);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a1c2781c42883239cefa14500d62ac0f6">Process</a>(<span class="keywordtype">void</span>);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#afc7441a4f0f664ed6a0441883dc080ae">PostProcess</a>(<span class="keywordtype">void</span>);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a43b803f5191ced277e7c55168c298d94">ConfigurePropertiesWindow</a>(CPWindow *  WProp);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a5f9ce011dbeb829625b4c919271bbf22">ReadPropertiesWindow</a>(CPWindow * WProp);</div>
-<div class="line">      lxString <a class="code" href="classcpart__servo.html#a2ae2bc599536d6f74d87dba3755edc49">WritePreferences</a>(<span class="keywordtype">void</span>);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a875e6a5517d3ed433267e0ab6a17a5c7">ReadPreferences</a>(lxString value);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a897c9a5c22af22f890a436965ddf346b">SetOrientation</a>(<span class="keywordtype">int</span> orientation);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#aebb0829ccb875cc2ed0f8a1efb7cdf99">SetScale</a>(<span class="keywordtype">double</span> scale);</div>
-<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcpart__servo.html#a43d2e87e94cdbe6fb792ef8e2b70d60f">get_in_id</a>(<span class="keywordtype">char</span> * name);</div>
-<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcpart__servo.html#a42d93bfacf8c184948a8de24883991c1">get_out_id</a>(<span class="keywordtype">char</span> * name);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#afb87939ab462851e162586d40991515c">Draw</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a774812d1ea393ac0328de09efbe97490">Process</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376">PostProcess</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a">ConfigurePropertiesWindow</a>(CPWindow *  WProp) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a1eac73056884d0a33e66bb850e4827a3">ReadPropertiesWindow</a>(CPWindow * WProp) <span class="keyword">override</span>;</div>
+<div class="line">      lxString <a class="code" href="classcpart__servo.html#a4a16d8728aa01dc94f0b544d6b8aace0">WritePreferences</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a37bfdfaf3fadd46d34338be0a6ca34f7">ReadPreferences</a>(lxString value) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#ac20457f24fcbfea16c0b8bcbc78d4faf">SetOrientation</a>(<span class="keywordtype">int</span> orientation) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#af7c0accf52260ff6f9e150c5f9c632b1">SetScale</a>(<span class="keywordtype">double</span> scale) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d">get_in_id</a>(<span class="keywordtype">char</span> * name) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3">get_out_id</a>(<span class="keywordtype">char</span> * name) <span class="keyword">override</span>;</div>
 <div class="line">    <span class="keyword">private</span>: </div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#ab67293719c30afce65256578bfcbdace">RegisterRemoteControl</a>(<span class="keywordtype">void</span>);          </div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">RegisterRemoteControl</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;          </div>
 <div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>; </div>
 <div class="line">      lxBitmap * <a class="code" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a>;   </div>
 <div class="line">      <span class="keywordtype">float</span> <a class="code" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>;             </div>
@@ -162,26 +162,26 @@ part_servo.h</h2>
 <div class="ttc" id="aclasscpart__servo_html"><div class="ttname"><a href="classcpart__servo.html">cpart_servo</a></div><div class="ttdoc">servo motor part class</div><div class="ttdef"><b>Definition:</b> part_servo.h:40</div></div>
 <div class="ttc" id="aclasscpart__servo_html_a0af2e1168aeb456ba1f6a0a1511c1019"><div class="ttname"><a href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">cpart_servo::angle</a></div><div class="ttdeci">float angle</div><div class="ttdoc">angle of shaft</div><div class="ttdef"><b>Definition:</b> part_servo.h:72</div></div>
 <div class="ttc" id="aclasscpart__servo_html_a143b73817ed78ff25408bd0eec5f4755"><div class="ttname"><a href="classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755">cpart_servo::time</a></div><div class="ttdeci">int time</div><div class="ttdoc">pulse time</div><div class="ttdef"><b>Definition:</b> part_servo.h:75</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a1a35aaaa0d3db766ec46a85e5b062c5f"><div class="ttname"><a href="classcpart__servo.html#a1a35aaaa0d3db766ec46a85e5b062c5f">cpart_servo::GetName</a></div><div class="ttdeci">lxString GetName(void)</div><div class="ttdoc">Return the name of part.</div><div class="ttdef"><b>Definition:</b> part_servo.h:42</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a1c2781c42883239cefa14500d62ac0f6"><div class="ttname"><a href="classcpart__servo.html#a1c2781c42883239cefa14500d62ac0f6">cpart_servo::Process</a></div><div class="ttdeci">void Process(void)</div><div class="ttdoc">Called every CPU step.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:124</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a1eac73056884d0a33e66bb850e4827a3"><div class="ttname"><a href="classcpart__servo.html#a1eac73056884d0a33e66bb850e4827a3">cpart_servo::ReadPropertiesWindow</a></div><div class="ttdeci">void ReadPropertiesWindow(CPWindow *WProp) override</div><div class="ttdoc">Called when properties window close.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:239</div></div>
 <div class="ttc" id="aclasscpart__servo_html_a22893b0e5a587b655f947d0450964303"><div class="ttname"><a href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">cpart_servo::angle_</a></div><div class="ttdeci">float angle_</div><div class="ttdoc">old angle of shaft</div><div class="ttdef"><b>Definition:</b> part_servo.h:73</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a2ae2bc599536d6f74d87dba3755edc49"><div class="ttname"><a href="classcpart__servo.html#a2ae2bc599536d6f74d87dba3755edc49">cpart_servo::WritePreferences</a></div><div class="ttdeci">lxString WritePreferences(void)</div><div class="ttdoc">Called to save part preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:194</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a369e48b1d7406e0aa2364c0aef1c9e96"><div class="ttname"><a href="classcpart__servo.html#a369e48b1d7406e0aa2364c0aef1c9e96">cpart_servo::GetName</a></div><div class="ttdeci">lxString GetName(void) override</div><div class="ttdoc">Return the name of part.</div><div class="ttdef"><b>Definition:</b> part_servo.h:42</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a37bfdfaf3fadd46d34338be0a6ca34f7"><div class="ttname"><a href="classcpart__servo.html#a37bfdfaf3fadd46d34338be0a6ca34f7">cpart_servo::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(lxString value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:204</div></div>
 <div class="ttc" id="aclasscpart__servo_html_a38f5b70c1f63626da3951a5ce57bc16f"><div class="ttname"><a href="classcpart__servo.html#a38f5b70c1f63626da3951a5ce57bc16f">cpart_servo::cpart_servo</a></div><div class="ttdeci">cpart_servo(unsigned x, unsigned y)</div><div class="ttdoc">constructor called once on part creation</div><div class="ttdef"><b>Definition:</b> part_servo.cc:37</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a42d93bfacf8c184948a8de24883991c1"><div class="ttname"><a href="classcpart__servo.html#a42d93bfacf8c184948a8de24883991c1">cpart_servo::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name)</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> part_servo.cc:183</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a43b803f5191ced277e7c55168c298d94"><div class="ttname"><a href="classcpart__servo.html#a43b803f5191ced277e7c55168c298d94">cpart_servo::ConfigurePropertiesWindow</a></div><div class="ttdeci">void ConfigurePropertiesWindow(CPWindow *WProp)</div><div class="ttdoc">Called to configure the properties window.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:217</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a43d2e87e94cdbe6fb792ef8e2b70d60f"><div class="ttname"><a href="classcpart__servo.html#a43d2e87e94cdbe6fb792ef8e2b70d60f">cpart_servo::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name)</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> part_servo.cc:176</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a5f9ce011dbeb829625b4c919271bbf22"><div class="ttname"><a href="classcpart__servo.html#a5f9ce011dbeb829625b4c919271bbf22">cpart_servo::ReadPropertiesWindow</a></div><div class="ttdeci">void ReadPropertiesWindow(CPWindow *WProp)</div><div class="ttdoc">Called when properties window close.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:239</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a67baf5e61954a20b1ad32ba7be306c1e"><div class="ttname"><a href="classcpart__servo.html#a67baf5e61954a20b1ad32ba7be306c1e">cpart_servo::Draw</a></div><div class="ttdeci">void Draw(void)</div><div class="ttdoc">Called ever 100ms to draw part.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:73</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a4a16d8728aa01dc94f0b544d6b8aace0"><div class="ttname"><a href="classcpart__servo.html#a4a16d8728aa01dc94f0b544d6b8aace0">cpart_servo::WritePreferences</a></div><div class="ttdeci">lxString WritePreferences(void) override</div><div class="ttdoc">Called to save part preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:194</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a4a1e164fd0f4145fafe870f5f28f350a"><div class="ttname"><a href="classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a">cpart_servo::ConfigurePropertiesWindow</a></div><div class="ttdeci">void ConfigurePropertiesWindow(CPWindow *WProp) override</div><div class="ttdoc">Called to configure the properties window.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:217</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a5092323ea79d9f6152f9e5eaf65f7ee7"><div class="ttname"><a href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">cpart_servo::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:211</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a57b0dc4b8c939e2ea78065a03dda0bd3"><div class="ttname"><a href="classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3">cpart_servo::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> part_servo.cc:183</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a5cd43fc2214c65bdfbac5291228f8376"><div class="ttname"><a href="classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376">cpart_servo::PostProcess</a></div><div class="ttdeci">void PostProcess(void) override</div><div class="ttdoc">Called every end of CPU process.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:152</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a5fa49b34102d782755dd5f5ef172f13d"><div class="ttname"><a href="classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d">cpart_servo::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> part_servo.cc:176</div></div>
+<div class="ttc" id="aclasscpart__servo_html_a774812d1ea393ac0328de09efbe97490"><div class="ttname"><a href="classcpart__servo.html#a774812d1ea393ac0328de09efbe97490">cpart_servo::Process</a></div><div class="ttdeci">void Process(void) override</div><div class="ttdoc">Called every CPU step.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:124</div></div>
 <div class="ttc" id="aclasscpart__servo_html_a840063c98f8a8635554d9f8a1e297181"><div class="ttname"><a href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">cpart_servo::in_</a></div><div class="ttdeci">unsigned char in_[2]</div><div class="ttdoc">input pin memory</div><div class="ttdef"><b>Definition:</b> part_servo.h:74</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a875e6a5517d3ed433267e0ab6a17a5c7"><div class="ttname"><a href="classcpart__servo.html#a875e6a5517d3ed433267e0ab6a17a5c7">cpart_servo::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(lxString value)</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:204</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a897c9a5c22af22f890a436965ddf346b"><div class="ttname"><a href="classcpart__servo.html#a897c9a5c22af22f890a436965ddf346b">cpart_servo::SetOrientation</a></div><div class="ttdeci">void SetOrientation(int orientation)</div><div class="ttdoc">Set the orientation to draw.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:246</div></div>
 <div class="ttc" id="aclasscpart__servo_html_a9b4c8f6557bae63ba5645c4aeb31a519"><div class="ttname"><a href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">cpart_servo::BackGround</a></div><div class="ttdeci">lxBitmap * BackGround</div><div class="ttdoc">Background image.</div><div class="ttdef"><b>Definition:</b> part_servo.h:71</div></div>
-<div class="ttc" id="aclasscpart__servo_html_ab67293719c30afce65256578bfcbdace"><div class="ttname"><a href="classcpart__servo.html#ab67293719c30afce65256578bfcbdace">cpart_servo::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void)</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:211</div></div>
-<div class="ttc" id="aclasscpart__servo_html_ac50b965f3eb11dcbfd79b89f9d761430"><div class="ttname"><a href="classcpart__servo.html#ac50b965f3eb11dcbfd79b89f9d761430">cpart_servo::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void)</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> part_servo.h:43</div></div>
+<div class="ttc" id="aclasscpart__servo_html_ac20457f24fcbfea16c0b8bcbc78d4faf"><div class="ttname"><a href="classcpart__servo.html#ac20457f24fcbfea16c0b8bcbc78d4faf">cpart_servo::SetOrientation</a></div><div class="ttdeci">void SetOrientation(int orientation) override</div><div class="ttdoc">Set the orientation to draw.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:246</div></div>
+<div class="ttc" id="aclasscpart__servo_html_ac842a5c8444381ca1bf23468403ce549"><div class="ttname"><a href="classcpart__servo.html#ac842a5c8444381ca1bf23468403ce549">cpart_servo::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> part_servo.h:43</div></div>
 <div class="ttc" id="aclasscpart__servo_html_ac943dc8cf327494608d6540db5349760"><div class="ttname"><a href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">cpart_servo::input_pin</a></div><div class="ttdeci">unsigned char input_pin</div><div class="ttdoc">pulse input pin</div><div class="ttdef"><b>Definition:</b> part_servo.h:70</div></div>
-<div class="ttc" id="aclasscpart__servo_html_aebb0829ccb875cc2ed0f8a1efb7cdf99"><div class="ttname"><a href="classcpart__servo.html#aebb0829ccb875cc2ed0f8a1efb7cdf99">cpart_servo::SetScale</a></div><div class="ttdeci">void SetScale(double scale)</div><div class="ttdoc">Set the orientation to draw.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:264</div></div>
 <div class="ttc" id="aclasscpart__servo_html_aec280c6ce5b18601e15231a2f3622e6a"><div class="ttname"><a href="classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a">cpart_servo::~cpart_servo</a></div><div class="ttdeci">~cpart_servo(void)</div><div class="ttdoc">destructor called once on part destruction</div><div class="ttdef"><b>Definition:</b> part_servo.cc:65</div></div>
-<div class="ttc" id="aclasscpart__servo_html_afc7441a4f0f664ed6a0441883dc080ae"><div class="ttname"><a href="classcpart__servo.html#afc7441a4f0f664ed6a0441883dc080ae">cpart_servo::PostProcess</a></div><div class="ttdeci">void PostProcess(void)</div><div class="ttdoc">Called every end of CPU process.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:152</div></div>
+<div class="ttc" id="aclasscpart__servo_html_af7c0accf52260ff6f9e150c5f9c632b1"><div class="ttname"><a href="classcpart__servo.html#af7c0accf52260ff6f9e150c5f9c632b1">cpart_servo::SetScale</a></div><div class="ttdeci">void SetScale(double scale) override</div><div class="ttdoc">Set the orientation to draw.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:264</div></div>
+<div class="ttc" id="aclasscpart__servo_html_afb87939ab462851e162586d40991515c"><div class="ttname"><a href="classcpart__servo.html#afb87939ab462851e162586d40991515c">cpart_servo::Draw</a></div><div class="ttdeci">void Draw(void) override</div><div class="ttdoc">Called ever 100ms to draw part.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:73</div></div>
 <div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:36</div></div>
 </div><!-- fragment --> <h2><a class="anchor" id="pcode"></a>
 part_servo.cc</h2>
@@ -257,7 +257,7 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a67baf5e61954a20b1ad32ba7be306c1e">cpart_servo::Draw</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#afb87939ab462851e162586d40991515c">cpart_servo::Draw</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> </div>
 <div class="line"> <span class="keywordtype">int</span> i;</div>
@@ -308,7 +308,7 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a1c2781c42883239cefa14500d62ac0f6">cpart_servo::Process</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a774812d1ea393ac0328de09efbe97490">cpart_servo::Process</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> </div>
 <div class="line"> <span class="keyword">const</span> picpin * ppins = Window5.GetPinsValues ();</div>
@@ -336,7 +336,7 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#afc7441a4f0f664ed6a0441883dc080ae">cpart_servo::PostProcess</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376">cpart_servo::PostProcess</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordflow">if</span> (<a class="code" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> &gt; <a class="code" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>)</div>
 <div class="line">  {</div>
@@ -360,14 +360,14 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a43d2e87e94cdbe6fb792ef8e2b70d60f">cpart_servo::get_in_id</a>(<span class="keywordtype">char</span> * name)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d">cpart_servo::get_in_id</a>(<span class="keywordtype">char</span> * name)</div>
 <div class="line">{</div>
 <div class="line"> printf (<span class="stringliteral">&quot;Erro input &#39;%s&#39; don&#39;t have a valid id! \n&quot;</span>, name);</div>
 <div class="line"> <span class="keywordflow">return</span> -1;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a42d93bfacf8c184948a8de24883991c1">cpart_servo::get_out_id</a>(<span class="keywordtype">char</span> * name)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3">cpart_servo::get_out_id</a>(<span class="keywordtype">char</span> * name)</div>
 <div class="line">{</div>
 <div class="line"> </div>
 <div class="line"> <span class="keywordflow">if</span> (strcmp (name, <span class="stringliteral">&quot;PN_1&quot;</span>) == 0)<span class="keywordflow">return</span> O_P1;</div>
@@ -378,7 +378,7 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">lxString</div>
-<div class="line"><a class="code" href="classcpart__servo.html#a2ae2bc599536d6f74d87dba3755edc49">cpart_servo::WritePreferences</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a4a16d8728aa01dc94f0b544d6b8aace0">cpart_servo::WritePreferences</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordtype">char</span> prefs[256];</div>
 <div class="line"> </div>
@@ -388,20 +388,20 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a875e6a5517d3ed433267e0ab6a17a5c7">cpart_servo::ReadPreferences</a>(lxString value)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a37bfdfaf3fadd46d34338be0a6ca34f7">cpart_servo::ReadPreferences</a>(lxString value)</div>
 <div class="line">{</div>
 <div class="line"> sscanf (value.c_str (), <span class="stringliteral">&quot;%hhu&quot;</span>, &amp;<a class="code" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>);</div>
-<div class="line"> <a class="code" href="classcpart__servo.html#ab67293719c30afce65256578bfcbdace">RegisterRemoteControl</a> ();</div>
+<div class="line"> <a class="code" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">RegisterRemoteControl</a> ();</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#ab67293719c30afce65256578bfcbdace">cpart_servo::RegisterRemoteControl</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">cpart_servo::RegisterRemoteControl</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <a class="code" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_AXIS]-&gt;<a class="code" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = (<span class="keywordtype">void</span> *) &amp;<a class="code" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a43b803f5191ced277e7c55168c298d94">cpart_servo::ConfigurePropertiesWindow</a>(CPWindow * WProp)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a">cpart_servo::ConfigurePropertiesWindow</a>(CPWindow * WProp)</div>
 <div class="line">{</div>
 <div class="line"> lxString Items = Window5.<a class="code" href="class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4">GetPinsNames</a> ();</div>
 <div class="line"> lxString spin;</div>
@@ -423,14 +423,14 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a5f9ce011dbeb829625b4c919271bbf22">cpart_servo::ReadPropertiesWindow</a>(CPWindow * WProp)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#a1eac73056884d0a33e66bb850e4827a3">cpart_servo::ReadPropertiesWindow</a>(CPWindow * WProp)</div>
 <div class="line">{</div>
 <div class="line"> <a class="code" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a> = atoi (((CCombo*) WProp-&gt;GetChildByName (<span class="stringliteral">&quot;combo1&quot;</span>))-&gt;GetText ());</div>
-<div class="line"> <a class="code" href="classcpart__servo.html#ab67293719c30afce65256578bfcbdace">RegisterRemoteControl</a> ();</div>
+<div class="line"> <a class="code" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">RegisterRemoteControl</a> ();</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#a897c9a5c22af22f890a436965ddf346b">cpart_servo::SetOrientation</a>(<span class="keywordtype">int</span> orientation)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#ac20457f24fcbfea16c0b8bcbc78d4faf">cpart_servo::SetOrientation</a>(<span class="keywordtype">int</span> orientation)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordflow">if</span> (<a class="code" href="classpart.html#a712eee4f18b5651335989bd628518c9f">Orientation</a> == orientation)<span class="keywordflow">return</span>;</div>
 <div class="line"> </div>
@@ -448,7 +448,7 @@ part_servo.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcpart__servo.html#aebb0829ccb875cc2ed0f8a1efb7cdf99">cpart_servo::SetScale</a>(<span class="keywordtype">double</span> scale)</div>
+<div class="line"><a class="code" href="classcpart__servo.html#af7c0accf52260ff6f9e150c5f9c632b1">cpart_servo::SetScale</a>(<span class="keywordtype">double</span> scale)</div>
 <div class="line">{</div>
 <div class="line"> </div>
 <div class="line"> <span class="keywordflow">if</span> (<a class="code" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a> == scale)<span class="keywordflow">return</span>;</div>
@@ -470,8 +470,8 @@ part_servo.cc</h2>
 <div class="line">part_init(PART_SERVO_Name, <a class="code" href="classcpart__servo.html">cpart_servo</a>, <span class="stringliteral">&quot;Output&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line"> </div>
-<div class="ttc" id="aclass_c_p_window1_html_a5293ce669d8269ef2ecf2ed54fb3eb12"><div class="ttname"><a href="class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12">CPWindow1::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:1301</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_a5ac98dc50ff5f47fd05ebd534d80d1f0"><div class="ttname"><a href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">CPWindow1::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:174</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_a5293ce669d8269ef2ecf2ed54fb3eb12"><div class="ttname"><a href="class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12">CPWindow1::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:1314</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_a5ac98dc50ff5f47fd05ebd534d80d1f0"><div class="ttname"><a href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">CPWindow1::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:180</div></div>
 <div class="ttc" id="aclass_c_p_window5_html_a6f859826910014d1bc32d94d2130bbb9"><div class="ttname"><a href="class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9">CPWindow5::GetPinName</a></div><div class="ttdeci">lxString GetPinName(unsigned char pin)</div><div class="ttdoc">Return the name of one pin.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:1257</div></div>
 <div class="ttc" id="aclass_c_p_window5_html_ab012f0ddc5fed1566f4b7ab53eb62be4"><div class="ttname"><a href="class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4">CPWindow5::GetPinsNames</a></div><div class="ttdeci">lxString GetPinsNames(void)</div><div class="ttdoc">Return the name of all pins.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:1218</div></div>
 <div class="ttc" id="aclassboard_html_a2c5a0def304361ca54f770b2cd9520fd"><div class="ttname"><a href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">board::MGetInstClockFreq</a></div><div class="ttdeci">virtual float MGetInstClockFreq(void)=0</div><div class="ttdoc">board microcontroller get cpu internal clock (in PIC frequency/4)</div></div>
@@ -549,7 +549,7 @@ board_x.h</h2>
 <div class="line">     CLabel *label3;   <span class="comment">//label of gauge RB1</span></div>
 <div class="line">     </div>
 <div class="line">     <span class="comment">//Register controls for remote interface called once on board creation </span></div>
-<div class="line">     <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#abb1999596a0882e765f1a7d0558a84ad">RegisterRemoteControl</a>(<span class="keywordtype">void</span>);  </div>
+<div class="line">     <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">RegisterRemoteControl</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;  </div>
 <div class="line">     </div>
 <div class="line">     lxColor color1;<span class="comment">//LEDs color 1</span></div>
 <div class="line">     lxColor color2;<span class="comment">//LEDs color 2   </span></div>
@@ -560,59 +560,59 @@ board_x.h</h2>
 <div class="line">      <span class="comment">//Destructor called once on board destruction </span></div>
 <div class="line">      ~<a class="code" href="classcboard__x.html">cboard_x</a>(<span class="keywordtype">void</span>); </div>
 <div class="line">      <span class="comment">//Return the board name</span></div>
-<div class="line">      lxString <a class="code" href="classcboard__x.html#a25f9703cfd09a1087dc97e306d77281a">GetName</a>(<span class="keywordtype">void</span>) {<span class="keywordflow">return</span> lxT(BOARD_x_Name); }; </div>
+<div class="line">      lxString <a class="code" href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">GetName</a>(<span class="keywordtype">void</span>)<span class="keyword">  override </span>{<span class="keywordflow">return</span> lxT(BOARD_x_Name); }; </div>
 <div class="line">      <span class="comment">//Return the about info of board</span></div>
-<div class="line">      lxString <a class="code" href="classcboard__x.html#a340a719b3c8b35b8cdf0d44cb1197319">GetAboutInfo</a>(<span class="keywordtype">void</span>){<span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;L.C. Gamboa \n &lt;lcgamboa@yahoo.com&gt;&quot;</span>);};</div>
+<div class="line">      lxString <a class="code" href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">GetAboutInfo</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{<span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;L.C. Gamboa \n &lt;lcgamboa@yahoo.com&gt;&quot;</span>);};</div>
 <div class="line">      <span class="comment">//Called ever 100ms to draw board</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a62b3124f9865b2f90c861e8ec7cfafcb">Draw</a>(CDraw *draw);</div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a84da87615eacef12186e019610b407fc">Run_CPU</a>(<span class="keywordtype">void</span>);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a18ebbd336dc27b64c0fdcc6a5d580ee4">Draw</a>(CDraw *draw) <span class="keyword">override</span>;</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">Run_CPU</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Return a list of board supported microcontrollers</span></div>
-<div class="line">      lxString <a class="code" href="classcboard__x.html#ac345d0d65ddce37ed208c834777430c0">GetSupportedDevices</a>(<span class="keywordtype">void</span>){<span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;PIC16F877A,PIC18F4550,PIC18F4620,&quot;</span>);};</div>
+<div class="line">      lxString <a class="code" href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">GetSupportedDevices</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{<span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;PIC16F877A,PIC18F4550,PIC18F4620,&quot;</span>);};</div>
 <div class="line">      <span class="comment">//Reset board status</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a123c6c7d672c47c24eb192d620b14bde">Reset</a>(<span class="keywordtype">void</span>);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Event on the board</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#aeca24c97cafc120f6e293faa0e877fda">EvMouseButtonPress</a>(uint button, uint x, uint y,uint state);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a54f0b84ecd3973bdd3f7d8b7d13cc0b9">EvMouseButtonPress</a>(uint button, uint x, uint y,uint state) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Event on the board</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a0d8811cf02dd7638f25f151e278eaafe">EvMouseButtonRelease</a>(uint button, uint x, uint y,uint state);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#abb94877b3a91eb371b3b20e2e9cebcce">EvMouseButtonRelease</a>(uint button, uint x, uint y,uint state) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Event on the board</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a10ee7f6090b28326392e4516d02b08f7">EvMouseMove</a>(uint button, uint x, uint y, uint state);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#acfd3a83c6a0ece11eb8d88dd9fa102f9">EvMouseMove</a>(uint button, uint x, uint y, uint state) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Event on the board</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a4ec35f699502dc726d0d127f9fda8bb1">EvKeyPress</a>(uint key,uint mask);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96">EvKeyPress</a>(uint key,uint mask) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Event on the board</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#af6cb57797d9e100a624d3029c509d0bc">EvKeyRelease</a>(uint key,uint mask);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#aef95af41c7e6c527dfe9e522912a19a2">EvKeyRelease</a>(uint key,uint mask) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Called ever 1s to refresh status</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#ad4162cf2a32b56e7023d23252593d4c4">RefreshStatus</a>(<span class="keywordtype">void</span>);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">RefreshStatus</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Called to save board preferences in configuration file</span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a1a8ef6de897499136d5d6220b2e7a25f">WritePreferences</a>(<span class="keywordtype">void</span>);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">WritePreferences</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//Called whe configuration file load  preferences </span></div>
-<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#ae7380c58afef71f5c38fab0174f2d70d">ReadPreferences</a>(<span class="keywordtype">char</span> *name,<span class="keywordtype">char</span> *value);</div>
+<div class="line">      <span class="keywordtype">void</span> <a class="code" href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">ReadPreferences</a>(<span class="keywordtype">char</span> *name,<span class="keywordtype">char</span> *value) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//return the input ids numbers of names used in input map</span></div>
-<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcboard__x.html#af22b7401d801dc22ca407acd9d1d2367">get_in_id</a>(<span class="keywordtype">char</span> * name);</div>
+<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">get_in_id</a>(<span class="keywordtype">char</span> * name) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="comment">//return the output ids numbers of names used in output map</span></div>
-<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcboard__x.html#a253842be321749318a561d88b559773d">get_out_id</a>(<span class="keywordtype">char</span> * name);</div>
+<div class="line">      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">get_out_id</a>(<span class="keywordtype">char</span> * name) <span class="keyword">override</span>;</div>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#endif  </span><span class="comment">/* BOARD_x_H */</span><span class="preprocessor"></span></div>
 <div class="line"> </div>
 <div class="ttc" id="aclassbsim__picsim_html"><div class="ttname"><a href="classbsim__picsim.html">bsim_picsim</a></div><div class="ttdef"><b>Definition:</b> bsim_picsim.h:34</div></div>
 <div class="ttc" id="aclasscboard__x_html"><div class="ttname"><a href="classcboard__x.html">cboard_x</a></div><div class="ttdef"><b>Definition:</b> board_x.h:37</div></div>
-<div class="ttc" id="aclasscboard__x_html_a0d8811cf02dd7638f25f151e278eaafe"><div class="ttname"><a href="classcboard__x.html#a0d8811cf02dd7638f25f151e278eaafe">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(uint button, uint x, uint y, uint state)</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:437</div></div>
-<div class="ttc" id="aclasscboard__x_html_a10ee7f6090b28326392e4516d02b08f7"><div class="ttname"><a href="classcboard__x.html#a10ee7f6090b28326392e4516d02b08f7">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(uint button, uint x, uint y, uint state)</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:411</div></div>
-<div class="ttc" id="aclasscboard__x_html_a123c6c7d672c47c24eb192d620b14bde"><div class="ttname"><a href="classcboard__x.html#a123c6c7d672c47c24eb192d620b14bde">cboard_x::Reset</a></div><div class="ttdeci">void Reset(void)</div><div class="ttdoc">Reset board status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:178</div></div>
-<div class="ttc" id="aclasscboard__x_html_a1a8ef6de897499136d5d6220b2e7a25f"><div class="ttname"><a href="classcboard__x.html#a1a8ef6de897499136d5d6220b2e7a25f">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void)</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> board_x.cc:255</div></div>
-<div class="ttc" id="aclasscboard__x_html_a253842be321749318a561d88b559773d"><div class="ttname"><a href="classcboard__x.html#a253842be321749318a561d88b559773d">cboard_x::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name)</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> board_x.cc:77</div></div>
-<div class="ttc" id="aclasscboard__x_html_a25f9703cfd09a1087dc97e306d77281a"><div class="ttname"><a href="classcboard__x.html#a25f9703cfd09a1087dc97e306d77281a">cboard_x::GetName</a></div><div class="ttdeci">lxString GetName(void)</div><div class="ttdoc">Get board name registered in PICSimLab</div><div class="ttdef"><b>Definition:</b> board_x.h:65</div></div>
-<div class="ttc" id="aclasscboard__x_html_a340a719b3c8b35b8cdf0d44cb1197319"><div class="ttname"><a href="classcboard__x.html#a340a719b3c8b35b8cdf0d44cb1197319">cboard_x::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void)</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> board_x.h:67</div></div>
-<div class="ttc" id="aclasscboard__x_html_a4ec35f699502dc726d0d127f9fda8bb1"><div class="ttname"><a href="classcboard__x.html#a4ec35f699502dc726d0d127f9fda8bb1">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(uint key, uint mask)</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:302</div></div>
-<div class="ttc" id="aclasscboard__x_html_a62b3124f9865b2f90c861e8ec7cfafcb"><div class="ttname"><a href="classcboard__x.html#a62b3124f9865b2f90c861e8ec7cfafcb">cboard_x::Draw</a></div><div class="ttdeci">void Draw(CDraw *draw)</div><div class="ttdoc">Called ever 100ms to draw board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:486</div></div>
-<div class="ttc" id="aclasscboard__x_html_a84da87615eacef12186e019610b407fc"><div class="ttname"><a href="classcboard__x.html#a84da87615eacef12186e019610b407fc">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void)</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition:</b> board_x.cc:637</div></div>
-<div class="ttc" id="aclasscboard__x_html_abb1999596a0882e765f1a7d0558a84ad"><div class="ttname"><a href="classcboard__x.html#abb1999596a0882e765f1a7d0558a84ad">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void)</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> board_x.cc:212</div></div>
-<div class="ttc" id="aclasscboard__x_html_ac345d0d65ddce37ed208c834777430c0"><div class="ttname"><a href="classcboard__x.html#ac345d0d65ddce37ed208c834777430c0">cboard_x::GetSupportedDevices</a></div><div class="ttdeci">lxString GetSupportedDevices(void)</div><div class="ttdoc">Return a list of supported microcontrollers.</div><div class="ttdef"><b>Definition:</b> board_x.h:72</div></div>
-<div class="ttc" id="aclasscboard__x_html_ad4162cf2a32b56e7023d23252593d4c4"><div class="ttname"><a href="classcboard__x.html#ad4162cf2a32b56e7023d23252593d4c4">cboard_x::RefreshStatus</a></div><div class="ttdeci">void RefreshStatus(void)</div><div class="ttdoc">Called ever 1s to refresh status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:234</div></div>
-<div class="ttc" id="aclasscboard__x_html_ae7380c58afef71f5c38fab0174f2d70d"><div class="ttname"><a href="classcboard__x.html#ae7380c58afef71f5c38fab0174f2d70d">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value)</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> board_x.cc:270</div></div>
-<div class="ttc" id="aclasscboard__x_html_aeca24c97cafc120f6e293faa0e877fda"><div class="ttname"><a href="classcboard__x.html#aeca24c97cafc120f6e293faa0e877fda">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(uint button, uint x, uint y, uint state)</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:337</div></div>
-<div class="ttc" id="aclasscboard__x_html_af22b7401d801dc22ca407acd9d1d2367"><div class="ttname"><a href="classcboard__x.html#af22b7401d801dc22ca407acd9d1d2367">cboard_x::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name)</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> board_x.cc:61</div></div>
-<div class="ttc" id="aclasscboard__x_html_af6cb57797d9e100a624d3029c509d0bc"><div class="ttname"><a href="classcboard__x.html#af6cb57797d9e100a624d3029c509d0bc">cboard_x::EvKeyRelease</a></div><div class="ttdeci">void EvKeyRelease(uint key, uint mask)</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:323</div></div>
+<div class="ttc" id="aclasscboard__x_html_a1492d042e89665dba3924b193f5bf9cc"><div class="ttname"><a href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a></div><div class="ttdeci">void RefreshStatus(void) override</div><div class="ttdoc">Called ever 1s to refresh status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:234</div></div>
+<div class="ttc" id="aclasscboard__x_html_a18ebbd336dc27b64c0fdcc6a5d580ee4"><div class="ttname"><a href="classcboard__x.html#a18ebbd336dc27b64c0fdcc6a5d580ee4">cboard_x::Draw</a></div><div class="ttdeci">void Draw(CDraw *draw) override</div><div class="ttdoc">Called ever 100ms to draw board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:486</div></div>
+<div class="ttc" id="aclasscboard__x_html_a350e7f7b3a7edd49c2021c30cc3a18f4"><div class="ttname"><a href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">cboard_x::GetName</a></div><div class="ttdeci">lxString GetName(void) override</div><div class="ttdoc">Get board name registered in PICSimLab</div><div class="ttdef"><b>Definition:</b> board_x.h:65</div></div>
+<div class="ttc" id="aclasscboard__x_html_a3d75167fedb903b74a8920476214f701"><div class="ttname"><a href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> board_x.h:67</div></div>
+<div class="ttc" id="aclasscboard__x_html_a3db74c02199e114e22f7a7a5b4e3dd96"><div class="ttname"><a href="classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:302</div></div>
+<div class="ttc" id="aclasscboard__x_html_a4a96bccccb853f6f8b367db3e63d693f"><div class="ttname"><a href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">cboard_x::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> board_x.cc:61</div></div>
+<div class="ttc" id="aclasscboard__x_html_a4e642d592813f132be2227a4af97bb3e"><div class="ttname"><a href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">cboard_x::GetSupportedDevices</a></div><div class="ttdeci">lxString GetSupportedDevices(void) override</div><div class="ttdoc">Return a list of supported microcontrollers.</div><div class="ttdef"><b>Definition:</b> board_x.h:72</div></div>
+<div class="ttc" id="aclasscboard__x_html_a4f4460d4ad4d82cc885312b4bfedcd87"><div class="ttname"><a href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">cboard_x::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> board_x.cc:77</div></div>
+<div class="ttc" id="aclasscboard__x_html_a54f0b84ecd3973bdd3f7d8b7d13cc0b9"><div class="ttname"><a href="classcboard__x.html#a54f0b84ecd3973bdd3f7d8b7d13cc0b9">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:337</div></div>
+<div class="ttc" id="aclasscboard__x_html_a5603baefc099825eeb53634ece32b2f8"><div class="ttname"><a href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void) override</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> board_x.cc:255</div></div>
+<div class="ttc" id="aclasscboard__x_html_a6337aae979579d9d180026dfcd2c55c0"><div class="ttname"><a href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition:</b> board_x.cc:637</div></div>
+<div class="ttc" id="aclasscboard__x_html_a696180daddb7dfc9b5bf5ad45fca0124"><div class="ttname"><a href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> board_x.cc:270</div></div>
+<div class="ttc" id="aclasscboard__x_html_a6f87b4f00b9297a5893a805820c4a436"><div class="ttname"><a href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a></div><div class="ttdeci">void Reset(void) override</div><div class="ttdoc">Reset board status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:178</div></div>
+<div class="ttc" id="aclasscboard__x_html_a9c1664ce551c79209b4e6dc9d0ed8730"><div class="ttname"><a href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> board_x.cc:212</div></div>
+<div class="ttc" id="aclasscboard__x_html_abb94877b3a91eb371b3b20e2e9cebcce"><div class="ttname"><a href="classcboard__x.html#abb94877b3a91eb371b3b20e2e9cebcce">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:437</div></div>
+<div class="ttc" id="aclasscboard__x_html_acfd3a83c6a0ece11eb8d88dd9fa102f9"><div class="ttname"><a href="classcboard__x.html#acfd3a83c6a0ece11eb8d88dd9fa102f9">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:407</div></div>
+<div class="ttc" id="aclasscboard__x_html_aef95af41c7e6c527dfe9e522912a19a2"><div class="ttname"><a href="classcboard__x.html#aef95af41c7e6c527dfe9e522912a19a2">cboard_x::EvKeyRelease</a></div><div class="ttdeci">void EvKeyRelease(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:323</div></div>
 </div><!-- fragment --> <h2><a class="anchor" id="bcode"></a>
 board_x.cc</h2>
 <div class="fragment"><div class="line"><span class="comment">/* ########################################################################</span></div>
@@ -675,7 +675,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//return the input ids numbers of names used in input map</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#af22b7401d801dc22ca407acd9d1d2367">cboard_x::get_in_id</a>(<span class="keywordtype">char</span> * name)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">cboard_x::get_in_id</a>(<span class="keywordtype">char</span> * name)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordflow">if</span> (strcmp (name, <span class="stringliteral">&quot;PG_ICSP&quot;</span>) == 0)<span class="keywordflow">return</span> I_ICSP;</div>
 <div class="line"> <span class="keywordflow">if</span> (strcmp (name, <span class="stringliteral">&quot;SW_PWR&quot;</span>) == 0)<span class="keywordflow">return</span> I_PWR;</div>
@@ -691,7 +691,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//return the output ids numbers of names used in output map</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a253842be321749318a561d88b559773d">cboard_x::get_out_id</a>(<span class="keywordtype">char</span> * name)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">cboard_x::get_out_id</a>(<span class="keywordtype">char</span> * name)</div>
 <div class="line">{</div>
 <div class="line"> </div>
 <div class="line"> <span class="keywordflow">if</span> (strcmp (name, <span class="stringliteral">&quot;SW_D1&quot;</span>) == 0)<span class="keywordflow">return</span> O_SD1;</div>
@@ -792,7 +792,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Reset board status</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a123c6c7d672c47c24eb192d620b14bde">cboard_x::Reset</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> pic_reset (1);</div>
 <div class="line"> </div>
@@ -820,13 +820,13 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line"> <span class="keywordflow">if</span> (<a class="code" href="classboard.html#ac41e7f65ae979416dd133853774e206e">use_spare</a>)Window5.<a class="code" href="class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a">Reset</a> ();</div>
 <div class="line"> </div>
-<div class="line"> <a class="code" href="classcboard__x.html#abb1999596a0882e765f1a7d0558a84ad">RegisterRemoteControl</a> ();</div>
+<div class="line"> <a class="code" href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">RegisterRemoteControl</a> ();</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">//Register variables to be controled by remote control</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#abb1999596a0882e765f1a7d0558a84ad">cboard_x::RegisterRemoteControl</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <span class="comment">//register inputa</span></div>
 <div class="line"> <a class="code" href="classboard.html#a310d04440c58dd0d664c62a891518a9c">input_ids</a>[I_BD0]-&gt;<a class="code" href="structinput__t.html#aa46e9709c149cb3cdc28825ba28fb7ed">status</a> = &amp;p_BT1;</div>
@@ -848,7 +848,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Called ever 1s to refresh status</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#ad4162cf2a32b56e7023d23252593d4c4">cboard_x::RefreshStatus</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <span class="comment">//verify serial port state and refresh status bar   </span></div>
 <div class="line"><span class="preprocessor">#ifndef _WIN_</span></div>
@@ -869,7 +869,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Called to save board preferences in configuration file</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a1a8ef6de897499136d5d6220b2e7a25f">cboard_x::WritePreferences</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <span class="comment">//write selected microcontroller of board_x to preferences</span></div>
 <div class="line"> Window1.<a class="code" href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">saveprefs</a> (lxT (<span class="stringliteral">&quot;X_proc&quot;</span>), <a class="code" href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">Proc</a>);</div>
@@ -884,7 +884,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Called whe configuration file load  preferences </span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#ae7380c58afef71f5c38fab0174f2d70d">cboard_x::ReadPreferences</a>(<span class="keywordtype">char</span> *name, <span class="keywordtype">char</span> *value)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a>(<span class="keywordtype">char</span> *name, <span class="keywordtype">char</span> *value)</div>
 <div class="line">{</div>
 <div class="line"> <span class="comment">//read switch state of board_x of preferences </span></div>
 <div class="line"> <span class="keywordflow">if</span> (!strcmp (name, <span class="stringliteral">&quot;X_bt2&quot;</span>))</div>
@@ -916,7 +916,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Event on the board</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a4ec35f699502dc726d0d127f9fda8bb1">cboard_x::EvKeyPress</a>(uint key, uint mask)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96">cboard_x::EvKeyPress</a>(uint key, uint mask)</div>
 <div class="line">{</div>
 <div class="line"> <span class="comment">//if keyboard key 1 is pressed then activate button (state=0)   </span></div>
 <div class="line"> <span class="keywordflow">if</span> (key == <span class="charliteral">&#39;1&#39;</span>)</div>
@@ -937,7 +937,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Event on the board</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#af6cb57797d9e100a624d3029c509d0bc">cboard_x::EvKeyRelease</a>(uint key, uint mask)</div>
+<div class="line"><a class="code" href="classcboard__x.html#aef95af41c7e6c527dfe9e522912a19a2">cboard_x::EvKeyRelease</a>(uint key, uint mask)</div>
 <div class="line">{</div>
 <div class="line"> <span class="comment">//if keyboard key 1 is pressed then deactivate button (state=1)     </span></div>
 <div class="line"> <span class="keywordflow">if</span> (key == <span class="charliteral">&#39;1&#39;</span>)</div>
@@ -951,7 +951,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Event on the board</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#aeca24c97cafc120f6e293faa0e877fda">cboard_x::EvMouseButtonPress</a>(uint button, uint x, uint y, uint state)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a54f0b84ecd3973bdd3f7d8b7d13cc0b9">cboard_x::EvMouseButtonPress</a>(uint button, uint x, uint y, uint state)</div>
 <div class="line">{</div>
 <div class="line"> </div>
 <div class="line"> <span class="keywordtype">int</span> i;</div>
@@ -973,18 +973,14 @@ board_x.cc</h2>
 <div class="line">      <span class="keywordflow">case</span> I_PWR:</div>
 <div class="line">       <span class="keywordflow">if</span> (Window1.<a class="code" href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444">Get_mcupwr</a> ()) <span class="comment">//if on turn off</span></div>
 <div class="line">        {</div>
-<div class="line">         Window1.<a class="code" href="class_c_p_window1.html#ae9c1fa118bae7bc54acb0eacc78c933b">Set_mcurun</a> (0);</div>
 <div class="line">         Window1.<a class="code" href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c">Set_mcupwr</a> (0);</div>
-<div class="line">         <a class="code" href="classcboard__x.html#a123c6c7d672c47c24eb192d620b14bde">Reset</a> ();</div>
+<div class="line">         <a class="code" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a> ();</div>
 <div class="line">         p_BT1 = 1;</div>
-<div class="line">         Window1.statusbar1.SetField (0, lxT (<span class="stringliteral">&quot;Stoped&quot;</span>));</div>
 <div class="line">        }</div>
 <div class="line">       <span class="keywordflow">else</span> <span class="comment">//if off turn on</span></div>
 <div class="line">        {</div>
 <div class="line">         Window1.<a class="code" href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c">Set_mcupwr</a> (1);</div>
-<div class="line">         Window1.<a class="code" href="class_c_p_window1.html#ae9c1fa118bae7bc54acb0eacc78c933b">Set_mcurun</a> (1);</div>
-<div class="line">         <a class="code" href="classcboard__x.html#a123c6c7d672c47c24eb192d620b14bde">Reset</a> ();</div>
-<div class="line">         Window1.statusbar1.SetField (0, lxT (<span class="stringliteral">&quot;Running...&quot;</span>));</div>
+<div class="line">         <a class="code" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a> ();</div>
 <div class="line">        }</div>
 <div class="line">       <a class="code" href="classboard.html#a94afe9318a9cd0d8635d0043424a8682">output_ids</a>[O_LPWR]-&gt;<a class="code" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">       <span class="keywordflow">break</span>;</div>
@@ -1025,7 +1021,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Event on the board</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a10ee7f6090b28326392e4516d02b08f7">cboard_x::EvMouseMove</a>(uint button, uint x, uint y, uint state)</div>
+<div class="line"><a class="code" href="classcboard__x.html#acfd3a83c6a0ece11eb8d88dd9fa102f9">cboard_x::EvMouseMove</a>(uint button, uint x, uint y, uint state)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordtype">int</span> i;</div>
 <div class="line"> </div>
@@ -1043,6 +1039,10 @@ board_x.cc</h2>
 <div class="line">         <a class="code" href="classboard.html#a94afe9318a9cd0d8635d0043424a8682">output_ids</a>[O_POT1]-&gt;<a class="code" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">        }</div>
 <div class="line">      }</div>
+<div class="line">     <span class="keywordflow">else</span></div>
+<div class="line">      {</div>
+<div class="line">       active = 0;</div>
+<div class="line">      }</div>
 <div class="line">     <span class="keywordflow">break</span>;</div>
 <div class="line">    }</div>
 <div class="line">  }</div>
@@ -1051,7 +1051,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Event on the board</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a0d8811cf02dd7638f25f151e278eaafe">cboard_x::EvMouseButtonRelease</a>(uint button, uint x, uint y, uint state)</div>
+<div class="line"><a class="code" href="classcboard__x.html#abb94877b3a91eb371b3b20e2e9cebcce">cboard_x::EvMouseButtonRelease</a>(uint button, uint x, uint y, uint state)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordtype">int</span> i;</div>
 <div class="line"> </div>
@@ -1072,7 +1072,7 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line">         <span class="keywordflow">if</span> (pic_reset (-1))</div>
 <div class="line">          {</div>
-<div class="line">           <a class="code" href="classcboard__x.html#a123c6c7d672c47c24eb192d620b14bde">Reset</a> ();</div>
+<div class="line">           <a class="code" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a> ();</div>
 <div class="line">          }</div>
 <div class="line">        }</div>
 <div class="line">       <a class="code" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a> = 1;</div>
@@ -1100,7 +1100,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//This is the critical code for simulator running speed</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a62b3124f9865b2f90c861e8ec7cfafcb">cboard_x::Draw</a>(CDraw *draw)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a18ebbd336dc27b64c0fdcc6a5d580ee4">cboard_x::Draw</a>(CDraw *draw)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordtype">int</span> update = 0; <span class="comment">//verifiy if updated is needed</span></div>
 <div class="line"> <span class="keywordtype">int</span> i;</div>
@@ -1251,7 +1251,7 @@ board_x.cc</h2>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span></div>
-<div class="line"><a class="code" href="classcboard__x.html#a84da87615eacef12186e019610b407fc">cboard_x::Run_CPU</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a class="code" href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a>(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line"> <span class="keywordtype">int</span> i;</div>
 <div class="line"> <span class="keywordtype">int</span> j;</div>
@@ -1347,27 +1347,26 @@ board_x.cc</h2>
 <div class="line"><span class="comment">//Register the board in PICSimLab</span></div>
 <div class="line">board_init(BOARD_x_Name, <a class="code" href="classcboard__x.html">cboard_x</a>);</div>
 <div class="line"> </div>
-<div class="ttc" id="aclass_c_p_window1_html_a003a0f87f554fef0aff246adc7b3c82d"><div class="ttname"><a href="class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d">CPWindow1::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:290</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_a8b2e0baf9fd9364d618f55dc943dc06c"><div class="ttname"><a href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c">CPWindow1::Set_mcupwr</a></div><div class="ttdeci">void Set_mcupwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:239</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_abc98e682c927fc3071eb6da0880b795d"><div class="ttname"><a href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">CPWindow1::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:889</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_add73d25c4889d4e01489e335b509edb7"><div class="ttname"><a href="class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7">CPWindow1::Get_mcurst</a></div><div class="ttdeci">int Get_mcurst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:228</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_ae9c1fa118bae7bc54acb0eacc78c933b"><div class="ttname"><a href="class_c_p_window1.html#ae9c1fa118bae7bc54acb0eacc78c933b">CPWindow1::Set_mcurun</a></div><div class="ttdeci">void Set_mcurun(int pr)</div><div class="ttdoc">Set the run status of microcontroller Running/Stopped.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:246</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_af08244612c785b8acc158fbc5d95a444"><div class="ttname"><a href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444">CPWindow1::Get_mcupwr</a></div><div class="ttdeci">int Get_mcupwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:214</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_a003a0f87f554fef0aff246adc7b3c82d"><div class="ttname"><a href="class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d">CPWindow1::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:287</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_a8b2e0baf9fd9364d618f55dc943dc06c"><div class="ttname"><a href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c">CPWindow1::Set_mcupwr</a></div><div class="ttdeci">void Set_mcupwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:238</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_abc98e682c927fc3071eb6da0880b795d"><div class="ttname"><a href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">CPWindow1::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:898</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_add73d25c4889d4e01489e335b509edb7"><div class="ttname"><a href="class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7">CPWindow1::Get_mcurst</a></div><div class="ttdeci">int Get_mcurst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:227</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_af08244612c785b8acc158fbc5d95a444"><div class="ttname"><a href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444">CPWindow1::Get_mcupwr</a></div><div class="ttdeci">int Get_mcupwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:220</div></div>
 <div class="ttc" id="aclass_c_p_window4_html_a3193dfdbbbd823e021fc60bdc402bfc2"><div class="ttname"><a href="class_c_p_window4.html#a3193dfdbbbd823e021fc60bdc402bfc2">CPWindow4::SetSample</a></div><div class="ttdeci">void SetSample(void)</div><div class="ttdoc">Sample and update oscilloscope data aquisition.</div><div class="ttdef"><b>Definition:</b> picsimlab4.cc:382</div></div>
 <div class="ttc" id="aclass_c_p_window5_html_a02d69b9e32726649eaa1c325e2b7af70"><div class="ttname"><a href="class_c_p_window5.html#a02d69b9e32726649eaa1c325e2b7af70">CPWindow5::PreProcess</a></div><div class="ttdeci">void PreProcess(void)</div><div class="ttdoc">Execute the pre process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:883</div></div>
 <div class="ttc" id="aclass_c_p_window5_html_a371988205dfdb7dbb05150751c505f4a"><div class="ttname"><a href="class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a">CPWindow5::Reset</a></div><div class="ttdeci">void Reset(void)</div><div class="ttdoc">Reset all spare parts.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:948</div></div>
 <div class="ttc" id="aclass_c_p_window5_html_a7b033d0c44a3dfc514d5506b74ad5abb"><div class="ttname"><a href="class_c_p_window5.html#a7b033d0c44a3dfc514d5506b74ad5abb">CPWindow5::PostProcess</a></div><div class="ttdeci">void PostProcess(void)</div><div class="ttdoc">Execute the post process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:939</div></div>
 <div class="ttc" id="aclass_c_p_window5_html_abf4a593790774e9c184e4876ed7fd1b3"><div class="ttname"><a href="class_c_p_window5.html#abf4a593790774e9c184e4876ed7fd1b3">CPWindow5::Process</a></div><div class="ttdeci">void Process(void)</div><div class="ttdoc">Execute the process code of spare parts N times (where N is the number of steps in 100ms)</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:907</div></div>
-<div class="ttc" id="aclassboard_html_a1f5dedbf50d1ebd86af96429a4a3d180"><div class="ttname"><a href="classboard.html#a1f5dedbf50d1ebd86af96429a4a3d180">board::use_oscope</a></div><div class="ttdeci">int use_oscope</div><div class="ttdoc">use oscilloscope window</div><div class="ttdef"><b>Definition:</b> board.h:511</div></div>
-<div class="ttc" id="aclassboard_html_a310d04440c58dd0d664c62a891518a9c"><div class="ttname"><a href="classboard.html#a310d04440c58dd0d664c62a891518a9c">board::input_ids</a></div><div class="ttdeci">input_t * input_ids[120]</div><div class="ttdoc">input map elements by id order</div><div class="ttdef"><b>Definition:</b> board.h:506</div></div>
-<div class="ttc" id="aclassboard_html_a52d4e88ddf5f29d1648ea94dafbf87de"><div class="ttname"><a href="classboard.html#a52d4e88ddf5f29d1648ea94dafbf87de">board::outputc</a></div><div class="ttdeci">int outputc</div><div class="ttdoc">output map elements counter</div><div class="ttdef"><b>Definition:</b> board.h:510</div></div>
-<div class="ttc" id="aclassboard_html_a637392ea82a18ee9f9716147455031dd"><div class="ttname"><a href="classboard.html#a637392ea82a18ee9f9716147455031dd">board::input</a></div><div class="ttdeci">input_t input[120]</div><div class="ttdoc">input map elements</div><div class="ttdef"><b>Definition:</b> board.h:505</div></div>
-<div class="ttc" id="aclassboard_html_a7a851447b6b05b5f600cb587aae0c778"><div class="ttname"><a href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">board::p_RST</a></div><div class="ttdeci">unsigned char p_RST</div><div class="ttdoc">board /RESET pin state</div><div class="ttdef"><b>Definition:</b> board.h:513</div></div>
-<div class="ttc" id="aclassboard_html_a92f1e7588769e3cbc7cc0667c1bf3b8c"><div class="ttname"><a href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">board::Proc</a></div><div class="ttdeci">lxString Proc</div><div class="ttdoc">Name of processor in use.</div><div class="ttdef"><b>Definition:</b> board.h:502</div></div>
-<div class="ttc" id="aclassboard_html_a94afe9318a9cd0d8635d0043424a8682"><div class="ttname"><a href="classboard.html#a94afe9318a9cd0d8635d0043424a8682">board::output_ids</a></div><div class="ttdeci">output_t * output_ids[120]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition:</b> board.h:508</div></div>
-<div class="ttc" id="aclassboard_html_abb9694f4430944f5f6e110c3af6feb3e"><div class="ttname"><a href="classboard.html#abb9694f4430944f5f6e110c3af6feb3e">board::output</a></div><div class="ttdeci">output_t output[120]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition:</b> board.h:507</div></div>
-<div class="ttc" id="aclassboard_html_ac41e7f65ae979416dd133853774e206e"><div class="ttname"><a href="classboard.html#ac41e7f65ae979416dd133853774e206e">board::use_spare</a></div><div class="ttdeci">int use_spare</div><div class="ttdoc">use spare parts window</div><div class="ttdef"><b>Definition:</b> board.h:512</div></div>
-<div class="ttc" id="aclassboard_html_ad9f8dc51eeea817a22d9ffec01c1f0c2"><div class="ttname"><a href="classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2">board::inputc</a></div><div class="ttdeci">int inputc</div><div class="ttdoc">input map elements counter</div><div class="ttdef"><b>Definition:</b> board.h:509</div></div>
+<div class="ttc" id="aclassboard_html_a1f5dedbf50d1ebd86af96429a4a3d180"><div class="ttname"><a href="classboard.html#a1f5dedbf50d1ebd86af96429a4a3d180">board::use_oscope</a></div><div class="ttdeci">int use_oscope</div><div class="ttdoc">use oscilloscope window</div><div class="ttdef"><b>Definition:</b> board.h:516</div></div>
+<div class="ttc" id="aclassboard_html_a310d04440c58dd0d664c62a891518a9c"><div class="ttname"><a href="classboard.html#a310d04440c58dd0d664c62a891518a9c">board::input_ids</a></div><div class="ttdeci">input_t * input_ids[120]</div><div class="ttdoc">input map elements by id order</div><div class="ttdef"><b>Definition:</b> board.h:511</div></div>
+<div class="ttc" id="aclassboard_html_a52d4e88ddf5f29d1648ea94dafbf87de"><div class="ttname"><a href="classboard.html#a52d4e88ddf5f29d1648ea94dafbf87de">board::outputc</a></div><div class="ttdeci">int outputc</div><div class="ttdoc">output map elements counter</div><div class="ttdef"><b>Definition:</b> board.h:515</div></div>
+<div class="ttc" id="aclassboard_html_a637392ea82a18ee9f9716147455031dd"><div class="ttname"><a href="classboard.html#a637392ea82a18ee9f9716147455031dd">board::input</a></div><div class="ttdeci">input_t input[120]</div><div class="ttdoc">input map elements</div><div class="ttdef"><b>Definition:</b> board.h:510</div></div>
+<div class="ttc" id="aclassboard_html_a7a851447b6b05b5f600cb587aae0c778"><div class="ttname"><a href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">board::p_RST</a></div><div class="ttdeci">unsigned char p_RST</div><div class="ttdoc">board /RESET pin state</div><div class="ttdef"><b>Definition:</b> board.h:518</div></div>
+<div class="ttc" id="aclassboard_html_a92f1e7588769e3cbc7cc0667c1bf3b8c"><div class="ttname"><a href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">board::Proc</a></div><div class="ttdeci">lxString Proc</div><div class="ttdoc">Name of processor in use.</div><div class="ttdef"><b>Definition:</b> board.h:507</div></div>
+<div class="ttc" id="aclassboard_html_a94afe9318a9cd0d8635d0043424a8682"><div class="ttname"><a href="classboard.html#a94afe9318a9cd0d8635d0043424a8682">board::output_ids</a></div><div class="ttdeci">output_t * output_ids[120]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition:</b> board.h:513</div></div>
+<div class="ttc" id="aclassboard_html_abb9694f4430944f5f6e110c3af6feb3e"><div class="ttname"><a href="classboard.html#abb9694f4430944f5f6e110c3af6feb3e">board::output</a></div><div class="ttdeci">output_t output[120]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition:</b> board.h:512</div></div>
+<div class="ttc" id="aclassboard_html_ac41e7f65ae979416dd133853774e206e"><div class="ttname"><a href="classboard.html#ac41e7f65ae979416dd133853774e206e">board::use_spare</a></div><div class="ttdeci">int use_spare</div><div class="ttdoc">use spare parts window</div><div class="ttdef"><b>Definition:</b> board.h:517</div></div>
+<div class="ttc" id="aclassboard_html_ad9f8dc51eeea817a22d9ffec01c1f0c2"><div class="ttname"><a href="classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2">board::inputc</a></div><div class="ttdeci">int inputc</div><div class="ttdoc">input map elements counter</div><div class="ttdef"><b>Definition:</b> board.h:514</div></div>
 <div class="ttc" id="astructinput__t_html_a1e2b92740c7fb766fb0e6a672b9bb498"><div class="ttname"><a href="structinput__t.html#a1e2b92740c7fb766fb0e6a672b9bb498">input_t::x1</a></div><div class="ttdeci">unsigned int x1</div><div class="ttdoc">x1 position</div><div class="ttdef"><b>Definition:</b> board.h:44</div></div>
 <div class="ttc" id="astructinput__t_html_a7a312dba32cd784ba2673747b24cd24c"><div class="ttname"><a href="structinput__t.html#a7a312dba32cd784ba2673747b24cd24c">input_t::update</a></div><div class="ttdeci">unsigned char * update</div><div class="ttdoc">output need draw update</div><div class="ttdef"><b>Definition:</b> board.h:53</div></div>
 <div class="ttc" id="astructinput__t_html_aa46e9709c149cb3cdc28825ba28fb7ed"><div class="ttname"><a href="structinput__t.html#aa46e9709c149cb3cdc28825ba28fb7ed">input_t::status</a></div><div class="ttdeci">void * status</div><div class="ttdoc">rcontrol status</div><div class="ttdef"><b>Definition:</b> board.h:52</div></div>

@@ -1,10 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classboard.html" title="Board class." alt="" coords="5,385,64,412"/>
+<area shape="rect" id="node1" href="$classboard.html" title="Board class." alt="" coords="5,537,64,564"/>
 <area shape="rect" id="node2" href="$classbsim__gpsim.html" title=" " alt="" coords="135,44,236,71"/>
-<area shape="rect" id="node4" href="$classbsim__picsim.html" title=" " alt="" coords="133,385,237,412"/>
+<area shape="rect" id="node4" href="$classbsim__picsim.html" title=" " alt="" coords="133,411,237,437"/>
 <area shape="rect" id="node15" href="$classbsim__qemu__stm32.html" title=" " alt="" coords="112,664,259,691"/>
-<area shape="rect" id="node18" href="$classbsim__simavr.html" title=" " alt="" coords="132,132,239,159"/>
-<area shape="rect" id="node21" href="$classbsim__ucsim.html" title=" " alt="" coords="135,740,235,767"/>
+<area shape="rect" id="node18" href="$classbsim__remote.html" title=" " alt="" coords="131,740,239,767"/>
+<area shape="rect" id="node20" href="$classbsim__simavr.html" title=" " alt="" coords="132,132,239,159"/>
+<area shape="rect" id="node23" href="$classbsim__ucsim.html" title=" " alt="" coords="135,803,235,829"/>
 <area shape="rect" id="node3" href="$classcboard__gpboard.html" title=" " alt="" coords="332,5,459,32"/>
 <area shape="rect" id="node5" href="$classcboard___breadboard.html" title=" " alt="" coords="321,157,469,184"/>
 <area shape="rect" id="node6" href="$classcboard___curiosity.html" title=" " alt="" coords="330,208,461,235"/>
@@ -18,7 +19,8 @@
 <area shape="rect" id="node14" href="$classcboard__x.html" title=" " alt="" coords="355,613,436,640"/>
 <area shape="rect" id="node16" href="$classcboard___blue___pill.html" title=" " alt="" coords="331,664,460,691"/>
 <area shape="rect" id="node17" href="$classcboard___s_t_m32___h103.html" title=" " alt="" coords="316,715,475,741"/>
-<area shape="rect" id="node19" href="$classcboard___arduino___uno.html" title=" " alt="" coords="317,56,473,83"/>
-<area shape="rect" id="node20" href="$classcboard___franzininho___d_i_y.html" title=" " alt="" coords="307,107,484,133"/>
-<area shape="rect" id="node22" href="$classcboard__u_cboard.html" title=" " alt="" coords="332,765,459,792"/>
+<area shape="rect" id="node19" href="$classcboard___remote_t_c_p.html" title=" " alt="" coords="321,765,470,792"/>
+<area shape="rect" id="node21" href="$classcboard___arduino___uno.html" title=" " alt="" coords="317,56,473,83"/>
+<area shape="rect" id="node22" href="$classcboard___franzininho___d_i_y.html" title=" " alt="" coords="307,107,484,133"/>
+<area shape="rect" id="node24" href="$classcboard__u_cboard.html" title=" " alt="" coords="332,816,459,843"/>
 </map>

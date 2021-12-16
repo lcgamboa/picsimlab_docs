@@ -104,12 +104,13 @@ Inheritance diagram for board:</div>
 <div class="dyncontent">
 <div class="center"><img src="classboard__inherit__graph.png" border="0" usemap="#aboard_inherit__map" alt="Inheritance graph"/></div>
 <map name="aboard_inherit__map" id="aboard_inherit__map">
-<area shape="rect" title="Board class." alt="" coords="5,385,64,412"/>
+<area shape="rect" title="Board class." alt="" coords="5,537,64,564"/>
 <area shape="rect" href="classbsim__gpsim.html" title=" " alt="" coords="135,44,236,71"/>
-<area shape="rect" href="classbsim__picsim.html" title=" " alt="" coords="133,385,237,412"/>
+<area shape="rect" href="classbsim__picsim.html" title=" " alt="" coords="133,411,237,437"/>
 <area shape="rect" href="classbsim__qemu__stm32.html" title=" " alt="" coords="112,664,259,691"/>
+<area shape="rect" href="classbsim__remote.html" title=" " alt="" coords="131,740,239,767"/>
 <area shape="rect" href="classbsim__simavr.html" title=" " alt="" coords="132,132,239,159"/>
-<area shape="rect" href="classbsim__ucsim.html" title=" " alt="" coords="135,740,235,767"/>
+<area shape="rect" href="classbsim__ucsim.html" title=" " alt="" coords="135,803,235,829"/>
 <area shape="rect" href="classcboard__gpboard.html" title=" " alt="" coords="332,5,459,32"/>
 <area shape="rect" href="classcboard___breadboard.html" title=" " alt="" coords="321,157,469,184"/>
 <area shape="rect" href="classcboard___curiosity.html" title=" " alt="" coords="330,208,461,235"/>
@@ -123,9 +124,10 @@ Inheritance diagram for board:</div>
 <area shape="rect" href="classcboard__x.html" title=" " alt="" coords="355,613,436,640"/>
 <area shape="rect" href="classcboard___blue___pill.html" title=" " alt="" coords="331,664,460,691"/>
 <area shape="rect" href="classcboard___s_t_m32___h103.html" title=" " alt="" coords="316,715,475,741"/>
+<area shape="rect" href="classcboard___remote_t_c_p.html" title=" " alt="" coords="321,765,470,792"/>
 <area shape="rect" href="classcboard___arduino___uno.html" title=" " alt="" coords="317,56,473,83"/>
 <area shape="rect" href="classcboard___franzininho___d_i_y.html" title=" " alt="" coords="307,107,484,133"/>
-<area shape="rect" href="classcboard__u_cboard.html" title=" " alt="" coords="332,765,459,792"/>
+<area shape="rect" href="classcboard__u_cboard.html" title=" " alt="" coords="332,816,459,843"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -190,6 +192,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#aefaf6603834cb682be9c6a55fb0913e7">EvOnShow</a> (void)</td></tr>
 <tr class="memdesc:aefaf6603834cb682be9c6a55fb0913e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event on the board. <br /></td></tr>
 <tr class="separator:aefaf6603834cb682be9c6a55fb0913e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6bb3d2977121ddb0701dcc03a884775"><td class="memItemLeft" align="right" valign="top"><a id="ab6bb3d2977121ddb0701dcc03a884775"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab6bb3d2977121ddb0701dcc03a884775">EvThreadRun</a> (CThread &amp;thread)</td></tr>
+<tr class="memdesc:ab6bb3d2977121ddb0701dcc03a884775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event on the board. <br /></td></tr>
+<tr class="separator:ab6bb3d2977121ddb0701dcc03a884775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae7de57473d38599af804f042fc430c9"><td class="memItemLeft" align="right" valign="top"><a id="aae7de57473d38599af804f042fc430c9"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#aae7de57473d38599af804f042fc430c9">RefreshStatus</a> (void)</td></tr>
 <tr class="memdesc:aae7de57473d38599af804f042fc430c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 1s to refresh status. <br /></td></tr>
@@ -488,6 +494,11 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#aec4781344e8ceebccdc6ac543a04ce15">ReadMaps</a> (void)</td></tr>
 <tr class="memdesc:aec4781344e8ceebccdc6ac543a04ce15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read maps. <br /></td></tr>
 <tr class="separator:aec4781344e8ceebccdc6ac543a04ce15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba64b3d66e98b2a7dbc050dcc897d4e"><td class="memItemLeft" align="right" valign="top"><a id="a0ba64b3d66e98b2a7dbc050dcc897d4e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e">StartThread</a> (void)</td></tr>
+<tr class="memdesc:a0ba64b3d66e98b2a7dbc050dcc897d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start parallel thread <br  />
+ <br /></td></tr>
+<tr class="separator:a0ba64b3d66e98b2a7dbc050dcc897d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>

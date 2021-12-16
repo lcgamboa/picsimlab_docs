@@ -9,19 +9,21 @@ var dir_44b8a28b46c46acb1deed65f25aca5e6 =
     [ "board_McLab2.h", "board___mc_lab2_8h_source.html", null ],
     [ "board_PICGenios.h", "board___p_i_c_genios_8h_source.html", null ],
     [ "board_PQDB.h", "board___p_q_d_b_8h_source.html", null ],
+    [ "board_uCboard.h", "board__u_cboard_8h_source.html", null ],
     [ "board_x.h", "board__x_8h_source.html", null ],
     [ "boards_defs.h", "boards__defs_8h_source.html", null ],
     [ "bsim_picsim.h", "bsim__picsim_8h_source.html", null ],
     [ "bsim_simavr.h", "bsim__simavr_8h_source.html", null ],
+    [ "bsim_ucsim.h", "bsim__ucsim_8h_source.html", null ],
     [ "exp_board_Blue_Pill.h", "exp__board___blue___pill_8h_source.html", null ],
     [ "exp_board_Curiosity.h", "exp__board___curiosity_8h_source.html", null ],
     [ "exp_board_Curiosity_HPC.h", "exp__board___curiosity___h_p_c_8h_source.html", null ],
     [ "exp_board_gpboard.h", "exp__board__gpboard_8h_source.html", null ],
+    [ "exp_board_RemoteTCP.h", "exp__board___remote_t_c_p_8h_source.html", null ],
     [ "exp_board_STM32_H103.h", "exp__board___s_t_m32___h103_8h_source.html", null ],
-    [ "exp_board_uCboard.h", "exp__board__u_cboard_8h_source.html", null ],
     [ "exp_board_Xpress.h", "exp__board___xpress_8h_source.html", null ],
     [ "exp_bridge_gpsim.h", "exp__bridge__gpsim_8h_source.html", null ],
     [ "exp_bsim_gpsim.h", "exp__bsim__gpsim_8h_source.html", null ],
     [ "exp_bsim_qemu_stm32.h", "exp__bsim__qemu__stm32_8h_source.html", null ],
-    [ "exp_bsim_ucsim.h", "exp__bsim__ucsim_8h_source.html", null ]
+    [ "exp_bsim_remote.h", "exp__bsim__remote_8h_source.html", null ]
 ];

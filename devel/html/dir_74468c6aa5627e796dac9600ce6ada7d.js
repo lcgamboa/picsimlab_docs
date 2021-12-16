@@ -25,6 +25,7 @@ var dir_74468c6aa5627e796dac9600ce6ada7d =
     [ "part_LCD_pcd8544.h", "part___l_c_d__pcd8544_8h_source.html", null ],
     [ "part_LCD_pcf8833.h", "part___l_c_d__pcf8833_8h_source.html", null ],
     [ "part_LCD_ssd1306.h", "part___l_c_d__ssd1306_8h_source.html", null ],
+    [ "part_LDR.h", "part___l_d_r_8h_source.html", null ],
     [ "part_LED_matrix.h", "part___l_e_d__matrix_8h_source.html", null ],
     [ "part_LEDs.h", "part___l_e_ds_8h_source.html", null ],
     [ "part_lm35.h", "part__lm35_8h_source.html", null ],

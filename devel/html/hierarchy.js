@@ -26,6 +26,9 @@ var hierarchy =
         [ "cboard_Blue_Pill", "classcboard___blue___pill.html", null ],
         [ "cboard_STM32_H103", "classcboard___s_t_m32___h103.html", null ]
       ] ],
+      [ "bsim_remote", "classbsim__remote.html", [
+        [ "cboard_RemoteTCP", "classcboard___remote_t_c_p.html", null ]
+      ] ],
       [ "bsim_simavr", "classbsim__simavr.html", [
         [ "cboard_Arduino_Uno", "classcboard___arduino___uno.html", null ],
         [ "cboard_Breadboard", "classcboard___breadboard.html", null ],
@@ -37,6 +40,7 @@ var hierarchy =
     ] ],
     [ "board_desc", "structboard__desc.html", null ],
     [ "ch_status_t", "structch__status__t.html", null ],
+    [ "cmd_header_t", "structcmd__header__t.html", null ],
     [ "CPWindow", null, [
       [ "CPWindow1", "class_c_p_window1.html", null ],
       [ "CPWindow2", "class_c_p_window2.html", null ],
@@ -73,6 +77,7 @@ var hierarchy =
       [ "cpart_LCD_pcd8544", "classcpart___l_c_d__pcd8544.html", null ],
       [ "cpart_LCD_pcf8833", "classcpart___l_c_d__pcf8833.html", null ],
       [ "cpart_LCD_ssd1306", "classcpart___l_c_d__ssd1306.html", null ],
+      [ "cpart_LDR", "classcpart___l_d_r.html", null ],
       [ "cpart_MI2C_24CXXX", "classcpart___m_i2_c__24_c_x_x_x.html", null ],
       [ "cpart_MPU6050", "classcpart___m_p_u6050.html", null ],
       [ "cpart_RTC_ds1307", "classcpart___r_t_c__ds1307.html", null ],
