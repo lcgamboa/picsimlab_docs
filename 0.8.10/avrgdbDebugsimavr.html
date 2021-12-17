@@ -1,0 +1,197 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>avr-gdb Debug (simavr)</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x27-260005'>Experimental Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x35-340006'>Serial Communication</a></span>
+    
+    
+   <span class='chapterToc'>7 <a href='DebugSupport.html#x38-370007'>Debug Support</a></span>
+    <span class='sectionToc'>7.1 <a href='MPLABXIntegratedDebugpicsimandsimavr.html#x39-380007.1'>MPLABX Integrated Debug (picsim and simavr) </a></span>
+    <span class='sectionToc'>7.2 <a href='ArduinoIDEIntegrationsimavr.html#x40-390007.2'>Arduino IDE Integration (simavr) </a></span>
+                                                                  
+
+                                                                  
+    <span class='sectionToc'>7.3 <a href='#x41-400007.3'>avr-gdb Debug (simavr)</a></span>
+    <span class='sectionToc'>7.4 <a href='armgdbDebugqemustm32.html#x42-410007.4'>arm-gdb Debug (qemu-stm32)</a></span>
+    <span class='sectionToc'>7.5 <a href='uCsimDebug.html#x43-420007.5'>uCsim Debug</a></span>
+   <span class='chapterToc'>8 <a href='Tools.html#x44-430008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x55-580009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x56-5900010'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x109-11200011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x110-11300012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x111-114000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x112-115000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x132-135000C'>Creating New Boards</a></span>
+                                                                  
+
+                                                                  
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='ArduinoIDEIntegrationsimavr.html'>prev</a>] [<a href='DebugSupport.html#avrgdbDebugsimavr.html'>up</a>] [<a href='armgdbDebugqemustm32.html'>next</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>7.3    </span> <a id='x41-400007.3'></a>avr-gdb Debug (simavr)</h3>
+<!-- l. 27 --><p class='noindent'><a id='def:gdbavr'></a>
+</p><!-- l. 29 --><p class='indent'>   With debug support enabled you can use avr-gdb to debug the code used in the simulator.
+Use the configuration window to choose between MDB (MPLABX) or GDB to debug AVR
+microcontrollers.
+</p><!-- l. 33 --><p class='indent'>   Use avr-gdb with the .elf file as the parameter:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-5'>
+ avr-gdb compiled_file.elf
+ 
+</pre>
+<!-- l. 36 --><p class='nopar'> and the command below to connect (1234 is the default port):
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-6'>
+ target remote localhost:1234
+ 
+</pre>
+<!-- l. 40 --><p class='nopar'>
+</p><!-- l. 42 --><p class='indent'>   Graphic debug mode can be made using <a href='https://www.eclipse.org/' target='_blank'>eclipse IDE</a> with <a href='https://eclipse.baeyens.it/' target='_blank'>Sloeber Arduino
+plugin</a>.
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='ArduinoIDEIntegrationsimavr.html'>prev</a>] [<a href='DebugSupport.html#avrgdbDebugsimavr.html'>up</a>] [<a href='armgdbDebugqemustm32.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2021 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

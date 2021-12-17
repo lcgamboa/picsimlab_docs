@@ -19,7 +19,7 @@
 \usepackage{hyperref}
 
 %para gerar pdf
-\def\PNversion{0.8.9}
+\def\PNversion{0.8.10}
 \def\FileAuthor{Luis Claudio Gambôa Lopes}
 \def\FileTitle{PICSimLab \PNversion}
 
@@ -69,7 +69,9 @@
 %end{latexonly}
 
 
+\hypersetup{pageanchor=false}
 \maketitle
+\hypersetup{pageanchor=true}
 
 \ifdefined\HCode\else
 \tableofcontents
@@ -86,7 +88,6 @@
 \include{Oscilloscope}
 \include{Spare}
 \include{Troubleshooting}
-
 
 \chapter{License}
 

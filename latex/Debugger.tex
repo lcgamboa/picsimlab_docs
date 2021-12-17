@@ -1,10 +1,9 @@
-
 \chapter{Debug Support}
 
 The type of debug interface depends on the backend simulator utilized.
 
 
-\section{MPLABX Integrated Debug (picsim and simavr) \label{mplaxd}}
+\section{MPLABX Integrated Debug (picsim and simavr) } \hypertarget{def:mplabxd}{}
 
 To use the \href{http://www.microchip.com/mplabx}{MPLABX} IDE for debug and program the PicsimLab, install the plugin \href{https://github.com/lcgamboa/picsimlab_md/releases/}{com-picsim-picsimlab.nbm} in MPLABX.
 
@@ -16,7 +15,7 @@ It's possible import and debug a Arduino sketch into MPLABX using the \href{http
 
 \section{Arduino IDE Integration (simavr) }
 
-For integrated use with the Arduino IDE, simply configure the serial port as explained in the section \ref{seriali} and load the Arduino bootloader. The bootloader can be loaded from the ``Tools->Arduino bootloader'' menu.
+For integrated use with the Arduino IDE, simply configure the serial port as explained in the Chapter \hyperlink{def:seriali}{Serial Communication} and load the Arduino bootloader. The bootloader can be loaded from the ``Tools->Arduino bootloader'' menu.
 
 In Windows, considering com0com making a NULL-MODEM connection between COM1 and COM2, simply connect the PICSimLab on the COM1 port (defined in configuration window) and the Arduino IDE on the COM2 port or vice versa.
 
@@ -25,7 +24,7 @@ On Linux the operation is the same, but using for example the ports /dev/tnt2 an
 In Linux for the virtual ports to be detected in Arduino it is necessary to replace the library lib/liblistSerialsj.so of the Arduino with a version which support the detection of tty0tty ports, that can be downloaded in the link \href{https://github.com/lcgamboa/listSerialPortsC/releases} {listSerialC with tty0tty support}.
 
 
-\section{avr-gdb Debug (simavr) \label{gdbavr}}
+\section{avr-gdb Debug (simavr)} \hypertarget{def:gdbavr}{}
  
  With debug support enabled you can use avr-gdb to debug the code used in the simulator. 
  Use the configuration window to choose between MDB (MPLABX) or GDB to debug AVR microcontrollers. 
@@ -43,7 +42,7 @@ In Linux for the virtual ports to be detected in Arduino it is necessary to repl
 Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with \href{https://eclipse.baeyens.it/}{Sloeber Arduino plugin}.
  
 
- \section{arm-gdb Debug (qemu-stm32) \label{gdbarm}}
+ \section{arm-gdb Debug (qemu-stm32)} \hypertarget{def:gdbarm}{}
  
  With debug support enabled you can use arm-none-eabi-gdb (or gdb-multiarch) to debug the code used in the simulator. 
  
@@ -59,7 +58,7 @@ Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE
 Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with 
 \href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT}.
  
-\section{uCsim Debug  \label{ucsim}}
+\section{uCsim Debug} \hypertarget{def:ucsim}{}
   
 The uCsim debug console can be accessed with the telnet (1234 is the default port):
  \begin{verbatim}
