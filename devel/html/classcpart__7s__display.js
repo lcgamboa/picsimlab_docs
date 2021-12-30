@@ -11,7 +11,7 @@ var classcpart__7s__display =
     [ "PostProcess", "classcpart__7s__display.html#a79e2f7ca32dcc09fdc9d332c4c527455", null ],
     [ "PreProcess", "classcpart__7s__display.html#a688f1b5489c09fb44470c25d1f12e5df", null ],
     [ "Process", "classcpart__7s__display.html#a77eb748798289e120543025ca7e14bfb", null ],
-    [ "ReadPreferences", "classcpart__7s__display.html#a4e685599cc328bebd7bd96213c0ef917", null ],
+    [ "ReadPreferences", "classcpart__7s__display.html#a3f664660b2763d7668f2c8613446b5c2", null ],
     [ "ReadPropertiesWindow", "classcpart__7s__display.html#a913c70c2242cfcc57eea66ead270ebca", null ],
     [ "RegisterRemoteControl", "classcpart__7s__display.html#a09d048a54606d85fe5ba7a70d34d8d83", null ],
     [ "WritePreferences", "classcpart__7s__display.html#aaf3c00c08dfbac09da762f911330dfe9", null ],

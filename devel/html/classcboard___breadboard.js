@@ -53,7 +53,7 @@ var classcboard___breadboard =
     [ "RefreshStatus", "classcboard___breadboard.html#a78bd9e7a93ccfb8d36f331ae5de7e048", null ],
     [ "Reset", "classcboard___breadboard.html#a6f71b61ad3ad0f2a660e7760b83b8aa6", null ],
     [ "Run_CPU", "classcboard___breadboard.html#ada0e78378831074241a1d7937ca4e2f0", null ],
-    [ "SetScale", "classcboard___breadboard.html#a6352b4bd2c32a9cf36252c092c792f46", null ],
+    [ "SetScale", "classcboard___breadboard.html#a5dd8cd0407041b7b0ba7e724f7f7e184", null ],
     [ "WritePreferences", "classcboard___breadboard.html#adbe637a84e684f6a3da4db5f8e7a3d5b", null ],
     [ "font", "classcboard___breadboard.html#ab90b49c16fbd8322272c0389bf9d2afd", null ],
     [ "micbmp", "classcboard___breadboard.html#add0e9762632528cf595f51ee0408fba4", null ],

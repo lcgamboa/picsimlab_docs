@@ -5,7 +5,7 @@ var classbsim__picsim =
     [ "DBGGetCONFIG_p", "classbsim__picsim.html#a7dc783e613e2a460e996867718804703", null ],
     [ "DBGGetCONFIGSize", "classbsim__picsim.html#aaedf301774a6500e076a34162ed086e0", null ],
     [ "DBGGetEEPROM_p", "classbsim__picsim.html#ab66eb4514648effe0a5138b4b46ac366", null ],
-    [ "DBGGetEEPROM_Size", "classbsim__picsim.html#a204baed06f3abe09ba5bc02bfb5b6f14", null ],
+    [ "DBGGetEEPROM_Size", "classbsim__picsim.html#a444ef8feefead7f7bcb3ca0dd81fae3f", null ],
     [ "DBGGetID_p", "classbsim__picsim.html#acaf6759562bfa85d12024794df4e941f", null ],
     [ "DBGGetIDSize", "classbsim__picsim.html#aeba0bb478ff6f1d3f040e7b63983853d", null ],
     [ "DBGGetPC", "classbsim__picsim.html#a98abf959207af4cac11ff8afb382620c", null ],

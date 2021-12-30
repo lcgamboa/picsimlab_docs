@@ -14,7 +14,7 @@ var class_c_p_window1 =
     [ "draw1_EvMouseButtonRelease", "class_c_p_window1.html#a6e885dd02901c74d93f1a69252f1c7fe", null ],
     [ "draw1_EvMouseMove", "class_c_p_window1.html#a9a9f919af5223997ca67263f3cb27455", null ],
     [ "DrawBoard", "class_c_p_window1.html#aed074ef9e7a3b7674b9c111328088576", null ],
-    [ "EndSimulation", "class_c_p_window1.html#ab298fd08880fd07e3b32212e68a1eaa3", null ],
+    [ "EndSimulation", "class_c_p_window1.html#a5834e66fee104691549c8afd4cdc8ca4", null ],
     [ "filedialog1_EvOnClose", "class_c_p_window1.html#ab7c193a9cd5c6941b0a4173c7f07b035", null ],
     [ "filedialog2_EvOnClose", "class_c_p_window1.html#a57b2b0eb65651799d120250657674ed2", null ],
     [ "Get_debug_port", "class_c_p_window1.html#ac40b92c51fd6dbc50fdd363171440c29", null ],
@@ -167,5 +167,6 @@ var class_c_p_window1 =
     [ "timer1", "class_c_p_window1.html#a1fe3a434cb22f1e5be66f8a128c2aae7", null ],
     [ "timer2", "class_c_p_window1.html#a6cee1eb3dde18d7685ecc6256095123a", null ],
     [ "togglebutton1", "class_c_p_window1.html#a236aa0caf0aaea7efee3c0246d172942", null ],
+    [ "Workspacefn", "class_c_p_window1.html#a8bfcc1eead23a7836ded50842063f983", null ],
     [ "zerocount", "class_c_p_window1.html#a6dd6233f5bb3f2b58b430cf5a713fbbe", null ]
 ];

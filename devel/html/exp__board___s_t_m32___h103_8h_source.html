@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.8</span>
+   &#160;<span id="projectnumber">0.8.10</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('exp__board___s_t_m32___h103_8h_source.
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;   <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;     <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> p_BUT;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classcboard___s_t_m32___h103.html#a212501bba414cdc527c6a3efca67515f">RegisterRemoteControl</a>(<span class="keywordtype">void</span>);        </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classcboard___s_t_m32___h103.html#a0df9f672e60d580d1a9606d75c52fdc5">RegisterRemoteControl</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;        </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;   <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="comment">//Return the board name</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classcboard___s_t_m32___h103.html#a74de60c6ffdeb4da35c2d27c0e831159">   44</a></span>&#160;      lxString <a class="code" href="classcboard___s_t_m32___h103.html#a74de60c6ffdeb4da35c2d27c0e831159">GetName</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{<span class="keywordflow">return</span> lxT(BOARD_STM32_H103_Name); };</div>
@@ -170,8 +170,8 @@ $(document).ready(function(){initNavTree('exp__board___s_t_m32___h103_8h_source.
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
 <div class="ttc" id="aclassbsim__qemu__stm32_html"><div class="ttname"><a href="classbsim__qemu__stm32.html">bsim_qemu_stm32</a></div><div class="ttdef"><b>Definition:</b> exp_bsim_qemu_stm32.h:33</div></div>
 <div class="ttc" id="aclasscboard___s_t_m32___h103_html"><div class="ttname"><a href="classcboard___s_t_m32___h103.html">cboard_STM32_H103</a></div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.h:37</div></div>
+<div class="ttc" id="aclasscboard___s_t_m32___h103_html_a0df9f672e60d580d1a9606d75c52fdc5"><div class="ttname"><a href="classcboard___s_t_m32___h103.html#a0df9f672e60d580d1a9606d75c52fdc5">cboard_STM32_H103::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.cc:108</div></div>
 <div class="ttc" id="aclasscboard___s_t_m32___h103_html_a17831a14c5d65cbfd82f560d34b9b680"><div class="ttname"><a href="classcboard___s_t_m32___h103.html#a17831a14c5d65cbfd82f560d34b9b680">cboard_STM32_H103::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.cc:345</div></div>
-<div class="ttc" id="aclasscboard___s_t_m32___h103_html_a212501bba414cdc527c6a3efca67515f"><div class="ttname"><a href="classcboard___s_t_m32___h103.html#a212501bba414cdc527c6a3efca67515f">cboard_STM32_H103::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void)</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.cc:108</div></div>
 <div class="ttc" id="aclasscboard___s_t_m32___h103_html_a238894d69f6b9b552377d28c439865a1"><div class="ttname"><a href="classcboard___s_t_m32___h103.html#a238894d69f6b9b552377d28c439865a1">cboard_STM32_H103::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.cc:239</div></div>
 <div class="ttc" id="aclasscboard___s_t_m32___h103_html_a23e3cbf78638817866b7190df41b8d99"><div class="ttname"><a href="classcboard___s_t_m32___h103.html#a23e3cbf78638817866b7190df41b8d99">cboard_STM32_H103::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.cc:52</div></div>
 <div class="ttc" id="aclasscboard___s_t_m32___h103_html_a2ebe0af32c7564e07d413504217744b6"><div class="ttname"><a href="classcboard___s_t_m32___h103.html#a2ebe0af32c7564e07d413504217744b6">cboard_STM32_H103::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> exp_board_STM32_H103.cc:66</div></div>

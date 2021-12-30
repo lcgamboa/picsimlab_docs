@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"functions_x.html":[3,3,0,21],
 "functions_y.html":[3,3,0,22],
 "functions_~.html":[3,3,0,23],
 "hierarchy.html":[3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "structio___m_c_p23_x17__t.html#abf6ac8bfc5be92083719a988583ff0dc":[3,0,91,1],
 "structio___p_c_f8574__t.html":[3,0,92],
 "structio___p_c_f8574__t.html#a8dfbd52cb248e16e1f15dfd26b0448c7":[3,0,92,1],
-"structio___p_c_f8574__t.html#ac5b9d0fd870089f15df9cb763abb8563":[3,0,92,0],
-"structlcd__ili9341__t.html":[3,0,93]
+"structio___p_c_f8574__t.html#ac5b9d0fd870089f15df9cb763abb8563":[3,0,92,0]
 };

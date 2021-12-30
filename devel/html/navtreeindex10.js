@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"classcpart__sht3x.html#aae9860d1c1226d44b6919d56e071ddc3":[3,0,71,16],
 "classcpart__sht3x.html#ab5ddf684beb782f3ad22103de6f96ed9":[3,0,71,14],
 "classcpart__sht3x.html#ab5f9c8a7ca9eea7547f74addda022d17":[3,0,71,11],
 "classcpart__sht3x.html#aba620e7640c6907da71410ab024795c5":[3,0,71,10],
@@ -212,8 +213,8 @@ var NAVTREEINDEX10 =
 "exp__bsim__remote_8h_source.html":[4,0,0,0,25],
 "exp__part___v_c_d___dump___d_b_g_8h_source.html":[4,0,0,2,0],
 "files.html":[4,0],
-"functions.html":[3,3,0,0],
 "functions.html":[3,3,0],
+"functions.html":[3,3,0,0],
 "functions_b.html":[3,3,0,1],
 "functions_c.html":[3,3,0,2],
 "functions_d.html":[3,3,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "functions_u.html":[3,3,0,18],
 "functions_v.html":[3,3,0,19],
 "functions_vars.html":[3,3,2],
-"functions_w.html":[3,3,0,20],
-"functions_x.html":[3,3,0,21]
+"functions_w.html":[3,3,0,20]
 };

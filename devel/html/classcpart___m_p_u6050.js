@@ -10,7 +10,7 @@ var classcpart___m_p_u6050 =
     [ "get_in_id", "classcpart___m_p_u6050.html#a8939d6b04b79e13c82a742512f50fe2b", null ],
     [ "get_out_id", "classcpart___m_p_u6050.html#aa929791c5660064269a885a54eb5c281", null ],
     [ "GetAboutInfo", "classcpart___m_p_u6050.html#ada86dc9b7cde72bba04d2ea6ee2563b8", null ],
-    [ "GetName", "classcpart___m_p_u6050.html#af0fe264e875eee41f0a9b97ec81d24d4", null ],
+    [ "GetName", "classcpart___m_p_u6050.html#a48676aa2cc4bf82c8384c1611239cef8", null ],
     [ "getValues", "classcpart___m_p_u6050.html#a7e8d97c35337dd46980c6edc1fcf8510", null ],
     [ "PostProcess", "classcpart___m_p_u6050.html#af8c1919973f86dc47b4f219a5095b74f", null ],
     [ "PreProcess", "classcpart___m_p_u6050.html#a866af4e7eb5bc71a44ab176fe9c3752f", null ],
