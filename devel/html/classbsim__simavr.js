@@ -16,7 +16,6 @@ var classbsim__simavr =
     [ "DBGGetROM_p", "classbsim__simavr.html#ad2bf344be551f2fb520d915ff4a783d0", null ],
     [ "DBGGetROMSize", "classbsim__simavr.html#a69fc21623d5883616f1d8bb111e782b0", null ],
     [ "DBGSetPC", "classbsim__simavr.html#af9d807e4f4f93ec68b162014d48a1bde", null ],
-    [ "DBGTestBP", "classbsim__simavr.html#a4989eaced732e5708650044e020f7f28", null ],
     [ "DebugInit", "classbsim__simavr.html#a0c3fc99291158602da47a3751ef00aa2", null ],
     [ "DebugLoop", "classbsim__simavr.html#aabff656fea3698124fe5e9ba481962b0", null ],
     [ "EndServers", "classbsim__simavr.html#a5e87de88c526eb99d79dc48a884d0bac", null ],

@@ -16,7 +16,6 @@ var classcboard___breadboard =
     [ "DBGGetROM_p", "classcboard___breadboard.html#a36590f879e2c9aa9c726f465b6ec6d64", null ],
     [ "DBGGetROMSize", "classcboard___breadboard.html#aac02fced311476859d7b48f31868b005", null ],
     [ "DBGSetPC", "classcboard___breadboard.html#a178409caa8b62c512528d1f24ecdf9d4", null ],
-    [ "DBGTestBP", "classcboard___breadboard.html#ae02a402c1627b2565dfbb1d0a232e5a6", null ],
     [ "DebugInit", "classcboard___breadboard.html#a9ecad78df31c7e8951afedea0eae8f6a", null ],
     [ "DebugLoop", "classcboard___breadboard.html#ac65da1ffca214e206ab485bba18914ff", null ],
     [ "Draw", "classcboard___breadboard.html#ae67d61b3a4c1b78ba6391a0b3f7f0e42", null ],

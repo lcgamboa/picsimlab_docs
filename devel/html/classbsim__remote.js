@@ -45,5 +45,9 @@ var classbsim__remote =
     [ "serialexbaud", "classbsim__remote.html#ae5c2288fa113797d1e1fd8e68edb3166", null ],
     [ "serialfd", "classbsim__remote.html#a7dc453fef607cd3dc35897d0fb981057", null ],
     [ "sockfd", "classbsim__remote.html#aff2afd16e392f45573f5b86908513520", null ],
-    [ "TickTimer", "classbsim__remote.html#a33ed66e1279f2c5397233b5623b9b672", null ]
+    [ "t0CNT", "classbsim__remote.html#a16fa0a9b32eca3a515c8101893759e37", null ],
+    [ "t0CON", "classbsim__remote.html#a52392da8793615439cb304a6b7e41124", null ],
+    [ "t0iclk", "classbsim__remote.html#aa8bc201945ed26f9fb828a34d57a32a0", null ],
+    [ "t0PR", "classbsim__remote.html#a06463784d4cb91c117539d21be6da272", null ],
+    [ "t0STA", "classbsim__remote.html#afeac43d0d261e7b200ce47ae01987c85", null ]
 ];
