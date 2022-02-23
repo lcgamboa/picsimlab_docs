@@ -18,10 +18,7 @@ var classcpart__pbuttons =
     [ "Reset", "classcpart__pbuttons.html#ad8855e99e9919b253eefd25f736066df", null ],
     [ "WritePreferences", "classcpart__pbuttons.html#a6d1d641855bd39b6330f4acf775d7745", null ],
     [ "active", "classcpart__pbuttons.html#abfff075e2f9a36565629158980261652", null ],
-    [ "bcount", "classcpart__pbuttons.html#a8f99d18739ca0f1cedec260a45f7ab6c", null ],
-    [ "bounce", "classcpart__pbuttons.html#ace4092e88b2f734b71ce798d540c2ddb", null ],
-    [ "btime", "classcpart__pbuttons.html#a644d2f73b4f87874b680d5153441c243", null ],
-    [ "do_bounce", "classcpart__pbuttons.html#a3c95e15fd24ba5f4f3fc926462c8ff04", null ],
+    [ "bounce", "classcpart__pbuttons.html#aa388793451d0e80b41510dd839b877d4", null ],
     [ "font", "classcpart__pbuttons.html#a27f5b0ec48f46144f50c196cc7484d42", null ],
     [ "output_pins", "classcpart__pbuttons.html#ae99b8f95cf8da1bc7e137043e9310ebd", null ],
     [ "output_value", "classcpart__pbuttons.html#aea02ff273d4ce344cd5de858c2d557da", null ]

@@ -472,8 +472,8 @@ part_servo.cc</h2>
 <div class="line"> </div>
 <div class="ttc" id="aclass_c_p_window1_html_a5293ce669d8269ef2ecf2ed54fb3eb12"><div class="ttname"><a href="class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12">CPWindow1::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:1332</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a5ac98dc50ff5f47fd05ebd534d80d1f0"><div class="ttname"><a href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">CPWindow1::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:180</div></div>
-<div class="ttc" id="aclass_c_p_window5_html_a6f859826910014d1bc32d94d2130bbb9"><div class="ttname"><a href="class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9">CPWindow5::GetPinName</a></div><div class="ttdeci">lxString GetPinName(unsigned char pin)</div><div class="ttdoc">Return the name of one pin.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:1257</div></div>
-<div class="ttc" id="aclass_c_p_window5_html_ab012f0ddc5fed1566f4b7ab53eb62be4"><div class="ttname"><a href="class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4">CPWindow5::GetPinsNames</a></div><div class="ttdeci">lxString GetPinsNames(void)</div><div class="ttdoc">Return the name of all pins.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:1218</div></div>
+<div class="ttc" id="aclass_c_p_window5_html_a6f859826910014d1bc32d94d2130bbb9"><div class="ttname"><a href="class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9">CPWindow5::GetPinName</a></div><div class="ttdeci">lxString GetPinName(unsigned char pin)</div><div class="ttdoc">Return the name of one pin.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:1259</div></div>
+<div class="ttc" id="aclass_c_p_window5_html_ab012f0ddc5fed1566f4b7ab53eb62be4"><div class="ttname"><a href="class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4">CPWindow5::GetPinsNames</a></div><div class="ttdeci">lxString GetPinsNames(void)</div><div class="ttdoc">Return the name of all pins.</div><div class="ttdef"><b>Definition:</b> picsimlab5.cc:1220</div></div>
 <div class="ttc" id="aclassboard_html_a2c5a0def304361ca54f770b2cd9520fd"><div class="ttname"><a href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">board::MGetInstClockFreq</a></div><div class="ttdeci">virtual float MGetInstClockFreq(void)=0</div><div class="ttdoc">board microcontroller get cpu internal clock (in PIC frequency/4)</div></div>
 <div class="ttc" id="aclasspart_html_a03d90e1490c5dfb116669ea11f90b740"><div class="ttname"><a href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">part::output_ids</a></div><div class="ttdeci">output_t * output_ids[100]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition:</b> part.h:337</div></div>
 <div class="ttc" id="aclasspart_html_a074fcb74e58bd5f199ce043a500d1c69"><div class="ttname"><a href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">part::output</a></div><div class="ttdeci">output_t output[100]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition:</b> part.h:336</div></div>
@@ -502,7 +502,7 @@ board_x.h</h2>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">   Copyright (c) : 2015-2021  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><span class="comment">   Copyright (c) : 2015-2022  Luis Claudio Gambôa Lopes</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -527,6 +527,7 @@ board_x.h</h2>
 <div class="line"><span class="preprocessor">#include&lt;lxrad.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &quot;bsim_picsim.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include&quot;../devices/swbounce.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#define BOARD_x_Name &quot;X&quot;</span></div>
 <div class="line"> </div>
@@ -554,6 +555,7 @@ board_x.h</h2>
 <div class="line">     lxColor color1;<span class="comment">//LEDs color 1</span></div>
 <div class="line">     lxColor color2;<span class="comment">//LEDs color 2   </span></div>
 <div class="line">     lxFont font;</div>
+<div class="line">     <a class="code" href="struct_s_w_bounce__t.html">SWBounce_t</a> bounce;</div>
 <div class="line">   <span class="keyword">public</span>:</div>
 <div class="line">      <span class="comment">//Constructor called once on board creation </span></div>
 <div class="line">      <a class="code" href="classcboard__x.html">cboard_x</a>(<span class="keywordtype">void</span>);</div>
@@ -595,24 +597,25 @@ board_x.h</h2>
 <div class="line"><span class="preprocessor">#endif  </span><span class="comment">/* BOARD_x_H */</span><span class="preprocessor"></span></div>
 <div class="line"> </div>
 <div class="ttc" id="aclassbsim__picsim_html"><div class="ttname"><a href="classbsim__picsim.html">bsim_picsim</a></div><div class="ttdef"><b>Definition:</b> bsim_picsim.h:34</div></div>
-<div class="ttc" id="aclasscboard__x_html"><div class="ttname"><a href="classcboard__x.html">cboard_x</a></div><div class="ttdef"><b>Definition:</b> board_x.h:37</div></div>
-<div class="ttc" id="aclasscboard__x_html_a1492d042e89665dba3924b193f5bf9cc"><div class="ttname"><a href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a></div><div class="ttdeci">void RefreshStatus(void) override</div><div class="ttdoc">Called ever 1s to refresh status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:234</div></div>
-<div class="ttc" id="aclasscboard__x_html_a18ebbd336dc27b64c0fdcc6a5d580ee4"><div class="ttname"><a href="classcboard__x.html#a18ebbd336dc27b64c0fdcc6a5d580ee4">cboard_x::Draw</a></div><div class="ttdeci">void Draw(CDraw *draw) override</div><div class="ttdoc">Called ever 100ms to draw board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:486</div></div>
-<div class="ttc" id="aclasscboard__x_html_a350e7f7b3a7edd49c2021c30cc3a18f4"><div class="ttname"><a href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">cboard_x::GetName</a></div><div class="ttdeci">lxString GetName(void) override</div><div class="ttdoc">Get board name registered in PICSimLab</div><div class="ttdef"><b>Definition:</b> board_x.h:65</div></div>
-<div class="ttc" id="aclasscboard__x_html_a3d75167fedb903b74a8920476214f701"><div class="ttname"><a href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> board_x.h:67</div></div>
-<div class="ttc" id="aclasscboard__x_html_a3db74c02199e114e22f7a7a5b4e3dd96"><div class="ttname"><a href="classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:302</div></div>
+<div class="ttc" id="aclasscboard__x_html"><div class="ttname"><a href="classcboard__x.html">cboard_x</a></div><div class="ttdef"><b>Definition:</b> board_x.h:38</div></div>
+<div class="ttc" id="aclasscboard__x_html_a1492d042e89665dba3924b193f5bf9cc"><div class="ttname"><a href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a></div><div class="ttdeci">void RefreshStatus(void) override</div><div class="ttdoc">Called ever 1s to refresh status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:237</div></div>
+<div class="ttc" id="aclasscboard__x_html_a18ebbd336dc27b64c0fdcc6a5d580ee4"><div class="ttname"><a href="classcboard__x.html#a18ebbd336dc27b64c0fdcc6a5d580ee4">cboard_x::Draw</a></div><div class="ttdeci">void Draw(CDraw *draw) override</div><div class="ttdoc">Called ever 100ms to draw board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:489</div></div>
+<div class="ttc" id="aclasscboard__x_html_a350e7f7b3a7edd49c2021c30cc3a18f4"><div class="ttname"><a href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">cboard_x::GetName</a></div><div class="ttdeci">lxString GetName(void) override</div><div class="ttdoc">Get board name registered in PICSimLab</div><div class="ttdef"><b>Definition:</b> board_x.h:67</div></div>
+<div class="ttc" id="aclasscboard__x_html_a3d75167fedb903b74a8920476214f701"><div class="ttname"><a href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> board_x.h:69</div></div>
+<div class="ttc" id="aclasscboard__x_html_a3db74c02199e114e22f7a7a5b4e3dd96"><div class="ttname"><a href="classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:305</div></div>
 <div class="ttc" id="aclasscboard__x_html_a4a96bccccb853f6f8b367db3e63d693f"><div class="ttname"><a href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">cboard_x::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> board_x.cc:61</div></div>
-<div class="ttc" id="aclasscboard__x_html_a4e642d592813f132be2227a4af97bb3e"><div class="ttname"><a href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">cboard_x::GetSupportedDevices</a></div><div class="ttdeci">lxString GetSupportedDevices(void) override</div><div class="ttdoc">Return a list of supported microcontrollers.</div><div class="ttdef"><b>Definition:</b> board_x.h:72</div></div>
+<div class="ttc" id="aclasscboard__x_html_a4e642d592813f132be2227a4af97bb3e"><div class="ttname"><a href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">cboard_x::GetSupportedDevices</a></div><div class="ttdeci">lxString GetSupportedDevices(void) override</div><div class="ttdoc">Return a list of supported microcontrollers.</div><div class="ttdef"><b>Definition:</b> board_x.h:74</div></div>
 <div class="ttc" id="aclasscboard__x_html_a4f4460d4ad4d82cc885312b4bfedcd87"><div class="ttname"><a href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">cboard_x::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> board_x.cc:77</div></div>
-<div class="ttc" id="aclasscboard__x_html_a54f0b84ecd3973bdd3f7d8b7d13cc0b9"><div class="ttname"><a href="classcboard__x.html#a54f0b84ecd3973bdd3f7d8b7d13cc0b9">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:337</div></div>
-<div class="ttc" id="aclasscboard__x_html_a5603baefc099825eeb53634ece32b2f8"><div class="ttname"><a href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void) override</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> board_x.cc:255</div></div>
-<div class="ttc" id="aclasscboard__x_html_a6337aae979579d9d180026dfcd2c55c0"><div class="ttname"><a href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition:</b> board_x.cc:637</div></div>
-<div class="ttc" id="aclasscboard__x_html_a696180daddb7dfc9b5bf5ad45fca0124"><div class="ttname"><a href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> board_x.cc:270</div></div>
-<div class="ttc" id="aclasscboard__x_html_a6f87b4f00b9297a5893a805820c4a436"><div class="ttname"><a href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a></div><div class="ttdeci">void Reset(void) override</div><div class="ttdoc">Reset board status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:178</div></div>
-<div class="ttc" id="aclasscboard__x_html_a9c1664ce551c79209b4e6dc9d0ed8730"><div class="ttname"><a href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> board_x.cc:212</div></div>
-<div class="ttc" id="aclasscboard__x_html_abb94877b3a91eb371b3b20e2e9cebcce"><div class="ttname"><a href="classcboard__x.html#abb94877b3a91eb371b3b20e2e9cebcce">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:437</div></div>
-<div class="ttc" id="aclasscboard__x_html_acfd3a83c6a0ece11eb8d88dd9fa102f9"><div class="ttname"><a href="classcboard__x.html#acfd3a83c6a0ece11eb8d88dd9fa102f9">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:407</div></div>
-<div class="ttc" id="aclasscboard__x_html_aef95af41c7e6c527dfe9e522912a19a2"><div class="ttname"><a href="classcboard__x.html#aef95af41c7e6c527dfe9e522912a19a2">cboard_x::EvKeyRelease</a></div><div class="ttdeci">void EvKeyRelease(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:323</div></div>
+<div class="ttc" id="aclasscboard__x_html_a54f0b84ecd3973bdd3f7d8b7d13cc0b9"><div class="ttname"><a href="classcboard__x.html#a54f0b84ecd3973bdd3f7d8b7d13cc0b9">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:340</div></div>
+<div class="ttc" id="aclasscboard__x_html_a5603baefc099825eeb53634ece32b2f8"><div class="ttname"><a href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void) override</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> board_x.cc:258</div></div>
+<div class="ttc" id="aclasscboard__x_html_a6337aae979579d9d180026dfcd2c55c0"><div class="ttname"><a href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition:</b> board_x.cc:640</div></div>
+<div class="ttc" id="aclasscboard__x_html_a696180daddb7dfc9b5bf5ad45fca0124"><div class="ttname"><a href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> board_x.cc:273</div></div>
+<div class="ttc" id="aclasscboard__x_html_a6f87b4f00b9297a5893a805820c4a436"><div class="ttname"><a href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a></div><div class="ttdeci">void Reset(void) override</div><div class="ttdoc">Reset board status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:181</div></div>
+<div class="ttc" id="aclasscboard__x_html_a9c1664ce551c79209b4e6dc9d0ed8730"><div class="ttname"><a href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> board_x.cc:215</div></div>
+<div class="ttc" id="aclasscboard__x_html_abb94877b3a91eb371b3b20e2e9cebcce"><div class="ttname"><a href="classcboard__x.html#abb94877b3a91eb371b3b20e2e9cebcce">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:440</div></div>
+<div class="ttc" id="aclasscboard__x_html_acfd3a83c6a0ece11eb8d88dd9fa102f9"><div class="ttname"><a href="classcboard__x.html#acfd3a83c6a0ece11eb8d88dd9fa102f9">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:410</div></div>
+<div class="ttc" id="aclasscboard__x_html_aef95af41c7e6c527dfe9e522912a19a2"><div class="ttname"><a href="classcboard__x.html#aef95af41c7e6c527dfe9e522912a19a2">cboard_x::EvKeyRelease</a></div><div class="ttdeci">void EvKeyRelease(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:326</div></div>
+<div class="ttc" id="astruct_s_w_bounce__t_html"><div class="ttname"><a href="struct_s_w_bounce__t.html">SWBounce_t</a></div><div class="ttdef"><b>Definition:</b> swbounce.h:30</div></div>
 </div><!-- fragment --> <h2><a class="anchor" id="bcode"></a>
 board_x.cc</h2>
 <div class="fragment"><div class="line"><span class="comment">/* ########################################################################</span></div>
@@ -621,7 +624,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">   Copyright (c) : 2015-2021  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><span class="comment">   Copyright (c) : 2015-2022  Luis Claudio Gambôa Lopes</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -776,6 +779,8 @@ board_x.cc</h2>
 <div class="line"> label3-&gt;SetText (lxT (<span class="stringliteral">&quot;RB1&quot;</span>));</div>
 <div class="line"> label3-&gt;SetAlign (1);</div>
 <div class="line"> Window1.CreateChild (label3);</div>
+<div class="line"> </div>
+<div class="line"> SWBounce_init(&amp;bounce, 2);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">//Destructor called once on board destruction </span></div>
@@ -787,6 +792,7 @@ board_x.cc</h2>
 <div class="line"> Window1.DestroyChild (gauge2);</div>
 <div class="line"> Window1.DestroyChild (label2);</div>
 <div class="line"> Window1.DestroyChild (label3);</div>
+<div class="line"> SWBounce_end(&amp;bounce);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">//Reset board status</span></div>
@@ -1258,6 +1264,7 @@ board_x.cc</h2>
 <div class="line"> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pi;</div>
 <div class="line"> <span class="keyword">const</span> picpin * pins;</div>
 <div class="line"> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> alm[40];</div>
+<div class="line"> <span class="keywordtype">int</span> bret;</div>
 <div class="line"> </div>
 <div class="line"> <span class="keyword">const</span> <span class="keywordtype">int</span> JUMPSTEPS = Window1.<a class="code" href="class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d">GetJUMPSTEPS</a> (); <span class="comment">//number of steps skipped</span></div>
 <div class="line"> <span class="keyword">const</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> NSTEP = Window1.GetNSTEP (); <span class="comment">//number of steps in 100ms</span></div>
@@ -1272,6 +1279,20 @@ board_x.cc</h2>
 <div class="line"> <span class="comment">//Spare parts window pre process</span></div>
 <div class="line"> <span class="keywordflow">if</span> (<a class="code" href="classboard.html#ac41e7f65ae979416dd133853774e206e">use_spare</a>)Window5.<a class="code" href="class_c_p_window5.html#a02d69b9e32726649eaa1c325e2b7af70">PreProcess</a> ();</div>
 <div class="line"> </div>
+<div class="line"> SWBounce_prepare(&amp;bounce, Window1.<a class="code" href="class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12">GetBoard</a> ()-&gt;<a class="code" href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">MGetInstClockFreq</a> ());</div>
+<div class="line"> </div>
+<div class="line"> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> p_BT1_ = p_BT1; </div>
+<div class="line"> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> p_BT2_ = p_BT2; </div>
+<div class="line"> </div>
+<div class="line"> <span class="keywordflow">if</span> ((pins[19 - 1].dir == PD_IN)&amp;&amp;(pins[19 - 1].value != p_BT1_))</div>
+<div class="line"> {</div>
+<div class="line">   SWBounce_bounce(&amp;bounce, 0);</div>
+<div class="line"> }</div>
+<div class="line"> <span class="keywordflow">if</span> ((pins[20 - 1].dir == PD_IN)&amp;&amp;(pins[20 - 1].value != p_BT2_))</div>
+<div class="line"> {</div>
+<div class="line">   SWBounce_bounce(&amp;bounce, 1);</div>
+<div class="line"> }</div>
+<div class="line"> </div>
 <div class="line"> j = JUMPSTEPS; <span class="comment">//step counter</span></div>
 <div class="line"> pi = 0;</div>
 <div class="line"> <span class="keywordflow">if</span> (Window1.<a class="code" href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444">Get_mcupwr</a> ()) <span class="comment">//if powered</span></div>
@@ -1281,8 +1302,41 @@ board_x.cc</h2>
 <div class="line">    <span class="keywordflow">if</span> (j &gt;= JUMPSTEPS)<span class="comment">//if number of step is bigger than steps to skip </span></div>
 <div class="line">     {</div>
 <div class="line">      pic_set_pin (pic.mclr, <a class="code" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a>);</div>
-<div class="line">      pic_set_pin (19, p_BT1); <span class="comment">//Set pin 19 (RD0) with button state </span></div>
-<div class="line">      pic_set_pin (20, p_BT2); <span class="comment">//Set pin 20 (RD1) with switch state </span></div>
+<div class="line">      <span class="keywordflow">if</span>(!bounce.do_bounce)</div>
+<div class="line">      {</div>
+<div class="line">       pic_set_pin (19, p_BT1_); <span class="comment">//Set pin 19 (RD0) with button state </span></div>
+<div class="line">       pic_set_pin (20, p_BT2_); <span class="comment">//Set pin 20 (RD1) with switch state </span></div>
+<div class="line">      }</div>
+<div class="line">     }</div>
+<div class="line"> </div>
+<div class="line">     <span class="keywordflow">if</span>(bounce.do_bounce)</div>
+<div class="line">     {</div>
+<div class="line">       bret = SWBounce_process(&amp;bounce); </div>
+<div class="line">       <span class="keywordflow">if</span> (bret)</div>
+<div class="line">       {</div>
+<div class="line">       <span class="keywordflow">if</span> (bounce.bounce[0])</div>
+<div class="line">        {</div>
+<div class="line">         <span class="keywordflow">if</span> (bret == 1)</div>
+<div class="line">          {</div>
+<div class="line">           pic_set_pin (19, !pins[19 - 1].value);</div>
+<div class="line">          }</div>
+<div class="line">         <span class="keywordflow">else</span></div>
+<div class="line">          {</div>
+<div class="line">           pic_set_pin (19, p_BT1_);</div>
+<div class="line">          }</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">if</span> (bounce.bounce[1])</div>
+<div class="line">        {</div>
+<div class="line">         <span class="keywordflow">if</span> (bret == 1)</div>
+<div class="line">          {</div>
+<div class="line">           pic_set_pin (20, !pins[20 - 1].value);</div>
+<div class="line">          }</div>
+<div class="line">         <span class="keywordflow">else</span></div>
+<div class="line">          {</div>
+<div class="line">           pic_set_pin (20, p_BT2_);</div>
+<div class="line">          }</div>
+<div class="line">        }</div>
+<div class="line">       }</div>
 <div class="line">     }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">//verify if a breakpoint is reached if not run one instruction </span></div>
@@ -1349,7 +1403,7 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="ttc" id="aclass_c_p_window1_html_a003a0f87f554fef0aff246adc7b3c82d"><div class="ttname"><a href="class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d">CPWindow1::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:287</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_a8b2e0baf9fd9364d618f55dc943dc06c"><div class="ttname"><a href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c">CPWindow1::Set_mcupwr</a></div><div class="ttdeci">void Set_mcupwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:238</div></div>
-<div class="ttc" id="aclass_c_p_window1_html_abc98e682c927fc3071eb6da0880b795d"><div class="ttname"><a href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">CPWindow1::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:900</div></div>
+<div class="ttc" id="aclass_c_p_window1_html_abc98e682c927fc3071eb6da0880b795d"><div class="ttname"><a href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d">CPWindow1::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab1.cc:898</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_add73d25c4889d4e01489e335b509edb7"><div class="ttname"><a href="class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7">CPWindow1::Get_mcurst</a></div><div class="ttdeci">int Get_mcurst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:227</div></div>
 <div class="ttc" id="aclass_c_p_window1_html_af08244612c785b8acc158fbc5d95a444"><div class="ttname"><a href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444">CPWindow1::Get_mcupwr</a></div><div class="ttdeci">int Get_mcupwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab1.h:220</div></div>
 <div class="ttc" id="aclass_c_p_window4_html_a3193dfdbbbd823e021fc60bdc402bfc2"><div class="ttname"><a href="class_c_p_window4.html#a3193dfdbbbd823e021fc60bdc402bfc2">CPWindow4::SetSample</a></div><div class="ttdeci">void SetSample(void)</div><div class="ttdoc">Sample and update oscilloscope data aquisition.</div><div class="ttdef"><b>Definition:</b> picsimlab4.cc:382</div></div>

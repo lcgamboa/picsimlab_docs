@@ -20,6 +20,7 @@ var classcboard__x =
     [ "Run_CPU", "classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0", null ],
     [ "WritePreferences", "classcboard__x.html#a5603baefc099825eeb53634ece32b2f8", null ],
     [ "active", "classcboard__x.html#ab0b02797423ba173d76ed25fece03bf2", null ],
+    [ "bounce", "classcboard__x.html#af7178d77b02d2e59a627dc0f8b699ff4", null ],
     [ "color1", "classcboard__x.html#a9c914f27da8625209cb3774fe422ca3d", null ],
     [ "color2", "classcboard__x.html#a655ee994c439958edbdb9b0ac84fc872", null ],
     [ "font", "classcboard__x.html#a263c93cf0208d6efab395299af550ad3", null ],

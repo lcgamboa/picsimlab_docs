@@ -119,6 +119,7 @@ var hierarchy =
     [ "rtc_pfc8563_t", "structrtc__pfc8563__t.html", null ],
     [ "sdcard_t", "structsdcard__t.html", null ],
     [ "sen_ds1621_t", "structsen__ds1621__t.html", null ],
+    [ "SWBounce_t", "struct_s_w_bounce__t.html", null ],
     [ "tsc_XPT2046_t", "structtsc___x_p_t2046__t.html", null ],
     [ "uart_t", "structuart__t.html", null ],
     [ "usi_t", "structusi__t.html", null ],

@@ -24,6 +24,7 @@ var classcboard___p_i_c_genios =
     [ "SetScale", "classcboard___p_i_c_genios.html#aaa7c243ee17a5cc5e845b5bfae4dcc02", null ],
     [ "WritePreferences", "classcboard___p_i_c_genios.html#a5414f6fa040603600dfdda15e0e5bfe3", null ],
     [ "active", "classcboard___p_i_c_genios.html#a512ac807d7df360c7f90860e1ba01e40", null ],
+    [ "bounce", "classcboard___p_i_c_genios.html#aa328cd6b84fbdc297936b8b8a84a31e6", null ],
     [ "buzzer", "classcboard___p_i_c_genios.html#add7eb555ff7c16779179184a835ea017", null ],
     [ "color1", "classcboard___p_i_c_genios.html#a073c7a5a2645d6167ad8161283d82002", null ],
     [ "color2", "classcboard___p_i_c_genios.html#af4b005bd37cb653d7a9488f9d3559bf5", null ],

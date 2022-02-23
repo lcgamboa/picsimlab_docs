@@ -360,6 +360,7 @@ This part is formed by 4 rotary potentiometers connected between 0 and 5 volts, 
 \subsection{Push Buttons}
 
 This part consists of 8 push buttons. The output active state can be configurable.
+The buttons have activation bounce effect emulation. 
 \begin{figure}[H]
 \center
 \includegraphics[width=0.99\textwidth]{img/part_buttons.png} 
@@ -402,6 +403,7 @@ voltage output is 22.85mV/°C + 1.53V . The relative humidity range is 0 to 100 
 
 \subsection{Switches}
 This part consists of 8 switches with on or off position (0 or 1).
+The switches have activation bounce effect emulation.
 
 \begin{figure}[H]
 \center
@@ -855,7 +857,8 @@ generation with amplitude and frequency adjustment.
 
 \subsection{VCD Dump}
 
-This part is a digital value file dump recorder. The file can be visualized with gtkwave. 
+This part is a digital value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
+\hrefb{https://sourceforge.net/projects/gtkwave/files/}{gtkwave} or \hrefb{https://sigrok.org/wiki/Downloads}{pulseview}. 
 
 \begin{figure}[H]
 \center
@@ -875,7 +878,8 @@ This part is a digital value file dump recorder. The file can be visualized with
 \subsection{VCD Dump (Analogic)}
 
 
-This part is a analog value file dump recorder. The file can be visualized with gtkwave.  
+This part is a analog value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
+\hrefb{https://sourceforge.net/projects/gtkwave/files/}{gtkwave} or \hrefb{https://sigrok.org/wiki/Downloads}{pulseview}.  
 
 \begin{figure}[H]
 \center
@@ -895,7 +899,7 @@ This part is a analog value file dump recorder. The file can be visualized with 
 \subsection{VCD Play}
 
 
-This part play a VCD file saved from VCD Dump part.  
+This part play a VCD file generated from VCD Dump part.  
 
 \begin{figure}[H]
 \center

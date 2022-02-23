@@ -23,6 +23,7 @@ var classcboard___mc_lab2 =
     [ "SetScale", "classcboard___mc_lab2.html#a8175622f76c67ccf0bfdc1df176275c2", null ],
     [ "WritePreferences", "classcboard___mc_lab2.html#af24e596a584941bacee9813e40810105", null ],
     [ "active", "classcboard___mc_lab2.html#a642d8f700de68677d5d78e7ffb8c3941", null ],
+    [ "bounce", "classcboard___mc_lab2.html#a9b35b10a147014611d2e4a0aebab6ec3", null ],
     [ "buzzer", "classcboard___mc_lab2.html#a1db3b81981fb7bdecd2b7b7c475dcd2c", null ],
     [ "color1", "classcboard___mc_lab2.html#aa7afdd724f1f47284643bb898c94e61e", null ],
     [ "color2", "classcboard___mc_lab2.html#ad9cae80f19640567e6c8d6f707d95b6c", null ],

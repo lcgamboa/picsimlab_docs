@@ -24,6 +24,7 @@ var classcpart___v_c_d___dump___d_b_g =
     [ "font", "classcpart___v_c_d___dump___d_b_g.html#aa10e013d1e845321a4f9ddba3bbfcea3", null ],
     [ "input_pins", "classcpart___v_c_d___dump___d_b_g.html#a67317fe10569bc87c2a5423ac2d17480", null ],
     [ "old_data_debug", "classcpart___v_c_d___dump___d_b_g.html#a0b672767c95a6fb21138d54ecc6933c5", null ],
+    [ "old_value_dir", "classcpart___v_c_d___dump___d_b_g.html#af5aa10e2596f6b5b7807a99fcdab6819", null ],
     [ "old_value_pins", "classcpart___v_c_d___dump___d_b_g.html#ac55265d044f244eae8e33aa0e2e263ff", null ],
     [ "rec", "classcpart___v_c_d___dump___d_b_g.html#a215ddd4f1337139e94b710c996833809", null ],
     [ "vcd_count", "classcpart___v_c_d___dump___d_b_g.html#aece58ea7e0b8fa6560e46c85b2ee51af", null ]

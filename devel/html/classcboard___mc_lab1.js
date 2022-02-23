@@ -17,6 +17,7 @@ var classcboard___mc_lab1 =
     [ "Reset", "classcboard___mc_lab1.html#aff3fa21f866c4e236056bd996ab59ae1", null ],
     [ "Run_CPU", "classcboard___mc_lab1.html#a26ef56d14143c0ede1be70bf0ae234d5", null ],
     [ "WritePreferences", "classcboard___mc_lab1.html#ac043f513bdcb7961d3b4b38828ccbacb", null ],
+    [ "bounce", "classcboard___mc_lab1.html#a799c676e86367a1a6d8aa33cad524231", null ],
     [ "color1", "classcboard___mc_lab1.html#abcdd18149622155dac4df0ea24788c55", null ],
     [ "color2", "classcboard___mc_lab1.html#ad698af101b3214860436ca06dede561c", null ],
     [ "font", "classcboard___mc_lab1.html#a0dad2b295933d9a4a6f73d8198b9c854", null ],

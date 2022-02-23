@@ -107,10 +107,11 @@ Collaboration diagram for cpart_switches:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcpart__switches__coll__graph.png" border="0" usemap="#acpart__switches_coll__map" alt="Collaboration graph"/></div>
 <map name="acpart__switches_coll__map" id="acpart__switches_coll__map">
-<area shape="rect" title=" " alt="" coords="27,185,146,212"/>
+<area shape="rect" title=" " alt="" coords="77,199,195,225"/>
 <area shape="rect" href="classpart.html" title="PART class." alt="" coords="63,109,111,136"/>
 <area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" href="struct_s_w_bounce__t.html" title=" " alt="" coords="135,109,238,136"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -135,6 +136,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__switches.html#a8ee561f284a6bfbb5fb7980a91c30b2f">PreProcess</a> (void) override</td></tr>
 <tr class="memdesc:a8ee561f284a6bfbb5fb7980a91c30b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every start of CPU process. <br /></td></tr>
 <tr class="separator:a8ee561f284a6bfbb5fb7980a91c30b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bea7e2750258fbfd7c234512e8f00ee"><td class="memItemLeft" align="right" valign="top"><a id="a3bea7e2750258fbfd7c234512e8f00ee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__switches.html#a3bea7e2750258fbfd7c234512e8f00ee">Process</a> (void) override</td></tr>
+<tr class="memdesc:a3bea7e2750258fbfd7c234512e8f00ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every CPU step. <br /></td></tr>
+<tr class="separator:a3bea7e2750258fbfd7c234512e8f00ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a1558b1d62cedeea20e59853f0b60d"><td class="memItemLeft" align="right" valign="top"><a id="ae6a1558b1d62cedeea20e59853f0b60d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__switches.html#ae6a1558b1d62cedeea20e59853f0b60d">Reset</a> (void) override</td></tr>
 <tr class="memdesc:ae6a1558b1d62cedeea20e59853f0b60d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset part status. <br /></td></tr>
@@ -173,10 +178,6 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a0445a18f52f1dfa584f1c4f50e9189d5">GetHelpURL</a> (void)</td></tr>
 <tr class="memdesc:a0445a18f52f1dfa584f1c4f50e9189d5 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the help url of part. <br /></td></tr>
 <tr class="separator:a0445a18f52f1dfa584f1c4f50e9189d5 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cb9c0ebbfff69a40a60db51334a4ddd inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a1cb9c0ebbfff69a40a60db51334a4ddd"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a1cb9c0ebbfff69a40a60db51334a4ddd">Process</a> (void)</td></tr>
-<tr class="memdesc:a1cb9c0ebbfff69a40a60db51334a4ddd inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every CPU step. <br /></td></tr>
-<tr class="separator:a1cb9c0ebbfff69a40a60db51334a4ddd inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a408fcb3683c2ab3609e0b4ec6c1efbb4 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a408fcb3683c2ab3609e0b4ec6c1efbb4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a408fcb3683c2ab3609e0b4ec6c1efbb4">PostProcess</a> (void)</td></tr>
 <tr class="memdesc:a408fcb3683c2ab3609e0b4ec6c1efbb4 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every end of CPU process. <br /></td></tr>
@@ -349,6 +350,9 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>output_value
 <tr class="memitem:a591cda4f6d0846c9e6498606bc3b5867"><td class="memItemLeft" align="right" valign="top"><a id="a591cda4f6d0846c9e6498606bc3b5867"></a>
 lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
 <tr class="separator:a591cda4f6d0846c9e6498606bc3b5867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34895d0b443ae7c4fe0b51a6005cb05"><td class="memItemLeft" align="right" valign="top"><a id="ad34895d0b443ae7c4fe0b51a6005cb05"></a>
+<a class="el" href="struct_s_w_bounce__t.html">SWBounce_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bounce</b></td></tr>
+<tr class="separator:ad34895d0b443ae7c4fe0b51a6005cb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

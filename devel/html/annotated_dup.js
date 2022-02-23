@@ -108,6 +108,7 @@ var annotated_dup =
     [ "rtc_pfc8563_t", "structrtc__pfc8563__t.html", "structrtc__pfc8563__t" ],
     [ "sdcard_t", "structsdcard__t.html", "structsdcard__t" ],
     [ "sen_ds1621_t", "structsen__ds1621__t.html", "structsen__ds1621__t" ],
+    [ "SWBounce_t", "struct_s_w_bounce__t.html", "struct_s_w_bounce__t" ],
     [ "tsc_XPT2046_t", "structtsc___x_p_t2046__t.html", "structtsc___x_p_t2046__t" ],
     [ "uart_t", "structuart__t.html", "structuart__t" ],
     [ "usi_t", "structusi__t.html", "structusi__t" ],

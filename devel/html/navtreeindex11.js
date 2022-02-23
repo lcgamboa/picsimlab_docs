@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"functions_p.html":[3,3,0,14],
+"functions_r.html":[3,3,0,15],
+"functions_s.html":[3,3,0,16],
+"functions_t.html":[3,3,0,17],
 "functions_u.html":[3,3,0,18],
 "functions_v.html":[3,3,0,19],
 "functions_vars.html":[3,3,2],
@@ -116,6 +120,14 @@ var NAVTREEINDEX11 =
 "struct__info.html#aead14b010888ab8c5da4a4313ae687b8":[3,0,0,8],
 "struct__info.html#aeb25ceecb619bab3ad07241dd9f26678":[3,0,0,17],
 "struct__info.html#aeef7837fb8aa849cc5deba72c7885c35":[3,0,0,16],
+"struct_s_w_bounce__t.html":[3,0,108],
+"struct_s_w_bounce__t.html#a0db112c19963feb7b62cc44e28b099cc":[3,0,108,6],
+"struct_s_w_bounce__t.html#a1cfd56504089a7442750cf59bf611f57":[3,0,108,4],
+"struct_s_w_bounce__t.html#a6593ec8103f5b4f4bf1bd06e35c44d7f":[3,0,108,1],
+"struct_s_w_bounce__t.html#a7f5c7516aca4e6634942d0d80579125f":[3,0,108,5],
+"struct_s_w_bounce__t.html#a88f85d7a61c7709c2594e15516ff219a":[3,0,108,0],
+"struct_s_w_bounce__t.html#a93faffb5677ca0f1f6b748a89a455c58":[3,0,108,3],
+"struct_s_w_bounce__t.html#aed01fcd9b5f5edddbca46aa30b82624a":[3,0,108,2],
 "structavr__gdb__t.html":[3,0,1],
 "structavr__gdb__t.html#a09f158e42d941fe1611186bfd273ef4f":[3,0,1,3],
 "structavr__gdb__t.html#a4da473bf6dbf854dfb6b7223245686e3":[3,0,1,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX11 =
 "structinput__t.html#abe43c23b664e9053363c94fde0e2f4ce":[3,0,89,2],
 "structinput__t.html#ac451624c75df3df7401b8040b3e74006":[3,0,89,10],
 "structinput__t.html#ad9fa0d56447e197208859ad1329b2475":[3,0,89,11],
-"structinput__t.html#ae63c55ca19134eccd72636e215e30529":[3,0,89,0],
-"structio__74xx595__t.html":[3,0,90],
-"structio__74xx595__t.html#a22a9a4782cf4eddf65a33e30d73f1420":[3,0,90,3],
-"structio__74xx595__t.html#a2fed651e612af2d64ec86fd7dd005769":[3,0,90,1],
-"structio__74xx595__t.html#a7123ef3a1623ce32bc18daf8bcc7510f":[3,0,90,0],
-"structio__74xx595__t.html#a7b853eb8b00e0095ef6b3da34e06a1bd":[3,0,90,4],
-"structio__74xx595__t.html#aa1164153fb957af48072e0d866fc1b06":[3,0,90,2],
-"structio___m_c_p23_x17__t.html":[3,0,91],
-"structio___m_c_p23_x17__t.html#a026a18372389f0c97df0b80d22c417af":[3,0,91,0],
-"structio___m_c_p23_x17__t.html#a10f8c245752a826422828a99357455fd":[3,0,91,4],
-"structio___m_c_p23_x17__t.html#a6c692a949498f314ac7915263c2a47e6":[3,0,91,5],
-"structio___m_c_p23_x17__t.html#a72d602b449366dfa8430723d51a0224f":[3,0,91,3],
-"structio___m_c_p23_x17__t.html#a85b35b880811c31a9d617ba5155e9aae":[3,0,91,2]
+"structinput__t.html#ae63c55ca19134eccd72636e215e30529":[3,0,89,0]
 };
