@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>RGB LED WS2812B</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x27-260005'>Experimental Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x36-350006'>Serial Communication</a></span>
+    
+    
+   <span class='chapterToc'>7 <a href='DebugSupport.html#x39-380007'>Debug Support</a></span>
+    
+                                                                  
+
+                                                                  
+    
+    
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x45-440008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x56-590009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x57-6000010'>Spare Parts</a></span>
+    <span class='sectionToc'>10.1 <a href='PinAlias.html#x58-6100010.1'>Pin Alias</a></span>
+    <span class='sectionToc'>10.2 <a href='Inputs.html#x59-6200010.2'>Inputs</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.3 <a href='Outputs.html#x77-8000010.3'>Outputs</a></span>
+     <span class='subsectionToc'>10.3.1 <a href='7SegmentsDisplay.html#x78-8100010.3.1'>7 Segments Display</a></span>
+     <span class='subsectionToc'>10.3.2 <a href='7SegmentsDisplayDecoder.html#x79-8200010.3.2'>7 Segments Display (Decoder)</a></span>
+     <span class='subsectionToc'>10.3.3 <a href='Buzzer.html#x80-8300010.3.3'>Buzzer</a></span>
+     <span class='subsectionToc'>10.3.4 <a href='DCMotor.html#x81-8400010.3.4'>DC Motor</a></span>
+     <span class='subsectionToc'>10.3.5 <a href='LCDhd44780.html#x82-8500010.3.5'>LCD hd44780</a></span>
+     <span class='subsectionToc'>10.3.6 <a href='LCDili9341.html#x83-8600010.3.6'>LCD ili9341</a></span>
+     <span class='subsectionToc'>10.3.7 <a href='LCDpcf8833.html#x84-8700010.3.7'>LCD pcf8833</a></span>
+     <span class='subsectionToc'>10.3.8 <a href='LCDpcd8544.html#x85-8800010.3.8'>LCD pcd8544 </a></span>
+     <span class='subsectionToc'>10.3.9 <a href='LCDssd1306.html#x86-8900010.3.9'>LCD ssd1306 </a></span>
+                                                                  
+
+                                                                  
+     <span class='subsectionToc'>10.3.10 <a href='LEDMatrix.html#x87-9000010.3.10'>LED Matrix</a></span>
+     <span class='subsectionToc'>10.3.11 <a href='LEDs.html#x88-9100010.3.11'>LEDs</a></span>
+     <span class='subsectionToc'>10.3.12 <a href='RGBLED.html#x89-9200010.3.12'>RGB LED</a></span>
+     <span class='subsectionToc'>10.3.13 <a href='#x90-9300010.3.13'>RGB LED WS2812B</a></span>
+     <span class='subsectionToc'>10.3.14 <a href='ServoMotor.html#x91-9400010.3.14'>Servo Motor</a></span>
+     <span class='subsectionToc'>10.3.15 <a href='StepMotor.html#x92-9500010.3.15'>Step Motor</a></span>
+    <span class='sectionToc'>10.4 <a href='Others.html#x93-9600010.4'>Others</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.5 <a href='Virtual.html#x105-10800010.5'>Virtual</a></span>
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x112-11500011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x113-11600012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x114-117000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x115-118000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x135-138000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='RGBLED.html'>prev</a>] [<a href='Outputs.html#RGBLEDWS2812B.html'>up</a>] [<a href='ServoMotor.html'>next</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>10.3.13    </span> <a id='x90-9300010.3.13'></a>RGB LED WS2812B</h4>
+<!-- l. 616 --><p class='noindent'>This part consists of a addressable RGB LED WS2812B. It is possible to set the number of
+rows and columns in the configuration window. The LED can be used with or without
+diffuser.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!-- l. 621 --><p class='noindent'><img alt='PIC' src='img/part_led_ws2812b.png' style='width:90%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!-- l. 625 --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/parts_RGB_LED_WS2812B.html' target='_blank'>Examples</a>
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='RGBLED.html'>prev</a>] [<a href='Outputs.html#RGBLEDWS2812B.html'>up</a>] [<a href='ServoMotor.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2022 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

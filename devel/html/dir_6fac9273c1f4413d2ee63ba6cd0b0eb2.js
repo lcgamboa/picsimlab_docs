@@ -13,6 +13,7 @@ var dir_6fac9273c1f4413d2ee63ba6cd0b0eb2 =
     [ "lcd_pcf8833.h", "lcd__pcf8833_8h_source.html", null ],
     [ "lcd_ssd1306.h", "lcd__ssd1306_8h_source.html", null ],
     [ "ldd_max72xx.h", "ldd__max72xx_8h_source.html", null ],
+    [ "led_ws2812b.h", "led__ws2812b_8h_source.html", null ],
     [ "mi2c_24CXXX.h", "mi2c__24_c_x_x_x_8h_source.html", null ],
     [ "mplabxd.h", "mplabxd_8h_source.html", null ],
     [ "rcontrol.h", "rcontrol_8h_source.html", null ],

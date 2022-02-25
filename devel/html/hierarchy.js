@@ -60,6 +60,7 @@ var hierarchy =
     [ "lcd_ssd1306_t", "structlcd__ssd1306__t.html", null ],
     [ "lcd_t", "structlcd__t.html", null ],
     [ "ldd_max72xx_t", "structldd__max72xx__t.html", null ],
+    [ "led_ws2812b_t", "structled__ws2812b__t.html", null ],
     [ "mi2c_t", "structmi2c__t.html", null ],
     [ "mpu6050_t", "structmpu6050__t.html", null ],
     [ "output_t", "structoutput__t.html", null ],
@@ -100,6 +101,7 @@ var hierarchy =
       [ "cpart_hcsr04", "classcpart__hcsr04.html", null ],
       [ "cpart_keypad", "classcpart__keypad.html", null ],
       [ "cpart_led_matrix", "classcpart__led__matrix.html", null ],
+      [ "cpart_led_ws2812b", "classcpart__led__ws2812b.html", null ],
       [ "cpart_leds", "classcpart__leds.html", null ],
       [ "cpart_lm35", "classcpart__lm35.html", null ],
       [ "cpart_pbuttons", "classcpart__pbuttons.html", null ],
@@ -115,6 +117,7 @@ var hierarchy =
       [ "cpart_vterm", "classcpart__vterm.html", null ]
     ] ],
     [ "part_desc", "structpart__desc.html", null ],
+    [ "rgb_color", "structrgb__color.html", null ],
     [ "rtc_ds1307_t", "structrtc__ds1307__t.html", null ],
     [ "rtc_pfc8563_t", "structrtc__pfc8563__t.html", null ],
     [ "sdcard_t", "structsdcard__t.html", null ],
