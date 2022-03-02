@@ -21,6 +21,7 @@ var class_c_p_window4 =
     [ "DrawScreen", "class_c_p_window4.html#a20c8a910d2eb6711dedf5fd7fc39401e", null ],
     [ "filedialog1_EvOnClose", "class_c_p_window4.html#a39978558991888a712bfa915d04d1685", null ],
     [ "ReadPreferences", "class_c_p_window4.html#a9a01ab08d8cf27feb19231fdd36b660a", null ],
+    [ "Reset", "class_c_p_window4.html#ac8b2f25a0ee4467af9d6e74be83cb9f5", null ],
     [ "SetBaseTimer", "class_c_p_window4.html#a5dfcdf3f2edd48ec63599fbd3fd44a22", null ],
     [ "SetSample", "class_c_p_window4.html#a3193dfdbbbd823e021fc60bdc402bfc2", null ],
     [ "spind5_EvOnChangeSpinDouble", "class_c_p_window4.html#a65bc5a8e11972b549937b09fde0fca4d", null ],
@@ -91,5 +92,6 @@ var class_c_p_window4 =
     [ "triggerlv", "class_c_p_window4.html#acfcfbd97b9564eb0400e560835b7fc1d", null ],
     [ "update", "class_c_p_window4.html#af076a7ef7145f743dda006d0fa5b3431", null ],
     [ "usetrigger", "class_c_p_window4.html#a1a736b5d029732c83d6b7e2c1f7726d5", null ],
+    [ "vmax", "class_c_p_window4.html#a01552a8a972101defdb98a23e41551f7", null ],
     [ "xz", "class_c_p_window4.html#a02e84890cee3325c6aab31aa132540ce", null ]
 ];

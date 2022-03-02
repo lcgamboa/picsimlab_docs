@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('sen__mpu6050_8h_source.html',''); init
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">   ######################################################################## */</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include&quot;bitbang_i2c.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;bitbang_i2c.h&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structmpu6050__t.html">   28</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> regs[0x76];</div>
@@ -122,73 +122,72 @@ $(document).ready(function(){initNavTree('sen__mpu6050_8h_source.html',''); init
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> update;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <a class="code" href="structmpu6050__t.html">mpu6050_t</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> mpu6050_rst(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> mpu6050_init(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> mpu6050_end(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> mpu6050_set_addr(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> mpu6050_set_temp(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">double</span> temp);<span class="comment">//degrees</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> mpu6050_set_accel(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> z);<span class="comment">//g</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> mpu6050_set_gyro(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> z);<span class="comment">//degrees/s</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> mpu6050_set_accel_raw(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">short</span> x, <span class="keywordtype">short</span> y, <span class="keywordtype">short</span> z);<span class="comment">//g</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> mpu6050_set_gyro_raw(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">short</span> x, <span class="keywordtype">short</span> y, <span class="keywordtype">short</span> z);<span class="comment">//degrees/s</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mpu6050_io_I2C(<a class="code" href="structmpu6050__t.html">mpu6050_t</a> *mpu, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//REGISTERS ADDRESS</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define SELF_TEST_X       0x0D </span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define SELF_TEST_Y       0x0E </span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define SELF_TEST_Z       0x0F </span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define SELF_TEST_A       0x10 </span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define SMPLRT_DIV        0x19  </span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define CONFIG            0x1A      </span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define GYRO_CONFIG       0x1B </span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#define ACCEL_CONFIG      0x1C </span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#define FIFO_EN           0x23</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#define I2C_MST_CTRL      0x24</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">//..</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#define I2C_MST_STATUS    0x36</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#define INT_PIN_CONFIG    0x37</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define INT_ENABLED       0x38</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define INT_STATUS        0x3A</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#define ACCEL_XOUT_H      0x3B </span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#define ACCEL_XOUT_L      0x3C </span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#define ACCEL_YOUT_H      0x3D </span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define ACCEL_YOUT_L      0x3E </span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#define ACCEL_ZOUT_H      0x3F </span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#define ACCEL_ZOUT_L      0x40 </span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define TEMP_OUT_H        0x41 </span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#define TEMP_OUT_L        0x42 </span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define GYRO_XOUT_H       0x43 </span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#define GYRO_XOUT_L       0x44</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#define GYRO_YOUT_H       0x45 </span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#define GYRO_YOUT_L       0x46</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#define GYRO_ZOUT_H       0x47 </span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#define GYRO_ZOUT_L       0x48</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#define EXT_SENS_DATA_00  0x49</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">//...</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#define EXT_SENS_DATA_23  0x60</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#define I2C_SLV0_DO       0x63</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#define I2C_SLV0_D1       0x64</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#define I2C_SLV0_D2       0x65</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#define I2C_SLV0_D3       0x66</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#define I2C_MST_DELAY_CTRL 0x67</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#define SIGNAL_PATH_RESET 0x68 </span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#define USER_CTRL         0x6A         </span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#define PWR_MGMT_1        0x6B       </span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define PWR_MGMT_2        0x6C    </span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#define FIFO_COUNT_H      0x72   </span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#define FIFO_COUNT_L      0x73   </span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#define FIFO_R_W          0x74   </span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#define WHO_AM_I          0x75 </span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> mpu6050_rst(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> mpu6050_init(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> mpu6050_end(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> mpu6050_set_addr(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> mpu6050_set_temp(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">double</span> temp);                     <span class="comment">// degrees</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> mpu6050_set_accel(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> z);   <span class="comment">// g</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> mpu6050_set_gyro(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> z);    <span class="comment">// degrees/s</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> mpu6050_set_accel_raw(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">short</span> x, <span class="keywordtype">short</span> y, <span class="keywordtype">short</span> z);  <span class="comment">// g</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> mpu6050_set_gyro_raw(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">short</span> x, <span class="keywordtype">short</span> y, <span class="keywordtype">short</span> z);   <span class="comment">// degrees/s</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mpu6050_io_I2C(<a class="code" href="structmpu6050__t.html">mpu6050_t</a>* mpu, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// REGISTERS ADDRESS</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#define SELF_TEST_X 0x0D</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define SELF_TEST_Y 0x0E</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define SELF_TEST_Z 0x0F</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#define SELF_TEST_A 0x10</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define SMPLRT_DIV 0x19</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define CONFIG 0x1A</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define GYRO_CONFIG 0x1B</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define ACCEL_CONFIG 0x1C</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define FIFO_EN 0x23</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#define I2C_MST_CTRL 0x24</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">//..</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#define I2C_MST_STATUS 0x36</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#define INT_PIN_CONFIG 0x37</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#define INT_ENABLED 0x38</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#define INT_STATUS 0x3A</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define ACCEL_XOUT_H 0x3B</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#define ACCEL_XOUT_L 0x3C</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#define ACCEL_YOUT_H 0x3D</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#define ACCEL_YOUT_L 0x3E</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define ACCEL_ZOUT_H 0x3F</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#define ACCEL_ZOUT_L 0x40</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#define TEMP_OUT_H 0x41</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define TEMP_OUT_L 0x42</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#define GYRO_XOUT_H 0x43</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define GYRO_XOUT_L 0x44</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#define GYRO_YOUT_H 0x45</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#define GYRO_YOUT_L 0x46</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#define GYRO_ZOUT_H 0x47</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#define GYRO_ZOUT_L 0x48</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#define EXT_SENS_DATA_00 0x49</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">//...</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#define EXT_SENS_DATA_23 0x60</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#define I2C_SLV0_DO 0x63</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#define I2C_SLV0_D1 0x64</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#define I2C_SLV0_D2 0x65</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#define I2C_SLV0_D3 0x66</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#define I2C_MST_DELAY_CTRL 0x67</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#define SIGNAL_PATH_RESET 0x68</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#define USER_CTRL 0x6A</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#define PWR_MGMT_1 0x6B</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#define PWR_MGMT_2 0x6C</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#define FIFO_COUNT_H 0x72</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#define FIFO_COUNT_L 0x73</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#define FIFO_R_W 0x74</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#define WHO_AM_I 0x75</span></div>
 <div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:36</div></div>
 <div class="ttc" id="astructmpu6050__t_html"><div class="ttname"><a href="structmpu6050__t.html">mpu6050_t</a></div><div class="ttdef"><b>Definition:</b> sen_mpu6050.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->

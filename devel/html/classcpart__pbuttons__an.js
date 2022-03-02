@@ -22,5 +22,6 @@ var classcpart__pbuttons__an =
     [ "font", "classcpart__pbuttons__an.html#a2ec1ee27ac034c3b8d31499709008410", null ],
     [ "output_pins", "classcpart__pbuttons__an.html#a94276fb99c84bcbc1a2463c9b36f5af9", null ],
     [ "output_value", "classcpart__pbuttons__an.html#a4b8306b73670e2fd275f09c2f715b887", null ],
-    [ "output_value_", "classcpart__pbuttons__an.html#ae7a34f3d9c234e96aacbc8825b0fded4", null ]
+    [ "output_value_", "classcpart__pbuttons__an.html#ae7a34f3d9c234e96aacbc8825b0fded4", null ],
+    [ "vmax", "classcpart__pbuttons__an.html#ac667e9c85a8c4f5ebcb46fd2eda8c641", null ]
 ];

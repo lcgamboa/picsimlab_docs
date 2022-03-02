@@ -113,8 +113,8 @@ $(document).ready(function(){initNavTree('rtc__pfc8563_8h_source.html',''); init
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">   ######################################################################## */</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include&lt;time.h&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include&quot;bitbang_i2c.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;bitbang_i2c.h&quot;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structrtc__pfc8563__t.html">   29</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
@@ -130,16 +130,14 @@ $(document).ready(function(){initNavTree('rtc__pfc8563_8h_source.html',''); init
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> alarm;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_rst(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_init(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_update(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_end(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_setUtime(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc, time_t utime);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;time_t rtc_pfc8563_getUtime(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> rtc_pfc8563_I2C_io(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a> *rtc, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_rst(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_init(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_update(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_end(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span> rtc_pfc8563_setUtime(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc, time_t utime);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;time_t rtc_pfc8563_getUtime(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> rtc_pfc8563_I2C_io(<a class="code" href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a>* rtc, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
 <div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:36</div></div>
 <div class="ttc" id="astructrtc__pfc8563__t_html"><div class="ttname"><a href="structrtc__pfc8563__t.html">rtc_pfc8563_t</a></div><div class="ttdef"><b>Definition:</b> rtc_pfc8563.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->

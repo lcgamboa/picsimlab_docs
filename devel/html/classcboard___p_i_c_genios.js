@@ -16,6 +16,7 @@ var classcboard___p_i_c_genios =
     [ "GetName", "classcboard___p_i_c_genios.html#a962618371cfc60c6970a987a03b538a6", null ],
     [ "GetSupportedDevices", "classcboard___p_i_c_genios.html#a13ff2cad081d68d61ef4f90f415c3b05", null ],
     [ "MDumpMemory", "classcboard___p_i_c_genios.html#a5f8356bbb0d79ae4c603e15a1d4ff6c6", null ],
+    [ "MInit", "classcboard___p_i_c_genios.html#a49047c67f91eb8b9d09ef380d4dd7846", null ],
     [ "ReadPreferences", "classcboard___p_i_c_genios.html#a5b8773f87af1e5e3460e800b9ddf51a8", null ],
     [ "RefreshStatus", "classcboard___p_i_c_genios.html#a88e50e10e491520afb4499ce1a13eaeb", null ],
     [ "RegisterRemoteControl", "classcboard___p_i_c_genios.html#ab91edb99431b345631a7872197c9da36", null ],

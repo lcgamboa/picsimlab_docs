@@ -22,5 +22,7 @@ var classcpart__gamepad__an =
     [ "font", "classcpart__gamepad__an.html#a3af16dc47fcdba24c72bb5d648c04349", null ],
     [ "output_pins", "classcpart__gamepad__an.html#ac07e78112ef5d3d07b03da7418684629", null ],
     [ "output_value", "classcpart__gamepad__an.html#a09c69522b3f3b6b99d3d029ad0aa5f59", null ],
-    [ "output_value_an", "classcpart__gamepad__an.html#a7b35363b8f7a9c79839dcb458dcade78", null ]
+    [ "output_value_an", "classcpart__gamepad__an.html#a7b35363b8f7a9c79839dcb458dcade78", null ],
+    [ "output_value_an_", "classcpart__gamepad__an.html#a1c27b8d4043855f1444b250385fa4a9f", null ],
+    [ "vmax", "classcpart__gamepad__an.html#a69d7dc6600cf1bfda42f4fe853151779", null ]
 ];

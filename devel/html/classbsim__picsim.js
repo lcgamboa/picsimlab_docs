@@ -30,6 +30,7 @@ var classbsim__picsim =
     [ "MGetPinCount", "classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8", null ],
     [ "MGetPinName", "classbsim__picsim.html#ae6f86852b08801cd88bf6fece4815087", null ],
     [ "MGetPinsValues", "classbsim__picsim.html#ab650e99646909a5c379f5bc90bd36c3d", null ],
+    [ "MGetVCC", "classbsim__picsim.html#ad27ec4a58eb5bcde50c1462a4fd14d47", null ],
     [ "MInit", "classbsim__picsim.html#a370ed64b93a0adfec5204695439c46db", null ],
     [ "MReset", "classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722", null ],
     [ "MSetAPin", "classbsim__picsim.html#a2254afa80b8a239297a27dac5d9950cd", null ],
@@ -37,6 +38,7 @@ var classbsim__picsim =
     [ "MSetPin", "classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c", null ],
     [ "MSetPinDOV", "classbsim__picsim.html#ab2e224716a743692f09f07041316ef69", null ],
     [ "MSetSerial", "classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f", null ],
+    [ "MSetVCC", "classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96", null ],
     [ "MStep", "classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae", null ],
     [ "MStepResume", "classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf", null ],
     [ "pic", "classbsim__picsim.html#ae8a31cebb0112016e9613929f6f740b6", null ]

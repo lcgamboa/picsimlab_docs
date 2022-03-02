@@ -39,6 +39,7 @@ var classcboard___breadboard =
     [ "MGetPinCount", "classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47", null ],
     [ "MGetPinName", "classcboard___breadboard.html#a1727f63e83b02fea97135abce724b46b", null ],
     [ "MGetPinsValues", "classcboard___breadboard.html#a872335c932a4160391e77ca512045254", null ],
+    [ "MGetVCC", "classcboard___breadboard.html#a4ec1a6944fe62abdad0d08bf216e56f4", null ],
     [ "MInit", "classcboard___breadboard.html#a20aa7880ac8935132ead19e499a97c04", null ],
     [ "MReset", "classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e", null ],
     [ "MSetAPin", "classcboard___breadboard.html#a818679a99524397e19f1fc1ca7327558", null ],
@@ -46,6 +47,7 @@ var classcboard___breadboard =
     [ "MSetPin", "classcboard___breadboard.html#add3a70c755b88f138ece123eaba4fda3", null ],
     [ "MSetPinDOV", "classcboard___breadboard.html#a8ab1dbe02209a4c732f9a6311f85a30c", null ],
     [ "MSetSerial", "classcboard___breadboard.html#ab2f791ee36f2e57cf1e105787ddf7085", null ],
+    [ "MSetVCC", "classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60", null ],
     [ "MStep", "classcboard___breadboard.html#a84f6b6d793c78b0a3c2f72ce62209c07", null ],
     [ "MStepResume", "classcboard___breadboard.html#a644f7b4ad800e242937d3403e1d6cba6", null ],
     [ "ReadPreferences", "classcboard___breadboard.html#a850802873e037974e1bd77e4fc9e0df8", null ],
@@ -55,6 +57,7 @@ var classcboard___breadboard =
     [ "SetScale", "classcboard___breadboard.html#a5dd8cd0407041b7b0ba7e724f7f7e184", null ],
     [ "WritePreferences", "classcboard___breadboard.html#adbe637a84e684f6a3da4db5f8e7a3d5b", null ],
     [ "font", "classcboard___breadboard.html#ab90b49c16fbd8322272c0389bf9d2afd", null ],
+    [ "jmp", "classcboard___breadboard.html#a02e2f0900940f6f538b7045bb13320c4", null ],
     [ "micbmp", "classcboard___breadboard.html#add0e9762632528cf595f51ee0408fba4", null ],
     [ "ptype", "classcboard___breadboard.html#adbb1e7eb24d60fb8235b710f655852a0", null ]
 ];

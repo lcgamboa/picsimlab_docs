@@ -14,6 +14,7 @@ var classcboard___k16_f =
     [ "GetName", "classcboard___k16_f.html#a7a40cfad046037f1eebaa8a9a5589cb7", null ],
     [ "GetSupportedDevices", "classcboard___k16_f.html#a34b38acd07b6fc49e6dfa7bdc94be810", null ],
     [ "MDumpMemory", "classcboard___k16_f.html#aa8564935443047087049a1c93beefd56", null ],
+    [ "MInit", "classcboard___k16_f.html#a454799389dcfb3807a1ae24cfbad4c21", null ],
     [ "ReadPreferences", "classcboard___k16_f.html#a2fd59f0c8bef534376782578b7f1dfb4", null ],
     [ "RefreshStatus", "classcboard___k16_f.html#a875d666015e204fa5b0a0e7adda9308b", null ],
     [ "RegisterRemoteControl", "classcboard___k16_f.html#a87c799cca48192bdfbcb4a3615b8a970", null ],

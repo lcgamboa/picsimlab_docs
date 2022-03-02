@@ -113,8 +113,8 @@ $(document).ready(function(){initNavTree('sen__ds1621_8h_source.html',''); initR
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">   ######################################################################## */</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include&lt;time.h&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include&quot;bitbang_i2c.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;bitbang_i2c.h&quot;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structsen__ds1621__t.html">   29</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
@@ -125,14 +125,13 @@ $(document).ready(function(){initNavTree('sen__ds1621_8h_source.html',''); initR
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">short</span> Temp;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;} <a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> sen_ds1621_rst (<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a> *ds1621);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> sen_ds1621_init (<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a> *ds1621);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> sen_ds1621_end(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a> *ds1621);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> sen_ds1621_setTemp(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a> *ds1621, <span class="keywordtype">float</span> temp);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> sen_ds1621_set_addr(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a> *ds1621, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sen_ds1621_I2C_io(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a> *ds1621, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> sen_ds1621_rst(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>* ds1621);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> sen_ds1621_init(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>* ds1621);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> sen_ds1621_end(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>* ds1621);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> sen_ds1621_setTemp(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>* ds1621, <span class="keywordtype">float</span> temp);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> sen_ds1621_set_addr(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>* ds1621, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sen_ds1621_I2C_io(<a class="code" href="structsen__ds1621__t.html">sen_ds1621_t</a>* ds1621, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
 <div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:36</div></div>
 <div class="ttc" id="astructsen__ds1621__t_html"><div class="ttname"><a href="structsen__ds1621__t.html">sen_ds1621_t</a></div><div class="ttdef"><b>Definition:</b> sen_ds1621.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->

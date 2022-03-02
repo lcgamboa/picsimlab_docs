@@ -116,9 +116,9 @@ $(document).ready(function(){initNavTree('bitbang__spi_8h_source.html',''); init
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifndef BITBANG_SPI</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define BITBANG_SPI</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">//operation status</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// operation status</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define SPI_DATA 0x01</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define SPI_BIT  0x02</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define SPI_BIT 0x02</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="structbitbang__spi__t.html">   33</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> aclk;</div>
@@ -133,17 +133,17 @@ $(document).ready(function(){initNavTree('bitbang__spi_8h_source.html',''); init
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> outbitmask;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;} <a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span> bitbang_spi_init(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a> *spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> lenght = 8);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> bitbang_spi_rst(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a> *spi);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bitbang_spi_get_status(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a> *spi);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">void</span> bitbang_spi_send(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a> *spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> data);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//periferic </span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bitbang_spi_io(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a> *spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> clk, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> din,<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> cs);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bitbang_spi_io_(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a> *spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ** pins_value);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> bitbang_spi_init(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>* spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> lenght = 8);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span> bitbang_spi_rst(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>* spi);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bitbang_spi_get_status(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>* spi);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> bitbang_spi_send(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>* spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> data);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// periferic</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bitbang_spi_io(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>* spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> clk, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> din,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                             <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> cs);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> bitbang_spi_io_(<a class="code" href="structbitbang__spi__t.html">bitbang_spi_t</a>* spi, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>** pins_value);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//BITBANG_SPI</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// BITBANG_SPI</span></div>
 <div class="ttc" id="astructbitbang__spi__t_html"><div class="ttname"><a href="structbitbang__spi__t.html">bitbang_spi_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_spi.h:33</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

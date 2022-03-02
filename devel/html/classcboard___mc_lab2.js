@@ -15,6 +15,7 @@ var classcboard___mc_lab2 =
     [ "GetName", "classcboard___mc_lab2.html#a34369e1673ea1751830d856c7d7797c2", null ],
     [ "GetSupportedDevices", "classcboard___mc_lab2.html#a46326477ef0c9d31ed97a42a8954c38c", null ],
     [ "MDumpMemory", "classcboard___mc_lab2.html#a72e60d7105b0e8219494c66322c239fe", null ],
+    [ "MInit", "classcboard___mc_lab2.html#ac748f4a36852eb07bc18b683fbf5e220", null ],
     [ "ReadPreferences", "classcboard___mc_lab2.html#a64b3f1ca335c20aa30e6c5dd83ded209", null ],
     [ "RefreshStatus", "classcboard___mc_lab2.html#a79cc4192a9f0d27a26c188b71a6dc5d3", null ],
     [ "RegisterRemoteControl", "classcboard___mc_lab2.html#a234981b236b31368ba787e51ed5909ba", null ],

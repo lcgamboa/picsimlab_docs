@@ -15,10 +15,12 @@ var classcpart__pot =
     [ "ReadPreferences", "classcpart__pot.html#a71e4e6a0455aa327ad14ba1c65eef1c0", null ],
     [ "ReadPropertiesWindow", "classcpart__pot.html#ac58fba9279fcde74f2dfb0d67cbf94ef", null ],
     [ "RegisterRemoteControl", "classcpart__pot.html#a1e2cceabb79ed20cd72d20403170aafe", null ],
+    [ "Reset", "classcpart__pot.html#a2055411f6f27e9ac3ca34304ca46ade3", null ],
     [ "WritePreferences", "classcpart__pot.html#a41d2c7e4086f5de8ecbb9d8e62ff9960", null ],
     [ "active", "classcpart__pot.html#a501e20d6fbeafcd17707d089e6bfb5af", null ],
     [ "font", "classcpart__pot.html#a1e9d27c76202c4a2ea5866d715c09956", null ],
     [ "font_p", "classcpart__pot.html#a61c5d0cfdc4ed664c2f85dcf8e0c4c6a", null ],
     [ "output_pins", "classcpart__pot.html#a5ebff63b3077a6116947a17e4eb75bb1", null ],
-    [ "values", "classcpart__pot.html#afc339b44d0e99490449fa0a2006501e8", null ]
+    [ "values", "classcpart__pot.html#afc339b44d0e99490449fa0a2006501e8", null ],
+    [ "vmax", "classcpart__pot.html#a71e2d390a39c6ef57492e19198238c5c", null ]
 ];
