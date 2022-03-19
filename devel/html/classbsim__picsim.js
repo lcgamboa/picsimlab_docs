@@ -24,6 +24,7 @@ var classbsim__picsim =
     [ "MDumpMemory", "classbsim__picsim.html#a23ae5c391202089fd69d794d9ae70832", null ],
     [ "MEnd", "classbsim__picsim.html#ae5dcacd6043a5a0a7c3696c32e9af7b4", null ],
     [ "MEraseFlash", "classbsim__picsim.html#aaec8d191bec2729d32c2992d6ec4b78d", null ],
+    [ "MGetArchitecture", "classbsim__picsim.html#a2f61b44428ed88427f1652fb5334a95d", null ],
     [ "MGetFreq", "classbsim__picsim.html#aefb683ef932e6e9f5a668b98a012e98c", null ],
     [ "MGetInstClockFreq", "classbsim__picsim.html#acbab7c3b91a1e8fba79997ec722d0adf", null ],
     [ "MGetPin", "classbsim__picsim.html#ab8a23afc978c05b0279629bd3948cad2", null ],

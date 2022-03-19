@@ -16,6 +16,7 @@ var classcpart__leds =
     [ "active", "classcpart__leds.html#a584166aadce067229f2bf84fcb33747c", null ],
     [ "color1", "classcpart__leds.html#a155780df0352166bd7bdbdf380dac7d0", null ],
     [ "color2", "classcpart__leds.html#a3ec06c184f3b5ac91b0429d769c83360", null ],
+    [ "colors", "classcpart__leds.html#add02a0510c49a812b5b44e397a2ac8dc", null ],
     [ "font", "classcpart__leds.html#a660db9799bbb1bb0fab3a274bb54af2f", null ],
     [ "input_pins", "classcpart__leds.html#aecd055bf1f783a9ca05ba4ff1acb0597", null ]
 ];

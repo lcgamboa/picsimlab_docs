@@ -16,6 +16,7 @@ var classcpart__switches =
     [ "RegisterRemoteControl", "classcpart__switches.html#a832c83c82a0b39b473a0f08ab971e3d2", null ],
     [ "Reset", "classcpart__switches.html#ae6a1558b1d62cedeea20e59853f0b60d", null ],
     [ "WritePreferences", "classcpart__switches.html#a128cff1659bff730a741a89d780fa909", null ],
+    [ "active", "classcpart__switches.html#a771cc4d6797e8eea4754acac819c4eb2", null ],
     [ "bounce", "classcpart__switches.html#ad34895d0b443ae7c4fe0b51a6005cb05", null ],
     [ "font", "classcpart__switches.html#a591cda4f6d0846c9e6498606bc3b5867", null ],
     [ "output_pins", "classcpart__switches.html#ae4b4fac70398eb20bf0e3587c4f34e36", null ],

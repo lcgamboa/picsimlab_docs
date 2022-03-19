@@ -8,6 +8,7 @@ var classbsim__gpsim =
     [ "MDumpMemory", "classbsim__gpsim.html#a4fa44d5de6071c97579fc3ac2a321407", null ],
     [ "MEnd", "classbsim__gpsim.html#abc329bdb05dd2b05d548c8ee2d58ba3d", null ],
     [ "MEraseFlash", "classbsim__gpsim.html#af9e640f39136ab22ecf2cf75c5ccf751", null ],
+    [ "MGetArchitecture", "classbsim__gpsim.html#a1e59e7f0de318d2cc2a4cc831ba6288d", null ],
     [ "MGetFreq", "classbsim__gpsim.html#a842ddbb7ace08f04c5ae32c52f9feda5", null ],
     [ "MGetInstClockFreq", "classbsim__gpsim.html#ad16275539eee916bbbd82bfe45d94ecd", null ],
     [ "MGetPin", "classbsim__gpsim.html#af9258b76b37c7e36bbec658b16d1ffe8", null ],

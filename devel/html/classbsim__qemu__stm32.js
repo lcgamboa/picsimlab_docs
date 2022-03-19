@@ -10,6 +10,7 @@ var classbsim__qemu__stm32 =
     [ "MDumpMemory", "classbsim__qemu__stm32.html#ac146184fe4cb091cc660f00a0deb089e", null ],
     [ "MEnd", "classbsim__qemu__stm32.html#a3e84cef654ccc53a2c9886d74077efb3", null ],
     [ "MEraseFlash", "classbsim__qemu__stm32.html#a5ed9f060fb7d4dd3b0062578a360e4b5", null ],
+    [ "MGetArchitecture", "classbsim__qemu__stm32.html#a51de121ade3f9728f2e4fa5ad63d9952", null ],
     [ "MGetFreq", "classbsim__qemu__stm32.html#a8609e619844fa054ba126e99b8d7b991", null ],
     [ "MGetInstClockFreq", "classbsim__qemu__stm32.html#add39293c8d78ac3495949e5ab10e4076", null ],
     [ "MGetPin", "classbsim__qemu__stm32.html#aa1c62e14032977fd9d9274715773ae6c", null ],

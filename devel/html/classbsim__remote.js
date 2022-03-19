@@ -13,6 +13,7 @@ var classbsim__remote =
     [ "MDumpMemory", "classbsim__remote.html#a5021c718b4a5718fb13a7223c8b6eed4", null ],
     [ "MEnd", "classbsim__remote.html#a34335adc88b3597945b198b9d7ae2bc7", null ],
     [ "MEraseFlash", "classbsim__remote.html#afd9c6ee1666dc71a5d7a98598c913235", null ],
+    [ "MGetArchitecture", "classbsim__remote.html#af6761b49589357637609e577d720a83a", null ],
     [ "MGetFreq", "classbsim__remote.html#a77832986d7b834ce989a33beac68524e", null ],
     [ "MGetInstClockFreq", "classbsim__remote.html#a6bf13ca6a3bd787c01d467feff702e9e", null ],
     [ "MGetPin", "classbsim__remote.html#abd47918e4cc25e591d6855f705f17cdd", null ],

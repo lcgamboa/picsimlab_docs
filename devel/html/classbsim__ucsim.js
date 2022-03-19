@@ -8,6 +8,7 @@ var classbsim__ucsim =
     [ "MDumpMemory", "classbsim__ucsim.html#a4176a6abbee48d51be442df7ec1ab8de", null ],
     [ "MEnd", "classbsim__ucsim.html#ac157cb9343aadc40331685502339f448", null ],
     [ "MEraseFlash", "classbsim__ucsim.html#aacd0f690b0145638ebe00854469f924b", null ],
+    [ "MGetArchitecture", "classbsim__ucsim.html#aa0b699e6fee956a05c157ffa682a2a49", null ],
     [ "MGetFreq", "classbsim__ucsim.html#af0325925bb232f17ea92c0f91de92d64", null ],
     [ "MGetInstClockFreq", "classbsim__ucsim.html#a32a7926f1a775dafed8e6ba5997a7436", null ],
     [ "MGetPin", "classbsim__ucsim.html#a0f996d18955eeaaa3794d3b5339407d5", null ],

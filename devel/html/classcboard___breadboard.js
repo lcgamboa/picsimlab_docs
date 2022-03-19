@@ -33,6 +33,7 @@ var classcboard___breadboard =
     [ "MDumpMemory", "classcboard___breadboard.html#a1f199b6cf35d7b21b8fd4342a3ad53c4", null ],
     [ "MEnd", "classcboard___breadboard.html#a78b393e9929e1cccba8325da9c3f30af", null ],
     [ "MEraseFlash", "classcboard___breadboard.html#a8a5a52712c33b6cafacbcda36dac15b4", null ],
+    [ "MGetArchitecture", "classcboard___breadboard.html#a11eb88db9ecdd6cd99993fbb3460074e", null ],
     [ "MGetFreq", "classcboard___breadboard.html#abb4b55fc0c0192880086afa963165bbb", null ],
     [ "MGetInstClockFreq", "classcboard___breadboard.html#aa4a2f5c8a9dd612bf13f5cdec8a6bc40", null ],
     [ "MGetPin", "classcboard___breadboard.html#a6f41eb48d298408a1f747e5c7582780e", null ],

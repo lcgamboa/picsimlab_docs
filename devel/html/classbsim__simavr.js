@@ -23,6 +23,7 @@ var classbsim__simavr =
     [ "MDumpMemory", "classbsim__simavr.html#ad6d7bec2a47b64016cbc19c07b064425", null ],
     [ "MEnd", "classbsim__simavr.html#af7cb8d186351e1cb35570aebb3a70487", null ],
     [ "MEraseFlash", "classbsim__simavr.html#ab7badad07808c386bc888d945cf1146a", null ],
+    [ "MGetArchitecture", "classbsim__simavr.html#a6ff3e5e8d7d33333ad8b4c9cb1cb3f11", null ],
     [ "MGetFreq", "classbsim__simavr.html#a2f0cfce8b745ddba57db8fd952fa2056", null ],
     [ "MGetInstClockFreq", "classbsim__simavr.html#acf9ce8a360fc2c61aaae30a343214b19", null ],
     [ "MGetPin", "classbsim__simavr.html#a81daef51095b9fbad50e7b73f4099412", null ],
