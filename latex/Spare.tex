@@ -45,7 +45,7 @@ The main window has the menu with the following functions:
 \end{itemize}
  \item{Outputs}
   \begin{itemize}
-   \item 7 Segments Display -  Adds four multiplexed 7 segments displays
+   \item 7 Segments Display -  Adds four multiplexed (or single) 7 segments displays
    \item 7 Segments Display (w/dec) -  Adds four multiplexed 7 segments displays with decoder
    \item Buzzer - Adds a active/passive buzzer
    \item DC Motor - Adds a DC motor with H-bridge and quadrature encoder 
@@ -65,6 +65,7 @@ The main window has the menu with the following functions:
  \item{Others}
   \begin{itemize}
    \item ETH w5500 - Adds a ethernet shield w5500
+   \item IO 74xx573 - Adds a 74xx573 octal latch
    \item IO 74xx595 - Adds a 74xx595 SIPO 8 bit shift register
    \item IO MCP23S17 - Adds a MCP23S17 serial SPI IO expander
    \item IO PCF8574 - Adds a PCF8574 serial I2C IO expander
@@ -438,11 +439,16 @@ This part is ultrasonic range meter sensor.
 
 \subsection{7 Segments Display}
 
-This is a four multiplexed 7 segments displays.
+This part can be configured as four multiplexed or one single 7 segments display.
 
 \begin{figure}[H]
 \center
 \includegraphics[width=0.5\textwidth]{img/part_7seg.png} 
+\end{figure} 
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.35\textwidth]{img/part_7seg1.png} 
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_7_Segments_Display.html}{Examples}
@@ -701,6 +707,17 @@ Click on connector to toggle link status.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_ETH_w5500.html}{Examples}
  
+
+\subsection{IO 74xx573}
+
+This is one 74xx573 octal latch.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.35\textwidth]{img/part_74xx573.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_IO_74xx573.html}{Examples} 
 
 \subsection{IO 74xx595}
 
