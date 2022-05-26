@@ -1,0 +1,329 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Main Window</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    <span class='sectionToc'>3.1 <a href='#x12-110003.1'>Main Window</a></span>
+    <span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#x13-120003.2'>Interaction with the Board</a></span>
+    <span class='sectionToc'>3.3 <a href='CommandLine.html#x14-130003.3'>Command Line</a></span>
+    <span class='sectionToc'>3.4 <a href='RemoteControlInterface.html#x15-140003.4'>Remote Control Interface</a></span>
+    <span class='sectionToc'>3.5 <a href='PictureMapReference.html#x16-150003.5'>Picture Map Reference</a></span>
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+                                                                  
+
+                                                                  
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x27-260005'>Experimental Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x37-360006'>Serial Communication</a></span>
+    
+    
+   <span class='chapterToc'>7 <a href='DebugSupport.html#x40-390007'>Debug Support</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x46-450008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x57-600009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x58-6100010'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x115-12200011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x116-12300012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x117-124000A'>Online Simulator</a></span>
+                                                                  
+
+                                                                  
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x118-125000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x138-145000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='SimulatorInterface.html#MainWindow.html'>up</a>] [<a href='InteractionwiththeBoard.html'>next</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>3.1    </span> <a id='x12-110003.1'></a>Main Window</h3>
+<!-- l. 6 --><p class='noindent'>The main window consists of a menu, a status bar, a frequency selection combobox, an on/off
+button to trigger debugging, some board-specific controls and the part of the board interface
+itself.
+</p><!-- l. 8 --><p class='indent'>   In the title of the window is shown the name of the simulator PICSimLab, followed by the
+board and the microcontroller in use.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!-- l. 13 --><p class='noindent'><img alt='PIC' src='img/int.png' style='width:99%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!-- l. 16 --><p class='indent'>   The frequency selection combobox directly changes the working speed of the
+microcontroller. The “Spd” label show the ratio between simulation speed and real time.
+when the “Spd” label goes red indicates that the computer is not being able to run the
+program in real time for the selected clock. In this case the simulation may present some
+difference than expected and the CPU load will be increased.
+</p><!-- l. 20 --><p class='indent'>   The on/off button to enable debugging is used to enable debugging support, when active
+simulation load is increased.
+</p><!-- l. 22 --><p class='indent'>   The menus and their functions are listed below: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>
+     <!-- l. 24 --><p class='noindent'>File </p>
+         <ul class='itemize2'>
+         <li class='itemize'>Load Hex - Load .hex files
+         </li>
+         <li class='itemize'>Reload Last - Reload the last used .hex file
+         </li>
+         <li class='itemize'>Save Hex - Save memory in a .hex file
+         </li>
+         <li class='itemize'>Configure - Open the configuration windows
+         </li>
+         <li class='itemize'>Save Workspace - Saves all current workspace settings to a .pzw file
+         </li>
+         <li class='itemize'>Load Workspace - Loads saved settings from a .pzw file
+         </li>
+         <li class='itemize'>Exit</li></ul>
+     </li>
+     <li class='itemize'>
+     <!-- l. 34 --><p class='noindent'>Board </p>
+         <ul class='itemize2'>
+         <li class='itemize'>Arduino Uno - Choose board Arduino Uno
+                                                                  
+
+                                                                  
+         </li>
+         <li class='itemize'>Breadboard - Choose board Breadboard
+         </li>
+         <li class='itemize'>Franzininho - Choose board Franzininho
+         </li>
+         <li class='itemize'>K16F - Choose board K16F
+         </li>
+         <li class='itemize'>McLab1 - Choose board McLab1
+         </li>
+         <li class='itemize'>McLab2 - Choose board McLab2
+         </li>
+         <li class='itemize'>PICGenios - Choose board PICGenios
+         </li>
+         <li class='itemize'>PQDB - Choose board PQDB
+         </li>
+         <li class='itemize'>uCboard - Choose board uCboard</li></ul>
+     </li>
+     <li class='itemize'>
+     <!-- l. 46 --><p class='noindent'>Microcontroller </p>
+         <ul class='itemize2'>
+         <li class='itemize'>xxxxx - Selects the microcontroller to be used (depends on the selected
+         board)</li></ul>
+     </li>
+     <li class='itemize'>
+     <!-- l. 50 --><p class='noindent'>Modules </p>
+         <ul class='itemize2'>
+         <li class='itemize'>Oscilloscope - Open the oscilloscope window
+                                                                  
+
+                                                                  
+         </li>
+         <li class='itemize'>Spare parts - Open the spare parts window</li></ul>
+     </li>
+     <li class='itemize'>
+     <!-- l. 55 --><p class='noindent'>Tools </p>
+         <ul class='itemize2'>
+         <li class='itemize'>Serial Terminal - Open the serial terminal (default <a href='SerialTerminal.html#def:sterm'>Cutecom</a>)
+         </li>
+         <li class='itemize'>Serial Remote Tank - Open the <a href='SerialRemoteTank.html#def:srtank'>remote tank simulator</a>
+         </li>
+         <li class='itemize'>Esp8266 Modem Simulator - Open the <a href='Esp8266ModemSimulator.html#def:espmsim'>Esp8266 Modem Simulator</a>
+         </li>
+         <li class='itemize'>Arduino Bootloader - Load microcontroller with <a href='ArduinoBootloader.html#def:aboot'>Arduino serial bootloader</a>
+         </li>
+         <li class='itemize'>MPLABX  Debugger  Plugin  -  Open  the  web  page  to  download  the
+         <a href='MPLABXDebuggerPlugin.html#def:mpdebug'>MPLABX Debugger Plugin</a>
+         </li>
+         <li class='itemize'>Pin Viewer - Open the <a href='PinViewer.html#def:pinv'>Pin Viewer</a></li></ul>
+     </li>
+     <li class='itemize'>
+     <!-- l. 64 --><p class='noindent'>Help </p>
+         <ul class='itemize2'>
+         <li class='itemize'>Contents - Open the Help window
+         </li>
+         <li class='itemize'>Board - Open the Board Help window
+         </li>
+         <li class='itemize'>Examples - Load the examples
+                                                                  
+
+                                                                  
+         </li>
+         <li class='itemize'>About Board - Show message about author and version of board
+         </li>
+         <li class='itemize'>About   PICSimLab   -   Show   message   about   author   and   version   of
+         PICSimLab</li></ul>
+     </li></ul>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!-- l. 77 --><p class='noindent'><img alt='PIC' src='img/int1.png' style='width:85%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!-- l. 80 --><p class='indent'>   The first part of the status bar shows the state of the simulation, in the middle
+part the status of the debug support and in the last part the name of the serial port
+used, its default speed and the error in relation to the real speed configured in the
+microcontroller.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!-- l. 84 --><p class='noindent'><img alt='PIC' src='img/int2.png' style='width:85%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='SimulatorInterface.html#MainWindow.html'>up</a>] [<a href='InteractionwiththeBoard.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2022 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

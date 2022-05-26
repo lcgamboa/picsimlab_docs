@@ -20,6 +20,7 @@ var classcpart__pbuttons =
     [ "active", "classcpart__pbuttons.html#abfff075e2f9a36565629158980261652", null ],
     [ "bounce", "classcpart__pbuttons.html#aa388793451d0e80b41510dd839b877d4", null ],
     [ "font", "classcpart__pbuttons.html#a27f5b0ec48f46144f50c196cc7484d42", null ],
+    [ "mode", "classcpart__pbuttons.html#aff608e672282909b0461a210a223f181", null ],
     [ "output_pins", "classcpart__pbuttons.html#ae99b8f95cf8da1bc7e137043e9310ebd", null ],
     [ "output_value", "classcpart__pbuttons.html#aea02ff273d4ce344cd5de858c2d557da", null ]
 ];

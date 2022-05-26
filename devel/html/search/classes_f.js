@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['vcd_5freg_5ft_424',['vcd_reg_t',['../structvcd__reg__t.html',1,'']]],
-  ['vterm_5ft_425',['vterm_t',['../structvterm__t.html',1,'']]]
+  ['uart_5ft_431',['uart_t',['../structuart__t.html',1,'']]],
+  ['user_5ftimer_5ft_432',['user_timer_t',['../structuser__timer__t.html',1,'']]],
+  ['usi_5ft_433',['usi_t',['../structusi__t.html',1,'']]]
 ];

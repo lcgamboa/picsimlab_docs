@@ -1,0 +1,242 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>tty0tty Installation and Configuration (Linux)</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x27-260005'>Experimental Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x37-360006'>Serial Communication</a></span>
+    <span class='sectionToc'>6.1 <a href='Com0comInstallationandConfigurationWindows.html#x38-370006.1'>Com0com Installation and Configuration(Windows)</a></span>
+    <span class='sectionToc'>6.2 <a href='#x39-380006.2'>tty0tty Installation and Configuration (Linux)</a></span>
+   <span class='chapterToc'>7 <a href='DebugSupport.html#x40-390007'>Debug Support</a></span>
+    
+                                                                  
+
+                                                                  
+    
+    
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x46-450008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x57-600009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x58-6100010'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x115-12200011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x116-12300012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x117-124000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x118-125000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x138-145000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Com0comInstallationandConfigurationWindows.html'>prev</a>] [<a href='SerialCommunication.html#tty0ttyInstallationandConfigurationLinux.html'>up</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>6.2    </span> <a id='x39-380006.2'></a>tty0tty Installation and Configuration (Linux)</h3>
+<!-- l. 55 --><p class='noindent'>Download the <a href='https://github.com/lcgamboa/tty0tty/archive/master.zip' target='_blank'>tty0tyy</a>. Unzip the downloaded folder.
+</p><!-- l. 58 --><p class='indent'>   Open a terminal and enter in the tty0tty/module/ folder and enter the following
+commands:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-1'>
+ sudo apt-get update
+ sudo apt-get -y upgrade
+ sudo apt-get -y install gcc make linux-headers-`uname -r`
+ sudo ./dkms-install.sh
+ sudo modprobe tty0tty
+</pre>
+<!-- l. 65 --><p class='nopar'>
+</p><!-- l. 67 --><p class='indent'>   The user must be in the <span class='textbf'>dialout</span> group to access the ports. To add your user to <span class='textbf'>dialout</span>
+group use the command:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-2'>
+sudo usermod -a -G dialout your_user_name
+</pre>
+<!-- l. 71 --><p class='nopar'> after this is necessary logout and login to group permissions take effect.
+</p><!-- l. 75 --><p class='indent'>   Once installed, the module creates 8 interconnected ports as follows:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-3'>
+  /dev/tnt0  &lt;=&gt;  /dev/tnt1
+  /dev/tnt2  &lt;=&gt;  /dev/tnt3
+  /dev/tnt4  &lt;=&gt;  /dev/tnt5
+  /dev/tnt6  &lt;=&gt;  /dev/tnt7
+</pre>
+<!-- l. 81 --><p class='nopar'>
+</p><!-- l. 83 --><p class='indent'>   the connection between each pair is of the form:
+                                                                  
+
+                                                                  
+</p>
+   <pre class='verbatim' id='verbatim-4'>
+  TX   -&gt;  RX
+  RX   &lt;-  TX 
+  RTS  -&gt;  CTS
+  CTS  &lt;-  RTS
+  DSR  &lt;-  DTR
+  CD   &lt;-  DTR
+  DTR  -&gt;  DSR
+  DTR  -&gt;  CD
+</pre>
+<!-- l. 93 --><p class='nopar'>
+</p><!-- l. 95 --><p class='indent'>   Any pair of ports form a NULL-MODEM connection, where one port must be used by
+the PICSimLab and another by the application with serial communication.
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='Com0comInstallationandConfigurationWindows.html'>prev</a>] [<a href='SerialCommunication.html#tty0ttyInstallationandConfigurationLinux.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script></p> <p><script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script></p> <p><script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script></p> <div class='footer'>Copyright © 2022 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

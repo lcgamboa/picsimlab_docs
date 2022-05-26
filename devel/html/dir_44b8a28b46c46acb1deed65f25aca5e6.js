@@ -18,12 +18,14 @@ var dir_44b8a28b46c46acb1deed65f25aca5e6 =
     [ "exp_board_Blue_Pill.h", "exp__board___blue___pill_8h_source.html", null ],
     [ "exp_board_Curiosity.h", "exp__board___curiosity_8h_source.html", null ],
     [ "exp_board_Curiosity_HPC.h", "exp__board___curiosity___h_p_c_8h_source.html", null ],
+    [ "exp_board_DevKitC.h", "exp__board___dev_kit_c_8h_source.html", null ],
     [ "exp_board_gpboard.h", "exp__board__gpboard_8h_source.html", null ],
     [ "exp_board_RemoteTCP.h", "exp__board___remote_t_c_p_8h_source.html", null ],
     [ "exp_board_STM32_H103.h", "exp__board___s_t_m32___h103_8h_source.html", null ],
     [ "exp_board_Xpress.h", "exp__board___xpress_8h_source.html", null ],
     [ "exp_bridge_gpsim.h", "exp__bridge__gpsim_8h_source.html", null ],
     [ "exp_bsim_gpsim.h", "exp__bsim__gpsim_8h_source.html", null ],
-    [ "exp_bsim_qemu_stm32.h", "exp__bsim__qemu__stm32_8h_source.html", null ],
-    [ "exp_bsim_remote.h", "exp__bsim__remote_8h_source.html", null ]
+    [ "exp_bsim_qemu.h", "exp__bsim__qemu_8h_source.html", null ],
+    [ "exp_bsim_remote.h", "exp__bsim__remote_8h_source.html", null ],
+    [ "qemu.h", "qemu_8h_source.html", null ]
 ];

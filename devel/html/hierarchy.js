@@ -22,8 +22,9 @@ var hierarchy =
         [ "cboard_Xpress", "classcboard___xpress.html", null ],
         [ "cboard_x", "classcboard__x.html", null ]
       ] ],
-      [ "bsim_qemu_stm32", "classbsim__qemu__stm32.html", [
+      [ "bsim_qemu", "classbsim__qemu.html", [
         [ "cboard_Blue_Pill", "classcboard___blue___pill.html", null ],
+        [ "cboard_DevKitC", "classcboard___dev_kit_c.html", null ],
         [ "cboard_STM32_H103", "classcboard___s_t_m32___h103.html", null ]
       ] ],
       [ "bsim_remote", "classbsim__remote.html", [
@@ -56,6 +57,7 @@ var hierarchy =
     [ "io_74xx573_t", "structio__74xx573__t.html", null ],
     [ "io_74xx595_t", "structio__74xx595__t.html", null ],
     [ "io_MCP23X17_t", "structio___m_c_p23_x17__t.html", null ],
+    [ "io_MM74C922_t", "structio___m_m74_c922__t.html", null ],
     [ "io_PCF8574_t", "structio___p_c_f8574__t.html", null ],
     [ "lcd_ili9341_t", "structlcd__ili9341__t.html", null ],
     [ "lcd_pcd8544_t", "structlcd__pcd8544__t.html", null ],
@@ -76,6 +78,7 @@ var hierarchy =
       [ "cpart_IO_74xx573", "classcpart___i_o__74xx573.html", null ],
       [ "cpart_IO_74xx595", "classcpart___i_o__74xx595.html", null ],
       [ "cpart_IO_MCP23S17", "classcpart___i_o___m_c_p23_s17.html", null ],
+      [ "cpart_IO_MM74C922", "classcpart___i_o___m_m74_c922.html", null ],
       [ "cpart_IO_PCF8574", "classcpart___i_o___p_c_f8574.html", null ],
       [ "cpart_Jumpers", "classcpart___jumpers.html", null ],
       [ "cpart_LCD_hd44780", "classcpart___l_c_d__hd44780.html", null ],
@@ -123,6 +126,7 @@ var hierarchy =
       [ "cpart_vterm", "classcpart__vterm.html", null ]
     ] ],
     [ "part_desc", "structpart__desc.html", null ],
+    [ "QEMUTimer", "struct_q_e_m_u_timer.html", null ],
     [ "rgb_color", "structrgb__color.html", null ],
     [ "rtc_ds1307_t", "structrtc__ds1307__t.html", null ],
     [ "rtc_pfc8563_t", "structrtc__pfc8563__t.html", null ],
@@ -132,6 +136,7 @@ var hierarchy =
     [ "tim_t", "structtim__t.html", null ],
     [ "tsc_XPT2046_t", "structtsc___x_p_t2046__t.html", null ],
     [ "uart_t", "structuart__t.html", null ],
+    [ "user_timer_t", "structuser__timer__t.html", null ],
     [ "usi_t", "structusi__t.html", null ],
     [ "vcd_reg_t", "structvcd__reg__t.html", null ],
     [ "vterm_t", "structvterm__t.html", null ]

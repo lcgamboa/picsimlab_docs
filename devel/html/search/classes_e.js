@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['uart_5ft_422',['uart_t',['../structuart__t.html',1,'']]],
-  ['usi_5ft_423',['usi_t',['../structusi__t.html',1,'']]]
+  ['tim_5ft_429',['tim_t',['../structtim__t.html',1,'']]],
+  ['tsc_5fxpt2046_5ft_430',['tsc_XPT2046_t',['../structtsc___x_p_t2046__t.html',1,'']]]
 ];

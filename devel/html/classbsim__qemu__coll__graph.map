@@ -1,0 +1,8 @@
+<map id="bsim_qemu" name="bsim_qemu">
+<area shape="rect" id="node1" title=" " alt="" coords="137,199,236,225"/>
+<area shape="rect" id="node2" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
+<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" id="node5" href="$structuser__timer__t.html" title=" " alt="" coords="189,109,293,136"/>
+<area shape="rect" id="node6" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="197,5,296,32"/>
+</map>

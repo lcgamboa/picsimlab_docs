@@ -7,6 +7,7 @@ var dir_6fac9273c1f4413d2ee63ba6cd0b0eb2 =
     [ "io_74xx573.h", "io__74xx573_8h_source.html", null ],
     [ "io_74xx595.h", "io__74xx595_8h_source.html", null ],
     [ "io_MCP23X17.h", "io___m_c_p23_x17_8h_source.html", null ],
+    [ "io_MM74C922.h", "io___m_m74_c922_8h_source.html", null ],
     [ "io_PCF8574.h", "io___p_c_f8574_8h_source.html", null ],
     [ "lcd_hd44780.h", "lcd__hd44780_8h_source.html", null ],
     [ "lcd_ili9341.h", "lcd__ili9341_8h_source.html", null ],

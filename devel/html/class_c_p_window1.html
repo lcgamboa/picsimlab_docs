@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory
-   &#160;<span id="projectnumber">0.8.10</span>
+   &#160;<span id="projectnumber">0.8.11</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -253,6 +253,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>thread3_EvThreadRun</
 lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0">GetSharePath</a> (void)</td></tr>
 <tr class="memdesc:a5ac98dc50ff5f47fd05ebd534d80d1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the file path of resources. <br /></td></tr>
 <tr class="separator:a5ac98dc50ff5f47fd05ebd534d80d1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac038275a07ad66bab85045222b4f45ea"><td class="memItemLeft" align="right" valign="top"><a id="ac038275a07ad66bab85045222b4f45ea"></a>
+lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetLibPath</b> (void)</td></tr>
+<tr class="separator:ac038275a07ad66bab85045222b4f45ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732b032270b6f1c0f146983fb84ba76e"><td class="memItemLeft" align="right" valign="top"><a id="a732b032270b6f1c0f146983fb84ba76e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetplWidth</b> (int pw)</td></tr>
 <tr class="separator:a732b032270b6f1c0f146983fb84ba76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -544,6 +547,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0a5510bcb02b21f3328bc36e3d79ef57"><td class="memItemLeft" align="right" valign="top"><a id="a0a5510bcb02b21f3328bc36e3d79ef57"></a>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>share</b></td></tr>
 <tr class="separator:a0a5510bcb02b21f3328bc36e3d79ef57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf233eaa08e30ed6b35e4ff79541819"><td class="memItemLeft" align="right" valign="top"><a id="a7cf233eaa08e30ed6b35e4ff79541819"></a>
+lxString&#160;</td><td class="memItemRight" valign="bottom"><b>libpath</b></td></tr>
+<tr class="separator:a7cf233eaa08e30ed6b35e4ff79541819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67ee42dac57ad3389c396b97a1c38702"><td class="memItemLeft" align="right" valign="top"><a id="a67ee42dac57ad3389c396b97a1c38702"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>pa</b></td></tr>
 <tr class="separator:a67ee42dac57ad3389c396b97a1c38702"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -577,16 +583,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>osc_on</b></td></tr>
 <tr class="memitem:afcec024ae9a876c75710a296586014e4"><td class="memItemLeft" align="right" valign="top"><a id="afcec024ae9a876c75710a296586014e4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>spare_on</b></td></tr>
 <tr class="separator:afcec024ae9a876c75710a296586014e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b010c91010da471e88b21cb246fa3a"><td class="memItemLeft" ><a id="a85b010c91010da471e88b21cb246fa3a"></a>
+<tr class="memitem:ae36bd838a51c5d75c81f4abac51451be"><td class="memItemLeft" ><a id="ae36bd838a51c5d75c81f4abac51451be"></a>
 union {</td></tr>
-<tr class="memitem:a223f4dbf2256b1c1a1f984d17dc90872"><td class="memItemLeft" >
+<tr class="memitem:a1f6ae99e96b2d862f058e6e37602be5d"><td class="memItemLeft" >
 &#160;&#160;&#160;char&#160;&#160;&#160;<b>st</b> [2]</td></tr>
-<tr class="separator:a223f4dbf2256b1c1a1f984d17dc90872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60e4ec472f1f9437a85cafbcdc0fb23a"><td class="memItemLeft" >
+<tr class="separator:a1f6ae99e96b2d862f058e6e37602be5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb15c910ad8cff658c1e5b2f676d301"><td class="memItemLeft" >
 &#160;&#160;&#160;unsigned short int&#160;&#160;&#160;<b>status</b></td></tr>
-<tr class="separator:a60e4ec472f1f9437a85cafbcdc0fb23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b010c91010da471e88b21cb246fa3a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
-<tr class="separator:a85b010c91010da471e88b21cb246fa3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a8bb15c910ad8cff658c1e5b2f676d301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36bd838a51c5d75c81f4abac51451be"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:ae36bd838a51c5d75c81f4abac51451be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memItemLeft" align="right" valign="top"><a id="a90c1e060bba9e7a1f0c046e3470fd3f0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>plWidth</b></td></tr>
 <tr class="separator:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
