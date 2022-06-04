@@ -43,8 +43,9 @@ In the last configuration window, check the ``Launch setup'' option:
 \end{figure} 
 
 In the setup window, change the port names to COM1, COM2, COM3 ....
-Just check the ``enable buffer overrun'' option on the two ports, click in the ``Apply'' button and close the setup.
-In the configuration shown in the figure below, the COM1 and COM2 ports form a NULL-MODEM connection, where one port must be used by the PICSimLab and another by the application with serial communication.
+Just check the ``enable buffer overrun'' option on the port used to CuteCom, click in the ``Apply''
+button and close the setup.
+In the configuration shown in the figure below, the port COM1 (with buffer overrun disabled) must be used by the PICSimLab and COM2 (with buffer overrun enabled) by the application with serial communication.
 \begin{figure}[H]
 \center
 \includegraphics[width=0.8\textwidth]{img/com0com3.png} 

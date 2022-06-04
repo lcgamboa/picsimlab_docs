@@ -168,8 +168,8 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Com0comInstallationandConfigurationWindows.html'>prev</a>] [<a href='SerialCommunication.html#tty0ttyInstallationandConfigurationLinux.html'>up</a>] </nav> 
 <h3 class='sectionHead'><span class='titlemark'>6.2    </span> <a id='x39-380006.2'></a>tty0tty Installation and Configuration (Linux)</h3>
-<!-- l. 55 --><p class='noindent'>Download the <a href='https://github.com/lcgamboa/tty0tty/archive/master.zip' target='_blank'>tty0tyy</a>. Unzip the downloaded folder.
-</p><!-- l. 58 --><p class='indent'>   Open a terminal and enter in the tty0tty/module/ folder and enter the following
+<!-- l. 56 --><p class='noindent'>Download the <a href='https://github.com/lcgamboa/tty0tty/archive/master.zip' target='_blank'>tty0tyy</a>. Unzip the downloaded folder.
+</p><!-- l. 59 --><p class='indent'>   Open a terminal and enter in the tty0tty/module/ folder and enter the following
 commands:
                                                                   
 
@@ -182,8 +182,8 @@ commands:
  sudo ./dkms-install.sh
  sudo modprobe tty0tty
 </pre>
-<!-- l. 65 --><p class='nopar'>
-</p><!-- l. 67 --><p class='indent'>   The user must be in the <span class='textbf'>dialout</span> group to access the ports. To add your user to <span class='textbf'>dialout</span>
+<!-- l. 66 --><p class='nopar'>
+</p><!-- l. 68 --><p class='indent'>   The user must be in the <span class='textbf'>dialout</span> group to access the ports. To add your user to <span class='textbf'>dialout</span>
 group use the command:
                                                                   
 
@@ -192,8 +192,8 @@ group use the command:
    <pre class='verbatim' id='verbatim-2'>
 sudo usermod -a -G dialout your_user_name
 </pre>
-<!-- l. 71 --><p class='nopar'> after this is necessary logout and login to group permissions take effect.
-</p><!-- l. 75 --><p class='indent'>   Once installed, the module creates 8 interconnected ports as follows:
+<!-- l. 72 --><p class='nopar'> after this is necessary logout and login to group permissions take effect.
+</p><!-- l. 76 --><p class='indent'>   Once installed, the module creates 8 interconnected ports as follows:
                                                                   
 
                                                                   
@@ -204,8 +204,8 @@ sudo usermod -a -G dialout your_user_name
   /dev/tnt4  &lt;=&gt;  /dev/tnt5
   /dev/tnt6  &lt;=&gt;  /dev/tnt7
 </pre>
-<!-- l. 81 --><p class='nopar'>
-</p><!-- l. 83 --><p class='indent'>   the connection between each pair is of the form:
+<!-- l. 82 --><p class='nopar'>
+</p><!-- l. 84 --><p class='indent'>   the connection between each pair is of the form:
                                                                   
 
                                                                   
@@ -220,8 +220,8 @@ sudo usermod -a -G dialout your_user_name
   DTR  -&gt;  DSR
   DTR  -&gt;  CD
 </pre>
-<!-- l. 93 --><p class='nopar'>
-</p><!-- l. 95 --><p class='indent'>   Any pair of ports form a NULL-MODEM connection, where one port must be used by
+<!-- l. 94 --><p class='nopar'>
+</p><!-- l. 96 --><p class='indent'>   Any pair of ports form a NULL-MODEM connection, where one port must be used by
 the PICSimLab and another by the application with serial communication.
                                                                   
 
