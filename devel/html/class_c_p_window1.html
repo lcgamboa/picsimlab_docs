@@ -115,8 +115,9 @@ Collaboration diagram for CPWindow1:</div>
 <area shape="rect" title="CPWindow1 class." alt="" coords="23,199,121,225"/>
 <area shape="rect" title=" " alt="" coords="5,109,96,136"/>
 <area shape="rect" href="classboard.html" title="Board class." alt="" coords="120,109,179,136"/>
-<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="68,5,135,32"/>
-<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="159,5,235,32"/>
+<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="19,5,85,32"/>
+<area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="110,5,189,32"/>
+<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="213,5,289,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -240,6 +241,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Configure</b> (const 
 <tr class="memitem:aa3df0d235116556571a17d05ce511bef"><td class="memItemLeft" align="right" valign="top"><a id="aa3df0d235116556571a17d05ce511bef"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>board_Event</b> (CControl *control)</td></tr>
 <tr class="separator:aa3df0d235116556571a17d05ce511bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcc01dc4a883c2b8b87503f712bff81"><td class="memItemLeft" align="right" valign="top"><a id="a9bcc01dc4a883c2b8b87503f712bff81"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>board_ButtonEvent</b> (CControl *control, uint button, uint x, uint y, uint state)</td></tr>
+<tr class="separator:a9bcc01dc4a883c2b8b87503f712bff81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357fc84149812e820d2d473b62ff2c23"><td class="memItemLeft" align="right" valign="top"><a id="a357fc84149812e820d2d473b62ff2c23"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>thread1_EvThreadRun</b> (CControl *control)</td></tr>
 <tr class="separator:a357fc84149812e820d2d473b62ff2c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -583,16 +587,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>osc_on</b></td></tr>
 <tr class="memitem:afcec024ae9a876c75710a296586014e4"><td class="memItemLeft" align="right" valign="top"><a id="afcec024ae9a876c75710a296586014e4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>spare_on</b></td></tr>
 <tr class="separator:afcec024ae9a876c75710a296586014e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae36bd838a51c5d75c81f4abac51451be"><td class="memItemLeft" ><a id="ae36bd838a51c5d75c81f4abac51451be"></a>
+<tr class="memitem:a146a504e683fa9ddd48e9bf239317f7f"><td class="memItemLeft" ><a id="a146a504e683fa9ddd48e9bf239317f7f"></a>
 union {</td></tr>
-<tr class="memitem:a1f6ae99e96b2d862f058e6e37602be5d"><td class="memItemLeft" >
+<tr class="memitem:af43dc7e67570947eee62686c7920b4ef"><td class="memItemLeft" >
 &#160;&#160;&#160;char&#160;&#160;&#160;<b>st</b> [2]</td></tr>
-<tr class="separator:a1f6ae99e96b2d862f058e6e37602be5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bb15c910ad8cff658c1e5b2f676d301"><td class="memItemLeft" >
+<tr class="separator:af43dc7e67570947eee62686c7920b4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c02b8e23438d7fa3242be996f60be6e"><td class="memItemLeft" >
 &#160;&#160;&#160;unsigned short int&#160;&#160;&#160;<b>status</b></td></tr>
-<tr class="separator:a8bb15c910ad8cff658c1e5b2f676d301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae36bd838a51c5d75c81f4abac51451be"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
-<tr class="separator:ae36bd838a51c5d75c81f4abac51451be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2c02b8e23438d7fa3242be996f60be6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a146a504e683fa9ddd48e9bf239317f7f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:a146a504e683fa9ddd48e9bf239317f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memItemLeft" align="right" valign="top"><a id="a90c1e060bba9e7a1f0c046e3470fd3f0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>plWidth</b></td></tr>
 <tr class="separator:a90c1e060bba9e7a1f0c046e3470fd3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>

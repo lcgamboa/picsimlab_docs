@@ -2,6 +2,7 @@ var classbsim__qemu =
 [
     [ "bsim_qemu", "classbsim__qemu.html#a977751818af7794e7c923ad0a4bd52d1", null ],
     [ "~bsim_qemu", "classbsim__qemu.html#a64239cfb53e279170f0a73a6476472e1", null ],
+    [ "BoardOptions", "classbsim__qemu.html#acda9fc1bc93e1913fbdea4c21eb05c4e", null ],
     [ "CpuInitialized", "classbsim__qemu.html#ad68d1ffde7270c395e449062819da88f", null ],
     [ "DebugInit", "classbsim__qemu.html#a6e85a7cd35b60a16cf145d96d3fec1e6", null ],
     [ "DebugLoop", "classbsim__qemu.html#ad87efbabb4bfc4085a891d03fba6b1a6", null ],
@@ -32,6 +33,8 @@ var classbsim__qemu =
     [ "pins_reset", "classbsim__qemu.html#aac9e827853356cbcf5bac3b86d69662f", null ],
     [ "Run_CPU_ns", "classbsim__qemu.html#ae5273d71653a2fe3c56853082d0b6a50", null ],
     [ "ADCvalues", "classbsim__qemu.html#a76fb57a807f2c969b767d8348c9ba540", null ],
+    [ "cmdline", "classbsim__qemu.html#a4ed3a1dec8b798e8914f7475efb48e94", null ],
+    [ "cmdline_extra", "classbsim__qemu.html#a824c506beb890f413fe720c2985c5194", null ],
     [ "fname", "classbsim__qemu.html#a63f0f4844b9563a9dbcd6dc1cbf333bc", null ],
     [ "fname_", "classbsim__qemu.html#a84d9b7932aeac0eb441ff3bd4d5206c2", null ],
     [ "fname_bak", "classbsim__qemu.html#a2a980c692da6e94dc518d01478f5c53b", null ],
@@ -46,5 +49,6 @@ var classbsim__qemu =
     [ "serialexbaud", "classbsim__qemu.html#a8ff9b5f799c4eea754c11b2d41502b50", null ],
     [ "serialfd", "classbsim__qemu.html#a6117a5de824ba7c1f223c0ddc75742a3", null ],
     [ "SimType", "classbsim__qemu.html#a10f8922998faba68c282b954f2c668c0", null ],
-    [ "timer", "classbsim__qemu.html#afcfc6ea288d84942a2152b5a4215fcc9", null ]
+    [ "timer", "classbsim__qemu.html#afcfc6ea288d84942a2152b5a4215fcc9", null ],
+    [ "use_cmdline_extra", "classbsim__qemu.html#a047153ecbd159447139ea2a0de2e72cd", null ]
 ];

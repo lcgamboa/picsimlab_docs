@@ -1,6 +1,7 @@
 <map id="bsim_gpsim" name="bsim_gpsim">
-<area shape="rect" id="node1" title=" " alt="" coords="36,185,137,212"/>
-<area shape="rect" id="node2" href="$classboard.html" title="Board class." alt="" coords="57,109,116,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="85,185,187,212"/>
+<area shape="rect" id="node2" href="$classboard.html" title="Board class." alt="" coords="107,109,165,136"/>
 <area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" id="node4" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="97,5,175,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="199,5,275,32"/>
 </map>

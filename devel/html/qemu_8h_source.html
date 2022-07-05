@@ -163,22 +163,23 @@ $(document).ready(function(){initNavTree('qemu_8h_source.html',''); initResizabl
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">extern</span> void (*qemu_mutex_lock_iothread_impl)(<span class="keyword">const</span> <span class="keywordtype">char</span>* file, <span class="keywordtype">int</span> line);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">extern</span> void (*qemu_mutex_unlock_iothread)(void);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">extern</span> void (*qemu_picsimlab_register)(void (*picsimlab_write_pin)(<span class="keywordtype">int</span> pin, <span class="keywordtype">int</span> value));</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">extern</span> void (*qemu_picsimlab_set_pin)(<span class="keywordtype">int</span> pin, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">extern</span> void (*qemu_picsimlab_set_apin)(<span class="keywordtype">int</span> chn, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">extern</span> int (*qemu_picsimlab_flash_dump)(int64_t offset, <span class="keywordtype">void</span>* buf, <span class="keywordtype">int</span> bytes);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">extern</span> int64_t (*qemu_clock_get_ns)(QEMUClockType type);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">extern</span> void (*timer_init_full)(<a class="code" href="struct_q_e_m_u_timer.html">QEMUTimer</a>* ts, QEMUTimerListGroup* timer_list_group, QEMUClockType type, <span class="keywordtype">int</span> scale,</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                               <span class="keywordtype">int</span> attributes, QEMUTimerCB* cb, <span class="keywordtype">void</span>* opaque);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">extern</span> void (*timer_mod_ns)(<a class="code" href="struct_q_e_m_u_timer.html">QEMUTimer</a>* ts, int64_t expire_time);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">extern</span> uint32_t* (*qemu_picsimlab_get_strap)(void);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keyword">extern</span> uint32_t (*qemu_picsimlab_get_TIOCM)(void);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">extern</span> void (*qemu_picsimlab_register)(void (*picsimlab_write_pin)(<span class="keywordtype">int</span> pin, <span class="keywordtype">int</span> value),</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                       <span class="keywordtype">void</span> (*picsimlab_dir_pin)(<span class="keywordtype">int</span> pin, <span class="keywordtype">int</span> value));</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">extern</span> void (*qemu_picsimlab_set_pin)(<span class="keywordtype">int</span> pin, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">extern</span> void (*qemu_picsimlab_set_apin)(<span class="keywordtype">int</span> chn, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">extern</span> int (*qemu_picsimlab_flash_dump)(int64_t offset, <span class="keywordtype">void</span>* buf, <span class="keywordtype">int</span> bytes);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">extern</span> int64_t (*qemu_clock_get_ns)(QEMUClockType type);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">extern</span> void (*timer_init_full)(<a class="code" href="struct_q_e_m_u_timer.html">QEMUTimer</a>* ts, QEMUTimerListGroup* timer_list_group, QEMUClockType type, <span class="keywordtype">int</span> scale,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                               <span class="keywordtype">int</span> attributes, QEMUTimerCB* cb, <span class="keywordtype">void</span>* opaque);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">extern</span> void (*timer_mod_ns)(<a class="code" href="struct_q_e_m_u_timer.html">QEMUTimer</a>* ts, int64_t expire_time);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">extern</span> uint32_t* (*qemu_picsimlab_get_strap)(void);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">extern</span> uint32_t (*qemu_picsimlab_get_TIOCM)(void);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
 <div class="ttc" id="astruct_q_e_m_u_timer_html"><div class="ttname"><a href="struct_q_e_m_u_timer.html">QEMUTimer</a></div><div class="ttdef"><b>Definition:</b> qemu.h:46</div></div>
 <div class="ttc" id="astructuser__timer__t_html"><div class="ttname"><a href="structuser__timer__t.html">user_timer_t</a></div><div class="ttdef"><b>Definition:</b> qemu.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->

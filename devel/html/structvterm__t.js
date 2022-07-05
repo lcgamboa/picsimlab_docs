@@ -5,5 +5,6 @@ var structvterm__t =
     [ "buff_out", "structvterm__t.html#a4ca7f5cd813f3d226d7f838e155c82b0", null ],
     [ "count_in", "structvterm__t.html#a735e63455e17b003679ac1fcfe0d475d", null ],
     [ "count_out", "structvterm__t.html#a0d8c6bf878359c84d73e2519fc15b1fb", null ],
+    [ "inMutex", "structvterm__t.html#a55043e3849e03518d23ce16a47dbf6d6", null ],
     [ "out_ptr", "structvterm__t.html#a4c2244952909563b9fec0122b2f4a767", null ]
 ];

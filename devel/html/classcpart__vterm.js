@@ -26,6 +26,7 @@ var classcpart__vterm =
     [ "lending", "classcpart__vterm.html#a9dcaaf0c6f228fb64b40d1702eab45f9", null ],
     [ "output_pins", "classcpart__vterm.html#a37636ebb79843a60988c8396fafb98e3", null ],
     [ "send_text", "classcpart__vterm.html#a797fab68a30e3a39211a2d781e85ec18", null ],
+    [ "text_to_send", "classcpart__vterm.html#ac7179183882eab246e348bae3f19bb12", null ],
     [ "vt", "classcpart__vterm.html#aa3e4d45678353547e94b6b455e71a420", null ],
     [ "vtbtn_clear", "classcpart__vterm.html#aa167cdfaa11b2c8346a11f2d46de8ea4", null ],
     [ "vtbtn_send", "classcpart__vterm.html#a8b5faf4b57b78809215bc306663ec2ef", null ],

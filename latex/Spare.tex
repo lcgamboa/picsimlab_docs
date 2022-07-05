@@ -25,7 +25,12 @@ The main window has the menu with the following functions:
 \end{itemize}
  \item Inputs
  \begin{itemize}
+  \item BMP180 (Pressure I2C) - Adds a I2C pressure and temperature sensor
+  \item BMP280 (Pressure I2C) - Adds a I2C pressure and temperature sensor
+  \item DHT11 (Temp. Hum.) - Adds a humidity and temperature sensor
+  \item DHT22 (Temp. Hum.) - Adds a humidity and temperature sensor
   \item DS1621 (Temperature I2C) -  Adds a I2C temperature sensor 
+  \item DS18B20 (Temperature) - Adds a 1-Wire temperature sensor 
   \item Encoder - Adds a rotary quadrature encoder with push button
   \item FM50 (Temperature) - Adds a analog temperature sensor
   \item Fixed Voltage -  Adds a analog fixed voltage reference
@@ -145,6 +150,62 @@ To use:
 \section{Inputs}
 
 
+\subsection{BMP180 (Pressure I2C)} 
+
+This part is BMP180 I2C pressure and temperature sensor. 
+The temperature  range is -40 to 85 °C  
+and the pressure range is 300 hPa to 1100 hPa.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.5\textwidth]{img/part_bmp180.png} 
+\end{figure} 
+
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_BMP180_(Pressure_I2C).html}{Examples}
+
+\subsection{BMP280 (Pressure I2C)} 
+
+This part is BMP280 I2C pressure and temperature sensor. 
+The temperature  range is -40 to 85 °C  
+and the pressure range is 300 hPa to 1100 hPa.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.5\textwidth]{img/part_bmp280.png} 
+\end{figure} 
+
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_BMP280_(Pressure_I2C).html}{Examples}
+
+
+\subsection{DHT11 (Temp. Hum.)} 
+
+This part is DHT11 digital temperature and humidity sensor. The temperature  range is 0 to 50 °C  
+and the relative humidity range is 20 to 80 \%.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.5\textwidth]{img/part_dht11.png} 
+\end{figure} 
+
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_DHT11_(Temp._Hum.).html}{Examples}
+
+\subsection{DHT22 (Temp. Hum.)} 
+
+This part is DHT22 digital temperature and humidity sensor. The temperature  range is -40 to 80 °C  
+and the relative humidity range is 0 to 100 \%.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.5\textwidth]{img/part_dht22.png} 
+\end{figure} 
+
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_DHT22_(Temp._Hum.).html}{Examples}
+
+  
 \subsection{DS1621 (Temperature I2C)}
 
 
@@ -158,7 +219,19 @@ This part is DS1621 I2C temperature sensor. The measurement range is -55 to 125 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_DS1621_(Temperature_I2C).html}{Examples}
 
+\subsection{DS18B20 (Temperature)}
 
+This part is DS18B20 1-Wire temperature sensor. The measurement range is -40 to 80 °C.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.4\textwidth]{img/part_ds18b20.png} 
+\end{figure} 
+
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_DS18B20_(Temperature).html}{Examples}
+  
+  
 \subsection{Encoder}
 
 This part is a rotary quadrature encoder with push button. The output is twenty pulses per revolution.

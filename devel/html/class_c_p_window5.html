@@ -112,12 +112,13 @@ Collaboration diagram for CPWindow5:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_c_p_window5__coll__graph.png" border="0" usemap="#a_c_p_window5_coll__map" alt="Collaboration graph"/></div>
 <map name="a_c_p_window5_coll__map" id="a_c_p_window5_coll__map">
-<area shape="rect" title="CPWindow4 class." alt="" coords="83,213,181,240"/>
-<area shape="rect" title=" " alt="" coords="5,109,96,136"/>
-<area shape="rect" href="classboard.html" title="Board class." alt="" coords="199,109,257,136"/>
-<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="84,5,151,32"/>
-<area shape="rect" href="classpart.html" title="PART class." alt="" coords="120,109,168,136"/>
-<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="218,5,294,32"/>
+<area shape="rect" title="CPWindow4 class." alt="" coords="155,213,254,240"/>
+<area shape="rect" title=" " alt="" coords="68,109,159,136"/>
+<area shape="rect" href="classboard.html" title="Board class." alt="" coords="271,109,330,136"/>
+<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="218,5,284,32"/>
+<area shape="rect" href="classpart.html" title="PART class." alt="" coords="183,109,231,136"/>
+<area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="352,5,430,32"/>
+<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="22,5,98,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -256,15 +257,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PropComboChange</b> (
 <tr class="memitem:ae114da673d197318ff339456e97d8cce"><td class="memItemLeft" align="right" valign="top"><a id="ae114da673d197318ff339456e97d8cce"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PropClose</b> (int tag)</td></tr>
 <tr class="separator:ae114da673d197318ff339456e97d8cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a184cdfbde660dd1de310478cb2860c93"><td class="memItemLeft" align="right" valign="top"><a id="a184cdfbde660dd1de310478cb2860c93"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_i2c_bus</b> (unsigned char pin)</td></tr>
-<tr class="separator:a184cdfbde660dd1de310478cb2860c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5242a86622467fced4533468cf6bf9a"><td class="memItemLeft" align="right" valign="top"><a id="ad5242a86622467fced4533468cf6bf9a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_i2c_bus</b> (unsigned char pin, unsigned char value)</td></tr>
-<tr class="separator:ad5242a86622467fced4533468cf6bf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0db726dfb64849f899d203fb199840c"><td class="memItemLeft" align="right" valign="top"><a id="ac0db726dfb64849f899d203fb199840c"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Get_i2c_bus</b> (unsigned char pin)</td></tr>
-<tr class="separator:ac0db726dfb64849f899d203fb199840c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca0415ba3278519a8f1672f61cf8df9"><td class="memItemLeft" align="right" valign="top"><a id="a9ca0415ba3278519a8f1672f61cf8df9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Reset_pullup_bus</b> (unsigned char pin)</td></tr>
+<tr class="separator:a9ca0415ba3278519a8f1672f61cf8df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e670c1e0bde6a8fa815e93efa2b65e"><td class="memItemLeft" align="right" valign="top"><a id="ae0e670c1e0bde6a8fa815e93efa2b65e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_pullup_bus</b> (unsigned char pin, unsigned char value)</td></tr>
+<tr class="separator:ae0e670c1e0bde6a8fa815e93efa2b65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbbc3df08bf29c9202f4534e2f85639"><td class="memItemLeft" align="right" valign="top"><a id="adbbbc3df08bf29c9202f4534e2f85639"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Get_pullup_bus</b> (unsigned char pin)</td></tr>
+<tr class="separator:adbbbc3df08bf29c9202f4534e2f85639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3a2e13a8a0666e625684571b5751bc"><td class="memItemLeft" align="right" valign="top"><a id="a4f3a2e13a8a0666e625684571b5751bc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PartButtonEvent</b> (CControl *control, uint button, uint x, uint y, uint state)</td></tr>
 <tr class="separator:a4f3a2e13a8a0666e625684571b5751bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -486,15 +487,15 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b></td></tr>
 <tr class="memitem:a93f5c1735167b6ca56ab56b087cb4688"><td class="memItemLeft" align="right" valign="top"><a id="a93f5c1735167b6ca56ab56b087cb4688"></a>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>LoadConfigFile</b></td></tr>
 <tr class="separator:a93f5c1735167b6ca56ab56b087cb4688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63a2f35c6a3cdc1953e4f4b0f1c60661"><td class="memItemLeft" align="right" valign="top"><a id="a63a2f35c6a3cdc1953e4f4b0f1c60661"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>i2c_bus</b> [IOINIT]</td></tr>
-<tr class="separator:a63a2f35c6a3cdc1953e4f4b0f1c60661"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa24a9355f5a3bf7a92409ccc7f746884"><td class="memItemLeft" align="right" valign="top"><a id="aa24a9355f5a3bf7a92409ccc7f746884"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>i2c_bus_count</b></td></tr>
-<tr class="separator:aa24a9355f5a3bf7a92409ccc7f746884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b85e250f6ce00e2ebad16fe708bed07"><td class="memItemLeft" align="right" valign="top"><a id="a3b85e250f6ce00e2ebad16fe708bed07"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>i2c_bus_ptr</b> [IOINIT]</td></tr>
-<tr class="separator:a3b85e250f6ce00e2ebad16fe708bed07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d55435c6408b0c81e0e88cb9ff9de6"><td class="memItemLeft" align="right" valign="top"><a id="a80d55435c6408b0c81e0e88cb9ff9de6"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>pullup_bus</b> [IOINIT]</td></tr>
+<tr class="separator:a80d55435c6408b0c81e0e88cb9ff9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab592b411e0f32ae4464bb47695e66d95"><td class="memItemLeft" align="right" valign="top"><a id="ab592b411e0f32ae4464bb47695e66d95"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>pullup_bus_count</b></td></tr>
+<tr class="separator:ab592b411e0f32ae4464bb47695e66d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b0ad23684141878b305e4ad2ca206a"><td class="memItemLeft" align="right" valign="top"><a id="a54b0ad23684141878b305e4ad2ca206a"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>pullup_bus_ptr</b> [IOINIT]</td></tr>
+<tr class="separator:a54b0ad23684141878b305e4ad2ca206a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22ad915452e2c41cb49211983de7ed44"><td class="memItemLeft" align="right" valign="top"><a id="a22ad915452e2c41cb49211983de7ed44"></a>
 CPWindow&#160;</td><td class="memItemRight" valign="bottom"><b>wprop</b></td></tr>
 <tr class="separator:a22ad915452e2c41cb49211983de7ed44"><td class="memSeparator" colspan="2">&#160;</td></tr>

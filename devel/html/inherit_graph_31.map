@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpart.html" title="PART class." alt="" coords="5,1348,53,1375"/>
+<area shape="rect" id="node1" href="$classpart.html" title="PART class." alt="" coords="5,1475,53,1501"/>
 <area shape="rect" id="node2" href="$classcpart__7s__display.html" title=" " alt="" coords="122,5,253,32"/>
 <area shape="rect" id="node3" href="$classcpart__7s__display__dec.html" title=" " alt="" coords="107,56,268,83"/>
 <area shape="rect" id="node4" href="$classcpart___buzzer.html" title=" " alt="" coords="134,107,241,133"/>
@@ -29,29 +29,34 @@
 <area shape="rect" id="node28" href="$classcpart___v_c_d___dump___d_b_g.html" title=" " alt="" coords="101,1323,273,1349"/>
 <area shape="rect" id="node29" href="$classcpart___v_c_d___dump__an.html" title=" " alt="" coords="108,1373,267,1400"/>
 <area shape="rect" id="node30" href="$classcpart___v_c_d___play.html" title=" " alt="" coords="125,1424,250,1451"/>
-<area shape="rect" id="node31" href="$classcpart__dcmotor.html" title=" " alt="" coords="129,1475,245,1501"/>
-<area shape="rect" id="node32" href="$classcpart__ds1621.html" title=" " alt="" coords="133,1525,242,1552"/>
-<area shape="rect" id="node33" href="$classcpart__dtfunc.html" title=" " alt="" coords="136,1576,239,1603"/>
-<area shape="rect" id="node34" href="$classcpart__encoder.html" title=" " alt="" coords="130,1627,245,1653"/>
-<area shape="rect" id="node35" href="$classcpart__fixedv.html" title=" " alt="" coords="136,1677,239,1704"/>
-<area shape="rect" id="node36" href="$classcpart__fm50.html" title=" " alt="" coords="139,1728,235,1755"/>
-<area shape="rect" id="node37" href="$classcpart__gamepad.html" title=" " alt="" coords="126,1779,249,1805"/>
-<area shape="rect" id="node38" href="$classcpart__gamepad__an.html" title=" " alt="" coords="114,1829,261,1856"/>
-<area shape="rect" id="node39" href="$classcpart__hcsr04.html" title=" " alt="" coords="135,1880,240,1907"/>
-<area shape="rect" id="node40" href="$classcpart__keypad.html" title=" " alt="" coords="133,1931,242,1957"/>
-<area shape="rect" id="node41" href="$classcpart__led__matrix.html" title=" " alt="" coords="121,1981,253,2008"/>
-<area shape="rect" id="node42" href="$classcpart__led__ws2812b.html" title=" " alt="" coords="114,2032,261,2059"/>
-<area shape="rect" id="node43" href="$classcpart__leds.html" title=" " alt="" coords="143,2083,232,2109"/>
-<area shape="rect" id="node44" href="$classcpart__lm35.html" title=" " alt="" coords="140,2133,235,2160"/>
-<area shape="rect" id="node45" href="$classcpart__pbuttons.html" title=" " alt="" coords="128,2184,247,2211"/>
-<area shape="rect" id="node46" href="$classcpart__pbuttons__an.html" title=" " alt="" coords="116,2235,259,2261"/>
-<area shape="rect" id="node47" href="$classcpart__pot.html" title=" " alt="" coords="146,2285,229,2312"/>
-<area shape="rect" id="node48" href="$classcpart__pot__r.html" title=" " alt="" coords="140,2336,235,2363"/>
-<area shape="rect" id="node49" href="$classcpart__rgb__led.html" title=" " alt="" coords="132,2387,243,2413"/>
-<area shape="rect" id="node50" href="$classcpart__servo.html" title="servo motor part class" alt="" coords="138,2437,237,2464"/>
-<area shape="rect" id="node51" href="$classcpart__sht3x.html" title=" " alt="" coords="138,2488,237,2515"/>
-<area shape="rect" id="node52" href="$classcpart__step.html" title=" " alt="" coords="142,2539,233,2565"/>
-<area shape="rect" id="node53" href="$classcpart__switches.html" title=" " alt="" coords="128,2589,247,2616"/>
-<area shape="rect" id="node54" href="$classcpart__tempsys.html" title=" " alt="" coords="128,2640,247,2667"/>
-<area shape="rect" id="node55" href="$classcpart__vterm.html" title=" " alt="" coords="137,2691,238,2717"/>
+<area shape="rect" id="node31" href="$classcpart__bmp180.html" title=" " alt="" coords="130,1475,245,1501"/>
+<area shape="rect" id="node32" href="$classcpart__bmp280.html" title=" " alt="" coords="130,1525,245,1552"/>
+<area shape="rect" id="node33" href="$classcpart__dcmotor.html" title=" " alt="" coords="129,1576,245,1603"/>
+<area shape="rect" id="node34" href="$classcpart__dht11.html" title=" " alt="" coords="138,1627,237,1653"/>
+<area shape="rect" id="node35" href="$classcpart__dht22.html" title=" " alt="" coords="138,1677,237,1704"/>
+<area shape="rect" id="node36" href="$classcpart__ds1621.html" title=" " alt="" coords="133,1728,242,1755"/>
+<area shape="rect" id="node37" href="$classcpart__ds18b20.html" title=" " alt="" coords="129,1779,246,1805"/>
+<area shape="rect" id="node38" href="$classcpart__dtfunc.html" title=" " alt="" coords="136,1829,239,1856"/>
+<area shape="rect" id="node39" href="$classcpart__encoder.html" title=" " alt="" coords="130,1880,245,1907"/>
+<area shape="rect" id="node40" href="$classcpart__fixedv.html" title=" " alt="" coords="136,1931,239,1957"/>
+<area shape="rect" id="node41" href="$classcpart__fm50.html" title=" " alt="" coords="139,1981,235,2008"/>
+<area shape="rect" id="node42" href="$classcpart__gamepad.html" title=" " alt="" coords="126,2032,249,2059"/>
+<area shape="rect" id="node43" href="$classcpart__gamepad__an.html" title=" " alt="" coords="114,2083,261,2109"/>
+<area shape="rect" id="node44" href="$classcpart__hcsr04.html" title=" " alt="" coords="135,2133,240,2160"/>
+<area shape="rect" id="node45" href="$classcpart__keypad.html" title=" " alt="" coords="133,2184,242,2211"/>
+<area shape="rect" id="node46" href="$classcpart__led__matrix.html" title=" " alt="" coords="121,2235,253,2261"/>
+<area shape="rect" id="node47" href="$classcpart__led__ws2812b.html" title=" " alt="" coords="114,2285,261,2312"/>
+<area shape="rect" id="node48" href="$classcpart__leds.html" title=" " alt="" coords="143,2336,232,2363"/>
+<area shape="rect" id="node49" href="$classcpart__lm35.html" title=" " alt="" coords="140,2387,235,2413"/>
+<area shape="rect" id="node50" href="$classcpart__pbuttons.html" title=" " alt="" coords="128,2437,247,2464"/>
+<area shape="rect" id="node51" href="$classcpart__pbuttons__an.html" title=" " alt="" coords="116,2488,259,2515"/>
+<area shape="rect" id="node52" href="$classcpart__pot.html" title=" " alt="" coords="146,2539,229,2565"/>
+<area shape="rect" id="node53" href="$classcpart__pot__r.html" title=" " alt="" coords="140,2589,235,2616"/>
+<area shape="rect" id="node54" href="$classcpart__rgb__led.html" title=" " alt="" coords="132,2640,243,2667"/>
+<area shape="rect" id="node55" href="$classcpart__servo.html" title="servo motor part class" alt="" coords="138,2691,237,2717"/>
+<area shape="rect" id="node56" href="$classcpart__sht3x.html" title=" " alt="" coords="138,2741,237,2768"/>
+<area shape="rect" id="node57" href="$classcpart__step.html" title=" " alt="" coords="142,2792,233,2819"/>
+<area shape="rect" id="node58" href="$classcpart__switches.html" title=" " alt="" coords="128,2843,247,2869"/>
+<area shape="rect" id="node59" href="$classcpart__tempsys.html" title=" " alt="" coords="128,2893,247,2920"/>
+<area shape="rect" id="node60" href="$classcpart__vterm.html" title=" " alt="" coords="137,2944,238,2971"/>
 </map>

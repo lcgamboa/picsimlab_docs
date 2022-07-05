@@ -1,11 +1,12 @@
 <map id="cboard_K16F" name="cboard_K16F">
-<area shape="rect" id="node1" title=" " alt="" coords="221,288,328,315"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="35,199,139,225"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="57,109,116,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="271,288,377,315"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="84,199,188,225"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="107,109,165,136"/>
 <area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" id="node6" href="$structrtc__pfc8563__t.html" title=" " alt="" coords="163,199,274,225"/>
-<area shape="rect" id="node7" href="$structbitbang__i2c__t.html" title=" " alt="" coords="212,109,321,136"/>
-<area shape="rect" id="node9" href="$structmi2c__t.html" title=" " alt="" coords="299,199,365,225"/>
-<area shape="rect" id="node8" href="$structlcd__t.html" title=" " alt="" coords="389,199,443,225"/>
+<area shape="rect" id="node5" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="97,5,175,32"/>
+<area shape="rect" id="node6" href="$structoutput__t.html" title="output map struct" alt="" coords="199,5,275,32"/>
+<area shape="rect" id="node7" href="$structrtc__pfc8563__t.html" title=" " alt="" coords="213,199,323,225"/>
+<area shape="rect" id="node8" href="$structbitbang__i2c__t.html" title=" " alt="" coords="261,109,371,136"/>
+<area shape="rect" id="node10" href="$structmi2c__t.html" title=" " alt="" coords="348,199,415,225"/>
+<area shape="rect" id="node9" href="$structlcd__t.html" title=" " alt="" coords="439,199,492,225"/>
 </map>
