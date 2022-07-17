@@ -175,34 +175,31 @@
 <h4 class='subsectionHead'><span class='titlemark'>8.2.3    </span> <a id='x51-500008.2.3'></a>Communication Protocol</h4>
 <!--  l. 73  --><p class='noindent'>
 </p>
-   <h5 class='subsubsectionHead'><a id='x51-510008.2.3'></a>Writing on Digital Input</h5>
+   <h5 class='subsubsectionHead'><a id='x51-51000'></a>Writing on Digital Input</h5>
 <!--  l. 74  --><p class='noindent'>Sent one byte in 0x0N hexadecimal format where N is the number of input followed by a
 second byte with value 0x00 for disable or 0x01 for enable.
-</p><!--  l. 76  --><p class='indent'>   Example to turn on the input 2:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><!--  l. 76  --><p class='indent'>   Example to turn on the input 2: </p><div class='minted-color-box' style='background-color:#F0F0F0'>
    <pre class='fancyvrb' id='fancyvrb20'><a id='x51-51004r1'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>            </span></span><span class='pcrr8t-x-x-80'>Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x02</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x51-51006r2'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>            </span></span><span class='pcrr8t-x-x-80'>Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x01</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
 </div>
 <!--  l. 83  --><p class='noindent'>
 </p>
-   <h5 class='subsubsectionHead'><a id='x51-520008.2.3'></a>Reading Digital Output</h5>
+   <h5 class='subsubsectionHead'><a id='x51-52000'></a>Reading Digital Output</h5>
 <!--  l. 84  --><p class='noindent'>Sent one byte in 0x1N hexadecimal format where N is the number of output and read one
 byte. The byte readed have value 0x00 for disable or 0x01 for enable.
-</p><!--  l. 86  --><p class='indent'>   Example to read output 3:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><!--  l. 86  --><p class='indent'>   Example to read output 3: </p><div class='minted-color-box' style='background-color:#F0F0F0'>
    <pre class='fancyvrb' id='fancyvrb21'><a id='x51-52004r1'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x13</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x51-52006r2'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
+</div>
                                                                   
 
                                                                   
-</div>
 <!--  l. 93  --><p class='noindent'>
 </p>
-   <h5 class='subsubsectionHead'><a id='x51-530008.2.3'></a>Writing on Analog Input</h5>
+   <h5 class='subsubsectionHead'><a id='x51-53000'></a>Writing on Analog Input</h5>
 <!--  l. 94  --><p class='noindent'>Sent one byte in 0x2N hexadecimal format where N is the number of input followed by two
 bytes with the 16 bits value.
-</p><!--  l. 96  --><p class='indent'>   Example to write the value 230 on analog input 1:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><!--  l. 96  --><p class='indent'>   Example to write the value 230 on analog input 1: </p><div class='minted-color-box' style='background-color:#F0F0F0'>
    <pre class='fancyvrb' id='fancyvrb22'><a id='x51-53006r1'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>            </span></span><span class='pcrr8t-x-x-80'>Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x21</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x51-53008r2'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>            </span></span><span class='pcrr8t-x-x-80'>valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>230</span></span><span class='pcrr8t-x-x-80'>;</span> 
 <a id='x51-53010r3'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>            </span></span><span class='pcrr8t-x-x-80'>Serial_write((valor</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&amp;</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0xFF00</span></span><span class='pcrr8t-x-x-80'>)</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>&gt;&gt;</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>8</span></span><span class='pcrr8t-x-x-80'>);</span> 
@@ -210,11 +207,10 @@ bytes with the 16 bits value.
 </div>
 <!--  l. 104  --><p class='noindent'>
 </p>
-   <h5 class='subsubsectionHead'><a id='x51-540008.2.3'></a>Reading Analog Output</h5>
+   <h5 class='subsubsectionHead'><a id='x51-54000'></a>Reading Analog Output</h5>
 <!--  l. 105  --><p class='noindent'>Sent one byte in 0x3N hexadecimal format where N is the number of output and read two
 bytes to form the 16 bits value.
-</p><!--  l. 107  --><p class='indent'>   Example to read analog output 2:
-</p><div class='minted-color-box' style='background-color:#F0F0F0'>
+</p><!--  l. 107  --><p class='indent'>   Example to read analog output 2: </p><div class='minted-color-box' style='background-color:#F0F0F0'>
    <pre class='fancyvrb' id='fancyvrb23'><a id='x51-54006r1'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>Serial_write(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0x32</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x51-54008r2'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>valorh</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
 <a id='x51-54010r3'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>valorl</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
