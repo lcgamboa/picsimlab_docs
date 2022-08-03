@@ -1,7 +1,5 @@
 var classcpart___signal_generator =
 [
-    [ "cpart_SignalGenerator", "classcpart___signal_generator.html#aa0ed268af5e8e444395b1235a4284081", null ],
-    [ "~cpart_SignalGenerator", "classcpart___signal_generator.html#a565a225f53485a3785f70e79972c9e48", null ],
     [ "ConfigurePropertiesWindow", "classcpart___signal_generator.html#a483ce082209885f3bb3afdb0e9049418", null ],
     [ "Draw", "classcpart___signal_generator.html#a376f66251e05673048f6390f39f4f2cd", null ],
     [ "EvMouseButtonPress", "classcpart___signal_generator.html#ae49526c1067c8cfff8ccac7e79127ea8", null ],
@@ -16,18 +14,5 @@ var classcpart___signal_generator =
     [ "ReadPreferences", "classcpart___signal_generator.html#a35eb2b217b80479656cbe39a72b943f4", null ],
     [ "ReadPropertiesWindow", "classcpart___signal_generator.html#aef60bf8ae5d89aabd66543a77b588ce6", null ],
     [ "RegisterRemoteControl", "classcpart___signal_generator.html#a28865ea4dfe83f690735429c17ab66c3", null ],
-    [ "WritePreferences", "classcpart___signal_generator.html#aacd0a9dfd6104f33761bc472fe79f196", null ],
-    [ "active", "classcpart___signal_generator.html#a152a5b4ee00244d8e50441c924c398fc", null ],
-    [ "ampl", "classcpart___signal_generator.html#a23907c253e316cc6c30853033d631d97", null ],
-    [ "font", "classcpart___signal_generator.html#a6679be26a7195183608c8ed40150b082", null ],
-    [ "freq", "classcpart___signal_generator.html#a7ab916a29310390cff5da582c2a3f7c8", null ],
-    [ "input_pins", "classcpart___signal_generator.html#aee2190e492aafe58356af73410a0c8e7", null ],
-    [ "JUMPSTEPS_", "classcpart___signal_generator.html#aee94ee4b269b284e721ea97e9988449a", null ],
-    [ "lastd", "classcpart___signal_generator.html#a6040e847b26f7fd2c754314c7db9e89c", null ],
-    [ "maxfreq", "classcpart___signal_generator.html#ac6343d891f43e11a6cb279fdc5cc3ffb", null ],
-    [ "mcount", "classcpart___signal_generator.html#a883b08ce75d505c0476093cb4879b370", null ],
-    [ "offs", "classcpart___signal_generator.html#a5c066c7a98bd78462c4a522cb53ca949", null ],
-    [ "ts", "classcpart___signal_generator.html#a754ad8ebf98eb27c8efbe499727e7ca0", null ],
-    [ "type", "classcpart___signal_generator.html#ae24aa8ce9b48210d08097264caaa5777", null ],
-    [ "values", "classcpart___signal_generator.html#a11d0dca92089fa680b5fa21d6b24d8e9", null ]
+    [ "WritePreferences", "classcpart___signal_generator.html#aacd0a9dfd6104f33761bc472fe79f196", null ]
 ];

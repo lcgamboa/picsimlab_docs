@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::MGetArchitecture" name="cboard_Breadboard::MGetArchitecture">
+<area shape="rect" id="node1" title="Return board microcontroller architecture." alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a2f61b44428ed88427f1652fb5334a95d" title="Return board microcontroller architecture." alt="" coords="210,5,437,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a6ff3e5e8d7d33333ad8b4c9cb1cb3f11" title="Return board microcontroller architecture." alt="" coords="209,56,437,83"/>
+</map>

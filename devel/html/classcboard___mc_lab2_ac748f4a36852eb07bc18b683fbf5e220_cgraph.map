@@ -1,0 +1,5 @@
+<map id="cboard_McLab2::MInit" name="cboard_McLab2::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a370ed64b93a0adfec5204695439c46db" title="board microcontroller init" alt="" coords="217,5,363,32"/>
+<area shape="rect" id="node3" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="411,5,619,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::DBGGetCONFIG_p" name="cboard_Breadboard::DBGGetCONFIG_p">
+<area shape="rect" id="node1" title="board microcontroller get CONFIG memory pointer" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a7dc783e613e2a460e996867718804703" title="board microcontroller get CONFIG memory pointer" alt="" coords="210,5,441,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a1ec3a732b1c645b6aff432d3b6401def" title="board microcontroller get CONFIG memory pointer" alt="" coords="209,56,441,83"/>
+</map>

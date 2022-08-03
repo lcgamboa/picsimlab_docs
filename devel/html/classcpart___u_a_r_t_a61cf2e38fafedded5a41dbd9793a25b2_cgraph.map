@@ -1,0 +1,4 @@
+<map id="cpart_UART::EvMouseButtonPress" name="cpart_UART::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="260,13,388,39"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::CpuInitialized" name="cboard_Breadboard::CpuInitialized">
+<area shape="rect" id="node1" title="return true if microcontroller is initialized" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a9aec0e1cef09a7e15846565a3175c4af" title="return true if microcontroller is initialized" alt="" coords="210,5,411,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a9a30361ab69464660796d48f47e53dd6" title="return true if microcontroller is initialized" alt="" coords="209,56,412,83"/>
+</map>

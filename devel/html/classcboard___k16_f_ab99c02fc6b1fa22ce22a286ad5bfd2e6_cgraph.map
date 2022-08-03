@@ -1,0 +1,15 @@
+<map id="cboard_K16F::Run_CPU" name="cboard_K16F::Run_CPU">
+<area shape="rect" id="node1" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,157,177,184"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="233,5,422,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d" title="Get the number of steps to be skipped in board update." alt="" coords="225,56,429,83"/>
+<area shape="rect" id="node4" href="$classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66" title="Increment the Intructions Counter." alt="" coords="247,107,408,133"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#a7b033d0c44a3dfc514d5506b74ad5abb" title="Execute the post process code of spare parts one time per 100ms." alt="" coords="235,157,420,184"/>
+<area shape="rect" id="node7" href="$class_c_p_window5.html#a02d69b9e32726649eaa1c325e2b7af70" title="Execute the pre process code of spare parts one time per 100ms." alt="" coords="238,208,417,235"/>
+<area shape="rect" id="node9" href="$class_c_p_window5.html#abf4a593790774e9c184e4876ed7fd1b3" title="Execute the process code of spare parts N times (where N is the number of steps in 100ms)" alt="" coords="249,259,406,285"/>
+<area shape="rect" id="node11" href="$class_c_p_window4.html#a3193dfdbbbd823e021fc60bdc402bfc2" title="Sample and update oscilloscope data aquisition." alt="" coords="239,309,416,336"/>
+<area shape="rect" id="node6" href="$classpart.html#a408fcb3683c2ab3609e0b4ec6c1efbb4" title="Called every end of CPU process." alt="" coords="497,157,631,184"/>
+<area shape="rect" id="node8" href="$classpart.html#abcfa8e9eec8b57a811f58c59497ea1c9" title="Called every start of CPU process." alt="" coords="501,208,627,235"/>
+<area shape="rect" id="node10" href="$classpart.html#a1cb9c0ebbfff69a40a60db51334a4ddd" title="Called every CPU step." alt="" coords="511,259,617,285"/>
+<area shape="rect" id="node12" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="480,309,648,336"/>
+<area shape="rect" id="node13" href="$classboard.html#a6deb0090899228e1e7f3cb3d8eea35ed" title="board microcontroller get all pins list struct" alt="" coords="477,360,651,387"/>
+</map>

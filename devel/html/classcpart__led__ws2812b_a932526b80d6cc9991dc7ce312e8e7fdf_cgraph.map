@@ -1,0 +1,5 @@
+<map id="cpart_led_ws2812b::ReadPreferences" name="cpart_led_ws2812b::ReadPreferences">
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,35,160,76"/>
+<area shape="rect" id="node2" href="$classcpart__led__ws2812b.html#a246d06be146a8bc44ef5403e59b93dc1" title="Register remote control variables." alt="" coords="208,5,383,47"/>
+<area shape="rect" id="node3" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="249,71,342,98"/>
+</map>

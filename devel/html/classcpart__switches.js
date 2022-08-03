@@ -1,7 +1,5 @@
 var classcpart__switches =
 [
-    [ "cpart_switches", "classcpart__switches.html#a6bf369dba44aa6cbacd5a8ee0668a5e8", null ],
-    [ "~cpart_switches", "classcpart__switches.html#a0517c27eeafb155ed097e9534c6a9e65", null ],
     [ "ConfigurePropertiesWindow", "classcpart__switches.html#adef2a71bb7b786e3d6ef7a8c6a65f911", null ],
     [ "Draw", "classcpart__switches.html#a4d053028054ffd31178e3c0a7c440ed8", null ],
     [ "EvMouseButtonPress", "classcpart__switches.html#a6152daad6e1e0fecec86235cbdad60f8", null ],
@@ -15,11 +13,5 @@ var classcpart__switches =
     [ "ReadPropertiesWindow", "classcpart__switches.html#ade4efb351c5a62f06df780719dbd6e5b", null ],
     [ "RegisterRemoteControl", "classcpart__switches.html#a832c83c82a0b39b473a0f08ab971e3d2", null ],
     [ "Reset", "classcpart__switches.html#ae6a1558b1d62cedeea20e59853f0b60d", null ],
-    [ "WritePreferences", "classcpart__switches.html#a128cff1659bff730a741a89d780fa909", null ],
-    [ "active", "classcpart__switches.html#a771cc4d6797e8eea4754acac819c4eb2", null ],
-    [ "bounce", "classcpart__switches.html#ad34895d0b443ae7c4fe0b51a6005cb05", null ],
-    [ "font", "classcpart__switches.html#a591cda4f6d0846c9e6498606bc3b5867", null ],
-    [ "mode", "classcpart__switches.html#a747dc67f4e85d7c9285ffdb883e43c48", null ],
-    [ "output_pins", "classcpart__switches.html#ae4b4fac70398eb20bf0e3587c4f34e36", null ],
-    [ "output_value", "classcpart__switches.html#a36a4b4649aa30a373b99b17c66b266bb", null ]
+    [ "WritePreferences", "classcpart__switches.html#a128cff1659bff730a741a89d780fa909", null ]
 ];

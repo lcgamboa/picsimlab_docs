@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::MSetVCC" name="cboard_Breadboard::MSetVCC">
+<area shape="rect" id="node1" title="board microcontroller set vcc" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96" title="board microcontroller set vcc" alt="" coords="211,5,383,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0" title="board microcontroller set vcc" alt="" coords="209,56,384,83"/>
+</map>

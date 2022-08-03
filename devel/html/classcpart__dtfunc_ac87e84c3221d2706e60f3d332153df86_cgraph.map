@@ -1,0 +1,6 @@
+<map id="cpart_dtfunc::Draw" name="cpart_dtfunc::Draw">
+<area shape="rect" id="node1" title="Called ever 100ms to draw part." alt="" coords="5,56,151,83"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="210,5,378,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="199,56,389,83"/>
+<area shape="rect" id="node4" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="199,107,389,133"/>
+</map>

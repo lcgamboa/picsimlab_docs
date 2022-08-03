@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::GetDebugName" name="cboard_Breadboard::GetDebugName">
+<area shape="rect" id="node1" title="Get debug interface name." alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a2b111338a1e69588e721ab7a7e092e17" title="Get debug interface name." alt="" coords="211,5,427,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#af356ffe18239c9b34ad7451d9b3161d5" title="Get debug interface name." alt="" coords="209,56,428,83"/>
+</map>

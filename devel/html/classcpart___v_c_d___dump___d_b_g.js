@@ -1,7 +1,5 @@
 var classcpart___v_c_d___dump___d_b_g =
 [
-    [ "cpart_VCD_Dump_DBG", "classcpart___v_c_d___dump___d_b_g.html#a3eba1775ad7e0d9aa727715f3973f32e", null ],
-    [ "~cpart_VCD_Dump_DBG", "classcpart___v_c_d___dump___d_b_g.html#a3ea5fc32d0b64e7018f20ffe3f90a293", null ],
     [ "ConfigurePropertiesWindow", "classcpart___v_c_d___dump___d_b_g.html#a85e175d8d423d0856938a59a6d727f80", null ],
     [ "Draw", "classcpart___v_c_d___dump___d_b_g.html#a86d9d035e05b17661639deff9b560e68", null ],
     [ "EvMouseButtonPress", "classcpart___v_c_d___dump___d_b_g.html#a26e7267668687a7ce55b7cc61251f949", null ],
@@ -16,16 +14,5 @@ var classcpart___v_c_d___dump___d_b_g =
     [ "Process", "classcpart___v_c_d___dump___d_b_g.html#a2dbbc3fe619950bd3e0a59537fc24ca7", null ],
     [ "ReadPreferences", "classcpart___v_c_d___dump___d_b_g.html#a8c6a13fe236a123deaa4b4f3e0e3456a", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___dump___d_b_g.html#afa29235b49c3de21a1d2eed6882b3379", null ],
-    [ "WritePreferences", "classcpart___v_c_d___dump___d_b_g.html#afc312d84711866511202f56a1e2adc07", null ],
-    [ "color1", "classcpart___v_c_d___dump___d_b_g.html#ae1b6d6aa560c1269ae9a25811639e5a3", null ],
-    [ "color2", "classcpart___v_c_d___dump___d_b_g.html#afc7fafa6439bd10c5beca76fee7b6987", null ],
-    [ "f_vcd", "classcpart___v_c_d___dump___d_b_g.html#ac66c5fcb303754b888bca3abd4de50e5", null ],
-    [ "f_vcd_name", "classcpart___v_c_d___dump___d_b_g.html#ab49bc6584cfb02d0087a00941f621f94", null ],
-    [ "font", "classcpart___v_c_d___dump___d_b_g.html#aa10e013d1e845321a4f9ddba3bbfcea3", null ],
-    [ "input_pins", "classcpart___v_c_d___dump___d_b_g.html#a67317fe10569bc87c2a5423ac2d17480", null ],
-    [ "old_data_debug", "classcpart___v_c_d___dump___d_b_g.html#a0b672767c95a6fb21138d54ecc6933c5", null ],
-    [ "old_value_dir", "classcpart___v_c_d___dump___d_b_g.html#af5aa10e2596f6b5b7807a99fcdab6819", null ],
-    [ "old_value_pins", "classcpart___v_c_d___dump___d_b_g.html#ac55265d044f244eae8e33aa0e2e263ff", null ],
-    [ "rec", "classcpart___v_c_d___dump___d_b_g.html#a215ddd4f1337139e94b710c996833809", null ],
-    [ "vcd_count", "classcpart___v_c_d___dump___d_b_g.html#aece58ea7e0b8fa6560e46c85b2ee51af", null ]
+    [ "WritePreferences", "classcpart___v_c_d___dump___d_b_g.html#afc312d84711866511202f56a1e2adc07", null ]
 ];

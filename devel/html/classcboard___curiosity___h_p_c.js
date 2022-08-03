@@ -1,7 +1,5 @@
 var classcboard___curiosity___h_p_c =
 [
-    [ "cboard_Curiosity_HPC", "classcboard___curiosity___h_p_c.html#aefc24eb4a79e1f3322a5f4f1ab69c69b", null ],
-    [ "~cboard_Curiosity_HPC", "classcboard___curiosity___h_p_c.html#ab6500a5e4cad5f24ff3e00b144561b8d", null ],
     [ "Draw", "classcboard___curiosity___h_p_c.html#a6749927867ede3cdc24b231c9f29c1f1", null ],
     [ "EvKeyPress", "classcboard___curiosity___h_p_c.html#ad903095804c45bf48b9a3f3720dedfdd", null ],
     [ "EvKeyRelease", "classcboard___curiosity___h_p_c.html#ae718e0e2fc28a409a631733118868b75", null ],
@@ -20,19 +18,5 @@ var classcboard___curiosity___h_p_c =
     [ "RegisterRemoteControl", "classcboard___curiosity___h_p_c.html#a7585b32efabfb8f8690a0cd852a169a8", null ],
     [ "Reset", "classcboard___curiosity___h_p_c.html#ad585a67d4b6246f148ca5cc3914470e2", null ],
     [ "Run_CPU", "classcboard___curiosity___h_p_c.html#ab65babf40e4cdf9d1790be1d41e22144", null ],
-    [ "WritePreferences", "classcboard___curiosity___h_p_c.html#acbd4ed62713754122720b618e927562b", null ],
-    [ "active", "classcboard___curiosity___h_p_c.html#a3666a6c1f38016bbf190d70dd5c15230", null ],
-    [ "combo1", "classcboard___curiosity___h_p_c.html#a9da991b522ec7fe51f9303e921b9c934", null ],
-    [ "gauge1", "classcboard___curiosity___h_p_c.html#abd111c220f518ec5a1b1dc9aec8eaec9", null ],
-    [ "gauge2", "classcboard___curiosity___h_p_c.html#a15287dc9a8d2f0f60e828019d89bfab2", null ],
-    [ "gauge3", "classcboard___curiosity___h_p_c.html#a4b24d3877f70df80190003a5cd9751df", null ],
-    [ "gauge4", "classcboard___curiosity___h_p_c.html#a07a70ff7ec9e1775045a60675a9dc8e6", null ],
-    [ "jmp", "classcboard___curiosity___h_p_c.html#a33a1d60cdc5ef4cfff1b4e82396490c5", null ],
-    [ "label2", "classcboard___curiosity___h_p_c.html#a8fe33e7739f69e747ac27d19dc773eb9", null ],
-    [ "label3", "classcboard___curiosity___h_p_c.html#a58b3e063e4d9b8384035f30f4c8a7543", null ],
-    [ "label4", "classcboard___curiosity___h_p_c.html#a9956784ba4fce129ecea7015f8140090", null ],
-    [ "label5", "classcboard___curiosity___h_p_c.html#a397dc9a4a698d9e2a9a38ceec2bff0cd", null ],
-    [ "label6", "classcboard___curiosity___h_p_c.html#ae121d1c3b347c48cc470729cd926e551", null ],
-    [ "p_BT", "classcboard___curiosity___h_p_c.html#a0a4ed65ec0772117d934cfc74f4fcb4c", null ],
-    [ "pot1", "classcboard___curiosity___h_p_c.html#a670a4869bdf26b1cbe6aff7ae372c562", null ]
+    [ "WritePreferences", "classcboard___curiosity___h_p_c.html#acbd4ed62713754122720b618e927562b", null ]
 ];

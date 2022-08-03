@@ -1,7 +1,5 @@
 var classcpart__tempsys =
 [
-    [ "cpart_tempsys", "classcpart__tempsys.html#ae48e4be4791b0b937368e7f39c55df60", null ],
-    [ "~cpart_tempsys", "classcpart__tempsys.html#a4609a953a48fcc46e6a5010598f419a2", null ],
     [ "ConfigurePropertiesWindow", "classcpart__tempsys.html#a56b618b9de8678393ccf3ecdace319b1", null ],
     [ "Draw", "classcpart__tempsys.html#aa8e07f57c70ea9f6d231f9caaa814c30", null ],
     [ "EvMouseButtonPress", "classcpart__tempsys.html#adb98791c61f0d50445ad641d4a750cc9", null ],
@@ -15,14 +13,5 @@ var classcpart__tempsys =
     [ "Process", "classcpart__tempsys.html#af5549ae5981f79c5c099a546b7c8636f", null ],
     [ "ReadPreferences", "classcpart__tempsys.html#a1acce1e54786a93471e876b1aa817904", null ],
     [ "ReadPropertiesWindow", "classcpart__tempsys.html#a8cb09627680a6291c9df795e7d6899e0", null ],
-    [ "WritePreferences", "classcpart__tempsys.html#a0f6f2daed338443591a4868755aa9b55", null ],
-    [ "font", "classcpart__tempsys.html#a218fea79842c6aea5a75672ec36a491c", null ],
-    [ "input_pins", "classcpart__tempsys.html#a9d539d7629823ae59eb1bc8e5780c91d", null ],
-    [ "ref", "classcpart__tempsys.html#ac83cda5dd5d2e00edf83c512ce08f469", null ],
-    [ "rpmc", "classcpart__tempsys.html#af6bd85dd0e7c15cdf61d7da78532a7b0", null ],
-    [ "rpmstp", "classcpart__tempsys.html#a8ad4b365d08aa14fa90e648cc07673d3", null ],
-    [ "temp", "classcpart__tempsys.html#ac3ba4b45d7ac251c39749fc75a818b92", null ],
-    [ "vent", "classcpart__tempsys.html#af1f0da1eb1af9892f1646dbeeb24ab1d", null ],
-    [ "vt", "classcpart__tempsys.html#a1033dc2db43d6bf797f0416aa9312cad", null ],
-    [ "vtc", "classcpart__tempsys.html#a11c9135a57d3b3dd9ed71167e6264217", null ]
+    [ "WritePreferences", "classcpart__tempsys.html#a0f6f2daed338443591a4868755aa9b55", null ]
 ];

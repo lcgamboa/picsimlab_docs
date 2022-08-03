@@ -1,0 +1,11 @@
+<map id="cboard_Breadboard::Reset" name="cboard_Breadboard::Reset">
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,121,161,162"/>
+<area shape="rect" id="node2" href="$classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="209,49,365,90"/>
+<area shape="rect" id="node5" href="$classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="209,121,365,162"/>
+<area shape="rect" id="node8" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="215,200,359,227"/>
+<area shape="rect" id="node3" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="420,5,581,32"/>
+<area shape="rect" id="node4" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="419,56,582,83"/>
+<area shape="rect" id="node6" href="$classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96" title="board microcontroller set vcc" alt="" coords="415,107,587,133"/>
+<area shape="rect" id="node7" href="$classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0" title="board microcontroller set vcc" alt="" coords="413,157,588,184"/>
+<area shape="rect" id="node9" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="454,208,547,235"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="bsim_remote::MGetPin" name="bsim_remote::MGetPin">
+<area shape="rect" id="node1" title="board microcontroller get digital pin value" alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node2" href="$classbsim__remote.html#ad6cdab4f2deb6fe8c7214aad84e69fa2" title="board microcontroller pin count" alt="" coords="224,5,433,32"/>
+</map>

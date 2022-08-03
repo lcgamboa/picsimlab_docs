@@ -1,7 +1,5 @@
 var classcpart___v_c_d___dump__an =
 [
-    [ "cpart_VCD_Dump_an", "classcpart___v_c_d___dump__an.html#a324b130a52f110aed4cdf2e987dfd463", null ],
-    [ "~cpart_VCD_Dump_an", "classcpart___v_c_d___dump__an.html#a53073fae881e7b9f6827c9b9f86208d2", null ],
     [ "ConfigurePropertiesWindow", "classcpart___v_c_d___dump__an.html#a3f040b5c1bfbdbfa7e5a3a5b7b4779bd", null ],
     [ "Draw", "classcpart___v_c_d___dump__an.html#abf0c304e79054075e6d5e485af7dba5c", null ],
     [ "EvMouseButtonPress", "classcpart___v_c_d___dump__an.html#ac112923611be6888a181f631e30a2dc6", null ],
@@ -17,15 +15,5 @@ var classcpart___v_c_d___dump__an =
     [ "ReadPreferences", "classcpart___v_c_d___dump__an.html#ac5aa8d8a4889588ab83c6160153708e8", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___dump__an.html#af2ea2fb0464cba5bc55650e4daf4658c", null ],
     [ "RegisterRemoteControl", "classcpart___v_c_d___dump__an.html#a772fe74cce8f0e3bb34c79e7d1e5df03", null ],
-    [ "WritePreferences", "classcpart___v_c_d___dump__an.html#af1d7fbd3996c2fbb4be715d4a5ad075c", null ],
-    [ "color1", "classcpart___v_c_d___dump__an.html#ac64a7298e289f4613b4fe78de17e5afb", null ],
-    [ "color2", "classcpart___v_c_d___dump__an.html#ab2419ca0cb71063e85dea700c819112c", null ],
-    [ "f_vcd", "classcpart___v_c_d___dump__an.html#ae64c7a058e9ad7cedd2e0a5dccd829ef", null ],
-    [ "f_vcd_name", "classcpart___v_c_d___dump__an.html#a5fc41a7ee07e4f8c16779b92898d9ecf", null ],
-    [ "font", "classcpart___v_c_d___dump__an.html#af0584aa61e2bb17254a6d156ee42e1ce", null ],
-    [ "input_pins", "classcpart___v_c_d___dump__an.html#afda7ead11c73a1dbe45d8637cf1cc5ac", null ],
-    [ "old_value_pins", "classcpart___v_c_d___dump__an.html#adad76378b06375800e7b1c1726352171", null ],
-    [ "rec", "classcpart___v_c_d___dump__an.html#a3d87b6a0626f036c8a17ea7a072118fb", null ],
-    [ "vcd_count", "classcpart___v_c_d___dump__an.html#a28efd08af6e3f976acabcbc4b018adc3", null ],
-    [ "VDWProp", "classcpart___v_c_d___dump__an.html#a54cd2d71fdf2b1061b1002b4bc2b477d", null ]
+    [ "WritePreferences", "classcpart___v_c_d___dump__an.html#af1d7fbd3996c2fbb4be715d4a5ad075c", null ]
 ];

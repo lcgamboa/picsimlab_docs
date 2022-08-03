@@ -1,7 +1,5 @@
 var classcpart__ds18b20 =
 [
-    [ "cpart_ds18b20", "classcpart__ds18b20.html#a745fbee649f44a54117c28be593d56a1", null ],
-    [ "~cpart_ds18b20", "classcpart__ds18b20.html#a0d6c63e266a667eb4bb478f10292b8a6", null ],
     [ "ConfigurePropertiesWindow", "classcpart__ds18b20.html#a87f97d2cd0b2c8af21664e25811996fe", null ],
     [ "Draw", "classcpart__ds18b20.html#a2b77cbfcb21ac365f72ff8c55baa24e9", null ],
     [ "EvMouseButtonPress", "classcpart__ds18b20.html#a7dd76bc3ce101249e18263dd017c61da", null ],
@@ -17,11 +15,5 @@ var classcpart__ds18b20 =
     [ "ReadPropertiesWindow", "classcpart__ds18b20.html#a17f5fa962feb869f7d2ccbdfe946a7a0", null ],
     [ "RegisterRemoteControl", "classcpart__ds18b20.html#ae529b49c173c5e6e889ea785668613e7", null ],
     [ "Reset", "classcpart__ds18b20.html#a9fa2dc19098345aa0ad8579c214247fe", null ],
-    [ "WritePreferences", "classcpart__ds18b20.html#a195f759231a5d205f494570825d9227e", null ],
-    [ "active", "classcpart__ds18b20.html#a9428daf5dd095259a7a002f5780fac19", null ],
-    [ "ds18b20", "classcpart__ds18b20.html#a051d69d4da0c0bfac75cde1aedbeb0e2", null ],
-    [ "font", "classcpart__ds18b20.html#a81decea80808a267c4860b0218fb453e", null ],
-    [ "font_p", "classcpart__ds18b20.html#ae47b534fc6633664efe3392eb9b532ac", null ],
-    [ "output_pins", "classcpart__ds18b20.html#afb7beea85b9c2d9f0ff35627b87a8f85", null ],
-    [ "values", "classcpart__ds18b20.html#a3a97febb710642bdb28c5fbdf0464b40", null ]
+    [ "WritePreferences", "classcpart__ds18b20.html#a195f759231a5d205f494570825d9227e", null ]
 ];

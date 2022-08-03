@@ -1,0 +1,6 @@
+<map id="cboard_gpboard::Reset" name="cboard_gpboard::Reset">
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,31,176,57"/>
+<area shape="rect" id="node2" href="$classbsim__gpsim.html#a794acc39353910d9703afd2198e7a9af" title="board microcontroller reset" alt="" coords="224,5,383,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="231,56,375,83"/>
+<area shape="rect" id="node4" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="431,56,524,83"/>
+</map>

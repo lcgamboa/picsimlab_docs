@@ -1,6 +1,5 @@
 var classbsim__gpsim =
 [
-    [ "bsim_gpsim", "classbsim__gpsim.html#aec54cf4784b19a16f8ee1bc798923a39", null ],
     [ "CpuInitialized", "classbsim__gpsim.html#a3fa924fc8b5870be75ca89efb74a8b0d", null ],
     [ "DebugInit", "classbsim__gpsim.html#abdabf9014d9dddf82ddfd89687393a45", null ],
     [ "DebugLoop", "classbsim__gpsim.html#ad6d0e59e9442670f5ff0a900d10fed17", null ],
@@ -25,12 +24,5 @@ var classbsim__gpsim =
     [ "MSetSerial", "classbsim__gpsim.html#a0bf8a38baf69303a4ae2947608814d75", null ],
     [ "MSetVCC", "classbsim__gpsim.html#a17070bbf68327786f8b7307c097bfa5a", null ],
     [ "MStep", "classbsim__gpsim.html#a8b5cec5ea5c6cf3a6b525321dbd9cfd1", null ],
-    [ "MStepResume", "classbsim__gpsim.html#aeebbc6ca796c64c69a8bef03c8764773", null ],
-    [ "pins_reset", "classbsim__gpsim.html#a52fb5eb62ecae3b730fc4ddefc35aabb", null ],
-    [ "freq", "classbsim__gpsim.html#a1ab3f4e637de00f36a6f5cd4808544fb", null ],
-    [ "pins", "classbsim__gpsim.html#a196b1673735527cd70c993fb40eda299", null ],
-    [ "serialbaud", "classbsim__gpsim.html#a8b7f6fd38b5d205a8b131b34c357d141", null ],
-    [ "serialexbaud", "classbsim__gpsim.html#a6dd60188f164b619203b245e0a496935", null ],
-    [ "serialfd", "classbsim__gpsim.html#aff152bb8cf1af32d31f1b88c5196aed0", null ],
-    [ "supported_devices", "classbsim__gpsim.html#aac1256ef6efde50b9afa28503a024dc3", null ]
+    [ "MStepResume", "classbsim__gpsim.html#aeebbc6ca796c64c69a8bef03c8764773", null ]
 ];

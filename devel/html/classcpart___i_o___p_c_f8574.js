@@ -1,12 +1,9 @@
 var classcpart___i_o___p_c_f8574 =
 [
-    [ "cpart_IO_PCF8574", "classcpart___i_o___p_c_f8574.html#a422e55377c0b7fc0009d57bbd6951e7c", null ],
-    [ "~cpart_IO_PCF8574", "classcpart___i_o___p_c_f8574.html#a350e6587884c29c7e9a96117776d298b", null ],
     [ "ConfigurePropertiesWindow", "classcpart___i_o___p_c_f8574.html#a8640de56366110f23a4dda11878ec516", null ],
     [ "Draw", "classcpart___i_o___p_c_f8574.html#a11d7cf6d8f612c8ccc4922b97f5b3bd0", null ],
     [ "get_in_id", "classcpart___i_o___p_c_f8574.html#a7813924372e284045def4fcc2a74dcfe", null ],
     [ "get_out_id", "classcpart___i_o___p_c_f8574.html#a5579b6094783d760abdb60aa340f5c14", null ],
-    [ "get_output_pins", "classcpart___i_o___p_c_f8574.html#af0bedd71b8af9f2f9a368fe0cca6f7af", null ],
     [ "GetAboutInfo", "classcpart___i_o___p_c_f8574.html#a8fcff68a1a7d8b7f51903e07699b9d73", null ],
     [ "GetMapFile", "classcpart___i_o___p_c_f8574.html#a7ce1ffdcb48bb6e4ac597e1cc099caac", null ],
     [ "GetName", "classcpart___i_o___p_c_f8574.html#aca9f8efe6bc7ae568be32f06ae444a06", null ],
@@ -16,13 +13,5 @@ var classcpart___i_o___p_c_f8574 =
     [ "Process", "classcpart___i_o___p_c_f8574.html#ad27e9059af8572c9855e02c2aa6a996c", null ],
     [ "ReadPreferences", "classcpart___i_o___p_c_f8574.html#af6ebafd240fe9563ad8e87e139ca459e", null ],
     [ "ReadPropertiesWindow", "classcpart___i_o___p_c_f8574.html#a271fddbd229150387a785b032c9aa03d", null ],
-    [ "WritePreferences", "classcpart___i_o___p_c_f8574.html#a19ad7fedc1f5e043fafd9e7d42107ec5", null ],
-    [ "_ret", "classcpart___i_o___p_c_f8574.html#ab88b30bda2c3a488c62ccb943aab98ab", null ],
-    [ "font", "classcpart___i_o___p_c_f8574.html#a63a71f7241fdeee4888a6d8b8fbd30ac", null ],
-    [ "input_pins", "classcpart___i_o___p_c_f8574.html#a789e3d5c5b909105bc810e3657557f4f", null ],
-    [ "ioe8", "classcpart___i_o___p_c_f8574.html#a56cb181538066bd3055b45cbed73d2f8", null ],
-    [ "JUMPSTEPS_", "classcpart___i_o___p_c_f8574.html#a4f9b9fca63163d61c91ceb3cf21ed5af", null ],
-    [ "mcount", "classcpart___i_o___p_c_f8574.html#a7af84b77f9345d2daa5fdc2b40a70644", null ],
-    [ "output_pins", "classcpart___i_o___p_c_f8574.html#a1eaa5ebebe7c80fbb1cd24ae2499b891", null ],
-    [ "output_pins_alm", "classcpart___i_o___p_c_f8574.html#aceeb56a5d15acb3e97d85a18ae0487d3", null ]
+    [ "WritePreferences", "classcpart___i_o___p_c_f8574.html#a19ad7fedc1f5e043fafd9e7d42107ec5", null ]
 ];

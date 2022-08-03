@@ -1,7 +1,5 @@
 var classcpart___l_d_r =
 [
-    [ "cpart_LDR", "classcpart___l_d_r.html#a9f31664838447f6792d9db1b944ad6b7", null ],
-    [ "~cpart_LDR", "classcpart___l_d_r.html#a73e8e51499bc0c460ae06b8c9ecaccdd", null ],
     [ "ConfigurePropertiesWindow", "classcpart___l_d_r.html#a1e67c31b5b734d4ebefb25f7f65690a3", null ],
     [ "Draw", "classcpart___l_d_r.html#a0d55e6087edb610d8e6e04c4e76fe992", null ],
     [ "EvMouseButtonPress", "classcpart___l_d_r.html#a21f1141ed4436d5b868efa151272ba02", null ],
@@ -16,14 +14,5 @@ var classcpart___l_d_r =
     [ "ReadPropertiesWindow", "classcpart___l_d_r.html#ab305b3e0dcca268c582b5f30d23a2feb", null ],
     [ "RegisterRemoteControl", "classcpart___l_d_r.html#ab920d7b7625899469bc33984c973f2b1", null ],
     [ "Reset", "classcpart___l_d_r.html#a24c42bfc45b4514307aae069e642c444", null ],
-    [ "WritePreferences", "classcpart___l_d_r.html#a443e8afe435ae5d53e4b7811ac646228", null ],
-    [ "active", "classcpart___l_d_r.html#ad3f22e3d82ba0cf940034d646a95ec07", null ],
-    [ "font", "classcpart___l_d_r.html#ac64ae3f0755a379f1588ed9e90c52b91", null ],
-    [ "font_p", "classcpart___l_d_r.html#aeb650545a88fe07ab3431646bde76a93", null ],
-    [ "lux", "classcpart___l_d_r.html#a6d7e58b3e0efd066a2a9e610aa06a6fd", null ],
-    [ "output_pins", "classcpart___l_d_r.html#a918f350e0c171a9eb5a739f59f7de41a", null ],
-    [ "value", "classcpart___l_d_r.html#adb6d52f409a5fd337596ba7ac75fa217", null ],
-    [ "vmax", "classcpart___l_d_r.html#a87ad6dba1af68a827de9666df6cb1b4b", null ],
-    [ "vout", "classcpart___l_d_r.html#a39cf822fc7fc40c48b7357c10067b44d", null ],
-    [ "vthreshold", "classcpart___l_d_r.html#a7d8c4636146883a088ebc0e99b88ebec", null ]
+    [ "WritePreferences", "classcpart___l_d_r.html#a443e8afe435ae5d53e4b7811ac646228", null ]
 ];

@@ -1,0 +1,7 @@
+<map id="cpart_servo::ConfigurePropertiesWindow" name="cpart_servo::ConfigurePropertiesWindow">
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,49,240,90"/>
+<area shape="rect" id="node2" href="$classpart.html#ad99e90d6389a2cbbca423ec7e9371f49" title="Event handler on the part." alt="" coords="288,5,499,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="299,56,488,83"/>
+<area shape="rect" id="node4" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="292,107,495,133"/>
+<area shape="rect" id="node5" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="547,107,707,133"/>
+</map>

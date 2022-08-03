@@ -1,0 +1,4 @@
+<map id="cpart_7s_display::ReadPropertiesWindow" name="cpart_7s_display::ReadPropertiesWindow">
+<area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,5,243,47"/>
+<area shape="rect" id="node2" href="$classcpart__7s__display.html#a09d048a54606d85fe5ba7a70d34d8d83" title="Register remote control variables." alt="" coords="291,5,483,47"/>
+</map>

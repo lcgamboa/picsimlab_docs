@@ -1,8 +1,5 @@
 var classcpart___buzzer =
 [
-    [ "cpart_Buzzer", "classcpart___buzzer.html#a44faa1ce00823c8d2bb3bc3a7fd24b8b", null ],
-    [ "~cpart_Buzzer", "classcpart___buzzer.html#a8898cfc907b59745d773a13f21b3fb6e", null ],
-    [ "ChangeType", "classcpart___buzzer.html#aba00ecd5577e7bd4ace34ba376a7278b", null ],
     [ "ConfigurePropertiesWindow", "classcpart___buzzer.html#a0d05c5e5e40ce8f2f2786f4d4edf98d2", null ],
     [ "Draw", "classcpart___buzzer.html#ab5ab65aab91da800119670e8731a97cb", null ],
     [ "get_in_id", "classcpart___buzzer.html#af095ccb2a29533f9e604301d32c013a6", null ],
@@ -16,25 +13,5 @@ var classcpart___buzzer =
     [ "ReadPropertiesWindow", "classcpart___buzzer.html#a20f836384323991a76011575511ee06e", null ],
     [ "RegisterRemoteControl", "classcpart___buzzer.html#ab3254a7a8ece03e66c99e5e8c619e031", null ],
     [ "Stop", "classcpart___buzzer.html#a42cb0ca106e6e13df1ebb62cd0b52d1e", null ],
-    [ "WritePreferences", "classcpart___buzzer.html#ad47da2f7af287e4637bd87c3048aecc8", null ],
-    [ "active", "classcpart___buzzer.html#ac851cf1d372bf8d05ea38c357f5a48df", null ],
-    [ "buffer", "classcpart___buzzer.html#a1124ca56ead37ce38e81cde351d3a3ea", null ],
-    [ "buffercount", "classcpart___buzzer.html#acc4bfb897c8a0a917aa0ac1b1e6c4946", null ],
-    [ "buffersize", "classcpart___buzzer.html#a4e9f5a3c977ae2fae7c68dde427632bc", null ],
-    [ "buzzer", "classcpart___buzzer.html#ae704432efd3acf655ad0137e47116c37", null ],
-    [ "color1", "classcpart___buzzer.html#ae88cd6ebb20daf06df75eafbc0151b11", null ],
-    [ "color2", "classcpart___buzzer.html#a709204649cff2b3ab4f5f8beed955130", null ],
-    [ "ctone", "classcpart___buzzer.html#afc76362febd89880b21bde0049158b14", null ],
-    [ "font", "classcpart___buzzer.html#acfff505937704278735d67d3f15ad950", null ],
-    [ "ftone", "classcpart___buzzer.html#a4f36e9fa7fba16e8e8bd44c045221506", null ],
-    [ "in", "classcpart___buzzer.html#a7676399ad00bf2b8514795ffa0b64519", null ],
-    [ "input_pins", "classcpart___buzzer.html#aacb3cab6fc1326ddf67f67221b65c83a", null ],
-    [ "JUMPSTEPS_", "classcpart___buzzer.html#a2c152f240eaf7087bf065ceedd741f15", null ],
-    [ "maxv", "classcpart___buzzer.html#a1c65052a499dcd6d798ade65135493af", null ],
-    [ "mcount", "classcpart___buzzer.html#a44a5941c168dea5faa7e94c315e9d42c", null ],
-    [ "oftone", "classcpart___buzzer.html#a54028cf41d9c3fc3eae415578d83610d", null ],
-    [ "optone", "classcpart___buzzer.html#ac7b2b9c83dc254b967e90e8cb2b7a58a", null ],
-    [ "out", "classcpart___buzzer.html#a7698125cbe5ba0c09db4f42be46bf449", null ],
-    [ "samplerate", "classcpart___buzzer.html#a8b0af565f4168949123017b9f27bc5a9", null ],
-    [ "type", "classcpart___buzzer.html#a87c2d7a8f5f4c6c608844dd14c571993", null ]
+    [ "WritePreferences", "classcpart___buzzer.html#ad47da2f7af287e4637bd87c3048aecc8", null ]
 ];

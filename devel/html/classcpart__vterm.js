@@ -1,7 +1,5 @@
 var classcpart__vterm =
 [
-    [ "cpart_vterm", "classcpart__vterm.html#ad14c13e47b1286685912cb16acc9d517", null ],
-    [ "~cpart_vterm", "classcpart__vterm.html#a650f7921d6b14a49c9cdcb18ed235add", null ],
     [ "ButtonEvent", "classcpart__vterm.html#a890be5b6a57ce045a468464e36e469a3", null ],
     [ "ConfigurePropertiesWindow", "classcpart__vterm.html#a6b22aa40d38f79d3874cd7799304d3ea", null ],
     [ "Draw", "classcpart__vterm.html#a0a8e7707ff9d48dac6e4a8e93a10dcfc", null ],
@@ -19,21 +17,5 @@ var classcpart__vterm =
     [ "ReadPropertiesWindow", "classcpart__vterm.html#ab8d5bfecfb3bb308bef618de9dc04023", null ],
     [ "Reset", "classcpart__vterm.html#ae44e66357ddb3f4f09bdf89384048bd4", null ],
     [ "SetId", "classcpart__vterm.html#a0df7988beaa23bd25a9161c0753e995e", null ],
-    [ "WritePreferences", "classcpart__vterm.html#ac00dfcccfeda346b5e6401c8f918b01f", null ],
-    [ "_ret", "classcpart__vterm.html#a3f77e2dbee634ef36707284bc290cf76", null ],
-    [ "font", "classcpart__vterm.html#ac8e3f3f74a69da206492a943f5332255", null ],
-    [ "input_pins", "classcpart__vterm.html#a55e1a188cd588f4601f36815299850de", null ],
-    [ "lending", "classcpart__vterm.html#a9dcaaf0c6f228fb64b40d1702eab45f9", null ],
-    [ "output_pins", "classcpart__vterm.html#a37636ebb79843a60988c8396fafb98e3", null ],
-    [ "send_text", "classcpart__vterm.html#a797fab68a30e3a39211a2d781e85ec18", null ],
-    [ "text_to_send", "classcpart__vterm.html#ac7179183882eab246e348bae3f19bb12", null ],
-    [ "vt", "classcpart__vterm.html#aa3e4d45678353547e94b6b455e71a420", null ],
-    [ "vtbtn_clear", "classcpart__vterm.html#aa167cdfaa11b2c8346a11f2d46de8ea4", null ],
-    [ "vtbtn_send", "classcpart__vterm.html#a8b5faf4b57b78809215bc306663ec2ef", null ],
-    [ "vtcmb_ending", "classcpart__vterm.html#a74b83b72d97b744633e6f60e50b7c997", null ],
-    [ "vtcmb_speed", "classcpart__vterm.html#a41e53ddfa3ae82bde1443be59f71d3bf", null ],
-    [ "vtedit", "classcpart__vterm.html#aa93ef0c7ac6c226e366b63efb1871634", null ],
-    [ "vterm_speed", "classcpart__vterm.html#a6a855b63a284928fd6994cec27df7d16", null ],
-    [ "vttext", "classcpart__vterm.html#a68836e2eb7745365a82789d228297213", null ],
-    [ "wvterm", "classcpart__vterm.html#ac5536ae9708a46b2593307e9afae836e", null ]
+    [ "WritePreferences", "classcpart__vterm.html#ac00dfcccfeda346b5e6401c8f918b01f", null ]
 ];

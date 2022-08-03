@@ -1,0 +1,5 @@
+<map id="bsim_qemu::EvThreadRun" name="bsim_qemu::EvThreadRun">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,35,197,61"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#ac40b92c51fd6dbc50fdd363171440c29" title="Return the selected debugger port." alt="" coords="245,5,456,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#a4c5dd0e706a833f1e0d09fb1813bd22b" title="Get debug status (On/Off)" alt="" coords="262,57,439,98"/>
+</map>

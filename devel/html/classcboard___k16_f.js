@@ -1,7 +1,5 @@
 var classcboard___k16_f =
 [
-    [ "cboard_K16F", "classcboard___k16_f.html#aaf792e455bb93bf6728e371f9845a30b", null ],
-    [ "~cboard_K16F", "classcboard___k16_f.html#a5f608317fb5982eb5efa516897bd367b", null ],
     [ "Draw", "classcboard___k16_f.html#a0e28c363c79cf00dfe28a2341b4c4faa", null ],
     [ "EvKeyPress", "classcboard___k16_f.html#a7591b0850855e0d04a9f64a87237b530", null ],
     [ "EvKeyRelease", "classcboard___k16_f.html#a411be2b78ecf86793f7d0578275db6e8", null ],
@@ -20,29 +18,5 @@ var classcboard___k16_f =
     [ "RegisterRemoteControl", "classcboard___k16_f.html#a87c799cca48192bdfbcb4a3615b8a970", null ],
     [ "Reset", "classcboard___k16_f.html#aa4036f5eab8a22e33a5149423cda5a7e", null ],
     [ "Run_CPU", "classcboard___k16_f.html#ab99c02fc6b1fa22ce22a286ad5bfd2e6", null ],
-    [ "WritePreferences", "classcboard___k16_f.html#a027dbeb8f117a64b63b27c5bf99b2c56", null ],
-    [ "clko", "classcboard___k16_f.html#abf2dd7431b7b340e67a7c0d4d0553c98", null ],
-    [ "color1", "classcboard___k16_f.html#af46dd737106679ba8a486ec1fbfb0481", null ],
-    [ "color2", "classcboard___k16_f.html#ab6b3091fb907ba635c9a6059d66615bb", null ],
-    [ "d", "classcboard___k16_f.html#a5598224274a18450abcd22dc57b65a4c", null ],
-    [ "font", "classcboard___k16_f.html#a6c6defd6cc7ba5b7afa785d9317e8e21", null ],
-    [ "lcd", "classcboard___k16_f.html#affbb64d380fa456614dc9c63dce01964", null ],
-    [ "lcde", "classcboard___k16_f.html#a6ebd7684513fba0c9c57a95319e1906e", null ],
-    [ "mi2c", "classcboard___k16_f.html#af38f7ad7371a7b6327a8a4938650ac91", null ],
-    [ "mi2c_tmp_name", "classcboard___k16_f.html#a34ade2bbc4c10fd053bc2d066b817b3f", null ],
-    [ "p_KEY1", "classcboard___k16_f.html#ae0017a2fb9d220094bc4b6b29aee9d54", null ],
-    [ "p_KEY10", "classcboard___k16_f.html#a353e2e91b54ff1e8614ab725b8ac3126", null ],
-    [ "p_KEY11", "classcboard___k16_f.html#aefe8e88da78f808a2e9835fa3efec591", null ],
-    [ "p_KEY12", "classcboard___k16_f.html#a728e2dc2e922d0af957cb513b5e8f76a", null ],
-    [ "p_KEY2", "classcboard___k16_f.html#a09abbfebac17b9a23cb2eed0ce01d3cf", null ],
-    [ "p_KEY3", "classcboard___k16_f.html#a9309a94e1b3ca6498b4994ed791d05cc", null ],
-    [ "p_KEY4", "classcboard___k16_f.html#a8d85882bcb041b5d9ec158c561efb707", null ],
-    [ "p_KEY5", "classcboard___k16_f.html#afb53897ddb98b5133d984e3273ccd863", null ],
-    [ "p_KEY6", "classcboard___k16_f.html#a76d3fe8c9a232e72ce11fa1f45ed4388", null ],
-    [ "p_KEY7", "classcboard___k16_f.html#a92c67e5e7240356dcde184db456c06ac", null ],
-    [ "p_KEY8", "classcboard___k16_f.html#af80d1dc07028aa7bfa2e690b76a80a1b", null ],
-    [ "p_KEY9", "classcboard___k16_f.html#aef6deb778415b385425565da5ddb71cf", null ],
-    [ "rtc", "classcboard___k16_f.html#a43ac4a8469c751bf5ab828f01dfbf416", null ],
-    [ "sck", "classcboard___k16_f.html#ab016d8ac85666feaafa704eef3a9a4a2", null ],
-    [ "sda", "classcboard___k16_f.html#a822ddc30b1d6b23d0219b9d2e96a36fa", null ]
+    [ "WritePreferences", "classcboard___k16_f.html#a027dbeb8f117a64b63b27c5bf99b2c56", null ]
 ];

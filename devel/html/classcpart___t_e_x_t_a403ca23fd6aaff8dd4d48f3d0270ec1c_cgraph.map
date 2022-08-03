@@ -1,0 +1,4 @@
+<map id="cpart_TEXT::ConfigurePropertiesWindow" name="cpart_TEXT::ConfigurePropertiesWindow">
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,5,236,47"/>
+<area shape="rect" id="node2" href="$classpart.html#ad99e90d6389a2cbbca423ec7e9371f49" title="Event handler on the part." alt="" coords="284,13,495,39"/>
+</map>

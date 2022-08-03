@@ -1,0 +1,8 @@
+<map id="cpart_hcsr04::ConfigurePropertiesWindow" name="cpart_hcsr04::ConfigurePropertiesWindow">
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,64,248,105"/>
+<area shape="rect" id="node2" href="$classcpart__hcsr04.html#aca7cb72b169ca35271527b6bfd36739a" title="Event handler on the part." alt="" coords="296,5,511,47"/>
+<area shape="rect" id="node4" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="309,71,498,98"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="302,122,505,149"/>
+<area shape="rect" id="node3" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="575,13,703,39"/>
+<area shape="rect" id="node6" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="559,122,719,149"/>
+</map>

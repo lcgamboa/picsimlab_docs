@@ -1,8 +1,5 @@
 var classcpart__pot__r =
 [
-    [ "cpart_pot_r", "classcpart__pot__r.html#ae545d6e073bbed3f0c7f19bfb5d639c1", null ],
-    [ "~cpart_pot_r", "classcpart__pot__r.html#a421f3fc120c3635503c2a16f957ac7d3", null ],
-    [ "CalcAngle", "classcpart__pot__r.html#a3fd608d71e66f74186381314a705d737", null ],
     [ "ConfigurePropertiesWindow", "classcpart__pot__r.html#a766cfd2b1758a0318c988bf5f14b615f", null ],
     [ "Draw", "classcpart__pot__r.html#a02477f89e2a0bfb212ace5f91c093e64", null ],
     [ "EvMouseButtonPress", "classcpart__pot__r.html#a57043b428461c9d8faab31811aa64a6f", null ],
@@ -17,11 +14,5 @@ var classcpart__pot__r =
     [ "ReadPropertiesWindow", "classcpart__pot__r.html#a875fe2786e722eb57ed9eef7c28dec58", null ],
     [ "RegisterRemoteControl", "classcpart__pot__r.html#a05d1653062d8b8ccadf23708078dd4c7", null ],
     [ "Reset", "classcpart__pot__r.html#a3e4dd82a21aa3c84e71dbe782e52269c", null ],
-    [ "WritePreferences", "classcpart__pot__r.html#a48c687d2365149ac262eccff1c07ab56", null ],
-    [ "active", "classcpart__pot__r.html#a1c8bfa7be9dbbc3523cc0d18e2781202", null ],
-    [ "font", "classcpart__pot__r.html#aa4e734e12cbfc88048334b6a47345f4a", null ],
-    [ "font_p", "classcpart__pot__r.html#a015490822071a94651d8003630c9800c", null ],
-    [ "output_pins", "classcpart__pot__r.html#a712f25185b9a777d4cea4b915be84eed", null ],
-    [ "values", "classcpart__pot__r.html#ae5028ffcdf8d6c24c514bf1238b630f5", null ],
-    [ "vmax", "classcpart__pot__r.html#a035e372d7044e237508ae7d122c90673", null ]
+    [ "WritePreferences", "classcpart__pot__r.html#a48c687d2365149ac262eccff1c07ab56", null ]
 ];

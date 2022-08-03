@@ -1,0 +1,4 @@
+<map id="cpart_LCD_pcd8544::ReadPreferences" name="cpart_LCD_pcd8544::ReadPreferences">
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="212,13,305,39"/>
+</map>

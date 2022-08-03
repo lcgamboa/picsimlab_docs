@@ -1,7 +1,5 @@
 var classcboard___curiosity =
 [
-    [ "cboard_Curiosity", "classcboard___curiosity.html#a086f290eedca44bf9361d0a2b7e5780f", null ],
-    [ "~cboard_Curiosity", "classcboard___curiosity.html#a0882b4465c09b49d6936173d4d2f31ae", null ],
     [ "Draw", "classcboard___curiosity.html#aaa26672d1d54c650ebd966094c0ccf7e", null ],
     [ "EvKeyPress", "classcboard___curiosity.html#a8c4d2e6b47eb68f8f4766f52b7a542c7", null ],
     [ "EvKeyRelease", "classcboard___curiosity.html#aa27d2b031e9192ba926adf45bdf4fcfd", null ],
@@ -19,17 +17,5 @@ var classcboard___curiosity =
     [ "RegisterRemoteControl", "classcboard___curiosity.html#a023b60b5f83d2d9e80284063781ec9fd", null ],
     [ "Reset", "classcboard___curiosity.html#a8b392a3f8820d42d0385269d7ebad27c", null ],
     [ "Run_CPU", "classcboard___curiosity.html#a6108233a6a79b3c068f4f55d5cf859e1", null ],
-    [ "WritePreferences", "classcboard___curiosity.html#a9208b5fc4573014ae148ea65c8ebba3e", null ],
-    [ "active", "classcboard___curiosity.html#ac5e4af51dc63407eecf2904b6b2985d9", null ],
-    [ "gauge1", "classcboard___curiosity.html#acb3c165e52be50b1e1679f9f26322847", null ],
-    [ "gauge2", "classcboard___curiosity.html#a08f2f8c80620e840dbd7c768eb18900a", null ],
-    [ "gauge3", "classcboard___curiosity.html#a259f9b4ecacf7b5a9273f2564f4cf022", null ],
-    [ "gauge4", "classcboard___curiosity.html#aa9b777a195571ce33075e3ce4add9d79", null ],
-    [ "jmp", "classcboard___curiosity.html#a1f18343d1687bfcc9fd8220da336d119", null ],
-    [ "label2", "classcboard___curiosity.html#ad2e8faf16097537dee5be9e38e08e38b", null ],
-    [ "label3", "classcboard___curiosity.html#ae60c3dece7c53bfb1826877e918d591c", null ],
-    [ "label4", "classcboard___curiosity.html#acd6c82df8f14a985b2190a0c09de6afa", null ],
-    [ "label5", "classcboard___curiosity.html#a79e24b01fe18915708b91b59f1b9edd3", null ],
-    [ "p_BT1", "classcboard___curiosity.html#a04a2e4d3652025a53b4d2cc9023c8f67", null ],
-    [ "pot1", "classcboard___curiosity.html#a706c1a60705f206f2251bc069ac4d8b9", null ]
+    [ "WritePreferences", "classcboard___curiosity.html#a9208b5fc4573014ae148ea65c8ebba3e", null ]
 ];

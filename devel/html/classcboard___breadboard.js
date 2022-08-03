@@ -1,7 +1,5 @@
 var classcboard___breadboard =
 [
-    [ "cboard_Breadboard", "classcboard___breadboard.html#abaa340c70832452380cdac475dee49e8", null ],
-    [ "~cboard_Breadboard", "classcboard___breadboard.html#a2962ef6cebbc13efe9ffdfd1a0b698ea", null ],
     [ "CpuInitialized", "classcboard___breadboard.html#aac587afa97b0829e5fbf7bbf1d4e2470", null ],
     [ "DBGGetCONFIG_p", "classcboard___breadboard.html#a1ee58765f71f8b8ed5a5189f9aea5df4", null ],
     [ "DBGGetCONFIGSize", "classcboard___breadboard.html#a441a24888acfb7a214caa5d43c18b80a", null ],
@@ -56,9 +54,5 @@ var classcboard___breadboard =
     [ "Reset", "classcboard___breadboard.html#a6f71b61ad3ad0f2a660e7760b83b8aa6", null ],
     [ "Run_CPU", "classcboard___breadboard.html#ada0e78378831074241a1d7937ca4e2f0", null ],
     [ "SetScale", "classcboard___breadboard.html#a5dd8cd0407041b7b0ba7e724f7f7e184", null ],
-    [ "WritePreferences", "classcboard___breadboard.html#adbe637a84e684f6a3da4db5f8e7a3d5b", null ],
-    [ "font", "classcboard___breadboard.html#ab90b49c16fbd8322272c0389bf9d2afd", null ],
-    [ "jmp", "classcboard___breadboard.html#a02e2f0900940f6f538b7045bb13320c4", null ],
-    [ "micbmp", "classcboard___breadboard.html#add0e9762632528cf595f51ee0408fba4", null ],
-    [ "ptype", "classcboard___breadboard.html#adbb1e7eb24d60fb8235b710f655852a0", null ]
+    [ "WritePreferences", "classcboard___breadboard.html#adbe637a84e684f6a3da4db5f8e7a3d5b", null ]
 ];

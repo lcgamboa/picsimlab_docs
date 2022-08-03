@@ -1,7 +1,5 @@
 var classcpart__dcmotor =
 [
-    [ "cpart_dcmotor", "classcpart__dcmotor.html#abc86008a94adb2db9c738773efcaf8c3", null ],
-    [ "~cpart_dcmotor", "classcpart__dcmotor.html#a40503bd1a637c270931b422c86b36530", null ],
     [ "ConfigurePropertiesWindow", "classcpart__dcmotor.html#a3c1d3cf28a9ec4221ee8c94c7aba59ab", null ],
     [ "Draw", "classcpart__dcmotor.html#afc9787678b44b491b8efd33425175f0b", null ],
     [ "get_in_id", "classcpart__dcmotor.html#ac5b5e14e0d135dd31122946a4b23f173", null ],
@@ -14,16 +12,5 @@ var classcpart__dcmotor =
     [ "ReadPreferences", "classcpart__dcmotor.html#aa0bda8a8b12539deb4b0f68bb3221a4c", null ],
     [ "ReadPropertiesWindow", "classcpart__dcmotor.html#a8174b6813c9f683cba91ea81bfc39f1a", null ],
     [ "RegisterRemoteControl", "classcpart__dcmotor.html#a1f7f835357f7d028db18b2169a57b501", null ],
-    [ "WritePreferences", "classcpart__dcmotor.html#aafc2023275d0b438b4644b4953cbe633", null ],
-    [ "count", "classcpart__dcmotor.html#ae00e519d580fd9d74401ca63ef0b1734", null ],
-    [ "dir", "classcpart__dcmotor.html#a0169818722e87e4649346cb9a4f918e0", null ],
-    [ "font", "classcpart__dcmotor.html#a513e7964634b0c1b0af38b9aedae483f", null ],
-    [ "input_pins", "classcpart__dcmotor.html#a78ec514507ec9d52dd1cec414f3f311c", null ],
-    [ "output_pins", "classcpart__dcmotor.html#a47de4b8019d708b832725386c1b20060", null ],
-    [ "speed", "classcpart__dcmotor.html#a72b81771e09a291d81fc83dc7cba8ef6", null ],
-    [ "state", "classcpart__dcmotor.html#a3daf855226b2af63f7684979a5e946a2", null ],
-    [ "status", "classcpart__dcmotor.html#a1cf6fd3dd2a6aeb43416146422aebb39", null ],
-    [ "step", "classcpart__dcmotor.html#a39d7b8cbf72e8fdcc0c698a5b5dc0bc8", null ],
-    [ "value", "classcpart__dcmotor.html#a86ecf776eac06382dd316fd29dfd97bb", null ],
-    [ "value_old", "classcpart__dcmotor.html#a2b48ad32019c300ec039f91ac3409c6f", null ]
+    [ "WritePreferences", "classcpart__dcmotor.html#aafc2023275d0b438b4644b4953cbe633", null ]
 ];

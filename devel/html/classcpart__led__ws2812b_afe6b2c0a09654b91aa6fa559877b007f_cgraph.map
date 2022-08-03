@@ -1,0 +1,4 @@
+<map id="cpart_led_ws2812b::ReadPropertiesWindow" name="cpart_led_ws2812b::ReadPropertiesWindow">
+<area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node2" href="$classcpart__led__ws2812b.html#a246d06be146a8bc44ef5403e59b93dc1" title="Register remote control variables." alt="" coords="227,5,401,47"/>
+</map>

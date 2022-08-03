@@ -1,0 +1,8 @@
+<map id="cpart_pot_r::ConfigurePropertiesWindow" name="cpart_pot_r::ConfigurePropertiesWindow">
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,64,237,105"/>
+<area shape="rect" id="node2" href="$classcpart__pot__r.html#a6c6c50435e62cfaab29d479adc93324f" title="Event handler on the part." alt="" coords="285,5,491,47"/>
+<area shape="rect" id="node4" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="293,71,483,98"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="287,122,489,149"/>
+<area shape="rect" id="node3" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="555,13,683,39"/>
+<area shape="rect" id="node6" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="539,122,699,149"/>
+</map>

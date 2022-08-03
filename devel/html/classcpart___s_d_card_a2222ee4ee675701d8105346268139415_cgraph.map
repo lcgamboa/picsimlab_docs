@@ -1,0 +1,4 @@
+<map id="cpart_SDCard::ReadPreferences" name="cpart_SDCard::ReadPreferences">
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,5,233,32"/>
+<area shape="rect" id="node2" href="$classcpart___s_d_card.html#a2f911b74b575cf24e84bc18490b7c41f" title="Reset part status." alt="" coords="281,5,436,32"/>
+</map>

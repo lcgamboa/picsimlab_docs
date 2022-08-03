@@ -1,8 +1,5 @@
 var classcpart__encoder =
 [
-    [ "cpart_encoder", "classcpart__encoder.html#ae331140a052d67b0d59dcd52035f1aa6", null ],
-    [ "~cpart_encoder", "classcpart__encoder.html#a6eddb801667258b5f26a076f9c720097", null ],
-    [ "CalcAngle", "classcpart__encoder.html#a0d742438b997a74f60bc5edc11679101", null ],
     [ "ConfigurePropertiesWindow", "classcpart__encoder.html#a03720371506c17e93b898071a8044916", null ],
     [ "Draw", "classcpart__encoder.html#a7b0504bd04e09d659f626c25932187e8", null ],
     [ "EvMouseButtonPress", "classcpart__encoder.html#a792dec35925fe769e5e0241d2e6276e4", null ],
@@ -17,15 +14,5 @@ var classcpart__encoder =
     [ "ReadPreferences", "classcpart__encoder.html#a587a692547d1c0cacc16a7ab564efa44", null ],
     [ "ReadPropertiesWindow", "classcpart__encoder.html#a5eafcf40ae9aca3f4bb1ac5fafadd18f", null ],
     [ "RegisterRemoteControl", "classcpart__encoder.html#a103c7610ae97af2c2d10b6e274dd20c4", null ],
-    [ "WritePreferences", "classcpart__encoder.html#a33e7f698f47516747cc04a72d8785bfd", null ],
-    [ "active", "classcpart__encoder.html#a8d0c8d6029bdb8403baeb04b6fe64c9e", null ],
-    [ "count", "classcpart__encoder.html#a57f493bbbc394653ed7febed570a3236", null ],
-    [ "dir", "classcpart__encoder.html#a7cffea5256c4dc147a8146506271d037", null ],
-    [ "font", "classcpart__encoder.html#ad67a27b53905dc87b57b5006b6ab7b41", null ],
-    [ "output_pins", "classcpart__encoder.html#aeb02f6df172a9c8e26cb1e8df10986c4", null ],
-    [ "p_BTN", "classcpart__encoder.html#ae027591524bcbd46fce5c3c8ec7636dd", null ],
-    [ "state", "classcpart__encoder.html#a0188849e1d9e593e305b0a73fc5b16f1", null ],
-    [ "step", "classcpart__encoder.html#a5abcb987bd2fc8d03a9a3ed96e1be148", null ],
-    [ "value", "classcpart__encoder.html#a65c266fdac73838e5698a04712732e66", null ],
-    [ "value_old", "classcpart__encoder.html#acc5659ddeed8d14c6afa4e09b068ffd2", null ]
+    [ "WritePreferences", "classcpart__encoder.html#a33e7f698f47516747cc04a72d8785bfd", null ]
 ];

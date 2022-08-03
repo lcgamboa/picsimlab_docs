@@ -1,0 +1,4 @@
+<map id="cboard_Breadboard::WritePreferences" name="cboard_Breadboard::WritePreferences">
+<area shape="rect" id="node1" title="Called to save board preferences in configuration file." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d" title="Save the preferences." alt="" coords="209,13,380,39"/>
+</map>

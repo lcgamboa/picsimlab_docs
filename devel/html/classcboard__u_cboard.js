@@ -1,7 +1,5 @@
 var classcboard__u_cboard =
 [
-    [ "cboard_uCboard", "classcboard__u_cboard.html#aac78b72d36b013a5b7492971b42a8ad2", null ],
-    [ "~cboard_uCboard", "classcboard__u_cboard.html#ad5096411f9577966f791f9c18ad65a7b", null ],
     [ "Draw", "classcboard__u_cboard.html#a3f2144364cfeffab74bc3b370d2db6d3", null ],
     [ "EvKeyPress", "classcboard__u_cboard.html#ab72fc3f64bae7d00ad69d8545cdecf1d", null ],
     [ "EvKeyRelease", "classcboard__u_cboard.html#a7a8713966a598280e0c14b4b98aafbbc", null ],
@@ -18,7 +16,5 @@ var classcboard__u_cboard =
     [ "Reset", "classcboard__u_cboard.html#ab69f4630f517cf177b855d60aa2696b0", null ],
     [ "Run_CPU", "classcboard__u_cboard.html#a4c3d6479acc8b47d60c90b14ed6be05d", null ],
     [ "SetScale", "classcboard__u_cboard.html#a5e024c3bd3123150650d80d932c575cd", null ],
-    [ "WritePreferences", "classcboard__u_cboard.html#a40291502e620c7f8004bb1b83c535473", null ],
-    [ "font", "classcboard__u_cboard.html#a0f55ee839bab8d9549e8027f7a2b2708", null ],
-    [ "micbmp", "classcboard__u_cboard.html#a0af3d61bfe82b799ba57224be19b345b", null ]
+    [ "WritePreferences", "classcboard__u_cboard.html#a40291502e620c7f8004bb1b83c535473", null ]
 ];

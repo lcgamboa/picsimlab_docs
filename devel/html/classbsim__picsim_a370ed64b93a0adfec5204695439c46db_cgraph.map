@@ -1,0 +1,4 @@
+<map id="bsim_picsim::MInit" name="bsim_picsim::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="199,5,407,32"/>
+</map>

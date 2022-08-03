@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::DBGGetEEPROM_p" name="cboard_Breadboard::DBGGetEEPROM_p">
+<area shape="rect" id="node1" title="board microcontroller get data EEPROM memory pointer" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#ab66eb4514648effe0a5138b4b46ac366" title="board microcontroller get data EEPROM memory pointer" alt="" coords="210,5,445,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#adf2bcd5f090fa940d6f604a855a410eb" title="board microcontroller get data EEPROM memory pointer" alt="" coords="209,56,445,83"/>
+</map>

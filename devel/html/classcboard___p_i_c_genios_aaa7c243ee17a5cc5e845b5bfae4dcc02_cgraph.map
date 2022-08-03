@@ -1,0 +1,4 @@
+<map id="cboard_PICGenios::SetScale" name="cboard_PICGenios::SetScale">
+<area shape="rect" id="node1" title="Set board draw scale." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="256,5,452,32"/>
+</map>

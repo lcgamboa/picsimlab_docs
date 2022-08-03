@@ -1,0 +1,4 @@
+<map id="bsim_simavr::MSetPin" name="bsim_simavr::MSetPin">
+<area shape="rect" id="node1" title="board microcontroller set digital pin" alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="220,5,427,32"/>
+</map>

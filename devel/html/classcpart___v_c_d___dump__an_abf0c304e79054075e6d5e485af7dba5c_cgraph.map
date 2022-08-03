@@ -1,0 +1,4 @@
+<map id="cpart_VCD_Dump_an::Draw" name="cpart_VCD_Dump_an::Draw">
+<area shape="rect" id="node1" title="Called ever 100ms to draw part." alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node2" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="255,5,444,32"/>
+</map>

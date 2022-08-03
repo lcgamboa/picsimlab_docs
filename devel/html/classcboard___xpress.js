@@ -1,7 +1,5 @@
 var classcboard___xpress =
 [
-    [ "cboard_Xpress", "classcboard___xpress.html#ac7597c5430c8666023e6cdcb272d3726", null ],
-    [ "~cboard_Xpress", "classcboard___xpress.html#a8f39a98f70bff127cf036d3cde959a6f", null ],
     [ "Draw", "classcboard___xpress.html#ab9be52ff4134be2c76a0f03b36d168aa", null ],
     [ "EvKeyPress", "classcboard___xpress.html#a38df6a940dc1c317624abf14959a3e23", null ],
     [ "EvKeyRelease", "classcboard___xpress.html#a23caf09ecb93a26893791c79103f629a", null ],
@@ -19,16 +17,5 @@ var classcboard___xpress =
     [ "RegisterRemoteControl", "classcboard___xpress.html#a321af05f8371a28181cf4f1e95064b38", null ],
     [ "Reset", "classcboard___xpress.html#a7da0682766bfb81a0a2f126627ed4385", null ],
     [ "Run_CPU", "classcboard___xpress.html#aa11dddda5bcc469ec99c5db50483c1a8", null ],
-    [ "WritePreferences", "classcboard___xpress.html#aff2ba49733ed237cecf156b691bf00d0", null ],
-    [ "active", "classcboard___xpress.html#ae28696b2a679d1ee5e20f434e6b601be", null ],
-    [ "gauge1", "classcboard___xpress.html#a065a2c4e735d0763678629c0a69e807e", null ],
-    [ "gauge2", "classcboard___xpress.html#a1405ffe142affc85dddbd44c7bdca806", null ],
-    [ "gauge3", "classcboard___xpress.html#a39ee7d2e1334c4fe9460c4b2f449a09a", null ],
-    [ "gauge4", "classcboard___xpress.html#aabd94a687839d1b08b203a16e3355451", null ],
-    [ "label2", "classcboard___xpress.html#ac71fe523c94835ebeec65229c446a57f", null ],
-    [ "label3", "classcboard___xpress.html#ae328ae3ede037604c1a89451c72dfe89", null ],
-    [ "label4", "classcboard___xpress.html#a2e6b8ffe313f9718d1014067d2ada0d3", null ],
-    [ "label5", "classcboard___xpress.html#a93f33fea13f992846f4a558782158ef0", null ],
-    [ "p_BT1", "classcboard___xpress.html#a42eb46665ebafae95b36b1997aa28855", null ],
-    [ "pot1", "classcboard___xpress.html#a9f55561b78c03d4391f469bf8ce0b389", null ]
+    [ "WritePreferences", "classcboard___xpress.html#aff2ba49733ed237cecf156b691bf00d0", null ]
 ];

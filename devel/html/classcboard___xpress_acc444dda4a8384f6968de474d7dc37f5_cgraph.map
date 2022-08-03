@@ -1,0 +1,11 @@
+<map id="cboard_Xpress::EvMouseButtonPress" name="cboard_Xpress::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,99,232,141"/>
+<area shape="rect" id="node2" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="309,5,441,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="280,56,469,83"/>
+<area shape="rect" id="node4" href="$classcboard___xpress.html#a7da0682766bfb81a0a2f126627ed4385" title="Reset board status." alt="" coords="293,107,456,133"/>
+<area shape="rect" id="node8" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="281,157,468,184"/>
+<area shape="rect" id="node9" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="285,208,465,235"/>
+<area shape="rect" id="node5" href="$classcboard___xpress.html#a321af05f8371a28181cf4f1e95064b38" title="Register remote control variables." alt="" coords="517,70,748,111"/>
+<area shape="rect" id="node6" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="561,136,705,163"/>
+<area shape="rect" id="node7" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="796,136,889,163"/>
+</map>

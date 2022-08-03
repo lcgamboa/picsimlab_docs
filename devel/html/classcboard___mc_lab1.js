@@ -1,7 +1,5 @@
 var classcboard___mc_lab1 =
 [
-    [ "cboard_McLab1", "classcboard___mc_lab1.html#a2aac92ff4076ed34d24633db9c8772c4", null ],
-    [ "~cboard_McLab1", "classcboard___mc_lab1.html#a399548c2f9ff1a05e69ff39e1bc0b1d5", null ],
     [ "Draw", "classcboard___mc_lab1.html#a8cd288f3d73f756509e612b42ac76a44", null ],
     [ "EvKeyPress", "classcboard___mc_lab1.html#a82edc0a4d4430c0f2a0cde6c0f09d194", null ],
     [ "EvKeyRelease", "classcboard___mc_lab1.html#a623d7d913926451a763b7b6299efd158", null ],
@@ -16,15 +14,5 @@ var classcboard___mc_lab1 =
     [ "RegisterRemoteControl", "classcboard___mc_lab1.html#a26e733832c8eb77a1ec1d9e6f460df0f", null ],
     [ "Reset", "classcboard___mc_lab1.html#aff3fa21f866c4e236056bd996ab59ae1", null ],
     [ "Run_CPU", "classcboard___mc_lab1.html#a26ef56d14143c0ede1be70bf0ae234d5", null ],
-    [ "WritePreferences", "classcboard___mc_lab1.html#ac043f513bdcb7961d3b4b38828ccbacb", null ],
-    [ "bounce", "classcboard___mc_lab1.html#a799c676e86367a1a6d8aa33cad524231", null ],
-    [ "color1", "classcboard___mc_lab1.html#abcdd18149622155dac4df0ea24788c55", null ],
-    [ "color2", "classcboard___mc_lab1.html#ad698af101b3214860436ca06dede561c", null ],
-    [ "font", "classcboard___mc_lab1.html#a0dad2b295933d9a4a6f73d8198b9c854", null ],
-    [ "gauge1", "classcboard___mc_lab1.html#a256d8ff52d383bcd30266fe0b69d4c99", null ],
-    [ "jmp", "classcboard___mc_lab1.html#a6f213cf8dc313bd242c3829f43dae1b9", null ],
-    [ "label1", "classcboard___mc_lab1.html#a48889859ff9077955200512b943200f0", null ],
-    [ "lm1", "classcboard___mc_lab1.html#a3a6bfe9b4859bde4c0e4f6239daf51d8", null ],
-    [ "lm2", "classcboard___mc_lab1.html#ae61c1f87bd0b39da67d4f8a62fd75e7e", null ],
-    [ "p_BT", "classcboard___mc_lab1.html#a70c2922ac39d9bd0e34861a604a18cc7", null ]
+    [ "WritePreferences", "classcboard___mc_lab1.html#ac043f513bdcb7961d3b4b38828ccbacb", null ]
 ];

@@ -1,7 +1,5 @@
 var classcpart___i_o___m_m74_c922 =
 [
-    [ "cpart_IO_MM74C922", "classcpart___i_o___m_m74_c922.html#aae3fde1734581250aee730a16248625f", null ],
-    [ "~cpart_IO_MM74C922", "classcpart___i_o___m_m74_c922.html#a74f9006b4aaa8426e832038b2cca9943", null ],
     [ "ConfigurePropertiesWindow", "classcpart___i_o___m_m74_c922.html#a9594b67a913368222ea35ab50ee3ee4b", null ],
     [ "Draw", "classcpart___i_o___m_m74_c922.html#a5b173df504f6307de4177629a2f49362", null ],
     [ "get_in_id", "classcpart___i_o___m_m74_c922.html#ac1068a0cceb9fe5917efef106b865ebd", null ],
@@ -15,13 +13,5 @@ var classcpart___i_o___m_m74_c922 =
     [ "Process", "classcpart___i_o___m_m74_c922.html#a022ca9e09cbc928eb06219406e4d1bb5", null ],
     [ "ReadPreferences", "classcpart___i_o___m_m74_c922.html#a28037178c27bde627586b7a895dc9060", null ],
     [ "ReadPropertiesWindow", "classcpart___i_o___m_m74_c922.html#a5b6626ea09a71a9ac92caa6ba0f3598b", null ],
-    [ "WritePreferences", "classcpart___i_o___m_m74_c922.html#a4eccfeb7074ccc677b9de1f335f2b64c", null ],
-    [ "_ret", "classcpart___i_o___m_m74_c922.html#a46792fb6c9a74a7b268da81e635e45f5", null ],
-    [ "font", "classcpart___i_o___m_m74_c922.html#a3c83ac23fec135dc5c8c85555b5b6101", null ],
-    [ "input_pins", "classcpart___i_o___m_m74_c922.html#adee0ea1d4f0e9a69dd38135ece29506b", null ],
-    [ "JUMPSTEPS_", "classcpart___i_o___m_m74_c922.html#a33a3ca0ed099c7608a5928f448c26175", null ],
-    [ "kc", "classcpart___i_o___m_m74_c922.html#aec3dea4f5c4d3a6802ac72c37e171c8c", null ],
-    [ "mcount", "classcpart___i_o___m_m74_c922.html#a44d967f1e50c644e47042b50a54e5604", null ],
-    [ "output_pins", "classcpart___i_o___m_m74_c922.html#afab39ad7aa5ebba7b6d5ca31b7ee9dcf", null ],
-    [ "pins_alm", "classcpart___i_o___m_m74_c922.html#aef96c53aa8c7d2040e2ab36212371c9f", null ]
+    [ "WritePreferences", "classcpart___i_o___m_m74_c922.html#a4eccfeb7074ccc677b9de1f335f2b64c", null ]
 ];

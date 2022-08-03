@@ -1,0 +1,8 @@
+<map id="cpart_led_ws2812b::LoadImage" name="cpart_led_ws2812b::LoadImage">
+<area shape="rect" id="node1" title="Load Part Image." alt="" coords="5,89,160,131"/>
+<area shape="rect" id="node2" href="$classcpart__led__ws2812b.html#adb2c586d4437b9589a972fade7bb049c" title="Return the name of part." alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$classpart.html#acb4a5752560f9b0c399e7e8b2807bea3" title="Return the filename of part picture." alt="" coords="416,85,601,111"/>
+<area shape="rect" id="node5" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="411,147,607,174"/>
+<area shape="rect" id="node6" href="$classpart.html#a564a0462822da413d466a83d28e967df" title="Load Part Image." alt="" coords="221,122,349,149"/>
+<area shape="rect" id="node4" href="$classpart.html#acb5b16ba752183d4933d703279c8347a" title="Return the name of part." alt="" coords="655,85,773,111"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cboard_K16F::MInit" name="cboard_K16F::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a370ed64b93a0adfec5204695439c46db" title="board microcontroller init" alt="" coords="200,5,345,32"/>
+<area shape="rect" id="node3" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="393,5,601,32"/>
+</map>

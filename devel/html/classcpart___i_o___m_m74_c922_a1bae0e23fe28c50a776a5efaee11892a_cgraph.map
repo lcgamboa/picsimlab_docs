@@ -1,0 +1,6 @@
+<map id="cpart_IO_MM74C922::PreProcess" name="cpart_IO_MM74C922::PreProcess">
+<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,49,169,90"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="235,5,403,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#a003a0f87f554fef0aff246adc7b3c82d" title="Get the number of steps to be skipped in board update." alt="" coords="217,56,421,83"/>
+<area shape="rect" id="node4" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="224,107,415,133"/>
+</map>

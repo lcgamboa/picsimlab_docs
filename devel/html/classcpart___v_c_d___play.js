@@ -1,7 +1,5 @@
 var classcpart___v_c_d___play =
 [
-    [ "cpart_VCD_Play", "classcpart___v_c_d___play.html#a26dbd5e524f31af55e06ffa7709d1386", null ],
-    [ "~cpart_VCD_Play", "classcpart___v_c_d___play.html#a913464a3bbdce15df9e473b590b33237", null ],
     [ "ConfigurePropertiesWindow", "classcpart___v_c_d___play.html#ad7d7a85cc07c92a742a8fdb45586f076", null ],
     [ "Draw", "classcpart___v_c_d___play.html#ad53f6b5d02fe3bf7ba2e1365c14bee8e", null ],
     [ "EvMouseButtonPress", "classcpart___v_c_d___play.html#af97b4e276da5853ee151dd5d989664bb", null ],
@@ -10,25 +8,11 @@ var classcpart___v_c_d___play =
     [ "get_out_id", "classcpart___v_c_d___play.html#a0e5492b098ebb9e31863fb743209dce9", null ],
     [ "GetAboutInfo", "classcpart___v_c_d___play.html#a77ca7678281e549a9a80d6f95349ae3d", null ],
     [ "GetName", "classcpart___v_c_d___play.html#a94233eab50b7867b6ed5f8a678bf6d45", null ],
-    [ "LoadVCD", "classcpart___v_c_d___play.html#a1518c032ee10d59fb99c30fa80bd82f2", null ],
     [ "PostProcess", "classcpart___v_c_d___play.html#a705bfedb4c9d44bda163d013ff7b58de", null ],
     [ "PreProcess", "classcpart___v_c_d___play.html#a42197c42aa8610edcd0d57e90e4b1a00", null ],
     [ "Process", "classcpart___v_c_d___play.html#a6beaa026dde611c93533746d9ceacb53", null ],
     [ "ReadPreferences", "classcpart___v_c_d___play.html#a5b0c7dc9a562c28fb3f9e45c52941505", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___play.html#a150cedeff2a99bb264edcbe895bb2526", null ],
     [ "RegisterRemoteControl", "classcpart___v_c_d___play.html#a7c501c58726a93a3facb700ad64cb2de", null ],
-    [ "WritePreferences", "classcpart___v_c_d___play.html#a6174e1409e91c31c1c92c4c313f91921", null ],
-    [ "color1", "classcpart___v_c_d___play.html#a9bd7a06aba6065288a23b9455e421bd8", null ],
-    [ "color2", "classcpart___v_c_d___play.html#ab4d9b5e99fb59121143be4ad8cdbaaa1", null ],
-    [ "f_vcd_name", "classcpart___v_c_d___play.html#a1310b7abe60cf993825511ad281c86b4", null ],
-    [ "font", "classcpart___v_c_d___play.html#a25c08934eba661402d25f8ae9010c609", null ],
-    [ "output_pins", "classcpart___v_c_d___play.html#a576b0f9454eede60b5d6adb15ac82598", null ],
-    [ "play", "classcpart___v_c_d___play.html#aecb94db80fd69246f858e9d86f5f47de", null ],
-    [ "timescale", "classcpart___v_c_d___play.html#a85f471dd267f938a20f7b5e9a4db57f4", null ],
-    [ "vcd_count", "classcpart___v_c_d___play.html#a63065fe01f95d256067c9e1bb313e9d9", null ],
-    [ "vcd_data", "classcpart___v_c_d___play.html#aa806a7ef6d8a41145fde130c22f4d55b", null ],
-    [ "vcd_data_count", "classcpart___v_c_d___play.html#aba1afa21203d356b0a8755d0c47137a4", null ],
-    [ "vcd_inc", "classcpart___v_c_d___play.html#ae6ad9518bfaaf6a4bb044b03728456f1", null ],
-    [ "vcd_ptr", "classcpart___v_c_d___play.html#a1d58ba611ce9e29a8cb7f85856d3c306", null ],
-    [ "vcd_step", "classcpart___v_c_d___play.html#a82b03625f64ec7b85e321e79e42842dc", null ]
+    [ "WritePreferences", "classcpart___v_c_d___play.html#a6174e1409e91c31c1c92c4c313f91921", null ]
 ];

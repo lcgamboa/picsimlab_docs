@@ -1,0 +1,9 @@
+<map id="cboard_uCboard::EvMouseButtonPress" name="cboard_uCboard::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,74,243,115"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="291,5,480,32"/>
+<area shape="rect" id="node3" href="$classbsim__ucsim.html#a7d90bfbfcc6742ce6c7c84a72073321d" title="board microcontroller reset" alt="" coords="528,56,685,83"/>
+<area shape="rect" id="node4" href="$classcboard__u_cboard.html#ab69f4630f517cf177b855d60aa2696b0" title="Reset board status." alt="" coords="299,107,471,133"/>
+<area shape="rect" id="node7" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="292,157,479,184"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="535,107,679,133"/>
+<area shape="rect" id="node6" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="733,107,827,133"/>
+</map>

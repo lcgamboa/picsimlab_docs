@@ -1,0 +1,5 @@
+<map id="cpart_ds18b20::EvMouseMove" name="cpart_ds18b20::EvMouseMove">
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,31,225,57"/>
+<area shape="rect" id="node2" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="281,5,409,32"/>
+<area shape="rect" id="node3" href="$classpart.html#a992a5000e6919e07c4553ed6817f8360" title="Return coords x y rotated by orientation." alt="" coords="273,56,417,83"/>
+</map>

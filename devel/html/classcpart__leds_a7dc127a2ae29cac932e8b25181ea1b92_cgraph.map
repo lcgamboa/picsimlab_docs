@@ -1,0 +1,4 @@
+<map id="cpart_leds::ReadPropertiesWindow" name="cpart_leds::ReadPropertiesWindow">
+<area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node2" href="$classcpart__leds.html#aca7501b89dbb75a038960a3ee7d6e4dd" title="Register remote control variables." alt="" coords="249,5,452,47"/>
+</map>

@@ -1,7 +1,5 @@
 var classcpart___i_o__74xx595 =
 [
-    [ "cpart_IO_74xx595", "classcpart___i_o__74xx595.html#a1f94410fdf595d475bfbf5ad2b586922", null ],
-    [ "~cpart_IO_74xx595", "classcpart___i_o__74xx595.html#aa8869719e300a88a29564f369c21af74", null ],
     [ "ConfigurePropertiesWindow", "classcpart___i_o__74xx595.html#a6bc36d5fbae6653a4a3d5cf1dd37019a", null ],
     [ "Draw", "classcpart___i_o__74xx595.html#aac51b79cac896771fb6dd2a7018288fc", null ],
     [ "get_in_id", "classcpart___i_o__74xx595.html#ac8e5e88baba34a7a10e1c031367d7bbe", null ],
@@ -15,13 +13,5 @@ var classcpart___i_o__74xx595 =
     [ "Process", "classcpart___i_o__74xx595.html#a7ef55d4b99c17a23df195498c47032cf", null ],
     [ "ReadPreferences", "classcpart___i_o__74xx595.html#a41706fa84df87746670716a6f28a5e65", null ],
     [ "ReadPropertiesWindow", "classcpart___i_o__74xx595.html#a7416c3317217e2985da83b2b4a96563a", null ],
-    [ "WritePreferences", "classcpart___i_o__74xx595.html#aba797ca71c10dd24b2032ba0ecced145", null ],
-    [ "_ret", "classcpart___i_o__74xx595.html#adade34d8911bcf23024649c06bb98112", null ],
-    [ "font", "classcpart___i_o__74xx595.html#ac8584d0bbd86bd82395ebc86afc3b8bd", null ],
-    [ "input_pins", "classcpart___i_o__74xx595.html#a4b81be2f463c9c3ad75235897a6322b5", null ],
-    [ "JUMPSTEPS_", "classcpart___i_o__74xx595.html#afd0c0b2de9616175baabbda0957f3776", null ],
-    [ "mcount", "classcpart___i_o__74xx595.html#a8a3cd27ca21f1732a7e4124733fc9ce1", null ],
-    [ "output_pins", "classcpart___i_o__74xx595.html#a745498cdd7a0aca0d1a859f1af50e457", null ],
-    [ "output_pins_alm", "classcpart___i_o__74xx595.html#a6e49f7ae606bad192419396abdf716d4", null ],
-    [ "sr8", "classcpart___i_o__74xx595.html#a760425c1d3e14e634d2ed741bf9807ad", null ]
+    [ "WritePreferences", "classcpart___i_o__74xx595.html#aba797ca71c10dd24b2032ba0ecced145", null ]
 ];

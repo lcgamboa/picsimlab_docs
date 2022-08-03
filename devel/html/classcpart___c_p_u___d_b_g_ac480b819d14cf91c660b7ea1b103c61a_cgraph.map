@@ -1,0 +1,9 @@
+<map id="cpart_CPU_DBG::EvMouseButtonPress" name="cpart_CPU_DBG::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,125,240,166"/>
+<area shape="rect" id="node2" href="$classboard.html#a0397ca2fcd8e5d59289aa7e78c895571" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="295,5,473,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="300,56,468,83"/>
+<area shape="rect" id="node4" href="$classboard.html#a7cf2409343e66c32e2da522b7b6ad75e" title="Get board name registered in PICSimLab." alt="" coords="319,107,449,133"/>
+<area shape="rect" id="node5" href="$classboard.html#a0553a5c6eccd40e19fc6a32e8089d0f3" title="Get board processor in use." alt="" coords="288,157,480,184"/>
+<area shape="rect" id="node6" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="330,208,438,235"/>
+<area shape="rect" id="node7" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="320,259,448,285"/>
+</map>

@@ -1,8 +1,5 @@
 var classcpart___jumpers =
 [
-    [ "cpart_Jumpers", "classcpart___jumpers.html#aa94f2d1863e2854d29fd331c348765ad", null ],
-    [ "~cpart_Jumpers", "classcpart___jumpers.html#aa224c3dc47a8ce47797b0376a22f2f75", null ],
-    [ "ChangeType", "classcpart___jumpers.html#a4fbfc382c6f104fd9f55c84582ee16d1", null ],
     [ "ComboChange", "classcpart___jumpers.html#a6134155c328c5d190f3d0b328ad33bb3", null ],
     [ "ConfigurePropertiesWindow", "classcpart___jumpers.html#abb8bf348699af57c41d5d15a48b653ad", null ],
     [ "Draw", "classcpart___jumpers.html#a7a2e229d75f929f24f3b2edb87ad978e", null ],
@@ -16,14 +13,5 @@ var classcpart___jumpers =
     [ "ReadPreferences", "classcpart___jumpers.html#ac916d34e326dc970016a07fb48e8d158", null ],
     [ "ReadPropertiesWindow", "classcpart___jumpers.html#acc3e278f12710e18341a007f45fc6c1c", null ],
     [ "RegisterRemoteControl", "classcpart___jumpers.html#a556ee2d87a5b3bcacfa70970bcd01768", null ],
-    [ "WritePreferences", "classcpart___jumpers.html#aa25bce71ab2dacb416381266d2c845ff", null ],
-    [ "font", "classcpart___jumpers.html#a8b6080a86f656820987514a5f1a1190e", null ],
-    [ "ID", "classcpart___jumpers.html#aa7ae072397332a531f45b0a8cef343bf", null ],
-    [ "input_pins", "classcpart___jumpers.html#aec70d127b3c09f9c9974870ce620bb2c", null ],
-    [ "jname", "classcpart___jumpers.html#a49c3378b70b9999bb43b6311673d81b3", null ],
-    [ "JUMPSTEPS_", "classcpart___jumpers.html#a42a49ef723de45c4cf1ffed925d2e591", null ],
-    [ "mcount", "classcpart___jumpers.html#ae3d324715c26a15ce9784d2126aa2189", null ],
-    [ "output_pins", "classcpart___jumpers.html#a4a9b6dd63b1c121ca6b373e6b1222452", null ],
-    [ "output_pins_alm", "classcpart___jumpers.html#ad9639717ea7657b53468561eb66bd19f", null ],
-    [ "type", "classcpart___jumpers.html#a0bf55539bd3bae0d2b8f19038e8faf1a", null ]
+    [ "WritePreferences", "classcpart___jumpers.html#aa25bce71ab2dacb416381266d2c845ff", null ]
 ];

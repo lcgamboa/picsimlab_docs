@@ -1,0 +1,6 @@
+<map id="cboard_Breadboard::MSetAPin" name="cboard_Breadboard::MSetAPin">
+<area shape="rect" id="node1" title="board microcontroller set analog pin" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a2254afa80b8a239297a27dac5d9950cd" title="board microcontroller set analog pin" alt="" coords="210,5,385,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a348bedaf412d5d7e1ceb4b1275d61d0e" title="board microcontroller set analog pin" alt="" coords="209,56,385,83"/>
+<area shape="rect" id="node4" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="433,56,640,83"/>
+</map>

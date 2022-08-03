@@ -1,7 +1,5 @@
 var classcpart__sht3x =
 [
-    [ "cpart_sht3x", "classcpart__sht3x.html#adefbb2edaaceef2dbbc07bfdc9318376", null ],
-    [ "~cpart_sht3x", "classcpart__sht3x.html#a6ad3f05b0bc59823c19e3a7f77e73560", null ],
     [ "ConfigurePropertiesWindow", "classcpart__sht3x.html#a80a6c7688fa451e3704211cf855483f9", null ],
     [ "Draw", "classcpart__sht3x.html#ad31fb12a3df31593fcbde666037ad647", null ],
     [ "EvMouseButtonPress", "classcpart__sht3x.html#a9b463c9bed5a89160b3989991edcc5ac", null ],
@@ -15,10 +13,5 @@ var classcpart__sht3x =
     [ "ReadPreferences", "classcpart__sht3x.html#a8817688da9fef0eae43e90f203c4b475", null ],
     [ "ReadPropertiesWindow", "classcpart__sht3x.html#ae38b178971cd8e552a6f7bd65b67533f", null ],
     [ "RegisterRemoteControl", "classcpart__sht3x.html#ab5ddf684beb782f3ad22103de6f96ed9", null ],
-    [ "WritePreferences", "classcpart__sht3x.html#a7d5f6d9625b379d5a44b0afd0903054d", null ],
-    [ "active", "classcpart__sht3x.html#aae9860d1c1226d44b6919d56e071ddc3", null ],
-    [ "font", "classcpart__sht3x.html#a5dd7120326a5bfd2608451581115779f", null ],
-    [ "font_p", "classcpart__sht3x.html#ad87265f4a12730712afe89b2c679fcb5", null ],
-    [ "output_pins", "classcpart__sht3x.html#a66563e43938e2f4aa439d7b6db57dd8e", null ],
-    [ "values", "classcpart__sht3x.html#afdb50d252a29639d9b7d32285ae4731a", null ]
+    [ "WritePreferences", "classcpart__sht3x.html#a7d5f6d9625b379d5a44b0afd0903054d", null ]
 ];

@@ -5,21 +5,20 @@ PICSimLab means Programmable IC Simulator Laboratory
 
 PICSimLab is a realtime emulator of \hyperlink{def:boards}{development boards} with integrated 
 MPLABX/avr-gdb debugger. 
-PICSimLab supports some microcontrollers of \href{https://github.com/lcgamboa/picsim}{picsim} , 
-\href{https://github.com/buserror/simavr}{simavr} and
-\href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/}{uCsim} simulators.
+PICSimLab supports microcontrollers of \href{https://github.com/lcgamboa/picsim}{picsim} , 
+\href{https://github.com/buserror/simavr}{simavr}, \href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/}{uCsim}, 
+\href{http://gpsim.sourceforge.net/}{gpsim}, \href{http://beckus.github.io/qemu_stm32/}{qemu-stm32} and 
+\href{https://github.com/a159x36/qemu}{qemu-esp32} simulators.
 PICSimLab have integration with MPLABX/Arduino IDE for programming the boards microcontrollers.
 As the purpose of PICSimLab is to emulate real hardware it does not have any source code editing support.
-For code editing and debugging the same tools used for a real board should be used with PICSimLab, such as MPLABX or Arduino IDE. 
+For code editing and debugging the same tools used for a real board should be used with PICSimLab, such as
+MPLABX, Arduino IDE or VSCode with PlatformIO. 
 
 PICSimLab supports several devices (spare parts) that can be connected to the boards for simulation. 
 As for example LEDs and push buttons for simple outputs and inputs and some more complex ones like the ethernet 
 shield w5500 for internet connection or the color graphic display ili9340 with touchscreen. 
 The the complete list of parts can be accessed in the chapter \hyperlink{def:spare}{Spare Parts}. 
 
-The \hyperlink{def:eboards}{experimental version boards} supports 
-\href{http://gpsim.sourceforge.net/}{gpsim} and \href{http://beckus.github.io/qemu_stm32/}{qemu-stm32} simulators
-in addition to the stable ones.
 
 
 \begin{figure}[H]

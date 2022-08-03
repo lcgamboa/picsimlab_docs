@@ -1,7 +1,5 @@
 var classcpart__dtfunc =
 [
-    [ "cpart_dtfunc", "classcpart__dtfunc.html#a56a37e8a71b83275273b6bc8ecc0f419", null ],
-    [ "~cpart_dtfunc", "classcpart__dtfunc.html#a4a31137c3bf75eeef3756c5a30e1d245", null ],
     [ "ConfigurePropertiesWindow", "classcpart__dtfunc.html#aeb5d5a0efae88b9ca95fd56365690dbe", null ],
     [ "Draw", "classcpart__dtfunc.html#ac87e84c3221d2706e60f3d332153df86", null ],
     [ "EvKeyPress", "classcpart__dtfunc.html#af7b20de6248132c544424cdd44207434", null ],
@@ -16,19 +14,5 @@ var classcpart__dtfunc =
     [ "ReadPreferences", "classcpart__dtfunc.html#a2d886fdccf3a5a6e8f8b1c044600797d", null ],
     [ "ReadPropertiesWindow", "classcpart__dtfunc.html#a6d9f8c7f24de7b63918448682eded1c4", null ],
     [ "Reset", "classcpart__dtfunc.html#a051a440bede09236850a5445b810978b", null ],
-    [ "WritePreferences", "classcpart__dtfunc.html#a8d7c718632806f9cf1a7f92048f5ca5d", null ],
-    [ "den", "classcpart__dtfunc.html#ad11b0c8a29b102406455f2ce1604d226", null ],
-    [ "font", "classcpart__dtfunc.html#ac3fa32c9c8e3680e3a07a064d6ba23c5", null ],
-    [ "in_gain", "classcpart__dtfunc.html#a30af229edca82e9ce63b951f6d374121", null ],
-    [ "in_off", "classcpart__dtfunc.html#a88c93fcce4ab395d7351b48766db783c", null ],
-    [ "input_pin", "classcpart__dtfunc.html#adc97eb5919f32d3645aacb5f1ac6587b", null ],
-    [ "nsamples", "classcpart__dtfunc.html#a0a18774b9fb907860a6ae98f5d3e5a12", null ],
-    [ "num", "classcpart__dtfunc.html#a4ce91a09253d22462bdcd07bb20d0cba", null ],
-    [ "orderd", "classcpart__dtfunc.html#ae057c57075b1750835d983c17821a65e", null ],
-    [ "ordern", "classcpart__dtfunc.html#ae679c2752c9fe4479fe9a0febef06272", null ],
-    [ "out_gain", "classcpart__dtfunc.html#a51388272a866dfb80a5e07e277e17cb1", null ],
-    [ "out_off", "classcpart__dtfunc.html#ac71e8f5d753cce009095c316bec80384", null ],
-    [ "output_pin", "classcpart__dtfunc.html#abceb20d8b5ff6bcc10603c6899798e18", null ],
-    [ "sample", "classcpart__dtfunc.html#a94c7af3f9c44fbe904b7bd6e4b7ea7a5", null ],
-    [ "v", "classcpart__dtfunc.html#a35f4208fea749db3d615ee16cd79c020", null ]
+    [ "WritePreferences", "classcpart__dtfunc.html#a8d7c718632806f9cf1a7f92048f5ca5d", null ]
 ];

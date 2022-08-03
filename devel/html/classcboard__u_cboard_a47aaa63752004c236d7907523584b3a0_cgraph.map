@@ -1,0 +1,6 @@
+<map id="cboard_uCboard::EvMouseButtonRelease" name="cboard_uCboard::EvMouseButtonRelease">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,49,243,90"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="293,5,475,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="291,56,477,83"/>
+<area shape="rect" id="node4" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="294,107,474,133"/>
+</map>

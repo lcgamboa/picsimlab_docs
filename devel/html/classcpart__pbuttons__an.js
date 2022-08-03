@@ -1,7 +1,5 @@
 var classcpart__pbuttons__an =
 [
-    [ "cpart_pbuttons_an", "classcpart__pbuttons__an.html#aebfb3a0ee77bb590c1dda4f81ade26d5", null ],
-    [ "~cpart_pbuttons_an", "classcpart__pbuttons__an.html#a30c554a7e6a7cd9518600ec4ab834fff", null ],
     [ "ConfigurePropertiesWindow", "classcpart__pbuttons__an.html#a29ce86cd28e22b44ded22d7f1e54b48b", null ],
     [ "Draw", "classcpart__pbuttons__an.html#a91605ae6e3af864b4c395c4477056e69", null ],
     [ "EvMouseButtonPress", "classcpart__pbuttons__an.html#a473ae5246dedcc7e73ff9bede28321ff", null ],
@@ -17,11 +15,5 @@ var classcpart__pbuttons__an =
     [ "ReadPropertiesWindow", "classcpart__pbuttons__an.html#a8447ec2d577a4d5b3242986d0dde7c03", null ],
     [ "RegisterRemoteControl", "classcpart__pbuttons__an.html#ac288b2c8f3556feeadabf7ce47056158", null ],
     [ "Reset", "classcpart__pbuttons__an.html#a1736ba7cbe261f8f6212639965eab1d0", null ],
-    [ "WritePreferences", "classcpart__pbuttons__an.html#af5c5292e3920958c34931041541d430a", null ],
-    [ "active", "classcpart__pbuttons__an.html#a22cb99b4b18138fa451ae71636726012", null ],
-    [ "font", "classcpart__pbuttons__an.html#a2ec1ee27ac034c3b8d31499709008410", null ],
-    [ "output_pins", "classcpart__pbuttons__an.html#a94276fb99c84bcbc1a2463c9b36f5af9", null ],
-    [ "output_value", "classcpart__pbuttons__an.html#a4b8306b73670e2fd275f09c2f715b887", null ],
-    [ "output_value_", "classcpart__pbuttons__an.html#ae7a34f3d9c234e96aacbc8825b0fded4", null ],
-    [ "vmax", "classcpart__pbuttons__an.html#ac667e9c85a8c4f5ebcb46fd2eda8c641", null ]
+    [ "WritePreferences", "classcpart__pbuttons__an.html#af5c5292e3920958c34931041541d430a", null ]
 ];

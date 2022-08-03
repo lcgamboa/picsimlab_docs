@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::MGetInstClockFreq" name="cboard_Breadboard::MGetInstClockFreq">
+<area shape="rect" id="node1" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#acbab7c3b91a1e8fba79997ec722d0adf" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="211,5,445,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#acf9ce8a360fc2c61aaae30a343214b19" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="209,56,447,83"/>
+</map>

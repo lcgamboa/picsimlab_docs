@@ -1,0 +1,4 @@
+<map id="cpart_encoder::EvMouseButtonRelease" name="cpart_encoder::EvMouseButtonRelease">
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node2" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="277,13,405,39"/>
+</map>

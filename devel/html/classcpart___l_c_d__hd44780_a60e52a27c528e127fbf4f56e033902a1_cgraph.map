@@ -1,0 +1,5 @@
+<map id="cpart_LCD_hd44780::LoadImage" name="cpart_LCD_hd44780::LoadImage">
+<area shape="rect" id="node1" title="Load Part Image." alt="" coords="5,35,164,76"/>
+<area shape="rect" id="node2" href="$classcpart___l_c_d__hd44780.html#a54f7cb4adbe46e936ae2dd8c626c2862" title="Return the filename of part picture." alt="" coords="231,5,389,47"/>
+<area shape="rect" id="node3" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="212,71,408,98"/>
+</map>

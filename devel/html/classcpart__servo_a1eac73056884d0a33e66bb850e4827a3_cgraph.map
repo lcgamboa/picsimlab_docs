@@ -1,0 +1,4 @@
+<map id="cpart_servo::ReadPropertiesWindow" name="cpart_servo::ReadPropertiesWindow">
+<area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7" title="Register remote control variables." alt="" coords="259,5,469,47"/>
+</map>

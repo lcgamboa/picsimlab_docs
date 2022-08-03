@@ -1,0 +1,7 @@
+<map id="bsim_simavr::MInit" name="bsim_simavr::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,81,152,108"/>
+<area shape="rect" id="node2" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="200,5,408,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="456,81,663,108"/>
+<area shape="rect" id="node4" href="$classbsim__simavr.html#a63c2ca626d5e2fce34934ed3339d8475" title="board microcontroller pin name" alt="" coords="200,107,408,133"/>
+<area shape="rect" id="node5" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="223,157,385,184"/>
+</map>

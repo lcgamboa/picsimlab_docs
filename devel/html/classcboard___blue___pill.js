@@ -1,7 +1,5 @@
 var classcboard___blue___pill =
 [
-    [ "cboard_Blue_Pill", "classcboard___blue___pill.html#a98e9879a5e288fd65d944642cc7e7489", null ],
-    [ "~cboard_Blue_Pill", "classcboard___blue___pill.html#a516f86e0cea99c84f01de57043e53190", null ],
     [ "board_Event", "classcboard___blue___pill.html#a98cd05f740e06ac407f5a8a93c76d744", null ],
     [ "Draw", "classcboard___blue___pill.html#acd88e34fda3c66f17f132ba678248249", null ],
     [ "EvKeyPress", "classcboard___blue___pill.html#a4847f44ea4a271a85d82c90da6e50b04", null ],
@@ -12,7 +10,6 @@ var classcboard___blue___pill =
     [ "get_out_id", "classcboard___blue___pill.html#aecf984d80ea9f7831951ebec0e5b4a43", null ],
     [ "GetAboutInfo", "classcboard___blue___pill.html#ae8592dc2bdc1fe964b202966382462d7", null ],
     [ "GetName", "classcboard___blue___pill.html#aa07eccd1da7c53dc963eaded2eb81cb5", null ],
-    [ "GetPictureFileName", "classcboard___blue___pill.html#ad93d67afc25b047c931c7862005c1418", null ],
     [ "GetSupportedDevices", "classcboard___blue___pill.html#aa319164eac6eaf456c87ff875961f1b2", null ],
     [ "MGetPinCount", "classcboard___blue___pill.html#af19f566089959a3e82e4f87501375aff", null ],
     [ "MGetPinName", "classcboard___blue___pill.html#a52415ee83be9dec621029287e8916dd4", null ],
@@ -22,8 +19,5 @@ var classcboard___blue___pill =
     [ "RegisterRemoteControl", "classcboard___blue___pill.html#a963eba64736781d977fe0733e5cdbd91", null ],
     [ "Reset", "classcboard___blue___pill.html#ab430008e07eb59b30789d04e60518855", null ],
     [ "Run_CPU", "classcboard___blue___pill.html#aa3e9d98bcf089431ba41119da59ccf89", null ],
-    [ "Run_CPU_ns", "classcboard___blue___pill.html#a27a62947ce7df9eb747eca5a80a8e56a", null ],
-    [ "WritePreferences", "classcboard___blue___pill.html#a1603f137313105b52b2038b4ab4ac59a", null ],
-    [ "combo1", "classcboard___blue___pill.html#afd150cdcfe762dc5241025b901f29a04", null ],
-    [ "label1", "classcboard___blue___pill.html#a498084ffd3d3c221f5716d9ceca2326b", null ]
+    [ "WritePreferences", "classcboard___blue___pill.html#a1603f137313105b52b2038b4ab4ac59a", null ]
 ];

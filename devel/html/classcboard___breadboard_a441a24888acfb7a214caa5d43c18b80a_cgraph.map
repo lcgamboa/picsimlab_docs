@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::DBGGetCONFIGSize" name="cboard_Breadboard::DBGGetCONFIGSize">
+<area shape="rect" id="node1" title="board microcontroller get CONFIG memory size" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#aaedf301774a6500e076a34162ed086e0" title="board microcontroller get CONFIG memory size" alt="" coords="210,5,453,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a9caefbe208fd7e11406fab762bfbfa39" title="board microcontroller get CONFIG memory size" alt="" coords="209,56,453,83"/>
+</map>

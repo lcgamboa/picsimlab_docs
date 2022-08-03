@@ -1,0 +1,7 @@
+<map id="cpart_VCD_Dump_DBG::EvMouseButtonPress" name="cpart_VCD_Dump_DBG::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,74,177,115"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="237,5,405,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="226,56,415,83"/>
+<area shape="rect" id="node4" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="225,107,416,133"/>
+<area shape="rect" id="node5" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="257,157,385,184"/>
+</map>

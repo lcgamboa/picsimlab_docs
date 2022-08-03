@@ -1,0 +1,4 @@
+<map id="cboard_RemoteTCP::EvThreadRun" name="cboard_RemoteTCP::EvThreadRun">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,5,248,32"/>
+<area shape="rect" id="node2" href="$classbsim__remote.html#a77832986d7b834ce989a33beac68524e" title="board microcontroller get frequency" alt="" coords="296,5,475,32"/>
+</map>

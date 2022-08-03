@@ -1,0 +1,8 @@
+<map id="cpart_bmp280::ConfigurePropertiesWindow" name="cpart_bmp280::ConfigurePropertiesWindow">
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,64,257,105"/>
+<area shape="rect" id="node2" href="$classcpart__bmp280.html#a7a7dd86166ee6a481a2057209a581eb2" title="Event handler on the part." alt="" coords="305,5,531,47"/>
+<area shape="rect" id="node4" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="323,71,513,98"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="317,122,519,149"/>
+<area shape="rect" id="node3" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="595,13,723,39"/>
+<area shape="rect" id="node6" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="579,122,739,149"/>
+</map>

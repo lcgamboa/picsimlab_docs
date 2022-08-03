@@ -1,7 +1,5 @@
 var classcpart__bmp180 =
 [
-    [ "cpart_bmp180", "classcpart__bmp180.html#a4fd51d004b665b042b5dfc7d7236f262", null ],
-    [ "~cpart_bmp180", "classcpart__bmp180.html#a8d9b4907390be76013afd789b1f346d0", null ],
     [ "ConfigurePropertiesWindow", "classcpart__bmp180.html#afcb9b697b016f8c59456d9aa31aab5d9", null ],
     [ "Draw", "classcpart__bmp180.html#a5aa960e6e1fce08f6dfb77357d564c4a", null ],
     [ "EvMouseButtonPress", "classcpart__bmp180.html#a9e3c39a153670a04964b6945c5d05d6a", null ],
@@ -15,11 +13,5 @@ var classcpart__bmp180 =
     [ "Process", "classcpart__bmp180.html#aea59263a9c950c9eef8513f6328a2346", null ],
     [ "ReadPreferences", "classcpart__bmp180.html#a90920307cd6a2dd02bd03178fa9c381f", null ],
     [ "ReadPropertiesWindow", "classcpart__bmp180.html#a007b2aa28eb6426675db6e22278b873a", null ],
-    [ "WritePreferences", "classcpart__bmp180.html#af7f8de7aa610ee7941dcb844790b16bd", null ],
-    [ "active", "classcpart__bmp180.html#ae11b2d482f02e69c7b56c7adb4f33b6f", null ],
-    [ "bmp180", "classcpart__bmp180.html#af7da17179a5447ae3f1980fd70d90c85", null ],
-    [ "font", "classcpart__bmp180.html#a6ca77948b21efcdd90e64028aed50fa4", null ],
-    [ "font_p", "classcpart__bmp180.html#a7be3c02fb8781a955137048ccdfec76c", null ],
-    [ "input_pins", "classcpart__bmp180.html#a90b239a1c68e4dfa205bbbc6e6a45a8f", null ],
-    [ "values", "classcpart__bmp180.html#a4649549b79b12b52fcfc801dff4bfe19", null ]
+    [ "WritePreferences", "classcpart__bmp180.html#af7f8de7aa610ee7941dcb844790b16bd", null ]
 ];

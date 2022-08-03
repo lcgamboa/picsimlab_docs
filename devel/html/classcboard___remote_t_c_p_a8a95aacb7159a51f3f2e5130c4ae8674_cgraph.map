@@ -1,0 +1,8 @@
+<map id="cboard_RemoteTCP::MInit" name="cboard_RemoteTCP::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,81,196,108"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="251,5,447,32"/>
+<area shape="rect" id="node3" href="$classbsim__remote.html#ad6cdab4f2deb6fe8c7214aad84e69fa2" title="board microcontroller pin count" alt="" coords="244,56,453,83"/>
+<area shape="rect" id="node4" href="$classbsim__remote.html#a9a6843b0476ea95e6eeef2ee2a196582" title="board microcontroller init" alt="" coords="274,107,423,133"/>
+<area shape="rect" id="node6" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="255,157,442,184"/>
+<area shape="rect" id="node5" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="501,107,709,133"/>
+</map>

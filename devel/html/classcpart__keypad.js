@@ -1,8 +1,5 @@
 var classcpart__keypad =
 [
-    [ "cpart_keypad", "classcpart__keypad.html#a6f09332547fd18d7ed99aea130d24a13", null ],
-    [ "~cpart_keypad", "classcpart__keypad.html#a43b870ee663e9dc719634727b2481bf2", null ],
-    [ "ChangeType", "classcpart__keypad.html#a6e1be51ec149283744ad52acfca08340", null ],
     [ "ComboChange", "classcpart__keypad.html#ada5620fafed0e81d97271f6bc2af3f61", null ],
     [ "ConfigurePropertiesWindow", "classcpart__keypad.html#acaf817a3e46810a8cd8cd40f03a415db", null ],
     [ "Draw", "classcpart__keypad.html#abb1a8a4b07bb7bb376547bd164b22aa1", null ],
@@ -18,11 +15,5 @@ var classcpart__keypad =
     [ "ReadPreferences", "classcpart__keypad.html#a3a9642b877bb09b5dad66c26868aaa61", null ],
     [ "ReadPropertiesWindow", "classcpart__keypad.html#a331f3573d8ed64def2047068fffe523c", null ],
     [ "RegisterRemoteControl", "classcpart__keypad.html#a84936055d8a687036002a55a0af5e0bc", null ],
-    [ "WritePreferences", "classcpart__keypad.html#a1801e869b06904d25f640e03da236a72", null ],
-    [ "font", "classcpart__keypad.html#a5c4556371ca5cc83b66e6d176a101156", null ],
-    [ "keys", "classcpart__keypad.html#a6896c36cc13a7dc34b2dd0c838537967", null ],
-    [ "keys2", "classcpart__keypad.html#adc06e1f274355d4f47a6b75196b2d9be", null ],
-    [ "output_pins", "classcpart__keypad.html#acc4fbf6ab5b3ece7edadc17a474c9471", null ],
-    [ "pull", "classcpart__keypad.html#a87cbba2b46bbc6601078d44033c05088", null ],
-    [ "type", "classcpart__keypad.html#a28fc389e4408ca4c7ebb4d2e58133dde", null ]
+    [ "WritePreferences", "classcpart__keypad.html#a1801e869b06904d25f640e03da236a72", null ]
 ];

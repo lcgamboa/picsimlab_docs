@@ -1,10 +1,7 @@
 var classcboard___dev_kit_c =
 [
-    [ "cboard_DevKitC", "classcboard___dev_kit_c.html#a32b3c70cc0589d47c58b88b8dabad9e9", null ],
-    [ "~cboard_DevKitC", "classcboard___dev_kit_c.html#a9241b26e4c9a1d7483184dec82c21aa0", null ],
     [ "board_ButtonEvent", "classcboard___dev_kit_c.html#ade437df3f1d0888f8612b465c5c82476", null ],
     [ "board_Event", "classcboard___dev_kit_c.html#ad0575abca490cc65404e5053e88186fb", null ],
-    [ "BoardOptions", "classcboard___dev_kit_c.html#a93ea5c3eed9f06f849bb3aafe9e0ec99", null ],
     [ "Draw", "classcboard___dev_kit_c.html#a19d45ca0e14edcc81d04fb1a7e2f401c", null ],
     [ "EvKeyPress", "classcboard___dev_kit_c.html#a489b53566e49d4504b1f4f98168f22be", null ],
     [ "EvKeyRelease", "classcboard___dev_kit_c.html#aa0cf1c84bf7669d50f6f978a0faf211b", null ],
@@ -23,13 +20,5 @@ var classcboard___dev_kit_c =
     [ "RegisterRemoteControl", "classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f", null ],
     [ "Reset", "classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490", null ],
     [ "Run_CPU", "classcboard___dev_kit_c.html#a19298fbb3ffc373fbcf0c9461536e043", null ],
-    [ "Run_CPU_ns", "classcboard___dev_kit_c.html#a532753556112759dff277a91793e96ca", null ],
-    [ "WritePreferences", "classcboard___dev_kit_c.html#ada5486363baa4aaefdc7253cdf5b9ca4", null ],
-    [ "button1", "classcboard___dev_kit_c.html#a16e2d03826c0980a350427fab970922f", null ],
-    [ "combo1", "classcboard___dev_kit_c.html#a3462f90eb94e4ab6e1a4c4ee5b9e48b4", null ],
-    [ "ConfDisableWdt", "classcboard___dev_kit_c.html#ab8d3b84199ae4c61d9f101be4f471f1d", null ],
-    [ "ConfEnableWifi", "classcboard___dev_kit_c.html#aa001acbb99499397286f7219c0a8d612", null ],
-    [ "label1", "classcboard___dev_kit_c.html#a351231c3aee1274b7e6a9b8bdc574536", null ],
-    [ "p_BOOT", "classcboard___dev_kit_c.html#a8154df930767bc02fbf6524028b1a8de", null ],
-    [ "wconfig", "classcboard___dev_kit_c.html#a51a1af29e16a3b46ffa18bc37f14f54c", null ]
+    [ "WritePreferences", "classcboard___dev_kit_c.html#ada5486363baa4aaefdc7253cdf5b9ca4", null ]
 ];

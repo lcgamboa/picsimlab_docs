@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::DBGGetIDSize" name="cboard_Breadboard::DBGGetIDSize">
+<area shape="rect" id="node1" title="board microcontroller get internal IDS memory size" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#aeba0bb478ff6f1d3f040e7b63983853d" title="board microcontroller get internal IDS memory size" alt="" coords="210,5,415,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a6000cc73373195669c5d700f10db87f7" title="board microcontroller get internal IDS memory size" alt="" coords="209,56,416,83"/>
+</map>

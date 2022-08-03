@@ -1,0 +1,5 @@
+<map id="cpart_bmp280::EvMouseMove" name="cpart_bmp280::EvMouseMove">
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,31,224,57"/>
+<area shape="rect" id="node2" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="280,5,408,32"/>
+<area shape="rect" id="node3" href="$classpart.html#a992a5000e6919e07c4553ed6817f8360" title="Return coords x y rotated by orientation." alt="" coords="272,56,416,83"/>
+</map>

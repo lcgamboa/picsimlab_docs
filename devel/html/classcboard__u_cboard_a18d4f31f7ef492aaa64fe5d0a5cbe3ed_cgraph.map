@@ -1,0 +1,8 @@
+<map id="cboard_uCboard::MInit" name="cboard_uCboard::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,56,173,83"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="224,5,420,32"/>
+<area shape="rect" id="node3" href="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47" title="board microcontroller pin count" alt="" coords="221,56,423,83"/>
+<area shape="rect" id="node4" href="$classbsim__ucsim.html#a84c1ec9b5841235b77ecfa4181d09995" title="board microcontroller init" alt="" coords="251,107,393,133"/>
+<area shape="rect" id="node5" href="$class_c_p_window1.html#ac40b92c51fd6dbc50fdd363171440c29" title="Return the selected debugger port." alt="" coords="471,81,681,108"/>
+<area shape="rect" id="node6" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="472,132,680,159"/>
+</map>

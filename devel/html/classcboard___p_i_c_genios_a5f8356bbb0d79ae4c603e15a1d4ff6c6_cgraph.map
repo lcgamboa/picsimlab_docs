@@ -1,0 +1,4 @@
+<map id="cboard_PICGenios::MDumpMemory" name="cboard_PICGenios::MDumpMemory">
+<area shape="rect" id="node1" title="board microcontroller save non volatile memory to hex file" alt="" coords="5,5,257,32"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a23ae5c391202089fd69d794d9ae70832" title="board microcontroller save non volatile memory to hex file" alt="" coords="305,5,523,32"/>
+</map>

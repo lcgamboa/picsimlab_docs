@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::MGetPinCount" name="cboard_Breadboard::MGetPinCount">
+<area shape="rect" id="node1" title="board microcontroller pin count" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="210,5,415,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="209,56,416,83"/>
+</map>

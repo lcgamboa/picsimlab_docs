@@ -1,7 +1,5 @@
 var classcboard__x =
 [
-    [ "cboard_x", "classcboard__x.html#ab1971d36015d4773e53e541d7fa3c725", null ],
-    [ "~cboard_x", "classcboard__x.html#a119bf4160507fc5c6222f0a6e13bc682", null ],
     [ "Draw", "classcboard__x.html#a18ebbd336dc27b64c0fdcc6a5d580ee4", null ],
     [ "EvKeyPress", "classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96", null ],
     [ "EvKeyRelease", "classcboard__x.html#aef95af41c7e6c527dfe9e522912a19a2", null ],
@@ -18,17 +16,5 @@ var classcboard__x =
     [ "RegisterRemoteControl", "classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730", null ],
     [ "Reset", "classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436", null ],
     [ "Run_CPU", "classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0", null ],
-    [ "WritePreferences", "classcboard__x.html#a5603baefc099825eeb53634ece32b2f8", null ],
-    [ "active", "classcboard__x.html#ab0b02797423ba173d76ed25fece03bf2", null ],
-    [ "bounce", "classcboard__x.html#af7178d77b02d2e59a627dc0f8b699ff4", null ],
-    [ "color1", "classcboard__x.html#a9c914f27da8625209cb3774fe422ca3d", null ],
-    [ "color2", "classcboard__x.html#a655ee994c439958edbdb9b0ac84fc872", null ],
-    [ "font", "classcboard__x.html#a263c93cf0208d6efab395299af550ad3", null ],
-    [ "gauge1", "classcboard__x.html#a68701632f6cb78552e5e22333a66a136", null ],
-    [ "gauge2", "classcboard__x.html#ac745db44897867e19cba3c63d1dd48ac", null ],
-    [ "label2", "classcboard__x.html#acdb2ddced9425be6e42cc0d69799b0a2", null ],
-    [ "label3", "classcboard__x.html#aa2ee0d2d26fa58836c81651f937fcada", null ],
-    [ "p_BT1", "classcboard__x.html#a9a65cd1336e5783da831738054bc7a78", null ],
-    [ "p_BT2", "classcboard__x.html#a5bdb999041c02caf994d655614025b5b", null ],
-    [ "pot1", "classcboard__x.html#a1f3ffed12606ba1905f756615092b977", null ]
+    [ "WritePreferences", "classcboard__x.html#a5603baefc099825eeb53634ece32b2f8", null ]
 ];

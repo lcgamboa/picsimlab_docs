@@ -1,0 +1,4 @@
+<map id="cboard_PICGenios::EvMouseMove" name="cboard_PICGenios::EvMouseMove">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,5,248,32"/>
+<area shape="rect" id="node2" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="296,5,428,32"/>
+</map>

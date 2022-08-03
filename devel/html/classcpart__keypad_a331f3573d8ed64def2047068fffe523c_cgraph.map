@@ -1,0 +1,5 @@
+<map id="cpart_keypad::ReadPropertiesWindow" name="cpart_keypad::ReadPropertiesWindow">
+<area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,27,221,69"/>
+<area shape="rect" id="node2" href="$classcpart__keypad.html#ada5620fafed0e81d97271f6bc2af3f61" title="Used by properties window combos." alt="" coords="275,5,487,32"/>
+<area shape="rect" id="node3" href="$classcpart__keypad.html#a84936055d8a687036002a55a0af5e0bc" title="Register remote control variables." alt="" coords="269,57,492,98"/>
+</map>

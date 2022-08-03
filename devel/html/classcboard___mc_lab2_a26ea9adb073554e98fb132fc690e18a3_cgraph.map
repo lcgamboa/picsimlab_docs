@@ -1,0 +1,6 @@
+<map id="cboard_McLab2::Reset" name="cboard_McLab2::Reset">
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,42,173,69"/>
+<area shape="rect" id="node2" href="$classcboard___mc_lab2.html#a234981b236b31368ba787e51ed5909ba" title="Register remote control variables." alt="" coords="221,5,457,47"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="267,71,411,98"/>
+<area shape="rect" id="node4" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="505,71,599,98"/>
+</map>

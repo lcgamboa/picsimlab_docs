@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::MGetPinsValues" name="cboard_Breadboard::MGetPinsValues">
+<area shape="rect" id="node1" title="board microcontroller get all pins list struct" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#ab650e99646909a5c379f5bc90bd36c3d" title="board microcontroller get all pins list struct" alt="" coords="210,5,429,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a39ac31f0749b87fa0475b9195eedbf18" title="board microcontroller get all pins list struct" alt="" coords="209,56,429,83"/>
+</map>

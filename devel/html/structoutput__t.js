@@ -4,7 +4,6 @@ var structoutput__t =
     [ "cy", "structoutput__t.html#a8c48df24637854cd5ff1f5942d13285a", null ],
     [ "id", "structoutput__t.html#a7c42d3f23b23b1fa08f869f269104a9e", null ],
     [ "name", "structoutput__t.html#a7cf3bb99ac5c2da3c4a9f3767c2c6534", null ],
-    [ "r", "structoutput__t.html#ae37f087fce961294c1e90296452f2e0b", null ],
     [ "status", "structoutput__t.html#a394c193a9f75a821997918c3fe8525a5", null ],
     [ "update", "structoutput__t.html#aa91b1205a6823abba2269f91bb87863d", null ],
     [ "value", "structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd", null ],

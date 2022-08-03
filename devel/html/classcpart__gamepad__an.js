@@ -1,7 +1,5 @@
 var classcpart__gamepad__an =
 [
-    [ "cpart_gamepad_an", "classcpart__gamepad__an.html#a8babcf0606691f474c6164f4e710d042", null ],
-    [ "~cpart_gamepad_an", "classcpart__gamepad__an.html#aca3f67ae09d08a7131077dc0ac767fe9", null ],
     [ "ConfigurePropertiesWindow", "classcpart__gamepad__an.html#a011f17c1b260c3c8ee8b438c364d94c7", null ],
     [ "Draw", "classcpart__gamepad__an.html#aea775fbc705f55d10003561a7e517177", null ],
     [ "EvKeyPress", "classcpart__gamepad__an.html#a2cf3054cab1049fddcce611430918c8a", null ],
@@ -17,12 +15,5 @@ var classcpart__gamepad__an =
     [ "ReadPropertiesWindow", "classcpart__gamepad__an.html#a4f837d2a7d4480c62fc96e76208e2c8a", null ],
     [ "RegisterRemoteControl", "classcpart__gamepad__an.html#a4bc74b888f2ecc377460e9b97289f282", null ],
     [ "Reset", "classcpart__gamepad__an.html#affd815b1e18742d7d4acc7ef0f8225bb", null ],
-    [ "WritePreferences", "classcpart__gamepad__an.html#a044e44610b472cfcb4a59c0da62a18a0", null ],
-    [ "active", "classcpart__gamepad__an.html#a48119b48910476e96fbe63839f1d8ba7", null ],
-    [ "font", "classcpart__gamepad__an.html#a3af16dc47fcdba24c72bb5d648c04349", null ],
-    [ "output_pins", "classcpart__gamepad__an.html#ac07e78112ef5d3d07b03da7418684629", null ],
-    [ "output_value", "classcpart__gamepad__an.html#a09c69522b3f3b6b99d3d029ad0aa5f59", null ],
-    [ "output_value_an", "classcpart__gamepad__an.html#a7b35363b8f7a9c79839dcb458dcade78", null ],
-    [ "output_value_an_", "classcpart__gamepad__an.html#a1c27b8d4043855f1444b250385fa4a9f", null ],
-    [ "vmax", "classcpart__gamepad__an.html#a69d7dc6600cf1bfda42f4fe853151779", null ]
+    [ "WritePreferences", "classcpart__gamepad__an.html#a044e44610b472cfcb4a59c0da62a18a0", null ]
 ];

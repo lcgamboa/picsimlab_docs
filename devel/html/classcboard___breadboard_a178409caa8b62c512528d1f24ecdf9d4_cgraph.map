@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::DBGSetPC" name="cboard_Breadboard::DBGSetPC">
+<area shape="rect" id="node1" title="board microcontroller set PC" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#aa656ff93e4bf0b12f1662efb922704f9" title="board microcontroller set PC" alt="" coords="211,5,389,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#af9d807e4f4f93ec68b162014d48a1bde" title="board microcontroller set PC" alt="" coords="209,56,391,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="cboard_uCboard::Reset" name="cboard_uCboard::Reset">
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,31,177,57"/>
+<area shape="rect" id="node2" href="$classbsim__ucsim.html#a7d90bfbfcc6742ce6c7c84a72073321d" title="board microcontroller reset" alt="" coords="225,5,383,32"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="232,56,376,83"/>
+<area shape="rect" id="node4" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="431,56,524,83"/>
+</map>

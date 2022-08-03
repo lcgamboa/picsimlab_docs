@@ -1,11 +1,11 @@
 <map id="cboard_Breadboard" name="cboard_Breadboard">
-<area shape="rect" id="node1" title=" " alt="" coords="45,376,193,403"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="12,249,116,276"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="107,109,165,136"/>
-<area shape="rect" id="node7" href="$classbsim__simavr.html" title=" " alt="" coords="159,300,265,327"/>
-<area shape="rect" id="node8" href="$structbitbang__uart__t.html" title=" " alt="" coords="174,199,290,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="43,376,191,403"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="11,249,115,276"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
+<area shape="rect" id="node7" href="$classbsim__simavr.html" title=" " alt="" coords="157,300,264,327"/>
+<area shape="rect" id="node9" href="$structbitbang__uart__t.html" title=" " alt="" coords="173,199,289,225"/>
 <area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node5" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="97,5,175,32"/>
-<area shape="rect" id="node6" href="$structoutput__t.html" title="output map struct" alt="" coords="199,5,275,32"/>
-<area shape="rect" id="node9" href="$structusi__t.html" title=" " alt="" coords="315,199,368,225"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
+<area shape="rect" id="node8" href="$structusi__t.html" title=" " alt="" coords="313,199,367,225"/>
 </map>

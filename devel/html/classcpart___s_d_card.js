@@ -1,7 +1,5 @@
 var classcpart___s_d_card =
 [
-    [ "cpart_SDCard", "classcpart___s_d_card.html#acc0cf7e800354811c4362fd9a361e9ec", null ],
-    [ "~cpart_SDCard", "classcpart___s_d_card.html#a2894e65c8e45b161fc3a23acb91759ae", null ],
     [ "ConfigurePropertiesWindow", "classcpart___s_d_card.html#a9ed7f9563e62c74a2745192f405b9dc8", null ],
     [ "Draw", "classcpart___s_d_card.html#abfc27f7362308d2438a168edd5618393", null ],
     [ "EvMouseButtonPress", "classcpart___s_d_card.html#a799d6ec5a0ec48fbfac1e3ec53122fad", null ],
@@ -16,11 +14,5 @@ var classcpart___s_d_card =
     [ "ReadPreferences", "classcpart___s_d_card.html#a2222ee4ee675701d8105346268139415", null ],
     [ "ReadPropertiesWindow", "classcpart___s_d_card.html#a024109a475a2cee68c3d1b75f49378b0", null ],
     [ "Reset", "classcpart___s_d_card.html#a2f911b74b575cf24e84bc18490b7c41f", null ],
-    [ "WritePreferences", "classcpart___s_d_card.html#a5ba894b70f6e38e6d6b2e5de0c3d385f", null ],
-    [ "_ret", "classcpart___s_d_card.html#aece32b5696d3b62846ae91a800e86620", null ],
-    [ "font", "classcpart___s_d_card.html#a4994c90b1ec486baf41c6d33d456f186", null ],
-    [ "input_pins", "classcpart___s_d_card.html#ac964de7bd222fba21ebed1448e601ddf", null ],
-    [ "output_pins", "classcpart___s_d_card.html#a9a7abd66b1482682296aeccc6b03099a", null ],
-    [ "sd", "classcpart___s_d_card.html#ac2877f4d6a5f0acae8fb9a6f87095044", null ],
-    [ "sdcard_fname", "classcpart___s_d_card.html#a263c4930a07e4a5079265899eee62325", null ]
+    [ "WritePreferences", "classcpart___s_d_card.html#a5ba894b70f6e38e6d6b2e5de0c3d385f", null ]
 ];

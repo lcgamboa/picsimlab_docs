@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::MSetFreq" name="cboard_Breadboard::MSetFreq">
+<area shape="rect" id="node1" title="board microcontroller set frequency" alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a93b55eb04afbcd58882e51077cf19195" title="board microcontroller set frequency" alt="" coords="210,5,383,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a8d1ad48ffc56d950467d583c1628651e" title="board microcontroller set frequency" alt="" coords="209,56,384,83"/>
+</map>

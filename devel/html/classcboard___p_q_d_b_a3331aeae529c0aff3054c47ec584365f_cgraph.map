@@ -1,0 +1,10 @@
+<map id="cboard_PQDB::EvMouseButtonRelease" name="cboard_PQDB::EvMouseButtonRelease">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,74,225,115"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="275,5,458,32"/>
+<area shape="rect" id="node3" href="$classcboard___p_q_d_b.html#ad223b770a4994fbd3c0c80a9dea6e711" title="Reset board status." alt="" coords="289,56,444,83"/>
+<area shape="rect" id="node7" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="273,107,460,133"/>
+<area shape="rect" id="node8" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="277,157,457,184"/>
+<area shape="rect" id="node4" href="$classcboard___p_q_d_b.html#a951416b94e7b5ebd298ff859c73f65ae" title="Register remote control variables." alt="" coords="508,19,731,61"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="547,85,691,112"/>
+<area shape="rect" id="node6" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="779,85,872,112"/>
+</map>

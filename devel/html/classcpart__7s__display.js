@@ -1,8 +1,5 @@
 var classcpart__7s__display =
 [
-    [ "cpart_7s_display", "classcpart__7s__display.html#a1112d2547a6af7c2db6116dc826611ee", null ],
-    [ "~cpart_7s_display", "classcpart__7s__display.html#a44f0e01094a70da1ff5082a928719a67", null ],
-    [ "ChangeType", "classcpart__7s__display.html#a7763fa00ef48751bc369460b4b4094b1", null ],
     [ "ComboChange", "classcpart__7s__display.html#a6a443f45ac8e29209a17403c9a02c4d0", null ],
     [ "ConfigurePropertiesWindow", "classcpart__7s__display.html#a52a3f143b7198f617b3b74a54311930e", null ],
     [ "Draw", "classcpart__7s__display.html#a3d9c503da7cd4f63175f8528c19bf439", null ],
@@ -18,19 +15,5 @@ var classcpart__7s__display =
     [ "ReadPreferences", "classcpart__7s__display.html#a3f664660b2763d7668f2c8613446b5c2", null ],
     [ "ReadPropertiesWindow", "classcpart__7s__display.html#a913c70c2242cfcc57eea66ead270ebca", null ],
     [ "RegisterRemoteControl", "classcpart__7s__display.html#a09d048a54606d85fe5ba7a70d34d8d83", null ],
-    [ "WritePreferences", "classcpart__7s__display.html#aaf3c00c08dfbac09da762f911330dfe9", null ],
-    [ "active", "classcpart__7s__display.html#a4103becde8ef5a17d90d94c1bd6ef661", null ],
-    [ "alm1", "classcpart__7s__display.html#a889b40340b4eb4fa7926015acb939c90", null ],
-    [ "alm2", "classcpart__7s__display.html#a28c35132a9532ff055c714d5081da4dc", null ],
-    [ "alm3", "classcpart__7s__display.html#a4b7e2b48dd280f2365fa47923e70e25e", null ],
-    [ "alm4", "classcpart__7s__display.html#a61354f66fc93ebab71cf00dc1a186731", null ],
-    [ "font", "classcpart__7s__display.html#aedf84df1375a96ebf5b98d2438f17dc2", null ],
-    [ "input_pins", "classcpart__7s__display.html#ad6b66ac455fdf4bdcbe4a9a018be00e3", null ],
-    [ "JUMPSTEPS_", "classcpart__7s__display.html#a0f86ee6f667e1ace9ba64d9c9d27381e", null ],
-    [ "lm1", "classcpart__7s__display.html#a413097724bbb18d6537445da449e80b0", null ],
-    [ "lm2", "classcpart__7s__display.html#a51ebe327d2d55c8fd8e6953175b0536d", null ],
-    [ "lm3", "classcpart__7s__display.html#ac04e98a623d0a8fbf3490cdee0c92c30", null ],
-    [ "lm4", "classcpart__7s__display.html#a29563708f0c6ca444e1cdb6c639df833", null ],
-    [ "mcount", "classcpart__7s__display.html#a20713938a98f27181886df2410140af8", null ],
-    [ "type", "classcpart__7s__display.html#a37efc850d5de5567c934d04cb298828f", null ]
+    [ "WritePreferences", "classcpart__7s__display.html#aaf3c00c08dfbac09da762f911330dfe9", null ]
 ];

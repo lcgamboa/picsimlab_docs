@@ -34,7 +34,7 @@ In first time build:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
 git clone --depth=1 https://github.com/lcgamboa/picsimlab.git
 cd picsimlab
-./picsimlab_build_all_and_install.sh
+bscripts/build_all_and_install.sh
 \end{minted}
 
 To recompile use:
@@ -51,7 +51,7 @@ In first time build in Debian Linux and derivatives target Windows 64 bits:
  \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
 git clone https://github.com/lcgamboa/picsimlab.git
 cd picsimlab
-./picsimlab_build_w64.sh
+bscripts/build_w64.sh
 \end{minted}
 
 To recompile use:
@@ -65,7 +65,7 @@ For target Windows 32 bits:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
 git clone https://github.com/lcgamboa/picsimlab.git
 cd picsimlab
-./picsimlab_build_w32.sh
+bscripts/build_w32.sh
 \end{minted}
 
 To recompile use:
@@ -83,9 +83,9 @@ Theoretically it is possible to compile PICSimLab natively on macOS. But I do no
 
 Experimental version can be built using the parameter "exp" on scripts:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
-./picsimlab_build_all_and_install.sh exp
-./picsimlab_build_w64.sh exp
-./picsimlab_build_w32.sh exp
+bscripts/build_all_and_install.sh exp
+bscripts/build_w64.sh exp
+bscripts/build_w32.sh exp
 \end{minted}
 And recompiled using the parameter "exp" on Makefiles:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}

@@ -1,0 +1,5 @@
+<map id="bsim_ucsim::MInit" name="bsim_ucsim::MInit">
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,31,147,57"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#ac40b92c51fd6dbc50fdd363171440c29" title="Return the selected debugger port." alt="" coords="195,5,405,32"/>
+<area shape="rect" id="node3" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="196,56,404,83"/>
+</map>

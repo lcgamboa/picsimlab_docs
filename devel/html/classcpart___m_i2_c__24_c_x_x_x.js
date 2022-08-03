@@ -1,7 +1,5 @@
 var classcpart___m_i2_c__24_c_x_x_x =
 [
-    [ "cpart_MI2C_24CXXX", "classcpart___m_i2_c__24_c_x_x_x.html#afdd84eaa500bddd5cdd1248450647154", null ],
-    [ "~cpart_MI2C_24CXXX", "classcpart___m_i2_c__24_c_x_x_x.html#a0c460514de07df6cd46040303710e51a", null ],
     [ "ConfigurePropertiesWindow", "classcpart___m_i2_c__24_c_x_x_x.html#a8cdbffc7fc16c0ce572912a307d8a814", null ],
     [ "Draw", "classcpart___m_i2_c__24_c_x_x_x.html#ada232236dcf00a0e034f2ca856ae6236", null ],
     [ "EvMouseButtonPress", "classcpart___m_i2_c__24_c_x_x_x.html#abd2a99e66eff203dd56360897c808d55", null ],
@@ -14,12 +12,5 @@ var classcpart___m_i2_c__24_c_x_x_x =
     [ "Process", "classcpart___m_i2_c__24_c_x_x_x.html#a3f308e58b5da3abefdda9f31b2829f45", null ],
     [ "ReadPreferences", "classcpart___m_i2_c__24_c_x_x_x.html#a20f56c6979b01690b1c132e61343c98c", null ],
     [ "ReadPropertiesWindow", "classcpart___m_i2_c__24_c_x_x_x.html#a1ffeb1692f93e12546fc7b18437d2216", null ],
-    [ "WritePreferences", "classcpart___m_i2_c__24_c_x_x_x.html#a8f8c3f9915f5a42165cd5c001dde08e1", null ],
-    [ "f_mi2c", "classcpart___m_i2_c__24_c_x_x_x.html#aef4c38c45a39e70986fc36d88e38d601", null ],
-    [ "f_mi2c_name", "classcpart___m_i2_c__24_c_x_x_x.html#a5f7b8c2ba79e5a5196f162070ae90c03", null ],
-    [ "f_mi2c_tmp_name", "classcpart___m_i2_c__24_c_x_x_x.html#ad86f91b5384e1462f83107393c0f6b0d", null ],
-    [ "font", "classcpart___m_i2_c__24_c_x_x_x.html#a34d60907380cea91e26c17f6bf6cb1cc", null ],
-    [ "input_pins", "classcpart___m_i2_c__24_c_x_x_x.html#a68090d1912b8277b0d64030c57555c73", null ],
-    [ "kbits", "classcpart___m_i2_c__24_c_x_x_x.html#accd84d2447081a0addfedb8b317d538e", null ],
-    [ "mi2c", "classcpart___m_i2_c__24_c_x_x_x.html#a7bc01736fd7f84f3aeb2d347a7cf765d", null ]
+    [ "WritePreferences", "classcpart___m_i2_c__24_c_x_x_x.html#a8f8c3f9915f5a42165cd5c001dde08e1", null ]
 ];

@@ -1,7 +1,5 @@
 var classcpart__rgb__led =
 [
-    [ "cpart_rgb_led", "classcpart__rgb__led.html#ab5781b096a0232448b92d3448b76078b", null ],
-    [ "~cpart_rgb_led", "classcpart__rgb__led.html#a8a1895dbddfbe85cd21e43db8cfadb4a", null ],
     [ "ConfigurePropertiesWindow", "classcpart__rgb__led.html#a0850d3fce13f542942c58098928a1a14", null ],
     [ "Draw", "classcpart__rgb__led.html#a52e69148704c90be88b39415f5315243", null ],
     [ "get_in_id", "classcpart__rgb__led.html#ab1dedf4c1ead35d91bb809e3e7ea114c", null ],
@@ -12,9 +10,5 @@ var classcpart__rgb__led =
     [ "ReadPreferences", "classcpart__rgb__led.html#a9fe2faa7ec4b2ab8c910195b3cbbe323", null ],
     [ "ReadPropertiesWindow", "classcpart__rgb__led.html#a3c8e67f0fd3ea6395452821474cb69cb", null ],
     [ "RegisterRemoteControl", "classcpart__rgb__led.html#ab4c79d76c824cf45cb64f324c8d6ea67", null ],
-    [ "WritePreferences", "classcpart__rgb__led.html#add69b7872fa1f8383ef95d2d27f81de0", null ],
-    [ "active", "classcpart__rgb__led.html#af8d106c4b5f8ddbfaed4a4fcdf213860", null ],
-    [ "color", "classcpart__rgb__led.html#ac5e2abb306fc7da2fd0739ac8d731874", null ],
-    [ "font", "classcpart__rgb__led.html#aaf3030aea4ecb001bb6e75cdb3d117e4", null ],
-    [ "input_pins", "classcpart__rgb__led.html#a35dde70a418ca340aab9a149aa1dfcf5", null ]
+    [ "WritePreferences", "classcpart__rgb__led.html#add69b7872fa1f8383ef95d2d27f81de0", null ]
 ];

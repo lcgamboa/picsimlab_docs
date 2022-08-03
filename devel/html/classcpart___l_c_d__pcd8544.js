@@ -1,7 +1,5 @@
 var classcpart___l_c_d__pcd8544 =
 [
-    [ "cpart_LCD_pcd8544", "classcpart___l_c_d__pcd8544.html#af20fef7182f990d9b06dc19b42587f42", null ],
-    [ "~cpart_LCD_pcd8544", "classcpart___l_c_d__pcd8544.html#a7f9e429658caf51c6ff9a7f7557b173d", null ],
     [ "ConfigurePropertiesWindow", "classcpart___l_c_d__pcd8544.html#a52e5385b6dc0c9d557e47493d075c6a4", null ],
     [ "Draw", "classcpart___l_c_d__pcd8544.html#a3742dbf85d8003f89f2639e3589c6d85", null ],
     [ "get_in_id", "classcpart___l_c_d__pcd8544.html#a01f35a0e4915607ddb3586410d4dec5c", null ],
@@ -13,8 +11,5 @@ var classcpart___l_c_d__pcd8544 =
     [ "Process", "classcpart___l_c_d__pcd8544.html#ac2adf20ff2fb7714ba9eab21d9e4938c", null ],
     [ "ReadPreferences", "classcpart___l_c_d__pcd8544.html#af94e55a5d9805f939cc65c4229277035", null ],
     [ "ReadPropertiesWindow", "classcpart___l_c_d__pcd8544.html#aebecbac9701cae45f06692d1cfd218c3", null ],
-    [ "WritePreferences", "classcpart___l_c_d__pcd8544.html#a7c4cf701af4699133312b40e3e72008f", null ],
-    [ "font", "classcpart___l_c_d__pcd8544.html#ad361366797f9f17a49f25ceae666b25e", null ],
-    [ "input_pins", "classcpart___l_c_d__pcd8544.html#aa32142b6948cb5a7e9791fbb8b1f938f", null ],
-    [ "lcd", "classcpart___l_c_d__pcd8544.html#a9174c1ede63d9b322013e03fb4c416b6", null ]
+    [ "WritePreferences", "classcpart___l_c_d__pcd8544.html#a7c4cf701af4699133312b40e3e72008f", null ]
 ];

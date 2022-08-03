@@ -1,0 +1,10 @@
+<map id="cboard_Blue_Pill::EvMouseButtonPress" name="cboard_Blue_Pill::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,57,201,98"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="249,13,439,40"/>
+<area shape="rect" id="node3" href="$classcboard___blue___pill.html#ab430008e07eb59b30789d04e60518855" title="Reset board status." alt="" coords="257,64,431,91"/>
+<area shape="rect" id="node8" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="251,115,437,141"/>
+<area shape="rect" id="node4" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="505,5,659,32"/>
+<area shape="rect" id="node5" href="$classcboard___blue___pill.html#a963eba64736781d977fe0733e5cdbd91" title="Register remote control variables." alt="" coords="487,57,677,98"/>
+<area shape="rect" id="node6" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="510,123,654,149"/>
+<area shape="rect" id="node7" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="725,123,819,149"/>
+</map>

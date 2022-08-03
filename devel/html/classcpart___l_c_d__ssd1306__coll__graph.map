@@ -4,6 +4,6 @@
 <area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
 <area shape="rect" id="node5" href="$structlcd__ssd1306__t.html" title=" " alt="" coords="195,109,309,136"/>
-<area shape="rect" id="node6" href="$structbitbang__i2c__t.html" title=" " alt="" coords="197,5,307,32"/>
-<area shape="rect" id="node7" href="$structbitbang__spi__t.html" title=" " alt="" coords="331,5,440,32"/>
+<area shape="rect" id="node6" href="$structbitbang__spi__t.html" title=" " alt="" coords="197,5,307,32"/>
+<area shape="rect" id="node7" href="$structbitbang__i2c__t.html" title=" " alt="" coords="331,5,440,32"/>
 </map>

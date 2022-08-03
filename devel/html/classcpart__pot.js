@@ -1,7 +1,5 @@
 var classcpart__pot =
 [
-    [ "cpart_pot", "classcpart__pot.html#aaa7a14977c7ace697f0b93f336df6286", null ],
-    [ "~cpart_pot", "classcpart__pot.html#a0666b0a90cad8e2d5480f593341ca273", null ],
     [ "ConfigurePropertiesWindow", "classcpart__pot.html#abde26b8538567d1b61c98451bd41530a", null ],
     [ "Draw", "classcpart__pot.html#a353d676815d6d622904b0dde9a4ec338", null ],
     [ "EvMouseButtonPress", "classcpart__pot.html#ae2bb23911f0e0cf2494d99d3797c8c1d", null ],
@@ -16,11 +14,5 @@ var classcpart__pot =
     [ "ReadPropertiesWindow", "classcpart__pot.html#ac58fba9279fcde74f2dfb0d67cbf94ef", null ],
     [ "RegisterRemoteControl", "classcpart__pot.html#a1e2cceabb79ed20cd72d20403170aafe", null ],
     [ "Reset", "classcpart__pot.html#a2055411f6f27e9ac3ca34304ca46ade3", null ],
-    [ "WritePreferences", "classcpart__pot.html#a41d2c7e4086f5de8ecbb9d8e62ff9960", null ],
-    [ "active", "classcpart__pot.html#a501e20d6fbeafcd17707d089e6bfb5af", null ],
-    [ "font", "classcpart__pot.html#a1e9d27c76202c4a2ea5866d715c09956", null ],
-    [ "font_p", "classcpart__pot.html#a61c5d0cfdc4ed664c2f85dcf8e0c4c6a", null ],
-    [ "output_pins", "classcpart__pot.html#a5ebff63b3077a6116947a17e4eb75bb1", null ],
-    [ "values", "classcpart__pot.html#afc339b44d0e99490449fa0a2006501e8", null ],
-    [ "vmax", "classcpart__pot.html#a71e2d390a39c6ef57492e19198238c5c", null ]
+    [ "WritePreferences", "classcpart__pot.html#a41d2c7e4086f5de8ecbb9d8e62ff9960", null ]
 ];

@@ -1,0 +1,4 @@
+<map id="board::GetPictureFileName" name="board::GetPictureFileName">
+<area shape="rect" id="node1" title="Return the filename of board picture." alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node2" href="$classboard.html#a7cf2409343e66c32e2da522b7b6ad75e" title="Get board name registered in PICSimLab." alt="" coords="249,5,379,32"/>
+</map>

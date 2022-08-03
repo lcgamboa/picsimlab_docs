@@ -1,7 +1,5 @@
 var classcboard___franzininho___d_i_y =
 [
-    [ "cboard_Franzininho_DIY", "classcboard___franzininho___d_i_y.html#a522653c08db0ab91872aa1a1e4ab21fb", null ],
-    [ "~cboard_Franzininho_DIY", "classcboard___franzininho___d_i_y.html#a990440c96001571051bc725cfd139037", null ],
     [ "Draw", "classcboard___franzininho___d_i_y.html#a5e68e386039baef513dc0e36f273a53d", null ],
     [ "EvKeyPress", "classcboard___franzininho___d_i_y.html#afbdf22c539903d97b21457f2ae512cdf", null ],
     [ "EvKeyRelease", "classcboard___franzininho___d_i_y.html#a3288066ba70b630792b99caf44c37323", null ],
@@ -17,7 +15,5 @@ var classcboard___franzininho___d_i_y =
     [ "RegisterRemoteControl", "classcboard___franzininho___d_i_y.html#a6cb48a2dd7cab87bcbb3d5d72a7300aa", null ],
     [ "Reset", "classcboard___franzininho___d_i_y.html#a075e49cea6b98a20588b6ba3a0426aab", null ],
     [ "Run_CPU", "classcboard___franzininho___d_i_y.html#ae16b046b4c8ef1bf0b4c37ef8e4f47e8", null ],
-    [ "WritePreferences", "classcboard___franzininho___d_i_y.html#ab06a360c4a5a9f20dd5d7e6296ceec61", null ],
-    [ "color1", "classcboard___franzininho___d_i_y.html#a6a11632e657ff42d42b0a315aaac220e", null ],
-    [ "color2", "classcboard___franzininho___d_i_y.html#a4d02ebce1561571b337580907f28be93", null ]
+    [ "WritePreferences", "classcboard___franzininho___d_i_y.html#ab06a360c4a5a9f20dd5d7e6296ceec61", null ]
 ];

@@ -1,7 +1,5 @@
 var classcboard___arduino___uno =
 [
-    [ "cboard_Arduino_Uno", "classcboard___arduino___uno.html#afe6aaea5d2bbe22f43e9ebe5bb3e8dde", null ],
-    [ "~cboard_Arduino_Uno", "classcboard___arduino___uno.html#a541635b5bed261933a5b68532407612a", null ],
     [ "Draw", "classcboard___arduino___uno.html#a663f11552796b592e4b4acbf3d07def5", null ],
     [ "EvKeyPress", "classcboard___arduino___uno.html#a3e94cbf17d018708668a7f2a1eeada6e", null ],
     [ "EvKeyRelease", "classcboard___arduino___uno.html#a12f5d2ea77440fa6d65c2bf9bc8c2a60", null ],
@@ -17,17 +15,5 @@ var classcboard___arduino___uno =
     [ "RegisterRemoteControl", "classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557", null ],
     [ "Reset", "classcboard___arduino___uno.html#a85e58a08774c55c42cbd73a5aaa49263", null ],
     [ "Run_CPU", "classcboard___arduino___uno.html#a4544bb72dd7f21f9cd23c9ec56ef3ac8", null ],
-    [ "WritePreferences", "classcboard___arduino___uno.html#af60fb84ffc93df467547a81a4b2962ad", null ],
-    [ "gauge1", "classcboard___arduino___uno.html#abbb21dcfe7272ea498ba2b24b0dcb9db", null ],
-    [ "gauge2", "classcboard___arduino___uno.html#a5463217de27abd415e99be2035d1f4b2", null ],
-    [ "gauge3", "classcboard___arduino___uno.html#a07385a2915951fe50ee66815fb627c10", null ],
-    [ "gauge4", "classcboard___arduino___uno.html#aade12a669930a369cc3bfeb8563ff73e", null ],
-    [ "gauge5", "classcboard___arduino___uno.html#a6f15f739ed1cccc0e5de730b035d61e6", null ],
-    [ "gauge6", "classcboard___arduino___uno.html#ad30d629701cec6282c1a102577f8a76b", null ],
-    [ "label1", "classcboard___arduino___uno.html#ab4dcb009bbcd396eeb3c2d3a98f6e498", null ],
-    [ "label2", "classcboard___arduino___uno.html#a8ae87fb1a1fbb15a32e2d3d9173a0b4e", null ],
-    [ "label3", "classcboard___arduino___uno.html#a4536a6eeca17ea418f570d3fe880ef35", null ],
-    [ "label4", "classcboard___arduino___uno.html#a2098da953c825f051ce613a6a2a497df", null ],
-    [ "label5", "classcboard___arduino___uno.html#aef1487818c929803119729479f207840", null ],
-    [ "label6", "classcboard___arduino___uno.html#af83fa2b02ab10845537ca6fdce737481", null ]
+    [ "WritePreferences", "classcboard___arduino___uno.html#af60fb84ffc93df467547a81a4b2962ad", null ]
 ];

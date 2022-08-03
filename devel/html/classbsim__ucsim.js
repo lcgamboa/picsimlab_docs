@@ -1,6 +1,5 @@
 var classbsim__ucsim =
 [
-    [ "bsim_ucsim", "classbsim__ucsim.html#a7ffd5bae9aed5cb256ad2ef8705b2af6", null ],
     [ "CpuInitialized", "classbsim__ucsim.html#a7b435ecf15f297b5ee3d8ebb3da6b9ef", null ],
     [ "DebugInit", "classbsim__ucsim.html#af86e3d5bbd20da6d904a9e9659f9b514", null ],
     [ "DebugLoop", "classbsim__ucsim.html#a37694e4c0c7cb03e50f7ea46a197bbef", null ],
@@ -25,13 +24,5 @@ var classbsim__ucsim =
     [ "MSetSerial", "classbsim__ucsim.html#a1d2c45cfeb03efdf190b27ab4b8683ad", null ],
     [ "MSetVCC", "classbsim__ucsim.html#a92320cc3d74a9cdef7c761aaba3c7fb9", null ],
     [ "MStep", "classbsim__ucsim.html#a4101ac5777ef1d34d3733dfcb3fedfad", null ],
-    [ "MStepResume", "classbsim__ucsim.html#afa5a9cf0c7e7a42da78d126ef9974873", null ],
-    [ "pins_reset", "classbsim__ucsim.html#ab2c21c45152852c52308d08d88579a98", null ],
-    [ "freq", "classbsim__ucsim.html#a0dcc918bdf0746918870fcb318500bc9", null ],
-    [ "pins", "classbsim__ucsim.html#aa4c187d5a910694a99c7d1c67ca62225", null ],
-    [ "ports", "classbsim__ucsim.html#a0cd5a9765dfb1c7ddc652da44702cbb5", null ],
-    [ "procid", "classbsim__ucsim.html#a91b2fee2c3b8965cd44bdba295944057", null ],
-    [ "serialbaud", "classbsim__ucsim.html#abc8afa763049aa6ead19e85ca8fa7e60", null ],
-    [ "serialexbaud", "classbsim__ucsim.html#ac123a165bd6a13657c6f5d5f3fdc42e9", null ],
-    [ "serialfd", "classbsim__ucsim.html#ad31824d9f3a7a39ce43bf58359b050c1", null ]
+    [ "MStepResume", "classbsim__ucsim.html#afa5a9cf0c7e7a42da78d126ef9974873", null ]
 ];

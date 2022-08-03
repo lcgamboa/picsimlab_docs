@@ -1,8 +1,8 @@
 <map id="cboard_Curiosity_HPC" name="cboard_Curiosity_HPC">
-<area shape="rect" id="node1" title=" " alt="" coords="53,261,219,288"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="84,185,188,212"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="107,109,165,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="52,261,217,288"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="83,185,187,212"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
 <area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node5" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="97,5,175,32"/>
-<area shape="rect" id="node6" href="$structoutput__t.html" title="output map struct" alt="" coords="199,5,275,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
 </map>

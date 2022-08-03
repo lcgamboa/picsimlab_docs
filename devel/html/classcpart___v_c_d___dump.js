@@ -1,7 +1,5 @@
 var classcpart___v_c_d___dump =
 [
-    [ "cpart_VCD_Dump", "classcpart___v_c_d___dump.html#af886070db6ef64957348ee64f59645a4", null ],
-    [ "~cpart_VCD_Dump", "classcpart___v_c_d___dump.html#a07addbae430fede20935c6aaa0dc9963", null ],
     [ "ConfigurePropertiesWindow", "classcpart___v_c_d___dump.html#acdb8a7be09f7a5081964a1d14c9809df", null ],
     [ "Draw", "classcpart___v_c_d___dump.html#aaf980f19f41ece6d51a2071136ef8f52", null ],
     [ "EvMouseButtonPress", "classcpart___v_c_d___dump.html#a2e02418217adbf43ed8831349683d27a", null ],
@@ -14,15 +12,5 @@ var classcpart___v_c_d___dump =
     [ "ReadPreferences", "classcpart___v_c_d___dump.html#a7c9576a4ccc82107dd6e8085029cd0a5", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___dump.html#af092585e1a28053b8e575c2fa1ad8c34", null ],
     [ "RegisterRemoteControl", "classcpart___v_c_d___dump.html#a102cde886cbb2b6aa8c35e15dbaeb80d", null ],
-    [ "WritePreferences", "classcpart___v_c_d___dump.html#adf98b9c73e7569bb670cade7f53e9160", null ],
-    [ "color1", "classcpart___v_c_d___dump.html#a7600f5e6d0f40b543e65f8f99450b190", null ],
-    [ "color2", "classcpart___v_c_d___dump.html#a67e9d0f15df3519587c1367dd4bcb8e1", null ],
-    [ "f_vcd", "classcpart___v_c_d___dump.html#a3b7ccfb0bc755c748c9ba7f71f8cd814", null ],
-    [ "f_vcd_name", "classcpart___v_c_d___dump.html#a69f19e47108f3b8c6b2850ff36b7b3bc", null ],
-    [ "font", "classcpart___v_c_d___dump.html#ae8af50f35d54ceeed1b19047b693db9f", null ],
-    [ "input_pins", "classcpart___v_c_d___dump.html#aa6d1ea4d0c6a7a7082477613adc9ae1d", null ],
-    [ "old_value_pins", "classcpart___v_c_d___dump.html#ae22a162766acf8a0f4623690f03c1fa6", null ],
-    [ "rec", "classcpart___v_c_d___dump.html#a5cf3f42bde08741ba9d23cd6adf846df", null ],
-    [ "vcd_count", "classcpart___v_c_d___dump.html#a2ed06e672dcaecac2ee62d9c4df31fc5", null ],
-    [ "VDWProp", "classcpart___v_c_d___dump.html#ad7751d65d242650c24fb86e4c6b9dc0f", null ]
+    [ "WritePreferences", "classcpart___v_c_d___dump.html#adf98b9c73e7569bb670cade7f53e9160", null ]
 ];

@@ -1,0 +1,4 @@
+<map id="cboard_DevKitC::Draw" name="cboard_DevKitC::Draw">
+<area shape="rect" id="node1" title="Called ever 100ms to draw board." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="221,5,411,32"/>
+</map>

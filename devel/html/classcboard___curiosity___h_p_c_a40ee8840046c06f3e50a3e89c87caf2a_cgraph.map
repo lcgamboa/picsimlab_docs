@@ -1,0 +1,10 @@
+<map id="cboard_Curiosity_HPC::EvMouseButtonRelease" name="cboard_Curiosity_HPC::EvMouseButtonRelease">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,86,189,127"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="239,5,422,32"/>
+<area shape="rect" id="node3" href="$classcboard___curiosity___h_p_c.html#ad585a67d4b6246f148ca5cc3914470e2" title="Reset board status." alt="" coords="248,57,413,98"/>
+<area shape="rect" id="node7" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="237,123,424,149"/>
+<area shape="rect" id="node8" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="241,173,421,200"/>
+<area shape="rect" id="node4" href="$classcboard___curiosity___h_p_c.html#a7585b32efabfb8f8690a0cd852a169a8" title="Register remote control variables." alt="" coords="472,27,655,69"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="491,93,635,120"/>
+<area shape="rect" id="node6" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="703,93,796,120"/>
+</map>

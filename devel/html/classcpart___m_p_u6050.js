@@ -1,7 +1,5 @@
 var classcpart___m_p_u6050 =
 [
-    [ "cpart_MPU6050", "classcpart___m_p_u6050.html#abcb8411bf4324bcf372c4513d541637d", null ],
-    [ "~cpart_MPU6050", "classcpart___m_p_u6050.html#a3a1bd5948b5614a743b5c4f267da29be", null ],
     [ "ConfigurePropertiesWindow", "classcpart___m_p_u6050.html#a7fe8356293cbfbe83db736fd88f5f91d", null ],
     [ "Draw", "classcpart___m_p_u6050.html#a6b65e19d91ba5f4ad13487f86351394a", null ],
     [ "EvMouseButtonPress", "classcpart___m_p_u6050.html#a0112a2b82d0cdafcb6a3c3fdedacaa07", null ],
@@ -11,20 +9,11 @@ var classcpart___m_p_u6050 =
     [ "get_out_id", "classcpart___m_p_u6050.html#aa929791c5660064269a885a54eb5c281", null ],
     [ "GetAboutInfo", "classcpart___m_p_u6050.html#ada86dc9b7cde72bba04d2ea6ee2563b8", null ],
     [ "GetName", "classcpart___m_p_u6050.html#a48676aa2cc4bf82c8384c1611239cef8", null ],
-    [ "getValues", "classcpart___m_p_u6050.html#a7e8d97c35337dd46980c6edc1fcf8510", null ],
     [ "PostProcess", "classcpart___m_p_u6050.html#af8c1919973f86dc47b4f219a5095b74f", null ],
     [ "PreProcess", "classcpart___m_p_u6050.html#a866af4e7eb5bc71a44ab176fe9c3752f", null ],
     [ "Process", "classcpart___m_p_u6050.html#a9184c570015611b9707a15febe838b47", null ],
     [ "ReadPreferences", "classcpart___m_p_u6050.html#a49638522756eccc432fd0aab7293a873", null ],
     [ "ReadPropertiesWindow", "classcpart___m_p_u6050.html#a56d0b4fdf0bc4b96b5d035d11b41f997", null ],
     [ "RegisterRemoteControl", "classcpart___m_p_u6050.html#acda575568de06a513e3c2a764409311b", null ],
-    [ "setMpuReg", "classcpart___m_p_u6050.html#ae1ac1f8a446a9ef28ba9db11a2560eae", null ],
-    [ "WritePreferences", "classcpart___m_p_u6050.html#a9813b6129dc71ad7160b790b405eff13", null ],
-    [ "active", "classcpart___m_p_u6050.html#a8ace567ba050d793e8e234a8a9cea965", null ],
-    [ "asens", "classcpart___m_p_u6050.html#a78e553aa2bfd34b29357435171d88444", null ],
-    [ "font", "classcpart___m_p_u6050.html#a1090ddf20593473eba4aac520b31a1bd", null ],
-    [ "font_p", "classcpart___m_p_u6050.html#a7a876617e4600a34cf657cc4ce15e966", null ],
-    [ "gsens", "classcpart___m_p_u6050.html#ab62aa9b6c54e1fca9e6abe2f06755376", null ],
-    [ "mpu", "classcpart___m_p_u6050.html#ace4562df8a0d8ecd10195bb5591a9425", null ],
-    [ "mpu_pins", "classcpart___m_p_u6050.html#a840add1752135d77cc93fe49898759a4", null ]
+    [ "WritePreferences", "classcpart___m_p_u6050.html#a9813b6129dc71ad7160b790b405eff13", null ]
 ];

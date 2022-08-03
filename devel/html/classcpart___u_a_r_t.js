@@ -1,7 +1,5 @@
 var classcpart___u_a_r_t =
 [
-    [ "cpart_UART", "classcpart___u_a_r_t.html#a0d953d48394af1304cb4e4e21b9cd840", null ],
-    [ "~cpart_UART", "classcpart___u_a_r_t.html#a40e8aae1ba85522403e120d4c415f6fa", null ],
     [ "ConfigurePropertiesWindow", "classcpart___u_a_r_t.html#a5bea8efb9a57312436b704658d7de4a7", null ],
     [ "Draw", "classcpart___u_a_r_t.html#a7976846fa24b592e6a44534f05959355", null ],
     [ "EvMouseButtonPress", "classcpart___u_a_r_t.html#a61cf2e38fafedded5a41dbd9793a25b2", null ],
@@ -15,12 +13,5 @@ var classcpart___u_a_r_t =
     [ "ReadPreferences", "classcpart___u_a_r_t.html#aa8da07e779b533afa74c9498ff1ad917", null ],
     [ "ReadPropertiesWindow", "classcpart___u_a_r_t.html#aab2cc4aab71841466a67ea3e9d6d39a4", null ],
     [ "Reset", "classcpart___u_a_r_t.html#af6b6e86082e8531699c48da8ce25af08", null ],
-    [ "WritePreferences", "classcpart___u_a_r_t.html#ab32c9cacbc04d5d1469bb0d916b86153", null ],
-    [ "_ret", "classcpart___u_a_r_t.html#aba39e1d8dce0fa08722d06cfd8cb3f01", null ],
-    [ "font", "classcpart___u_a_r_t.html#ae83592f12fc847bc5209a0fbce7bea4e", null ],
-    [ "input_pins", "classcpart___u_a_r_t.html#a44560408c5b2316f1f4db64422c7e1be", null ],
-    [ "output_pins", "classcpart___u_a_r_t.html#a80b5703efba178de889fa017ec4cc4ae", null ],
-    [ "sr", "classcpart___u_a_r_t.html#ae036e42ed5239694d4bda701e1302f2d", null ],
-    [ "uart_name", "classcpart___u_a_r_t.html#af35ff785fe78e633ca162fad5ffc9461", null ],
-    [ "uart_speed", "classcpart___u_a_r_t.html#adc723652e06af0224c730b7e436de672", null ]
+    [ "WritePreferences", "classcpart___u_a_r_t.html#ab32c9cacbc04d5d1469bb0d916b86153", null ]
 ];

@@ -1,8 +1,5 @@
 var classcpart__led__ws2812b =
 [
-    [ "cpart_led_ws2812b", "classcpart__led__ws2812b.html#a8e8a760bb3f1178188bc59a31eaffa65", null ],
-    [ "~cpart_led_ws2812b", "classcpart__led__ws2812b.html#aa89683bf51dfc4ff6216e8942d7593e7", null ],
-    [ "ChangeType", "classcpart__led__ws2812b.html#a00909a876dd2a7ffa51df1609854993e", null ],
     [ "ConfigurePropertiesWindow", "classcpart__led__ws2812b.html#a09ff8daa521e9dfc2634bcecbc9df784", null ],
     [ "Draw", "classcpart__led__ws2812b.html#a11e39b025d3ab0601e0e33f37f09ee29", null ],
     [ "get_in_id", "classcpart__led__ws2812b.html#a935b479dd3510072a667392efbc625aa", null ],
@@ -16,13 +13,5 @@ var classcpart__led__ws2812b =
     [ "ReadPreferences", "classcpart__led__ws2812b.html#a932526b80d6cc9991dc7ce312e8e7fdf", null ],
     [ "ReadPropertiesWindow", "classcpart__led__ws2812b.html#afe6b2c0a09654b91aa6fa559877b007f", null ],
     [ "RegisterRemoteControl", "classcpart__led__ws2812b.html#a246d06be146a8bc44ef5403e59b93dc1", null ],
-    [ "WritePreferences", "classcpart__led__ws2812b.html#a70a4e3f1e5cee8bfbdd19b26f55d6136", null ],
-    [ "font", "classcpart__led__ws2812b.html#af37f69cea0886fba07c80273158d251d", null ],
-    [ "input_pins", "classcpart__led__ws2812b.html#a47ed71450121cc2a6e26c8a445660936", null ],
-    [ "led", "classcpart__led__ws2812b.html#a92d3946ee11def6505a4d3926839afe4", null ],
-    [ "OHeight", "classcpart__led__ws2812b.html#ab9cd1ea9f1ca5fc0ce578a81a5e19769", null ],
-    [ "output_pins", "classcpart__led__ws2812b.html#ac9e5003a962cb3e212ab397404ba97e4", null ],
-    [ "OWidth", "classcpart__led__ws2812b.html#a7c53845904de681078aaac4c6f7e6d66", null ],
-    [ "xoff", "classcpart__led__ws2812b.html#a8f3c846f6b8cc2d4deac45a3fbcd50a7", null ],
-    [ "yoff", "classcpart__led__ws2812b.html#ad3b5b4c73b71e523f318f1ca9de7e7d8", null ]
+    [ "WritePreferences", "classcpart__led__ws2812b.html#a70a4e3f1e5cee8bfbdd19b26f55d6136", null ]
 ];

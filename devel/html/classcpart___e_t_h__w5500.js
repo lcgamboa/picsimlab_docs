@@ -1,7 +1,5 @@
 var classcpart___e_t_h__w5500 =
 [
-    [ "cpart_ETH_w5500", "classcpart___e_t_h__w5500.html#abab74a5df3b39925292262ab89f382d2", null ],
-    [ "~cpart_ETH_w5500", "classcpart___e_t_h__w5500.html#a4c4dedb1dc65b8308674a3dec2243ed9", null ],
     [ "ConfigurePropertiesWindow", "classcpart___e_t_h__w5500.html#a9149c1f32191ebd6dae4104bb6bc6e06", null ],
     [ "Draw", "classcpart___e_t_h__w5500.html#a5c8e496a420c4834e3f6514a112959a1", null ],
     [ "EvMouseButtonPress", "classcpart___e_t_h__w5500.html#a5efeb70dcd275c65fd8e04d8eb3c18e4", null ],
@@ -16,12 +14,5 @@ var classcpart___e_t_h__w5500 =
     [ "ReadPropertiesWindow", "classcpart___e_t_h__w5500.html#ac399fc8861b978be8746bb824b304485", null ],
     [ "RegisterRemoteControl", "classcpart___e_t_h__w5500.html#ae6f79069d3c15274a24764eec8625e53", null ],
     [ "Reset", "classcpart___e_t_h__w5500.html#ace6ddf9598a6eb86f035da647f0e51c9", null ],
-    [ "WritePreferences", "classcpart___e_t_h__w5500.html#a0514ae71d9f39322d5c07750f85a9e31", null ],
-    [ "_ret", "classcpart___e_t_h__w5500.html#a4ca12b2408b679534ca44a0f8a4b4008", null ],
-    [ "ethw", "classcpart___e_t_h__w5500.html#af527a65f813ad597fed5f23f67dba7c4", null ],
-    [ "font", "classcpart___e_t_h__w5500.html#a648d59671536daeded963d6f6805dbf9", null ],
-    [ "input_pins", "classcpart___e_t_h__w5500.html#a3d4a02341fb9b5b03b01bdece679e2c8", null ],
-    [ "link", "classcpart___e_t_h__w5500.html#ac4d43bf4dcc8df4744f2d9e6319834d7", null ],
-    [ "output_pins", "classcpart___e_t_h__w5500.html#aafcc7ccdf71b508dd6d56ca14c4735df", null ],
-    [ "sts", "classcpart___e_t_h__w5500.html#a1ad393c480947b7d076a459f8a39d974", null ]
+    [ "WritePreferences", "classcpart___e_t_h__w5500.html#a0514ae71d9f39322d5c07750f85a9e31", null ]
 ];

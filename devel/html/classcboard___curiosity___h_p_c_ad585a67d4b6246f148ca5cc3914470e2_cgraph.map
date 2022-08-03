@@ -1,0 +1,6 @@
+<map id="cboard_Curiosity_HPC::Reset" name="cboard_Curiosity_HPC::Reset">
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,35,171,76"/>
+<area shape="rect" id="node2" href="$classcboard___curiosity___h_p_c.html#a7585b32efabfb8f8690a0cd852a169a8" title="Register remote control variables." alt="" coords="219,5,401,47"/>
+<area shape="rect" id="node3" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="238,71,382,98"/>
+<area shape="rect" id="node4" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="449,71,543,98"/>
+</map>

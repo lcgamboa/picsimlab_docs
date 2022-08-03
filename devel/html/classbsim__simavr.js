@@ -1,7 +1,5 @@
 var classbsim__simavr =
 [
-    [ "bsim_simavr", "classbsim__simavr.html#a32ad16b8e296930b93ae7a1b32f486d3", null ],
-    [ "checksum", "classbsim__simavr.html#a3fad7f239c431980639cfd1316c65542", null ],
     [ "CpuInitialized", "classbsim__simavr.html#a9a30361ab69464660796d48f47e53dd6", null ],
     [ "DBGGetCONFIG_p", "classbsim__simavr.html#a1ec3a732b1c645b6aff432d3b6401def", null ],
     [ "DBGGetCONFIGSize", "classbsim__simavr.html#a9caefbe208fd7e11406fab762bfbfa39", null ],
@@ -40,26 +38,5 @@ var classbsim__simavr =
     [ "MSetSerial", "classbsim__simavr.html#a9aa394b9f2f5e9890cd9989f70ffdd06", null ],
     [ "MSetVCC", "classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0", null ],
     [ "MStep", "classbsim__simavr.html#a54284cbd4d9186ad1776d79cf6bd53c9", null ],
-    [ "MStepResume", "classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536", null ],
-    [ "parse_hex", "classbsim__simavr.html#a5378d046f74f9cc685d3065007c16378", null ],
-    [ "pins_reset", "classbsim__simavr.html#ab8e55c49140fcd3d8746faba17f7ff4d", null ],
-    [ "read_ihx_avr", "classbsim__simavr.html#a6f93e3e3aee1a849288134c6cc6e7928", null ],
-    [ "SerialSend", "classbsim__simavr.html#a85351e8c34bf9b93ee780e00d55c3f07", null ],
-    [ "UpdateHardware", "classbsim__simavr.html#a54f2b9bab497352ff4c7d330b9aede2e", null ],
-    [ "write_ihx_avr", "classbsim__simavr.html#a575226e19e6ad75f2300841a236c22c2", null ],
-    [ "avr", "classbsim__simavr.html#ae9784848f9bb1367f03153863325d055", null ],
-    [ "avr_debug_type", "classbsim__simavr.html#a845cca17b75d66118d034e77d0d1a6b2", null ],
-    [ "bb_uart", "classbsim__simavr.html#a934fcd3f90c0ca17bf8c5b40950847f1", null ],
-    [ "eeprom", "classbsim__simavr.html#ac2ace01ad7613d9886e4d79f2848c22c", null ],
-    [ "has_usart", "classbsim__simavr.html#aea0135e522148bf1108efc3f9817c655", null ],
-    [ "pin_rx", "classbsim__simavr.html#a3d8ec54f48ee20361ab297e3e9dfcf95", null ],
-    [ "pin_tx", "classbsim__simavr.html#aa134d206cb029ca49e1132f10e82ba6d", null ],
-    [ "pins", "classbsim__simavr.html#ac93f9a08a3b3aa1e61aeb7985476aa12", null ],
-    [ "serial_irq", "classbsim__simavr.html#aec4f5f4a9ae604f8c6ffc6e6bc0ef429", null ],
-    [ "serialbaud", "classbsim__simavr.html#abcc0f35fcbb4919b8f96b2550b04d30a", null ],
-    [ "serialexbaud", "classbsim__simavr.html#a7a17d62ea95ab205d53feacf826f855d", null ],
-    [ "serialfd", "classbsim__simavr.html#ab0f07b601f080faa1604888ebf1708ff", null ],
-    [ "uart_config", "classbsim__simavr.html#a7558f81a8d2cf5473054a45c617f9259", null ],
-    [ "USI", "classbsim__simavr.html#a78e319f973cccb20d4858f59c95aee98", null ],
-    [ "Write_stat_irq", "classbsim__simavr.html#a5185149f566512eacdd79843e4305e05", null ]
+    [ "MStepResume", "classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536", null ]
 ];

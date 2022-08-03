@@ -1,6 +1,5 @@
 var classbsim__picsim =
 [
-    [ "bsim_picsim", "classbsim__picsim.html#a5d9474dea6b160641056e5870f4f3c24", null ],
     [ "CpuInitialized", "classbsim__picsim.html#a9aec0e1cef09a7e15846565a3175c4af", null ],
     [ "DBGGetCONFIG_p", "classbsim__picsim.html#a7dc783e613e2a460e996867718804703", null ],
     [ "DBGGetCONFIGSize", "classbsim__picsim.html#aaedf301774a6500e076a34162ed086e0", null ],
@@ -41,6 +40,5 @@ var classbsim__picsim =
     [ "MSetSerial", "classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f", null ],
     [ "MSetVCC", "classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96", null ],
     [ "MStep", "classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae", null ],
-    [ "MStepResume", "classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf", null ],
-    [ "pic", "classbsim__picsim.html#ae8a31cebb0112016e9613929f6f740b6", null ]
+    [ "MStepResume", "classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf", null ]
 ];

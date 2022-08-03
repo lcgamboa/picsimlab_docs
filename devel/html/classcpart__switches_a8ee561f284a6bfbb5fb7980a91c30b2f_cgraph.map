@@ -1,0 +1,6 @@
+<map id="cpart_switches::PreProcess" name="cpart_switches::PreProcess">
+<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,56,204,83"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="263,5,431,32"/>
+<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="252,56,443,83"/>
+<area shape="rect" id="node4" href="$classpart.html#a7f56a107a2ff894aff3ae2836910e654" title="Set if part need to be update every clock cycle." alt="" coords="264,107,431,133"/>
+</map>

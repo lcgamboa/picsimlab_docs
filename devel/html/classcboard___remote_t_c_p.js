@@ -1,7 +1,5 @@
 var classcboard___remote_t_c_p =
 [
-    [ "cboard_RemoteTCP", "classcboard___remote_t_c_p.html#af6800e7dbe7d72779d2d71a8c7267ccb", null ],
-    [ "~cboard_RemoteTCP", "classcboard___remote_t_c_p.html#a1878ab76e8e2f0ed6e312e99f5c7334b", null ],
     [ "Draw", "classcboard___remote_t_c_p.html#ac2582e83fb31c66dc41f39949f737a5e", null ],
     [ "EvKeyPress", "classcboard___remote_t_c_p.html#ad48cb9b0ab195670e5dbb8441afe24d3", null ],
     [ "EvKeyRelease", "classcboard___remote_t_c_p.html#a4d232625e4f3dc4e4222a14322c0d3d3", null ],
@@ -20,7 +18,5 @@ var classcboard___remote_t_c_p =
     [ "RegisterRemoteControl", "classcboard___remote_t_c_p.html#ab99d7151813f0e561c57194813bee0fa", null ],
     [ "Reset", "classcboard___remote_t_c_p.html#a24ab751fa86a6dc36115319b834c682d", null ],
     [ "Run_CPU", "classcboard___remote_t_c_p.html#aa92916adc54b3634f3f10e7763a2850b", null ],
-    [ "WritePreferences", "classcboard___remote_t_c_p.html#a902b38c8c7b5913fb8081c18547a2a61", null ],
-    [ "font", "classcboard___remote_t_c_p.html#a584a67d3ed8c00b6b5f9a5bcaf2d616e", null ],
-    [ "micbmp", "classcboard___remote_t_c_p.html#a0043cbb486a45f485dac49d8ff76f7cd", null ]
+    [ "WritePreferences", "classcboard___remote_t_c_p.html#a902b38c8c7b5913fb8081c18547a2a61", null ]
 ];

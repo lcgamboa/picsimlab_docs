@@ -1,0 +1,10 @@
+<map id="cboard_K16F::EvMouseButtonRelease" name="cboard_K16F::EvMouseButtonRelease">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,74,220,115"/>
+<area shape="rect" id="node2" href="$class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="270,5,453,32"/>
+<area shape="rect" id="node3" href="$classcboard___k16_f.html#aa4036f5eab8a22e33a5149423cda5a7e" title="Reset board status." alt="" coords="286,56,437,83"/>
+<area shape="rect" id="node7" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="268,107,455,133"/>
+<area shape="rect" id="node8" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="271,157,451,184"/>
+<area shape="rect" id="node4" href="$classcboard___k16_f.html#a87c799cca48192bdfbcb4a3615b8a970" title="Register remote control variables." alt="" coords="503,19,721,61"/>
+<area shape="rect" id="node5" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="540,85,684,112"/>
+<area shape="rect" id="node6" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="769,85,863,112"/>
+</map>

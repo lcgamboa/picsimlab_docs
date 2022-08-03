@@ -1,0 +1,4 @@
+<map id="cpart_Jumpers::ReadPropertiesWindow" name="cpart_Jumpers::ReadPropertiesWindow">
+<area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,5,228,47"/>
+<area shape="rect" id="node2" href="$classcpart___jumpers.html#a556ee2d87a5b3bcacfa70970bcd01768" title="Register remote control variables." alt="" coords="276,5,504,47"/>
+</map>
