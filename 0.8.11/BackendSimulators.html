@@ -1,0 +1,213 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>7 Backend Simulators</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x32-310005'>Experimental Boards</a></span>
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x37-360006'>Serial Communication</a></span>
+    
+    
+    
+   <span class='chapterToc'>7 <a href='#x41-400007'>Backend Simulators</a></span>
+    <span class='sectionToc'>7.1 <a href='PICsim.html#x42-410007.1'>PICsim</a></span>
+     
+    <span class='sectionToc'>7.2 <a href='simavr.html#x44-430007.2'>simavr</a></span>
+     
+                                                                  
+
+                                                                  
+     
+    <span class='sectionToc'>7.3 <a href='qemustm32.html#x47-460007.3'>qemu-stm32</a></span>
+     
+    <span class='sectionToc'>7.4 <a href='qemuESP32.html#x49-480007.4'>qemu-ESP32</a></span>
+     
+    <span class='sectionToc'>7.5 <a href='uCsim.html#x51-500007.5'>uCsim</a></span>
+     
+    <span class='sectionToc'>7.6 <a href='gpsim.html#x53-520007.6'>gpsim</a></span>
+   <span class='chapterToc'>8 <a href='Tools.html#x54-530008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x65-680009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x66-6900010'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x128-13500011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x129-13600012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x130-137000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x131-138000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x151-158000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='SerialCommunication.html'>prev</a>] [<a href='picsimlab.html#BackendSimulators.html'>up</a>] [<a href='Tools.html'>next</a>] </nav> 
+<h2 class='chapterHead'><span class='titlemark'>Chapter 7</span><br /><a id='x41-400007'></a>Backend Simulators</h2>
+<!--  l. 4  --><p class='noindent'>PICSimLab currently supports five backend simulators: <a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a>, <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>, <a href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a> and
+qemu (<a href='https://beckus.github.io/qemu_stm32/' target='_blank'>stm32</a> and <a href='https://github.com/a159x36/qemu' target='_blank'>esp32</a>).
+</p><!--  l. 12  --><p class='indent'>   The type of debug interface depends on the backend simulator utilized.
+</p>
+   <div class='sectionTOCS'>
+    <span class='sectionToc'>7.1 <a href='PICsim.html#x42-410007.1'>PICsim</a></span>
+<br />     <span class='subsectionToc'>7.1.1 <a href='MPLABXIntegratedDebug.html#x43-420007.1.1'>MPLABX Integrated Debug </a></span>
+<br />    <span class='sectionToc'>7.2 <a href='simavr.html#x44-430007.2'>simavr</a></span>
+<br />     <span class='subsectionToc'>7.2.1 <a href='avrgdbDebug.html#x45-440007.2.1'>avr-gdb Debug</a></span>
+<br />     <span class='subsectionToc'>7.2.2 <a href='MPLABXIntDebug.html#x46-450007.2.2'>MPLABX Int. Debug </a></span>
+<br />    <span class='sectionToc'>7.3 <a href='qemustm32.html#x47-460007.3'>qemu-stm32</a></span>
+<br />     <span class='subsectionToc'>7.3.1 <a href='armgdbDebug.html#x48-470007.3.1'>arm-gdb Debug</a></span>
+<br />    <span class='sectionToc'>7.4 <a href='qemuESP32.html#x49-480007.4'>qemu-ESP32</a></span>
+<br />     <span class='subsectionToc'>7.4.1 <a href='ESP32gdbDebug.html#x50-490007.4.1'>ESP32-gdb Debug</a></span>
+<br />    <span class='sectionToc'>7.5 <a href='uCsim.html#x51-500007.5'>uCsim</a></span>
+<br />     <span class='subsectionToc'>7.5.1 <a href='uCsimDebug.html#x52-510007.5.1'>uCsim Debug</a></span>
+<br />    <span class='sectionToc'>7.6 <a href='gpsim.html#x53-520007.6'>gpsim</a></span>
+   </div>
+
+
+
+
+
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='SerialCommunication.html'>prev</a>] [<a href='picsimlab.html#BackendSimulators.html'>up</a>] [<a href='Tools.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2022 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

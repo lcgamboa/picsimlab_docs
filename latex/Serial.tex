@@ -94,3 +94,14 @@ the connection between each pair is of the form:
 \end{verbatim}
 
 Any pair of ports form a NULL-MODEM connection, where one port must be used by the PICSimLab and another by the application with serial communication.
+
+
+\section{Arduino IDE Integration (simavr) } \hypertarget{def:arduinoide}{}
+
+For integrated use with the Arduino IDE, simply configure the serial port as explained in the Chapter \hyperlink{def:seriali}{Serial Communication} and load the Arduino bootloader. The bootloader can be loaded from the ``Tools->Arduino bootloader'' menu.
+
+In Windows, considering com0com making a NULL-MODEM connection between COM1 and COM2, simply connect the PICSimLab on the COM1 port (defined in configuration window) and the Arduino IDE on the COM2 port or vice versa.
+
+On Linux the operation is the same, but using for example the ports /dev/tnt2 and /dev/tnt3.
+
+In Linux for the virtual ports to be detected in Arduino it is necessary to replace the library lib/liblistSerialsj.so of the Arduino with a version which support the detection of tty0tty ports, that can be downloaded in the link \href{https://github.com/lcgamboa/listSerialPortsC/releases} {listSerialC with tty0tty support}.
