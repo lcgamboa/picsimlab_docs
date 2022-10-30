@@ -1,0 +1,20 @@
+digraph "cboard_Franzininho_DIY::EvMouseButtonRelease"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cboard_Franzininho\l_DIY::EvMouseButtonRelease",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Event on the board."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CPICSimLab::Get_mcurst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#a3c998b79cd110ee1c715811183242513",tooltip="Retunr if microcontroller reset pin is enabled."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cboard_Franzininho\l_DIY::Reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcboard___franzininho___d_i_y.html#a075e49cea6b98a20588b6ba3a0426aab",tooltip="Reset board status."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="bsim_simavr::MReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad",tooltip="board microcontroller reset"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cboard_Franzininho\l_DIY::RegisterRemoteControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcboard___franzininho___d_i_y.html#a6cb48a2dd7cab87bcbb3d5d72a7300aa",tooltip="Register remote control variables."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CPICSimLab::Set_mcupwr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e",tooltip="Set the power status of microcontroller ON/OFF."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CPICSimLab::Set_mcurst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#a260bf50fe760fe92583b3546e7053c4d",tooltip="Set mcu rst flag (inform simulator about mcu reset state)"];
+}

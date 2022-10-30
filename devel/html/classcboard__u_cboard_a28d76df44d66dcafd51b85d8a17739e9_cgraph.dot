@@ -1,0 +1,17 @@
+digraph "cboard_uCboard::EvMouseButtonPress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cboard_uCboard::EvMouseButton\lPress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Event on the board."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CPICSimLab::Get_mcupwr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403",tooltip="Return actual power status of microcontroller ON/OFF."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="bsim_ucsim::MReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__ucsim.html#a7d90bfbfcc6742ce6c7c84a72073321d",tooltip="board microcontroller reset"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cboard_uCboard::Reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcboard__u_cboard.html#ab69f4630f517cf177b855d60aa2696b0",tooltip="Reset board status."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CPICSimLab::Set_mcupwr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e",tooltip="Set the power status of microcontroller ON/OFF."];
+}

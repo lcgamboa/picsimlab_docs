@@ -1,0 +1,18 @@
+digraph "cboard_uCboard::MInit"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cboard_uCboard::MInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="board microcontroller init"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CPICSimLab::GetSharePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69",tooltip="Get the file path of resources."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="bsim_ucsim::MGetPinCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47",tooltip="board microcontroller pin count"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="bsim_ucsim::MInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__ucsim.html#a84c1ec9b5841235b77ecfa4181d09995",tooltip="board microcontroller init"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CPICSimLab::Get_debug_port",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#ab0d40a9cdce965eb1f79c6cf80cce007",tooltip="Return the selected debugger port."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="board::GetSupportedDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#ab808d093c900ea339aaefaa265dce09c",tooltip="Return a list of supported microcontrollers."];
+}

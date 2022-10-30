@@ -40,9 +40,12 @@ var hierarchy =
       ] ]
     ] ],
     [ "board_desc", "structboard__desc.html", null ],
+    [ "callbacks_t", "structcallbacks__t.html", null ],
     [ "ch_status_t", "structch__status__t.html", null ],
     [ "cmd_header_t", "structcmd__header__t.html", null ],
     [ "colorval_t", "structcolorval__t.html", null ],
+    [ "COscilloscope", "class_c_oscilloscope.html", null ],
+    [ "CPICSimLab", "class_c_p_i_c_sim_lab.html", null ],
     [ "CPWindow", null, [
       [ "CPWindow1", "class_c_p_window1.html", null ],
       [ "CPWindow2", "class_c_p_window2.html", null ],
@@ -50,6 +53,7 @@ var hierarchy =
       [ "CPWindow4", "class_c_p_window4.html", null ],
       [ "CPWindow5", "class_c_p_window5.html", null ]
     ] ],
+    [ "CSpareParts", "class_c_spare_parts.html", null ],
     [ "dhcp", "structdhcp.html", null ],
     [ "eth_w5500_t", "structeth__w5500__t.html", null ],
     [ "input_t", "structinput__t.html", null ],

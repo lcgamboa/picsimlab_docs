@@ -1,0 +1,18 @@
+digraph "cpart_bmp280::ConfigurePropertiesWindow"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cpart_bmp280::ConfigureProperties\lWindow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called to configure the properties window."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cpart_bmp280::EvMouseButton\lRelease",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcpart__bmp280.html#a7a7dd86166ee6a481a2057209a581eb2",tooltip="Event handler on the part."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="part::PointInside",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpart.html#a99de50507d46d85ece50269de14e5992",tooltip="Return if point x,y is inside of part."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CSpareParts::GetPinName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0",tooltip="Return the name of one pin."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CSpareParts::GetPinsNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_spare_parts.html#aafd37c23afd7ccd809ab85032a479a62",tooltip="Return the name of all pins."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="board::MGetPinCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533",tooltip="board microcontroller pin count"];
+}

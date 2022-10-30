@@ -1,0 +1,15 @@
+digraph "cboard_Breadboard::DebugLoop"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cboard_Breadboard::\lDebugLoop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="debug step (pooling)"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="bsim_picsim::DebugLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__picsim.html#a986aa0a25bfbc1d9a6d03c3fd08dcc4d",tooltip="debug step (pooling)"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CPICSimLab::Get_mcupwr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403",tooltip="Return actual power status of microcontroller ON/OFF."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="bsim_simavr::DebugLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__simavr.html#aabff656fea3698124fe5e9ba481962b0",tooltip="debug step (pooling)"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

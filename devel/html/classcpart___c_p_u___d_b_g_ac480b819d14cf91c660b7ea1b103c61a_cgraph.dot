@@ -1,0 +1,20 @@
+digraph "cpart_CPU_DBG::EvMouseButtonPress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cpart_CPU_DBG::EvMouseButton\lPress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Event handler on the part."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="board::DBGGetROMSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#a0397ca2fcd8e5d59289aa7e78c895571",tooltip="board microcontroller get ROM (FLASH) memory size"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CPICSimLab::GetBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017",tooltip="Return a pointer to board object."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="board::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#a7cf2409343e66c32e2da522b7b6ad75e",tooltip="Get board name registered in PICSimLab."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="board::GetProcessorName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#a0553a5c6eccd40e19fc6a32e8089d0f3",tooltip="Get board processor in use."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="board::MStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7",tooltip="board microcontroller run one step"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="part::PointInside",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpart.html#a99de50507d46d85ece50269de14e5992",tooltip="Return if point x,y is inside of part."];
+}

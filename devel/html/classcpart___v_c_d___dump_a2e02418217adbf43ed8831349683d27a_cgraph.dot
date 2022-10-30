@@ -1,0 +1,16 @@
+digraph "cpart_VCD_Dump::EvMouseButtonPress"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cpart_VCD_Dump::EvMouseButton\lPress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Event handler on the part."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CPICSimLab::GetBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017",tooltip="Return a pointer to board object."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CSpareParts::GetPinName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0",tooltip="Return the name of one pin."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="board::MGetInstClockFreq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd",tooltip="board microcontroller get cpu internal clock (in PIC frequency/4)"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="part::PointInside",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpart.html#a99de50507d46d85ece50269de14e5992",tooltip="Return if point x,y is inside of part."];
+}

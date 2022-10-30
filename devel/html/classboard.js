@@ -88,6 +88,7 @@ var classboard =
     [ "StartThread", "classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e", null ],
     [ "TimerChange_ms", "classboard.html#a6eb7c60eab4614f79a0b1f063b0fbbb9", null ],
     [ "TimerChange_us", "classboard.html#a5415d02d3f5a07e81ffdaf419b02870a", null ],
+    [ "TimerGet_ns", "classboard.html#aa24305d1c783b6e093c85df82896c367", null ],
     [ "TimerRegister_ms", "classboard.html#a50673bff5ade23021ce836e876609d8a", null ],
     [ "TimerRegister_us", "classboard.html#a3f6266c777b2ebad98116753ba24ec0f", null ],
     [ "TimerSetState", "classboard.html#a4b3ef9bc2ce10eb6e3ee00882aa41cb6", null ],

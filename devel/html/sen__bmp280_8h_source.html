@@ -112,25 +112,24 @@ $(document).ready(function(){initNavTree('sen__bmp280_8h_source.html',''); initR
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">   ######################################################################## */</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;time.h&gt;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;bitbang_i2c.h&quot;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structsen__bmp280__t.html">   29</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_struct" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ctrl;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> temp;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> pressure;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>} <a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">void</span> sen_bmp280_rst(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> sen_bmp280_init(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keywordtype">void</span> sen_bmp280_end(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keywordtype">void</span> sen_bmp280_setPressTemp(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280, <span class="keyword">const</span> <span class="keywordtype">float</span> pressure, <span class="keyword">const</span> <span class="keywordtype">float</span> temp);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sen_bmp280_I2C_io(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
-<div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:36</div></div>
-<div class="ttc" id="astructsen__bmp280__t_html"><div class="ttname"><a href="structsen__bmp280__t.html">sen_bmp280_t</a></div><div class="ttdef"><b>Definition:</b> sen_bmp280.h:29</div></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;bitbang_i2c.h&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structsen__bmp280__t.html">   28</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_struct" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> addr;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ctrl;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> temp;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> pressure;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>} <a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keywordtype">void</span> sen_bmp280_rst(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">void</span> sen_bmp280_init(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> sen_bmp280_end(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keywordtype">void</span> sen_bmp280_setPressTemp(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280, <span class="keyword">const</span> <span class="keywordtype">float</span> pressure, <span class="keyword">const</span> <span class="keywordtype">float</span> temp);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sen_bmp280_I2C_io(<a class="code hl_struct" href="structsen__bmp280__t.html">sen_bmp280_t</a>* bmp280, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda);</div>
+<div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:39</div></div>
+<div class="ttc" id="astructsen__bmp280__t_html"><div class="ttname"><a href="structsen__bmp280__t.html">sen_bmp280_t</a></div><div class="ttdef"><b>Definition:</b> sen_bmp280.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

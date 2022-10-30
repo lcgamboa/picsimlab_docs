@@ -143,29 +143,30 @@ $(document).ready(function(){initNavTree('lcd__ssd1306_8h_source.html',''); init
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> cmd_argc;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> cmd_val;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dc;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> col_start;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> col_end;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pag_start;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pag_end;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_struct" href="structbitbang__spi__t.html">bitbang_spi_t</a> bb_spi;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_struct" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>} <a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keywordtype">void</span> lcd_ssd1306_rst(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keywordtype">void</span> lcd_ssd1306_init(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">void</span> lcd_ssd1306_update(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> lcd_ssd1306_SPI_io(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> din, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> clk, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ncs,</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                                 <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> nrst, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dc);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> lcd_ssd1306_I2C_io(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keywordtype">void</span> lcd_ssd1306_draw(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd, CCanvas* canvas, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> w1, <span class="keywordtype">int</span> h1, <span class="keywordtype">int</span> picpwr);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif  </span><span class="comment">// LCD_SSD1306</span></div>
-<div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:36</div></div>
-<div class="ttc" id="astructbitbang__spi__t_html"><div class="ttname"><a href="structbitbang__spi__t.html">bitbang_spi_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_spi.h:33</div></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> co;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> col_start;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> col_end;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pag_start;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pag_end;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_struct" href="structbitbang__spi__t.html">bitbang_spi_t</a> bb_spi;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_struct" href="structbitbang__i2c__t.html">bitbang_i2c_t</a> bb_i2c;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>} <a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keywordtype">void</span> lcd_ssd1306_rst(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">void</span> lcd_ssd1306_init(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keywordtype">void</span> lcd_ssd1306_update(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> lcd_ssd1306_SPI_io(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> din, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> clk, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ncs,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                                 <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> nrst, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dc);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> lcd_ssd1306_I2C_io(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sda, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> scl);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keywordtype">void</span> lcd_ssd1306_draw(<a class="code hl_struct" href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a>* lcd, CCanvas* canvas, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> w1, <span class="keywordtype">int</span> h1, <span class="keywordtype">int</span> picpwr);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif  </span><span class="comment">// LCD_SSD1306</span></div>
+<div class="ttc" id="astructbitbang__i2c__t_html"><div class="ttname"><a href="structbitbang__i2c__t.html">bitbang_i2c_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_i2c.h:39</div></div>
+<div class="ttc" id="astructbitbang__spi__t_html"><div class="ttname"><a href="structbitbang__spi__t.html">bitbang_spi_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_spi.h:35</div></div>
 <div class="ttc" id="astructlcd__ssd1306__t_html"><div class="ttname"><a href="structlcd__ssd1306__t.html">lcd_ssd1306_t</a></div><div class="ttdef"><b>Definition:</b> lcd_ssd1306.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

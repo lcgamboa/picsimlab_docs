@@ -1,5 +1,5 @@
 
-VERSION=0.8.11
+VERSION=0.8.12
 
 all:
 	pdflatex -shell-escape  picsimlab.tex

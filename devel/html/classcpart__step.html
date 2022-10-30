@@ -127,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a41e71cfe4e03d1f209e9c1756c721a82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__step.html#a41e71cfe4e03d1f209e9c1756c721a82">Draw</a> (void) override</td></tr>
 <tr class="memdesc:a41e71cfe4e03d1f209e9c1756c721a82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw part.  <a href="classcpart__step.html#a41e71cfe4e03d1f209e9c1756c721a82">More...</a><br /></td></tr>
 <tr class="separator:a41e71cfe4e03d1f209e9c1756c721a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c45dc044f0d8484d775a5da8fa95ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__step.html#a19c45dc044f0d8484d775a5da8fa95ec">PreProcess</a> (void) override</td></tr>
+<tr class="memdesc:a19c45dc044f0d8484d775a5da8fa95ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every start of CPU process.  <a href="classcpart__step.html#a19c45dc044f0d8484d775a5da8fa95ec">More...</a><br /></td></tr>
+<tr class="separator:a19c45dc044f0d8484d775a5da8fa95ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6892916acaf8198565079b952c61d846"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__step.html#a6892916acaf8198565079b952c61d846">Process</a> (void) override</td></tr>
 <tr class="memdesc:a6892916acaf8198565079b952c61d846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every CPU step.  <a href="classcpart__step.html#a6892916acaf8198565079b952c61d846">More...</a><br /></td></tr>
 <tr class="separator:a6892916acaf8198565079b952c61d846"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,15 +350,21 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3da50407c2419060293a8a7d6da931fa"><td class="memItemLeft" align="right" valign="top"><a id="a3da50407c2419060293a8a7d6da931fa" name="a3da50407c2419060293a8a7d6da931fa"></a>
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>input_pins</b> [4]</td></tr>
 <tr class="separator:a3da50407c2419060293a8a7d6da931fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee6c2cbf8b8fcf3757b8a4d999d5903"><td class="memItemLeft" align="right" valign="top"><a id="a7ee6c2cbf8b8fcf3757b8a4d999d5903" name="a7ee6c2cbf8b8fcf3757b8a4d999d5903"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>output_pins</b> [1]</td></tr>
+<tr class="separator:a7ee6c2cbf8b8fcf3757b8a4d999d5903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ebc42982cbc0f01c53f92148a601cc"><td class="memItemLeft" align="right" valign="top"><a id="ac6ebc42982cbc0f01c53f92148a601cc" name="ac6ebc42982cbc0f01c53f92148a601cc"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>steps</b></td></tr>
+<tr class="separator:ac6ebc42982cbc0f01c53f92148a601cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad39c9f3771b18c983395d0d851288077"><td class="memItemLeft" align="right" valign="top"><a id="ad39c9f3771b18c983395d0d851288077" name="ad39c9f3771b18c983395d0d851288077"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>angle</b></td></tr>
 <tr class="separator:ad39c9f3771b18c983395d0d851288077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e5b7d2bdf56b8ed93361335442e5e9"><td class="memItemLeft" align="right" valign="top"><a id="a83e5b7d2bdf56b8ed93361335442e5e9" name="a83e5b7d2bdf56b8ed93361335442e5e9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>b1</b> [2]</td></tr>
-<tr class="separator:a83e5b7d2bdf56b8ed93361335442e5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbf999635b7380dcb023193235e2f6b"><td class="memItemLeft" align="right" valign="top"><a id="a1cbf999635b7380dcb023193235e2f6b" name="a1cbf999635b7380dcb023193235e2f6b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>b2</b> [2]</td></tr>
-<tr class="separator:a1cbf999635b7380dcb023193235e2f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1bb1ff06634cd3b17500c005de2c00"><td class="memItemLeft" align="right" valign="top"><a id="a7c1bb1ff06634cd3b17500c005de2c00" name="a7c1bb1ff06634cd3b17500c005de2c00"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>input</b> [2]</td></tr>
+<tr class="separator:a7c1bb1ff06634cd3b17500c005de2c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0dd1e11f0ed3b1fe4233b469552415"><td class="memItemLeft" align="right" valign="top"><a id="aaf0dd1e11f0ed3b1fe4233b469552415" name="aaf0dd1e11f0ed3b1fe4233b469552415"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>turns</b></td></tr>
+<tr class="separator:aaf0dd1e11f0ed3b1fe4233b469552415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49e8f5da05736221696cccf32c87f201"><td class="memItemLeft" align="right" valign="top"><a id="a49e8f5da05736221696cccf32c87f201" name="a49e8f5da05736221696cccf32c87f201"></a>
 lxColor&#160;</td><td class="memItemRight" valign="bottom"><b>color1</b></td></tr>
 <tr class="separator:a49e8f5da05736221696cccf32c87f201"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -689,6 +698,36 @@ Here is the call graph for this function:</div>
 <p>Called every end of CPU process. </p>
 
 <p>Reimplemented from <a class="el" href="classpart.html#a408fcb3683c2ab3609e0b4ec6c1efbb4">part</a>.</p>
+
+</div>
+</div>
+<a id="a19c45dc044f0d8484d775a5da8fa95ec" name="a19c45dc044f0d8484d775a5da8fa95ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c45dc044f0d8484d775a5da8fa95ec">&#9670;&nbsp;</a></span>PreProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cpart_step::PreProcess </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called every start of CPU process. </p>
+
+<p>Reimplemented from <a class="el" href="classpart.html#abcfa8e9eec8b57a811f58c59497ea1c9">part</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,12 @@
+digraph "cboard_RemoteTCP::Reset"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cboard_RemoteTCP::Reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Reset board status."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="bsim_remote::MReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbsim__remote.html#a392125f2242b257f6207aaf920a80388",tooltip="board microcontroller reset"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cboard_RemoteTCP::Register\lRemoteControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcboard___remote_t_c_p.html#ab99d7151813f0e561c57194813bee0fa",tooltip="Register remote control variables."];
+}
