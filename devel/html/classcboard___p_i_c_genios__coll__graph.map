@@ -1,13 +1,13 @@
 <map id="cboard_PICGenios" name="cboard_PICGenios">
-<area shape="rect" id="node1" title=" " alt="" coords="252,288,391,315"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="83,199,187,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="225,389,364,416"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="61,249,165,276"/>
 <area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
+<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="151,199,260,225"/>
 <area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
 <area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
-<area shape="rect" id="node7" href="$structlcd__t.html" title=" " alt="" coords="211,199,264,225"/>
-<area shape="rect" id="node8" href="$structmi2c__t.html" title=" " alt="" coords="288,199,355,225"/>
-<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="313,109,423,136"/>
-<area shape="rect" id="node10" href="$structrtc__ds1307__t.html" title=" " alt="" coords="379,199,485,225"/>
-<area shape="rect" id="node11" href="$struct_s_w_bounce__t.html" title=" " alt="" coords="509,199,611,225"/>
+<area shape="rect" id="node7" href="$structlcd__t.html" title=" " alt="" coords="372,300,425,327"/>
+<area shape="rect" id="node8" href="$structmi2c__t.html" title=" " alt="" coords="151,300,217,327"/>
+<area shape="rect" id="node10" href="$structrtc__ds1307__t.html" title=" " alt="" coords="242,300,347,327"/>
+<area shape="rect" id="node11" href="$struct_s_w_bounce__t.html" title=" " alt="" coords="450,300,553,327"/>
 </map>

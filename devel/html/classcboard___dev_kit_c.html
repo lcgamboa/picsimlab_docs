@@ -108,14 +108,17 @@ Collaboration diagram for cboard_DevKitC:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcboard___dev_kit_c__coll__graph.png" border="0" usemap="#acboard___dev_kit_c_coll__map" alt="Collaboration graph"/></div>
 <map name="acboard___dev_kit_c_coll__map" id="acboard___dev_kit_c_coll__map">
-<area shape="rect" title=" " alt="" coords="174,275,301,301"/>
-<area shape="rect" href="classbsim__qemu.html" title=" " alt="" coords="188,199,287,225"/>
-<area shape="rect" href="classboard.html" title="Board class." alt="" coords="156,109,215,136"/>
+<area shape="rect" title=" " alt="" coords="165,364,291,391"/>
+<area shape="rect" href="classbsim__qemu.html" title=" " alt="" coords="179,288,277,315"/>
+<area shape="rect" href="classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
+<area shape="rect" href="structbitbang__i2c__t.html" title=" " alt="" coords="40,199,149,225"/>
+<area shape="rect" href="structbitbang__spi__t.html" title=" " alt="" coords="173,199,283,225"/>
+<area shape="rect" href="structbitbang__uart__t.html" title=" " alt="" coords="307,199,423,225"/>
 <area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
 <area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
-<area shape="rect" href="structuser__timer__t.html" title=" " alt="" coords="264,109,368,136"/>
-<area shape="rect" href="struct_q_e_m_u_timer.html" title=" " alt="" coords="300,5,399,32"/>
+<area shape="rect" href="structuser__timer__t.html" title=" " alt="" coords="448,199,552,225"/>
+<area shape="rect" href="struct_q_e_m_u_timer.html" title=" " alt="" coords="451,109,549,136"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -162,12 +165,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0fbd8ca71e3e225ae95f1b46838a06b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___dev_kit_c.html#a0fbd8ca71e3e225ae95f1b46838a06b9">ReadPreferences</a> (char *name, char *value) override</td></tr>
 <tr class="memdesc:a0fbd8ca71e3e225ae95f1b46838a06b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences.  <a href="classcboard___dev_kit_c.html#a0fbd8ca71e3e225ae95f1b46838a06b9">More...</a><br /></td></tr>
 <tr class="separator:a0fbd8ca71e3e225ae95f1b46838a06b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9472f101a63bc44b5efebfa22b9d9fc6"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___dev_kit_c.html#a9472f101a63bc44b5efebfa22b9d9fc6">get_in_id</a> (char *name) override</td></tr>
-<tr class="memdesc:a9472f101a63bc44b5efebfa22b9d9fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classcboard___dev_kit_c.html#a9472f101a63bc44b5efebfa22b9d9fc6">More...</a><br /></td></tr>
-<tr class="separator:a9472f101a63bc44b5efebfa22b9d9fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a68fca4ba826a4a44f6fde929be4def"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___dev_kit_c.html#a5a68fca4ba826a4a44f6fde929be4def">get_out_id</a> (char *name) override</td></tr>
-<tr class="memdesc:a5a68fca4ba826a4a44f6fde929be4def"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classcboard___dev_kit_c.html#a5a68fca4ba826a4a44f6fde929be4def">More...</a><br /></td></tr>
-<tr class="separator:a5a68fca4ba826a4a44f6fde929be4def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03e2ce30f0b79bb1f83156c6c609a6a"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___dev_kit_c.html#aa03e2ce30f0b79bb1f83156c6c609a6a">GetInputId</a> (char *name) override</td></tr>
+<tr class="memdesc:aa03e2ce30f0b79bb1f83156c6c609a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classcboard___dev_kit_c.html#aa03e2ce30f0b79bb1f83156c6c609a6a">More...</a><br /></td></tr>
+<tr class="separator:aa03e2ce30f0b79bb1f83156c6c609a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c6b78887e493eff734585b369a26ea9"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___dev_kit_c.html#a7c6b78887e493eff734585b369a26ea9">GetOutputId</a> (char *name) override</td></tr>
+<tr class="memdesc:a7c6b78887e493eff734585b369a26ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classcboard___dev_kit_c.html#a7c6b78887e493eff734585b369a26ea9">More...</a><br /></td></tr>
+<tr class="separator:a7c6b78887e493eff734585b369a26ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0575abca490cc65404e5053e88186fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___dev_kit_c.html#ad0575abca490cc65404e5053e88186fb">board_Event</a> (CControl *control) override</td></tr>
 <tr class="memdesc:ad0575abca490cc65404e5053e88186fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when window side controls are activated.  <a href="classcboard___dev_kit_c.html#ad0575abca490cc65404e5053e88186fb">More...</a><br /></td></tr>
 <tr class="separator:ad0575abca490cc65404e5053e88186fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,12 +314,12 @@ virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetMapFil
 <tr class="memitem:a29f23632768352279226a2f9af5e83d5 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a29f23632768352279226a2f9af5e83d5">ReadPreferences</a> (char *name, char *value)</td></tr>
 <tr class="memdesc:a29f23632768352279226a2f9af5e83d5 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences.  <a href="classboard.html#a29f23632768352279226a2f9af5e83d5">More...</a><br /></td></tr>
 <tr class="separator:a29f23632768352279226a2f9af5e83d5 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cb75705bbf6af80f688eab336fd04 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a3b8cb75705bbf6af80f688eab336fd04">get_in_id</a> (char *name)=0</td></tr>
-<tr class="memdesc:a3b8cb75705bbf6af80f688eab336fd04 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classboard.html#a3b8cb75705bbf6af80f688eab336fd04">More...</a><br /></td></tr>
-<tr class="separator:a3b8cb75705bbf6af80f688eab336fd04 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac68c0b2bd1751f7eba3d52d7ca1e68bd inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ac68c0b2bd1751f7eba3d52d7ca1e68bd">get_out_id</a> (char *name)=0</td></tr>
-<tr class="memdesc:ac68c0b2bd1751f7eba3d52d7ca1e68bd inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classboard.html#ac68c0b2bd1751f7eba3d52d7ca1e68bd">More...</a><br /></td></tr>
-<tr class="separator:ac68c0b2bd1751f7eba3d52d7ca1e68bd inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d3439ae1ce8786e548c85d378c32f7 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a04d3439ae1ce8786e548c85d378c32f7">GetInputId</a> (char *name)=0</td></tr>
+<tr class="memdesc:a04d3439ae1ce8786e548c85d378c32f7 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classboard.html#a04d3439ae1ce8786e548c85d378c32f7">More...</a><br /></td></tr>
+<tr class="separator:a04d3439ae1ce8786e548c85d378c32f7 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040f855588bbd4a94e33d2c45f2c03f5 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a040f855588bbd4a94e33d2c45f2c03f5">GetOutputId</a> (char *name)=0</td></tr>
+<tr class="memdesc:a040f855588bbd4a94e33d2c45f2c03f5 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classboard.html#a040f855588bbd4a94e33d2c45f2c03f5">More...</a><br /></td></tr>
+<tr class="separator:a040f855588bbd4a94e33d2c45f2c03f5 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a451cc40f63f39e78f82afd08e0273358 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a451cc40f63f39e78f82afd08e0273358">board_Event</a> (CControl *control)</td></tr>
 <tr class="memdesc:a451cc40f63f39e78f82afd08e0273358 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when window side controls are activated.  <a href="classboard.html#a451cc40f63f39e78f82afd08e0273358">More...</a><br /></td></tr>
 <tr class="separator:a451cc40f63f39e78f82afd08e0273358 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -523,33 +526,33 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>InstCounterGet_us
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>InstCounterGet_ms</b> (const uint32_t start)</td></tr>
 <tr class="memdesc:a6b3c9c769bebcb9ee15d4ddc155c90f7 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get elapsed time from instruction counter in us. <br /></td></tr>
 <tr class="separator:a6b3c9c769bebcb9ee15d4ddc155c90f7 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f6266c777b2ebad98116753ba24ec0f inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a3f6266c777b2ebad98116753ba24ec0f" name="a3f6266c777b2ebad98116753ba24ec0f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_us</b> (const uint32_t micros, void(*Callback)(void *arg), void *arg)</td></tr>
-<tr class="memdesc:a3f6266c777b2ebad98116753ba24ec0f inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in us (default enabled) <br /></td></tr>
-<tr class="separator:a3f6266c777b2ebad98116753ba24ec0f inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50673bff5ade23021ce836e876609d8a inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a50673bff5ade23021ce836e876609d8a" name="a50673bff5ade23021ce836e876609d8a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_ms</b> (const uint32_t miles, void(*Callback)(void *arg), void *arg)</td></tr>
-<tr class="memdesc:a50673bff5ade23021ce836e876609d8a inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in ms (default enabled) <br /></td></tr>
-<tr class="separator:a50673bff5ade23021ce836e876609d8a inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38dfcf945444ee48a2fbc43a65c9f70e inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a38dfcf945444ee48a2fbc43a65c9f70e" name="a38dfcf945444ee48a2fbc43a65c9f70e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_us</b> (const double micros, void(*Callback)(void *arg), void *arg)</td></tr>
+<tr class="memdesc:a38dfcf945444ee48a2fbc43a65c9f70e inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in us (default enabled) <br /></td></tr>
+<tr class="separator:a38dfcf945444ee48a2fbc43a65c9f70e inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ccc2d1a2b0ab151a83777aadca99d4 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ad9ccc2d1a2b0ab151a83777aadca99d4" name="ad9ccc2d1a2b0ab151a83777aadca99d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_ms</b> (const double miles, void(*Callback)(void *arg), void *arg)</td></tr>
+<tr class="memdesc:ad9ccc2d1a2b0ab151a83777aadca99d4 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in ms (default enabled) <br /></td></tr>
+<tr class="separator:ad9ccc2d1a2b0ab151a83777aadca99d4 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca18038dc58dcf869e9e954037b1542c inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="aca18038dc58dcf869e9e954037b1542c" name="aca18038dc58dcf869e9e954037b1542c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUnregister</b> (const int timer)</td></tr>
 <tr class="memdesc:aca18038dc58dcf869e9e954037b1542c inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister timer. <br /></td></tr>
 <tr class="separator:aca18038dc58dcf869e9e954037b1542c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5415d02d3f5a07e81ffdaf419b02870a inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a5415d02d3f5a07e81ffdaf419b02870a" name="a5415d02d3f5a07e81ffdaf419b02870a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_us</b> (const int timer, const uint32_t micros)</td></tr>
-<tr class="memdesc:a5415d02d3f5a07e81ffdaf419b02870a inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
-<tr class="separator:a5415d02d3f5a07e81ffdaf419b02870a inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eb7c60eab4614f79a0b1f063b0fbbb9 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a6eb7c60eab4614f79a0b1f063b0fbbb9" name="a6eb7c60eab4614f79a0b1f063b0fbbb9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_ms</b> (const int timer, const uint32_t miles)</td></tr>
-<tr class="memdesc:a6eb7c60eab4614f79a0b1f063b0fbbb9 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
-<tr class="separator:a6eb7c60eab4614f79a0b1f063b0fbbb9 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fba0013f85dd20cef4425c413def737 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a6fba0013f85dd20cef4425c413def737" name="a6fba0013f85dd20cef4425c413def737"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_us</b> (const int timer, const double micros)</td></tr>
+<tr class="memdesc:a6fba0013f85dd20cef4425c413def737 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
+<tr class="separator:a6fba0013f85dd20cef4425c413def737 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04dcc2024a6cc8984349d12acae90e22 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a04dcc2024a6cc8984349d12acae90e22" name="a04dcc2024a6cc8984349d12acae90e22"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_ms</b> (const int timer, const double miles)</td></tr>
+<tr class="memdesc:a04dcc2024a6cc8984349d12acae90e22 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
+<tr class="separator:a04dcc2024a6cc8984349d12acae90e22 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3ef9bc2ce10eb6e3ee00882aa41cb6 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a4b3ef9bc2ce10eb6e3ee00882aa41cb6" name="a4b3ef9bc2ce10eb6e3ee00882aa41cb6"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerSetState</b> (const int timer, const int enabled)</td></tr>
 <tr class="memdesc:a4b3ef9bc2ce10eb6e3ee00882aa41cb6 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable timer. <br /></td></tr>
 <tr class="separator:a4b3ef9bc2ce10eb6e3ee00882aa41cb6 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa24305d1c783b6e093c85df82896c367 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="aa24305d1c783b6e093c85df82896c367" name="aa24305d1c783b6e093c85df82896c367"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>TimerGet_ns</b> (const int timer)</td></tr>
-<tr class="memdesc:aa24305d1c783b6e093c85df82896c367 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get elapsed time from instruction counter in us. <br /></td></tr>
+<tr class="memdesc:aa24305d1c783b6e093c85df82896c367 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get elapsed time from instruction counter in ns. <br /></td></tr>
 <tr class="separator:aa24305d1c783b6e093c85df82896c367 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -631,6 +634,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae8ce3884703c11f73594cf7f096b40b9 inherit pub_attribs_classbsim__qemu"><td class="memItemLeft" align="right" valign="top"><a id="ae8ce3884703c11f73594cf7f096b40b9" name="ae8ce3884703c11f73594cf7f096b40b9"></a>
 <a class="el" href="structbitbang__spi__t.html">bitbang_spi_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>master_spi</b> [2]</td></tr>
 <tr class="separator:ae8ce3884703c11f73594cf7f096b40b9 inherit pub_attribs_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cbd30b915ac88aa84cabd21b0a4ed83 inherit pub_attribs_classbsim__qemu"><td class="memItemLeft" align="right" valign="top"><a id="a0cbd30b915ac88aa84cabd21b0a4ed83" name="a0cbd30b915ac88aa84cabd21b0a4ed83"></a>
+<a class="el" href="structbitbang__uart__t.html">bitbang_uart_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>master_uart</b> [3]</td></tr>
+<tr class="separator:a0cbd30b915ac88aa84cabd21b0a4ed83 inherit pub_attribs_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classbsim__qemu"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classbsim__qemu')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classbsim__qemu.html">bsim_qemu</a></td></tr>
 <tr class="memitem:a0ec5a9609c3801c779b146f09d4c10c6 inherit pro_attribs_classbsim__qemu"><td class="memItemLeft" align="right" valign="top"><a id="a0ec5a9609c3801c779b146f09d4c10c6" name="a0ec5a9609c3801c779b146f09d4c10c6"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>ns_count</b></td></tr>
@@ -797,10 +803,10 @@ Here is the call graph for this function:</div>
 <map name="aclasscboard___dev_kit_c_ade437df3f1d0888f8612b465c5c82476_cgraph" id="aclasscboard___dev_kit_c_ade437df3f1d0888f8612b465c5c82476_cgraph">
 <area shape="rect" title="Called when window side controls are activated." alt="" coords="5,78,176,119"/>
 <area shape="rect" href="classcboard___dev_kit_c.html#a19d4431d5fabb84704d6cd7c27a01972" title="Event on the board." alt="" coords="224,49,460,90"/>
-<area shape="rect" href="class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="244,115,440,141"/>
-<area shape="rect" href="class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="510,5,693,32"/>
-<area shape="rect" href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="508,56,695,83"/>
-<area shape="rect" href="class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="511,107,691,133"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="243,115,441,141"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18" title="Retunr if microcontroller reset pin is enabled." alt="" coords="509,5,687,32"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="508,56,688,83"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="509,107,687,133"/>
 </map>
 </div>
 
@@ -907,7 +913,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___dev_kit_c_a19d45ca0e14edcc81d04fb1a7e2f401c_cgraph.png" border="0" usemap="#aclasscboard___dev_kit_c_a19d45ca0e14edcc81d04fb1a7e2f401c_cgraph" alt=""/></div>
 <map name="aclasscboard___dev_kit_c_a19d45ca0e14edcc81d04fb1a7e2f401c_cgraph" id="aclasscboard___dev_kit_c_a19d45ca0e14edcc81d04fb1a7e2f401c_cgraph">
 <area shape="rect" title="Called ever 100ms to draw board." alt="" coords="5,5,173,32"/>
-<area shape="rect" href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="221,5,411,32"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="221,5,404,32"/>
 </map>
 </div>
 
@@ -1047,14 +1053,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcboard___dev_kit_c_affd544d976bcc4db5b78724727fff4ab_cgraph.png" border="0" usemap="#aclasscboard___dev_kit_c_affd544d976bcc4db5b78724727fff4ab_cgraph" alt=""/></div>
 <map name="aclasscboard___dev_kit_c_affd544d976bcc4db5b78724727fff4ab_cgraph" id="aclasscboard___dev_kit_c_affd544d976bcc4db5b78724727fff4ab_cgraph">
-<area shape="rect" title="Event on the board." alt="" coords="5,57,241,98"/>
-<area shape="rect" href="class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="289,13,479,40"/>
-<area shape="rect" href="classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="299,64,469,91"/>
-<area shape="rect" href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="291,115,477,141"/>
-<area shape="rect" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="543,5,698,32"/>
-<area shape="rect" href="classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f" title="Register remote control variables." alt="" coords="527,57,715,98"/>
-<area shape="rect" href="class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="549,123,693,149"/>
-<area shape="rect" href="classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="763,123,856,149"/>
+<area shape="rect" title="Event on the board." alt="" coords="5,49,241,90"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="289,5,472,32"/>
+<area shape="rect" href="classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="295,56,466,83"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="291,107,471,133"/>
+<area shape="rect" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="537,27,691,53"/>
+<area shape="rect" href="classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f" title="Register remote control variables." alt="" coords="520,78,708,119"/>
 </map>
 </div>
 
@@ -1115,71 +1119,11 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___dev_kit_c_a19d4431d5fabb84704d6cd7c27a01972_cgraph.png" border="0" usemap="#aclasscboard___dev_kit_c_a19d4431d5fabb84704d6cd7c27a01972_cgraph" alt=""/></div>
 <map name="aclasscboard___dev_kit_c_a19d4431d5fabb84704d6cd7c27a01972_cgraph" id="aclasscboard___dev_kit_c_a19d4431d5fabb84704d6cd7c27a01972_cgraph">
 <area shape="rect" title="Event on the board." alt="" coords="5,49,241,90"/>
-<area shape="rect" href="class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="291,5,474,32"/>
-<area shape="rect" href="class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="289,56,476,83"/>
-<area shape="rect" href="class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="293,107,473,133"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18" title="Retunr if microcontroller reset pin is enabled." alt="" coords="290,5,469,32"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="289,56,469,83"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="291,107,468,133"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a9472f101a63bc44b5efebfa22b9d9fc6" name="a9472f101a63bc44b5efebfa22b9d9fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9472f101a63bc44b5efebfa22b9d9fc6">&#9670;&nbsp;</a></span>get_in_id()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned short cboard_DevKitC::get_in_id </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return the input ids numbers of names used in input map </p>
-
-<p>Implements <a class="el" href="classboard.html#a3b8cb75705bbf6af80f688eab336fd04">board</a>.</p>
-
-</div>
-</div>
-<a id="a5a68fca4ba826a4a44f6fde929be4def" name="a5a68fca4ba826a4a44f6fde929be4def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a68fca4ba826a4a44f6fde929be4def">&#9670;&nbsp;</a></span>get_out_id()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned short cboard_DevKitC::get_out_id </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return the output ids numbers of names used in output map </p>
-
-<p>Implements <a class="el" href="classboard.html#ac68c0b2bd1751f7eba3d52d7ca1e68bd">board</a>.</p>
 
 </div>
 </div>
@@ -1213,6 +1157,36 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aa03e2ce30f0b79bb1f83156c6c609a6a" name="aa03e2ce30f0b79bb1f83156c6c609a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa03e2ce30f0b79bb1f83156c6c609a6a">&#9670;&nbsp;</a></span>GetInputId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned short cboard_DevKitC::GetInputId </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the input ids numbers of names used in input map </p>
+
+<p>Implements <a class="el" href="classboard.html#a04d3439ae1ce8786e548c85d378c32f7">board</a>.</p>
+
+</div>
+</div>
 <a id="a1fc895a492b24175367970e9123a2708" name="a1fc895a492b24175367970e9123a2708"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fc895a492b24175367970e9123a2708">&#9670;&nbsp;</a></span>GetName()</h2>
 
@@ -1240,6 +1214,36 @@ Here is the call graph for this function:</div>
 <p>Get board name registered in PICSimLab. </p>
 
 <p>Implements <a class="el" href="classboard.html#a7cf2409343e66c32e2da522b7b6ad75e">board</a>.</p>
+
+</div>
+</div>
+<a id="a7c6b78887e493eff734585b369a26ea9" name="a7c6b78887e493eff734585b369a26ea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c6b78887e493eff734585b369a26ea9">&#9670;&nbsp;</a></span>GetOutputId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned short cboard_DevKitC::GetOutputId </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the output ids numbers of names used in output map </p>
+
+<p>Implements <a class="el" href="classboard.html#a040f855588bbd4a94e33d2c45f2c03f5">board</a>.</p>
 
 </div>
 </div>
@@ -1533,11 +1537,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcboard___dev_kit_c_ae5ae4426c415e3ec24f5cb7dcdcdf490_cgraph.png" border="0" usemap="#aclasscboard___dev_kit_c_ae5ae4426c415e3ec24f5cb7dcdcdf490_cgraph" alt=""/></div>
 <map name="aclasscboard___dev_kit_c_ae5ae4426c415e3ec24f5cb7dcdcdf490_cgraph" id="aclasscboard___dev_kit_c_ae5ae4426c415e3ec24f5cb7dcdcdf490_cgraph">
-<area shape="rect" title="Reset board status." alt="" coords="5,64,176,91"/>
+<area shape="rect" title="Reset board status." alt="" coords="5,35,176,61"/>
 <area shape="rect" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="241,5,395,32"/>
 <area shape="rect" href="classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f" title="Register remote control variables." alt="" coords="224,57,412,98"/>
-<area shape="rect" href="class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="246,123,390,149"/>
-<area shape="rect" href="classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="460,123,553,149"/>
 </map>
 </div>
 
@@ -1575,12 +1577,10 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcboard___dev_kit_c_a19298fbb3ffc373fbcf0c9461536e043_cgraph.png" border="0" usemap="#aclasscboard___dev_kit_c_a19298fbb3ffc373fbcf0c9461536e043_cgraph" alt=""/></div>
 <map name="aclasscboard___dev_kit_c_a19298fbb3ffc373fbcf0c9461536e043_cgraph" id="aclasscboard___dev_kit_c_a19298fbb3ffc373fbcf0c9461536e043_cgraph">
-<area shape="rect" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,35,199,61"/>
+<area shape="rect" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,31,199,57"/>
 <area shape="rect" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="482,5,637,32"/>
-<area shape="rect" href="classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="247,60,417,87"/>
+<area shape="rect" href="classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="247,56,417,83"/>
 <area shape="rect" href="classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f" title="Register remote control variables." alt="" coords="465,57,653,98"/>
-<area shape="rect" href="class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="487,123,631,149"/>
-<area shape="rect" href="classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="701,123,795,149"/>
 </map>
 </div>
 
@@ -1647,7 +1647,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___dev_kit_c_ada5486363baa4aaefdc7253cdf5b9ca4_cgraph.png" border="0" usemap="#aclasscboard___dev_kit_c_ada5486363baa4aaefdc7253cdf5b9ca4_cgraph" alt=""/></div>
 <map name="aclasscboard___dev_kit_c_ada5486363baa4aaefdc7253cdf5b9ca4_cgraph" id="aclasscboard___dev_kit_c_ada5486363baa4aaefdc7253cdf5b9ca4_cgraph">
 <area shape="rect" title="Called to save board preferences in configuration file." alt="" coords="5,5,252,32"/>
-<area shape="rect" href="class_c_p_window1.html#abc98e682c927fc3071eb6da0880b795d" title="Save the preferences." alt="" coords="300,5,471,32"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6" title="Save the preferences." alt="" coords="300,5,473,32"/>
 </map>
 </div>
 

@@ -1,5 +1,4 @@
 <map id="cpart_led_matrix::ReadPreferences" name="cpart_led_matrix::ReadPreferences">
-<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,42,256,69"/>
-<area shape="rect" id="node2" href="$classcpart__led__matrix.html#a3382532c0730209b9d8f282eba1ddbd6" title="Register remote control variables." alt="" coords="304,5,499,47"/>
-<area shape="rect" id="node3" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="355,71,448,98"/>
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,5,256,32"/>
+<area shape="rect" id="node2" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="304,5,397,32"/>
 </map>

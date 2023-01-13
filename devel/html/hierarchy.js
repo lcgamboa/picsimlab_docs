@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "_info", "struct__info.html", null ],
+    [ "adxl345_t", "structadxl345__t.html", null ],
     [ "avr_gdb_t", "structavr__gdb__t.html", null ],
     [ "avr_gdb_watchpoints_t", "structavr__gdb__watchpoints__t.html", null ],
     [ "bitbang_i2c_t", "structbitbang__i2c__t.html", null ],
@@ -31,7 +32,10 @@ var hierarchy =
         [ "cboard_RemoteTCP", "classcboard___remote_t_c_p.html", null ]
       ] ],
       [ "bsim_simavr", "classbsim__simavr.html", [
-        [ "cboard_Arduino_Uno", "classcboard___arduino___uno.html", null ],
+        [ "cboard_Arduino_Uno", "classcboard___arduino___uno.html", [
+          [ "cboard_Arduino_Mega", "classcboard___arduino___mega.html", null ],
+          [ "cboard_Arduino_Nano", "classcboard___arduino___nano.html", null ]
+        ] ],
         [ "cboard_Breadboard", "classcboard___breadboard.html", null ],
         [ "cboard_Franzininho_DIY", "classcboard___franzininho___d_i_y.html", null ]
       ] ],
@@ -75,6 +79,7 @@ var hierarchy =
     [ "part", "classpart.html", [
       [ "cpart_7s_display", "classcpart__7s__display.html", null ],
       [ "cpart_7s_display_dec", "classcpart__7s__display__dec.html", null ],
+      [ "cpart_ADXL345", "classcpart___a_d_x_l345.html", null ],
       [ "cpart_Buzzer", "classcpart___buzzer.html", null ],
       [ "cpart_CPU_DBG", "classcpart___c_p_u___d_b_g.html", null ],
       [ "cpart_ETH_w5500", "classcpart___e_t_h__w5500.html", null ],
@@ -134,6 +139,7 @@ var hierarchy =
       [ "cpart_vterm", "classcpart__vterm.html", null ]
     ] ],
     [ "part_desc", "structpart__desc.html", null ],
+    [ "PCWProp", "struct_p_c_w_prop.html", null ],
     [ "QEMUTimer", "struct_q_e_m_u_timer.html", null ],
     [ "rgb_color", "structrgb__color.html", null ],
     [ "rtc_ds1307_t", "structrtc__ds1307__t.html", null ],

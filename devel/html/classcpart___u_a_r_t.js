@@ -1,12 +1,10 @@
 var classcpart___u_a_r_t =
 [
     [ "ConfigurePropertiesWindow", "classcpart___u_a_r_t.html#a5bea8efb9a57312436b704658d7de4a7", null ],
-    [ "Draw", "classcpart___u_a_r_t.html#a7976846fa24b592e6a44534f05959355", null ],
-    [ "EvMouseButtonPress", "classcpart___u_a_r_t.html#a61cf2e38fafedded5a41dbd9793a25b2", null ],
-    [ "get_in_id", "classcpart___u_a_r_t.html#a8556b0285b22f8cd81e563b62817d9c5", null ],
-    [ "get_out_id", "classcpart___u_a_r_t.html#afd0718f35f993bd199dc4105a366f0d7", null ],
+    [ "DrawOutput", "classcpart___u_a_r_t.html#acf414f25a80aae419903f41f8cf8033d", null ],
     [ "GetAboutInfo", "classcpart___u_a_r_t.html#a1c220d01df34a8e0f94dcfab4c6b004c", null ],
-    [ "GetName", "classcpart___u_a_r_t.html#a16b9a68c64418dde77b4bd91ee310076", null ],
+    [ "GetInputId", "classcpart___u_a_r_t.html#af0f0e208c1925d5342c6149a56105b29", null ],
+    [ "GetOutputId", "classcpart___u_a_r_t.html#a51c17e4ec9377a577543f67212431bc2", null ],
     [ "PostProcess", "classcpart___u_a_r_t.html#a4b9cb51a635daa12e7f788b473829218", null ],
     [ "PreProcess", "classcpart___u_a_r_t.html#a5e25a9962df19e5e64263c85f1db494f", null ],
     [ "Process", "classcpart___u_a_r_t.html#ae82091b38267e7db393286ab3e670b44", null ],

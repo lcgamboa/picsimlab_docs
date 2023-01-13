@@ -1,7 +1,8 @@
 <map id="cpart_LCD_hd44780" name="cpart_LCD_hd44780">
-<area shape="rect" id="node1" title=" " alt="" coords="49,199,199,225"/>
-<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="63,109,111,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="97,199,247,225"/>
+<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="111,109,159,136"/>
 <area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" id="node5" href="$structlcd__t.html" title=" " alt="" coords="135,109,188,136"/>
+<area shape="rect" id="node5" href="$struct_p_c_w_prop.html" title=" " alt="" coords="197,5,278,32"/>
+<area shape="rect" id="node6" href="$structlcd__t.html" title=" " alt="" coords="183,109,236,136"/>
 </map>

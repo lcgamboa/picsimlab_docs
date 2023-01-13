@@ -128,6 +128,8 @@ Inheritance diagram for board:</div>
 <area shape="rect" href="classcboard___remote_t_c_p.html" title=" " alt="" coords="282,816,431,843"/>
 <area shape="rect" href="classcboard___arduino___uno.html" title=" " alt="" coords="279,56,435,83"/>
 <area shape="rect" href="classcboard___franzininho___d_i_y.html" title=" " alt="" coords="268,107,445,133"/>
+<area shape="rect" href="classcboard___arduino___mega.html" title=" " alt="" coords="493,31,660,57"/>
+<area shape="rect" href="classcboard___arduino___nano.html" title=" " alt="" coords="495,81,659,108"/>
 <area shape="rect" href="classcboard__u_cboard.html" title=" " alt="" coords="293,867,420,893"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -194,12 +196,12 @@ virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetMapFil
 <tr class="memitem:a29f23632768352279226a2f9af5e83d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a29f23632768352279226a2f9af5e83d5">ReadPreferences</a> (char *name, char *value)</td></tr>
 <tr class="memdesc:a29f23632768352279226a2f9af5e83d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences.  <a href="classboard.html#a29f23632768352279226a2f9af5e83d5">More...</a><br /></td></tr>
 <tr class="separator:a29f23632768352279226a2f9af5e83d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cb75705bbf6af80f688eab336fd04"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a3b8cb75705bbf6af80f688eab336fd04">get_in_id</a> (char *name)=0</td></tr>
-<tr class="memdesc:a3b8cb75705bbf6af80f688eab336fd04"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classboard.html#a3b8cb75705bbf6af80f688eab336fd04">More...</a><br /></td></tr>
-<tr class="separator:a3b8cb75705bbf6af80f688eab336fd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac68c0b2bd1751f7eba3d52d7ca1e68bd"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ac68c0b2bd1751f7eba3d52d7ca1e68bd">get_out_id</a> (char *name)=0</td></tr>
-<tr class="memdesc:ac68c0b2bd1751f7eba3d52d7ca1e68bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classboard.html#ac68c0b2bd1751f7eba3d52d7ca1e68bd">More...</a><br /></td></tr>
-<tr class="separator:ac68c0b2bd1751f7eba3d52d7ca1e68bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d3439ae1ce8786e548c85d378c32f7"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a04d3439ae1ce8786e548c85d378c32f7">GetInputId</a> (char *name)=0</td></tr>
+<tr class="memdesc:a04d3439ae1ce8786e548c85d378c32f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classboard.html#a04d3439ae1ce8786e548c85d378c32f7">More...</a><br /></td></tr>
+<tr class="separator:a04d3439ae1ce8786e548c85d378c32f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040f855588bbd4a94e33d2c45f2c03f5"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a040f855588bbd4a94e33d2c45f2c03f5">GetOutputId</a> (char *name)=0</td></tr>
+<tr class="memdesc:a040f855588bbd4a94e33d2c45f2c03f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classboard.html#a040f855588bbd4a94e33d2c45f2c03f5">More...</a><br /></td></tr>
+<tr class="separator:a040f855588bbd4a94e33d2c45f2c03f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a451cc40f63f39e78f82afd08e0273358"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a451cc40f63f39e78f82afd08e0273358">board_Event</a> (CControl *control)</td></tr>
 <tr class="memdesc:a451cc40f63f39e78f82afd08e0273358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when window side controls are activated.  <a href="classboard.html#a451cc40f63f39e78f82afd08e0273358">More...</a><br /></td></tr>
 <tr class="separator:a451cc40f63f39e78f82afd08e0273358"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -406,33 +408,33 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>InstCounterGet_us
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>InstCounterGet_ms</b> (const uint32_t start)</td></tr>
 <tr class="memdesc:a6b3c9c769bebcb9ee15d4ddc155c90f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get elapsed time from instruction counter in us. <br /></td></tr>
 <tr class="separator:a6b3c9c769bebcb9ee15d4ddc155c90f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f6266c777b2ebad98116753ba24ec0f"><td class="memItemLeft" align="right" valign="top"><a id="a3f6266c777b2ebad98116753ba24ec0f" name="a3f6266c777b2ebad98116753ba24ec0f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_us</b> (const uint32_t micros, void(*Callback)(void *arg), void *arg)</td></tr>
-<tr class="memdesc:a3f6266c777b2ebad98116753ba24ec0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in us (default enabled) <br /></td></tr>
-<tr class="separator:a3f6266c777b2ebad98116753ba24ec0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50673bff5ade23021ce836e876609d8a"><td class="memItemLeft" align="right" valign="top"><a id="a50673bff5ade23021ce836e876609d8a" name="a50673bff5ade23021ce836e876609d8a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_ms</b> (const uint32_t miles, void(*Callback)(void *arg), void *arg)</td></tr>
-<tr class="memdesc:a50673bff5ade23021ce836e876609d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in ms (default enabled) <br /></td></tr>
-<tr class="separator:a50673bff5ade23021ce836e876609d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38dfcf945444ee48a2fbc43a65c9f70e"><td class="memItemLeft" align="right" valign="top"><a id="a38dfcf945444ee48a2fbc43a65c9f70e" name="a38dfcf945444ee48a2fbc43a65c9f70e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_us</b> (const double micros, void(*Callback)(void *arg), void *arg)</td></tr>
+<tr class="memdesc:a38dfcf945444ee48a2fbc43a65c9f70e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in us (default enabled) <br /></td></tr>
+<tr class="separator:a38dfcf945444ee48a2fbc43a65c9f70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ccc2d1a2b0ab151a83777aadca99d4"><td class="memItemLeft" align="right" valign="top"><a id="ad9ccc2d1a2b0ab151a83777aadca99d4" name="ad9ccc2d1a2b0ab151a83777aadca99d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerRegister_ms</b> (const double miles, void(*Callback)(void *arg), void *arg)</td></tr>
+<tr class="memdesc:ad9ccc2d1a2b0ab151a83777aadca99d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new timer with time in ms (default enabled) <br /></td></tr>
+<tr class="separator:ad9ccc2d1a2b0ab151a83777aadca99d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca18038dc58dcf869e9e954037b1542c"><td class="memItemLeft" align="right" valign="top"><a id="aca18038dc58dcf869e9e954037b1542c" name="aca18038dc58dcf869e9e954037b1542c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUnregister</b> (const int timer)</td></tr>
 <tr class="memdesc:aca18038dc58dcf869e9e954037b1542c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister timer. <br /></td></tr>
 <tr class="separator:aca18038dc58dcf869e9e954037b1542c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5415d02d3f5a07e81ffdaf419b02870a"><td class="memItemLeft" align="right" valign="top"><a id="a5415d02d3f5a07e81ffdaf419b02870a" name="a5415d02d3f5a07e81ffdaf419b02870a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_us</b> (const int timer, const uint32_t micros)</td></tr>
-<tr class="memdesc:a5415d02d3f5a07e81ffdaf419b02870a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
-<tr class="separator:a5415d02d3f5a07e81ffdaf419b02870a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eb7c60eab4614f79a0b1f063b0fbbb9"><td class="memItemLeft" align="right" valign="top"><a id="a6eb7c60eab4614f79a0b1f063b0fbbb9" name="a6eb7c60eab4614f79a0b1f063b0fbbb9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_ms</b> (const int timer, const uint32_t miles)</td></tr>
-<tr class="memdesc:a6eb7c60eab4614f79a0b1f063b0fbbb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
-<tr class="separator:a6eb7c60eab4614f79a0b1f063b0fbbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fba0013f85dd20cef4425c413def737"><td class="memItemLeft" align="right" valign="top"><a id="a6fba0013f85dd20cef4425c413def737" name="a6fba0013f85dd20cef4425c413def737"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_us</b> (const int timer, const double micros)</td></tr>
+<tr class="memdesc:a6fba0013f85dd20cef4425c413def737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
+<tr class="separator:a6fba0013f85dd20cef4425c413def737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04dcc2024a6cc8984349d12acae90e22"><td class="memItemLeft" align="right" valign="top"><a id="a04dcc2024a6cc8984349d12acae90e22" name="a04dcc2024a6cc8984349d12acae90e22"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerChange_ms</b> (const int timer, const double miles)</td></tr>
+<tr class="memdesc:a04dcc2024a6cc8984349d12acae90e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify timer value with us. <br /></td></tr>
+<tr class="separator:a04dcc2024a6cc8984349d12acae90e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3ef9bc2ce10eb6e3ee00882aa41cb6"><td class="memItemLeft" align="right" valign="top"><a id="a4b3ef9bc2ce10eb6e3ee00882aa41cb6" name="a4b3ef9bc2ce10eb6e3ee00882aa41cb6"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>TimerSetState</b> (const int timer, const int enabled)</td></tr>
 <tr class="memdesc:a4b3ef9bc2ce10eb6e3ee00882aa41cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable timer. <br /></td></tr>
 <tr class="separator:a4b3ef9bc2ce10eb6e3ee00882aa41cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa24305d1c783b6e093c85df82896c367"><td class="memItemLeft" align="right" valign="top"><a id="aa24305d1c783b6e093c85df82896c367" name="aa24305d1c783b6e093c85df82896c367"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>TimerGet_ns</b> (const int timer)</td></tr>
-<tr class="memdesc:aa24305d1c783b6e093c85df82896c367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get elapsed time from instruction counter in us. <br /></td></tr>
+<tr class="memdesc:aa24305d1c783b6e093c85df82896c367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get elapsed time from instruction counter in ns. <br /></td></tr>
 <tr class="separator:aa24305d1c783b6e093c85df82896c367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -1513,66 +1515,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
-<a id="a3b8cb75705bbf6af80f688eab336fd04" name="a3b8cb75705bbf6af80f688eab336fd04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b8cb75705bbf6af80f688eab336fd04">&#9670;&nbsp;</a></span>get_in_id()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual unsigned short board::get_in_id </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return the input ids numbers of names used in input map </p>
-
-<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a9c60bd381f7bad872dbe6ed2a3ca2e66">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#acc059fce3da00028dd9c15027f0a98a3">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#ae3e2c7ed430148c6eec45eab19edb057">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a9472f101a63bc44b5efebfa22b9d9fc6">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#ac2a5cf0f4ff16cdefc134269a81b791e">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a8c3da1cbbb669b4c48cfef14b4fb6401">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a6987921c8492797c224a923fbf384f15">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#ab583451d8dde418f91600d1f5ad8b489">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a1cdee01fac77f2b8c6a5a97971f8622b">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a883605ca323721e8293bf1e74020b534">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a3ea97cd457567aa0c8e406866095d87e">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a23e3cbf78638817866b7190df41b8d99">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#acf492150f0d0aa4eb8ce24fe53dcfcf2">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#abc5f9d1f4a6f7c45e22d06f51221d759">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a3f1ef6def4e6a4c60296ae8568e62cef">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#af9a60c62598774903edb69224aab2c8d">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a162c8ac94e335b18429ec4785b88a9fa">cboard_Xpress</a>.</p>
-
-</div>
-</div>
-<a id="ac68c0b2bd1751f7eba3d52d7ca1e68bd" name="ac68c0b2bd1751f7eba3d52d7ca1e68bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac68c0b2bd1751f7eba3d52d7ca1e68bd">&#9670;&nbsp;</a></span>get_out_id()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual unsigned short board::get_out_id </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return the output ids numbers of names used in output map </p>
-
-<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a15c4142aef42b5ca0760cc000350f202">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#aecf984d80ea9f7831951ebec0e5b4a43">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a7621c3738b5ae1524ccb3c2e387e6f92">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a5a68fca4ba826a4a44f6fde929be4def">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a2160745eb8f00132c1d8df9fb69e4185">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a00271cfd979edbe7b20f7b8ff589db38">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a7aa279c36d440434cf1717c3909becc3">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a88f87bb538158d98f361c362f7356adc">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a20cfb98bb5ad4d0ef3856d55f97af1b6">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a3007ba25f5d6a5855e92a9d2d3fd956c">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a51760759308aeac8ca933cba85872106">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a2ebe0af32c7564e07d413504217744b6">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a68b24ee0806d0c374401ecae7f571e1c">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a07c5219273c826b98064fa2d2a9ff075">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a437067d046fc9aed61cacec87a7406a4">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#aedaa491dc212f9a2ece3dafcb84ac1a9">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a1ffbb82ebfda80f34bc0a5a75d1db730">cboard_Xpress</a>.</p>
-
-</div>
-</div>
 <a id="ab6ef377f7097d785acea08dde6ac7aa2" name="ab6ef377f7097d785acea08dde6ac7aa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6ef377f7097d785acea08dde6ac7aa2">&#9670;&nbsp;</a></span>GetAboutInfo()</h2>
 
@@ -1599,7 +1541,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 <p>Return the about information of part. </p>
 
-<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a355dd49ce9b5930bfae71473598466ff">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#ae8592dc2bdc1fe964b202966382462d7">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a5e87c27c90c84cebf73b4046369d185d">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#ae8c84cef71b31c283e08cb6331f71180">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#aa4bd1155ac75ae9a6a5647907a178799">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#aced0c0ced635f58ce06d15f33703d3cb">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a391b50fdc1ce10a8d5da20f06601d9ac">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a85ef40841aca1ead88916f8876621538">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#ab9b104be77a26be0384ae994ff42dcfe">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a7a8a99d2b0ccc1a4b2403c7c06de80af">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a6b38eb77f48558465a8aa08e08f9ccdb">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a9daf700f25b38e598542d9b3648138f3">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#ac1ad27ce280c65df1b2547a497cd2fd2">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#aeb73bddb79a5e771c18f0a4f0db131cb">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a7aeb7e02faf2c90e3b775f8a8aa58700">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#acad76def210a0f6f8d451b20499bed7e">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a961670e67b7caf44756f968c173e9cbc">cboard_Xpress</a>.</p>
+<p>Implemented in <a class="el" href="classcboard___arduino___mega.html#aa708ba5ac2c82e26ed286aa2a1d816a1">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___nano.html#a4e8b90345148dc1e572c858ffffbd18a">cboard_Arduino_Nano</a>, <a class="el" href="classcboard___arduino___uno.html#a355dd49ce9b5930bfae71473598466ff">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#ae8592dc2bdc1fe964b202966382462d7">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a5e87c27c90c84cebf73b4046369d185d">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#ae8c84cef71b31c283e08cb6331f71180">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#aa4bd1155ac75ae9a6a5647907a178799">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#aced0c0ced635f58ce06d15f33703d3cb">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a391b50fdc1ce10a8d5da20f06601d9ac">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a85ef40841aca1ead88916f8876621538">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#ab9b104be77a26be0384ae994ff42dcfe">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a7a8a99d2b0ccc1a4b2403c7c06de80af">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a6b38eb77f48558465a8aa08e08f9ccdb">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a9daf700f25b38e598542d9b3648138f3">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#ac1ad27ce280c65df1b2547a497cd2fd2">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#aeb73bddb79a5e771c18f0a4f0db131cb">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a7aeb7e02faf2c90e3b775f8a8aa58700">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#acad76def210a0f6f8d451b20499bed7e">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a961670e67b7caf44756f968c173e9cbc">cboard_Xpress</a>.</p>
 
 </div>
 </div>
@@ -1633,6 +1575,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="a04d3439ae1ce8786e548c85d378c32f7" name="a04d3439ae1ce8786e548c85d378c32f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d3439ae1ce8786e548c85d378c32f7">&#9670;&nbsp;</a></span>GetInputId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual unsigned short board::GetInputId </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the input ids numbers of names used in input map </p>
+
+<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a47f4760a960544c3ceafa373074d7c24">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#a90642f00b6cc5dcc236680c073f9d69e">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#aeef4509975c9a4af5fd32e0c1b5faf5b">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#aa03e2ce30f0b79bb1f83156c6c609a6a">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a7d0feb95b083a469a0b1a6fb45b0bcc0">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a1c211c73f6d7734de524134386faeb0f">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#aede44cdcc32bb15d901f696d898c000f">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#ae22cd0c4c179f99192d11689fae8b773">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a550cfbfdb72470be889fc2d45fc469c9">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a64404622984352a9e87a0f4fa869ef60">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a42d117c15eaf88d37a62f6f4dfb48fea">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a8240267d1c608c1c1d64346cd94b40ec">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#aa466aab8f8e860a36413bda1d8b02776">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a870b8977726aba5c91a863efb1175c1f">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a778dce485d55b5d7f9022899cd9f5e94">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#ab662c833bc06ae65734f4c605540190f">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a4f827addb9a964b80c84f5d240f1a143">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a2d1f710c388e491b68d7a03fadf726b2">cboard_Xpress</a>.</p>
+
+</div>
+</div>
 <a id="a7cf2409343e66c32e2da522b7b6ad75e" name="a7cf2409343e66c32e2da522b7b6ad75e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7cf2409343e66c32e2da522b7b6ad75e">&#9670;&nbsp;</a></span>GetName()</h2>
 
@@ -1659,7 +1631,37 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 <p>Get board name registered in PICSimLab. </p>
 
-<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a025ca22c6e885bdb12fbdca8074a67fe">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#aa07eccd1da7c53dc963eaded2eb81cb5">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#aa09a52e07b02fc1aa5f6498431309070">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a1fc895a492b24175367970e9123a2708">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#abca521f11daa7250e048ac3e2904647c">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a568d816e62ef4064456452cf3860b29c">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a7a40cfad046037f1eebaa8a9a5589cb7">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a036d9efb6df49de94482a8197669236e">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a34369e1673ea1751830d856c7d7797c2">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a962618371cfc60c6970a987a03b538a6">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#acad932bb5a6d74807ebfec6fdb8b9b9f">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a74de60c6ffdeb4da35c2d27c0e831159">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a30560da7510378d08701a83bd61c396f">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a78c313e07ac6481a203279b3650c9ca7">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#adc917559b3ef48d2d6685259d584a409">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#aa1a45aef8de3cd62d63714d6e5cd6a95">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a414166b9767e36c5c6f4091dcbf35851">cboard_Xpress</a>.</p>
+<p>Implemented in <a class="el" href="classcboard___arduino___mega.html#ad0a259f9b07d7abc20fe1a18627d5d19">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___nano.html#abd5be51237ac45a3492463d7c4c24641">cboard_Arduino_Nano</a>, <a class="el" href="classcboard___arduino___uno.html#a025ca22c6e885bdb12fbdca8074a67fe">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#aa07eccd1da7c53dc963eaded2eb81cb5">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#aa09a52e07b02fc1aa5f6498431309070">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a1fc895a492b24175367970e9123a2708">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#abca521f11daa7250e048ac3e2904647c">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a568d816e62ef4064456452cf3860b29c">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a7a40cfad046037f1eebaa8a9a5589cb7">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a036d9efb6df49de94482a8197669236e">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a34369e1673ea1751830d856c7d7797c2">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a962618371cfc60c6970a987a03b538a6">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#acad932bb5a6d74807ebfec6fdb8b9b9f">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a74de60c6ffdeb4da35c2d27c0e831159">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a30560da7510378d08701a83bd61c396f">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a78c313e07ac6481a203279b3650c9ca7">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#adc917559b3ef48d2d6685259d584a409">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#aa1a45aef8de3cd62d63714d6e5cd6a95">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a414166b9767e36c5c6f4091dcbf35851">cboard_Xpress</a>.</p>
+
+</div>
+</div>
+<a id="a040f855588bbd4a94e33d2c45f2c03f5" name="a040f855588bbd4a94e33d2c45f2c03f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a040f855588bbd4a94e33d2c45f2c03f5">&#9670;&nbsp;</a></span>GetOutputId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual unsigned short board::GetOutputId </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the output ids numbers of names used in output map </p>
+
+<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a27c536bd56ea9853543deee121668697">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#a5f2a4af5a35840bfe54df9dbd4185d1a">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#aff2db808c4543a32a7f1505980267523">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a7c6b78887e493eff734585b369a26ea9">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a8bfe0bab0efb9affa03a6e993f5cfefb">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#aff8355de624704694d0f0962e536ef60">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#afe4582b382dc7403a35041219e04482d">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a2afcec563e3ecaeeaa5ec36e8e0ef110">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#ae30d4fc29e087aab90e78ca6e472a24c">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a3ca54569d0c5aac53fe5da98e4fff7b1">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#ab7097b9e1650877cd090996829ece990">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#acb3f972599094f00cac503fcebf67e8a">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a4c5ab5341a203aac20c84f7519acd46f">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a99605f65ae5f4a210d57113fa805194e">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#adb0f5c04cf664f1e9f43168f3a0ceb2d">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a82bd547df5b0fa3b720db67531294faf">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a45344aca415bbee845a736339614dd37">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a7109784b8c0086abd95e719ff9c07505">cboard_Xpress</a>.</p>
 
 </div>
 </div>
@@ -1728,7 +1730,7 @@ Here is the call graph for this function:</div>
 
 <p>Return a list of supported microcontrollers. </p>
 
-<p>Implemented in <a class="el" href="classcboard___arduino___uno.html#a959337b1643bd28c1fe53b88ef686aca">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#aa319164eac6eaf456c87ff875961f1b2">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a33ea917f3ead3f9d21278f48a38efb84">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a21f84b762d3fd6ec87ba223e7aff1b34">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a27a31dd30bb34793f4a888ae1afef828">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a5f8ee1c07f1f511124d4d60abe4a3164">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a34b38acd07b6fc49e6dfa7bdc94be810">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a03226c0c78923f99495def8f5872c2a3">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a46326477ef0c9d31ed97a42a8954c38c">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a13ff2cad081d68d61ef4f90f415c3b05">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a6335af59af578aa7c2d4f7aae6030bd0">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#aabde8978cad7a8c223080842b80328c1">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#acfaeffe049345846dd1e2a7272b8a5c4">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#ad1735862aa1433902686e04433db6278">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a7b8fe5c21ff36153c47542f9f7212d51">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a33753e8b1792b3a3ac96ee37225383ca">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a4480cffe3edbb3d1fd648ba0a00f48f9">cboard_Xpress</a>.</p>
+<p>Implemented in <a class="el" href="classcboard___arduino___mega.html#a0e7969988eb2e06dcc17f1214143c50f">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___uno.html#a959337b1643bd28c1fe53b88ef686aca">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#aa319164eac6eaf456c87ff875961f1b2">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a33ea917f3ead3f9d21278f48a38efb84">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a21f84b762d3fd6ec87ba223e7aff1b34">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a27a31dd30bb34793f4a888ae1afef828">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a5f8ee1c07f1f511124d4d60abe4a3164">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a34b38acd07b6fc49e6dfa7bdc94be810">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a03226c0c78923f99495def8f5872c2a3">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a46326477ef0c9d31ed97a42a8954c38c">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a13ff2cad081d68d61ef4f90f415c3b05">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a6335af59af578aa7c2d4f7aae6030bd0">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#aabde8978cad7a8c223080842b80328c1">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#acfaeffe049345846dd1e2a7272b8a5c4">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#ad1735862aa1433902686e04433db6278">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a7b8fe5c21ff36153c47542f9f7212d51">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a33753e8b1792b3a3ac96ee37225383ca">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a4480cffe3edbb3d1fd648ba0a00f48f9">cboard_Xpress</a>.</p>
 
 </div>
 </div>
@@ -2444,7 +2446,7 @@ Here is the call graph for this function:</div>
 
 <p>Called whe configuration file load preferences. </p>
 
-<p>Reimplemented in <a class="el" href="classcboard___arduino___uno.html#a483f1ddce3141f9a6f0a8816d37ba841">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#a901b5aabf9da7bd34203df531255bf59">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a850802873e037974e1bd77e4fc9e0df8">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a0fbd8ca71e3e225ae95f1b46838a06b9">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a63a04c829b2770c4c2b1070699dd0032">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#ab1e3a8d8fd762cb2e59eb277ca16efd7">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a2fd59f0c8bef534376782578b7f1dfb4">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#ae0c889ee1ddcda790202d47a606d79de">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a64b3f1ca335c20aa30e6c5dd83ded209">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a5b8773f87af1e5e3460e800b9ddf51a8">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a0151c892c5f0470971da1b97604f60c0">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a60ff90545cf10b3ae48818d4bfb67f53">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#aa224f0893934ce82db986f5c7dda4b3c">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a1bd8203175c58022c8fe14f346218c51">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a21f8ca50dbb5d4392cc15f64d62f5226">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a79c9de69492d329b3849010fe2761fa4">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a699e03d498d7274fa36a87472e3d6a19">cboard_Xpress</a>.</p>
+<p>Reimplemented in <a class="el" href="classcboard___arduino___mega.html#a7497fb2503682ce47db28d77b0422709">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___nano.html#a424c60fb301a6329ae1b1c7cec3bc921">cboard_Arduino_Nano</a>, <a class="el" href="classcboard___arduino___uno.html#a483f1ddce3141f9a6f0a8816d37ba841">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#a901b5aabf9da7bd34203df531255bf59">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a850802873e037974e1bd77e4fc9e0df8">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#a0fbd8ca71e3e225ae95f1b46838a06b9">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a63a04c829b2770c4c2b1070699dd0032">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#ab1e3a8d8fd762cb2e59eb277ca16efd7">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a2fd59f0c8bef534376782578b7f1dfb4">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#ae0c889ee1ddcda790202d47a606d79de">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a64b3f1ca335c20aa30e6c5dd83ded209">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a5b8773f87af1e5e3460e800b9ddf51a8">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a0151c892c5f0470971da1b97604f60c0">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a60ff90545cf10b3ae48818d4bfb67f53">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#aa224f0893934ce82db986f5c7dda4b3c">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a1bd8203175c58022c8fe14f346218c51">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a21f8ca50dbb5d4392cc15f64d62f5226">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a79c9de69492d329b3849010fe2761fa4">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#a699e03d498d7274fa36a87472e3d6a19">cboard_Xpress</a>.</p>
 
 </div>
 </div>
@@ -2624,7 +2626,7 @@ Here is the call graph for this function:</div>
 
 <p>Called to save board preferences in configuration file. </p>
 
-<p>Reimplemented in <a class="el" href="classcboard___arduino___uno.html#af60fb84ffc93df467547a81a4b2962ad">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#a1603f137313105b52b2038b4ab4ac59a">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#adbe637a84e684f6a3da4db5f8e7a3d5b">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#ada5486363baa4aaefdc7253cdf5b9ca4">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#ab06a360c4a5a9f20dd5d7e6296ceec61">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a1817a9acd79e065f5ab880d99b3970a5">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a027dbeb8f117a64b63b27c5bf99b2c56">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#ac043f513bdcb7961d3b4b38828ccbacb">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#af24e596a584941bacee9813e40810105">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a5414f6fa040603600dfdda15e0e5bfe3">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a05e0cdbe0bc8a4117b1b455f8c1cda3e">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a58d2eb96517fca29eed5fb11e6cf2028">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a40291502e620c7f8004bb1b83c535473">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a9208b5fc4573014ae148ea65c8ebba3e">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#acbd4ed62713754122720b618e927562b">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a902b38c8c7b5913fb8081c18547a2a61">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#aff2ba49733ed237cecf156b691bf00d0">cboard_Xpress</a>.</p>
+<p>Reimplemented in <a class="el" href="classcboard___arduino___mega.html#a6d37ea3b003c2ee642a6abb5ab10144a">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___nano.html#a9bf8888ef55e80719d12d24afc70bdb3">cboard_Arduino_Nano</a>, <a class="el" href="classcboard___arduino___uno.html#af60fb84ffc93df467547a81a4b2962ad">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#a1603f137313105b52b2038b4ab4ac59a">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#adbe637a84e684f6a3da4db5f8e7a3d5b">cboard_Breadboard</a>, <a class="el" href="classcboard___dev_kit_c.html#ada5486363baa4aaefdc7253cdf5b9ca4">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#ab06a360c4a5a9f20dd5d7e6296ceec61">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a1817a9acd79e065f5ab880d99b3970a5">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a027dbeb8f117a64b63b27c5bf99b2c56">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#ac043f513bdcb7961d3b4b38828ccbacb">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#af24e596a584941bacee9813e40810105">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a5414f6fa040603600dfdda15e0e5bfe3">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a05e0cdbe0bc8a4117b1b455f8c1cda3e">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a58d2eb96517fca29eed5fb11e6cf2028">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a40291502e620c7f8004bb1b83c535473">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x</a>, <a class="el" href="classcboard___curiosity.html#a9208b5fc4573014ae148ea65c8ebba3e">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#acbd4ed62713754122720b618e927562b">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___remote_t_c_p.html#a902b38c8c7b5913fb8081c18547a2a61">cboard_RemoteTCP</a>, and <a class="el" href="classcboard___xpress.html#aff2ba49733ed237cecf156b691bf00d0">cboard_Xpress</a>.</p>
 
 </div>
 </div>

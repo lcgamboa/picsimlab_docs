@@ -1,5 +1,5 @@
 <map id="cboard_uCboard::SetScale" name="cboard_uCboard::SetScale">
 <area shape="rect" id="node1" title="Set board draw scale." alt="" coords="5,31,196,57"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="247,5,443,32"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="246,5,443,32"/>
 <area shape="rect" id="node3" href="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47" title="board microcontroller pin count" alt="" coords="244,56,445,83"/>
 </map>

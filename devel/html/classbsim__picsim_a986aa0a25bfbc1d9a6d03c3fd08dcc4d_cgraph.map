@@ -1,4 +1,4 @@
 <map id="bsim_picsim::DebugLoop" name="bsim_picsim::DebugLoop">
 <area shape="rect" id="node1" title="debug step (pooling)" alt="" coords="5,5,191,32"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="239,5,428,32"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="239,5,421,32"/>
 </map>

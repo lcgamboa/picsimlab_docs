@@ -1,7 +1,7 @@
 <map id="cpart_LCD_ssd1306::LoadImage" name="cpart_LCD_ssd1306::LoadImage">
 <area shape="rect" id="node1" title="Load Part Image." alt="" coords="5,23,163,65"/>
 <area shape="rect" id="node2" href="$classpart.html#a564a0462822da413d466a83d28e967df" title="Load Part Image." alt="" coords="211,31,339,57"/>
-<area shape="rect" id="node3" href="$classpart.html#acb4a5752560f9b0c399e7e8b2807bea3" title="Return the filename of part picture." alt="" coords="392,5,577,32"/>
-<area shape="rect" id="node5" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="387,56,583,83"/>
-<area shape="rect" id="node4" href="$classpart.html#acb5b16ba752183d4933d703279c8347a" title="Return the name of part." alt="" coords="631,5,749,32"/>
+<area shape="rect" id="node3" href="$classpart.html#acb4a5752560f9b0c399e7e8b2807bea3" title="Return the filename of part picture." alt="" coords="393,5,578,32"/>
+<area shape="rect" id="node5" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="387,56,584,83"/>
+<area shape="rect" id="node4" href="$classpart.html#a11157be17bfa9fd951a1fe1343a79195" title="Return the name of part." alt="" coords="632,5,751,32"/>
 </map>

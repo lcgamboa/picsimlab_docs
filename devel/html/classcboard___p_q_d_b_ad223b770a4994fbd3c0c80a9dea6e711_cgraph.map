@@ -1,6 +1,4 @@
 <map id="cboard_PQDB::Reset" name="cboard_PQDB::Reset">
-<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,42,160,69"/>
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,13,160,39"/>
 <area shape="rect" id="node2" href="$classcboard___p_q_d_b.html#a951416b94e7b5ebd298ff859c73f65ae" title="Register remote control variables." alt="" coords="208,5,431,47"/>
-<area shape="rect" id="node3" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="247,71,391,98"/>
-<area shape="rect" id="node4" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="479,71,572,98"/>
 </map>

@@ -1,6 +1,4 @@
 <map id="cboard_PICGenios::Reset" name="cboard_PICGenios::Reset">
-<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,42,189,69"/>
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,13,189,39"/>
 <area shape="rect" id="node2" href="$classcboard___p_i_c_genios.html#ab91edb99431b345631a7872197c9da36" title="Register remote control variables." alt="" coords="237,5,439,47"/>
-<area shape="rect" id="node3" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="266,71,410,98"/>
-<area shape="rect" id="node4" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="487,71,580,98"/>
 </map>

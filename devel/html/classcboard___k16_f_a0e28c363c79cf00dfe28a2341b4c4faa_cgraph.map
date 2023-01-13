@@ -1,4 +1,4 @@
 <map id="cboard_K16F::Draw" name="cboard_K16F::Draw">
 <area shape="rect" id="node1" title="Called ever 100ms to draw board." alt="" coords="5,5,152,32"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="200,5,389,32"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="200,5,383,32"/>
 </map>

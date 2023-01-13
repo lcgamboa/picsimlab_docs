@@ -1,5 +1,5 @@
 <map id="cpart_gamepad_an::Reset" name="cpart_gamepad_an::Reset">
 <area shape="rect" id="node1" title="Reset part status." alt="" coords="5,31,196,57"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="244,5,412,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="263,56,393,83"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="244,5,413,32"/>
+<area shape="rect" id="node3" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="264,56,393,83"/>
 </map>

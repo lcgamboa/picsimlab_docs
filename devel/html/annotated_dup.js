@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "_info", "struct__info.html", null ],
+    [ "adxl345_t", "structadxl345__t.html", null ],
     [ "avr_gdb_t", "structavr__gdb__t.html", null ],
     [ "avr_gdb_watchpoints_t", "structavr__gdb__watchpoints__t.html", "structavr__gdb__watchpoints__t" ],
     [ "bitbang_i2c_t", "structbitbang__i2c__t.html", null ],
@@ -15,6 +16,8 @@ var annotated_dup =
     [ "bsim_simavr", "classbsim__simavr.html", "classbsim__simavr" ],
     [ "bsim_ucsim", "classbsim__ucsim.html", "classbsim__ucsim" ],
     [ "callbacks_t", "structcallbacks__t.html", null ],
+    [ "cboard_Arduino_Mega", "classcboard___arduino___mega.html", "classcboard___arduino___mega" ],
+    [ "cboard_Arduino_Nano", "classcboard___arduino___nano.html", "classcboard___arduino___nano" ],
     [ "cboard_Arduino_Uno", "classcboard___arduino___uno.html", "classcboard___arduino___uno" ],
     [ "cboard_Blue_Pill", "classcboard___blue___pill.html", "classcboard___blue___pill" ],
     [ "cboard_Breadboard", "classcboard___breadboard.html", "classcboard___breadboard" ],
@@ -39,6 +42,7 @@ var annotated_dup =
     [ "COscilloscope", "class_c_oscilloscope.html", "class_c_oscilloscope" ],
     [ "cpart_7s_display", "classcpart__7s__display.html", "classcpart__7s__display" ],
     [ "cpart_7s_display_dec", "classcpart__7s__display__dec.html", "classcpart__7s__display__dec" ],
+    [ "cpart_ADXL345", "classcpart___a_d_x_l345.html", "classcpart___a_d_x_l345" ],
     [ "cpart_bmp180", "classcpart__bmp180.html", "classcpart__bmp180" ],
     [ "cpart_bmp280", "classcpart__bmp280.html", "classcpart__bmp280" ],
     [ "cpart_Buzzer", "classcpart___buzzer.html", "classcpart___buzzer" ],
@@ -123,6 +127,7 @@ var annotated_dup =
     [ "output_t", "structoutput__t.html", "structoutput__t" ],
     [ "part", "classpart.html", "classpart" ],
     [ "part_desc", "structpart__desc.html", null ],
+    [ "PCWProp", "struct_p_c_w_prop.html", null ],
     [ "QEMUTimer", "struct_q_e_m_u_timer.html", null ],
     [ "rgb_color", "structrgb__color.html", null ],
     [ "rtc_ds1307_t", "structrtc__ds1307__t.html", null ],

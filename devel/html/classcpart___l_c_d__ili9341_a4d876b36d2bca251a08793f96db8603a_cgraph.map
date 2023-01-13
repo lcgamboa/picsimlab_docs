@@ -1,0 +1,4 @@
+<map id="cpart_LCD_ili9341::DrawOutput" name="cpart_LCD_ili9341::DrawOutput">
+<area shape="rect" id="node1" title="Called to draw every output." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="200,13,391,39"/>
+</map>

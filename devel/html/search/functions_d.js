@@ -1,10 +1,23 @@
 var searchData=
 [
-  ['timerchange_5fms_0',['TimerChange_ms',['../classboard.html#a6eb7c60eab4614f79a0b1f063b0fbbb9',1,'board']]],
-  ['timerchange_5fus_1',['TimerChange_us',['../classboard.html#a5415d02d3f5a07e81ffdaf419b02870a',1,'board']]],
-  ['timerget_5fns_2',['TimerGet_ns',['../classboard.html#aa24305d1c783b6e093c85df82896c367',1,'board']]],
-  ['timerregister_5fms_3',['TimerRegister_ms',['../classboard.html#a50673bff5ade23021ce836e876609d8a',1,'board']]],
-  ['timerregister_5fus_4',['TimerRegister_us',['../classboard.html#a3f6266c777b2ebad98116753ba24ec0f',1,'board']]],
-  ['timersetstate_5',['TimerSetState',['../classboard.html#a4b3ef9bc2ce10eb6e3ee00882aa41cb6',1,'board']]],
-  ['timerunregister_6',['TimerUnregister',['../classboard.html#aca18038dc58dcf869e9e954037b1542c',1,'board']]]
+  ['saveprefs_0',['SavePrefs',['../class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6',1,'CPICSimLab']]],
+  ['setawaysupdate_1',['SetAwaysUpdate',['../classpart.html#a7f56a107a2ff894aff3ae2836910e654',1,'part']]],
+  ['setdebugport_2',['SetDebugPort',['../class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1',1,'CPICSimLab']]],
+  ['setdebugstatus_3',['SetDebugStatus',['../class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230',1,'CPICSimLab']]],
+  ['setdebugtype_4',['SetDebugType',['../class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22',1,'CPICSimLab']]],
+  ['setid_5',['SetId',['../classpart.html#a28e6c02a001c633b76caefe61b666f1a',1,'part::SetId()'],['../classcpart__vterm.html#a0df7988beaa23bd25a9161c0753e995e',1,'cpart_vterm::SetId()']]],
+  ['setmcupwr_6',['SetMcuPwr',['../class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6',1,'CPICSimLab']]],
+  ['setmcurst_7',['SetMcuRst',['../class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f',1,'CPICSimLab']]],
+  ['setorientation_8',['SetOrientation',['../classpart.html#a2e5becd7108e8fab479a0a47a013c460',1,'part']]],
+  ['setprocessorname_9',['SetProcessorName',['../classboard.html#a1a7ce470f4eb65fd0ca9ca52993be223',1,'board']]],
+  ['setremotecport_10',['SetRemotecPort',['../class_c_p_i_c_sim_lab.html#a3a649402f0a23e6a7a94c3fc6997761b',1,'CPICSimLab']]],
+  ['setsample_11',['SetSample',['../class_c_oscilloscope.html#a4455bcb15a36ee7a8f2e8a6c2befea9e',1,'COscilloscope']]],
+  ['setscale_12',['SetScale',['../classpart.html#ab03241df923fde44292d847d034af546',1,'part::SetScale()'],['../classcboard___breadboard.html#a5dd8cd0407041b7b0ba7e724f7f7e184',1,'cboard_Breadboard::SetScale()'],['../classcboard__u_cboard.html#a5e024c3bd3123150650d80d932c575cd',1,'cboard_uCboard::SetScale()'],['../classcboard___p_i_c_genios.html#aaa7c243ee17a5cc5e845b5bfae4dcc02',1,'cboard_PICGenios::SetScale()'],['../classcboard___mc_lab2.html#a8175622f76c67ccf0bfdc1df176275c2',1,'cboard_McLab2::SetScale()'],['../classcboard__gpboard.html#a33dff041aa5585b192c7868b5afb0f01',1,'cboard_gpboard::SetScale()'],['../classboard.html#ab1476dfd91c60ad73a3fadacb9e730a0',1,'board::SetScale()']]],
+  ['setupdate_13',['SetUpdate',['../classpart.html#a5898264d532b99966bb50ca246a1de01',1,'part']]],
+  ['setuseoscilloscope_14',['SetUseOscilloscope',['../classboard.html#a56aecb1eb09bd4677f37b0a52061fadd',1,'board']]],
+  ['setusespareparts_15',['SetUseSpareParts',['../classboard.html#aed10607a8c6d8357eb52c76dc9eb2a1f',1,'board']]],
+  ['setx_16',['SetX',['../classpart.html#aeb1dcec741ed0694dc2c779d7e2de2d1',1,'part']]],
+  ['sety_17',['SetY',['../classpart.html#a250abec3d9e515980bc929be4f2b79c4',1,'part']]],
+  ['startthread_18',['StartThread',['../classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e',1,'board']]],
+  ['stop_19',['Stop',['../classcpart___buzzer.html#a42cb0ca106e6e13df1ebb62cd0b52d1e',1,'cpart_Buzzer::Stop()'],['../classpart.html#a411d17e2445b3fd5b161b007ed18b054',1,'part::Stop()']]]
 ];

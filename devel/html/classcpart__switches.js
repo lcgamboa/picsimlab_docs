@@ -1,12 +1,11 @@
 var classcpart__switches =
 [
     [ "ConfigurePropertiesWindow", "classcpart__switches.html#adef2a71bb7b786e3d6ef7a8c6a65f911", null ],
-    [ "Draw", "classcpart__switches.html#a4d053028054ffd31178e3c0a7c440ed8", null ],
-    [ "EvMouseButtonPress", "classcpart__switches.html#a6152daad6e1e0fecec86235cbdad60f8", null ],
-    [ "get_in_id", "classcpart__switches.html#a234ff2b2d33ddc52db3e3d0faee646cd", null ],
-    [ "get_out_id", "classcpart__switches.html#a3fb56572a83283ade39d34a929d53a25", null ],
+    [ "DrawOutput", "classcpart__switches.html#aa150be68f105e38d11b3791fd9ce487c", null ],
     [ "GetAboutInfo", "classcpart__switches.html#ad17410cf596b6859f7fcf56d6ba064db", null ],
-    [ "GetName", "classcpart__switches.html#a3056e3e7359fc1f322e8adb54878d5bc", null ],
+    [ "GetInputId", "classcpart__switches.html#ac693931fa30392371d2d20750ef5c09c", null ],
+    [ "GetOutputId", "classcpart__switches.html#ae02f9aed892c43b9e807a7ac427b2e42", null ],
+    [ "OnMouseButtonPress", "classcpart__switches.html#a058215ca313a94ee12d138a9f8cfd9f9", null ],
     [ "PreProcess", "classcpart__switches.html#a8ee561f284a6bfbb5fb7980a91c30b2f", null ],
     [ "Process", "classcpart__switches.html#a3bea7e2750258fbfd7c234512e8f00ee", null ],
     [ "ReadPreferences", "classcpart__switches.html#a52b55d987ec8a561fc22f5edf406ee79", null ],

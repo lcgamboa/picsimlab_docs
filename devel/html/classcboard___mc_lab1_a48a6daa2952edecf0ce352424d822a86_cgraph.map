@@ -1,10 +1,8 @@
 <map id="cboard_McLab1::EvMouseButtonPress" name="cboard_McLab1::EvMouseButtonPress">
 <area shape="rect" id="node1" title="Event on the board." alt="" coords="5,74,239,115"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="287,5,476,32"/>
-<area shape="rect" id="node3" href="$classcboard___mc_lab1.html#aff3fa21f866c4e236056bd996ab59ae1" title="Reset board status." alt="" coords="297,56,465,83"/>
-<area shape="rect" id="node7" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="288,107,475,133"/>
-<area shape="rect" id="node8" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="291,157,471,184"/>
-<area shape="rect" id="node4" href="$classcboard___mc_lab1.html#a26e733832c8eb77a1ec1d9e6f460df0f" title="Register remote control variables." alt="" coords="524,19,760,61"/>
-<area shape="rect" id="node5" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="570,85,714,112"/>
-<area shape="rect" id="node6" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="808,85,901,112"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="287,5,469,32"/>
+<area shape="rect" id="node3" href="$classcboard___mc_lab1.html#aff3fa21f866c4e236056bd996ab59ae1" title="Reset board status." alt="" coords="294,56,462,83"/>
+<area shape="rect" id="node5" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="288,107,468,133"/>
+<area shape="rect" id="node6" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="289,157,467,184"/>
+<area shape="rect" id="node4" href="$classcboard___mc_lab1.html#a26e733832c8eb77a1ec1d9e6f460df0f" title="Register remote control variables." alt="" coords="517,49,753,90"/>
 </map>

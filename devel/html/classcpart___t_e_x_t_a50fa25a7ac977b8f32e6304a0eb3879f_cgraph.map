@@ -1,5 +1,4 @@
 <map id="cpart_TEXT::ReadPreferences" name="cpart_TEXT::ReadPreferences">
-<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,42,217,69"/>
-<area shape="rect" id="node2" href="$classcpart___t_e_x_t.html#a3f848922559a638fff16c04bd3f9ca2a" title="Register remote control variables." alt="" coords="265,5,472,47"/>
-<area shape="rect" id="node3" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="322,71,415,98"/>
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,5,217,32"/>
+<area shape="rect" id="node2" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="265,5,359,32"/>
 </map>

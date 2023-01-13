@@ -1,6 +1,8 @@
 var dir_44b8a28b46c46acb1deed65f25aca5e6 =
 [
     [ "board.h", "board_8h_source.html", null ],
+    [ "board_Arduino_Mega.h", "board___arduino___mega_8h_source.html", null ],
+    [ "board_Arduino_Nano.h", "board___arduino___nano_8h_source.html", null ],
     [ "board_Arduino_Uno.h", "board___arduino___uno_8h_source.html", null ],
     [ "board_Blue_Pill.h", "board___blue___pill_8h_source.html", null ],
     [ "board_Breadboard.h", "board___breadboard_8h_source.html", null ],

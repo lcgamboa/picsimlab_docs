@@ -1,15 +1,13 @@
 <map id="cboard_Breadboard::EvMouseButtonRelease" name="cboard_Breadboard::EvMouseButtonRelease">
-<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,150,181,191"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#add73d25c4889d4e01489e335b509edb7" title="Retunr if microcontroller reset pin is enabled." alt="" coords="231,69,414,96"/>
-<area shape="rect" id="node3" href="$classcboard___breadboard.html#a6f71b61ad3ad0f2a660e7760b83b8aa6" title="Reset board status." alt="" coords="245,121,401,162"/>
-<area shape="rect" id="node12" href="$class_c_p_window1.html#a8b2e0baf9fd9364d618f55dc943dc06c" title="Set the power status of microcontroller ON/OFF." alt="" coords="229,187,416,213"/>
-<area shape="rect" id="node13" href="$class_c_p_window1.html#adceb4216c49f6a8cbd69c1fd0d22720b" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="233,237,413,264"/>
-<area shape="rect" id="node4" href="$classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="464,49,620,90"/>
-<area shape="rect" id="node7" href="$classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="464,121,620,162"/>
-<area shape="rect" id="node10" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="470,200,614,227"/>
-<area shape="rect" id="node5" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="675,5,836,32"/>
-<area shape="rect" id="node6" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="674,56,837,83"/>
-<area shape="rect" id="node8" href="$classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96" title="board microcontroller set vcc" alt="" coords="669,107,841,133"/>
-<area shape="rect" id="node9" href="$classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0" title="board microcontroller set vcc" alt="" coords="668,157,843,184"/>
-<area shape="rect" id="node11" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="709,208,802,235"/>
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,106,181,147"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18" title="Retunr if microcontroller reset pin is enabled." alt="" coords="230,25,409,52"/>
+<area shape="rect" id="node3" href="$classcboard___breadboard.html#a6f71b61ad3ad0f2a660e7760b83b8aa6" title="Reset board status." alt="" coords="241,77,397,118"/>
+<area shape="rect" id="node10" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="229,143,409,169"/>
+<area shape="rect" id="node11" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="231,193,408,220"/>
+<area shape="rect" id="node4" href="$classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="457,45,613,86"/>
+<area shape="rect" id="node7" href="$classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="457,110,613,151"/>
+<area shape="rect" id="node5" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="668,5,829,32"/>
+<area shape="rect" id="node6" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="667,56,830,83"/>
+<area shape="rect" id="node8" href="$classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96" title="board microcontroller set vcc" alt="" coords="663,113,835,140"/>
+<area shape="rect" id="node9" href="$classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0" title="board microcontroller set vcc" alt="" coords="661,164,836,191"/>
 </map>

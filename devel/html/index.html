@@ -91,7 +91,7 @@ Introduction</h1>
 <h1><a class="anchor" id="partex"></a>
 Part example</h1>
 <h2><a class="anchor" id="pinc"></a>
-part_servo.h</h2>
+output_step.h</h2>
 <div class="fragment"><div class="line"><span class="comment">/* ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   PICsimLab - PIC laboratory simulator</span></div>
@@ -117,71 +117,67 @@ part_servo.h</h2>
 <div class="line"><span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><span class="comment">   ######################################################################## */</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#ifndef PART_SERVO_H</span></div>
-<div class="line"><span class="preprocessor">#define PART_SERVO_H</span></div>
+<div class="line"><span class="preprocessor">#ifndef PART_STEP_H</span></div>
+<div class="line"><span class="preprocessor">#define PART_STEP_H</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;lxrad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;part.h&quot;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#define PART_SERVO_Name &quot;Servo Motor&quot;</span></div>
+<div class="line"><span class="preprocessor">#define PART_STEP_Name &quot;Step Motor&quot;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">class </span><a class="code hl_class" href="classcpart__servo.html">cpart_servo</a> : <span class="keyword">public</span> <a class="code hl_class" href="classpart.html">part</a> {</div>
+<div class="line"><span class="keyword">class </span><a class="code hl_class" href="classcpart__step.html">cpart_step</a> : <span class="keyword">public</span> <a class="code hl_class" href="classpart.html">part</a> {</div>
 <div class="line"><span class="keyword">public</span>:</div>
-<div class="line">    lxString <a class="code hl_function" href="classcpart__servo.html#a369e48b1d7406e0aa2364c0aef1c9e96">GetName</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> lxT(PART_SERVO_Name); };</div>
-<div class="line">    lxString <a class="code hl_function" href="classcpart__servo.html#ac842a5c8444381ca1bf23468403ce549">GetAboutInfo</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;L.C. Gamboa \n &lt;lcgamboa@yahoo.com&gt;&quot;</span>); };</div>
+<div class="line">    lxString <a class="code hl_function" href="classcpart__step.html#a6a7cf5e9cf0292d04509374717d2cccb">GetAboutInfo</a>(<span class="keywordtype">void</span>)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> lxT(<span class="stringliteral">&quot;L.C. Gamboa \n &lt;lcgamboa@yahoo.com&gt;&quot;</span>); };</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_function" href="classcpart__servo.html#a38f5b70c1f63626da3951a5ce57bc16f">cpart_servo</a>(<span class="keywordtype">unsigned</span> x, <span class="keywordtype">unsigned</span> y);</div>
+<div class="line">    <a class="code hl_function" href="classcpart__step.html#adf52e27da153cb8c261a7366fcbce73b">cpart_step</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> x, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> y, <span class="keyword">const</span> <span class="keywordtype">char</span>* name, <span class="keyword">const</span> <span class="keywordtype">char</span>* type);</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_function" href="classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a">~cpart_servo</a>(<span class="keywordtype">void</span>);</div>
+<div class="line">    <a class="code hl_function" href="classcpart__step.html#a91a0941165fa7531f44c7b74321533f3">~cpart_step</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#afb87939ab462851e162586d40991515c">Draw</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a774812d1ea393ac0328de09efbe97490">Process</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376">PostProcess</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a">ConfigurePropertiesWindow</a>(CPWindow* WProp) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a1eac73056884d0a33e66bb850e4827a3">ReadPropertiesWindow</a>(CPWindow* WProp) <span class="keyword">override</span>;</div>
-<div class="line">    lxString <a class="code hl_function" href="classcpart__servo.html#a4a16d8728aa01dc94f0b544d6b8aace0">WritePreferences</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a37bfdfaf3fadd46d34338be0a6ca34f7">ReadPreferences</a>(lxString value) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a4cd02691744179ceeaeaedad1f8fd41a">LoadImage</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d">get_in_id</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3">get_out_id</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a406716b623a2635c48eefe7630a2d8c9">DrawOutput</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> index) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a19c45dc044f0d8484d775a5da8fa95ec">PreProcess</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a6892916acaf8198565079b952c61d846">Process</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#ae9c71fcf6de5804a5483d8e42c3edf57">PostProcess</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a6a5fbbfff34b78315a3f012f62a08431">ConfigurePropertiesWindow</a>(CPWindow* WProp) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a623a12a47674716ed3e71a840b0b7cb8">ReadPropertiesWindow</a>(CPWindow* WProp) <span class="keyword">override</span>;</div>
+<div class="line">    lxString <a class="code hl_function" href="classcpart__step.html#a6226f0a8ad635fb166a37b52f3d8d912">WritePreferences</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#aae902fc383b486ab1b9d40b83aea65a3">ReadPreferences</a>(lxString value) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__step.html#a55297faec243e7aab6a1cb9a21031bc7">GetInputId</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__step.html#ab42f4bd7f3f11d659cdbe726323edc9a">GetOutputId</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">private</span>:</div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">RegisterRemoteControl</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
-<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>;  </div>
-<div class="line">    lxBitmap* <a class="code hl_variable" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a>;     </div>
-<div class="line">    <span class="keywordtype">float</span> <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>;              </div>
-<div class="line">    <span class="keywordtype">float</span> <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>;             </div>
-<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[2];     </div>
-<div class="line">    <span class="keywordtype">int</span> <a class="code hl_variable" href="classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755">time</a>;                 </div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a9023bfe76e703c10930a713591165743">RegisterRemoteControl</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[4];   </div>
+<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[1];  </div>
+<div class="line">    <span class="keywordtype">float</span> steps;</div>
+<div class="line">    <span class="keywordtype">float</span> angle;</div>
+<div class="line">    <span class="keywordtype">int</span> input[2];</div>
+<div class="line">    <span class="keywordtype">int</span> turns;</div>
+<div class="line">    lxColor color1;</div>
+<div class="line">    lxColor color2;</div>
 <div class="line">    lxFont font;</div>
 <div class="line">};</div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#endif </span><span class="comment">/* PART_SERVO */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclasscpart__servo_html"><div class="ttname"><a href="classcpart__servo.html">cpart_servo</a></div><div class="ttdoc">servo motor part class</div><div class="ttdef"><b>Definition:</b> part_servo.h:39</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a0af2e1168aeb456ba1f6a0a1511c1019"><div class="ttname"><a href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">cpart_servo::angle</a></div><div class="ttdeci">float angle</div><div class="ttdoc">angle of shaft</div><div class="ttdef"><b>Definition:</b> part_servo.h:71</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a143b73817ed78ff25408bd0eec5f4755"><div class="ttname"><a href="classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755">cpart_servo::time</a></div><div class="ttdeci">int time</div><div class="ttdoc">pulse time</div><div class="ttdef"><b>Definition:</b> part_servo.h:74</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a1eac73056884d0a33e66bb850e4827a3"><div class="ttname"><a href="classcpart__servo.html#a1eac73056884d0a33e66bb850e4827a3">cpart_servo::ReadPropertiesWindow</a></div><div class="ttdeci">void ReadPropertiesWindow(CPWindow *WProp) override</div><div class="ttdoc">Called when properties window close.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:199</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a22893b0e5a587b655f947d0450964303"><div class="ttname"><a href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">cpart_servo::angle_</a></div><div class="ttdeci">float angle_</div><div class="ttdoc">old angle of shaft</div><div class="ttdef"><b>Definition:</b> part_servo.h:72</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a369e48b1d7406e0aa2364c0aef1c9e96"><div class="ttname"><a href="classcpart__servo.html#a369e48b1d7406e0aa2364c0aef1c9e96">cpart_servo::GetName</a></div><div class="ttdeci">lxString GetName(void) override</div><div class="ttdoc">Return the name of part.</div><div class="ttdef"><b>Definition:</b> part_servo.h:41</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a37bfdfaf3fadd46d34338be0a6ca34f7"><div class="ttname"><a href="classcpart__servo.html#a37bfdfaf3fadd46d34338be0a6ca34f7">cpart_servo::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(lxString value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:172</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a38f5b70c1f63626da3951a5ce57bc16f"><div class="ttname"><a href="classcpart__servo.html#a38f5b70c1f63626da3951a5ce57bc16f">cpart_servo::cpart_servo</a></div><div class="ttdeci">cpart_servo(unsigned x, unsigned y)</div><div class="ttdoc">constructor called once on part creation</div><div class="ttdef"><b>Definition:</b> part_servo.cc:34</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a4a16d8728aa01dc94f0b544d6b8aace0"><div class="ttname"><a href="classcpart__servo.html#a4a16d8728aa01dc94f0b544d6b8aace0">cpart_servo::WritePreferences</a></div><div class="ttdeci">lxString WritePreferences(void) override</div><div class="ttdoc">Called to save part preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:164</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a4a1e164fd0f4145fafe870f5f28f350a"><div class="ttname"><a href="classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a">cpart_servo::ConfigurePropertiesWindow</a></div><div class="ttdeci">void ConfigurePropertiesWindow(CPWindow *WProp) override</div><div class="ttdoc">Called to configure the properties window.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:181</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a4cd02691744179ceeaeaedad1f8fd41a"><div class="ttname"><a href="classcpart__servo.html#a4cd02691744179ceeaeaedad1f8fd41a">cpart_servo::LoadImage</a></div><div class="ttdeci">void LoadImage(void) override</div><div class="ttdoc">Load Part Image.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:204</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a5092323ea79d9f6152f9e5eaf65f7ee7"><div class="ttname"><a href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">cpart_servo::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:177</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a57b0dc4b8c939e2ea78065a03dda0bd3"><div class="ttname"><a href="classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3">cpart_servo::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> part_servo.cc:154</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a5cd43fc2214c65bdfbac5291228f8376"><div class="ttname"><a href="classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376">cpart_servo::PostProcess</a></div><div class="ttdeci">void PostProcess(void) override</div><div class="ttdoc">Called every end of CPU process.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:129</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a5fa49b34102d782755dd5f5ef172f13d"><div class="ttname"><a href="classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d">cpart_servo::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> part_servo.cc:149</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a774812d1ea393ac0328de09efbe97490"><div class="ttname"><a href="classcpart__servo.html#a774812d1ea393ac0328de09efbe97490">cpart_servo::Process</a></div><div class="ttdeci">void Process(void) override</div><div class="ttdoc">Called every CPU step.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:102</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a840063c98f8a8635554d9f8a1e297181"><div class="ttname"><a href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">cpart_servo::in_</a></div><div class="ttdeci">unsigned char in_[2]</div><div class="ttdoc">input pin memory</div><div class="ttdef"><b>Definition:</b> part_servo.h:73</div></div>
-<div class="ttc" id="aclasscpart__servo_html_a9b4c8f6557bae63ba5645c4aeb31a519"><div class="ttname"><a href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">cpart_servo::BackGround</a></div><div class="ttdeci">lxBitmap * BackGround</div><div class="ttdoc">Background image.</div><div class="ttdef"><b>Definition:</b> part_servo.h:70</div></div>
-<div class="ttc" id="aclasscpart__servo_html_ac842a5c8444381ca1bf23468403ce549"><div class="ttname"><a href="classcpart__servo.html#ac842a5c8444381ca1bf23468403ce549">cpart_servo::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> part_servo.h:42</div></div>
-<div class="ttc" id="aclasscpart__servo_html_ac943dc8cf327494608d6540db5349760"><div class="ttname"><a href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">cpart_servo::input_pin</a></div><div class="ttdeci">unsigned char input_pin</div><div class="ttdoc">pulse input pin</div><div class="ttdef"><b>Definition:</b> part_servo.h:69</div></div>
-<div class="ttc" id="aclasscpart__servo_html_aec280c6ce5b18601e15231a2f3622e6a"><div class="ttname"><a href="classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a">cpart_servo::~cpart_servo</a></div><div class="ttdeci">~cpart_servo(void)</div><div class="ttdoc">destructor called once on part destruction</div><div class="ttdef"><b>Definition:</b> part_servo.cc:53</div></div>
-<div class="ttc" id="aclasscpart__servo_html_afb87939ab462851e162586d40991515c"><div class="ttname"><a href="classcpart__servo.html#afb87939ab462851e162586d40991515c">cpart_servo::Draw</a></div><div class="ttdeci">void Draw(void) override</div><div class="ttdoc">Called ever 100ms to draw part.</div><div class="ttdef"><b>Definition:</b> part_servo.cc:59</div></div>
-<div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:36</div></div>
+<div class="line"><span class="preprocessor">#endif </span><span class="comment">/* PART_STEP */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aclasscpart__step_html"><div class="ttname"><a href="classcpart__step.html">cpart_step</a></div><div class="ttdoc">step motor part class</div><div class="ttdef"><b>Definition:</b> output_step.h:39</div></div>
+<div class="ttc" id="aclasscpart__step_html_a19c45dc044f0d8484d775a5da8fa95ec"><div class="ttname"><a href="classcpart__step.html#a19c45dc044f0d8484d775a5da8fa95ec">cpart_step::PreProcess</a></div><div class="ttdeci">void PreProcess(void) override</div><div class="ttdoc">Called every start of CPU process.</div><div class="ttdef"><b>Definition:</b> output_step.cc:151</div></div>
+<div class="ttc" id="aclasscpart__step_html_a3da50407c2419060293a8a7d6da931fa"><div class="ttname"><a href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">cpart_step::input_pins</a></div><div class="ttdeci">unsigned char input_pins[4]</div><div class="ttdoc">pulse input pind</div><div class="ttdef"><b>Definition:</b> output_step.h:68</div></div>
+<div class="ttc" id="aclasscpart__step_html_a406716b623a2635c48eefe7630a2d8c9"><div class="ttname"><a href="classcpart__step.html#a406716b623a2635c48eefe7630a2d8c9">cpart_step::DrawOutput</a></div><div class="ttdeci">void DrawOutput(const unsigned int index) override</div><div class="ttdoc">Called to draw every output.</div><div class="ttdef"><b>Definition:</b> output_step.cc:66</div></div>
+<div class="ttc" id="aclasscpart__step_html_a55297faec243e7aab6a1cb9a21031bc7"><div class="ttname"><a href="classcpart__step.html#a55297faec243e7aab6a1cb9a21031bc7">cpart_step::GetInputId</a></div><div class="ttdeci">unsigned short GetInputId(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> output_step.cc:359</div></div>
+<div class="ttc" id="aclasscpart__step_html_a6226f0a8ad635fb166a37b52f3d8d912"><div class="ttname"><a href="classcpart__step.html#a6226f0a8ad635fb166a37b52f3d8d912">cpart_step::WritePreferences</a></div><div class="ttdeci">lxString WritePreferences(void) override</div><div class="ttdoc">Called to save part preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> output_step.cc:392</div></div>
+<div class="ttc" id="aclasscpart__step_html_a623a12a47674716ed3e71a840b0b7cb8"><div class="ttname"><a href="classcpart__step.html#a623a12a47674716ed3e71a840b0b7cb8">cpart_step::ReadPropertiesWindow</a></div><div class="ttdeci">void ReadPropertiesWindow(CPWindow *WProp) override</div><div class="ttdoc">Called when properties window close.</div><div class="ttdef"><b>Definition:</b> output_step.cc:418</div></div>
+<div class="ttc" id="aclasscpart__step_html_a6892916acaf8198565079b952c61d846"><div class="ttname"><a href="classcpart__step.html#a6892916acaf8198565079b952c61d846">cpart_step::Process</a></div><div class="ttdeci">void Process(void) override</div><div class="ttdoc">Called every CPU step.</div><div class="ttdef"><b>Definition:</b> output_step.cc:175</div></div>
+<div class="ttc" id="aclasscpart__step_html_a6a5fbbfff34b78315a3f012f62a08431"><div class="ttname"><a href="classcpart__step.html#a6a5fbbfff34b78315a3f012f62a08431">cpart_step::ConfigurePropertiesWindow</a></div><div class="ttdeci">void ConfigurePropertiesWindow(CPWindow *WProp) override</div><div class="ttdoc">Called to configure the properties window.</div><div class="ttdef"><b>Definition:</b> output_step.cc:410</div></div>
+<div class="ttc" id="aclasscpart__step_html_a6a7cf5e9cf0292d04509374717d2cccb"><div class="ttname"><a href="classcpart__step.html#a6a7cf5e9cf0292d04509374717d2cccb">cpart_step::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> output_step.h:41</div></div>
+<div class="ttc" id="aclasscpart__step_html_a7ee6c2cbf8b8fcf3757b8a4d999d5903"><div class="ttname"><a href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">cpart_step::output_pins</a></div><div class="ttdeci">unsigned char output_pins[1]</div><div class="ttdoc">pulse output pin</div><div class="ttdef"><b>Definition:</b> output_step.h:69</div></div>
+<div class="ttc" id="aclasscpart__step_html_a9023bfe76e703c10930a713591165743"><div class="ttname"><a href="classcpart__step.html#a9023bfe76e703c10930a713591165743">cpart_step::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> output_step.cc:406</div></div>
+<div class="ttc" id="aclasscpart__step_html_a91a0941165fa7531f44c7b74321533f3"><div class="ttname"><a href="classcpart__step.html#a91a0941165fa7531f44c7b74321533f3">cpart_step::~cpart_step</a></div><div class="ttdeci">~cpart_step(void)</div><div class="ttdoc">destructor called once on part destruction</div><div class="ttdef"><b>Definition:</b> output_step.cc:61</div></div>
+<div class="ttc" id="aclasscpart__step_html_aae902fc383b486ab1b9d40b83aea65a3"><div class="ttname"><a href="classcpart__step.html#aae902fc383b486ab1b9d40b83aea65a3">cpart_step::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(lxString value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> output_step.cc:401</div></div>
+<div class="ttc" id="aclasscpart__step_html_ab42f4bd7f3f11d659cdbe726323edc9a"><div class="ttname"><a href="classcpart__step.html#ab42f4bd7f3f11d659cdbe726323edc9a">cpart_step::GetOutputId</a></div><div class="ttdeci">unsigned short GetOutputId(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> output_step.cc:364</div></div>
+<div class="ttc" id="aclasscpart__step_html_adf52e27da153cb8c261a7366fcbce73b"><div class="ttname"><a href="classcpart__step.html#adf52e27da153cb8c261a7366fcbce73b">cpart_step::cpart_step</a></div><div class="ttdeci">cpart_step(const unsigned x, const unsigned y, const char *name, const char *type)</div><div class="ttdoc">constructor called once on part creation</div><div class="ttdef"><b>Definition:</b> output_step.cc:40</div></div>
+<div class="ttc" id="aclasscpart__step_html_ae9c71fcf6de5804a5483d8e42c3edf57"><div class="ttname"><a href="classcpart__step.html#ae9c71fcf6de5804a5483d8e42c3edf57">cpart_step::PostProcess</a></div><div class="ttdeci">void PostProcess(void) override</div><div class="ttdoc">Called every end of CPU process.</div><div class="ttdef"><b>Definition:</b> output_step.cc:342</div></div>
+<div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:49</div></div>
 </div><!-- fragment --> <h2><a class="anchor" id="pcode"></a>
-part_servo.cc</h2>
+output_step.cc</h2>
 <div class="fragment"><div class="line"><span class="comment">/* ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   PICsimLab - PIC laboratory simulator</span></div>
@@ -207,225 +203,418 @@ part_servo.cc</h2>
 <div class="line"><span class="comment">   For e-mail suggestions :  lcgamboa@yahoo.com</span></div>
 <div class="line"><span class="comment">   ######################################################################## */</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &quot;part_servo.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;../oscilloscope.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;../picsimlab.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;output_step.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;../picsimlab1.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;../picsimlab4.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;../spareparts.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">/* outputs */</span></div>
-<div class="line"><span class="keyword">enum</span> { O_P1, O_AXIS };</div>
+<div class="line"><span class="keyword">enum</span> { O_P1, O_P2, O_P3, O_P4, O_P5, O_L1, O_L2, O_L3, O_L4, O_ROT, O_STEPS };</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_function" href="classcpart__servo.html#a38f5b70c1f63626da3951a5ce57bc16f">cpart_servo::cpart_servo</a>(<span class="keywordtype">unsigned</span> x, <span class="keywordtype">unsigned</span> y)</div>
-<div class="line">    : font(9, lxFONTFAMILY_TELETYPE, lxFONTSTYLE_NORMAL, lxFONTWEIGHT_BOLD) {</div>
-<div class="line">    X = x;</div>
-<div class="line">    Y = y;</div>
-<div class="line">    aways_update = 1;</div>
-<div class="line">    input_pin = 0;</div>
+<div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="struct_p_c_w_prop.html">PCWProp</a> pcwprop[5] = {{PCW_COMBO, <span class="stringliteral">&quot;Pin 1&quot;</span>},</div>
+<div class="line">                             {PCW_COMBO, <span class="stringliteral">&quot;Pin 2&quot;</span>},</div>
+<div class="line">                             {PCW_COMBO, <span class="stringliteral">&quot;Pin 3&quot;</span>},</div>
+<div class="line">                             {PCW_COMBO, <span class="stringliteral">&quot;Pin 4&quot;</span>},</div>
+<div class="line">                             {PCW_COMBO, <span class="stringliteral">&quot;Home&quot;</span>}};</div>
+<div class="line"> </div>
+<div class="line"><a class="code hl_function" href="classcpart__step.html#adf52e27da153cb8c261a7366fcbce73b">cpart_step::cpart_step</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> x, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> y, <span class="keyword">const</span> <span class="keywordtype">char</span>* name, <span class="keyword">const</span> <span class="keywordtype">char</span>* type)</div>
+<div class="line">    : <a class="code hl_class" href="classpart.html">part</a>(x, y, name, type), font(9, lxFONTFAMILY_TELETYPE, lxFONTSTYLE_NORMAL, lxFONTWEIGHT_BOLD) {</div>
 <div class="line">    angle = 0;</div>
-<div class="line">    angle_ = 0;</div>
-<div class="line">    in_[0] = 0;</div>
-<div class="line">    in_[1] = 0;</div>
-<div class="line">    time = 0;</div>
 <div class="line"> </div>
-<div class="line">    ReadMaps();</div>
+<div class="line">    steps = 0;</div>
 <div class="line"> </div>
-<div class="line">    BackGround = NULL;</div>
+<div class="line">    input_pins[0] = 0;</div>
+<div class="line">    input_pins[1] = 0;</div>
+<div class="line">    input_pins[2] = 0;</div>
+<div class="line">    input_pins[3] = 0;</div>
 <div class="line"> </div>
-<div class="line">    LoadImage();</div>
+<div class="line">    output_pins[0] = 0;</div>
+<div class="line"> </div>
+<div class="line">    input[0] = 0;</div>
+<div class="line">    input[1] = 0;</div>
+<div class="line"> </div>
+<div class="line">    turns = 0;</div>
+<div class="line"> </div>
+<div class="line">    SetPCWProperties(pcwprop, 5);</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_function" href="classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a">cpart_servo::~cpart_servo</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a class="code hl_function" href="classcpart__step.html#a91a0941165fa7531f44c7b74321533f3">cpart_step::~cpart_step</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line">    <span class="keyword">delete</span> <a class="code hl_variable" href="classpart.html#a5edfdd836fc264f0e1047d002e4e7e18">Bitmap</a>;</div>
-<div class="line">    <span class="keyword">delete</span> <a class="code hl_variable" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a>;</div>
 <div class="line">    <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Destroy();</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#afb87939ab462851e162586d40991515c">cpart_servo::Draw</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line">    <span class="keywordtype">int</span> i;</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a406716b623a2635c48eefe7630a2d8c9">cpart_step::DrawOutput</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i) {</div>
+<div class="line">    <span class="keywordtype">float</span> x2, y2;</div>
+<div class="line">    <span class="keyword">const</span> picpin* ppins = SpareParts.GetPinsValues();</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_variable" href="classpart.html#a4eb152fb7bf5a7ec09b93c7511f385d6">Update</a> = 0;</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code hl_variable" href="classpart.html#ac55cc5edacce49ba7abc9e4d0d1cc354">outputc</a>; i++) {</div>
-<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].update)  <span class="comment">// only if need update</span></div>
-<div class="line">        {</div>
-<div class="line">            <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 0;</div>
-<div class="line"> </div>
-<div class="line">            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classpart.html#a4eb152fb7bf5a7ec09b93c7511f385d6">Update</a>) {</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBitmap(<a class="code hl_variable" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a>, 1.0, 1.0);  <span class="comment">// FIXME draw servo error on scale or rotate</span></div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Init(<a class="code hl_variable" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a>, <a class="code hl_variable" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a>, <a class="code hl_variable" href="classpart.html#a712eee4f18b5651335989bd628518c9f">Orientation</a>);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFont(font);</div>
+<div class="line">    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span>) {</div>
+<div class="line">        <span class="keywordflow">case</span> O_P1:</div>
+<div class="line">        <span class="keywordflow">case</span> O_P2:</div>
+<div class="line">        <span class="keywordflow">case</span> O_P3:</div>
+<div class="line">        <span class="keywordflow">case</span> O_P4:</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetColor(49, 61, 99);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Rectangle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x2 - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y2 - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(255, 255, 255);</div>
+<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span> - O_P1] == 0)</div>
+<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(<span class="stringliteral">&quot;NC&quot;</span>, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, 0);</div>
+<div class="line">            <span class="keywordflow">else</span></div>
+<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0">GetPinName</a>(<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a7c42d3f23b23b1fa08f869f269104a9e">id</a> - O_P1]), <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a4a26c232a33f2387180a8bc0b6c078e7">x1</a>, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a3ea90d25dafd4e3f279f3f541a956ffa">y1</a>,</div>
+<div class="line">                                   0);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> O_P5:</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetColor(49, 61, 99);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Rectangle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x2 - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y2 - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(255, 255, 255);</div>
+<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span> - O_P5] == 0)</div>
+<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(<span class="stringliteral">&quot;NC&quot;</span>, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, 0);</div>
+<div class="line">            <span class="keywordflow">else</span></div>
+<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0">GetPinName</a>(<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a7c42d3f23b23b1fa08f869f269104a9e">id</a> - O_P5]), <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a4a26c232a33f2387180a8bc0b6c078e7">x1</a>, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a3ea90d25dafd4e3f279f3f541a956ffa">y1</a>,</div>
+<div class="line">                                   0);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> O_STEPS: {</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetColor(49, 61, 99);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Rectangle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x2 - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y2 - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(255, 255, 255);</div>
+<div class="line">            lxString text;</div>
+<div class="line">            text.Printf(<span class="stringliteral">&quot;S=%5.1f&quot;</span>, steps);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(text, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, 0);</div>
+<div class="line">            text.Printf(<span class="stringliteral">&quot;T=%3i&quot;</span>, turns);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(text, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1 + 12, 0);</div>
+<div class="line">        } <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> O_ROT:</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetColor(77, 77, 77);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Circle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r + 10);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(0, 0, 0);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBgColor(250, 250, 250);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Circle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBgColor(55, 55, 55);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Circle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r / 3);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetLineWidth(8);</div>
+<div class="line">            x2 = <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a4a26c232a33f2387180a8bc0b6c078e7">x1</a> + (<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r - 2) * sin(angle);</div>
+<div class="line">            y2 = <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a3ea90d25dafd4e3f279f3f541a956ffa">y1</a> + (<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r - 2) * cos(angle);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Line(<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, x2, y2);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetLineWidth(6);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(77, 77, 77);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Line(<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, x2, y2);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetLineWidth(1);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> O_L1:</div>
+<div class="line">        <span class="keywordflow">case</span> O_L2:</div>
+<div class="line">        <span class="keywordflow">case</span> O_L3:</div>
+<div class="line">        <span class="keywordflow">case</span> O_L4:</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(0, 0, 0);</div>
+<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span> - O_L1] &gt; 0) {</div>
+<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBgColor(ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span> - O_L1] - 1].oavalue, 0, 0);</div>
+<div class="line">            } <span class="keywordflow">else</span> {</div>
+<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBgColor(55, 0, 0);</div>
 <div class="line">            }</div>
-<div class="line">            <a class="code hl_variable" href="classpart.html#a4eb152fb7bf5a7ec09b93c7511f385d6">Update</a>++;  <span class="comment">// set to update buffer</span></div>
+<div class="line">            <span class="comment">// draw a LED</span></div>
+<div class="line">            color1 = <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.GetBgColor();</div>
+<div class="line">            <span class="keywordtype">int</span> r = color1.Red() - 120;</div>
+<div class="line">            <span class="keywordtype">int</span> g = color1.Green() - 120;</div>
+<div class="line">            <span class="keywordtype">int</span> b = color1.Blue() - 120;</div>
+<div class="line">            <span class="keywordflow">if</span> (r &lt; 0)</div>
+<div class="line">                r = 0;</div>
+<div class="line">            <span class="keywordflow">if</span> (g &lt; 0)</div>
+<div class="line">                g = 0;</div>
+<div class="line">            <span class="keywordflow">if</span> (b &lt; 0)</div>
+<div class="line">                b = 0;</div>
+<div class="line">            color2.Set(r, g, b);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBgColor(color2);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Circle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r + 1);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetBgColor(color1);</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Circle(1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r - 2);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span> == O_P1) {</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(255, 255, 255);</div>
-<div class="line">                <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a> == 0)</div>
-<div class="line">                    <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(<span class="stringliteral">&quot;NC&quot;</span>, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, 0);</div>
-<div class="line">                <span class="keywordflow">else</span></div>
-<div class="line">                    <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.RotatedText(SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0">GetPinName</a>(<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>), <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a4a26c232a33f2387180a8bc0b6c078e7">x1</a>, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a3ea90d25dafd4e3f279f3f541a956ffa">y1</a>, 0);</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a19c45dc044f0d8484d775a5da8fa95ec">cpart_step::PreProcess</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0] &gt; 0) {</div>
+<div class="line">        <span class="keywordflow">if</span> ((steps == 0) &amp;&amp; (turns == 0)) {</div>
+<div class="line">            SpareParts.SetPin(<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0], 0);</div>
+<div class="line">        } <span class="keywordflow">else</span> {</div>
+<div class="line">            SpareParts.SetPin(<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0], 1);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#define STEP (1.8 * M_PI / 180.0)</span></div>
+<div class="line"><span class="preprocessor">#define HSTEP (STEP / 2.0)</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#define NSTEP 200  </span><span class="comment">// 360/1.8</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#define S1 1</span></div>
+<div class="line"><span class="preprocessor">#define S12 3</span></div>
+<div class="line"><span class="preprocessor">#define S2 2</span></div>
+<div class="line"><span class="preprocessor">#define S23 6</span></div>
+<div class="line"><span class="preprocessor">#define S3 4</span></div>
+<div class="line"><span class="preprocessor">#define S34 12</span></div>
+<div class="line"><span class="preprocessor">#define S4 8</span></div>
+<div class="line"><span class="preprocessor">#define S41 9</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a6892916acaf8198565079b952c61d846">cpart_step::Process</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <span class="keyword">const</span> picpin* ppins = SpareParts.GetPinsValues();</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[0] &gt; 0) &amp;&amp; (<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[1] &gt; 0) &amp;&amp; (<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[2] &gt; 0) &amp;&amp; (<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[3] &gt; 0)) {</div>
+<div class="line">        input[1] = input[0];</div>
+<div class="line">        input[0] = (ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[0] - 1].value &lt;&lt; 3) | (ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[1] - 1].value &lt;&lt; 2) |</div>
+<div class="line">                   (ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[2] - 1].value &lt;&lt; 1) | ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[3] - 1].value;</div>
+<div class="line"> </div>
+<div class="line">        <span class="keywordflow">if</span> (input[0] ^ input[1]) {</div>
+<div class="line">            <span class="keywordflow">switch</span> (input[0]) {</div>
+<div class="line">                <span class="keywordflow">case</span> S1:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S4:  <span class="comment">// foward full step</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S2:  <span class="comment">// backward full step</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S41:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S12:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S2:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S1:  <span class="comment">// foward full step</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S3:  <span class="comment">// backward full step</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S12:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S23:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S3:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S2:  <span class="comment">// foward full step</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S4:  <span class="comment">// backward full step</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S23:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S34:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S4:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S3:  <span class="comment">// foward full step</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S1:  <span class="comment">// backward full step</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S34:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S41:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S12:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S41:  <span class="comment">// foward full step double phase</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S23:  <span class="comment">// backward full step double phase</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S1:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S2:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S23:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S12:  <span class="comment">// foward full step double phase</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S34:  <span class="comment">// backward full step double phase</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S2:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S3:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S34:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S23:  <span class="comment">// foward full step double phase</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S41:  <span class="comment">// backward full step double phase</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S3:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S4:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> S41:</div>
+<div class="line">                    <span class="keywordflow">switch</span> (input[1]) {</div>
+<div class="line">                        <span class="keywordflow">case</span> S34:  <span class="comment">// foward full step double phase</span></div>
+<div class="line">                            steps += 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S12:  <span class="comment">// backward full step double phase</span></div>
+<div class="line">                            steps -= 1;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S4:  <span class="comment">// foward half step</span></div>
+<div class="line">                            steps += 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                        <span class="keywordflow">case</span> S1:  <span class="comment">// backward half step</span></div>
+<div class="line">                            steps -= 0.5;</div>
+<div class="line">                            <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">default</span>:  <span class="comment">// invalid</span></div>
+<div class="line">                    input[0] = input[1];</div>
+<div class="line">                    <span class="keywordflow">return</span>;</div>
+<div class="line">                    <span class="keywordflow">break</span>;</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<span class="keywordtype">id</span> == O_AXIS) {</div>
-<div class="line">                <span class="keywordtype">float</span> x2 = <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a4a26c232a33f2387180a8bc0b6c078e7">x1</a> + <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r * sin(<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>);</div>
-<div class="line">                <span class="keywordtype">float</span> y2 = <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].<a class="code hl_variable" href="structoutput__t.html#a3ea90d25dafd4e3f279f3f541a956ffa">y1</a> - <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].r * cos(<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(0, 0, 0);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetLineWidth(20);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Line(<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, x2, y2);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetFgColor(255, 255, 255);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.SetLineWidth(18);</div>
-<div class="line">                <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Line(<a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].x1, <a class="code hl_variable" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>[i].y1, x2, y2);</div>
+<div class="line">            <span class="keywordflow">if</span> (steps &gt;= NSTEP) {</div>
+<div class="line">                steps -= NSTEP;</div>
+<div class="line">                turns++;</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            <span class="keywordflow">if</span> (steps &lt; 0) {</div>
+<div class="line">                steps += NSTEP;</div>
+<div class="line">                turns--;</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            angle = STEP * steps;</div>
+<div class="line"> </div>
+<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0] &gt; 0) {</div>
+<div class="line">                <span class="keywordflow">if</span> ((steps == 0) &amp;&amp; (turns == 0)) {</div>
+<div class="line">                    SpareParts.SetPin(<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0], 0);</div>
+<div class="line">                } <span class="keywordflow">else</span> {</div>
+<div class="line">                    SpareParts.SetPin(<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0], 1);</div>
+<div class="line">                }</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classpart.html#a4eb152fb7bf5a7ec09b93c7511f385d6">Update</a>) {</div>
-<div class="line">        <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.End();</div>
-<div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a774812d1ea393ac0328de09efbe97490">cpart_servo::Process</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#ae9c71fcf6de5804a5483d8e42c3edf57">cpart_step::PostProcess</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line">    <span class="keyword">const</span> picpin* ppins = SpareParts.GetPinsValues();</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a> == 0)</div>
-<div class="line">        <span class="keywordflow">return</span>;</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[1] = <a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[0];</div>
-<div class="line">    <a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[0] = ppins[<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a> - 1].value;</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[0] == 1) &amp;&amp; (<a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[1] == 0))  <span class="comment">// rise</span></div>
-<div class="line">    {</div>
-<div class="line">        <a class="code hl_variable" href="classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755">time</a> = 0;</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; i++) {</div>
+<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[i] &amp;&amp; (<a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_L1 + i]-&gt;value != ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[i] - 1].oavalue)) {</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_L1 + i]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = ppins[<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[i] - 1].oavalue;</div>
+<div class="line">            <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_L1 + i]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
+<div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[0] == 0) &amp;&amp; (<a class="code hl_variable" href="classcpart__servo.html#a840063c98f8a8635554d9f8a1e297181">in_</a>[1] == 1))  <span class="comment">// low</span></div>
-<div class="line">    {</div>
-<div class="line">        <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a> = ((<a class="code hl_variable" href="classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755">time</a> / PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">GetBoard</a>()-&gt;<a class="code hl_function" href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">MGetInstClockFreq</a>()) - 0.0015) * 3141.59265359;</div>
-<div class="line"> </div>
-<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a> &gt; M_PI / 2.0)</div>
-<div class="line">            <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a> = M_PI / 2.0;</div>
-<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a> &lt; -M_PI / 2.0)</div>
-<div class="line">            <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a> = -M_PI / 2.0;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_variable" href="classcpart__servo.html#a143b73817ed78ff25408bd0eec5f4755">time</a>++;</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376">cpart_servo::PostProcess</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> &gt; <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>) {</div>
-<div class="line">        <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> -= 0.2;</div>
-<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> &lt; <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>)</div>
-<div class="line">            <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> = <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> &lt; <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>) {</div>
-<div class="line">        <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> += 0.2;</div>
-<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> &gt; <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>)</div>
-<div class="line">            <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a> = <a class="code hl_variable" href="classcpart__servo.html#a22893b0e5a587b655f947d0450964303">angle_</a>;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_AXIS]-&gt;value_f != <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>) {</div>
-<div class="line">        <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_AXIS]-&gt;<a class="code hl_variable" href="structoutput__t.html#a9b57cc8e6b609a849171298f1fcf1f9f">value_f</a> = <a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>;</div>
-<div class="line">        <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_AXIS]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
-<div class="line">        <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_P1]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_ROT]-&gt;value_f != angle) {</div>
+<div class="line">        <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_ROT]-&gt;<a class="code hl_variable" href="structoutput__t.html#a9b57cc8e6b609a849171298f1fcf1f9f">value_f</a> = angle;</div>
+<div class="line">        <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_ROT]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
+<div class="line">        <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_STEPS]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d">cpart_servo::get_in_id</a>(<span class="keywordtype">char</span>* name) {</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__step.html#a55297faec243e7aab6a1cb9a21031bc7">cpart_step::GetInputId</a>(<span class="keywordtype">char</span>* name) {</div>
 <div class="line">    printf(<span class="stringliteral">&quot;Erro input &#39;%s&#39; don&#39;t have a valid id! \n&quot;</span>, name);</div>
 <div class="line">    <span class="keywordflow">return</span> -1;</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3">cpart_servo::get_out_id</a>(<span class="keywordtype">char</span>* name) {</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcpart__step.html#ab42f4bd7f3f11d659cdbe726323edc9a">cpart_step::GetOutputId</a>(<span class="keywordtype">char</span>* name) {</div>
 <div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;PN_1&quot;</span>) == 0)</div>
 <div class="line">        <span class="keywordflow">return</span> O_P1;</div>
-<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;DG_AXIS&quot;</span>) == 0)</div>
-<div class="line">        <span class="keywordflow">return</span> O_AXIS;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;PN_2&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_P2;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;PN_3&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_P3;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;PN_4&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_P4;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;PN_5&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_P5;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;LD_1&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_L1;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;LD_2&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_L2;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;LD_3&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_L3;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;LD_4&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_L4;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;DG_ROT&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_ROT;</div>
+<div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;DI_STEPS&quot;</span>) == 0)</div>
+<div class="line">        <span class="keywordflow">return</span> O_STEPS;</div>
 <div class="line"> </div>
 <div class="line">    printf(<span class="stringliteral">&quot;Erro output &#39;%s&#39; don&#39;t have a valid id! \n&quot;</span>, name);</div>
 <div class="line">    <span class="keywordflow">return</span> 1;</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line">lxString <a class="code hl_function" href="classcpart__servo.html#a4a16d8728aa01dc94f0b544d6b8aace0">cpart_servo::WritePreferences</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line">lxString <a class="code hl_function" href="classcpart__step.html#a6226f0a8ad635fb166a37b52f3d8d912">cpart_step::WritePreferences</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line">    <span class="keywordtype">char</span> prefs[256];</div>
 <div class="line"> </div>
-<div class="line">    sprintf(prefs, <span class="stringliteral">&quot;%hhu&quot;</span>, <a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>);</div>
+<div class="line">    sprintf(prefs, <span class="stringliteral">&quot;%hhu,%hhu,%hhu,%hhu,%hhu&quot;</span>, <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[0], <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[1], <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[2], <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[3],</div>
+<div class="line">            <a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0]);</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> prefs;</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a37bfdfaf3fadd46d34338be0a6ca34f7">cpart_servo::ReadPreferences</a>(lxString value) {</div>
-<div class="line">    sscanf(value.c_str(), <span class="stringliteral">&quot;%hhu&quot;</span>, &amp;<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>);</div>
-<div class="line">    <a class="code hl_function" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">RegisterRemoteControl</a>();</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#aae902fc383b486ab1b9d40b83aea65a3">cpart_step::ReadPreferences</a>(lxString value) {</div>
+<div class="line">    sscanf(value.c_str(), <span class="stringliteral">&quot;%hhu,%hhu,%hhu,%hhu,%hhu&quot;</span>, &amp;<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[0], &amp;<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[1], &amp;<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[2], &amp;<a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[3],</div>
+<div class="line">           &amp;<a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0]);</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">cpart_servo::RegisterRemoteControl</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line">    <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_AXIS]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = (<span class="keywordtype">void</span>*)&amp;<a class="code hl_variable" href="classcpart__servo.html#a0af2e1168aeb456ba1f6a0a1511c1019">angle</a>;</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a9023bfe76e703c10930a713591165743">cpart_step::RegisterRemoteControl</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_variable" href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">output_ids</a>[O_ROT]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = (<span class="keywordtype">void</span>*)&amp;angle;</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a">cpart_servo::ConfigurePropertiesWindow</a>(CPWindow* WProp) {</div>
-<div class="line">    lxString Items = SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#aafd37c23afd7ccd809ab85032a479a62">GetPinsNames</a>();</div>
-<div class="line">    lxString spin;</div>
-<div class="line"> </div>
-<div class="line">    ((CCombo*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;combo1&quot;</span>))-&gt;SetItems(Items);</div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a> == 0)</div>
-<div class="line">        ((CCombo*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;combo1&quot;</span>))-&gt;SetText(<span class="stringliteral">&quot;0  NC&quot;</span>);</div>
-<div class="line">    <span class="keywordflow">else</span> {</div>
-<div class="line">        spin = SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0">GetPinName</a>(<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>);</div>
-<div class="line">        ((CCombo*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;combo1&quot;</span>))-&gt;SetText(itoa(<a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a>) + <span class="stringliteral">&quot;  &quot;</span> + spin);</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    ((CButton*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;button1&quot;</span>))-&gt;<a class="code hl_function" href="classpart.html#ad99e90d6389a2cbbca423ec7e9371f49">EvMouseButtonRelease</a> = SpareParts.PropButtonRelease;</div>
-<div class="line">    ((CButton*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;button1&quot;</span>))-&gt;SetTag(1);</div>
-<div class="line"> </div>
-<div class="line">    ((CButton*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;button2&quot;</span>))-&gt;<a class="code hl_function" href="classpart.html#ad99e90d6389a2cbbca423ec7e9371f49">EvMouseButtonRelease</a> = SpareParts.PropButtonRelease;</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a6a5fbbfff34b78315a3f012f62a08431">cpart_step::ConfigurePropertiesWindow</a>(CPWindow* WProp) {</div>
+<div class="line">    SetPCWComboWithPinNames(WProp, <span class="stringliteral">&quot;combo1&quot;</span>, <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[0]);</div>
+<div class="line">    SetPCWComboWithPinNames(WProp, <span class="stringliteral">&quot;combo2&quot;</span>, <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[1]);</div>
+<div class="line">    SetPCWComboWithPinNames(WProp, <span class="stringliteral">&quot;combo3&quot;</span>, <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[2]);</div>
+<div class="line">    SetPCWComboWithPinNames(WProp, <span class="stringliteral">&quot;combo4&quot;</span>, <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[3]);</div>
+<div class="line">    SetPCWComboWithPinNames(WProp, <span class="stringliteral">&quot;combo5&quot;</span>, <a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0]);</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a1eac73056884d0a33e66bb850e4827a3">cpart_servo::ReadPropertiesWindow</a>(CPWindow* WProp) {</div>
-<div class="line">    <a class="code hl_variable" href="classcpart__servo.html#ac943dc8cf327494608d6540db5349760">input_pin</a> = atoi(((CCombo*)WProp-&gt;GetChildByName(<span class="stringliteral">&quot;combo1&quot;</span>))-&gt;GetText());</div>
-<div class="line">    <a class="code hl_function" href="classcpart__servo.html#a5092323ea79d9f6152f9e5eaf65f7ee7">RegisterRemoteControl</a>();</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__step.html#a623a12a47674716ed3e71a840b0b7cb8">cpart_step::ReadPropertiesWindow</a>(CPWindow* WProp) {</div>
+<div class="line">    <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[0] = GetPWCComboSelectedPin(WProp, <span class="stringliteral">&quot;combo1&quot;</span>);</div>
+<div class="line">    <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[1] = GetPWCComboSelectedPin(WProp, <span class="stringliteral">&quot;combo2&quot;</span>);</div>
+<div class="line">    <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[2] = GetPWCComboSelectedPin(WProp, <span class="stringliteral">&quot;combo3&quot;</span>);</div>
+<div class="line">    <a class="code hl_variable" href="classcpart__step.html#a3da50407c2419060293a8a7d6da931fa">input_pins</a>[3] = GetPWCComboSelectedPin(WProp, <span class="stringliteral">&quot;combo4&quot;</span>);</div>
+<div class="line">    <a class="code hl_variable" href="classcpart__step.html#a7ee6c2cbf8b8fcf3757b8a4d999d5903">output_pins</a>[0] = GetPWCComboSelectedPin(WProp, <span class="stringliteral">&quot;combo5&quot;</span>);</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcpart__servo.html#a4cd02691744179ceeaeaedad1f8fd41a">cpart_servo::LoadImage</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line">    lxImage image(SpareParts.GetWindow());</div>
-<div class="line">    image.LoadFile(lxGetLocalFile(PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">GetSharePath</a>() + lxT(<span class="stringliteral">&quot;parts/&quot;</span>) + <a class="code hl_function" href="classpart.html#acb4a5752560f9b0c399e7e8b2807bea3">GetPictureFileName</a>()), <a class="code hl_variable" href="classpart.html#a712eee4f18b5651335989bd628518c9f">Orientation</a>, <a class="code hl_variable" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a>,</div>
-<div class="line">                   <a class="code hl_variable" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a>);</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_variable" href="classpart.html#a5edfdd836fc264f0e1047d002e4e7e18">Bitmap</a> = <span class="keyword">new</span> lxBitmap(&amp;image, (SpareParts.GetWindow()));</div>
-<div class="line">    image.Destroy();</div>
-<div class="line"> </div>
-<div class="line">    image.LoadFile(lxGetLocalFile(PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">GetSharePath</a>() + lxT(<span class="stringliteral">&quot;parts/&quot;</span>) + <a class="code hl_function" href="classpart.html#acb4a5752560f9b0c399e7e8b2807bea3">GetPictureFileName</a>()), <a class="code hl_variable" href="classpart.html#a712eee4f18b5651335989bd628518c9f">Orientation</a>, <a class="code hl_variable" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a>,</div>
-<div class="line">                   <a class="code hl_variable" href="classpart.html#a26d28e6bfe04c985a20657958408005a">Scale</a>);</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a>) {</div>
-<div class="line">        <span class="keyword">delete</span> <a class="code hl_variable" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a>;</div>
-<div class="line">    }</div>
-<div class="line">    <a class="code hl_variable" href="classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519">BackGround</a> = <span class="keyword">new</span> lxBitmap(&amp;image, (SpareParts.GetWindow()));</div>
-<div class="line">    image.Destroy();</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Destroy();</div>
-<div class="line">    <a class="code hl_variable" href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">canvas</a>.Create(SpareParts.GetWindow()-&gt;GetWWidget(), <a class="code hl_variable" href="classpart.html#a5edfdd836fc264f0e1047d002e4e7e18">Bitmap</a>);</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line"><span class="comment">// Register the part in PICSimLab spare parts list</span></div>
-<div class="line">part_init(PART_SERVO_Name, <a class="code hl_class" href="classcpart__servo.html">cpart_servo</a>, <span class="stringliteral">&quot;Output&quot;</span>);</div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a108bb3e8dc99a955b2a7b98f76fedf69"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">CPICSimLab::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:56</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aeae1956b61d48261081fc1b2bf339017"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">CPICSimLab::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:95</div></div>
+<div class="line">part_init(PART_STEP_Name, <a class="code hl_class" href="classcpart__step.html">cpart_step</a>, <span class="stringliteral">&quot;Output&quot;</span>);</div>
 <div class="ttc" id="aclass_c_spare_parts_html_a56db36d1a8c49ca039b5feb083f4fed0"><div class="ttname"><a href="class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0">CSpareParts::GetPinName</a></div><div class="ttdeci">lxString GetPinName(unsigned char pin)</div><div class="ttdoc">Return the name of one pin.</div><div class="ttdef"><b>Definition:</b> spareparts.cc:151</div></div>
-<div class="ttc" id="aclass_c_spare_parts_html_aafd37c23afd7ccd809ab85032a479a62"><div class="ttname"><a href="class_c_spare_parts.html#aafd37c23afd7ccd809ab85032a479a62">CSpareParts::GetPinsNames</a></div><div class="ttdeci">lxString GetPinsNames(void)</div><div class="ttdoc">Return the name of all pins.</div><div class="ttdef"><b>Definition:</b> spareparts.cc:124</div></div>
-<div class="ttc" id="aclassboard_html_a2c5a0def304361ca54f770b2cd9520fd"><div class="ttname"><a href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">board::MGetInstClockFreq</a></div><div class="ttdeci">virtual float MGetInstClockFreq(void)=0</div><div class="ttdoc">board microcontroller get cpu internal clock (in PIC frequency/4)</div></div>
-<div class="ttc" id="aclasspart_html_a03d90e1490c5dfb116669ea11f90b740"><div class="ttname"><a href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">part::output_ids</a></div><div class="ttdeci">output_t * output_ids[100]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition:</b> part.h:313</div></div>
-<div class="ttc" id="aclasspart_html_a074fcb74e58bd5f199ce043a500d1c69"><div class="ttname"><a href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">part::output</a></div><div class="ttdeci">output_t output[100]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition:</b> part.h:312</div></div>
-<div class="ttc" id="aclasspart_html_a26d28e6bfe04c985a20657958408005a"><div class="ttname"><a href="classpart.html#a26d28e6bfe04c985a20657958408005a">part::Scale</a></div><div class="ttdeci">double Scale</div><div class="ttdoc">scale to draw part</div><div class="ttdef"><b>Definition:</b> part.h:324</div></div>
-<div class="ttc" id="aclasspart_html_a4adcfbd9da4f9e196fd7f50ce829d817"><div class="ttname"><a href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">part::canvas</a></div><div class="ttdeci">CCanvas canvas</div><div class="ttdoc">Internal Canvas to draw in bitmap.</div><div class="ttdef"><b>Definition:</b> part.h:321</div></div>
-<div class="ttc" id="aclasspart_html_a4eb152fb7bf5a7ec09b93c7511f385d6"><div class="ttname"><a href="classpart.html#a4eb152fb7bf5a7ec09b93c7511f385d6">part::Update</a></div><div class="ttdeci">unsigned int Update</div><div class="ttdoc">part need draw Update</div><div class="ttdef"><b>Definition:</b> part.h:325</div></div>
-<div class="ttc" id="aclasspart_html_a5edfdd836fc264f0e1047d002e4e7e18"><div class="ttname"><a href="classpart.html#a5edfdd836fc264f0e1047d002e4e7e18">part::Bitmap</a></div><div class="ttdeci">lxBitmap * Bitmap</div><div class="ttdoc">Internal Bitmap.</div><div class="ttdef"><b>Definition:</b> part.h:320</div></div>
-<div class="ttc" id="aclasspart_html_a712eee4f18b5651335989bd628518c9f"><div class="ttname"><a href="classpart.html#a712eee4f18b5651335989bd628518c9f">part::Orientation</a></div><div class="ttdeci">int Orientation</div><div class="ttdoc">orientation to draw part</div><div class="ttdef"><b>Definition:</b> part.h:323</div></div>
-<div class="ttc" id="aclasspart_html_ac55cc5edacce49ba7abc9e4d0d1cc354"><div class="ttname"><a href="classpart.html#ac55cc5edacce49ba7abc9e4d0d1cc354">part::outputc</a></div><div class="ttdeci">int outputc</div><div class="ttdoc">output map elements counter</div><div class="ttdef"><b>Definition:</b> part.h:315</div></div>
-<div class="ttc" id="aclasspart_html_acb4a5752560f9b0c399e7e8b2807bea3"><div class="ttname"><a href="classpart.html#acb4a5752560f9b0c399e7e8b2807bea3">part::GetPictureFileName</a></div><div class="ttdeci">virtual lxString GetPictureFileName(void)</div><div class="ttdoc">Return the filename of part picture.</div><div class="ttdef"><b>Definition:</b> part.cc:407</div></div>
-<div class="ttc" id="aclasspart_html_ad99e90d6389a2cbbca423ec7e9371f49"><div class="ttname"><a href="classpart.html#ad99e90d6389a2cbbca423ec7e9371f49">part::EvMouseButtonRelease</a></div><div class="ttdeci">virtual void EvMouseButtonRelease(uint button, uint x, uint y, uint state)</div><div class="ttdoc">Event handler on the part.</div><div class="ttdef"><b>Definition:</b> part.h:126</div></div>
+<div class="ttc" id="aclasspart_html_a03d90e1490c5dfb116669ea11f90b740"><div class="ttname"><a href="classpart.html#a03d90e1490c5dfb116669ea11f90b740">part::output_ids</a></div><div class="ttdeci">output_t * output_ids[100]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition:</b> part.h:359</div></div>
+<div class="ttc" id="aclasspart_html_a074fcb74e58bd5f199ce043a500d1c69"><div class="ttname"><a href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">part::output</a></div><div class="ttdeci">output_t output[100]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition:</b> part.h:358</div></div>
+<div class="ttc" id="aclasspart_html_a4adcfbd9da4f9e196fd7f50ce829d817"><div class="ttname"><a href="classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817">part::canvas</a></div><div class="ttdeci">CCanvas canvas</div><div class="ttdoc">Internal Canvas to draw in bitmap.</div><div class="ttdef"><b>Definition:</b> part.h:367</div></div>
+<div class="ttc" id="aclasspart_html_a5edfdd836fc264f0e1047d002e4e7e18"><div class="ttname"><a href="classpart.html#a5edfdd836fc264f0e1047d002e4e7e18">part::Bitmap</a></div><div class="ttdeci">lxBitmap * Bitmap</div><div class="ttdoc">Internal Bitmap.</div><div class="ttdef"><b>Definition:</b> part.h:366</div></div>
+<div class="ttc" id="astruct_p_c_w_prop_html"><div class="ttname"><a href="struct_p_c_w_prop.html">PCWProp</a></div><div class="ttdef"><b>Definition:</b> part.h:39</div></div>
+<div class="ttc" id="astructoutput__t_html_a23bc69196fed4d0e4924453a11e182bd"><div class="ttname"><a href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">output_t::value</a></div><div class="ttdeci">unsigned char value</div><div class="ttdoc">updated value</div><div class="ttdef"><b>Definition:</b> board.h:82</div></div>
 <div class="ttc" id="astructoutput__t_html_a394c193a9f75a821997918c3fe8525a5"><div class="ttname"><a href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">output_t::status</a></div><div class="ttdeci">void * status</div><div class="ttdoc">rcontrol status</div><div class="ttdef"><b>Definition:</b> board.h:79</div></div>
 <div class="ttc" id="astructoutput__t_html_a3ea90d25dafd4e3f279f3f541a956ffa"><div class="ttname"><a href="structoutput__t.html#a3ea90d25dafd4e3f279f3f541a956ffa">output_t::y1</a></div><div class="ttdeci">unsigned int y1</div><div class="ttdoc">y1 position</div><div class="ttdef"><b>Definition:</b> board.h:72</div></div>
 <div class="ttc" id="astructoutput__t_html_a4a26c232a33f2387180a8bc0b6c078e7"><div class="ttname"><a href="structoutput__t.html#a4a26c232a33f2387180a8bc0b6c078e7">output_t::x1</a></div><div class="ttdeci">unsigned int x1</div><div class="ttdoc">x1 position</div><div class="ttdef"><b>Definition:</b> board.h:70</div></div>
+<div class="ttc" id="astructoutput__t_html_a7c42d3f23b23b1fa08f869f269104a9e"><div class="ttname"><a href="structoutput__t.html#a7c42d3f23b23b1fa08f869f269104a9e">output_t::id</a></div><div class="ttdeci">unsigned short id</div><div class="ttdoc">region ID</div><div class="ttdef"><b>Definition:</b> board.h:78</div></div>
 <div class="ttc" id="astructoutput__t_html_a9b57cc8e6b609a849171298f1fcf1f9f"><div class="ttname"><a href="structoutput__t.html#a9b57cc8e6b609a849171298f1fcf1f9f">output_t::value_f</a></div><div class="ttdeci">float value_f</div><div class="ttdoc">updated value float</div><div class="ttdef"><b>Definition:</b> board.h:84</div></div>
 <div class="ttc" id="astructoutput__t_html_aa91b1205a6823abba2269f91bb87863d"><div class="ttname"><a href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">output_t::update</a></div><div class="ttdeci">unsigned char update</div><div class="ttdoc">need draw update</div><div class="ttdef"><b>Definition:</b> board.h:80</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="boardex"></a>
@@ -525,9 +714,9 @@ board_x.h</h2>
 <div class="line">    <span class="comment">// Called whe configuration file load  preferences</span></div>
 <div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">ReadPreferences</a>(<span class="keywordtype">char</span>* name, <span class="keywordtype">char</span>* value) <span class="keyword">override</span>;</div>
 <div class="line">    <span class="comment">// return the input ids numbers of names used in input map</span></div>
-<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">get_in_id</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a870b8977726aba5c91a863efb1175c1f">GetInputId</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
 <div class="line">    <span class="comment">// return the output ids numbers of names used in output map</span></div>
-<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">get_out_id</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a99605f65ae5f4a210d57113fa805194e">GetOutputId</a>(<span class="keywordtype">char</span>* name) <span class="keyword">override</span>;</div>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#endif </span><span class="comment">/* BOARD_x_H */</span><span class="preprocessor"></span></div>
@@ -538,14 +727,14 @@ board_x.h</h2>
 <div class="ttc" id="aclasscboard__x_html_a350e7f7b3a7edd49c2021c30cc3a18f4"><div class="ttname"><a href="classcboard__x.html#a350e7f7b3a7edd49c2021c30cc3a18f4">cboard_x::GetName</a></div><div class="ttdeci">lxString GetName(void) override</div><div class="ttdoc">Get board name registered in PICSimLab.</div><div class="ttdef"><b>Definition:</b> board_x.h:67</div></div>
 <div class="ttc" id="aclasscboard__x_html_a3d75167fedb903b74a8920476214f701"><div class="ttname"><a href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x::GetAboutInfo</a></div><div class="ttdeci">lxString GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition:</b> board_x.h:69</div></div>
 <div class="ttc" id="aclasscboard__x_html_a3db74c02199e114e22f7a7a5b4e3dd96"><div class="ttname"><a href="classcboard__x.html#a3db74c02199e114e22f7a7a5b4e3dd96">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(uint key, uint mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:296</div></div>
-<div class="ttc" id="aclasscboard__x_html_a4a96bccccb853f6f8b367db3e63d693f"><div class="ttname"><a href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">cboard_x::get_in_id</a></div><div class="ttdeci">unsigned short get_in_id(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> board_x.cc:58</div></div>
 <div class="ttc" id="aclasscboard__x_html_a4e642d592813f132be2227a4af97bb3e"><div class="ttname"><a href="classcboard__x.html#a4e642d592813f132be2227a4af97bb3e">cboard_x::GetSupportedDevices</a></div><div class="ttdeci">lxString GetSupportedDevices(void) override</div><div class="ttdoc">Return a list of supported microcontrollers.</div><div class="ttdef"><b>Definition:</b> board_x.h:74</div></div>
-<div class="ttc" id="aclasscboard__x_html_a4f4460d4ad4d82cc885312b4bfedcd87"><div class="ttname"><a href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">cboard_x::get_out_id</a></div><div class="ttdeci">unsigned short get_out_id(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> board_x.cc:78</div></div>
 <div class="ttc" id="aclasscboard__x_html_a54f0b84ecd3973bdd3f7d8b7d13cc0b9"><div class="ttname"><a href="classcboard__x.html#a54f0b84ecd3973bdd3f7d8b7d13cc0b9">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:322</div></div>
 <div class="ttc" id="aclasscboard__x_html_a5603baefc099825eeb53634ece32b2f8"><div class="ttname"><a href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void) override</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition:</b> board_x.cc:258</div></div>
 <div class="ttc" id="aclasscboard__x_html_a6337aae979579d9d180026dfcd2c55c0"><div class="ttname"><a href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition:</b> board_x.cc:576</div></div>
 <div class="ttc" id="aclasscboard__x_html_a696180daddb7dfc9b5bf5ad45fca0124"><div class="ttname"><a href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> board_x.cc:271</div></div>
 <div class="ttc" id="aclasscboard__x_html_a6f87b4f00b9297a5893a805820c4a436"><div class="ttname"><a href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a></div><div class="ttdeci">void Reset(void) override</div><div class="ttdoc">Reset board status.</div><div class="ttdef"><b>Definition:</b> board_x.cc:186</div></div>
+<div class="ttc" id="aclasscboard__x_html_a870b8977726aba5c91a863efb1175c1f"><div class="ttname"><a href="classcboard__x.html#a870b8977726aba5c91a863efb1175c1f">cboard_x::GetInputId</a></div><div class="ttdeci">unsigned short GetInputId(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition:</b> board_x.cc:58</div></div>
+<div class="ttc" id="aclasscboard__x_html_a99605f65ae5f4a210d57113fa805194e"><div class="ttname"><a href="classcboard__x.html#a99605f65ae5f4a210d57113fa805194e">cboard_x::GetOutputId</a></div><div class="ttdeci">unsigned short GetOutputId(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> board_x.cc:78</div></div>
 <div class="ttc" id="aclasscboard__x_html_a9c1664ce551c79209b4e6dc9d0ed8730"><div class="ttname"><a href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition:</b> board_x.cc:219</div></div>
 <div class="ttc" id="aclasscboard__x_html_abb94877b3a91eb371b3b20e2e9cebcce"><div class="ttname"><a href="classcboard__x.html#abb94877b3a91eb371b3b20e2e9cebcce">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:405</div></div>
 <div class="ttc" id="aclasscboard__x_html_acfd3a83c6a0ece11eb8d88dd9fa102f9"><div class="ttname"><a href="classcboard__x.html#acfd3a83c6a0ece11eb8d88dd9fa102f9">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(uint button, uint x, uint y, uint state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition:</b> board_x.cc:382</div></div>
@@ -610,7 +799,7 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// return the input ids numbers of names used in input map</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a4a96bccccb853f6f8b367db3e63d693f">cboard_x::get_in_id</a>(<span class="keywordtype">char</span>* name) {</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a870b8977726aba5c91a863efb1175c1f">cboard_x::GetInputId</a>(<span class="keywordtype">char</span>* name) {</div>
 <div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;PG_ICSP&quot;</span>) == 0)</div>
 <div class="line">        <span class="keywordflow">return</span> I_ICSP;</div>
 <div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;SW_PWR&quot;</span>) == 0)</div>
@@ -630,7 +819,7 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// return the output ids numbers of names used in output map</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a4f4460d4ad4d82cc885312b4bfedcd87">cboard_x::get_out_id</a>(<span class="keywordtype">char</span>* name) {</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="classcboard__x.html#a99605f65ae5f4a210d57113fa805194e">cboard_x::GetOutputId</a>(<span class="keywordtype">char</span>* name) {</div>
 <div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;SW_D1&quot;</span>) == 0)</div>
 <div class="line">        <span class="keywordflow">return</span> O_SD1;</div>
 <div class="line">    <span class="keywordflow">if</span> (strcmp(name, <span class="stringliteral">&quot;LD_LD0&quot;</span>) == 0)</div>
@@ -812,13 +1001,13 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line">    <span class="comment">// write selected microcontroller of board_x to preferences</span></div>
-<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ac1d15473702667aea26d69b83433cbb4">saveprefs</a>(lxT(<span class="stringliteral">&quot;X_proc&quot;</span>), <a class="code hl_variable" href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">Proc</a>);</div>
+<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">SavePrefs</a>(lxT(<span class="stringliteral">&quot;X_proc&quot;</span>), <a class="code hl_variable" href="classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c">Proc</a>);</div>
 <div class="line">    <span class="comment">// write switch state of board_x to preferences</span></div>
-<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ac1d15473702667aea26d69b83433cbb4">saveprefs</a>(lxT(<span class="stringliteral">&quot;X_bt2&quot;</span>), lxString().Format(<span class="stringliteral">&quot;%i&quot;</span>, p_BT2));</div>
+<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">SavePrefs</a>(lxT(<span class="stringliteral">&quot;X_bt2&quot;</span>), lxString().Format(<span class="stringliteral">&quot;%i&quot;</span>, p_BT2));</div>
 <div class="line">    <span class="comment">// write microcontroller clock to preferences</span></div>
-<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ac1d15473702667aea26d69b83433cbb4">saveprefs</a>(lxT(<span class="stringliteral">&quot;X_clock&quot;</span>), lxString().Format(<span class="stringliteral">&quot;%2.1f&quot;</span>, PICSimLab.GetClock()));</div>
+<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">SavePrefs</a>(lxT(<span class="stringliteral">&quot;X_clock&quot;</span>), lxString().Format(<span class="stringliteral">&quot;%2.1f&quot;</span>, PICSimLab.GetClock()));</div>
 <div class="line">    <span class="comment">// write potentiometer position to preferences</span></div>
-<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ac1d15473702667aea26d69b83433cbb4">saveprefs</a>(lxT(<span class="stringliteral">&quot;X_pot1&quot;</span>), lxString().Format(<span class="stringliteral">&quot;%i&quot;</span>, pot1));</div>
+<div class="line">    PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">SavePrefs</a>(lxT(<span class="stringliteral">&quot;X_pot1&quot;</span>), lxString().Format(<span class="stringliteral">&quot;%i&quot;</span>, pot1));</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Called whe configuration file load  preferences</span></div>
@@ -888,24 +1077,24 @@ board_x.cc</h2>
 <div class="line">                    <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="comment">// if event is over I_PWR area then toggle board on/off</span></div>
 <div class="line">                <span class="keywordflow">case</span> I_PWR:</div>
-<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403">Get_mcupwr</a>())  <span class="comment">// if on turn off</span></div>
+<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>())  <span class="comment">// if on turn off</span></div>
 <div class="line">                    {</div>
-<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e">Set_mcupwr</a>(0);</div>
+<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(0);</div>
 <div class="line">                        <a class="code hl_function" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a>();</div>
 <div class="line">                        p_BT1 = 1;</div>
 <div class="line">                    } <span class="keywordflow">else</span>  <span class="comment">// if off turn on</span></div>
 <div class="line">                    {</div>
-<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e">Set_mcupwr</a>(1);</div>
+<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(1);</div>
 <div class="line">                        <a class="code hl_function" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a>();</div>
 <div class="line">                    }</div>
 <div class="line">                    <a class="code hl_variable" href="classboard.html#a94afe9318a9cd0d8635d0043424a8682">output_ids</a>[O_LPWR]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">                    <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="comment">// if event is over I_RST area then turn off and reset</span></div>
 <div class="line">                <span class="keywordflow">case</span> I_RST:</div>
-<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403">Get_mcupwr</a>() &amp;&amp; pic_reset(&amp;pic, -1))  <span class="comment">// if powered</span></div>
+<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>() &amp;&amp; pic_reset(&amp;pic, -1))  <span class="comment">// if powered</span></div>
 <div class="line">                    {</div>
-<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e">Set_mcupwr</a>(0);</div>
-<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a260bf50fe760fe92583b3546e7053c4d">Set_mcurst</a>(1);</div>
+<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(0);</div>
+<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">SetMcuRst</a>(1);</div>
 <div class="line">                    }</div>
 <div class="line">                    <a class="code hl_variable" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a> = 0;</div>
 <div class="line">                    <a class="code hl_variable" href="classboard.html#a94afe9318a9cd0d8635d0043424a8682">output_ids</a>[O_RST]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
@@ -966,10 +1155,10 @@ board_x.cc</h2>
 <div class="line">            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="classboard.html#a637392ea82a18ee9f9716147455031dd">input</a>[i].<span class="keywordtype">id</span>) {</div>
 <div class="line">                    <span class="comment">// if event is over I_RST area then turn on</span></div>
 <div class="line">                <span class="keywordflow">case</span> I_RST:</div>
-<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3c998b79cd110ee1c715811183242513">Get_mcurst</a>())  <span class="comment">// if powered</span></div>
+<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">GetMcuRst</a>())  <span class="comment">// if powered</span></div>
 <div class="line">                    {</div>
-<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e">Set_mcupwr</a>(1);</div>
-<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a260bf50fe760fe92583b3546e7053c4d">Set_mcurst</a>(0);</div>
+<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(1);</div>
+<div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">SetMcuRst</a>(0);</div>
 <div class="line"> </div>
 <div class="line">                        <span class="keywordflow">if</span> (pic_reset(&amp;pic, -1)) {</div>
 <div class="line">                            <a class="code hl_function" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a>();</div>
@@ -1086,7 +1275,7 @@ board_x.cc</h2>
 <div class="line">                        draw-&gt;Canvas.SetBgColor(pic.pins[19].oavalue, pic.pins[19].oavalue, 0);</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="keywordflow">case</span> O_LPWR:  <span class="comment">// Blue using mcupwr value</span></div>
-<div class="line">                        draw-&gt;Canvas.SetBgColor(0, 0, 200 * PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403">Get_mcupwr</a>() + 55);</div>
+<div class="line">                        draw-&gt;Canvas.SetBgColor(0, 0, 200 * PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>() + 55);</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="keywordflow">case</span> O_RB0:  <span class="comment">// Green using pin 33 mean value (RB0)</span></div>
 <div class="line">                        draw-&gt;Canvas.SetBgColor(0, pic.pins[32].oavalue, 0);</div>
@@ -1164,7 +1353,7 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line">    j = JUMPSTEPS;  <span class="comment">// step counter</span></div>
 <div class="line">    pi = 0;</div>
-<div class="line">    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403">Get_mcupwr</a>())      <span class="comment">// if powered</span></div>
+<div class="line">    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>())      <span class="comment">// if powered</span></div>
 <div class="line">        <span class="keywordflow">for</span> (i = 0; i &lt; NSTEP; i++)  <span class="comment">// repeat for number of steps in 100ms</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordflow">if</span> (j &gt;= JUMPSTEPS)  <span class="comment">// if number of step is bigger than steps to skip</span></div>
@@ -1256,16 +1445,18 @@ board_x.cc</h2>
 <div class="line"><span class="comment">// Register the board in PICSimLab</span></div>
 <div class="line">board_init(BOARD_x_Name, <a class="code hl_class" href="classcboard__x.html">cboard_x</a>);</div>
 <div class="ttc" id="aclass_c_oscilloscope_html_a4455bcb15a36ee7a8f2e8a6c2befea9e"><div class="ttname"><a href="class_c_oscilloscope.html#a4455bcb15a36ee7a8f2e8a6c2befea9e">COscilloscope::SetSample</a></div><div class="ttdeci">void SetSample(void)</div><div class="ttdoc">Sample and update oscilloscope data aquisition.</div><div class="ttdef"><b>Definition:</b> oscilloscope.cc:63</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a260bf50fe760fe92583b3546e7053c4d"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a260bf50fe760fe92583b3546e7053c4d">CPICSimLab::Set_mcurst</a></div><div class="ttdeci">void Set_mcurst(int pr)</div><div class="ttdoc">Set mcu rst flag (inform simulator about mcu reset state)</div><div class="ttdef"><b>Definition:</b> picsimlab.h:129</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a3c998b79cd110ee1c715811183242513"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a3c998b79cd110ee1c715811183242513">CPICSimLab::Get_mcurst</a></div><div class="ttdeci">int Get_mcurst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:109</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a3d48a79d4835b85f63ff31b2d30a2c7e"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a3d48a79d4835b85f63ff31b2d30a2c7e">CPICSimLab::Set_mcupwr</a></div><div class="ttdeci">void Set_mcupwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:116</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aac9970694b88fb7fae9f99fb3d3a5403"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aac9970694b88fb7fae9f99fb3d3a5403">CPICSimLab::Get_mcupwr</a></div><div class="ttdeci">int Get_mcupwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:104</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ac1d15473702667aea26d69b83433cbb4"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ac1d15473702667aea26d69b83433cbb4">CPICSimLab::saveprefs</a></div><div class="ttdeci">void saveprefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:251</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a077c76d5582e27431d8dceda7ff08d2f"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">CPICSimLab::SetMcuRst</a></div><div class="ttdeci">void SetMcuRst(int pr)</div><div class="ttdoc">Set mcu rst flag (inform simulator about mcu reset state)</div><div class="ttdef"><b>Definition:</b> picsimlab.h:129</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a17031743eb40a15b9ed14272f6187f18"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">CPICSimLab::GetMcuRst</a></div><div class="ttdeci">int GetMcuRst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:109</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a9c6f3626c3818890de8b8d8f758cdca6"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">CPICSimLab::SetMcuPwr</a></div><div class="ttdeci">void SetMcuPwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:116</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa34fc994a2b560032d8fbcfdea16a8c6"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">CPICSimLab::SavePrefs</a></div><div class="ttdeci">void SavePrefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:255</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_abe7b589c0de06036c5b167e815af9498"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">CPICSimLab::GetMcuPwr</a></div><div class="ttdeci">int GetMcuPwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:104</div></div>
 <div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ae7593e716065463586ba688d1d39d3c4"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">CPICSimLab::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:89</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aeae1956b61d48261081fc1b2bf339017"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">CPICSimLab::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:95</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_a3c9d0706b999f36f96de45530f097724"><div class="ttname"><a href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">CSpareParts::Process</a></div><div class="ttdeci">void Process(void)</div><div class="ttdoc">Execute the process code of spare parts N times (where N is the number of steps in 100ms)</div><div class="ttdef"><b>Definition:</b> spareparts.cc:473</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_adf2184d88f05dfb8d880c2c08473d0b8"><div class="ttname"><a href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">CSpareParts::PostProcess</a></div><div class="ttdeci">void PostProcess(void)</div><div class="ttdoc">Execute the post process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition:</b> spareparts.cc:493</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_aeb04eb62a248ea4f07e83d8752baf96f"><div class="ttname"><a href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">CSpareParts::PreProcess</a></div><div class="ttdeci">void PreProcess(void)</div><div class="ttdoc">Execute the pre process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition:</b> spareparts.cc:448</div></div>
 <div class="ttc" id="aclassboard_html_a1f5dedbf50d1ebd86af96429a4a3d180"><div class="ttname"><a href="classboard.html#a1f5dedbf50d1ebd86af96429a4a3d180">board::use_oscope</a></div><div class="ttdeci">int use_oscope</div><div class="ttdoc">use oscilloscope window</div><div class="ttdef"><b>Definition:</b> board.h:609</div></div>
+<div class="ttc" id="aclassboard_html_a2c5a0def304361ca54f770b2cd9520fd"><div class="ttname"><a href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">board::MGetInstClockFreq</a></div><div class="ttdeci">virtual float MGetInstClockFreq(void)=0</div><div class="ttdoc">board microcontroller get cpu internal clock (in PIC frequency/4)</div></div>
 <div class="ttc" id="aclassboard_html_a310d04440c58dd0d664c62a891518a9c"><div class="ttname"><a href="classboard.html#a310d04440c58dd0d664c62a891518a9c">board::input_ids</a></div><div class="ttdeci">input_t * input_ids[120]</div><div class="ttdoc">input map elements by id order</div><div class="ttdef"><b>Definition:</b> board.h:604</div></div>
 <div class="ttc" id="aclassboard_html_a4baf2e6e854e2c46eac9104b82ed4d66"><div class="ttname"><a href="classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66">board::InstCounterInc</a></div><div class="ttdeci">void InstCounterInc(void)</div><div class="ttdoc">Increment the Intructions Counter.</div><div class="ttdef"><b>Definition:</b> board.cc:360</div></div>
 <div class="ttc" id="aclassboard_html_a52d4e88ddf5f29d1648ea94dafbf87de"><div class="ttname"><a href="classboard.html#a52d4e88ddf5f29d1648ea94dafbf87de">board::outputc</a></div><div class="ttdeci">int outputc</div><div class="ttdoc">output map elements counter</div><div class="ttdef"><b>Definition:</b> board.h:608</div></div>
@@ -1279,7 +1470,6 @@ board_x.cc</h2>
 <div class="ttc" id="astructinput__t_html_a1e2b92740c7fb766fb0e6a672b9bb498"><div class="ttname"><a href="structinput__t.html#a1e2b92740c7fb766fb0e6a672b9bb498">input_t::x1</a></div><div class="ttdeci">unsigned int x1</div><div class="ttdoc">x1 position</div><div class="ttdef"><b>Definition:</b> board.h:48</div></div>
 <div class="ttc" id="astructinput__t_html_a7a312dba32cd784ba2673747b24cd24c"><div class="ttname"><a href="structinput__t.html#a7a312dba32cd784ba2673747b24cd24c">input_t::update</a></div><div class="ttdeci">unsigned char * update</div><div class="ttdoc">output need draw update</div><div class="ttdef"><b>Definition:</b> board.h:57</div></div>
 <div class="ttc" id="astructinput__t_html_aa46e9709c149cb3cdc28825ba28fb7ed"><div class="ttname"><a href="structinput__t.html#aa46e9709c149cb3cdc28825ba28fb7ed">input_t::status</a></div><div class="ttdeci">void * status</div><div class="ttdoc">rcontrol status</div><div class="ttdef"><b>Definition:</b> board.h:56</div></div>
-<div class="ttc" id="astructoutput__t_html_a23bc69196fed4d0e4924453a11e182bd"><div class="ttname"><a href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">output_t::value</a></div><div class="ttdeci">unsigned char value</div><div class="ttdoc">updated value</div><div class="ttdef"><b>Definition:</b> board.h:82</div></div>
 <div class="ttc" id="astructoutput__t_html_a62355ce1deb5d7a3a7955b5bb25ac26c"><div class="ttname"><a href="structoutput__t.html#a62355ce1deb5d7a3a7955b5bb25ac26c">output_t::x2</a></div><div class="ttdeci">unsigned int x2</div><div class="ttdoc">x2 position</div><div class="ttdef"><b>Definition:</b> board.h:71</div></div>
 <div class="ttc" id="astructoutput__t_html_aabca51d7095f7ba0b654cbcfea9cd6b7"><div class="ttname"><a href="structoutput__t.html#aabca51d7095f7ba0b654cbcfea9cd6b7">output_t::y2</a></div><div class="ttdeci">unsigned int y2</div><div class="ttdoc">y2 position</div><div class="ttdef"><b>Definition:</b> board.h:73</div></div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->

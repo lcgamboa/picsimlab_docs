@@ -1,13 +1,12 @@
 var classcpart__servo =
 [
-    [ "cpart_servo", "classcpart__servo.html#a38f5b70c1f63626da3951a5ce57bc16f", null ],
+    [ "cpart_servo", "classcpart__servo.html#a5c01b222226c974ea5b723a56a759bf9", null ],
     [ "~cpart_servo", "classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a", null ],
     [ "ConfigurePropertiesWindow", "classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a", null ],
-    [ "Draw", "classcpart__servo.html#afb87939ab462851e162586d40991515c", null ],
-    [ "get_in_id", "classcpart__servo.html#a5fa49b34102d782755dd5f5ef172f13d", null ],
-    [ "get_out_id", "classcpart__servo.html#a57b0dc4b8c939e2ea78065a03dda0bd3", null ],
+    [ "DrawOutput", "classcpart__servo.html#a27b57ccb2a1ab07a2c864495f3e956ca", null ],
     [ "GetAboutInfo", "classcpart__servo.html#ac842a5c8444381ca1bf23468403ce549", null ],
-    [ "GetName", "classcpart__servo.html#a369e48b1d7406e0aa2364c0aef1c9e96", null ],
+    [ "GetInputId", "classcpart__servo.html#a9dd6a8701ae2c89e595a921b581454d6", null ],
+    [ "GetOutputId", "classcpart__servo.html#afbeb0fc7e4f5e10fa68d831ef7108016", null ],
     [ "LoadImage", "classcpart__servo.html#a4cd02691744179ceeaeaedad1f8fd41a", null ],
     [ "PostProcess", "classcpart__servo.html#a5cd43fc2214c65bdfbac5291228f8376", null ],
     [ "Process", "classcpart__servo.html#a774812d1ea393ac0328de09efbe97490", null ],

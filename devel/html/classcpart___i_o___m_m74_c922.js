@@ -1,12 +1,11 @@
 var classcpart___i_o___m_m74_c922 =
 [
     [ "ConfigurePropertiesWindow", "classcpart___i_o___m_m74_c922.html#a9594b67a913368222ea35ab50ee3ee4b", null ],
-    [ "Draw", "classcpart___i_o___m_m74_c922.html#a5b173df504f6307de4177629a2f49362", null ],
-    [ "get_in_id", "classcpart___i_o___m_m74_c922.html#ac1068a0cceb9fe5917efef106b865ebd", null ],
-    [ "get_out_id", "classcpart___i_o___m_m74_c922.html#a7e37ea93dddb70b148659cecb8ad186e", null ],
+    [ "DrawOutput", "classcpart___i_o___m_m74_c922.html#a544c78112414eb4e83a08f97609ff984", null ],
     [ "GetAboutInfo", "classcpart___i_o___m_m74_c922.html#a1818a74d4a95371061538114fa4effe8", null ],
+    [ "GetInputId", "classcpart___i_o___m_m74_c922.html#a844a87708dfdc74890f7163c7ddde2c6", null ],
     [ "GetMapFile", "classcpart___i_o___m_m74_c922.html#aa9a5f6246a839b4f4cfbc0ef28fb7648", null ],
-    [ "GetName", "classcpart___i_o___m_m74_c922.html#a1388307370a45a1ad75d092ebbacdb06", null ],
+    [ "GetOutputId", "classcpart___i_o___m_m74_c922.html#ae9e7c8f9e380f2c5c8a62ec67366de95", null ],
     [ "GetPictureFileName", "classcpart___i_o___m_m74_c922.html#ae122fc67e8ecc10397b19f3b75cd7548", null ],
     [ "PostProcess", "classcpart___i_o___m_m74_c922.html#a646d077dff9e44753ffae30e9ee05c85", null ],
     [ "PreProcess", "classcpart___i_o___m_m74_c922.html#a1bae0e23fe28c50a776a5efaee11892a", null ],

@@ -1,8 +1,6 @@
 <map id="cboard_DevKitC::Run_CPU" name="cboard_DevKitC::Run_CPU">
-<area shape="rect" id="node1" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,35,199,61"/>
+<area shape="rect" id="node1" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,31,199,57"/>
 <area shape="rect" id="node2" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="482,5,637,32"/>
-<area shape="rect" id="node3" href="$classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="247,60,417,87"/>
+<area shape="rect" id="node3" href="$classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="247,56,417,83"/>
 <area shape="rect" id="node4" href="$classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f" title="Register remote control variables." alt="" coords="465,57,653,98"/>
-<area shape="rect" id="node5" href="$class_c_p_window5.html#a371988205dfdb7dbb05150751c505f4a" title="Reset all spare parts." alt="" coords="487,123,631,149"/>
-<area shape="rect" id="node6" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="701,123,795,149"/>
 </map>

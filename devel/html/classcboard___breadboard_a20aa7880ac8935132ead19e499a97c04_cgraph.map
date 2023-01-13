@@ -1,12 +1,12 @@
 <map id="cboard_Breadboard::MInit" name="cboard_Breadboard::MInit">
 <area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,86,161,127"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="209,5,405,32"/>
-<area shape="rect" id="node3" href="$classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47" title="board microcontroller pin count" alt="" coords="229,57,385,98"/>
-<area shape="rect" id="node6" href="$classbsim__picsim.html#a370ed64b93a0adfec5204695439c46db" title="board microcontroller init" alt="" coords="235,123,380,149"/>
-<area shape="rect" id="node8" href="$classbsim__simavr.html#a78ef1bb3e0303c5aef2be5b994149b98" title="board microcontroller init" alt="" coords="234,173,381,200"/>
-<area shape="rect" id="node4" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="455,21,660,48"/>
-<area shape="rect" id="node5" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="709,173,916,200"/>
-<area shape="rect" id="node7" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="453,123,661,149"/>
-<area shape="rect" id="node9" href="$classbsim__simavr.html#a63c2ca626d5e2fce34934ed3339d8475" title="board microcontroller pin name" alt="" coords="453,224,661,251"/>
-<area shape="rect" id="node10" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="476,275,639,301"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="209,5,407,32"/>
+<area shape="rect" id="node3" href="$classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47" title="board microcontroller pin count" alt="" coords="230,57,386,98"/>
+<area shape="rect" id="node6" href="$classbsim__picsim.html#a370ed64b93a0adfec5204695439c46db" title="board microcontroller init" alt="" coords="235,123,381,149"/>
+<area shape="rect" id="node8" href="$classbsim__simavr.html#a78ef1bb3e0303c5aef2be5b994149b98" title="board microcontroller init" alt="" coords="235,173,381,200"/>
+<area shape="rect" id="node4" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="456,21,661,48"/>
+<area shape="rect" id="node5" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="711,173,917,200"/>
+<area shape="rect" id="node7" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="455,123,663,149"/>
+<area shape="rect" id="node9" href="$classbsim__simavr.html#a63c2ca626d5e2fce34934ed3339d8475" title="board microcontroller pin name" alt="" coords="455,224,663,251"/>
+<area shape="rect" id="node10" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="477,275,640,301"/>
 </map>

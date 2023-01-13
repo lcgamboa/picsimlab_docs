@@ -1,0 +1,4 @@
+<map id="cpart_pot_r::DrawOutput" name="cpart_pot_r::DrawOutput">
+<area shape="rect" id="node1" title="Called to draw every output." alt="" coords="5,5,187,32"/>
+<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="235,5,425,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="cpart_dht11::DrawOutput" name="cpart_dht11::DrawOutput">
+<area shape="rect" id="node1" title="Called to draw every output." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="239,5,429,32"/>
+</map>

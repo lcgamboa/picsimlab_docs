@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('spareparts_8h_source.html',''); initRe
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   ########################################################################</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2022  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2023  Luis Claudio Gambôa Lopes</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"></span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -130,9 +130,9 @@ $(document).ready(function(){initNavTree('spareparts_8h_source.html',''); initRe
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">int</span> GetCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> partsc; };</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_class" href="classpart.html">part</a>* GetPart(<span class="keyword">const</span> <span class="keywordtype">int</span> partn);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> DeleteParts(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> Reset_pullup_bus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> Set_pullup_bus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> Get_pullup_bus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> ResetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> SetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">Process</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('spareparts_8h_source.html',''); initRe
 <div class="ttc" id="aclass_c_spare_parts_html_adf2184d88f05dfb8d880c2c08473d0b8"><div class="ttname"><a href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">CSpareParts::PostProcess</a></div><div class="ttdeci">void PostProcess(void)</div><div class="ttdoc">Execute the post process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition:</b> spareparts.cc:493</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_aeb04eb62a248ea4f07e83d8752baf96f"><div class="ttname"><a href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">CSpareParts::PreProcess</a></div><div class="ttdeci">void PreProcess(void)</div><div class="ttdoc">Execute the pre process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition:</b> spareparts.cc:448</div></div>
 <div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition:</b> board.h:107</div></div>
-<div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:36</div></div>
+<div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

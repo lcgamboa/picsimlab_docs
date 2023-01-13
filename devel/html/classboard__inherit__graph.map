@@ -5,7 +5,7 @@
 <area shape="rect" id="node15" href="$classbsim__qemu.html" title=" " alt="" coords="117,689,215,716"/>
 <area shape="rect" id="node19" href="$classbsim__remote.html" title=" " alt="" coords="112,765,220,792"/>
 <area shape="rect" id="node21" href="$classbsim__simavr.html" title=" " alt="" coords="113,132,219,159"/>
-<area shape="rect" id="node24" href="$classbsim__ucsim.html" title=" " alt="" coords="116,828,216,855"/>
+<area shape="rect" id="node26" href="$classbsim__ucsim.html" title=" " alt="" coords="116,828,216,855"/>
 <area shape="rect" id="node3" href="$classcboard__gpboard.html" title=" " alt="" coords="293,5,420,32"/>
 <area shape="rect" id="node5" href="$classcboard___breadboard.html" title=" " alt="" coords="283,157,431,184"/>
 <area shape="rect" id="node6" href="$classcboard___curiosity.html" title=" " alt="" coords="291,208,422,235"/>
@@ -22,6 +22,8 @@
 <area shape="rect" id="node18" href="$classcboard___s_t_m32___h103.html" title=" " alt="" coords="277,765,436,792"/>
 <area shape="rect" id="node20" href="$classcboard___remote_t_c_p.html" title=" " alt="" coords="282,816,431,843"/>
 <area shape="rect" id="node22" href="$classcboard___arduino___uno.html" title=" " alt="" coords="279,56,435,83"/>
-<area shape="rect" id="node23" href="$classcboard___franzininho___d_i_y.html" title=" " alt="" coords="268,107,445,133"/>
-<area shape="rect" id="node25" href="$classcboard__u_cboard.html" title=" " alt="" coords="293,867,420,893"/>
+<area shape="rect" id="node25" href="$classcboard___franzininho___d_i_y.html" title=" " alt="" coords="268,107,445,133"/>
+<area shape="rect" id="node23" href="$classcboard___arduino___mega.html" title=" " alt="" coords="493,31,660,57"/>
+<area shape="rect" id="node24" href="$classcboard___arduino___nano.html" title=" " alt="" coords="495,81,659,108"/>
+<area shape="rect" id="node27" href="$classcboard__u_cboard.html" title=" " alt="" coords="293,867,420,893"/>
 </map>

@@ -1,0 +1,4 @@
+<map id="cpart_switches::DrawOutput" name="cpart_switches::DrawOutput">
+<area shape="rect" id="node1" title="Called to draw every output." alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="259,5,449,32"/>
+</map>

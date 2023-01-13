@@ -1,11 +1,10 @@
 var classcpart__led__matrix =
 [
     [ "ConfigurePropertiesWindow", "classcpart__led__matrix.html#a1cd935d61a9efa2139e3cc9d11990920", null ],
-    [ "Draw", "classcpart__led__matrix.html#a3347673a70215300fe9b833cafe3a457", null ],
-    [ "get_in_id", "classcpart__led__matrix.html#a2f143c0ace811b901708362e53caad01", null ],
-    [ "get_out_id", "classcpart__led__matrix.html#af99f0cecbe2eddf3bbb76379e35391fb", null ],
+    [ "DrawOutput", "classcpart__led__matrix.html#a6b7a3969819762eb43cc6c272fc1fb61", null ],
     [ "GetAboutInfo", "classcpart__led__matrix.html#a568ded66c4b933ea73cb22cb65dc5a3b", null ],
-    [ "GetName", "classcpart__led__matrix.html#a41c685e3c2cab7b2926ee074e87cd81a", null ],
+    [ "GetInputId", "classcpart__led__matrix.html#aa4c7dfd116724ff27a368b88070de9ce", null ],
+    [ "GetOutputId", "classcpart__led__matrix.html#abd8230ca44a53642c0e8a3abce91251f", null ],
     [ "PostProcess", "classcpart__led__matrix.html#a3e986388ee278baaddfd3cbcf4b77c43", null ],
     [ "Process", "classcpart__led__matrix.html#ad7bfd06ebb2cf7ac0c02d92e3c70eaaf", null ],
     [ "ReadPreferences", "classcpart__led__matrix.html#aa0776f375c94e5d2a29414665b959796", null ],

@@ -1,7 +1,7 @@
 <map id="cboard_Breadboard::Draw" name="cboard_Breadboard::Draw">
 <area shape="rect" id="node1" title="Called ever 100ms to draw board." alt="" coords="5,35,196,61"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="244,5,433,32"/>
-<area shape="rect" id="node3" href="$classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47" title="board microcontroller pin count" alt="" coords="261,57,417,98"/>
-<area shape="rect" id="node4" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="482,39,687,65"/>
-<area shape="rect" id="node5" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="481,89,688,116"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="244,5,427,32"/>
+<area shape="rect" id="node3" href="$classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47" title="board microcontroller pin count" alt="" coords="257,57,413,98"/>
+<area shape="rect" id="node4" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="475,39,681,65"/>
+<area shape="rect" id="node5" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="475,89,681,116"/>
 </map>

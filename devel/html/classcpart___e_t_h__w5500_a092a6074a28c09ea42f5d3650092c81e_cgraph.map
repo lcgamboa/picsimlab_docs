@@ -1,5 +1,4 @@
 <map id="cpart_ETH_w5500::ReadPreferences" name="cpart_ETH_w5500::ReadPreferences">
-<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,42,261,69"/>
-<area shape="rect" id="node2" href="$classcpart___e_t_h__w5500.html#ae6f79069d3c15274a24764eec8625e53" title="Register remote control variables." alt="" coords="309,5,509,47"/>
-<area shape="rect" id="node3" href="$classcpart___e_t_h__w5500.html#ace6ddf9598a6eb86f035da647f0e51c9" title="Reset part status." alt="" coords="318,71,501,98"/>
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,5,261,32"/>
+<area shape="rect" id="node2" href="$classcpart___e_t_h__w5500.html#ace6ddf9598a6eb86f035da647f0e51c9" title="Reset part status." alt="" coords="309,5,492,32"/>
 </map>

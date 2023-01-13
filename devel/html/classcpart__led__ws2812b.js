@@ -1,11 +1,10 @@
 var classcpart__led__ws2812b =
 [
     [ "ConfigurePropertiesWindow", "classcpart__led__ws2812b.html#a09ff8daa521e9dfc2634bcecbc9df784", null ],
-    [ "Draw", "classcpart__led__ws2812b.html#a11e39b025d3ab0601e0e33f37f09ee29", null ],
-    [ "get_in_id", "classcpart__led__ws2812b.html#a935b479dd3510072a667392efbc625aa", null ],
-    [ "get_out_id", "classcpart__led__ws2812b.html#a370e6c3bc05d0386a8c747fb7ee46f3b", null ],
+    [ "DrawOutput", "classcpart__led__ws2812b.html#aca9d74edaf6d1bb3673c819eb7d13c75", null ],
     [ "GetAboutInfo", "classcpart__led__ws2812b.html#a7cfd0eb5fb878a271c8d716fa89b7bc1", null ],
-    [ "GetName", "classcpart__led__ws2812b.html#adb2c586d4437b9589a972fade7bb049c", null ],
+    [ "GetInputId", "classcpart__led__ws2812b.html#a42305f70000c826ac5cc63ac2bb77545", null ],
+    [ "GetOutputId", "classcpart__led__ws2812b.html#ac9ab791c6b3353cbd3505945da28f064", null ],
     [ "LoadImage", "classcpart__led__ws2812b.html#a909e9f724e87354a31dbc5e48ea801df", null ],
     [ "PostProcess", "classcpart__led__ws2812b.html#adf979ddba7d7cb6a66fd0cf2f71e50bd", null ],
     [ "PreProcess", "classcpart__led__ws2812b.html#a53ccbe2dc89056ccd8a1893f37739394", null ],

@@ -1,11 +1,10 @@
 var classcpart___l_c_d__hd44780 =
 [
     [ "ConfigurePropertiesWindow", "classcpart___l_c_d__hd44780.html#a567b40e4e0d32e35a7822a3616817d39", null ],
-    [ "Draw", "classcpart___l_c_d__hd44780.html#acc1d4cb76f5e5826c83bd3659a1cf8b7", null ],
-    [ "get_in_id", "classcpart___l_c_d__hd44780.html#aea6cfef8beaaa2f6b3a2589d99a6e84b", null ],
-    [ "get_out_id", "classcpart___l_c_d__hd44780.html#a7d2bb30ac22d31ade0d3c34b85cc56ce", null ],
+    [ "DrawOutput", "classcpart___l_c_d__hd44780.html#a76e507d98ef4247f3c3d506c05f1e358", null ],
     [ "GetAboutInfo", "classcpart___l_c_d__hd44780.html#a37236e165b4808f2ef531eb3a231c4b6", null ],
-    [ "GetName", "classcpart___l_c_d__hd44780.html#af94699f85af4fe7db4d0093db3356b40", null ],
+    [ "GetInputId", "classcpart___l_c_d__hd44780.html#a4c531ce5e6645cdee6e9d2c2ae8e5dd1", null ],
+    [ "GetOutputId", "classcpart___l_c_d__hd44780.html#af8a52569f99d2902a86d6e2f74c9084a", null ],
     [ "GetPictureFileName", "classcpart___l_c_d__hd44780.html#a54f7cb4adbe46e936ae2dd8c626c2862", null ],
     [ "LoadImage", "classcpart___l_c_d__hd44780.html#a60e52a27c528e127fbf4f56e033902a1", null ],
     [ "PostProcess", "classcpart___l_c_d__hd44780.html#a5b0758ef24f8cdebac2d10e1f97d5183", null ],

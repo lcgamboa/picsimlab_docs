@@ -1,10 +1,12 @@
 <map id="cpart_LCD_ili9341::ConfigurePropertiesWindow" name="cpart_LCD_ili9341::ConfigurePropertiesWindow">
-<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,115,208,156"/>
-<area shape="rect" id="node2" href="$classcpart___l_c_d__ili9341.html#af63d0201887582a5f1147541e5c41eb2" title="Event handler on the part." alt="" coords="269,5,445,47"/>
-<area shape="rect" id="node4" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="263,71,452,98"/>
-<area shape="rect" id="node5" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="256,122,459,149"/>
-<area shape="rect" id="node7" href="$classpart.html#aeb1dcec741ed0694dc2c779d7e2de2d1" title="Set X position of part." alt="" coords="314,173,401,199"/>
-<area shape="rect" id="node8" href="$classpart.html#a250abec3d9e515980bc929be4f2b79c4" title="Set Y position of part." alt="" coords="315,223,400,250"/>
-<area shape="rect" id="node3" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="523,13,651,39"/>
-<area shape="rect" id="node6" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="507,122,667,149"/>
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,150,208,191"/>
+<area shape="rect" id="node2" href="$classpart.html#a1d1c169fe6bc981df52ab7b6c72f15a8" title="Event handler on the part." alt="" coords="256,56,467,83"/>
+<area shape="rect" id="node6" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="266,107,457,133"/>
+<area shape="rect" id="node7" href="$class_c_spare_parts.html#aafd37c23afd7ccd809ab85032a479a62" title="Return the name of all pins." alt="" coords="259,157,464,184"/>
+<area shape="rect" id="node9" href="$classpart.html#aeb1dcec741ed0694dc2c779d7e2de2d1" title="Set X position of part." alt="" coords="318,208,405,235"/>
+<area shape="rect" id="node10" href="$classpart.html#a250abec3d9e515980bc929be4f2b79c4" title="Set Y position of part." alt="" coords="319,259,404,285"/>
+<area shape="rect" id="node3" href="$classpart.html#a7313a876dbcea4c56ccb3da6ffe5465a" title="Event handler on the part." alt="" coords="515,5,727,32"/>
+<area shape="rect" id="node4" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="557,56,685,83"/>
+<area shape="rect" id="node5" href="$classpart.html#a992a5000e6919e07c4553ed6817f8360" title="Return coords x y rotated by orientation." alt="" coords="549,107,693,133"/>
+<area shape="rect" id="node8" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="541,157,701,184"/>
 </map>

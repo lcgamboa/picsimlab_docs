@@ -97,6 +97,13 @@ $(document).ready(function(){initNavTree('class_c_p_i_c_sim_lab.html',''); initR
 Collaboration diagram for CPICSimLab:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_c_p_i_c_sim_lab__coll__graph.png" border="0" usemap="#a_c_p_i_c_sim_lab_coll__map" alt="Collaboration graph"/></div>
+<map name="a_c_p_i_c_sim_lab_coll__map" id="a_c_p_i_c_sim_lab_coll__map">
+<area shape="rect" title=" " alt="" coords="85,199,185,225"/>
+<area shape="rect" href="classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
+<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
+<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -183,89 +190,89 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteBoard</b> (void
 <tr class="memitem:a32d207a3ea03b5b96dab66f4c9c928c1"><td class="memItemLeft" align="right" valign="top"><a id="a32d207a3ea03b5b96dab66f4c9c928c1" name="a32d207a3ea03b5b96dab66f4c9c928c1"></a>
 CStatusbar *&#160;</td><td class="memItemRight" valign="bottom"><b>GetStatusBar</b> (void)</td></tr>
 <tr class="separator:a32d207a3ea03b5b96dab66f4c9c928c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac9970694b88fb7fae9f99fb3d3a5403"><td class="memItemLeft" align="right" valign="top"><a id="aac9970694b88fb7fae9f99fb3d3a5403" name="aac9970694b88fb7fae9f99fb3d3a5403"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_mcupwr</b> (void)</td></tr>
-<tr class="memdesc:aac9970694b88fb7fae9f99fb3d3a5403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return actual power status of microcontroller ON/OFF. <br /></td></tr>
-<tr class="separator:aac9970694b88fb7fae9f99fb3d3a5403"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c998b79cd110ee1c715811183242513"><td class="memItemLeft" align="right" valign="top"><a id="a3c998b79cd110ee1c715811183242513" name="a3c998b79cd110ee1c715811183242513"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_mcurst</b> (void)</td></tr>
-<tr class="memdesc:a3c998b79cd110ee1c715811183242513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retunr if microcontroller reset pin is enabled. <br /></td></tr>
-<tr class="separator:a3c998b79cd110ee1c715811183242513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7d859f8a26e7ebda10642b90350000a"><td class="memItemLeft" align="right" valign="top"><a id="ad7d859f8a26e7ebda10642b90350000a" name="ad7d859f8a26e7ebda10642b90350000a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_mcudbg</b> (void)</td></tr>
-<tr class="separator:ad7d859f8a26e7ebda10642b90350000a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d48a79d4835b85f63ff31b2d30a2c7e"><td class="memItemLeft" align="right" valign="top"><a id="a3d48a79d4835b85f63ff31b2d30a2c7e" name="a3d48a79d4835b85f63ff31b2d30a2c7e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_mcupwr</b> (int pp)</td></tr>
-<tr class="memdesc:a3d48a79d4835b85f63ff31b2d30a2c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the power status of microcontroller ON/OFF. <br /></td></tr>
-<tr class="separator:a3d48a79d4835b85f63ff31b2d30a2c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe7b589c0de06036c5b167e815af9498"><td class="memItemLeft" align="right" valign="top"><a id="abe7b589c0de06036c5b167e815af9498" name="abe7b589c0de06036c5b167e815af9498"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetMcuPwr</b> (void)</td></tr>
+<tr class="memdesc:abe7b589c0de06036c5b167e815af9498"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return actual power status of microcontroller ON/OFF. <br /></td></tr>
+<tr class="separator:abe7b589c0de06036c5b167e815af9498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17031743eb40a15b9ed14272f6187f18"><td class="memItemLeft" align="right" valign="top"><a id="a17031743eb40a15b9ed14272f6187f18" name="a17031743eb40a15b9ed14272f6187f18"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetMcuRst</b> (void)</td></tr>
+<tr class="memdesc:a17031743eb40a15b9ed14272f6187f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retunr if microcontroller reset pin is enabled. <br /></td></tr>
+<tr class="separator:a17031743eb40a15b9ed14272f6187f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745b94a6efd4294cd450be20bef4c8de"><td class="memItemLeft" align="right" valign="top"><a id="a745b94a6efd4294cd450be20bef4c8de" name="a745b94a6efd4294cd450be20bef4c8de"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetMcuDbg</b> (void)</td></tr>
+<tr class="separator:a745b94a6efd4294cd450be20bef4c8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6f3626c3818890de8b8d8f758cdca6"><td class="memItemLeft" align="right" valign="top"><a id="a9c6f3626c3818890de8b8d8f758cdca6" name="a9c6f3626c3818890de8b8d8f758cdca6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMcuPwr</b> (int pp)</td></tr>
+<tr class="memdesc:a9c6f3626c3818890de8b8d8f758cdca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the power status of microcontroller ON/OFF. <br /></td></tr>
+<tr class="separator:a9c6f3626c3818890de8b8d8f758cdca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a323818325952785aa61d9c16c573a8d0"><td class="memItemLeft" align="right" valign="top"><a id="a323818325952785aa61d9c16c573a8d0" name="a323818325952785aa61d9c16c573a8d0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCpuState</b> (const unsigned char cs)</td></tr>
 <tr class="separator:a323818325952785aa61d9c16c573a8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a260bf50fe760fe92583b3546e7053c4d"><td class="memItemLeft" align="right" valign="top"><a id="a260bf50fe760fe92583b3546e7053c4d" name="a260bf50fe760fe92583b3546e7053c4d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_mcurst</b> (int pr)</td></tr>
-<tr class="memdesc:a260bf50fe760fe92583b3546e7053c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mcu rst flag (inform simulator about mcu reset state) <br /></td></tr>
-<tr class="separator:a260bf50fe760fe92583b3546e7053c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077c76d5582e27431d8dceda7ff08d2f"><td class="memItemLeft" align="right" valign="top"><a id="a077c76d5582e27431d8dceda7ff08d2f" name="a077c76d5582e27431d8dceda7ff08d2f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMcuRst</b> (int pr)</td></tr>
+<tr class="memdesc:a077c76d5582e27431d8dceda7ff08d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mcu rst flag (inform simulator about mcu reset state) <br /></td></tr>
+<tr class="separator:a077c76d5582e27431d8dceda7ff08d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accce5b4e298274df613b8f6a7f92cb72"><td class="memItemLeft" align="right" valign="top"><a id="accce5b4e298274df613b8f6a7f92cb72" name="accce5b4e298274df613b8f6a7f92cb72"></a>
 char&#160;</td><td class="memItemRight" valign="bottom"><b>GetCpuState</b> (void)</td></tr>
 <tr class="separator:accce5b4e298274df613b8f6a7f92cb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a884771e58e74d14d12e49f61f86a57f5"><td class="memItemLeft" align="right" valign="top"><a id="a884771e58e74d14d12e49f61f86a57f5" name="a884771e58e74d14d12e49f61f86a57f5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_mcudbg</b> (int pd)</td></tr>
 <tr class="separator:a884771e58e74d14d12e49f61f86a57f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7cd053f56b533dc224f9787f39f593"><td class="memItemLeft" align="right" valign="top"><a id="a7b7cd053f56b533dc224f9787f39f593" name="a7b7cd053f56b533dc224f9787f39f593"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_mcurun</b> (int mr)</td></tr>
-<tr class="separator:a7b7cd053f56b533dc224f9787f39f593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a998ea0ce52370efd7f07e64c1fa1d398"><td class="memItemLeft" align="right" valign="top"><a id="a998ea0ce52370efd7f07e64c1fa1d398" name="a998ea0ce52370efd7f07e64c1fa1d398"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_mcurun</b> (void)</td></tr>
-<tr class="separator:a998ea0ce52370efd7f07e64c1fa1d398"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d40a9cdce965eb1f79c6cf80cce007"><td class="memItemLeft" align="right" valign="top"><a id="ab0d40a9cdce965eb1f79c6cf80cce007" name="ab0d40a9cdce965eb1f79c6cf80cce007"></a>
-unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>Get_debug_port</b> (void)</td></tr>
-<tr class="memdesc:ab0d40a9cdce965eb1f79c6cf80cce007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the selected debugger port. <br /></td></tr>
-<tr class="separator:ab0d40a9cdce965eb1f79c6cf80cce007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab742f160856f628e153fdd14f4b216e9"><td class="memItemLeft" align="right" valign="top"><a id="ab742f160856f628e153fdd14f4b216e9" name="ab742f160856f628e153fdd14f4b216e9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_debug_port</b> (unsigned short dp)</td></tr>
-<tr class="memdesc:ab742f160856f628e153fdd14f4b216e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug TCP port. <br /></td></tr>
-<tr class="separator:ab742f160856f628e153fdd14f4b216e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ef3ad45b3da795b759d73191ee5c50"><td class="memItemLeft" align="right" valign="top"><a id="ab7ef3ad45b3da795b759d73191ee5c50" name="ab7ef3ad45b3da795b759d73191ee5c50"></a>
-unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>Get_remotec_port</b> (void)</td></tr>
-<tr class="memdesc:ab7ef3ad45b3da795b759d73191ee5c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the selected remote control port. <br /></td></tr>
-<tr class="separator:ab7ef3ad45b3da795b759d73191ee5c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11791a78cbe9ecdd3fd5532b1c7389cc"><td class="memItemLeft" align="right" valign="top"><a id="a11791a78cbe9ecdd3fd5532b1c7389cc" name="a11791a78cbe9ecdd3fd5532b1c7389cc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_remotec_port</b> (unsigned short rcp)</td></tr>
-<tr class="memdesc:a11791a78cbe9ecdd3fd5532b1c7389cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set remote control TCP port. <br /></td></tr>
-<tr class="separator:a11791a78cbe9ecdd3fd5532b1c7389cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16da604c1a494da2c82797736feff7e4"><td class="memItemLeft" align="right" valign="top"><a id="a16da604c1a494da2c82797736feff7e4" name="a16da604c1a494da2c82797736feff7e4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMcuRun</b> (int mr)</td></tr>
+<tr class="separator:a16da604c1a494da2c82797736feff7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b510aa1a3c0047fd82effb1742467f"><td class="memItemLeft" align="right" valign="top"><a id="a34b510aa1a3c0047fd82effb1742467f" name="a34b510aa1a3c0047fd82effb1742467f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetMcuRun</b> (void)</td></tr>
+<tr class="separator:a34b510aa1a3c0047fd82effb1742467f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeaf92193396b7ed84ef4cfe6166cfe2"><td class="memItemLeft" align="right" valign="top"><a id="aeeaf92193396b7ed84ef4cfe6166cfe2" name="aeeaf92193396b7ed84ef4cfe6166cfe2"></a>
+unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>GetDebugPort</b> (void)</td></tr>
+<tr class="memdesc:aeeaf92193396b7ed84ef4cfe6166cfe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the selected debugger port. <br /></td></tr>
+<tr class="separator:aeeaf92193396b7ed84ef4cfe6166cfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa183ae2a8ecfbc63a5202277886427f1"><td class="memItemLeft" align="right" valign="top"><a id="aa183ae2a8ecfbc63a5202277886427f1" name="aa183ae2a8ecfbc63a5202277886427f1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDebugPort</b> (unsigned short dp)</td></tr>
+<tr class="memdesc:aa183ae2a8ecfbc63a5202277886427f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug TCP port. <br /></td></tr>
+<tr class="separator:aa183ae2a8ecfbc63a5202277886427f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad262682a91e4d0f43315aa092155bc92"><td class="memItemLeft" align="right" valign="top"><a id="ad262682a91e4d0f43315aa092155bc92" name="ad262682a91e4d0f43315aa092155bc92"></a>
+unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>GetRemotecPort</b> (void)</td></tr>
+<tr class="memdesc:ad262682a91e4d0f43315aa092155bc92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the selected remote control port. <br /></td></tr>
+<tr class="separator:ad262682a91e4d0f43315aa092155bc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a649402f0a23e6a7a94c3fc6997761b"><td class="memItemLeft" align="right" valign="top"><a id="a3a649402f0a23e6a7a94c3fc6997761b" name="a3a649402f0a23e6a7a94c3fc6997761b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRemotecPort</b> (unsigned short rcp)</td></tr>
+<tr class="memdesc:a3a649402f0a23e6a7a94c3fc6997761b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set remote control TCP port. <br /></td></tr>
+<tr class="separator:a3a649402f0a23e6a7a94c3fc6997761b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada51ff594faa121ffc228c29362ef2b2"><td class="memItemLeft" align="right" valign="top"><a id="ada51ff594faa121ffc228c29362ef2b2" name="ada51ff594faa121ffc228c29362ef2b2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetInstanceNumber</b> (void)</td></tr>
 <tr class="memdesc:ada51ff594faa121ffc228c29362ef2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the program instance number. <br /></td></tr>
 <tr class="separator:ada51ff594faa121ffc228c29362ef2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad113c00ab0c0afb571964c4bb58e171e"><td class="memItemLeft" align="right" valign="top"><a id="ad113c00ab0c0afb571964c4bb58e171e" name="ad113c00ab0c0afb571964c4bb58e171e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_debug_type</b> (void)</td></tr>
-<tr class="memdesc:ad113c00ab0c0afb571964c4bb58e171e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the selected debugger type. <br /></td></tr>
-<tr class="separator:ad113c00ab0c0afb571964c4bb58e171e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4d8666b622e220e14e2410baaed198d"><td class="memItemLeft" align="right" valign="top"><a id="ab4d8666b622e220e14e2410baaed198d" name="ab4d8666b622e220e14e2410baaed198d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_debug_type</b> (int dt)</td></tr>
-<tr class="memdesc:ab4d8666b622e220e14e2410baaed198d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug type (MDB or GDB) <br /></td></tr>
-<tr class="separator:ab4d8666b622e220e14e2410baaed198d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c1e0316133640d365e4b0caa73f0084"><td class="memItemLeft" align="right" valign="top"><a id="a6c1e0316133640d365e4b0caa73f0084" name="a6c1e0316133640d365e4b0caa73f0084"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_debug_status</b> (void)</td></tr>
-<tr class="memdesc:a6c1e0316133640d365e4b0caa73f0084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get debug status (On/Off) <br /></td></tr>
-<tr class="separator:a6c1e0316133640d365e4b0caa73f0084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb4be19d6c2d685858e61d1cd642054e"><td class="memItemLeft" align="right" valign="top"><a id="acb4be19d6c2d685858e61d1cd642054e" name="acb4be19d6c2d685858e61d1cd642054e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_debug_status</b> (int dbs, int updatebtn=1)</td></tr>
-<tr class="memdesc:acb4be19d6c2d685858e61d1cd642054e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug status flag. <br /></td></tr>
-<tr class="separator:acb4be19d6c2d685858e61d1cd642054e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d4460bfdffda43e2c15fadb1f7abdd"><td class="memItemLeft" align="right" valign="top"><a id="ae1d4460bfdffda43e2c15fadb1f7abdd" name="ae1d4460bfdffda43e2c15fadb1f7abdd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetDebugType</b> (void)</td></tr>
+<tr class="memdesc:ae1d4460bfdffda43e2c15fadb1f7abdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the selected debugger type. <br /></td></tr>
+<tr class="separator:ae1d4460bfdffda43e2c15fadb1f7abdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b9e31473f78b6ad3dcabd66821cd22"><td class="memItemLeft" align="right" valign="top"><a id="af1b9e31473f78b6ad3dcabd66821cd22" name="af1b9e31473f78b6ad3dcabd66821cd22"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDebugType</b> (int dt)</td></tr>
+<tr class="memdesc:af1b9e31473f78b6ad3dcabd66821cd22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug type (MDB or GDB) <br /></td></tr>
+<tr class="separator:af1b9e31473f78b6ad3dcabd66821cd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa601868c047707b0d1037fe87250f5f4"><td class="memItemLeft" align="right" valign="top"><a id="aa601868c047707b0d1037fe87250f5f4" name="aa601868c047707b0d1037fe87250f5f4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetDebugStatus</b> (void)</td></tr>
+<tr class="memdesc:aa601868c047707b0d1037fe87250f5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get debug status (On/Off) <br /></td></tr>
+<tr class="separator:aa601868c047707b0d1037fe87250f5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9bbdbcb4a5fe56e318b1d1b97a88230"><td class="memItemLeft" align="right" valign="top"><a id="aa9bbdbcb4a5fe56e318b1d1b97a88230" name="aa9bbdbcb4a5fe56e318b1d1b97a88230"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDebugStatus</b> (int dbs, int updatebtn=1)</td></tr>
+<tr class="memdesc:aa9bbdbcb4a5fe56e318b1d1b97a88230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug status flag. <br /></td></tr>
+<tr class="separator:aa9bbdbcb4a5fe56e318b1d1b97a88230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abef85ed7ff81f1625629ffb246a6e3c4"><td class="memItemLeft" align="right" valign="top"><a id="abef85ed7ff81f1625629ffb246a6e3c4" name="abef85ed7ff81f1625629ffb246a6e3c4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetClock</b> (const float clk, const int update=1)</td></tr>
 <tr class="separator:abef85ed7ff81f1625629ffb246a6e3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1963cfccc07aa855a37b38414c846b01"><td class="memItemLeft" align="right" valign="top"><a id="a1963cfccc07aa855a37b38414c846b01" name="a1963cfccc07aa855a37b38414c846b01"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetClock</b> (void)</td></tr>
 <tr class="separator:a1963cfccc07aa855a37b38414c846b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae689f5e044b0cc38cb3f26f93209d433"><td class="memItemLeft" align="right" valign="top"><a id="ae689f5e044b0cc38cb3f26f93209d433" name="ae689f5e044b0cc38cb3f26f93209d433"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetNeed_clkupdate</b> (void)</td></tr>
-<tr class="separator:ae689f5e044b0cc38cb3f26f93209d433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1d15473702667aea26d69b83433cbb4"><td class="memItemLeft" align="right" valign="top"><a id="ac1d15473702667aea26d69b83433cbb4" name="ac1d15473702667aea26d69b83433cbb4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>saveprefs</b> (lxString name, lxString value)</td></tr>
-<tr class="memdesc:ac1d15473702667aea26d69b83433cbb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the preferences. <br /></td></tr>
-<tr class="separator:ac1d15473702667aea26d69b83433cbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd1a1c98aeb799379776af74128cf1d"><td class="memItemLeft" align="right" valign="top"><a id="a9bd1a1c98aeb799379776af74128cf1d" name="a9bd1a1c98aeb799379776af74128cf1d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetNeedClkUpdate</b> (void)</td></tr>
+<tr class="separator:a9bd1a1c98aeb799379776af74128cf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34fc994a2b560032d8fbcfdea16a8c6"><td class="memItemLeft" align="right" valign="top"><a id="aa34fc994a2b560032d8fbcfdea16a8c6" name="aa34fc994a2b560032d8fbcfdea16a8c6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SavePrefs</b> (lxString name, lxString value)</td></tr>
+<tr class="memdesc:aa34fc994a2b560032d8fbcfdea16a8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the preferences. <br /></td></tr>
+<tr class="separator:aa34fc994a2b560032d8fbcfdea16a8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bce2366a4bdbd5b744e21ebdaff1f81"><td class="memItemLeft" align="right" valign="top"><a id="a4bce2366a4bdbd5b744e21ebdaff1f81" name="a4bce2366a4bdbd5b744e21ebdaff1f81"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PrefsClear</b> (void)</td></tr>
 <tr class="separator:a4bce2366a4bdbd5b744e21ebdaff1f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,16 +372,16 @@ lxCondition *&#160;</td><td class="memItemRight" valign="bottom"><b>cpu_cond</b>
 <tr class="memitem:ad5fdf41a88bde671708e567c75ce5d4a"><td class="memItemLeft" align="right" valign="top"><a id="ad5fdf41a88bde671708e567c75ce5d4a" name="ad5fdf41a88bde671708e567c75ce5d4a"></a>
 lxMutex *&#160;</td><td class="memItemRight" valign="bottom"><b>cpu_mutex</b></td></tr>
 <tr class="separator:ad5fdf41a88bde671708e567c75ce5d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ffec5f2dab3c5b3cbd69c645f49f960"><td class="memItemLeft" ><a id="a9ffec5f2dab3c5b3cbd69c645f49f960" name="a9ffec5f2dab3c5b3cbd69c645f49f960"></a>
+<tr class="memitem:aa84d9a3810348a8f5630b352f30c57d7"><td class="memItemLeft" ><a id="aa84d9a3810348a8f5630b352f30c57d7" name="aa84d9a3810348a8f5630b352f30c57d7"></a>
 union {</td></tr>
-<tr class="memitem:ae3303d0a39930ba57b7fa17453e67729"><td class="memItemLeft" >
+<tr class="memitem:ae446e19e74fdeace4cee8f868f52c9a2"><td class="memItemLeft" >
 &#160;&#160;&#160;char&#160;&#160;&#160;<b>st</b> [2]</td></tr>
-<tr class="separator:ae3303d0a39930ba57b7fa17453e67729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa5af2528cf5e8ef71544eec547a023"><td class="memItemLeft" >
+<tr class="separator:ae446e19e74fdeace4cee8f868f52c9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4340bae50393f7fe99f0b2e7514a8c89"><td class="memItemLeft" >
 &#160;&#160;&#160;unsigned short int&#160;&#160;&#160;<b>status</b></td></tr>
-<tr class="separator:a6fa5af2528cf5e8ef71544eec547a023"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ffec5f2dab3c5b3cbd69c645f49f960"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
-<tr class="separator:a9ffec5f2dab3c5b3cbd69c645f49f960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a4340bae50393f7fe99f0b2e7514a8c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84d9a3810348a8f5630b352f30c57d7"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:aa84d9a3810348a8f5630b352f30c57d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bcab3d1a34f7c9fca1c64d6cb6a0ba5"><td class="memItemLeft" align="right" valign="top"><a id="a7bcab3d1a34f7c9fca1c64d6cb6a0ba5" name="a7bcab3d1a34f7c9fca1c64d6cb6a0ba5"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>tgo</b></td></tr>
 <tr class="separator:a7bcab3d1a34f7c9fca1c64d6cb6a0ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>

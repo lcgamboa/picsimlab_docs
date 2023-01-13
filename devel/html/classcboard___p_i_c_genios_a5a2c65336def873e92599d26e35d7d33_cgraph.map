@@ -1,5 +1,5 @@
 <map id="cboard_PICGenios::Draw" name="cboard_PICGenios::Draw">
 <area shape="rect" id="node1" title="Called ever 100ms to draw board." alt="" coords="5,31,187,57"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#af08244612c785b8acc158fbc5d95a444" title="Return actual power status of microcontroller ON/OFF." alt="" coords="235,5,424,32"/>
-<area shape="rect" id="node3" href="$class_c_p_window1.html#ae06fa45b666a4e0993cb7c9563b73ea8" title="Get the number of steps in 100ms of simulation." alt="" coords="241,56,417,83"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="235,5,417,32"/>
+<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708" title="Get the number of steps in 100ms of simulation." alt="" coords="237,56,415,83"/>
 </map>

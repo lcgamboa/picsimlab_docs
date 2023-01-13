@@ -1,0 +1,6 @@
+<map id="cboard_Arduino_Nano" name="cboard_Arduino_Nano">
+<area shape="rect" id="node1" title=" " alt="" coords="5,229,169,256"/>
+<area shape="rect" id="node2" href="$classcboard___arduino___uno.html" title=" " alt="" coords="9,155,165,181"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html" title=" " alt="" coords="34,80,141,107"/>
+<area shape="rect" id="node4" href="$classboard.html" title="Board class." alt="" coords="58,5,117,32"/>
+</map>

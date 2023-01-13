@@ -27,8 +27,8 @@ var NAVTREE =
   [ "PICSimLab - Programmable IC Simulator Laboratory", "index.html", [
     [ "Introduction", "index.html#intro_sec", null ],
     [ "Part example", "index.html#partex", [
-      [ "part_servo.h", "index.html#pinc", null ],
-      [ "part_servo.cc", "index.html#pcode", null ]
+      [ "output_step.h", "index.html#pinc", null ],
+      [ "output_step.cc", "index.html#pcode", null ]
     ] ],
     [ "Board example", "index.html#boardex", [
       [ "board_x.h", "index.html#binc", null ],
@@ -53,13 +53,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbsim__qemu.html#abdd5858432548f7866cbde79f635ff47",
-"classcboard___dev_kit_c.html#ae8c84cef71b31c283e08cb6331f71180",
-"classcpart__7s__display.html#aaf3c00c08dfbac09da762f911330dfe9",
-"classcpart___m_i2_c__24_c_x_x_x.html#a816b8c882ea7b90f26247a9afe07f5e2",
-"classcpart__dht22.html#abfcdaa6f391794e054833afd7df8ef2e",
-"classcpart__pot.html#a1e2cceabb79ed20cd72d20403170aafe",
-"functions_func_l.html"
+"classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35",
+"classcboard___dev_kit_c.html#a489b53566e49d4504b1f4f98168f22be",
+"classcpart__7s__display.html#a20028d94212618c91e9b13aaca9af89c",
+"classcpart___l_d_r.html#a62bf29ac502153267090e3fe43f7081f",
+"classcpart__dht22.html#ae6b3ea7b1f7458896487dd24781c5256",
+"classcpart__pot__r.html#a3e4dd82a21aa3c84e71dbe782e52269c",
+"functions_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

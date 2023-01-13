@@ -1,8 +1,4 @@
 <map id="CPWindow1" name="CPWindow1">
-<area shape="rect" id="node1" title="CPWindow1 class." alt="" coords="23,199,121,225"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,109,96,136"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="120,109,179,136"/>
-<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="20,5,87,32"/>
-<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="111,5,187,32"/>
-<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="211,5,290,32"/>
+<area shape="rect" id="node1" title="CPWindow1 class." alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,5,100,32"/>
 </map>

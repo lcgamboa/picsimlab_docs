@@ -1,11 +1,10 @@
 var classcpart__dcmotor =
 [
     [ "ConfigurePropertiesWindow", "classcpart__dcmotor.html#a3c1d3cf28a9ec4221ee8c94c7aba59ab", null ],
-    [ "Draw", "classcpart__dcmotor.html#afc9787678b44b491b8efd33425175f0b", null ],
-    [ "get_in_id", "classcpart__dcmotor.html#ac5b5e14e0d135dd31122946a4b23f173", null ],
-    [ "get_out_id", "classcpart__dcmotor.html#a729ecb1d6f5908a5313babc5aafc6aac", null ],
+    [ "DrawOutput", "classcpart__dcmotor.html#a7ef6a1ad45867a2be5ff99f2991e2014", null ],
     [ "GetAboutInfo", "classcpart__dcmotor.html#a23e535f5ee295a941940436a81878a59", null ],
-    [ "GetName", "classcpart__dcmotor.html#a6f6b2102d39dcc6b0d2566d770ddd13a", null ],
+    [ "GetInputId", "classcpart__dcmotor.html#aaef606e8b2fbffa12efa1f299844be79", null ],
+    [ "GetOutputId", "classcpart__dcmotor.html#a719810a24feb05f9efa4b522d4b0ca7c", null ],
     [ "PostProcess", "classcpart__dcmotor.html#ac4b57c518e04df23eb1540cb30f7b549", null ],
     [ "PreProcess", "classcpart__dcmotor.html#ae6122a6fbd73bb3cf3716178182177c1", null ],
     [ "Process", "classcpart__dcmotor.html#a9876884d1ce6e9cde00115665e92dfc0", null ],

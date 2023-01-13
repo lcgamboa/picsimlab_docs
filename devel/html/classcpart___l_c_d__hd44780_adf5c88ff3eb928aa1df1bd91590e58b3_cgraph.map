@@ -1,8 +1,7 @@
 <map id="cpart_LCD_hd44780::ReadPreferences" name="cpart_LCD_hd44780::ReadPreferences">
-<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,39,164,80"/>
-<area shape="rect" id="node2" href="$classcpart___l_c_d__hd44780.html#a0b65a39250fc5e979dfb40a7dd2779f9" title="Register remote control variables." alt="" coords="212,5,387,47"/>
-<area shape="rect" id="node3" href="$classcpart___l_c_d__hd44780.html#afa8ac47642b6f519199c7369080c804c" title="Reset part status." alt="" coords="220,71,379,112"/>
-<area shape="rect" id="node4" href="$classcpart___l_c_d__hd44780.html#a60e52a27c528e127fbf4f56e033902a1" title="Load Part Image." alt="" coords="435,71,593,112"/>
-<area shape="rect" id="node5" href="$classcpart___l_c_d__hd44780.html#a54f7cb4adbe46e936ae2dd8c626c2862" title="Return the filename of part picture." alt="" coords="660,41,819,83"/>
-<area shape="rect" id="node6" href="$class_c_p_window1.html#a5ac98dc50ff5f47fd05ebd534d80d1f0" title="Get the file path of resources." alt="" coords="641,107,837,134"/>
+<area shape="rect" id="node1" title="Called whe configuration file load preferences." alt="" coords="5,35,164,76"/>
+<area shape="rect" id="node2" href="$classcpart___l_c_d__hd44780.html#afa8ac47642b6f519199c7369080c804c" title="Reset part status." alt="" coords="212,35,371,76"/>
+<area shape="rect" id="node3" href="$classcpart___l_c_d__hd44780.html#a60e52a27c528e127fbf4f56e033902a1" title="Load Part Image." alt="" coords="419,35,577,76"/>
+<area shape="rect" id="node4" href="$classcpart___l_c_d__hd44780.html#a54f7cb4adbe46e936ae2dd8c626c2862" title="Return the filename of part picture." alt="" coords="645,5,803,47"/>
+<area shape="rect" id="node5" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="625,71,823,98"/>
 </map>

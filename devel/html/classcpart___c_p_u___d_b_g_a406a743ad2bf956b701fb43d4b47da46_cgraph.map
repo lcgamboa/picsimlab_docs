@@ -1,6 +1,6 @@
 <map id="cpart_CPU_DBG::Process" name="cpart_CPU_DBG::Process">
 <area shape="rect" id="node1" title="Called every CPU step." alt="" coords="5,56,188,83"/>
-<area shape="rect" id="node2" href="$classboard.html#af254c40073bb76e3dfe6b82939406f2e" title="board microcontroller get PC" alt="" coords="252,5,388,32"/>
-<area shape="rect" id="node3" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="236,56,404,83"/>
-<area shape="rect" id="node4" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="266,107,374,133"/>
+<area shape="rect" id="node2" href="$classboard.html#af254c40073bb76e3dfe6b82939406f2e" title="board microcontroller get PC" alt="" coords="253,5,389,32"/>
+<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="236,56,405,83"/>
+<area shape="rect" id="node4" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="267,107,375,133"/>
 </map>

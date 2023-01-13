@@ -1,5 +1,5 @@
 <map id="cpart_encoder::PreProcess" name="cpart_encoder::PreProcess">
 <area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,31,199,57"/>
-<area shape="rect" id="node2" href="$class_c_p_window1.html#a5293ce669d8269ef2ecf2ed54fb3eb12" title="Return a pointer to board object." alt="" coords="258,5,426,32"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="257,5,427,32"/>
 <area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="247,56,437,83"/>
 </map>
