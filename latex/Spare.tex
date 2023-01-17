@@ -25,8 +25,9 @@ The main window has the menu with the following functions:
 \end{itemize}
  \item Inputs
  \begin{itemize}
+  \item ADXL345 (Accel) - Adds a I2C/SPI accelerometer (only raw values)
   \item BMP180 (Pressure I2C) - Adds a I2C pressure and temperature sensor
-  \item BMP280 (Pressure I2C) - Adds a I2C pressure and temperature sensor
+  \item BMP280 (Pressure I2C) - Adds a I2C/SPI pressure and temperature sensor
   \item DHT11 (Temp. Hum.) - Adds a humidity and temperature sensor
   \item DHT22 (Temp. Hum.) - Adds a humidity and temperature sensor
   \item DS1621 (Temperature I2C) -  Adds a I2C temperature sensor 
@@ -73,6 +74,7 @@ The main window has the menu with the following functions:
    \item IO 74xx573 - Adds a 74xx573 octal latch
    \item IO 74xx595 - Adds a 74xx595 SIPO 8 bit shift register
    \item IO MCP23S17 - Adds a MCP23S17 serial SPI IO expander
+   \item IO MM74C922 - Adds a MM74C922 key encoder
    \item IO PCF8574 - Adds a PCF8574 serial I2C IO expander
    \item IO UART - Adds a UART serial port 
    \item Jumper Wires - Adds sixteen jumper wires 
@@ -149,6 +151,21 @@ To use:
 
 \section{Inputs}
 
+\subsection{ADXL345 (Accel)}
+
+This part is ADXL345 accelerometer with I2C/SPI interface. 
+Only raw values are available.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.6\textwidth]{img/part_ADXL345.png} 
+\end{figure} 
+
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_ADXL345_(Accel).html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/adxl345.pdf}{Datasheet}
 
 \subsection{BMP180 (Pressure I2C)} 
 
@@ -164,9 +181,12 @@ and the pressure range is 300 hPa to 1100 hPa.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_BMP180_(Pressure_I2C).html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/BMP180.pdf}{Datasheet}
+
 \subsection{BMP280 (Pressure I2C)} 
 
-This part is BMP280 I2C pressure and temperature sensor. 
+This part is BMP280 I2C/SPI pressure and temperature sensor. 
 The temperature  range is -40 to 85 °C  
 and the pressure range is 300 hPa to 1100 hPa.
 
@@ -178,6 +198,8 @@ and the pressure range is 300 hPa to 1100 hPa.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_BMP280_(Pressure_I2C).html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/BMP280.pdf}{Datasheet}
 
 \subsection{DHT11 (Temp. Hum.)} 
 
@@ -192,9 +214,12 @@ and the relative humidity range is 20 to 80 \%.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_DHT11_(Temp._Hum.).html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/DHT11.pdf}{Datasheet}
+
 \subsection{DHT22 (Temp. Hum.)} 
 
-This part is DHT22 digital temperature and humidity sensor. The temperature  range is -40 to 80 °C  
+This part is DHT22 (AM2302) digital temperature and humidity sensor. The temperature  range is -40 to 80 °C  
 and the relative humidity range is 0 to 100 \%.
 
 \begin{figure}[H]
@@ -204,6 +229,9 @@ and the relative humidity range is 0 to 100 \%.
 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_DHT22_(Temp._Hum.).html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/DHT22.pdf}{Datasheet}
 
   
 \subsection{DS1621 (Temperature I2C)}
@@ -219,6 +247,9 @@ This part is DS1621 I2C temperature sensor. The measurement range is -55 to 125 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_DS1621_(Temperature_I2C).html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/DS1621.pdf}{Datasheet}
+
 \subsection{DS18B20 (Temperature)}
 
 This part is DS18B20 1-Wire temperature sensor. The measurement range is -40 to 80 °C.
@@ -231,10 +262,12 @@ This part is DS18B20 1-Wire temperature sensor. The measurement range is -40 to 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_DS18B20_(Temperature).html}{Examples}
   
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/DS18B20.pdf}{Datasheet}  
   
 \subsection{Encoder}
 
-This part is a rotary quadrature encoder with push button. The output is twenty pulses per revolution.
+This part is a rotary quadrature encoder (Ky-40) with push button. The output is twenty pulses per revolution.
 
 \begin{figure}[H]
 \center
@@ -242,6 +275,9 @@ This part is a rotary quadrature encoder with push button. The output is twenty 
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_Encoder.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/encoder.pdf}{Datasheet}  
  
 \subsection{FM50 (Temperature)}
 
@@ -255,6 +291,9 @@ voltage output is 10mV/°C + 500mV.
 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_FM50_(Temperature).html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/FM50.pdf}{Datasheet}  
 
 \subsection{Fixed Voltage}
 
@@ -375,6 +414,9 @@ output of comparator and can be read directly from pin D0.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_LDR.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/LDR.pdf}{Datasheet}  
+
 
 \subsection{LM35 (Temperature)}
 
@@ -389,6 +431,9 @@ voltage output is 10mV/°C.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_LM35_(Temperature).html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/LM35.pdf}{Datasheet}  
+
 
 \subsection{MPU6050}
 
@@ -402,6 +447,9 @@ Only raw values are available, DMP is not supported.
 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_MPU6050.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/MPU6050.pdf}{Datasheet}  
 
 \subsection{Potentiometers}
 
@@ -475,7 +523,8 @@ voltage output is 22.85mV/°C + 1.53V . The relative humidity range is 0 to 100 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_SHT3X_(Temp._Hum.).html}{Examples}
 
-
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/SHT3X.pdf}{Datasheet}  
 
 \subsection{Switches}
 This part consists of 8 switches with on or off position (0 or 1).
@@ -505,6 +554,9 @@ This part is ultrasonic range meter sensor.
 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_Ultrasonic_HC-SR04.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/input/HC-SR04.pdf}{Datasheet} 
 
 
 
@@ -637,6 +689,9 @@ This part is a text display with 2 (or 4) lines by 16 (or 20) columns.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_LCD_hd44780.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/output/HD44780.pdf}{Datasheet} 
+
 \subsection{LCD ili9341}
 
 This part is a color graphic display with 240x320 pixels with touchscreen (xpt2046 controller).
@@ -648,6 +703,12 @@ Only 4 SPI mode and 8 bits parallel mode is avaliable.
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_LCD_ili9341.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/output/ILI9341.pdf}{Datasheet ILI9341} 
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/output/xpt2046.pdf}{Datasheet xpt2046} 
 
 
 \subsection{LCD pcf8833}
@@ -673,6 +734,9 @@ This part is a monochrome graphic display with 48x84 pixels. (Nokia 5110)
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_LCD_pcd8544.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/output/PCF8544.pdf}{Datasheet} 
+
 \subsection{LCD ssd1306 }
 
 This part is a monochrome oled graphic display with 128x64 pixels. 
@@ -684,6 +748,9 @@ The part suport I2C and 4 SPI serial mode.
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_LCD_ssd1306.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/output/SSD1306.pdf}{Datasheet} 
 
 
 \subsection{LED Matrix}
@@ -818,6 +885,9 @@ Click on connector to toggle link status.
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_ETH_w5500.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/W5500.pdf}{Datasheet} 
  
 
 \subsection{IO 74xx573}
@@ -852,6 +922,20 @@ It is a MCP23S17 serial SPI IO expander part.
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_IO_MCP23S17.html}{Examples}
+
+\subsection{IO MM74C922}
+
+It is a MM74C922 key encoder.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.6\textwidth]{img/part_MM74C922.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_IO_MM74C922.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/MM74C922.pdf}{Datasheet}
 
 \subsection{IO PCF8574}
 
