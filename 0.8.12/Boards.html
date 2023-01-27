@@ -186,9 +186,9 @@
 <nav class='crosslinks-top'> [<a href='SimulatorInterface.html'>prev</a>] [<a href='picsimlab.html#Boards.html'>up</a>] [<a href='ExperimentalBoards.html'>next</a>] </nav> 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 4</span><br /><a id='x17-160004'></a>Boards</h2>
 <!--  l. 1  --><p class='noindent'><a id='def:boards'></a>
-</p><!--  l. 3  --><p class='indent'>   PICSimLab currently supports five backend simulators: <a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a>, <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>, <a href='http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a>
-and qemu (<a href='https://beckus.github.io/qemu_stm32/' target='_blank'>stm32</a> and <a href='https://github.com/a159x36/qemu' target='_blank'>esp32</a>).
-</p><!--  l. 10  --><p class='indent'>   The Figure below shows which cards are based on which backend simulator:
+</p><!--  l. 3  --><p class='indent'>   PICSimLab currently supports five backend simulators: <a href='PICsim.html#def:PICSim'>picsim</a>, <a href='simavr.html#def:simavr'>simavr</a>, <a href='uCsim.html#def:ucsim'>uCsim</a>, <a href='gpsim.html#def:gpsim'>gpsim</a>
+and qemu (<a href='qemustm32.html#def:qemu-stm32'>stm32</a> and <a href='qemuESP32.html#def:qemu-esp32'>esp32</a>).
+</p><!--  l. 10  --><p class='indent'>   The Figure below shows which boards are based on which backend simulator:
 </p>
    <figure class='figure'> 
 
@@ -199,7 +199,7 @@ and qemu (<a href='https://beckus.github.io/qemu_stm32/' target='_blank'>stm32</
                                                                   
 
                                                                   
-<!--  l. 14  --><p class='noindent'><img alt='PIC' src='img/boards.png' style='width:65\%' />
+<!--  l. 14  --><p class='noindent'><img alt='PIC' src='img/boards.png' style='width:85\%' />
 </p>
 <figcaption class='caption'><span class='id'>Figure 4.1: </span><span class='content'>Boards backend simulators</span></figcaption><!--  tex4ht:label?: x17-16001r1   -->
                                                                   
@@ -216,7 +216,7 @@ and qemu (<a href='https://beckus.github.io/qemu_stm32/' target='_blank'>stm32</
 </tr><tr class='array-hline'><td></td><td></td></tr><tr id='TBL-3-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-3-1' style='text-align:center; white-space:nowrap;'>  simavr     </td><td class='td11' id='TBL-3-3-2' style='text-align:center; white-space:nowrap;'>see the sections <a href='MPLABXIntegratedDebug.html#def:mplabxd'>MPLABX Integrated Debug</a> and <a href='avrgdbDebug.html#def:gdbavr'>remote avr-gdb Debug</a></td>
 </tr><tr class='array-hline'><td></td><td></td></tr><tr id='TBL-3-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-4-1' style='text-align:center; white-space:nowrap;'>qemu-stm32</td><td class='td11' id='TBL-3-4-2' style='text-align:center; white-space:nowrap;'>           see the section <a href='armgdbDebug.html#def:gdbarm'>remote arm-gdb Debug</a>                           </td>
 </tr><tr class='array-hline'><td></td><td></td></tr><tr id='TBL-3-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-5-1' style='text-align:center; white-space:nowrap;'>qemu-esp32</td><td class='td11' id='TBL-3-5-2' style='text-align:center; white-space:nowrap;'>          see the section <a href='ESP32gdbDebug.html#def:gdbesp'>remote esp32-gdb Debug</a>                         </td>
-</tr><tr class='array-hline'><td></td><td></td></tr><tr id='TBL-3-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-6-1' style='text-align:center; white-space:nowrap;'>  uCsim     </td><td class='td11' id='TBL-3-6-2' style='text-align:center; white-space:nowrap;'>      see the section <a href='uCsimDebug.html#def:ucsim'>uCsim remote console (telnet) Debug</a>               </td>
+</tr><tr class='array-hline'><td></td><td></td></tr><tr id='TBL-3-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-6-1' style='text-align:center; white-space:nowrap;'>  uCsim     </td><td class='td11' id='TBL-3-6-2' style='text-align:center; white-space:nowrap;'>      see the section <a href='uCsim.html#def:ucsim'>uCsim remote console (telnet) Debug</a>               </td>
 </tr><tr class='array-hline'><td></td><td></td></tr><tr id='TBL-3-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-7-1' style='text-align:center; white-space:nowrap;'>  gpsim     </td><td class='td11' id='TBL-3-7-2' style='text-align:center; white-space:nowrap;'>                     none yet                                                   </td>
 </tr><tr class='array-hline'><td></td><td></td></tr></table>                                                         </div></div>
    <div class='sectionTOCS'>

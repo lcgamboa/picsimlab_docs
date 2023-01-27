@@ -12,9 +12,6 @@
    <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
    <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
     
-                                                                  
-
-                                                                  
     
     
      
@@ -56,14 +53,14 @@
    <span class='chapterToc'>7 <a href='BackendSimulators.html#x43-420007'>Backend Simulators</a></span>
     <span class='sectionToc'>7.1 <a href='PICsim.html#x44-430007.1'>PICsim</a></span>
      
+                                                                  
+
+                                                                  
     <span class='sectionToc'>7.2 <a href='simavr.html#x46-450007.2'>simavr</a></span>
      
      
     <span class='sectionToc'>7.3 <a href='qemustm32.html#x49-480007.3'>qemu-stm32</a></span>
      
-                                                                  
-
-                                                                  
     <span class='sectionToc'>7.4 <a href='qemuESP32.html#x51-500007.4'>qemu-ESP32</a></span>
      <span class='subsectionToc'>7.4.1 <a href='#x52-510007.4.1'>ESP32-gdb Debug</a></span>
     <span class='sectionToc'>7.5 <a href='uCsim.html#x53-520007.5'>uCsim</a></span>
@@ -105,14 +102,14 @@
      
      
      
+                                                                  
+
+                                                                  
      
      
     
      
      
-                                                                  
-
-                                                                  
      
      
      
@@ -154,14 +151,14 @@
    <span class='appendixToc'>B <a href='UsewithMPLABX.html#x135-142000B'>Use with MPLABX</a></span>
     
      
+                                                                  
+
+                                                                  
      
      
     
      
      
-                                                                  
-
-                                                                  
      
      
      
@@ -188,10 +185,10 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='qemuESP32.html#ESP32gdbDebug.html'>up</a>] </nav> 
 <h4 class='subsectionHead'><span class='titlemark'>7.4.1    </span> <a id='x52-510007.4.1'></a>ESP32-gdb Debug</h4>
-<!--  l. 85  --><p class='noindent'><a id='def:gdbesp'></a>
-</p><!--  l. 87  --><p class='indent'>   With debug support enabled you can use xtensa-esp32-elf-gdb to debug the code used in
+<!--  l. 90  --><p class='noindent'><a id='def:gdbesp'></a>
+</p><!--  l. 92  --><p class='indent'>   With debug support enabled you can use xtensa-esp32-elf-gdb to debug the code used in
 the simulator.
-</p><!--  l. 89  --><p class='indent'>   Use xtensa-esp32-elf-gdb with the .elf file as the parameter:
+</p><!--  l. 94  --><p class='indent'>   Use xtensa-esp32-elf-gdb with the .elf file as the parameter:
                                                                   
 
                                                                   
@@ -200,7 +197,7 @@ the simulator.
  xtensa-esp32-elf-gdb compiled_file.elf
  
 </pre>
-<!--  l. 92  --><p class='nopar'> and the command below to connect (1234 is the default port):
+<!--  l. 97  --><p class='nopar'> and the command below to connect (1234 is the default port):
                                                                   
 
                                                                   
@@ -209,8 +206,8 @@ the simulator.
  target remote localhost:1234
  
 </pre>
-<!--  l. 96  --><p class='nopar'>
-</p><!--  l. 98  --><p class='indent'>   Graphic debug mode can be made using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the
+<!--  l. 101  --><p class='nopar'>
+</p><!--  l. 103  --><p class='indent'>   Graphic debug mode can be made using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the
 configuration lines below in the project’s <span class='textbf'>platformio.ini</span> file:
                                                                   
 
@@ -234,7 +231,7 @@ debug_init_cmds =
   pio_reset_halt_target
   $INIT_BREAK
 </pre>
-<!--  l. 116  --><p class='nopar'> Compile, and upload the code to PICSimLab before starting Debug.
+<!--  l. 121  --><p class='nopar'> Compile, and upload the code to PICSimLab before starting Debug.
                                                                   
 
                                                                   

@@ -1,17 +1,17 @@
 \chapter{Boards} \hypertarget{def:boards}{}
 
 PICSimLab currently supports five backend simulators:
-\href{https://github.com/lcgamboa/picsim}{picsim},  
-\href{https://github.com/buserror/simavr}{simavr}, 
-\href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/}{uCsim}, 
-\href{http://gpsim.sourceforge.net/}{gpsim} and 
-qemu (\href{https://beckus.github.io/qemu_stm32/}{stm32} and \href{https://github.com/a159x36/qemu}{esp32}).
+\hyperlink{def:PICSim}{picsim},  
+\hyperlink{def:simavr}{simavr}, 
+\hyperlink{def:ucsim}{uCsim}, 
+\hyperlink{def:gpsim}{gpsim} and 
+qemu (\hyperlink{def:qemu-stm32}{stm32} and \hyperlink{def:qemu-esp32}{esp32}).
 
-The Figure below shows which cards are based on which backend simulator:
+The Figure below shows which boards are based on which backend simulator:
 
 \begin{figure}[H] 
 \center
-\includegraphics[width=0.65\textwidth]{img/boards.png} 
+\includegraphics[width=0.85\textwidth]{img/boards.png} 
 \caption{Boards backend simulators}
 \end{figure} 
 
@@ -35,7 +35,7 @@ The below table show the supported debug interface of each simulator:
 \section{Breadboard}
 
 It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
-of \href{https://github.com/lcgamboa/picsim}{picsim} and \href{https://github.com/buserror/simavr}{simavr}.
+of \hyperlink{def:PICSim}{PICSim} and \hyperlink{def:simavr}{simavr} backend simulators.
 
 \begin{figure}[H]
 \center
@@ -48,7 +48,8 @@ of \href{https://github.com/lcgamboa/picsim}{picsim} and \href{https://github.co
 
 \section{McLab1}
 
-It emulates the Labtools development board McLab1 that uses one PIC16F84, PIC16F628 or PIC16F648 of \href{https://github.com/lcgamboa/picsim}{picsim}.
+It emulates the Labtools development board McLab1 that uses one PIC16F84, PIC16F628 or PIC16F648 
+of \hyperlink{def:PICSim}{PICSim backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -70,7 +71,8 @@ are in the link: \href{https://lcgamboa.github.io/picsimlab_examples/board_McLab
 
 \section{K16F}
 
-It emulates an didactic board developed by author that uses one PIC16F84, PIC16F628 or PIC16F648 of \href{https://github.com/lcgamboa/picsim}{picsim}.
+It emulates an didactic board developed by author that uses one PIC16F84, PIC16F628 or PIC16F648 of
+\hyperlink{def:PICSim}{PICSim backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -93,7 +95,8 @@ the link: \href{https://lcgamboa.github.io/picsimlab_examples/board_K16F.html}{b
 
 \section{McLab2}
 
-It emulates the Labtools development board McLab2 that uses one PIC16F777, PIC16F877A, PIC18F452, PIC18F4520, PIC18F4550 or PIC18F4620 of \href{https://github.com/lcgamboa/picsim}{picsim}.
+It emulates the Labtools development board McLab2 that uses one PIC16F777, PIC16F877A, PIC18F452, PIC18F4520, 
+PIC18F4550 or PIC18F4620 of \hyperlink{def:PICSim}{PICSim backend simulator}..
 
 \begin{figure}[H]
 \center
@@ -115,7 +118,8 @@ compiler are in the link: \href{https://lcgamboa.github.io/picsimlab_examples/bo
 
 \section{PICGenios}
 
-It emulates the microgenius development board PICGenios PIC18F e PIC16F Microchip that uses one PIC16F777, PIC16F877A, PIC18F452, PIC18F4520, PIC18F4550 or PIC18F4620 of \href{https://github.com/lcgamboa/picsim}{picsim}.
+It emulates the microgenius development board PICGenios PIC18F e PIC16F Microchip that uses one PIC16F777,
+PIC16F877A, PIC18F452, PIC18F4520, PIC18F4550 or PIC18F4620 of \hyperlink{def:PICSim}{PICSim backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -141,7 +145,7 @@ The source code of board PICGenios examples using
 
 The PQDB board is an opensource/openhardware project, more info at \href{https://github.com/projetopqdb/}{https://github.com/projetopqdb/}.
 It was developed to be used with arduino/freedom boards, but adapted to use the microcontroller PIC18F4520 of 
-\href{https://github.com/lcgamboa/picsim}{picsim} on PICSImLab.
+\hyperlink{def:PICSim}{PICSim backend simulator} on PICSImLab.
 
 \begin{figure}[H]
 \center
@@ -158,7 +162,8 @@ It was developed to be used with arduino/freedom boards, but adapted to use the 
 
 \section{Arduino Uno}
 
-It emulates the Arduino Uno development board that uses one ATMEGA328P microcontroller of \href{https://github.com/buserror/simavr}{simavr}.
+It emulates the Arduino Uno development board that uses one ATMEGA328P microcontroller of
+\hyperlink{def:simavr}{simavr backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -180,7 +185,8 @@ section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
 
 \section{Arduino Nano}
 
-It emulates the Arduino Nano development board that uses one ATMEGA328P microcontroller of \href{https://github.com/buserror/simavr}{simavr}.
+It emulates the Arduino Nano development board that uses one ATMEGA328P microcontroller of
+\hyperlink{def:simavr}{simavr backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -202,7 +208,8 @@ section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
 
 \section{Arduino Mega}
 
-It emulates the Arduino Mega development board that uses one ATMEGA2560 microcontroller of \href{https://github.com/buserror/simavr}{simavr}.
+It emulates the Arduino Mega development board that uses one ATMEGA2560 microcontroller of 
+\hyperlink{def:simavr}{simavr backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -226,7 +233,7 @@ section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
 
 The Franzininho DIY board is an openhardware project, more info at \href{https://franzininho.com.br/}{https://franzininho.com.br/}.
 It was developed to be used with the microcontroller ATtiny85 of 
-of \href{https://github.com/buserror/simavr}{simavr}.
+of \hyperlink{def:simavr}{simavr backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -241,7 +248,7 @@ of \href{https://github.com/buserror/simavr}{simavr}.
 \section{uCboard}
 
 It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
-(initially C51, Z80 and STM8S103 )of \href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/}{uCsim}.
+(initially C51, Z80 and STM8S103 )of \hyperlink{def:ucsim}{ucsim backend simulator}..
 
 \begin{figure}[H]
 \center
@@ -254,7 +261,7 @@ It is a generic board only with reset, serial and crystal circuits and support t
 \section{Blue Pill}
 
 It is a generic board only with reset, serial and crystal circuits and support to stm32f103c8t6 microcontroller of 
-\href{https://beckus.github.io/qemu_stm32/}{qemu-stm32}.
+\hyperlink{def:qemu-stm32}{qemu-stm32 backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -269,7 +276,7 @@ It is a generic board only with reset, serial and crystal circuits and support t
 \section{ESP32-DevKitC}
 
 It is a simple board only with reset, serial and crystal circuits and support 
-for ESP32 microcontroller of \href{https://github.com/a159x36/qemu}{qemu-esp32}.
+for ESP32 microcontroller of \hyperlink{def:qemu-esp32}{qemu-esp32 backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -278,16 +285,13 @@ for ESP32 microcontroller of \href{https://github.com/a159x36/qemu}{qemu-esp32}.
 
 \hrefb{pdf/boards/DevKitC.pdf}{Board DevKitC schematics}.\vspace{0.5cm}
 
-For integrated use with the Arduino IDE or IDF esptool.py , simply configure the serial port as explained 
-in the Chapter \hyperlink{def:seriali}{Serial Communication} to flash PICSimLab ESP32-DevKitC as a real ESP32 board.
-
 \href{https://lcgamboa.github.io/picsimlab_examples/board_ESP32_DevKitC.html}{Examples}
 
 
 \section{gpboard}
 
 It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
-of \href{http://gpsim.sourceforge.net/}{gpsim}.
+of \hyperlink{def:gpsim}{gpsim backend simulator}..
 
 \begin{figure}[H]
 \center
@@ -300,7 +304,7 @@ of \href{http://gpsim.sourceforge.net/}{gpsim}.
 \section{STM32 H103}
 
 It is a generic board only with reset, one push button, serial and crystal circuits and support to stm32f103rbt6 microcontroller of 
-\href{https://beckus.github.io/qemu_stm32/}{qemu-stm32}.
+\hyperlink{def:qemu-stm32}{qemu-stm32 backend simulator}.
 
 \begin{figure}[H]
 \center
@@ -316,6 +320,7 @@ It is a generic board only with reset, one push button, serial and crystal circu
 
 It is a generic board, used as example in the tutorial 
 \href{https://lcgamboa.github.io/picsimlab_docs/stable/CreatingNewBoards.html}{Creating New Boards}.
+This board uses one PIC16F877A, PIC18F4550 or PIC18F4620 of \hyperlink{def:PICSim}{PICSim backend simulator}.
 
 \begin{figure}[H]
 \center

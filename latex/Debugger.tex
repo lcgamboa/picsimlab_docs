@@ -11,7 +11,7 @@ qemu (\href{https://beckus.github.io/qemu_stm32/}{stm32} and \href{https://githu
 
 The type of debug interface depends on the backend simulator utilized.
 
-\section{PICsim}
+\section{PICsim} \hypertarget{def:PICSim}{}
 
 ``\href{https://github.com/lcgamboa/picsim}{PICsim} emulates some PIC microcontroller and periferics such as USART and timers, the simulator architecture permit easy implementation of external elements in c language. It can be used as a standalone simulator (picsim executable) or as a library in other programs (As in PICSimLab).''
 
@@ -25,7 +25,7 @@ The plugin connect to PICSimLab through a TCP socket using port 1234 (or other d
 \href{https://lcgamboa.github.io/picsimlab_docs/stable/UsewithMPLABX.html}{Tutorial: how to use MPLABX to program and debug PICsimLab}.
 
 
-\section{simavr}
+\section{simavr}\hypertarget{def:simavr}{}
 
 ``\href{https://github.com/buserror/simavr}{simavr} is a new AVR simulator for linux, or any platform that uses avr-gcc. It uses avr-gcc's own register definition to simplify creating new targets for supported AVR devices. The core was made to be small and compact, and hackable so allow quick prototyping of an AVR project. The AVR core is now stable for use with parts with <= 128KB flash, and with preliminary support for the bigger parts. The simulator loads ELF files directly, and there is even a way to specify simulation parameters directly in the emulated code using an .elf section. You can also load multipart HEX files.''
 
@@ -60,7 +60,7 @@ Compile, and upload the code to PICSimLab before starting Debug.
 PICSimLab also supports using MPLABX to debug simavr. The configuration is the same as described in PICSim section: \hyperlink{def:mplabxd}{MPLABX Integrated Debug}. 
 It's possible import and debug a Arduino sketch into MPLABX using the \href{https://github.com/janegilruud/chipKIT-importer-2.0}{Arduino import plugin}.
 
- \section{qemu-stm32}
+ \section{qemu-stm32} \hypertarget{def:qemu-stm32}{}
  ``\href{http://beckus.github.io/qemu_stm32/}{Qemu STM32}: QEMU with an STM32 microcontroller implementation''
  
  \subsection{arm-gdb Debug} \hypertarget{def:gdbarm}{}
@@ -79,8 +79,13 @@ It's possible import and debug a Arduino sketch into MPLABX using the \href{http
 Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with 
 \href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT}.
 
-\section{qemu-ESP32}
+\section{qemu-ESP32} \hypertarget{def:qemu-esp32}{}
  ``\href{https://github.com/a159x36/qemu}{Qemu ESP32}: Qemu Emulator for TTGO TDisplay esp32 board. ''
+  
+For integrated use with the Arduino IDE or IDF esptool.py , simply configure the serial port as explained 
+in the Chapter \hyperlink{def:seriali}{Serial Communication} to flash PICSimLab ESP32-DevKitC as a real ESP32 board.
+
+ \textcolor{red}{Atention!} Qemu ESP32 don´t support the QIO and QOUT flash modes, use only DIO or DOUT flash modes. 
  
 \subsection{ESP32-gdb Debug} \hypertarget{def:gdbesp}{}
 
@@ -117,7 +122,7 @@ debug_init_cmds =
 Compile, and upload the code to PICSimLab before starting Debug.
  
  
-\section{uCsim}
+\section{uCsim} \hypertarget{def:ucsim}{}
 ``\href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/}{uCsim} Software simulator for microcontrollers. uCsim can be used to simulate microcontrollers. It supports MCS51 family, AVR core, Z80, HC08, ST7, STM8, TLCS90, XA51 and Padauk. It can run on Linux, Windows, OSX, BSD, and other systems.''
 
 \subsection{uCsim Debug} \hypertarget{def:ucsim}{}
@@ -132,7 +137,7 @@ All \href{http://mazsola.iit.uni-miskolc.hu/\%7edrdani/embedded/ucsim/cmd.html}{
 For windows users \href{https://www.putty.org/}{putty telnet client} is a good option to access the uCsim console. 
  
   
-\section{gpsim}
+\section{gpsim} \hypertarget{def:gpsim}{}
 
 ``\href{http://gpsim.sourceforge.net/}{gpsim} is a full-featured software simulator for Microchip PIC microcontrollers distributed under the GNU General Public License, Version 2 or higher, and some of it's libraries under GNU Lesser General Public License, Version 2 or higher.
 
