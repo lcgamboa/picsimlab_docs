@@ -186,23 +186,24 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='tty0ttyInstallationandConfigurationLinux.html'>prev</a>] [<a href='SerialCommunication.html#ArduinoIDEIntegrationsimavr.html'>up</a>] </nav> 
 <h3 class='sectionHead'><span class='titlemark'>6.3    </span> <a id='x42-410006.3'></a>Arduino IDE Integration (simavr) </h3>
-<!--  l. 99  --><p class='noindent'><a id='def:arduinoide'></a>
-</p><!--  l. 101  --><p class='indent'>   For integrated use with the Arduino IDE, simply configure the serial port as explained in
+<!--  l. 98  --><p class='noindent'><a id='def:arduinoide'></a>
+</p><!--  l. 100  --><p class='indent'>   For integrated use with the Arduino IDE, simply configure the serial port as explained in
 the Chapter <a href='SerialCommunication.html#def:seriali'>Serial Communication</a> and load the Arduino bootloader. The bootloader can be
 loaded from the “Tools-&gt;Arduino bootloader” menu.
-</p><!--  l. 103  --><p class='indent'>   In Windows, considering com0com making a NULL-MODEM connection
+</p><!--  l. 102  --><p class='indent'>   In Windows, considering com0com making a NULL-MODEM connection
 between COM1 and COM2, simply connect the PICSimLab on the COM1 port
 (defined in configuration window) and the Arduino IDE on the COM2 port or vice
 versa.
-</p><!--  l. 105  --><p class='indent'>   On Linux the operation is the same, but using for example the ports /dev/tnt2 and
+</p><!--  l. 104  --><p class='indent'>   On Linux the operation is the same, but using for example the ports /dev/tnt2 and
 /dev/tnt3.
-</p><!--  l. 107  --><p class='indent'>   In Linux for the virtual ports to be detected in Arduino it is necessary to replace
-the library lib/liblistSerialsj.so of the Arduino with a version which support the
-detection of tty0tty ports, that can be downloaded in the link <a href='https://github.com/lcgamboa/listSerialPortsC/releases' target='_blank'>listSerialC with tty0tty
+</p><!--  l. 106  --><p class='indent'>   In Linux for the virtual ports to be detected in Arduino IDE 1.8.xx it is necessary to
+replace the library lib/liblistSerialsj.so of the Arduino with a version which support the
+detection of tty0tty ports, that can be downloaded in the link <a href='https://github.com/lcgamboa/listSerialPortsC/releases' target='_blank'>listSerialC with tty0tty support</a>.
                                                                   
 
                                                                   
-support</a>.
+The Arduino IDE 2.0 does not yet support virtual port detection, consider using IDE version
+1.8 or vscode.
                                                                   
 
                                                                   
