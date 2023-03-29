@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['refresh_0',['refresh',['../classpart.html#aa92955394bd2a0fd08e038b3946b6955',1,'part']]]
+  ['p_5frst_0',['p_RST',['../classboard.html#a7a851447b6b05b5f600cb587aae0c778',1,'board']]],
+  ['proc_1',['Proc',['../classboard.html#a92f1e7588769e3cbc7cc0667c1bf3b8c',1,'board']]]
 ];

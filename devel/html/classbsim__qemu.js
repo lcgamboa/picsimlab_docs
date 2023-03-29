@@ -5,6 +5,7 @@ var classbsim__qemu =
     [ "DebugLoop", "classbsim__qemu.html#ad87efbabb4bfc4085a891d03fba6b1a6", null ],
     [ "EvThreadRun", "classbsim__qemu.html#a55f0a3e247a388b8036aa3a3e1b10bf4", null ],
     [ "GetDebugName", "classbsim__qemu.html#a1f9865e5adcda482d4b6f52977b20d67", null ],
+    [ "GetDefaultClock", "classbsim__qemu.html#a3730acd468afb098500b9f228560fe3d", null ],
     [ "MDumpMemory", "classbsim__qemu.html#a5775ea3768b53c20cd7c84856eb9d1b4", null ],
     [ "MEnd", "classbsim__qemu.html#a4ff604deeb2e3826386e3632fd777b24", null ],
     [ "MEraseFlash", "classbsim__qemu.html#a21b376ae02db529462de30bf48bd9824", null ],

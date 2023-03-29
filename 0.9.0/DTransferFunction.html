@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>D. Transfer Function</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x34-330005'>Experimental Boards</a></span>
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x39-380006'>Serial Communication</a></span>
+    
+    
+    
+   <span class='chapterToc'>7 <a href='BackendSimulators.html#x43-420007'>Backend Simulators</a></span>
+                                                                  
+
+                                                                  
+    
+     
+    
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x57-560008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x68-710009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x69-7200010'>Spare Parts</a></span>
+    <span class='sectionToc'>10.1 <a href='PinAlias.html#x70-7300010.1'>Pin Alias</a></span>
+    <span class='sectionToc'>10.2 <a href='Inputs.html#x71-7400010.2'>Inputs</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.3 <a href='Outputs.html#x96-9900010.3'>Outputs</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.4 <a href='Others.html#x112-11900010.4'>Others</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.5 <a href='Virtual.html#x126-13300010.5'>Virtual</a></span>
+     <span class='subsectionToc'>10.5.1 <a href='#x127-13400010.5.1'>D. Transfer Function</a></span>
+     <span class='subsectionToc'>10.5.2 <a href='IOVirtualTerm.html#x128-13500010.5.2'>IO Virtual Term</a></span>
+     <span class='subsectionToc'>10.5.3 <a href='SignalGenerator.html#x129-13600010.5.3'>Signal Generator</a></span>
+     <span class='subsectionToc'>10.5.4 <a href='TextBox.html#x130-13700010.5.4'>Text Box</a></span>
+     <span class='subsectionToc'>10.5.5 <a href='VCDDump.html#x131-13800010.5.5'>VCD Dump</a></span>
+     <span class='subsectionToc'>10.5.6 <a href='VCDDumpAnalogic.html#x132-13900010.5.6'>VCD Dump (Analogic)</a></span>
+     <span class='subsectionToc'>10.5.7 <a href='VCDPlay.html#x133-14000010.5.7'>VCD Play</a></span>
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x134-14100011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x135-14200012'>License</a></span>
+                                                                  
+
+                                                                  
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Virtual.html#DTransferFunction.html'>up</a>] [<a href='IOVirtualTerm.html'>next</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>10.5.1    </span> <a id='x127-13400010.5.1'></a>D. Transfer Function</h4>
+<!--  l. 1073  --><p class='noindent'>This is a discrete transfer function mathematical model.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 1077  --><p class='noindent'><img alt='PIC' src='img/part_dtransferf.png' style='width:90\%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!--  l. 1080  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/parts_D._Transfer_Function.html' target='_blank'>Examples</a>
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='Virtual.html#DTransferFunction.html'>up</a>] [<a href='IOVirtualTerm.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

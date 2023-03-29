@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Command Line</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    <span class='sectionToc'>3.1 <a href='MainWindow.html#x12-110003.1'>Main Window</a></span>
+    <span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#x13-120003.2'>Interaction with the Board</a></span>
+    <span class='sectionToc'>3.3 <a href='#x14-130003.3'>Command Line</a></span>
+    <span class='sectionToc'>3.4 <a href='RemoteControlInterface.html#x15-140003.4'>Remote Control Interface</a></span>
+    <span class='sectionToc'>3.5 <a href='PictureMapReference.html#x16-150003.5'>Picture Map Reference</a></span>
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x34-330005'>Experimental Boards</a></span>
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x39-380006'>Serial Communication</a></span>
+    
+    
+                                                                  
+
+                                                                  
+    
+   <span class='chapterToc'>7 <a href='BackendSimulators.html#x43-420007'>Backend Simulators</a></span>
+    
+     
+    
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x57-560008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x68-710009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x69-7200010'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x134-14100011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x135-14200012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='InteractionwiththeBoard.html'>prev</a>] [<a href='SimulatorInterface.html#CommandLine.html'>up</a>] [<a href='RemoteControlInterface.html'>next</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>3.3    </span> <a id='x14-130003.3'></a>Command Line</h3>
+<!--  l. 103  --><p class='noindent'>PICSimLab supports two command lines format:
+</p><!--  l. 105  --><p class='indent'>   One for load a PICSimLab Workspace file (.pzw) </p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb9'><a id='x14-13003r1'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>file.pzw</span></pre>
+</div>
+<!--  l. 110  --><p class='indent'>   And other for load .hex files </p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb10'><a id='x14-13006r1'></a><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>boardname</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>microcontroller</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.hex</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.pcf</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>]</span></span></pre>
+</div>
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='InteractionwiththeBoard.html'>prev</a>] [<a href='SimulatorInterface.html#CommandLine.html'>up</a>] [<a href='RemoteControlInterface.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

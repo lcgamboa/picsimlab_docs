@@ -1,6 +1,6 @@
 var classcpart__7s__display =
 [
-    [ "ComboChange", "classcpart__7s__display.html#a6a443f45ac8e29209a17403c9a02c4d0", null ],
+    [ "ComboChange", "classcpart__7s__display.html#ae3385828926b08877a3a0d865da9dddf", null ],
     [ "ConfigurePropertiesWindow", "classcpart__7s__display.html#a52a3f143b7198f617b3b74a54311930e", null ],
     [ "DrawOutput", "classcpart__7s__display.html#a5e44def7823970da227f217f514779c5", null ],
     [ "GetAboutInfo", "classcpart__7s__display.html#a20028d94212618c91e9b13aaca9af89c", null ],

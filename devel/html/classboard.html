@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -396,6 +396,17 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>CalcAngle</b
 double&#160;</td><td class="memItemRight" valign="bottom"><b>GetScale</b> (void)</td></tr>
 <tr class="memdesc:a48a971c59a9affa5245f29643d1164eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board draw scale. <br /></td></tr>
 <tr class="separator:a48a971c59a9affa5245f29643d1164eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae280c2b8726314159cc6d9f408f4cff5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ae280c2b8726314159cc6d9f408f4cff5">GetDefaultClock</a> (void)</td></tr>
+<tr class="memdesc:ae280c2b8726314159cc6d9f408f4cff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <a href="classboard.html#ae280c2b8726314159cc6d9f408f4cff5">More...</a><br /></td></tr>
+<tr class="separator:ae280c2b8726314159cc6d9f408f4cff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a732c9c6166c89ed87e0d2ec7dc8ab2"><td class="memItemLeft" align="right" valign="top"><a id="a3a732c9c6166c89ed87e0d2ec7dc8ab2" name="a3a732c9c6166c89ed87e0d2ec7dc8ab2"></a>
+lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefaultProcessor</b> (void)</td></tr>
+<tr class="memdesc:a3a732c9c6166c89ed87e0d2ec7dc8ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default processor. <br /></td></tr>
+<tr class="separator:a3a732c9c6166c89ed87e0d2ec7dc8ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62132d75e92d6d14bcbf87fb6a1486a"><td class="memItemLeft" align="right" valign="top"><a id="ab62132d75e92d6d14bcbf87fb6a1486a" name="ab62132d75e92d6d14bcbf87fb6a1486a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefaultProcessor</b> (lxString dproc)</td></tr>
+<tr class="memdesc:ab62132d75e92d6d14bcbf87fb6a1486a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set board default processor. <br /></td></tr>
+<tr class="separator:ab62132d75e92d6d14bcbf87fb6a1486a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add9af22bb22dfb8c6f967f22ef0ecee4"><td class="memItemLeft" align="right" valign="top"><a id="add9af22bb22dfb8c6f967f22ef0ecee4" name="add9af22bb22dfb8c6f967f22ef0ecee4"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>InstCounterGet</b> (void)</td></tr>
 <tr class="memdesc:add9af22bb22dfb8c6f967f22ef0ecee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instruction counter. <br /></td></tr>
@@ -461,6 +472,10 @@ Protected Attributes</h2></td></tr>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>Proc</b></td></tr>
 <tr class="memdesc:a92f1e7588769e3cbc7cc0667c1bf3b8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of processor in use. <br /></td></tr>
 <tr class="separator:a92f1e7588769e3cbc7cc0667c1bf3b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f421d47fc83ffc460aee8462ee9b88"><td class="memItemLeft" align="right" valign="top"><a id="a20f421d47fc83ffc460aee8462ee9b88" name="a20f421d47fc83ffc460aee8462ee9b88"></a>
+lxString&#160;</td><td class="memItemRight" valign="bottom"><b>DProc</b></td></tr>
+<tr class="memdesc:a20f421d47fc83ffc460aee8462ee9b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of default board processor. <br /></td></tr>
+<tr class="separator:a20f421d47fc83ffc460aee8462ee9b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a637392ea82a18ee9f9716147455031dd"><td class="memItemLeft" align="right" valign="top"><a id="a637392ea82a18ee9f9716147455031dd" name="a637392ea82a18ee9f9716147455031dd"></a>
 <a class="el" href="structinput__t.html">input_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>input</b> [120]</td></tr>
 <tr class="memdesc:a637392ea82a18ee9f9716147455031dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements <br /></td></tr>
@@ -1575,6 +1590,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="ae280c2b8726314159cc6d9f408f4cff5" name="ae280c2b8726314159cc6d9f408f4cff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae280c2b8726314159cc6d9f408f4cff5">&#9670;&nbsp;</a></span>GetDefaultClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int board::GetDefaultClock </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get board default clock in MHz. </p>
+
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#aeff9b290f9b8789fd79011656dc23289">cboard_Breadboard</a>, <a class="el" href="classcboard___mc_lab1.html#afda2087bbef045dba21475851f5d6ebb">cboard_McLab1</a>, <a class="el" href="classbsim__gpsim.html#aab9394119e37ee162d953ba01ba1ab9f">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#a2685c12ffdc56d4d30a5aabc3e3b3c77">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a3730acd468afb098500b9f228560fe3d">bsim_qemu</a>, and <a class="el" href="classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406">bsim_simavr</a>.</p>
+
+</div>
+</div>
 <a id="a04d3439ae1ce8786e548c85d378c32f7" name="a04d3439ae1ce8786e548c85d378c32f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04d3439ae1ce8786e548c85d378c32f7">&#9670;&nbsp;</a></span>GetInputId()</h2>
 
@@ -2631,8 +2676,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/boards/<a class="el" href="board_8h_source.html">board.h</a></li>
-<li>src/boards/board.cc</li>
+<li>src/lib/<a class="el" href="board_8h_source.html">board.h</a></li>
+<li>src/lib/board.cc</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

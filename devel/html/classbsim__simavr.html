@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -91,7 +91,6 @@ $(document).ready(function(){initNavTree('classbsim__simavr.html',''); initResiz
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classbsim__simavr-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">bsim_simavr Class Reference</div></div>
 </div><!--header-->
@@ -244,12 +243,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e87de88c526eb99d79dc48a884d0bac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a5e87de88c526eb99d79dc48a884d0bac">EndServers</a> (void) override</td></tr>
 <tr class="memdesc:a5e87de88c526eb99d79dc48a884d0bac"><td class="mdescLeft">&#160;</td><td class="mdescRight">board servers shutdown  <a href="classbsim__simavr.html#a5e87de88c526eb99d79dc48a884d0bac">More...</a><br /></td></tr>
 <tr class="separator:a5e87de88c526eb99d79dc48a884d0bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60244ed087236dd5f3bf9b5ea378406"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406">GetDefaultClock</a> (void) override</td></tr>
+<tr class="memdesc:ab60244ed087236dd5f3bf9b5ea378406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <a href="classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406">More...</a><br /></td></tr>
+<tr class="separator:ab60244ed087236dd5f3bf9b5ea378406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54f2b9bab497352ff4c7d330b9aede2e"><td class="memItemLeft" align="right" valign="top"><a id="a54f2b9bab497352ff4c7d330b9aede2e" name="a54f2b9bab497352ff4c7d330b9aede2e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateHardware</b> (void)</td></tr>
 <tr class="separator:a54f2b9bab497352ff4c7d330b9aede2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85351e8c34bf9b93ee780e00d55c3f07"><td class="memItemLeft" align="right" valign="top"><a id="a85351e8c34bf9b93ee780e00d55c3f07" name="a85351e8c34bf9b93ee780e00d55c3f07"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SerialSend</b> (unsigned char value)</td></tr>
-<tr class="separator:a85351e8c34bf9b93ee780e00d55c3f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23be0f99c623b8a776736d2961dde573"><td class="memItemLeft" align="right" valign="top"><a id="a23be0f99c623b8a776736d2961dde573" name="a23be0f99c623b8a776736d2961dde573"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SerialSend</b> (<a class="el" href="structbitbang__uart__t.html">bitbang_uart_t</a> *_bb_uart, const unsigned char value)</td></tr>
+<tr class="separator:a23be0f99c623b8a776736d2961dde573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classboard"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classboard')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classboard.html">board</a></td></tr>
 <tr class="memitem:ab5c956d904ce755a885a59f413f8e7c9 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab5c956d904ce755a885a59f413f8e7c9">Draw</a> (CDraw *draw)=0</td></tr>
 <tr class="memdesc:ab5c956d904ce755a885a59f413f8e7c9 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board.  <a href="classboard.html#ab5c956d904ce755a885a59f413f8e7c9">More...</a><br /></td></tr>
@@ -500,6 +502,17 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>CalcAngle</b
 double&#160;</td><td class="memItemRight" valign="bottom"><b>GetScale</b> (void)</td></tr>
 <tr class="memdesc:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board draw scale. <br /></td></tr>
 <tr class="separator:a48a971c59a9affa5245f29643d1164eb inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae280c2b8726314159cc6d9f408f4cff5 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ae280c2b8726314159cc6d9f408f4cff5">GetDefaultClock</a> (void)</td></tr>
+<tr class="memdesc:ae280c2b8726314159cc6d9f408f4cff5 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <a href="classboard.html#ae280c2b8726314159cc6d9f408f4cff5">More...</a><br /></td></tr>
+<tr class="separator:ae280c2b8726314159cc6d9f408f4cff5 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a732c9c6166c89ed87e0d2ec7dc8ab2 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a3a732c9c6166c89ed87e0d2ec7dc8ab2" name="a3a732c9c6166c89ed87e0d2ec7dc8ab2"></a>
+lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefaultProcessor</b> (void)</td></tr>
+<tr class="memdesc:a3a732c9c6166c89ed87e0d2ec7dc8ab2 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default processor. <br /></td></tr>
+<tr class="separator:a3a732c9c6166c89ed87e0d2ec7dc8ab2 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62132d75e92d6d14bcbf87fb6a1486a inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="ab62132d75e92d6d14bcbf87fb6a1486a" name="ab62132d75e92d6d14bcbf87fb6a1486a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefaultProcessor</b> (lxString dproc)</td></tr>
+<tr class="memdesc:ab62132d75e92d6d14bcbf87fb6a1486a inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set board default processor. <br /></td></tr>
+<tr class="separator:ab62132d75e92d6d14bcbf87fb6a1486a inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add9af22bb22dfb8c6f967f22ef0ecee4 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="add9af22bb22dfb8c6f967f22ef0ecee4" name="add9af22bb22dfb8c6f967f22ef0ecee4"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>InstCounterGet</b> (void)</td></tr>
 <tr class="memdesc:add9af22bb22dfb8c6f967f22ef0ecee4 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instruction counter. <br /></td></tr>
@@ -583,39 +596,42 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae9784848f9bb1367f03153863325d055"><td class="memItemLeft" align="right" valign="top"><a id="ae9784848f9bb1367f03153863325d055" name="ae9784848f9bb1367f03153863325d055"></a>
 avr_t *&#160;</td><td class="memItemRight" valign="bottom"><b>avr</b></td></tr>
 <tr class="separator:ae9784848f9bb1367f03153863325d055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec4f5f4a9ae604f8c6ffc6e6bc0ef429"><td class="memItemLeft" align="right" valign="top"><a id="aec4f5f4a9ae604f8c6ffc6e6bc0ef429" name="aec4f5f4a9ae604f8c6ffc6e6bc0ef429"></a>
-avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>serial_irq</b></td></tr>
-<tr class="separator:aec4f5f4a9ae604f8c6ffc6e6bc0ef429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e7a753b3b479fa0f5d2b561d6d680c"><td class="memItemLeft" align="right" valign="top"><a id="aa0e7a753b3b479fa0f5d2b561d6d680c" name="aa0e7a753b3b479fa0f5d2b561d6d680c"></a>
+avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>serial_irq</b> [MAX_UART_COUNT]</td></tr>
+<tr class="separator:aa0e7a753b3b479fa0f5d2b561d6d680c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93f9a08a3b3aa1e61aeb7985476aa12"><td class="memItemLeft" align="right" valign="top"><a id="ac93f9a08a3b3aa1e61aeb7985476aa12" name="ac93f9a08a3b3aa1e61aeb7985476aa12"></a>
 picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [256]</td></tr>
 <tr class="separator:ac93f9a08a3b3aa1e61aeb7985476aa12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5185149f566512eacdd79843e4305e05"><td class="memItemLeft" align="right" valign="top"><a id="a5185149f566512eacdd79843e4305e05" name="a5185149f566512eacdd79843e4305e05"></a>
 avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>Write_stat_irq</b> [100]</td></tr>
 <tr class="separator:a5185149f566512eacdd79843e4305e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc0f35fcbb4919b8f96b2550b04d30a"><td class="memItemLeft" align="right" valign="top"><a id="abcc0f35fcbb4919b8f96b2550b04d30a" name="abcc0f35fcbb4919b8f96b2550b04d30a"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>serialbaud</b></td></tr>
-<tr class="separator:abcc0f35fcbb4919b8f96b2550b04d30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a17d62ea95ab205d53feacf826f855d"><td class="memItemLeft" align="right" valign="top"><a id="a7a17d62ea95ab205d53feacf826f855d" name="a7a17d62ea95ab205d53feacf826f855d"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>serialexbaud</b></td></tr>
-<tr class="separator:a7a17d62ea95ab205d53feacf826f855d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a7f960ef6f7fe0d96d0cd36956fcbc"><td class="memItemLeft" align="right" valign="top"><a id="aa0a7f960ef6f7fe0d96d0cd36956fcbc" name="aa0a7f960ef6f7fe0d96d0cd36956fcbc"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>serialbaud</b> [MAX_UART_COUNT]</td></tr>
+<tr class="separator:aa0a7f960ef6f7fe0d96d0cd36956fcbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c596dd6e759165b8e78cfe3071e82e"><td class="memItemLeft" align="right" valign="top"><a id="a49c596dd6e759165b8e78cfe3071e82e" name="a49c596dd6e759165b8e78cfe3071e82e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>serialexbaud</b> [MAX_UART_COUNT]</td></tr>
+<tr class="separator:a49c596dd6e759165b8e78cfe3071e82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845cca17b75d66118d034e77d0d1a6b2"><td class="memItemLeft" align="right" valign="top"><a id="a845cca17b75d66118d034e77d0d1a6b2" name="a845cca17b75d66118d034e77d0d1a6b2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>avr_debug_type</b></td></tr>
 <tr class="separator:a845cca17b75d66118d034e77d0d1a6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0f07b601f080faa1604888ebf1708ff"><td class="memItemLeft" align="right" valign="top"><a id="ab0f07b601f080faa1604888ebf1708ff" name="ab0f07b601f080faa1604888ebf1708ff"></a>
 serialfd_t&#160;</td><td class="memItemRight" valign="bottom"><b>serialfd</b></td></tr>
 <tr class="separator:ab0f07b601f080faa1604888ebf1708ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a934fcd3f90c0ca17bf8c5b40950847f1"><td class="memItemLeft" align="right" valign="top"><a id="a934fcd3f90c0ca17bf8c5b40950847f1" name="a934fcd3f90c0ca17bf8c5b40950847f1"></a>
-<a class="el" href="structbitbang__uart__t.html">bitbang_uart_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bb_uart</b></td></tr>
-<tr class="separator:a934fcd3f90c0ca17bf8c5b40950847f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248abe83d450b1ccd208d072d61f8804"><td class="memItemLeft" align="right" valign="top"><a id="a248abe83d450b1ccd208d072d61f8804" name="a248abe83d450b1ccd208d072d61f8804"></a>
+<a class="el" href="structbitbang__uart__t.html">bitbang_uart_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bb_uart</b> [MAX_UART_COUNT]</td></tr>
+<tr class="separator:a248abe83d450b1ccd208d072d61f8804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2ace01ad7613d9886e4d79f2848c22c"><td class="memItemLeft" align="right" valign="top"><a id="ac2ace01ad7613d9886e4d79f2848c22c" name="ac2ace01ad7613d9886e4d79f2848c22c"></a>
 unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>eeprom</b></td></tr>
 <tr class="separator:ac2ace01ad7613d9886e4d79f2848c22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7558f81a8d2cf5473054a45c617f9259"><td class="memItemLeft" align="right" valign="top"><a id="a7558f81a8d2cf5473054a45c617f9259" name="a7558f81a8d2cf5473054a45c617f9259"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>uart_config</b></td></tr>
-<tr class="separator:a7558f81a8d2cf5473054a45c617f9259"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0135e522148bf1108efc3f9817c655"><td class="memItemLeft" align="right" valign="top"><a id="aea0135e522148bf1108efc3f9817c655" name="aea0135e522148bf1108efc3f9817c655"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>has_usart</b></td></tr>
-<tr class="separator:aea0135e522148bf1108efc3f9817c655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b3cd56ea7f5b897b7bf3680b89036f"><td class="memItemLeft" align="right" valign="top"><a id="a99b3cd56ea7f5b897b7bf3680b89036f" name="a99b3cd56ea7f5b897b7bf3680b89036f"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>uart_config</b> [MAX_UART_COUNT]</td></tr>
+<tr class="separator:a99b3cd56ea7f5b897b7bf3680b89036f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be1ca8e885831691434badf3e214457"><td class="memItemLeft" align="right" valign="top"><a id="a3be1ca8e885831691434badf3e214457" name="a3be1ca8e885831691434badf3e214457"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>usart_count</b></td></tr>
+<tr class="separator:a3be1ca8e885831691434badf3e214457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af112e5e7a996621b06697f6d0de09bd1"><td class="memItemLeft" align="right" valign="top"><a id="af112e5e7a996621b06697f6d0de09bd1" name="af112e5e7a996621b06697f6d0de09bd1"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>UCSR_base</b> [MAX_UART_COUNT]</td></tr>
+<tr class="separator:af112e5e7a996621b06697f6d0de09bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d13b80b638169691a484e6f53c78dc4"><td class="memItemLeft" align="right" valign="top"><a id="a8d13b80b638169691a484e6f53c78dc4" name="a8d13b80b638169691a484e6f53c78dc4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>pkg</b></td></tr>
 <tr class="separator:a8d13b80b638169691a484e6f53c78dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -624,6 +640,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>pkg</b></td></tr>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>Proc</b></td></tr>
 <tr class="memdesc:a92f1e7588769e3cbc7cc0667c1bf3b8c inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of processor in use. <br /></td></tr>
 <tr class="separator:a92f1e7588769e3cbc7cc0667c1bf3b8c inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f421d47fc83ffc460aee8462ee9b88 inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a20f421d47fc83ffc460aee8462ee9b88" name="a20f421d47fc83ffc460aee8462ee9b88"></a>
+lxString&#160;</td><td class="memItemRight" valign="bottom"><b>DProc</b></td></tr>
+<tr class="memdesc:a20f421d47fc83ffc460aee8462ee9b88 inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of default board processor. <br /></td></tr>
+<tr class="separator:a20f421d47fc83ffc460aee8462ee9b88 inherit pro_attribs_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a637392ea82a18ee9f9716147455031dd" name="a637392ea82a18ee9f9716147455031dd"></a>
 <a class="el" href="structinput__t.html">input_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>input</b> [120]</td></tr>
 <tr class="memdesc:a637392ea82a18ee9f9716147455031dd inherit pro_attribs_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">input map elements <br /></td></tr>
@@ -678,15 +698,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>read_ihx_avr</b> (cons
 <tr class="memitem:a575226e19e6ad75f2300841a236c22c2"><td class="memItemLeft" align="right" valign="top"><a id="a575226e19e6ad75f2300841a236c22c2" name="a575226e19e6ad75f2300841a236c22c2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>write_ihx_avr</b> (const char *fname)</td></tr>
 <tr class="separator:a575226e19e6ad75f2300841a236c22c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a3d8ec54f48ee20361ab297e3e9dfcf95"><td class="memItemLeft" align="right" valign="top"><a id="a3d8ec54f48ee20361ab297e3e9dfcf95" name="a3d8ec54f48ee20361ab297e3e9dfcf95"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>pin_rx</b></td></tr>
-<tr class="separator:a3d8ec54f48ee20361ab297e3e9dfcf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa134d206cb029ca49e1132f10e82ba6d"><td class="memItemLeft" align="right" valign="top"><a id="aa134d206cb029ca49e1132f10e82ba6d" name="aa134d206cb029ca49e1132f10e82ba6d"></a>
-unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>pin_tx</b></td></tr>
-<tr class="separator:aa134d206cb029ca49e1132f10e82ba6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9a30361ab69464660796d48f47e53dd6" name="a9a30361ab69464660796d48f47e53dd6"></a>
@@ -1244,6 +1255,36 @@ Here is the call graph for this function:</div>
 <p>Get debug interface name. </p>
 
 <p>Implements <a class="el" href="classboard.html#adf3f371f14f85e1222d27eceec4e1f55">board</a>.</p>
+
+</div>
+</div>
+<a id="ab60244ed087236dd5f3bf9b5ea378406" name="ab60244ed087236dd5f3bf9b5ea378406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60244ed087236dd5f3bf9b5ea378406">&#9670;&nbsp;</a></span>GetDefaultClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bsim_simavr::GetDefaultClock </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get board default clock in MHz. </p>
+
+<p>Reimplemented from <a class="el" href="classboard.html#ae280c2b8726314159cc6d9f408f4cff5">board</a>.</p>
 
 </div>
 </div>

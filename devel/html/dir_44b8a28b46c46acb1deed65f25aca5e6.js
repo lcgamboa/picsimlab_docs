@@ -1,6 +1,5 @@
 var dir_44b8a28b46c46acb1deed65f25aca5e6 =
 [
-    [ "board.h", "board_8h_source.html", null ],
     [ "board_Arduino_Mega.h", "board___arduino___mega_8h_source.html", null ],
     [ "board_Arduino_Nano.h", "board___arduino___nano_8h_source.html", null ],
     [ "board_Arduino_Uno.h", "board___arduino___uno_8h_source.html", null ],
@@ -17,7 +16,6 @@ var dir_44b8a28b46c46acb1deed65f25aca5e6 =
     [ "board_STM32_H103.h", "board___s_t_m32___h103_8h_source.html", null ],
     [ "board_uCboard.h", "board__u_cboard_8h_source.html", null ],
     [ "board_x.h", "board__x_8h_source.html", null ],
-    [ "boards_defs.h", "boards__defs_8h_source.html", null ],
     [ "bridge_gpsim.h", "bridge__gpsim_8h_source.html", null ],
     [ "bsim_gpsim.h", "bsim__gpsim_8h_source.html", null ],
     [ "bsim_picsim.h", "bsim__picsim_8h_source.html", null ],

@@ -1,4 +1,4 @@
 <map id="cpart_keypad::ReadPropertiesWindow" name="cpart_keypad::ReadPropertiesWindow">
 <area shape="rect" id="node1" title="Called when properties window close." alt="" coords="5,5,221,47"/>
-<area shape="rect" id="node2" href="$classcpart__keypad.html#ada5620fafed0e81d97271f6bc2af3f61" title="Used by properties window combos." alt="" coords="269,13,481,39"/>
+<area shape="rect" id="node2" href="$classcpart__keypad.html#afda22d47d719a7a4c5c1ec251ed5fbf7" title="Used by properties window combos." alt="" coords="269,13,481,39"/>
 </map>

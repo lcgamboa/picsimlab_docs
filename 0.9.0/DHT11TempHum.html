@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>DHT11 (Temp. Hum.)</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x34-330005'>Experimental Boards</a></span>
+    
+    
+    
+    
+   <span class='chapterToc'>6 <a href='SerialCommunication.html#x39-380006'>Serial Communication</a></span>
+    
+                                                                  
+
+                                                                  
+    
+    
+   <span class='chapterToc'>7 <a href='BackendSimulators.html#x43-420007'>Backend Simulators</a></span>
+    
+     
+    
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    
+   <span class='chapterToc'>8 <a href='Tools.html#x57-560008'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>9 <a href='Oscilloscope.html#x68-710009'>Oscilloscope</a></span>
+   <span class='chapterToc'>10 <a href='SpareParts.html#x69-7200010'>Spare Parts</a></span>
+    <span class='sectionToc'>10.1 <a href='PinAlias.html#x70-7300010.1'>Pin Alias</a></span>
+    <span class='sectionToc'>10.2 <a href='Inputs.html#x71-7400010.2'>Inputs</a></span>
+     <span class='subsectionToc'>10.2.1 <a href='ADXL345Accel.html#x72-7500010.2.1'>ADXL345 (Accel)</a></span>
+     <span class='subsectionToc'>10.2.2 <a href='BMP180PressureI2C.html#x73-7600010.2.2'>BMP180 (Pressure I2C)</a></span>
+     <span class='subsectionToc'>10.2.3 <a href='BMP280PressureI2C.html#x74-7700010.2.3'>BMP280 (Pressure I2C)</a></span>
+     <span class='subsectionToc'>10.2.4 <a href='#x75-7800010.2.4'>DHT11 (Temp. Hum.)</a></span>
+     <span class='subsectionToc'>10.2.5 <a href='DHT22TempHum.html#x76-7900010.2.5'>DHT22 (Temp. Hum.)</a></span>
+     <span class='subsectionToc'>10.2.6 <a href='DS1621TemperatureI2C.html#x77-8000010.2.6'>DS1621 (Temperature I2C)</a></span>
+     <span class='subsectionToc'>10.2.7 <a href='DS18B20Temperature.html#x78-8100010.2.7'>DS18B20 (Temperature)</a></span>
+     <span class='subsectionToc'>10.2.8 <a href='Encoder.html#x79-8200010.2.8'>Encoder</a></span>
+     <span class='subsectionToc'>10.2.9 <a href='FM50Temperature.html#x80-8300010.2.9'>FM50 (Temperature)</a></span>
+     <span class='subsectionToc'>10.2.10 <a href='FixedVoltage.html#x81-8400010.2.10'>Fixed Voltage</a></span>
+     <span class='subsectionToc'>10.2.11 <a href='Gamepad.html#x82-8500010.2.11'>Gamepad</a></span>
+     <span class='subsectionToc'>10.2.12 <a href='GamepadAnalogic.html#x83-8600010.2.12'>Gamepad (Analogic)</a></span>
+     <span class='subsectionToc'>10.2.13 <a href='HX711LoadCellAmp.html#x84-8700010.2.13'>HX711 (Load Cell Amp)</a></span>
+     <span class='subsectionToc'>10.2.14 <a href='Keypad.html#x85-8800010.2.14'>Keypad</a></span>
+     <span class='subsectionToc'>10.2.15 <a href='LDR.html#x86-8900010.2.15'>LDR</a></span>
+                                                                  
+
+                                                                  
+     <span class='subsectionToc'>10.2.16 <a href='LM35Temperature.html#x87-9000010.2.16'>LM35 (Temperature)</a></span>
+     <span class='subsectionToc'>10.2.17 <a href='MPU6050.html#x88-9100010.2.17'>MPU6050</a></span>
+     <span class='subsectionToc'>10.2.18 <a href='Potentiometers.html#x89-9200010.2.18'>Potentiometers</a></span>
+     <span class='subsectionToc'>10.2.19 <a href='PotentiometersRotary.html#x90-9300010.2.19'>Potentiometers (Rotary)</a></span>
+     <span class='subsectionToc'>10.2.20 <a href='PushButtons.html#x91-9400010.2.20'>Push Buttons</a></span>
+     <span class='subsectionToc'>10.2.21 <a href='PushButtonsAnalogic.html#x92-9500010.2.21'>Push Buttons (Analogic)</a></span>
+     <span class='subsectionToc'>10.2.22 <a href='SHT3XTempHum.html#x93-9600010.2.22'>SHT3X (Temp. Hum.)</a></span>
+     <span class='subsectionToc'>10.2.23 <a href='Switches.html#x94-9700010.2.23'>Switches</a></span>
+     <span class='subsectionToc'>10.2.24 <a href='UltrasonicHCSR04.html#x95-9800010.2.24'>Ultrasonic HC-SR04</a></span>
+    <span class='sectionToc'>10.3 <a href='Outputs.html#x96-9900010.3'>Outputs</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.4 <a href='Others.html#x112-11900010.4'>Others</a></span>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <span class='sectionToc'>10.5 <a href='Virtual.html#x126-13300010.5'>Virtual</a></span>
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+   <span class='chapterToc'>11 <a href='Troubleshooting.html#x134-14100011'>Troubleshooting</a></span>
+   <span class='chapterToc'>12 <a href='License.html#x135-14200012'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='BMP280PressureI2C.html'>prev</a>] [<a href='Inputs.html#DHT11TempHum.html'>up</a>] [<a href='DHT22TempHum.html'>next</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>10.2.4    </span> <a id='x75-7800010.2.4'></a>DHT11 (Temp. Hum.)</h4>
+<!--  l. 207  --><p class='noindent'>This part is DHT11 digital temperature and humidity sensor. The temperature range is 0 to 50
+<span class='ptmr8c-'>°</span>C and the relative humidity range is 20 to 80 %.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 212  --><p class='noindent'><img alt='PIC' src='img/part_dht11.png' style='width:50\%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!--  l. 216  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/parts_DHT11_(Temp._Hum.).html' target='_blank'>Examples</a>
+</p><!--  l. 219  --><p class='indent'>   <a href='pdf/parts/datasheet/input/DHT11.pdf' target='_blank'>Datasheet</a>
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='BMP280PressureI2C.html'>prev</a>] [<a href='Inputs.html#DHT11TempHum.html'>up</a>] [<a href='DHT22TempHum.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -89,11 +89,11 @@ $(document).ready(function(){initNavTree('ldd__max72xx_8h_source.html',''); init
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* ########################################################################</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICsimLab - PIC laboratory simulator</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICSimLab - Programmable IC Simulator Laboratory</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   ########################################################################</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2019  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2023  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"></span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -160,9 +160,10 @@ $(document).ready(function(){initNavTree('ldd__max72xx_8h_source.html',''); init
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ldd_max72xx_io(<a class="code hl_struct" href="structldd__max72xx__t.html">ldd_max72xx_t</a>* ldd, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> din, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> clk, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ncs);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">void</span> ldd_max72xx_draw(<a class="code hl_struct" href="structldd__max72xx__t.html">ldd_max72xx_t</a>* ldd, CCanvas* canvas, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> w1, <span class="keywordtype">int</span> h1, <span class="keywordtype">int</span> picpwr, <span class="keywordtype">int</span> angle);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif  </span><span class="comment">// LDD_MAX72XX</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">void</span> ldd_max72xx_draw(<a class="code hl_struct" href="structldd__max72xx__t.html">ldd_max72xx_t</a>* ldd, CCanvas* canvas, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> w1, <span class="keywordtype">int</span> h1, <span class="keywordtype">int</span> picpwr, <span class="keywordtype">int</span> angle,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                      <span class="keywordtype">int</span> mode);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif  </span><span class="comment">// LDD_MAX72XX</span></div>
 <div class="ttc" id="astructbitbang__spi__t_html"><div class="ttname"><a href="structbitbang__spi__t.html">bitbang_spi_t</a></div><div class="ttdef"><b>Definition:</b> bitbang_spi.h:35</div></div>
 <div class="ttc" id="astructldd__max72xx__t_html"><div class="ttname"><a href="structldd__max72xx__t.html">ldd_max72xx_t</a></div><div class="ttdef"><b>Definition:</b> ldd_max72xx.h:59</div></div>
 </div><!-- fragment --></div><!-- contents -->

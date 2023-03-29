@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -201,9 +201,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>SavePinAlias</b> (lxS
 <tr class="memitem:adf989ec7884d16d7857e1e391ca53e03"><td class="memItemLeft" align="right" valign="top"><a id="adf989ec7884d16d7857e1e391ca53e03" name="adf989ec7884d16d7857e1e391ca53e03"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>LoadPinAlias</b> (lxString fname, unsigned char show_error_msg=0)</td></tr>
 <tr class="separator:adf989ec7884d16d7857e1e391ca53e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02f18f59e44eb9a5bd7bd7b7c9ca4fb"><td class="memItemLeft" align="right" valign="top"><a id="ab02f18f59e44eb9a5bd7bd7b7c9ca4fb" name="ab02f18f59e44eb9a5bd7bd7b7c9ca4fb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>LoadConfig</b> (lxString fname)</td></tr>
-<tr class="separator:ab02f18f59e44eb9a5bd7bd7b7c9ca4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604c11ec1ed6da6699d11733766047b2"><td class="memItemLeft" align="right" valign="top"><a id="a604c11ec1ed6da6699d11733766047b2" name="a604c11ec1ed6da6699d11733766047b2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>LoadConfig</b> (lxString fname, const int disable_debug=0)</td></tr>
+<tr class="separator:a604c11ec1ed6da6699d11733766047b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9221ce36c215481b95a63940c0dbbff6"><td class="memItemLeft" align="right" valign="top"><a id="a9221ce36c215481b95a63940c0dbbff6" name="a9221ce36c215481b95a63940c0dbbff6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearPinAlias</b> (void)</td></tr>
 <tr class="separator:a9221ce36c215481b95a63940c0dbbff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,6 +258,9 @@ void(CControl::*&#160;</td><td class="memItemRight" valign="bottom"><b>PropButto
 <tr class="memitem:a816817ac2956119988fb880012b85a0a"><td class="memItemLeft" align="right" valign="top"><a id="a816817ac2956119988fb880012b85a0a" name="a816817ac2956119988fb880012b85a0a"></a>
 void(CControl::*&#160;</td><td class="memItemRight" valign="bottom"><b>PropComboChange</b> )(CControl *control)</td></tr>
 <tr class="separator:a816817ac2956119988fb880012b85a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f2a5463db41965b4d6fdb1bd558d88"><td class="memItemLeft" align="right" valign="top"><a id="a75f2a5463db41965b4d6fdb1bd558d88" name="a75f2a5463db41965b4d6fdb1bd558d88"></a>
+void(CControl::*&#160;</td><td class="memItemRight" valign="bottom"><b>PropSpinChange</b> )(CControl *control)</td></tr>
+<tr class="separator:a75f2a5463db41965b4d6fdb1bd558d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4dca4253d92f9190f981c1c78784ca8"><td class="memItemLeft" align="right" valign="top"><a id="aa4dca4253d92f9190f981c1c78784ca8" name="aa4dca4253d92f9190f981c1c78784ca8"></a>
 void(CControl::*&#160;</td><td class="memItemRight" valign="bottom"><b>PartButtonEvent</b> )(CControl *control, const uint button, const uint x, const uint y, const uint mask)</td></tr>
 <tr class="separator:aa4dca4253d92f9190f981c1c78784ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -332,8 +335,8 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><b>oldfname</b></td>
 <tr class="separator:aeb36aa5586da59feef0a3bb52c6cb6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="spareparts_8h_source.html">spareparts.h</a></li>
-<li>src/spareparts.cc</li>
+<li>src/lib/<a class="el" href="spareparts_8h_source.html">spareparts.h</a></li>
+<li>src/lib/spareparts.cc</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

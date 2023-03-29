@@ -105,8 +105,6 @@ table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 .hline td, .cline td{ padding: 0; }
 .hline hr, .cline hr{border:none;border-top:1px solid black;}
 .hline {border-top: 1px solid black;}
-.hline + .vspace:last-child{display:none;}
-.hline:first-child{border-bottom:1px solid black;border-top:none;}
 .tabbing-right {text-align:right;}
 div.float, div.figure {margin-left: auto; margin-right: auto;}
 div.float img {text-align:center;}
@@ -126,11 +124,8 @@ span.emph span.emph {font-style: normal;}
 td.eq-no{ width:5%; }
 table.equation { width:100%; } 
 div.math-display, div.par-math-display{text-align:center;}
-.array-hline,.array-cline{ border-top: 1px solid black; height:0px; }
-.array-hline + .array-vspace:last-child{display:none;}
-.hline-mtd, .array-hline td{ display:none }
-.array-hline + .array-row:last-child{display:none;}
-.array-hline:first-child{border-bottom:1px solid black;border-top:none;}
+mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
+mtr.hline mtd mo{ display:none }
 math .texttt { font-family: monospace; }
 math .textit { font-style: italic; }
 math .textsl { font-style: oblique; }
@@ -178,7 +173,6 @@ pre.fancyvrb {white-space: pre-wrap; margin:0em;font-family:monospace,monospace;
 /* end css.sty */
 
 .textcolor-#00FF00{color:#00FF00;}
-.textcolor-#FF0000{color:#FF0000;}
 .textcolor-0000ff{color:rgb(0,0,255);}
 .textcolor-007f00{color:rgb(0,127,0);}
 .textcolor-19167c{color:rgb(25,22,124);}

@@ -1,5 +1,7 @@
 <map id="bsim_qemu::EvThreadRun" name="bsim_qemu::EvThreadRun">
-<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,31,197,57"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="253,5,452,32"/>
-<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#aa601868c047707b0d1037fe87250f5f4" title="Get debug status (On/Off)" alt="" coords="245,56,460,83"/>
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,81,197,108"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="265,5,464,32"/>
+<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#aa601868c047707b0d1037fe87250f5f4" title="Get debug status (On/Off)" alt="" coords="257,56,472,83"/>
+<area shape="rect" id="node4" href="$class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2" title="Return the program instance number." alt="" coords="245,107,484,133"/>
+<area shape="rect" id="node5" href="$classboard.html#a0553a5c6eccd40e19fc6a32e8089d0f3" title="Get board processor in use." alt="" coords="269,157,461,184"/>
 </map>

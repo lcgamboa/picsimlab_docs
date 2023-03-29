@@ -24,6 +24,7 @@ var classcboard___breadboard =
     [ "EvMouseButtonRelease", "classcboard___breadboard.html#a6c96078cbe92a35cc36c4a6d5d10f7a7", null ],
     [ "GetAboutInfo", "classcboard___breadboard.html#a5e87c27c90c84cebf73b4046369d185d", null ],
     [ "GetDebugName", "classcboard___breadboard.html#ab21360d8f5e626dabfce5f3e8fe67213", null ],
+    [ "GetDefaultClock", "classcboard___breadboard.html#aeff9b290f9b8789fd79011656dc23289", null ],
     [ "GetInputId", "classcboard___breadboard.html#aeef4509975c9a4af5fd32e0c1b5faf5b", null ],
     [ "GetName", "classcboard___breadboard.html#aa09a52e07b02fc1aa5f6498431309070", null ],
     [ "GetOutputId", "classcboard___breadboard.html#aff2db808c4543a32a7f1505980267523", null ],

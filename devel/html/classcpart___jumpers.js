@@ -1,6 +1,6 @@
 var classcpart___jumpers =
 [
-    [ "ComboChange", "classcpart___jumpers.html#a6134155c328c5d190f3d0b328ad33bb3", null ],
+    [ "ComboChange", "classcpart___jumpers.html#adb083a26c301b5ab9ff4f4872fdd8495", null ],
     [ "ConfigurePropertiesWindow", "classcpart___jumpers.html#abb8bf348699af57c41d5d15a48b653ad", null ],
     [ "DrawOutput", "classcpart___jumpers.html#ad690a6e9cd31157e8814bf211d589aa0", null ],
     [ "GetAboutInfo", "classcpart___jumpers.html#a2811212fa517c2e0be3c4b584b3ab19b", null ],

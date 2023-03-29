@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -140,12 +140,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28daf49a8027597c46e9de2308769b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__leds.html#a28daf49a8027597c46e9de2308769b1e">ReadPreferences</a> (lxString value) override</td></tr>
 <tr class="memdesc:a28daf49a8027597c46e9de2308769b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences.  <a href="classcpart__leds.html#a28daf49a8027597c46e9de2308769b1e">More...</a><br /></td></tr>
 <tr class="separator:a28daf49a8027597c46e9de2308769b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90e838146a4c48ed49b7b39f84089ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__leds.html#aa90e838146a4c48ed49b7b39f84089ad">LoadImage</a> (void) override</td></tr>
+<tr class="memdesc:aa90e838146a4c48ed49b7b39f84089ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Part Image.  <a href="classcpart__leds.html#aa90e838146a4c48ed49b7b39f84089ad">More...</a><br /></td></tr>
+<tr class="separator:aa90e838146a4c48ed49b7b39f84089ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9de7bcce141058e8ef604d032f672086"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__leds.html#a9de7bcce141058e8ef604d032f672086">GetInputId</a> (char *name) override</td></tr>
 <tr class="memdesc:a9de7bcce141058e8ef604d032f672086"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <a href="classcpart__leds.html#a9de7bcce141058e8ef604d032f672086">More...</a><br /></td></tr>
 <tr class="separator:a9de7bcce141058e8ef604d032f672086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6ce131398c9be27cbbae18b6bee4c3"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__leds.html#a9b6ce131398c9be27cbbae18b6bee4c3">GetOutputId</a> (char *name) override</td></tr>
 <tr class="memdesc:a9b6ce131398c9be27cbbae18b6bee4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <a href="classcpart__leds.html#a9b6ce131398c9be27cbbae18b6bee4c3">More...</a><br /></td></tr>
 <tr class="separator:a9b6ce131398c9be27cbbae18b6bee4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6429ae8c8a2039f91a77b6c991fb3bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__leds.html#af6429ae8c8a2039f91a77b6c991fb3bd">SpinChange</a> (CPWindow *WProp, CSpin *control, int value) override</td></tr>
+<tr class="memdesc:af6429ae8c8a2039f91a77b6c991fb3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window spin.  <a href="classcpart__leds.html#af6429ae8c8a2039f91a77b6c991fb3bd">More...</a><br /></td></tr>
+<tr class="separator:af6429ae8c8a2039f91a77b6c991fb3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classpart"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classpart')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classpart.html">part</a></td></tr>
 <tr class="memitem:a11157be17bfa9fd951a1fe1343a79195 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a11157be17bfa9fd951a1fe1343a79195" name="a11157be17bfa9fd951a1fe1343a79195"></a>
 lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetName</b> (void)</td></tr>
@@ -250,9 +256,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>EvMouseMove</b> (uint
 <tr class="memitem:a8fb524bfa1f3edb951ccc7a75c564e6d inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a8fb524bfa1f3edb951ccc7a75c564e6d">ReadPropertiesWindow</a> (CPWindow *WProp)=0</td></tr>
 <tr class="memdesc:a8fb524bfa1f3edb951ccc7a75c564e6d inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when properties window close.  <a href="classpart.html#a8fb524bfa1f3edb951ccc7a75c564e6d">More...</a><br /></td></tr>
 <tr class="separator:a8fb524bfa1f3edb951ccc7a75c564e6d inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5509454fc6874f47054f8a79d197d47c inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a5509454fc6874f47054f8a79d197d47c">ComboChange</a> (CCombo *control, lxString value)</td></tr>
-<tr class="memdesc:a5509454fc6874f47054f8a79d197d47c inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window combos.  <a href="classpart.html#a5509454fc6874f47054f8a79d197d47c">More...</a><br /></td></tr>
-<tr class="separator:a5509454fc6874f47054f8a79d197d47c inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e4f235be667bb1c66be67163d64571 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a29e4f235be667bb1c66be67163d64571">ComboChange</a> (CPWindow *WProp, CCombo *control, lxString value)</td></tr>
+<tr class="memdesc:a29e4f235be667bb1c66be67163d64571 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window combos.  <a href="classpart.html#a29e4f235be667bb1c66be67163d64571">More...</a><br /></td></tr>
+<tr class="separator:a29e4f235be667bb1c66be67163d64571 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b81addfbc39bcce2dffc5d8d151555 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a00b81addfbc39bcce2dffc5d8d151555">SpinChange</a> (CPWindow *WProp, CSpin *control, int value)</td></tr>
+<tr class="memdesc:a00b81addfbc39bcce2dffc5d8d151555 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window spin.  <a href="classpart.html#a00b81addfbc39bcce2dffc5d8d151555">More...</a><br /></td></tr>
+<tr class="separator:a00b81addfbc39bcce2dffc5d8d151555 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad8a0c42be77644b21d52b4defcb4e47 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#aad8a0c42be77644b21d52b4defcb4e47">ButtonEvent</a> (CControl *control, uint button, uint x, uint y, uint state)</td></tr>
 <tr class="memdesc:aad8a0c42be77644b21d52b4defcb4e47 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by windows of parts.  <a href="classpart.html#aad8a0c42be77644b21d52b4defcb4e47">More...</a><br /></td></tr>
 <tr class="separator:aad8a0c42be77644b21d52b4defcb4e47 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -338,6 +347,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetScale</b> 
 <tr class="memitem:a28e6c02a001c633b76caefe61b666f1a inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a28e6c02a001c633b76caefe61b666f1a">SetId</a> (int _id)</td></tr>
 <tr class="memdesc:a28e6c02a001c633b76caefe61b666f1a inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the part ID, don't be called by user.  <a href="classpart.html#a28e6c02a001c633b76caefe61b666f1a">More...</a><br /></td></tr>
 <tr class="separator:a28e6c02a001c633b76caefe61b666f1a inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d018182fe819a481c76d3564ab47381 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a7d018182fe819a481c76d3564ab47381" name="a7d018182fe819a481c76d3564ab47381"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetId</b> (void)</td></tr>
+<tr class="memdesc:a7d018182fe819a481c76d3564ab47381 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the part ID. <br /></td></tr>
+<tr class="separator:a7d018182fe819a481c76d3564ab47381 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcaef45094594208ec3d2ae29e7bcc47 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="adcaef45094594208ec3d2ae29e7bcc47" name="adcaef45094594208ec3d2ae29e7bcc47"></a>
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>GetUpdate</b> (void)</td></tr>
 <tr class="memdesc:adcaef45094594208ec3d2ae29e7bcc47 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need Draw update. <br /></td></tr>
@@ -360,9 +373,24 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPCWCount</b> 
 <tr class="memitem:ace45dffdd91136a4671bdfa18fa7d17e inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ace45dffdd91136a4671bdfa18fa7d17e" name="ace45dffdd91136a4671bdfa18fa7d17e"></a>
 const <a class="el" href="struct_p_c_w_prop.html">PCWProp</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetPCWProperties</b> (void)</td></tr>
 <tr class="separator:ace45dffdd91136a4671bdfa18fa7d17e inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2322a23166e11bf472ac1de26edfbb6 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ad2322a23166e11bf472ac1de26edfbb6" name="ad2322a23166e11bf472ac1de26edfbb6"></a>
+const int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPinCount</b> (void)</td></tr>
+<tr class="separator:ad2322a23166e11bf472ac1de26edfbb6 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5777d9847376f30b78b0a30f319e6b0e inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a5777d9847376f30b78b0a30f319e6b0e" name="a5777d9847376f30b78b0a30f319e6b0e"></a>
+unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetPins</b> (void)</td></tr>
+<tr class="separator:a5777d9847376f30b78b0a30f319e6b0e inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8beaa4db1ea16af32da7fda8dacfc2c3 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a8beaa4db1ea16af32da7fda8dacfc2c3" name="a8beaa4db1ea16af32da7fda8dacfc2c3"></a>
+const int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPinCtrlCount</b> (void)</td></tr>
+<tr class="separator:a8beaa4db1ea16af32da7fda8dacfc2c3 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437bb7c5c18db156a28bcaba44b7747b inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a437bb7c5c18db156a28bcaba44b7747b" name="a437bb7c5c18db156a28bcaba44b7747b"></a>
+const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetPinsCtrl</b> (void)</td></tr>
+<tr class="separator:a437bb7c5c18db156a28bcaba44b7747b inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:ab0dc446ca4b9d6e3a32b573051d8af83"><td class="memItemLeft" align="right" valign="top"><a id="ab0dc446ca4b9d6e3a32b573051d8af83" name="ab0dc446ca4b9d6e3a32b573051d8af83"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChangeSize</b> (const unsigned int sz)</td></tr>
+<tr class="separator:ab0dc446ca4b9d6e3a32b573051d8af83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca7501b89dbb75a038960a3ee7d6e4dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart__leds.html#aca7501b89dbb75a038960a3ee7d6e4dd">RegisterRemoteControl</a> (void) override</td></tr>
 <tr class="memdesc:aca7501b89dbb75a038960a3ee7d6e4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register remote control variables.  <a href="classcpart__leds.html#aca7501b89dbb75a038960a3ee7d6e4dd">More...</a><br /></td></tr>
 <tr class="separator:aca7501b89dbb75a038960a3ee7d6e4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -384,6 +412,18 @@ lxColor&#160;</td><td class="memItemRight" valign="bottom"><b>color1</b></td></t
 <tr class="memitem:a3ec06c184f3b5ac91b0429d769c83360"><td class="memItemLeft" align="right" valign="top"><a id="a3ec06c184f3b5ac91b0429d769c83360" name="a3ec06c184f3b5ac91b0429d769c83360"></a>
 lxColor&#160;</td><td class="memItemRight" valign="bottom"><b>color2</b></td></tr>
 <tr class="separator:a3ec06c184f3b5ac91b0429d769c83360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0c6de4025501a00d5d3ef0270b8f41"><td class="memItemLeft" align="right" valign="top"><a id="a2d0c6de4025501a00d5d3ef0270b8f41" name="a2d0c6de4025501a00d5d3ef0270b8f41"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>OWidth</b></td></tr>
+<tr class="separator:a2d0c6de4025501a00d5d3ef0270b8f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdac1d728b51cf8b7ae101c5563bce28"><td class="memItemLeft" align="right" valign="top"><a id="afdac1d728b51cf8b7ae101c5563bce28" name="afdac1d728b51cf8b7ae101c5563bce28"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>OHeight</b></td></tr>
+<tr class="separator:afdac1d728b51cf8b7ae101c5563bce28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b6c17e244f6ad3689a81d95daa3d19"><td class="memItemLeft" align="right" valign="top"><a id="ab6b6c17e244f6ad3689a81d95daa3d19" name="ab6b6c17e244f6ad3689a81d95daa3d19"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>xoff</b></td></tr>
+<tr class="separator:ab6b6c17e244f6ad3689a81d95daa3d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f8ca6c7731944b64ea755ecf8fcfb9"><td class="memItemLeft" align="right" valign="top"><a id="ac7f8ca6c7731944b64ea755ecf8fcfb9" name="ac7f8ca6c7731944b64ea755ecf8fcfb9"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>Size</b></td></tr>
+<tr class="separator:ac7f8ca6c7731944b64ea755ecf8fcfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -405,9 +445,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DrawSlider</b> (const
 <tr class="memitem:ab04c2cf6a6537bc720f30d133669455b inherit pro_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ab04c2cf6a6537bc720f30d133669455b" name="ab04c2cf6a6537bc720f30d133669455b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DrawPotentiometer</b> (const <a class="el" href="structoutput__t.html">output_t</a> *<a class="el" href="classpart.html#a074fcb74e58bd5f199ce043a500d1c69">output</a>, const unsigned char pos, const lxString val, const lxFont font)</td></tr>
 <tr class="separator:ab04c2cf6a6537bc720f30d133669455b inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add97a3a59b407ec53558da51ba7391e3 inherit pro_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="add97a3a59b407ec53558da51ba7391e3" name="add97a3a59b407ec53558da51ba7391e3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPCWProperties</b> (const <a class="el" href="struct_p_c_w_prop.html">PCWProp</a> *pcwprop, const int pcwcount)</td></tr>
-<tr class="separator:add97a3a59b407ec53558da51ba7391e3 inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a7a59aca67c18279cd41d862adfb9a inherit pro_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aa0a7a59aca67c18279cd41d862adfb9a" name="aa0a7a59aca67c18279cd41d862adfb9a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPCWProperties</b> (const <a class="el" href="struct_p_c_w_prop.html">PCWProp</a> *pcwprop)</td></tr>
+<tr class="separator:aa0a7a59aca67c18279cd41d862adfb9a inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d37e06222256061139915bbd924754 inherit pro_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ac6d37e06222256061139915bbd924754" name="ac6d37e06222256061139915bbd924754"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPCWComboWithPinNames</b> (CPWindow *WProp, const char *combo_name, const unsigned char pin)</td></tr>
 <tr class="separator:ac6d37e06222256061139915bbd924754 inherit pro_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -493,6 +533,18 @@ lxString&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b></td></tr
 <tr class="memitem:ad287ba460ea8e298b81ca3946ff63ab8 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ad287ba460ea8e298b81ca3946ff63ab8" name="ad287ba460ea8e298b81ca3946ff63ab8"></a>
 lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
 <tr class="separator:ad287ba460ea8e298b81ca3946ff63ab8 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c095a458fdc9559b127ab07f6c94f3f inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a1c095a458fdc9559b127ab07f6c94f3f" name="a1c095a458fdc9559b127ab07f6c94f3f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>PinCount</b></td></tr>
+<tr class="separator:a1c095a458fdc9559b127ab07f6c94f3f inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8121ccbbfd5f19dd41e890f98d52d1ca inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a8121ccbbfd5f19dd41e890f98d52d1ca" name="a8121ccbbfd5f19dd41e890f98d52d1ca"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>PinCtrlCount</b></td></tr>
+<tr class="separator:a8121ccbbfd5f19dd41e890f98d52d1ca inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5eb12aa1c735733bbb4eee830282494 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aa5eb12aa1c735733bbb4eee830282494" name="aa5eb12aa1c735733bbb4eee830282494"></a>
+unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>Pins</b></td></tr>
+<tr class="separator:aa5eb12aa1c735733bbb4eee830282494 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8ddd6b993704eab6afc42fab144453 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aff8ddd6b993704eab6afc42fab144453" name="aff8ddd6b993704eab6afc42fab144453"></a>
+unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>PinsCtrl</b></td></tr>
+<tr class="separator:aff8ddd6b993704eab6afc42fab144453 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="adf3cc84f400e16397febaafeb9320f41" name="adf3cc84f400e16397febaafeb9320f41"></a>
@@ -522,6 +574,15 @@ lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
 <p>Called to configure the properties window. </p>
 
 <p>Implements <a class="el" href="classpart.html#acfa89d46f3dc9e325dd06d18d3ad771b">part</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcpart__leds_adf3cc84f400e16397febaafeb9320f41_cgraph.png" border="0" usemap="#aclasscpart__leds_adf3cc84f400e16397febaafeb9320f41_cgraph" alt=""/></div>
+<map name="aclasscpart__leds_adf3cc84f400e16397febaafeb9320f41_cgraph" id="aclasscpart__leds_adf3cc84f400e16397febaafeb9320f41_cgraph">
+<area shape="rect" title="Called to configure the properties window." alt="" coords="5,5,232,47"/>
+<area shape="rect" href="classcpart__leds.html#af6429ae8c8a2039f91a77b6c991fb3bd" title="Used by properties window spin." alt="" coords="280,13,455,39"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -654,6 +715,48 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aa90e838146a4c48ed49b7b39f84089ad" name="aa90e838146a4c48ed49b7b39f84089ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90e838146a4c48ed49b7b39f84089ad">&#9670;&nbsp;</a></span>LoadImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cpart_leds::LoadImage </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load Part Image. </p>
+
+<p>Reimplemented from <a class="el" href="classpart.html#a564a0462822da413d466a83d28e967df">part</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcpart__leds_aa90e838146a4c48ed49b7b39f84089ad_cgraph.png" border="0" usemap="#aclasscpart__leds_aa90e838146a4c48ed49b7b39f84089ad_cgraph" alt=""/></div>
+<map name="aclasscpart__leds_aa90e838146a4c48ed49b7b39f84089ad_cgraph" id="aclasscpart__leds_aa90e838146a4c48ed49b7b39f84089ad_cgraph">
+<area shape="rect" title="Load Part Image." alt="" coords="5,31,175,57"/>
+<area shape="rect" href="classpart.html#acb4a5752560f9b0c399e7e8b2807bea3" title="Return the filename of part picture." alt="" coords="405,5,590,32"/>
+<area shape="rect" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="399,68,596,95"/>
+<area shape="rect" href="classpart.html#a564a0462822da413d466a83d28e967df" title="Load Part Image." alt="" coords="223,31,351,57"/>
+<area shape="rect" href="classpart.html#a11157be17bfa9fd951a1fe1343a79195" title="Return the name of part." alt="" coords="644,5,763,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="aeb7dc9b04a967e5321761b55469f7331" name="aeb7dc9b04a967e5321761b55469f7331"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb7dc9b04a967e5321761b55469f7331">&#9670;&nbsp;</a></span>PostProcess()</h2>
 
@@ -771,6 +874,52 @@ Here is the call graph for this function:</div>
 <p>Register remote control variables. </p>
 
 <p>Reimplemented from <a class="el" href="classpart.html#aecbcd4d1e3d02ea8efda7633b3c277ba">part</a>.</p>
+
+</div>
+</div>
+<a id="af6429ae8c8a2039f91a77b6c991fb3bd" name="af6429ae8c8a2039f91a77b6c991fb3bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6429ae8c8a2039f91a77b6c991fb3bd">&#9670;&nbsp;</a></span>SpinChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cpart_leds::SpinChange </td>
+          <td>(</td>
+          <td class="paramtype">CPWindow *&#160;</td>
+          <td class="paramname"><em>WProp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CSpin *&#160;</td>
+          <td class="paramname"><em>control</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used by properties window spin. </p>
+
+<p>Reimplemented from <a class="el" href="classpart.html#a00b81addfbc39bcce2dffc5d8d151555">part</a>.</p>
 
 </div>
 </div>

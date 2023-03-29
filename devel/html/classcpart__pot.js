@@ -5,6 +5,7 @@ var classcpart__pot =
     [ "GetAboutInfo", "classcpart__pot.html#a7d58480289313c402bc79514e7c3d089", null ],
     [ "GetInputId", "classcpart__pot.html#a445293921e4aa1dbf4543f7390cc6e71", null ],
     [ "GetOutputId", "classcpart__pot.html#aab5b0a8f319e6b43352f7b1041c0cb0a", null ],
+    [ "LoadImage", "classcpart__pot.html#aa16f3116295c03dee90e879555a31af9", null ],
     [ "OnMouseButtonPress", "classcpart__pot.html#a848c0165ac2fc21da081ac2188d800fd", null ],
     [ "OnMouseButtonRelease", "classcpart__pot.html#af5fd5300758a78791d81bb39db9fd74c", null ],
     [ "OnMouseMove", "classcpart__pot.html#a0bf155425b7407bc661e8f8707ebe9d8", null ],
@@ -13,5 +14,6 @@ var classcpart__pot =
     [ "ReadPropertiesWindow", "classcpart__pot.html#ac58fba9279fcde74f2dfb0d67cbf94ef", null ],
     [ "RegisterRemoteControl", "classcpart__pot.html#a1e2cceabb79ed20cd72d20403170aafe", null ],
     [ "Reset", "classcpart__pot.html#a2055411f6f27e9ac3ca34304ca46ade3", null ],
+    [ "SpinChange", "classcpart__pot.html#a15a0ac771927bf98543b0a6af6777cc5", null ],
     [ "WritePreferences", "classcpart__pot.html#a41d2c7e4086f5de8ecbb9d8e62ff9960", null ]
 ];

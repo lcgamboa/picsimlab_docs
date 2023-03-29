@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpart.html" title="PART class." alt="" coords="5,1500,53,1527"/>
+<area shape="rect" id="node1" href="$classpart.html" title="PART class." alt="" coords="5,1525,53,1552"/>
 <area shape="rect" id="node2" href="$classcpart__7s__display.html" title=" " alt="" coords="122,5,253,32"/>
 <area shape="rect" id="node3" href="$classcpart__7s__display__dec.html" title=" " alt="" coords="107,56,268,83"/>
 <area shape="rect" id="node4" href="$classcpart___a_d_x_l345.html" title=" " alt="" coords="127,107,248,133"/>
@@ -44,20 +44,21 @@
 <area shape="rect" id="node43" href="$classcpart__gamepad.html" title=" " alt="" coords="126,2083,249,2109"/>
 <area shape="rect" id="node44" href="$classcpart__gamepad__an.html" title=" " alt="" coords="114,2133,261,2160"/>
 <area shape="rect" id="node45" href="$classcpart__hcsr04.html" title=" " alt="" coords="135,2184,240,2211"/>
-<area shape="rect" id="node46" href="$classcpart__keypad.html" title=" " alt="" coords="133,2235,242,2261"/>
-<area shape="rect" id="node47" href="$classcpart__led__matrix.html" title=" " alt="" coords="121,2285,253,2312"/>
-<area shape="rect" id="node48" href="$classcpart__led__ws2812b.html" title=" " alt="" coords="114,2336,261,2363"/>
-<area shape="rect" id="node49" href="$classcpart__leds.html" title=" " alt="" coords="143,2387,232,2413"/>
-<area shape="rect" id="node50" href="$classcpart__lm35.html" title=" " alt="" coords="140,2437,235,2464"/>
-<area shape="rect" id="node51" href="$classcpart__pbuttons.html" title=" " alt="" coords="128,2488,247,2515"/>
-<area shape="rect" id="node52" href="$classcpart__pbuttons__an.html" title=" " alt="" coords="116,2539,259,2565"/>
-<area shape="rect" id="node53" href="$classcpart__pot.html" title=" " alt="" coords="146,2589,229,2616"/>
-<area shape="rect" id="node54" href="$classcpart__pot__r.html" title=" " alt="" coords="140,2640,235,2667"/>
-<area shape="rect" id="node55" href="$classcpart__rgb__led.html" title=" " alt="" coords="132,2691,243,2717"/>
-<area shape="rect" id="node56" href="$classcpart__servo.html" title="servo motor part class" alt="" coords="138,2741,237,2768"/>
-<area shape="rect" id="node57" href="$classcpart__sht3x.html" title=" " alt="" coords="138,2792,237,2819"/>
-<area shape="rect" id="node58" href="$classcpart__step.html" title="step motor part class" alt="" coords="142,2843,233,2869"/>
-<area shape="rect" id="node59" href="$classcpart__switches.html" title=" " alt="" coords="128,2893,247,2920"/>
-<area shape="rect" id="node60" href="$classcpart__tempsys.html" title=" " alt="" coords="128,2944,247,2971"/>
-<area shape="rect" id="node61" href="$classcpart__vterm.html" title=" " alt="" coords="137,2995,238,3021"/>
+<area shape="rect" id="node46" href="$classcpart__hx711.html" title=" " alt="" coords="136,2235,239,2261"/>
+<area shape="rect" id="node47" href="$classcpart__keypad.html" title=" " alt="" coords="133,2285,242,2312"/>
+<area shape="rect" id="node48" href="$classcpart__led__matrix.html" title=" " alt="" coords="121,2336,253,2363"/>
+<area shape="rect" id="node49" href="$classcpart__led__ws2812b.html" title=" " alt="" coords="114,2387,261,2413"/>
+<area shape="rect" id="node50" href="$classcpart__leds.html" title=" " alt="" coords="143,2437,232,2464"/>
+<area shape="rect" id="node51" href="$classcpart__lm35.html" title=" " alt="" coords="140,2488,235,2515"/>
+<area shape="rect" id="node52" href="$classcpart__pbuttons.html" title=" " alt="" coords="128,2539,247,2565"/>
+<area shape="rect" id="node53" href="$classcpart__pbuttons__an.html" title=" " alt="" coords="116,2589,259,2616"/>
+<area shape="rect" id="node54" href="$classcpart__pot.html" title=" " alt="" coords="146,2640,229,2667"/>
+<area shape="rect" id="node55" href="$classcpart__pot__r.html" title=" " alt="" coords="140,2691,235,2717"/>
+<area shape="rect" id="node56" href="$classcpart__rgb__led.html" title=" " alt="" coords="132,2741,243,2768"/>
+<area shape="rect" id="node57" href="$classcpart__servo.html" title="servo motor part class" alt="" coords="138,2792,237,2819"/>
+<area shape="rect" id="node58" href="$classcpart__sht3x.html" title=" " alt="" coords="138,2843,237,2869"/>
+<area shape="rect" id="node59" href="$classcpart__step.html" title="step motor part class" alt="" coords="142,2893,233,2920"/>
+<area shape="rect" id="node60" href="$classcpart__switches.html" title=" " alt="" coords="128,2944,247,2971"/>
+<area shape="rect" id="node61" href="$classcpart__tempsys.html" title=" " alt="" coords="128,2995,247,3021"/>
+<area shape="rect" id="node62" href="$classcpart__vterm.html" title=" " alt="" coords="137,3045,238,3072"/>
 </map>

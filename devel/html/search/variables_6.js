@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['len_0',['len',['../structavr__gdb__watchpoints__t.html#aaaf95d7af915c7d2da45cee133f5b0b0',1,'avr_gdb_watchpoints_t']]]
+  ['kind_0',['kind',['../structavr__gdb__watchpoints__t.html#a1529419f1cf2111773e85db3bfd4c372',1,'avr_gdb_watchpoints_t']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PICSimLab - Programmable IC Simulator Laboratory: src/picsimlab.h Source File</title>
+<title>PICSimLab - Programmable IC Simulator Laboratory: src/lib/picsimlab.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -89,11 +89,11 @@ $(document).ready(function(){initNavTree('picsimlab_8h_source.html',''); initRes
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* ########################################################################</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICsimLab - PIC laboratory simulator</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICSimLab - Programmable IC Simulator Laboratory</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   ########################################################################</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2022  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2023  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"></span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -125,137 +125,137 @@ $(document).ready(function(){initNavTree('picsimlab_8h_source.html',''); initRes
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define MAX_MIC 140</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &lt;lxrad.h&gt;</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;boards/board.h&quot;</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;boards/boards_defs.h&quot;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;board.h&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">enum</span> { CPU_RUNNING, CPU_STEPPING, CPU_HALTED, CPU_BREAKPOINT, CPU_ERROR, CPU_POWER_OFF };</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">enum</span> { CPU_RUNNING, CPU_STEPPING, CPU_HALTED, CPU_BREAKPOINT, CPU_ERROR, CPU_POWER_OFF };</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html">   45</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_p_i_c_sim_lab.html">CPICSimLab</a> {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_class" href="class_c_p_i_c_sim_lab.html">CPICSimLab</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html">   43</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_p_i_c_sim_lab.html">CPICSimLab</a> {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_class" href="class_c_p_i_c_sim_lab.html">CPICSimLab</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> Init(CWindow* w);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> Init(CWindow* w);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    CWindow* GetWindow(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> Window; };</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    CWindow* GetWindow(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> Window; };</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">   56</a></span>    lxString <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">GetSharePath</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> share; };</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> SetSharePath(lxString spath) { share = spath; };</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    lxString GetLibPath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> libpath; };</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> SetLibPath(lxString lpath) { libpath = lpath; };</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    lxString GetHomePath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> HOME; };</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> SetHomePath(lxString home) { HOME = home; };</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    lxString GetPath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> PATH; };</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> SetPath(lxString path) { PATH = path; };</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    lxString GetFNAME(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> FNAME; };</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">void</span> SetFNAME(lxString fname) { FNAME = fname; };</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    lxString GetOldPath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> OldPath; };</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">void</span> SetOldPath(lxString op) { OldPath = op; };</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    lxString GetProcessorName(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> proc_; };</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> SetProcessorName(lxString pn) { proc_ = pn; };</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> GetNSTEP(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> NSTEP; };</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> SetNSTEP(<span class="keywordtype">long</span> <span class="keywordtype">int</span> ns) { NSTEP = ns; };</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708">   83</a></span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708">GetNSTEPJ</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> NSTEPJ; };</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> SetNSTEPJ(<span class="keywordtype">long</span> <span class="keywordtype">int</span> nsj) { NSTEPJ = nsj; };</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">   89</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">GetJUMPSTEPS</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> JUMPSTEPS; };</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> SetJUMPSTEPS(<span class="keywordtype">int</span> js);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">   95</a></span>    <a class="code hl_class" href="classboard.html">board</a>* <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">GetBoard</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> pboard; };</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> SetBoard(<a class="code hl_class" href="classboard.html">board</a>* b) { pboard = b; };</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> DeleteBoard(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">   54</a></span>    lxString <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">GetSharePath</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> SHARE; };</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> SetSharePath(lxString spath) { SHARE = spath; };</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    lxString GetLibPath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> libpath; };</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> SetLibPath(lxString lpath) { libpath = lpath; };</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    lxString GetHomePath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> HOME; };</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> SetHomePath(lxString home) { HOME = home; };</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    lxString GetPath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> PATH; };</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> SetPath(lxString path) { PATH = path; };</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    lxString GetFNAME(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> FNAME; };</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> SetFNAME(lxString fname) { FNAME = fname; };</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    lxString GetOldPath(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> OldPath; };</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> SetOldPath(lxString op) { OldPath = op; };</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    lxString GetProcessorName(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> proc_; };</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> SetProcessorName(lxString pn) { proc_ = pn; };</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> GetNSTEP(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> NSTEP; };</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> SetNSTEP(<span class="keywordtype">long</span> <span class="keywordtype">int</span> ns) { NSTEP = ns; };</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708">   81</a></span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708">GetNSTEPJ</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> NSTEPJ; };</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> SetNSTEPJ(<span class="keywordtype">long</span> <span class="keywordtype">int</span> nsj) { NSTEPJ = nsj; };</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">   87</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">GetJUMPSTEPS</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> JUMPSTEPS; };</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">void</span> SetJUMPSTEPS(<span class="keywordtype">int</span> js);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">   93</a></span>    <a class="code hl_class" href="classboard.html">board</a>* <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">GetBoard</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> pboard; };</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> SetBoard(<a class="code hl_class" href="classboard.html">board</a>* b) { pboard = b; };</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> DeleteBoard(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    CStatusbar* GetStatusBar(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> statusbar; };</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    CStatusbar* GetStatusBar(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> statusbar; };</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">  104</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcupwr; };</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">  109</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">GetMcuRst</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcurst; };</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">  102</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcupwr; };</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">  107</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">GetMcuRst</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcurst; };</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">int</span> GetMcuDbg(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcudbg; };</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">int</span> GetMcuDbg(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcudbg; };</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">  116</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(<span class="keywordtype">int</span> pp) {</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        mcupwr = pp;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keywordflow">if</span> (mcupwr)</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            SetCpuState(CPU_RUNNING);</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            SetCpuState(CPU_POWER_OFF);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    };</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">  114</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(<span class="keywordtype">int</span> pp) {</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        mcupwr = pp;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordflow">if</span> (mcupwr)</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>            SetCpuState(CPU_RUNNING);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            SetCpuState(CPU_POWER_OFF);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    };</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> SetCpuState(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> cs);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> SetCpuState(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> cs);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">  129</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">SetMcuRst</a>(<span class="keywordtype">int</span> pr) { mcurst = pr; };</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">  127</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">SetMcuRst</a>(<span class="keywordtype">int</span> pr) { mcurst = pr; };</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">char</span> GetCpuState(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> cpustate; };</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">char</span> GetCpuState(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> cpustate; };</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">void</span> Set_mcudbg(<span class="keywordtype">int</span> pd);</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">void</span> Set_mcudbg(<span class="keywordtype">int</span> pd);</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordtype">void</span> SetMcuRun(<span class="keywordtype">int</span> mr) { mcurun = mr; };</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">int</span> GetMcuRun(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcurst; };</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2">  141</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2">GetDebugPort</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> debug_port + Instance; };</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1">SetDebugPort</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> dp);</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ad262682a91e4d0f43315aa092155bc92">  151</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ad262682a91e4d0f43315aa092155bc92">GetRemotecPort</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> remotec_port + Instance; };</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3a649402f0a23e6a7a94c3fc6997761b">SetRemotecPort</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> rcp);</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2">  161</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2">GetInstanceNumber</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> Instance; };</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ae1d4460bfdffda43e2c15fadb1f7abdd">  166</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ae1d4460bfdffda43e2c15fadb1f7abdd">GetDebugType</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> debug_type; };</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22">  171</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22">SetDebugType</a>(<span class="keywordtype">int</span> dt) { debug_type = dt; };</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa601868c047707b0d1037fe87250f5f4">GetDebugStatus</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230">SetDebugStatus</a>(<span class="keywordtype">int</span> dbs, <span class="keywordtype">int</span> updatebtn = 1);</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="keywordtype">void</span> SetClock(<span class="keyword">const</span> <span class="keywordtype">float</span> clk, <span class="keyword">const</span> <span class="keywordtype">int</span> update = 1);</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="keywordtype">float</span> GetClock(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">void</span> SetMcuRun(<span class="keywordtype">int</span> mr) { mcurun = mr; };</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <span class="keywordtype">int</span> GetMcuRun(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> mcurst; };</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2">  139</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2">GetDebugPort</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> debug_port + Instance; };</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1">SetDebugPort</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> dp);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ad262682a91e4d0f43315aa092155bc92">  149</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ad262682a91e4d0f43315aa092155bc92">GetRemotecPort</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> remotec_port + Instance; };</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a3a649402f0a23e6a7a94c3fc6997761b">SetRemotecPort</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> rcp);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2">  159</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2">GetInstanceNumber</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> Instance; };</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#ae1d4460bfdffda43e2c15fadb1f7abdd">  164</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ae1d4460bfdffda43e2c15fadb1f7abdd">GetDebugType</a>(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> debug_type; };</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22">  169</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22">SetDebugType</a>(<span class="keywordtype">int</span> dt) { debug_type = dt; };</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa601868c047707b0d1037fe87250f5f4">GetDebugStatus</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230">SetDebugStatus</a>(<span class="keywordtype">int</span> dbs, <span class="keywordtype">int</span> updatebtn = 1);</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> SetClock(<span class="keyword">const</span> <span class="keywordtype">float</span> clk, <span class="keyword">const</span> <span class="keywordtype">int</span> update = 1);</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">float</span> GetClock(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="keywordtype">int</span> GetNeedClkUpdate(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> need_clkupdate; };</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="keywordtype">int</span> GetNeedClkUpdate(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> need_clkupdate; };</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">SavePrefs</a>(lxString name, lxString value);</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">void</span> PrefsClear(<span class="keywordtype">void</span>) { prefs.Clear(); };</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="keywordtype">int</span> PrefsSaveToFile(lxString fname) { <span class="keywordflow">return</span> prefs.SaveToFile(fname); };</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <span class="keywordtype">int</span> PrefsLoadFromFile(lxString fname) { <span class="keywordflow">return</span> prefs.LoadFromFile(fname); };</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> PrefsGetLinesCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> prefs.GetLinesCount(); };</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    lxString PrefsGetLine(<span class="keywordtype">int</span> ln) { <span class="keywordflow">return</span> prefs.GetLine(ln); };</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">SavePrefs</a>(lxString name, lxString value);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keywordtype">void</span> PrefsClear(<span class="keywordtype">void</span>) { prefs.Clear(); };</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    <span class="keywordtype">int</span> PrefsSaveToFile(lxString fname) { <span class="keywordflow">return</span> prefs.SaveToFile(fname); };</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">int</span> PrefsLoadFromFile(lxString fname) { <span class="keywordflow">return</span> prefs.LoadFromFile(fname); };</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> PrefsGetLinesCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> prefs.GetLinesCount(); };</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    lxString PrefsGetLine(<span class="keywordtype">int</span> ln) { <span class="keywordflow">return</span> prefs.GetLine(ln); };</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="keywordtype">void</span> OpenLoadHexFileDialog(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="keywordtype">void</span> OpenLoadHexFileDialog(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="keywordtype">void</span> SetNeedReboot(<span class="keywordtype">int</span> nr = 1);</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keywordtype">int</span> GetNeedReboot(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> NeedReboot; };</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keywordtype">void</span> RegisterError(<span class="keyword">const</span> lxString error);</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keywordtype">int</span> GetErrorCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> Errors.GetLinesCount(); };</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="keywordtype">void</span> SetNeedReboot(<span class="keywordtype">int</span> nr = 1);</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="keywordtype">int</span> GetNeedReboot(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> NeedReboot; };</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keywordtype">void</span> RegisterError(<span class="keyword">const</span> lxString error);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    <span class="keywordtype">int</span> GetErrorCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> Errors.GetLinesCount(); };</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    lxString GetError(<span class="keywordtype">int</span> en) { <span class="keywordflow">return</span> Errors.GetLine(en); };</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    lxString GetError(<span class="keywordtype">int</span> en) { <span class="keywordflow">return</span> Errors.GetLine(en); };</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordtype">void</span> DeleteError(<span class="keywordtype">int</span> en) { Errors.DelLine(en); };</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keywordtype">void</span> DeleteError(<span class="keywordtype">int</span> en) { Errors.DelLine(en); };</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keywordtype">void</span> EndSimulation(<span class="keywordtype">int</span> saveold = 0, <span class="keyword">const</span> <span class="keywordtype">char</span>* newpath = NULL);</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <span class="keywordtype">void</span> EndSimulation(<span class="keywordtype">int</span> saveold = 0, <span class="keyword">const</span> <span class="keywordtype">char</span>* newpath = NULL);</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <span class="keywordtype">void</span> SetWorkspaceFileName(<span class="keyword">const</span> lxString fname) { Workspacefn = fname; };</div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    <span class="keywordtype">void</span> SetWorkspaceFileName(<span class="keyword">const</span> lxString fname) { Workspacefn = fname; };</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordtype">void</span> SetLabs(<span class="keyword">const</span> <span class="keywordtype">int</span> lb, <span class="keyword">const</span> <span class="keywordtype">int</span> lb_) {</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        lab = lb;</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        lab_ = lb_;</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    };</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keywordtype">int</span> GetLab(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> lab; };</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keywordtype">int</span> GetLab_(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> lab_; };</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    <span class="keywordtype">void</span> SetLabs(<span class="keyword">const</span> <span class="keywordtype">int</span> lb, <span class="keyword">const</span> <span class="keywordtype">int</span> lb_) {</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        lab = lb;</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>        lab_ = lb_;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    };</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="keywordtype">int</span> GetLab(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> lab; };</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="keywordtype">int</span> GetLab_(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> lab_; };</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keywordtype">int</span> LoadHexFile(lxString fname);</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordtype">void</span> LoadWorkspace(lxString fnpzw);</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordtype">void</span> LoadWorkspace(lxString fnpzw, <span class="keyword">const</span> <span class="keywordtype">int</span> show_readme = 1);</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <span class="keywordtype">void</span> SaveWorkspace(lxString fnpzw);</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <span class="keywordtype">void</span> SetSimulationRun(<span class="keywordtype">int</span> run);</div>
@@ -267,126 +267,137 @@ $(document).ready(function(){initNavTree('picsimlab_8h_source.html',''); initRes
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keywordtype">int</span> GetNeedResize(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> need_resize; };</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keywordtype">void</span> SetNeedResize(<span class="keywordtype">int</span> nr) { need_resize = nr; };</div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="keywordtype">void</span> Configure(<span class="keyword">const</span> <span class="keywordtype">char</span>* home, <span class="keywordtype">int</span> use_default_board = 0, <span class="keywordtype">int</span> create = 0, <span class="keyword">const</span> <span class="keywordtype">char</span>* lfile = NULL);</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    <span class="keywordtype">void</span> SetplWidth(<span class="keywordtype">int</span> pw) { plWidth = pw; };</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <span class="keywordtype">void</span> SetplHeight(<span class="keywordtype">int</span> ph) { plHeight = ph; };</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    <span class="keywordtype">double</span> GetIdleMs(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    <span class="keywordtype">void</span> SetIdleMs(<span class="keywordtype">double</span> im);</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="preprocessor">#ifndef _NOTHREAD</span></div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    lxCondition* cpu_cond;</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    lxMutex* cpu_mutex;</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <span class="keyword">union </span>{</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>        <span class="keywordtype">char</span> st[2];</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> status;</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    } status;</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keywordtype">int</span> tgo;</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    <span class="keywordtype">int</span> osc_on;</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    <span class="keywordtype">int</span> spare_on;</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    <span class="keywordtype">int</span> plWidth;</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <span class="keywordtype">int</span> plHeight;</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    CItemMenu MBoard[BOARDS_MAX];</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    CItemMenu MMicro[MAX_MIC];</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="keywordtype">void</span> Configure(<span class="keyword">const</span> <span class="keywordtype">char</span>* home, <span class="keywordtype">int</span> use_default_board = 0, <span class="keywordtype">int</span> create = 0, <span class="keyword">const</span> <span class="keywordtype">char</span>* lfile = NULL,</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>                   <span class="keyword">const</span> <span class="keywordtype">int</span> disable_debug = 0);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    <span class="keywordtype">void</span> SetplWidth(<span class="keywordtype">int</span> pw) { plWidth = pw; };</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keywordtype">void</span> SetplHeight(<span class="keywordtype">int</span> ph) { plHeight = ph; };</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    <span class="keywordtype">double</span> GetIdleMs(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="keywordtype">void</span> SetIdleMs(<span class="keywordtype">double</span> im);</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keywordtype">int</span> GetUseDSRReset(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> use_dsr_reset; };</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    <span class="keywordtype">void</span> SetUseDSRReset(<span class="keywordtype">int</span> udsr) { use_dsr_reset = udsr; };</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <span class="keywordtype">void</span> SetToDestroy(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    <span class="keywordtype">int</span> GetToDestroy(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> settodestroy; };</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="keywordtype">void</span> SetSync(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> s) { sync = s; };</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetSync(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> sync; };</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#ifndef _NOTHREAD</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    lxCondition* cpu_cond;</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    lxMutex* cpu_mutex;</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <span class="keyword">union </span>{</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <span class="keywordtype">char</span> st[2];</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> status;</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    } status;</div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    void (CControl::*menu_EvBoard)(CControl* control);</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    void (CControl::*menu_EvMicrocontroller)(CControl* control);</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    void (CControl::*board_Event)(CControl* control);</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    void (CControl::*board_ButtonEvent)(CControl* control, <span class="keyword">const</span> uint button, <span class="keyword">const</span> uint x, <span class="keyword">const</span> uint y,</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                                        <span class="keyword">const</span> uint mask);</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="keywordtype">int</span> tgo;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <span class="keywordtype">int</span> plWidth;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    <span class="keywordtype">int</span> plHeight;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <span class="keywordtype">int</span> use_dsr_reset;</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="keywordtype">void</span> StartRControl(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    CWindow* Window;</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <a class="code hl_class" href="classboard.html">board</a>* pboard;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    CStatusbar* statusbar;</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <span class="keywordtype">int</span> lab;</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="keywordtype">int</span> lab_;</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    lxString share;</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    lxString libpath;</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> NSTEP;</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> NSTEPJ;</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keywordtype">int</span> JUMPSTEPS;</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="keywordtype">int</span> mcurun;</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    <span class="keywordtype">int</span> mcupwr;</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="keywordtype">int</span> mcurst;</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keywordtype">int</span> mcudbg;</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="keywordtype">char</span> cpustate;</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> debug_port;</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> remotec_port;</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    lxString HOME;</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    lxString PATH;</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    lxString FNAME;</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    lxString OldPath;</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    lxString proc_;</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    lxString pzw_ver;</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="keywordtype">int</span> Instance;</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    <span class="keywordtype">int</span> debug_type;</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    <span class="keywordtype">int</span> debug;</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    <span class="keywordtype">int</span> need_resize;</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    <span class="keywordtype">int</span> need_clkupdate;</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    lxStringList prefs;</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    <span class="keywordtype">int</span> NeedReboot;</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    lxStringList Errors;</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    lxString Workspacefn;</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <span class="keywordtype">double</span> scale;</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="keywordtype">double</span> idle_ms;</div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>};</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="keyword">extern</span> <a class="code hl_class" href="class_c_p_i_c_sim_lab.html">CPICSimLab</a> PICSimLab;</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="preprocessor">#ifdef _WIN_</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#define msleep(x) Sleep(x)</span></div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="comment">// extern void usleep(unsigned int usec);</span></div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="preprocessor">#define msleep(x) usleep(x * 1000)</span></div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span><span class="preprocessor">#define ST_T1 0x01</span></div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span><span class="preprocessor">#define ST_T2 0x02</span></div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span><span class="preprocessor">#define ST_TH 0x04</span></div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><span class="preprocessor">#define ST_DI 0x80  </span><span class="comment">// DISABLE</span></div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span> </div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="preprocessor">#ifdef _WIN_</span></div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="preprocessor">#define NULLFILE &quot;\\\\.\\NUL&quot;</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    CItemMenu MBoard[BOARDS_MAX];</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    CItemMenu MMicro[MAX_MIC];</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    void (CControl::*menu_EvBoard)(CControl* control);</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    void (CControl::*menu_EvMicrocontroller)(CControl* control);</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    void (CControl::*board_Event)(CControl* control);</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    void (CControl::*board_ButtonEvent)(CControl* control, <span class="keyword">const</span> uint button, <span class="keyword">const</span> uint x, <span class="keyword">const</span> uint y,</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>                                        <span class="keyword">const</span> uint mask);</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    <span class="keywordtype">void</span> StartRControl(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    CWindow* Window;</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <a class="code hl_class" href="classboard.html">board</a>* pboard;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    CStatusbar* statusbar;</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="keywordtype">int</span> lab;</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keywordtype">int</span> lab_;</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    lxString SHARE;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    lxString libpath;</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> NSTEP;</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    <span class="keywordtype">long</span> <span class="keywordtype">int</span> NSTEPJ;</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    <span class="keywordtype">int</span> JUMPSTEPS;</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <span class="keywordtype">int</span> mcurun;</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    <span class="keywordtype">int</span> mcupwr;</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="keywordtype">int</span> mcurst;</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <span class="keywordtype">int</span> mcudbg;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="keywordtype">char</span> cpustate;</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> debug_port;</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> remotec_port;</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    lxString HOME;</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    lxString PATH;</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    lxString FNAME;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    lxString OldPath;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    lxString proc_;</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    lxString pzw_ver;</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <span class="keywordtype">int</span> Instance;</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="keywordtype">int</span> debug_type;</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    <span class="keywordtype">int</span> debug;</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    <span class="keywordtype">int</span> need_resize;</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>    <span class="keywordtype">int</span> need_clkupdate;</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    lxStringList prefs;</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>    <span class="keywordtype">int</span> NeedReboot;</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    lxStringList Errors;</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>    lxString Workspacefn;</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    <span class="keywordtype">double</span> scale;</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <span class="keywordtype">double</span> idle_ms;</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <span class="keywordtype">int</span> settodestroy;</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sync;</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>};</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span><span class="keyword">extern</span> <a class="code hl_class" href="class_c_p_i_c_sim_lab.html">CPICSimLab</a> PICSimLab;</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><span class="preprocessor">#ifdef _WIN_</span></div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span><span class="preprocessor">#define msleep(x) Sleep(x)</span></div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="comment">// extern void usleep(unsigned int usec);</span></div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="preprocessor">#define NULLFILE &quot;/dev/null&quot;</span></div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="preprocessor">#define msleep(x) usleep(x * 1000)</span></div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="preprocessor">#endif  </span><span class="comment">// PICSIMLAB</span></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html">CPICSimLab</a></div><div class="ttdef"><b>Definition:</b> picsimlab.h:45</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a077c76d5582e27431d8dceda7ff08d2f"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">CPICSimLab::SetMcuRst</a></div><div class="ttdeci">void SetMcuRst(int pr)</div><div class="ttdoc">Set mcu rst flag (inform simulator about mcu reset state)</div><div class="ttdef"><b>Definition:</b> picsimlab.h:129</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a108bb3e8dc99a955b2a7b98f76fedf69"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">CPICSimLab::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:56</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a17031743eb40a15b9ed14272f6187f18"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">CPICSimLab::GetMcuRst</a></div><div class="ttdeci">int GetMcuRst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:109</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a2862a30e779f2086163beaebc6b47708"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708">CPICSimLab::GetNSTEPJ</a></div><div class="ttdeci">long int GetNSTEPJ(void)</div><div class="ttdoc">Get the number of steps in 100ms of simulation.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:83</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a3a649402f0a23e6a7a94c3fc6997761b"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a3a649402f0a23e6a7a94c3fc6997761b">CPICSimLab::SetRemotecPort</a></div><div class="ttdeci">void SetRemotecPort(unsigned short rcp)</div><div class="ttdoc">Set remote control TCP port.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:210</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a9c6f3626c3818890de8b8d8f758cdca6"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">CPICSimLab::SetMcuPwr</a></div><div class="ttdeci">void SetMcuPwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:116</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa183ae2a8ecfbc63a5202277886427f1"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1">CPICSimLab::SetDebugPort</a></div><div class="ttdeci">void SetDebugPort(unsigned short dp)</div><div class="ttdoc">Set debug TCP port.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:201</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa34fc994a2b560032d8fbcfdea16a8c6"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">CPICSimLab::SavePrefs</a></div><div class="ttdeci">void SavePrefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:255</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa601868c047707b0d1037fe87250f5f4"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa601868c047707b0d1037fe87250f5f4">CPICSimLab::GetDebugStatus</a></div><div class="ttdeci">int GetDebugStatus(void)</div><div class="ttdoc">Get debug status (On/Off)</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:218</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa9bbdbcb4a5fe56e318b1d1b97a88230"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230">CPICSimLab::SetDebugStatus</a></div><div class="ttdeci">void SetDebugStatus(int dbs, int updatebtn=1)</div><div class="ttdoc">Set debug status flag.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:222</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_abe7b589c0de06036c5b167e815af9498"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">CPICSimLab::GetMcuPwr</a></div><div class="ttdeci">int GetMcuPwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:104</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ad262682a91e4d0f43315aa092155bc92"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ad262682a91e4d0f43315aa092155bc92">CPICSimLab::GetRemotecPort</a></div><div class="ttdeci">unsigned short GetRemotecPort(void)</div><div class="ttdoc">Return the selected remote control port.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:151</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ada51ff594faa121ffc228c29362ef2b2"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2">CPICSimLab::GetInstanceNumber</a></div><div class="ttdeci">int GetInstanceNumber(void)</div><div class="ttdoc">Return the program instance number.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:161</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ae1d4460bfdffda43e2c15fadb1f7abdd"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ae1d4460bfdffda43e2c15fadb1f7abdd">CPICSimLab::GetDebugType</a></div><div class="ttdeci">int GetDebugType(void)</div><div class="ttdoc">Return the selected debugger type.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:166</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ae7593e716065463586ba688d1d39d3c4"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">CPICSimLab::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:89</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aeae1956b61d48261081fc1b2bf339017"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">CPICSimLab::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:95</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aeeaf92193396b7ed84ef4cfe6166cfe2"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2">CPICSimLab::GetDebugPort</a></div><div class="ttdeci">unsigned short GetDebugPort(void)</div><div class="ttdoc">Return the selected debugger port.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:141</div></div>
-<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_af1b9e31473f78b6ad3dcabd66821cd22"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22">CPICSimLab::SetDebugType</a></div><div class="ttdeci">void SetDebugType(int dt)</div><div class="ttdoc">Set debug type (MDB or GDB)</div><div class="ttdef"><b>Definition:</b> picsimlab.h:171</div></div>
-<div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition:</b> board.h:107</div></div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="preprocessor">#define ST_T1 0x01</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span><span class="preprocessor">#define ST_T2 0x02</span></div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="preprocessor">#define ST_TH 0x04</span></div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="preprocessor">#define ST_DI 0x80  </span><span class="comment">// DISABLE</span></div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span> </div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="preprocessor">#ifdef _WIN_</span></div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="preprocessor">#define NULLFILE &quot;\\\\.\\NUL&quot;</span></div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="preprocessor">#define NULLFILE &quot;/dev/null&quot;</span></div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span> </div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="preprocessor">#endif  </span><span class="comment">// PICSIMLAB</span></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html">CPICSimLab</a></div><div class="ttdef"><b>Definition:</b> picsimlab.h:43</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a077c76d5582e27431d8dceda7ff08d2f"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">CPICSimLab::SetMcuRst</a></div><div class="ttdeci">void SetMcuRst(int pr)</div><div class="ttdoc">Set mcu rst flag (inform simulator about mcu reset state)</div><div class="ttdef"><b>Definition:</b> picsimlab.h:127</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a108bb3e8dc99a955b2a7b98f76fedf69"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69">CPICSimLab::GetSharePath</a></div><div class="ttdeci">lxString GetSharePath(void)</div><div class="ttdoc">Get the file path of resources.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:54</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a17031743eb40a15b9ed14272f6187f18"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18">CPICSimLab::GetMcuRst</a></div><div class="ttdeci">int GetMcuRst(void)</div><div class="ttdoc">Retunr if microcontroller reset pin is enabled.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:107</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a2862a30e779f2086163beaebc6b47708"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708">CPICSimLab::GetNSTEPJ</a></div><div class="ttdeci">long int GetNSTEPJ(void)</div><div class="ttdoc">Get the number of steps in 100ms of simulation.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:81</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a3a649402f0a23e6a7a94c3fc6997761b"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a3a649402f0a23e6a7a94c3fc6997761b">CPICSimLab::SetRemotecPort</a></div><div class="ttdeci">void SetRemotecPort(unsigned short rcp)</div><div class="ttdoc">Set remote control TCP port.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:217</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_a9c6f3626c3818890de8b8d8f758cdca6"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">CPICSimLab::SetMcuPwr</a></div><div class="ttdeci">void SetMcuPwr(int pp)</div><div class="ttdoc">Set the power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:114</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa183ae2a8ecfbc63a5202277886427f1"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1">CPICSimLab::SetDebugPort</a></div><div class="ttdeci">void SetDebugPort(unsigned short dp)</div><div class="ttdoc">Set debug TCP port.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:208</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa34fc994a2b560032d8fbcfdea16a8c6"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6">CPICSimLab::SavePrefs</a></div><div class="ttdeci">void SavePrefs(lxString name, lxString value)</div><div class="ttdoc">Save the preferences.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:263</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa601868c047707b0d1037fe87250f5f4"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa601868c047707b0d1037fe87250f5f4">CPICSimLab::GetDebugStatus</a></div><div class="ttdeci">int GetDebugStatus(void)</div><div class="ttdoc">Get debug status (On/Off)</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:225</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aa9bbdbcb4a5fe56e318b1d1b97a88230"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230">CPICSimLab::SetDebugStatus</a></div><div class="ttdeci">void SetDebugStatus(int dbs, int updatebtn=1)</div><div class="ttdoc">Set debug status flag.</div><div class="ttdef"><b>Definition:</b> picsimlab.cc:229</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_abe7b589c0de06036c5b167e815af9498"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">CPICSimLab::GetMcuPwr</a></div><div class="ttdeci">int GetMcuPwr(void)</div><div class="ttdoc">Return actual power status of microcontroller ON/OFF.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:102</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ad262682a91e4d0f43315aa092155bc92"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ad262682a91e4d0f43315aa092155bc92">CPICSimLab::GetRemotecPort</a></div><div class="ttdeci">unsigned short GetRemotecPort(void)</div><div class="ttdoc">Return the selected remote control port.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:149</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ada51ff594faa121ffc228c29362ef2b2"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ada51ff594faa121ffc228c29362ef2b2">CPICSimLab::GetInstanceNumber</a></div><div class="ttdeci">int GetInstanceNumber(void)</div><div class="ttdoc">Return the program instance number.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:159</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ae1d4460bfdffda43e2c15fadb1f7abdd"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ae1d4460bfdffda43e2c15fadb1f7abdd">CPICSimLab::GetDebugType</a></div><div class="ttdeci">int GetDebugType(void)</div><div class="ttdoc">Return the selected debugger type.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:164</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_ae7593e716065463586ba688d1d39d3c4"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">CPICSimLab::GetJUMPSTEPS</a></div><div class="ttdeci">int GetJUMPSTEPS(void)</div><div class="ttdoc">Get the number of steps to be skipped in board update.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:87</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aeae1956b61d48261081fc1b2bf339017"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017">CPICSimLab::GetBoard</a></div><div class="ttdeci">board * GetBoard(void)</div><div class="ttdoc">Return a pointer to board object.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:93</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_aeeaf92193396b7ed84ef4cfe6166cfe2"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2">CPICSimLab::GetDebugPort</a></div><div class="ttdeci">unsigned short GetDebugPort(void)</div><div class="ttdoc">Return the selected debugger port.</div><div class="ttdef"><b>Definition:</b> picsimlab.h:139</div></div>
+<div class="ttc" id="aclass_c_p_i_c_sim_lab_html_af1b9e31473f78b6ad3dcabd66821cd22"><div class="ttname"><a href="class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22">CPICSimLab::SetDebugType</a></div><div class="ttdeci">void SetDebugType(int dt)</div><div class="ttdoc">Set debug type (MDB or GDB)</div><div class="ttdef"><b>Definition:</b> picsimlab.h:169</div></div>
+<div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition:</b> board.h:103</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><b>picsimlab.h</b></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><b>picsimlab.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>

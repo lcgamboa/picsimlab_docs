@@ -6,6 +6,7 @@ var classcboard___mc_lab1 =
     [ "EvMouseButtonPress", "classcboard___mc_lab1.html#a48a6daa2952edecf0ce352424d822a86", null ],
     [ "EvMouseButtonRelease", "classcboard___mc_lab1.html#a0b1aa070d6ba2ccf87a1c210f922f855", null ],
     [ "GetAboutInfo", "classcboard___mc_lab1.html#a85ef40841aca1ead88916f8876621538", null ],
+    [ "GetDefaultClock", "classcboard___mc_lab1.html#afda2087bbef045dba21475851f5d6ebb", null ],
     [ "GetInputId", "classcboard___mc_lab1.html#ae22cd0c4c179f99192d11689fae8b773", null ],
     [ "GetName", "classcboard___mc_lab1.html#a036d9efb6df49de94482a8197669236e", null ],
     [ "GetOutputId", "classcboard___mc_lab1.html#a2afcec563e3ecaeeaa5ec36e8e0ef110", null ],

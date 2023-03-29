@@ -1,7 +1,4 @@
 <map id="cpart_switches::ConfigurePropertiesWindow" name="cpart_switches::ConfigurePropertiesWindow">
-<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,49,196,90"/>
-<area shape="rect" id="node2" href="$classpart.html#ad99e90d6389a2cbbca423ec7e9371f49" title="Event handler on the part." alt="" coords="244,5,455,32"/>
-<area shape="rect" id="node3" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="255,56,444,83"/>
-<area shape="rect" id="node4" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="248,107,451,133"/>
-<area shape="rect" id="node5" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="503,107,663,133"/>
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$classcpart__switches.html#a980e177546012c73d21732bb2570b0cc" title="Used by properties window spin." alt="" coords="244,13,448,39"/>
 </map>

@@ -1,0 +1,8 @@
+<map id="sen_hx711_t" name="sen_hx711_t">
+<area shape="rect" id="node1" title=" " alt="" coords="83,288,187,315"/>
+<area shape="rect" id="node2" href="$structbitbang__spi__t.html" title=" " alt="" coords="187,199,296,225"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
+<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
+</map>

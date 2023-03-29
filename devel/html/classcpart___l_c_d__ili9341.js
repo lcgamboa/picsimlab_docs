@@ -1,6 +1,6 @@
 var classcpart___l_c_d__ili9341 =
 [
-    [ "ComboChange", "classcpart___l_c_d__ili9341.html#a0133f2692b14790db43c121dd0d7269d", null ],
+    [ "ComboChange", "classcpart___l_c_d__ili9341.html#ad6700eface803207b7a4ded8840d138d", null ],
     [ "ConfigurePropertiesWindow", "classcpart___l_c_d__ili9341.html#ab0e03b88542ce94ebda88d39af903ad2", null ],
     [ "DrawOutput", "classcpart___l_c_d__ili9341.html#a4d876b36d2bca251a08793f96db8603a", null ],
     [ "GetAboutInfo", "classcpart___l_c_d__ili9341.html#a8ea83636ab43983e6dd0eaebe1d03bd7", null ],

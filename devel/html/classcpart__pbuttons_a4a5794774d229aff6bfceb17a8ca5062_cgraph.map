@@ -1,0 +1,7 @@
+<map id="cpart_pbuttons::LoadImage" name="cpart_pbuttons::LoadImage">
+<area shape="rect" id="node1" title="Load Part Image." alt="" coords="5,31,204,57"/>
+<area shape="rect" id="node2" href="$classpart.html#acb4a5752560f9b0c399e7e8b2807bea3" title="Return the filename of part picture." alt="" coords="434,5,619,32"/>
+<area shape="rect" id="node4" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="428,68,625,95"/>
+<area shape="rect" id="node5" href="$classpart.html#a564a0462822da413d466a83d28e967df" title="Load Part Image." alt="" coords="252,31,380,57"/>
+<area shape="rect" id="node3" href="$classpart.html#a11157be17bfa9fd951a1fe1343a79195" title="Return the name of part." alt="" coords="673,5,792,32"/>
+</map>

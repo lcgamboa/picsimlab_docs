@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -89,11 +89,11 @@ $(document).ready(function(){initNavTree('eth__w5500_8h_source.html',''); initRe
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* ########################################################################</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICsimLab - PIC laboratory simulator</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICSimLab - Programmable IC Simulator Laboratory</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   ########################################################################</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2020  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2023  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"></span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -122,27 +122,27 @@ $(document).ready(function(){initNavTree('eth__w5500_8h_source.html',''); initRe
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define B_SCK0RG 0x01  </span><span class="comment">// 00001 Selects Socket 0 Register</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define B_SCK0TX 0x02  </span><span class="comment">// 00010 Selects Socket 0 TX Buffer</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define B_SCK0RX 0x03  </span><span class="comment">// 00011 Selects Socket 0 RX Buffer</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">//#define B_RESERV 0x04 //00100 Reserved</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// #define B_RESERV 0x04 //00100 Reserved</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define B_SCK1RG 0x05  </span><span class="comment">// 00101 Selects Socket 1 Register</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define B_SCK1TX 0x06  </span><span class="comment">// 00110 Selects Socket 1 TX Buffer</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define B_SCK1RX 0x07  </span><span class="comment">// 00111 Selects Socket 1 RX Buffer</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">//#define B_RESERV 0x08 //01000 Reserved</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// #define B_RESERV 0x08 //01000 Reserved</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define B_SCK2RG 0x09  </span><span class="comment">// 01001 Selects Socket 2 Register</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define B_SCK2TX 0x0A  </span><span class="comment">// 01010 Selects Socket 2 TX Buffer</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define B_SCK2RX 0x0B  </span><span class="comment">// 01011 Selects Socket 2 RX Buffer</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">//#define B_RESERV 0x0C //01100 Reserved</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">// #define B_RESERV 0x0C //01100 Reserved</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define B_SCK3RG 0x0D  </span><span class="comment">// 01101 Selects Socket 3 Register</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define B_SCK3TX 0x0E  </span><span class="comment">// 01110 Selects Socket 3 TX Buffer</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define B_SCK3RX 0x0F  </span><span class="comment">// 01111 Selects Socket 3 RX Buffer</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">//#define B_RESERV 0x10 //10000 Reserved</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">// #define B_RESERV 0x10 //10000 Reserved</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#define B_SCK4RG 0x11  </span><span class="comment">// 10001 Selects Socket 4 Register</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define B_SCK4TX 0x12  </span><span class="comment">// 10010 Selects Socket 4 TX Buffer</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define B_SCK4RX 0x13  </span><span class="comment">// 10011 Selects Socket 4 RX Buffer</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">//#define B_RESERV 0x14 //10100 Reserved</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">// #define B_RESERV 0x14 //10100 Reserved</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define B_SCK5RG 0x15  </span><span class="comment">// 10101 Selects Socket 5 Register</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define B_SCK5TX 0x16  </span><span class="comment">// 10110 Selects Socket 5 TX Buffer</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define B_SCK5RX 0x17  </span><span class="comment">// 10111 Selects Socket 5 RX Buffer</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">//#define B_RESERV 0x18 //11000 Reserved</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">// #define B_RESERV 0x18 //11000 Reserved</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define B_SCK6RG 0x19  </span><span class="comment">// 11001 Selects Socket 6 Register</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define B_SCK6TX 0x1A  </span><span class="comment">// 11010 Selects Socket 6 TX Buffer</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define B_SCK6RX 0x1B  </span><span class="comment">// 11011 Selects Socket 6 RX Buffer</span></div>

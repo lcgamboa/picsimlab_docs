@@ -1,8 +1,4 @@
 <map id="cpart_pbuttons::ConfigurePropertiesWindow" name="cpart_pbuttons::ConfigurePropertiesWindow">
-<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,64,196,105"/>
-<area shape="rect" id="node2" href="$classcpart__pbuttons.html#ac29b849bd1d429a6602f78a84c18a82a" title="Event handler on the part." alt="" coords="244,5,473,47"/>
-<area shape="rect" id="node4" href="$class_c_p_window5.html#a6f859826910014d1bc32d94d2130bbb9" title="Return the name of one pin." alt="" coords="264,71,453,98"/>
-<area shape="rect" id="node5" href="$class_c_p_window5.html#ab012f0ddc5fed1566f4b7ab53eb62be4" title="Return the name of all pins." alt="" coords="257,122,460,149"/>
-<area shape="rect" id="node3" href="$classpart.html#a99de50507d46d85ece50269de14e5992" title="Return if point x,y is inside of part." alt="" coords="537,13,665,39"/>
-<area shape="rect" id="node6" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="521,122,681,149"/>
+<area shape="rect" id="node1" title="Called to configure the properties window." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$classcpart__pbuttons.html#a2b7e3a0330b217b7a7925ea355617dbd" title="Used by properties window spin." alt="" coords="244,13,448,39"/>
 </map>

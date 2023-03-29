@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::GetDefaultClock" name="cboard_Breadboard::GetDefaultClock">
+<area shape="rect" id="node1" title="Get board default clock in MHz." alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#a2685c12ffdc56d4d30a5aabc3e3b3c77" title="Get board default clock in MHz." alt="" coords="211,5,429,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406" title="Get board default clock in MHz." alt="" coords="209,56,431,83"/>
+</map>

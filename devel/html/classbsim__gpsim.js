@@ -4,6 +4,7 @@ var classbsim__gpsim =
     [ "DebugInit", "classbsim__gpsim.html#abdabf9014d9dddf82ddfd89687393a45", null ],
     [ "DebugLoop", "classbsim__gpsim.html#ad6d0e59e9442670f5ff0a900d10fed17", null ],
     [ "GetDebugName", "classbsim__gpsim.html#ac982816756847862c46d684cde63f296", null ],
+    [ "GetDefaultClock", "classbsim__gpsim.html#aab9394119e37ee162d953ba01ba1ab9f", null ],
     [ "MDumpMemory", "classbsim__gpsim.html#a4fa44d5de6071c97579fc3ac2a321407", null ],
     [ "MEnd", "classbsim__gpsim.html#abc329bdb05dd2b05d548c8ee2d58ba3d", null ],
     [ "MEraseFlash", "classbsim__gpsim.html#af9e640f39136ab22ecf2cf75c5ccf751", null ],

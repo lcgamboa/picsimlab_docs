@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="picsimlab.png"/></td>
   <td id="projectalign">
-   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.8.12</span>
+   <div id="projectname">PICSimLab - Programmable IC Simulator Laboratory<span id="projectnumber">&#160;0.9.0</span>
    </div>
    <div id="projectbrief">PICSimLab - API</div>
   </td>
@@ -89,11 +89,11 @@ $(document).ready(function(){initNavTree('output__step_8h_source.html',''); init
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* ########################################################################</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICsimLab - PIC laboratory simulator</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   PICSimLab - Programmable IC Simulator Laboratory</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   ########################################################################</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2022  Luis Claudio Gambôa Lopes</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2023  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"></span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('output__step_8h_source.html',''); init
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define PART_STEP_H</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &lt;lxrad.h&gt;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;part.h&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;../lib/part.h&quot;</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define PART_STEP_Name &quot;Step Motor&quot;</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('output__step_8h_source.html',''); init
 <div class="ttc" id="aclasscpart__step_html_a91a0941165fa7531f44c7b74321533f3"><div class="ttname"><a href="classcpart__step.html#a91a0941165fa7531f44c7b74321533f3">cpart_step::~cpart_step</a></div><div class="ttdeci">~cpart_step(void)</div><div class="ttdoc">destructor called once on part destruction</div><div class="ttdef"><b>Definition:</b> output_step.cc:61</div></div>
 <div class="ttc" id="aclasscpart__step_html_aae902fc383b486ab1b9d40b83aea65a3"><div class="ttname"><a href="classcpart__step.html#aae902fc383b486ab1b9d40b83aea65a3">cpart_step::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(lxString value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition:</b> output_step.cc:401</div></div>
 <div class="ttc" id="aclasscpart__step_html_ab42f4bd7f3f11d659cdbe726323edc9a"><div class="ttname"><a href="classcpart__step.html#ab42f4bd7f3f11d659cdbe726323edc9a">cpart_step::GetOutputId</a></div><div class="ttdeci">unsigned short GetOutputId(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition:</b> output_step.cc:364</div></div>
-<div class="ttc" id="aclasscpart__step_html_adf52e27da153cb8c261a7366fcbce73b"><div class="ttname"><a href="classcpart__step.html#adf52e27da153cb8c261a7366fcbce73b">cpart_step::cpart_step</a></div><div class="ttdeci">cpart_step(const unsigned x, const unsigned y, const char *name, const char *type)</div><div class="ttdoc">constructor called once on part creation</div><div class="ttdef"><b>Definition:</b> output_step.cc:40</div></div>
+<div class="ttc" id="aclasscpart__step_html_adf52e27da153cb8c261a7366fcbce73b"><div class="ttname"><a href="classcpart__step.html#adf52e27da153cb8c261a7366fcbce73b">cpart_step::cpart_step</a></div><div class="ttdeci">cpart_step(const unsigned x, const unsigned y, const char *name, const char *type)</div><div class="ttdoc">constructor called once on part creation</div><div class="ttdef"><b>Definition:</b> output_step.cc:37</div></div>
 <div class="ttc" id="aclasscpart__step_html_ae9c71fcf6de5804a5483d8e42c3edf57"><div class="ttname"><a href="classcpart__step.html#ae9c71fcf6de5804a5483d8e42c3edf57">cpart_step::PostProcess</a></div><div class="ttdeci">void PostProcess(void) override</div><div class="ttdoc">Called every end of CPU process.</div><div class="ttdef"><b>Definition:</b> output_step.cc:342</div></div>
 <div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition:</b> part.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->
