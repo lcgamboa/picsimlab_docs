@@ -31,10 +31,11 @@ install: all html
 #https://github.com/michal-h21/reyman
 html:
 	rm -fr picsimlab/
-	 make4ht -c config.cfg -s -d picsimlab -f html5+common_domfilters -e build.mk4  picsimlab.tex "4,sec-filename" 
+	make4ht -c config.cfg -s -d picsimlab -f html5+common_domfilters -e build.mk4  picsimlab.tex "4,sec-filename" 
 	rm -rf *.html *.aux
 	sed -i "s/<main class='main-content'>//g" picsimlab/picsimlab.html
 	sed -i "s/<\/main>//g" picsimlab/picsimlab.html
+	sed -i 's/\\%/%/g' picsimlab/*.html
 	cp picsimlab.js picsimlab/
 	firefox picsimlab/picsimlab.html &
 
