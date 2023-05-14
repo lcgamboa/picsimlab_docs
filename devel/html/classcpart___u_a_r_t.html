@@ -105,15 +105,15 @@ Collaboration diagram for cpart_UART:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcpart___u_a_r_t__coll__graph.png" border="0" usemap="#acpart___u_a_r_t_coll__map" alt="Collaboration graph"/></div>
 <map name="acpart___u_a_r_t_coll__map" id="acpart___u_a_r_t_coll__map">
-<area shape="rect" title=" " alt="" coords="290,377,389,404"/>
-<area shape="rect" href="classpart.html" title="PART class." alt="" coords="355,109,403,136"/>
-<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="155,5,222,32"/>
-<area shape="rect" href="classboard.html" title="Board class." alt="" coords="159,109,218,136"/>
-<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="293,5,369,32"/>
-<area shape="rect" href="struct_p_c_w_prop.html" title=" " alt="" coords="484,5,565,32"/>
-<area shape="rect" href="structuart__t.html" title=" " alt="" coords="272,288,332,315"/>
-<area shape="rect" href="structbitbang__uart__t.html" title=" " alt="" coords="207,199,323,225"/>
-<area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="5,5,84,32"/>
+<area shape="rect" title=" " alt="" coords="183,380,282,407"/>
+<area shape="rect" href="classpart.html" title="PART class." alt="" coords="169,201,217,228"/>
+<area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="153,5,219,32"/>
+<area shape="rect" href="classboard.html" title="Board class." alt="" coords="270,111,329,137"/>
+<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="408,5,484,32"/>
+<area shape="rect" href="structbitbang__uart__t.html" title=" " alt="" coords="241,201,357,228"/>
+<area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="263,5,341,32"/>
+<area shape="rect" href="struct_p_c_w_prop.html" title=" " alt="" coords="5,111,87,137"/>
+<area shape="rect" href="structuart__t.html" title=" " alt="" coords="259,291,319,317"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -122,9 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c220d01df34a8e0f94dcfab4c6b004c"><td class="memItemLeft" align="right" valign="top">lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___u_a_r_t.html#a1c220d01df34a8e0f94dcfab4c6b004c">GetAboutInfo</a> (void) override</td></tr>
 <tr class="memdesc:a1c220d01df34a8e0f94dcfab4c6b004c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the about information of part.  <a href="classcpart___u_a_r_t.html#a1c220d01df34a8e0f94dcfab4c6b004c">More...</a><br /></td></tr>
 <tr class="separator:a1c220d01df34a8e0f94dcfab4c6b004c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb17f296652f45a94287b2ecb0c99318"><td class="memItemLeft" align="right" valign="top"><a id="afb17f296652f45a94287b2ecb0c99318" name="afb17f296652f45a94287b2ecb0c99318"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>cpart_UART</b> (const unsigned x, const unsigned y, const char *name, const char *type)</td></tr>
-<tr class="separator:afb17f296652f45a94287b2ecb0c99318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8beb15ef96e71746506798f1ab468edc"><td class="memItemLeft" align="right" valign="top"><a id="a8beb15ef96e71746506798f1ab468edc" name="a8beb15ef96e71746506798f1ab468edc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>cpart_UART</b> (const unsigned x, const unsigned y, const char *name, const char *type, <a class="el" href="classboard.html">board</a> *pboard_)</td></tr>
+<tr class="separator:a8beb15ef96e71746506798f1ab468edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf414f25a80aae419903f41f8cf8033d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___u_a_r_t.html#acf414f25a80aae419903f41f8cf8033d">DrawOutput</a> (const unsigned int index) override</td></tr>
 <tr class="memdesc:acf414f25a80aae419903f41f8cf8033d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to draw every output.  <a href="classcpart___u_a_r_t.html#acf414f25a80aae419903f41f8cf8033d">More...</a><br /></td></tr>
 <tr class="separator:acf414f25a80aae419903f41f8cf8033d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,10 +280,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>EvMouseMove</b> (uint
 <tr class="memitem:a6df8125e9cb5e8f8d5096723efb0eac0 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a6df8125e9cb5e8f8d5096723efb0eac0">filedialog_EvOnClose</a> (int retId)</td></tr>
 <tr class="memdesc:a6df8125e9cb5e8f8d5096723efb0eac0 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window filedialogs.  <a href="classpart.html#a6df8125e9cb5e8f8d5096723efb0eac0">More...</a><br /></td></tr>
 <tr class="separator:a6df8125e9cb5e8f8d5096723efb0eac0 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8ba130823b0c261ae107c9fdbb8f5c0 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="af8ba130823b0c261ae107c9fdbb8f5c0" name="af8ba130823b0c261ae107c9fdbb8f5c0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>part</b> (const unsigned x, const unsigned y, const char *name, const char *type, const int fsize=8)</td></tr>
-<tr class="memdesc:af8ba130823b0c261ae107c9fdbb8f5c0 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on part creation. <br /></td></tr>
-<tr class="separator:af8ba130823b0c261ae107c9fdbb8f5c0 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94bf4482c48f2f24afe7d713cc95f5c inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ac94bf4482c48f2f24afe7d713cc95f5c" name="ac94bf4482c48f2f24afe7d713cc95f5c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>part</b> (const unsigned x, const unsigned y, const char *name, const char *type, <a class="el" href="classboard.html">board</a> *pboard_, const int fsize=8)</td></tr>
+<tr class="memdesc:ac94bf4482c48f2f24afe7d713cc95f5c inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on part creation. <br /></td></tr>
+<tr class="separator:ac94bf4482c48f2f24afe7d713cc95f5c inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b7f0d45c7f6a88e5a3229f7687cf3a inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ac2b7f0d45c7f6a88e5a3229f7687cf3a" name="ac2b7f0d45c7f6a88e5a3229f7687cf3a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (void)</td></tr>
 <tr class="memdesc:ac2b7f0d45c7f6a88e5a3229f7687cf3a inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on part initialization. <br /></td></tr>
@@ -365,14 +365,14 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>GetUpdate</b
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUpdate</b> (unsigned char upd)</td></tr>
 <tr class="memdesc:a5898264d532b99966bb50ca246a1de01 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set part to Draw update. <br /></td></tr>
 <tr class="separator:a5898264d532b99966bb50ca246a1de01 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aaf89f507a5095656d2ec5716476c62ee" name="aaf89f507a5095656d2ec5716476c62ee"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetAwaysUpdate</b> (void)</td></tr>
-<tr class="memdesc:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need to be update every clock cycle. <br /></td></tr>
-<tr class="separator:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f56a107a2ff894aff3ae2836910e654 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a7f56a107a2ff894aff3ae2836910e654" name="a7f56a107a2ff894aff3ae2836910e654"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAwaysUpdate</b> (int sau)</td></tr>
-<tr class="memdesc:a7f56a107a2ff894aff3ae2836910e654 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if part need to be update every clock cycle. <br /></td></tr>
-<tr class="separator:a7f56a107a2ff894aff3ae2836910e654 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d71ccc93c85fe08712a88d003dc297 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a12d71ccc93c85fe08712a88d003dc297" name="a12d71ccc93c85fe08712a88d003dc297"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetAlwaysUpdate</b> (void)</td></tr>
+<tr class="memdesc:a12d71ccc93c85fe08712a88d003dc297 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need to be update every clock cycle. <br /></td></tr>
+<tr class="separator:a12d71ccc93c85fe08712a88d003dc297 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bec4d4284240282e1d7629ff58f8e87 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a6bec4d4284240282e1d7629ff58f8e87" name="a6bec4d4284240282e1d7629ff58f8e87"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAlwaysUpdate</b> (int sau)</td></tr>
+<tr class="memdesc:a6bec4d4284240282e1d7629ff58f8e87 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if part need to be update every clock cycle. <br /></td></tr>
+<tr class="separator:a6bec4d4284240282e1d7629ff58f8e87 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ae3b886291b0fcba1094776d1d38462 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a4ae3b886291b0fcba1094776d1d38462" name="a4ae3b886291b0fcba1094776d1d38462"></a>
 const int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPCWCount</b> (void)</td></tr>
 <tr class="separator:a4ae3b886291b0fcba1094776d1d38462 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -533,6 +533,9 @@ unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>Pins</b></
 <tr class="memitem:aff8ddd6b993704eab6afc42fab144453 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aff8ddd6b993704eab6afc42fab144453" name="aff8ddd6b993704eab6afc42fab144453"></a>
 unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>PinsCtrl</b></td></tr>
 <tr class="separator:aff8ddd6b993704eab6afc42fab144453 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbeb3b03d78053d4b026226b2ada2314 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="abbeb3b03d78053d4b026226b2ada2314" name="abbeb3b03d78053d4b026226b2ada2314"></a>
+<a class="el" href="classboard.html">board</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pboard</b></td></tr>
+<tr class="separator:abbeb3b03d78053d4b026226b2ada2314 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5bea8efb9a57312436b704658d7de4a7" name="a5bea8efb9a57312436b704658d7de4a7"></a>

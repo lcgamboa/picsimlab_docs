@@ -1,11 +1,11 @@
 <map id="cpart_vterm" name="cpart_vterm">
-<area shape="rect" id="node1" title=" " alt="" coords="285,377,386,404"/>
-<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="355,109,403,136"/>
-<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="155,5,222,32"/>
-<area shape="rect" id="node8" href="$classboard.html" title="Board class." alt="" coords="159,109,218,136"/>
-<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="293,5,369,32"/>
-<area shape="rect" id="node5" href="$struct_p_c_w_prop.html" title=" " alt="" coords="484,5,565,32"/>
-<area shape="rect" id="node6" href="$structvterm__t.html" title=" " alt="" coords="256,288,329,315"/>
-<area shape="rect" id="node7" href="$structbitbang__uart__t.html" title=" " alt="" coords="207,199,323,225"/>
-<area shape="rect" id="node9" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="179,380,281,407"/>
+<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="169,201,217,228"/>
+<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="153,5,219,32"/>
+<area shape="rect" id="node5" href="$classboard.html" title="Board class." alt="" coords="270,111,329,137"/>
+<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="408,5,484,32"/>
+<area shape="rect" id="node9" href="$structbitbang__uart__t.html" title=" " alt="" coords="241,201,357,228"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="263,5,341,32"/>
+<area shape="rect" id="node7" href="$struct_p_c_w_prop.html" title=" " alt="" coords="5,111,87,137"/>
+<area shape="rect" id="node8" href="$structvterm__t.html" title=" " alt="" coords="255,291,328,317"/>
 </map>

@@ -1,5 +1,8 @@
 <map id="bsim_qemu::MInit" name="bsim_qemu::MInit">
-<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,31,144,57"/>
+<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,56,144,83"/>
 <area shape="rect" id="node2" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="192,5,400,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e" title="Start parallel thread." alt="" coords="225,56,367,83"/>
+<area shape="rect" id="node3" href="$classbsim__qemu.html#a093221288c9b5344f18cd4db3871dc96" title="board microcontroller set frequency" alt="" coords="213,56,379,83"/>
+<area shape="rect" id="node6" href="$classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e" title="Start parallel thread." alt="" coords="225,107,367,133"/>
+<area shape="rect" id="node4" href="$classboard.html#afea78f14cbd390b61eae0895277b770c" title="Update Timer counters on frequency change." alt="" coords="448,56,667,83"/>
+<area shape="rect" id="node5" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="715,56,905,83"/>
 </map>

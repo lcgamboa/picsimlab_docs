@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MSetFreq" name="cboard_Breadboard::MSetFreq">
 <area shape="rect" id="node1" title="board microcontroller set frequency" alt="" coords="5,23,161,65"/>
 <area shape="rect" id="node2" href="$classbsim__picsim.html#a93b55eb04afbcd58882e51077cf19195" title="board microcontroller set frequency" alt="" coords="210,5,383,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a8d1ad48ffc56d950467d583c1628651e" title="board microcontroller set frequency" alt="" coords="209,56,384,83"/>
+<area shape="rect" id="node5" href="$classbsim__simavr.html#a8d1ad48ffc56d950467d583c1628651e" title="board microcontroller set frequency" alt="" coords="209,56,384,83"/>
+<area shape="rect" id="node3" href="$classboard.html#afea78f14cbd390b61eae0895277b770c" title="Update Timer counters on frequency change." alt="" coords="432,31,651,57"/>
+<area shape="rect" id="node4" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="699,31,889,57"/>
 </map>

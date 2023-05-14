@@ -1,0 +1,5 @@
+<map id="bsim_ucsim::MSetFreq" name="bsim_ucsim::MSetFreq">
+<area shape="rect" id="node1" title="board microcontroller set frequency" alt="" coords="5,5,175,32"/>
+<area shape="rect" id="node2" href="$classboard.html#afea78f14cbd390b61eae0895277b770c" title="Update Timer counters on frequency change." alt="" coords="223,5,441,32"/>
+<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="489,5,680,32"/>
+</map>

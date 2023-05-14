@@ -1,11 +1,11 @@
 <map id="cpart_ds1621" name="cpart_ds1621">
-<area shape="rect" id="node1" title=" " alt="" coords="277,377,386,404"/>
-<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="355,109,403,136"/>
-<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="155,5,222,32"/>
-<area shape="rect" id="node8" href="$classboard.html" title="Board class." alt="" coords="159,109,218,136"/>
-<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="293,5,369,32"/>
-<area shape="rect" id="node5" href="$struct_p_c_w_prop.html" title=" " alt="" coords="484,5,565,32"/>
-<area shape="rect" id="node6" href="$structsen__ds1621__t.html" title=" " alt="" coords="227,288,337,315"/>
-<area shape="rect" id="node7" href="$structbitbang__i2c__t.html" title=" " alt="" coords="207,199,317,225"/>
-<area shape="rect" id="node9" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="167,380,277,407"/>
+<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="173,201,221,228"/>
+<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="153,5,219,32"/>
+<area shape="rect" id="node5" href="$classboard.html" title="Board class." alt="" coords="270,111,329,137"/>
+<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="408,5,484,32"/>
+<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="245,201,354,228"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="263,5,341,32"/>
+<area shape="rect" id="node7" href="$struct_p_c_w_prop.html" title=" " alt="" coords="5,111,87,137"/>
+<area shape="rect" id="node8" href="$structsen__ds1621__t.html" title=" " alt="" coords="241,291,352,317"/>
 </map>

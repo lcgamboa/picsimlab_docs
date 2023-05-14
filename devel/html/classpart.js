@@ -1,6 +1,6 @@
 var classpart =
 [
-    [ "part", "classpart.html#af8ba130823b0c261ae107c9fdbb8f5c0", null ],
+    [ "part", "classpart.html#ac94bf4482c48f2f24afe7d713cc95f5c", null ],
     [ "~part", "classpart.html#a3500d57a8c47e24e94c748d0c7409b22", null ],
     [ "ButtonEvent", "classpart.html#aad8a0c42be77644b21d52b4defcb4e47", null ],
     [ "ComboChange", "classpart.html#a29e4f235be667bb1c66be67163d64571", null ],
@@ -15,7 +15,7 @@ var classpart =
     [ "EvMouseMove", "classpart.html#a0f2709cf32fabf8cc74f1dd44a67c48b", null ],
     [ "filedialog_EvOnClose", "classpart.html#a6df8125e9cb5e8f8d5096723efb0eac0", null ],
     [ "GetAboutInfo", "classpart.html#af71484017dc60fd0094638dec304d23a", null ],
-    [ "GetAwaysUpdate", "classpart.html#aaf89f507a5095656d2ec5716476c62ee", null ],
+    [ "GetAlwaysUpdate", "classpart.html#a12d71ccc93c85fe08712a88d003dc297", null ],
     [ "GetBitmap", "classpart.html#a049530a4fbc5f6315e1601c25ca82a41", null ],
     [ "GetHeight", "classpart.html#a1a3089e1afb2d47c894fb9c682b3fcaa", null ],
     [ "GetHelpURL", "classpart.html#a0445a18f52f1dfa584f1c4f50e9189d5", null ],
@@ -56,7 +56,7 @@ var classpart =
     [ "RegisterRemoteControl", "classpart.html#aecbcd4d1e3d02ea8efda7633b3c277ba", null ],
     [ "Reset", "classpart.html#a9da0412a19116a4f52381c17af4e530f", null ],
     [ "RotateCoords", "classpart.html#a992a5000e6919e07c4553ed6817f8360", null ],
-    [ "SetAwaysUpdate", "classpart.html#a7f56a107a2ff894aff3ae2836910e654", null ],
+    [ "SetAlwaysUpdate", "classpart.html#a6bec4d4284240282e1d7629ff58f8e87", null ],
     [ "SetId", "classpart.html#a28e6c02a001c633b76caefe61b666f1a", null ],
     [ "SetOrientation", "classpart.html#a2e5becd7108e8fab479a0a47a013c460", null ],
     [ "SetScale", "classpart.html#ab03241df923fde44292d847d034af546", null ],

@@ -9,5 +9,6 @@ var searchData=
   ['timers_5ft_6',['Timers_t',['../struct_timers__t.html',1,'']]],
   ['timersetstate_7',['TimerSetState',['../classboard.html#a4b3ef9bc2ce10eb6e3ee00882aa41cb6',1,'board']]],
   ['timerunregister_8',['TimerUnregister',['../classboard.html#aca18038dc58dcf869e9e954037b1542c',1,'board']]],
-  ['tsc_5fxpt2046_5ft_9',['tsc_XPT2046_t',['../structtsc___x_p_t2046__t.html',1,'']]]
+  ['timerupdatefrequency_9',['TimerUpdateFrequency',['../classboard.html#afea78f14cbd390b61eae0895277b770c',1,'board']]],
+  ['tsc_5fxpt2046_5ft_10',['tsc_XPT2046_t',['../structtsc___x_p_t2046__t.html',1,'']]]
 ];

@@ -1,6 +1,6 @@
 var classcpart__servo =
 [
-    [ "cpart_servo", "classcpart__servo.html#a5c01b222226c974ea5b723a56a759bf9", null ],
+    [ "cpart_servo", "classcpart__servo.html#a8bb818b62a6ab6fac3321eb58121f351", null ],
     [ "~cpart_servo", "classcpart__servo.html#aec280c6ce5b18601e15231a2f3622e6a", null ],
     [ "ConfigurePropertiesWindow", "classcpart__servo.html#a4a1e164fd0f4145fafe870f5f28f350a", null ],
     [ "DrawOutput", "classcpart__servo.html#a27b57ccb2a1ab07a2c864495f3e956ca", null ],

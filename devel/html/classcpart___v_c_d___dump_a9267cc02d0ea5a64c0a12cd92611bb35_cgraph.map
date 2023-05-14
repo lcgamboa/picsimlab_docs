@@ -1,6 +1,5 @@
 <map id="cpart_VCD_Dump::PreProcess" name="cpart_VCD_Dump::PreProcess">
-<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,56,220,83"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="279,5,448,32"/>
-<area shape="rect" id="node3" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="268,56,459,83"/>
-<area shape="rect" id="node4" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="268,107,459,133"/>
+<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,31,220,57"/>
+<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="268,5,459,32"/>
+<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="268,56,459,83"/>
 </map>

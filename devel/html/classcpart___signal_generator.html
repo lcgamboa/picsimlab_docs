@@ -106,11 +106,13 @@ Collaboration diagram for cpart_SignalGenerator:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcpart___signal_generator__coll__graph.png" border="0" usemap="#acpart___signal_generator_coll__map" alt="Collaboration graph"/></div>
 <map name="acpart___signal_generator_coll__map" id="acpart___signal_generator_coll__map">
-<area shape="rect" title=" " alt="" coords="51,185,218,212"/>
-<area shape="rect" href="classpart.html" title="PART class." alt="" coords="111,109,159,136"/>
+<area shape="rect" title=" " alt="" coords="235,277,402,304"/>
+<area shape="rect" href="classpart.html" title="PART class." alt="" coords="295,201,343,228"/>
 <area shape="rect" href="structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" href="struct_p_c_w_prop.html" title=" " alt="" coords="197,5,278,32"/>
+<area shape="rect" href="classboard.html" title="Board class." alt="" coords="149,111,208,137"/>
+<area shape="rect" href="structoutput__t.html" title="output map struct" alt="" coords="261,5,337,32"/>
+<area shape="rect" href="struct_timers__t.html" title="internal timer struct" alt="" coords="115,5,194,32"/>
+<area shape="rect" href="struct_p_c_w_prop.html" title=" " alt="" coords="437,111,518,137"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -119,9 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15e2df8303790eab1d17bf802ba2660a"><td class="memItemLeft" align="right" valign="top">lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___signal_generator.html#a15e2df8303790eab1d17bf802ba2660a">GetAboutInfo</a> (void) override</td></tr>
 <tr class="memdesc:a15e2df8303790eab1d17bf802ba2660a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the about information of part.  <a href="classcpart___signal_generator.html#a15e2df8303790eab1d17bf802ba2660a">More...</a><br /></td></tr>
 <tr class="separator:a15e2df8303790eab1d17bf802ba2660a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac92c9efef3cc5d6a6ac414daaaa0758b"><td class="memItemLeft" align="right" valign="top"><a id="ac92c9efef3cc5d6a6ac414daaaa0758b" name="ac92c9efef3cc5d6a6ac414daaaa0758b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>cpart_SignalGenerator</b> (const unsigned x, const unsigned y, const char *name, const char *type)</td></tr>
-<tr class="separator:ac92c9efef3cc5d6a6ac414daaaa0758b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01ca07b7a3411499df1b4c2d650b085"><td class="memItemLeft" align="right" valign="top"><a id="ae01ca07b7a3411499df1b4c2d650b085" name="ae01ca07b7a3411499df1b4c2d650b085"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>cpart_SignalGenerator</b> (const unsigned x, const unsigned y, const char *name, const char *type, <a class="el" href="classboard.html">board</a> *pboard_)</td></tr>
+<tr class="separator:ae01ca07b7a3411499df1b4c2d650b085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af84de5f02473131e5c8710c1aa06b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___signal_generator.html#a2af84de5f02473131e5c8710c1aa06b1">DrawOutput</a> (const unsigned int index) override</td></tr>
 <tr class="memdesc:a2af84de5f02473131e5c8710c1aa06b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to draw every output.  <a href="classcpart___signal_generator.html#a2af84de5f02473131e5c8710c1aa06b1">More...</a><br /></td></tr>
 <tr class="separator:a2af84de5f02473131e5c8710c1aa06b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,10 +282,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>EvMouseMove</b> (uint
 <tr class="memitem:a6df8125e9cb5e8f8d5096723efb0eac0 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a6df8125e9cb5e8f8d5096723efb0eac0">filedialog_EvOnClose</a> (int retId)</td></tr>
 <tr class="memdesc:a6df8125e9cb5e8f8d5096723efb0eac0 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window filedialogs.  <a href="classpart.html#a6df8125e9cb5e8f8d5096723efb0eac0">More...</a><br /></td></tr>
 <tr class="separator:a6df8125e9cb5e8f8d5096723efb0eac0 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8ba130823b0c261ae107c9fdbb8f5c0 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="af8ba130823b0c261ae107c9fdbb8f5c0" name="af8ba130823b0c261ae107c9fdbb8f5c0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>part</b> (const unsigned x, const unsigned y, const char *name, const char *type, const int fsize=8)</td></tr>
-<tr class="memdesc:af8ba130823b0c261ae107c9fdbb8f5c0 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on part creation. <br /></td></tr>
-<tr class="separator:af8ba130823b0c261ae107c9fdbb8f5c0 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94bf4482c48f2f24afe7d713cc95f5c inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ac94bf4482c48f2f24afe7d713cc95f5c" name="ac94bf4482c48f2f24afe7d713cc95f5c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>part</b> (const unsigned x, const unsigned y, const char *name, const char *type, <a class="el" href="classboard.html">board</a> *pboard_, const int fsize=8)</td></tr>
+<tr class="memdesc:ac94bf4482c48f2f24afe7d713cc95f5c inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on part creation. <br /></td></tr>
+<tr class="separator:ac94bf4482c48f2f24afe7d713cc95f5c inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b7f0d45c7f6a88e5a3229f7687cf3a inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="ac2b7f0d45c7f6a88e5a3229f7687cf3a" name="ac2b7f0d45c7f6a88e5a3229f7687cf3a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (void)</td></tr>
 <tr class="memdesc:ac2b7f0d45c7f6a88e5a3229f7687cf3a inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on part initialization. <br /></td></tr>
@@ -365,14 +367,14 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>GetUpdate</b
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUpdate</b> (unsigned char upd)</td></tr>
 <tr class="memdesc:a5898264d532b99966bb50ca246a1de01 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set part to Draw update. <br /></td></tr>
 <tr class="separator:a5898264d532b99966bb50ca246a1de01 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aaf89f507a5095656d2ec5716476c62ee" name="aaf89f507a5095656d2ec5716476c62ee"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetAwaysUpdate</b> (void)</td></tr>
-<tr class="memdesc:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need to be update every clock cycle. <br /></td></tr>
-<tr class="separator:aaf89f507a5095656d2ec5716476c62ee inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f56a107a2ff894aff3ae2836910e654 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a7f56a107a2ff894aff3ae2836910e654" name="a7f56a107a2ff894aff3ae2836910e654"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAwaysUpdate</b> (int sau)</td></tr>
-<tr class="memdesc:a7f56a107a2ff894aff3ae2836910e654 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if part need to be update every clock cycle. <br /></td></tr>
-<tr class="separator:a7f56a107a2ff894aff3ae2836910e654 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d71ccc93c85fe08712a88d003dc297 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a12d71ccc93c85fe08712a88d003dc297" name="a12d71ccc93c85fe08712a88d003dc297"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetAlwaysUpdate</b> (void)</td></tr>
+<tr class="memdesc:a12d71ccc93c85fe08712a88d003dc297 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need to be update every clock cycle. <br /></td></tr>
+<tr class="separator:a12d71ccc93c85fe08712a88d003dc297 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bec4d4284240282e1d7629ff58f8e87 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a6bec4d4284240282e1d7629ff58f8e87" name="a6bec4d4284240282e1d7629ff58f8e87"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAlwaysUpdate</b> (int sau)</td></tr>
+<tr class="memdesc:a6bec4d4284240282e1d7629ff58f8e87 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if part need to be update every clock cycle. <br /></td></tr>
+<tr class="separator:a6bec4d4284240282e1d7629ff58f8e87 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ae3b886291b0fcba1094776d1d38462 inherit pub_methods_classpart"><td class="memItemLeft" align="right" valign="top"><a id="a4ae3b886291b0fcba1094776d1d38462" name="a4ae3b886291b0fcba1094776d1d38462"></a>
 const int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPCWCount</b> (void)</td></tr>
 <tr class="separator:a4ae3b886291b0fcba1094776d1d38462 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -560,6 +562,9 @@ unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>Pins</b></
 <tr class="memitem:aff8ddd6b993704eab6afc42fab144453 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="aff8ddd6b993704eab6afc42fab144453" name="aff8ddd6b993704eab6afc42fab144453"></a>
 unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>PinsCtrl</b></td></tr>
 <tr class="separator:aff8ddd6b993704eab6afc42fab144453 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbeb3b03d78053d4b026226b2ada2314 inherit pro_attribs_classpart"><td class="memItemLeft" align="right" valign="top"><a id="abbeb3b03d78053d4b026226b2ada2314" name="abbeb3b03d78053d4b026226b2ada2314"></a>
+<a class="el" href="classboard.html">board</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pboard</b></td></tr>
+<tr class="separator:abbeb3b03d78053d4b026226b2ada2314 inherit pro_attribs_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a483ce082209885f3bb3afdb0e9049418" name="a483ce082209885f3bb3afdb0e9049418"></a>
@@ -927,9 +932,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcpart___signal_generator_a5806e127aca8cc2a650ef28659b5d326_cgraph.png" border="0" usemap="#aclasscpart___signal_generator_a5806e127aca8cc2a650ef28659b5d326_cgraph" alt=""/></div>
 <map name="aclasscpart___signal_generator_a5806e127aca8cc2a650ef28659b5d326_cgraph" id="aclasscpart___signal_generator_a5806e127aca8cc2a650ef28659b5d326_cgraph">
-<area shape="rect" title="Called every start of CPU process." alt="" coords="5,23,172,65"/>
-<area shape="rect" href="class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="231,5,400,32"/>
-<area shape="rect" href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="220,56,411,83"/>
+<area shape="rect" title="Called every start of CPU process." alt="" coords="5,5,172,47"/>
+<area shape="rect" href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="220,13,411,39"/>
 </map>
 </div>
 

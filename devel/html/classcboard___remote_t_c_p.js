@@ -12,7 +12,6 @@ var classcboard___remote_t_c_p =
     [ "GetOutputId", "classcboard___remote_t_c_p.html#a45344aca415bbee845a736339614dd37", null ],
     [ "GetSupportedDevices", "classcboard___remote_t_c_p.html#a33753e8b1792b3a3ac96ee37225383ca", null ],
     [ "MInit", "classcboard___remote_t_c_p.html#a8a95aacb7159a51f3f2e5130c4ae8674", null ],
-    [ "MStep", "classcboard___remote_t_c_p.html#a3feac7bb5556057509c8acbf66de950b", null ],
     [ "ReadPreferences", "classcboard___remote_t_c_p.html#a79c9de69492d329b3849010fe2761fa4", null ],
     [ "RefreshStatus", "classcboard___remote_t_c_p.html#aced6813fe564437f3bcf4dd6afff8d9c", null ],
     [ "RegisterRemoteControl", "classcboard___remote_t_c_p.html#ab99d7151813f0e561c57194813bee0fa", null ],

@@ -1,12 +1,12 @@
 <map id="cpart_ADXL345" name="cpart_ADXL345">
-<area shape="rect" id="node1" title=" " alt="" coords="304,377,425,404"/>
-<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="393,109,441,136"/>
-<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="155,5,222,32"/>
-<area shape="rect" id="node8" href="$classboard.html" title="Board class." alt="" coords="142,109,201,136"/>
-<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="293,5,369,32"/>
-<area shape="rect" id="node5" href="$struct_p_c_w_prop.html" title=" " alt="" coords="484,5,565,32"/>
-<area shape="rect" id="node6" href="$structadxl345__t.html" title=" " alt="" coords="261,288,348,315"/>
-<area shape="rect" id="node7" href="$structbitbang__i2c__t.html" title=" " alt="" coords="250,199,359,225"/>
-<area shape="rect" id="node10" href="$structbitbang__spi__t.html" title=" " alt="" coords="117,199,226,225"/>
-<area shape="rect" id="node9" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="185,380,306,407"/>
+<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="272,201,320,228"/>
+<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="339,5,405,32"/>
+<area shape="rect" id="node5" href="$classboard.html" title="Board class." alt="" coords="144,111,203,137"/>
+<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="221,5,297,32"/>
+<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="5,201,115,228"/>
+<area shape="rect" id="node10" href="$structbitbang__spi__t.html" title=" " alt="" coords="139,201,248,228"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="66,5,145,32"/>
+<area shape="rect" id="node7" href="$struct_p_c_w_prop.html" title=" " alt="" coords="502,111,583,137"/>
+<area shape="rect" id="node8" href="$structadxl345__t.html" title=" " alt="" coords="150,291,237,317"/>
 </map>

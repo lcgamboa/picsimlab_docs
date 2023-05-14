@@ -1,5 +1,4 @@
 <map id="cpart_LDR::Reset" name="cpart_LDR::Reset">
-<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,31,139,57"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="187,5,356,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="207,56,336,83"/>
+<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,5,139,32"/>
+<area shape="rect" id="node2" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="187,5,316,32"/>
 </map>

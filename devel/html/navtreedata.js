@@ -53,12 +53,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbsim__qemu.html#a55f0a3e247a388b8036aa3a3e1b10bf4",
-"classcboard___curiosity___h_p_c.html#af4616b4bd863ddabb98cd587d22f02f5",
-"classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436",
-"classcpart___l_c_d__ssd1306.html#ac0d4ce7e30e0542d14af804c8bd33951",
-"classcpart__dht22.html#a2bfb0d4d866eeff1fb89f890aaf07ed4",
-"classcpart__pbuttons__an.html#a827d50bd7e4725dbabb600c6c6d74229",
+"classbsim__qemu.html#a4ff604deeb2e3826386e3632fd777b24",
+"classcboard___curiosity___h_p_c.html#ae718e0e2fc28a409a631733118868b75",
+"classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124",
+"classcpart___l_c_d__ssd1306.html#a9d3d103a79dd11ce7c7568b9d6478077",
+"classcpart__dht22.html#a1d2d875d6648c2c82782d5a120499f06",
+"classcpart__pbuttons__an.html#a69aefc49e3f4af93026383901afc89d1",
 "exp__virtual___v_c_d___dump___d_b_g_8h_source.html"
 ];
 

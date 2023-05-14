@@ -1,6 +1,6 @@
 <map id="rtc_ds1307_t" name="rtc_ds1307_t">
 <area shape="rect" id="node1" title=" " alt="" coords="82,288,187,315"/>
-<area shape="rect" id="node2" href="$structbitbang__i2c__t.html" title=" " alt="" coords="80,199,189,225"/>
+<area shape="rect" id="node2" href="$structbitbang__i2c__t.html" title=" " alt="" coords="187,199,296,225"/>
 <area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
 <area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
 <area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>

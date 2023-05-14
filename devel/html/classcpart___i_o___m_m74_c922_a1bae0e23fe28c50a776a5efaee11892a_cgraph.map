@@ -1,6 +1,5 @@
 <map id="cpart_IO_MM74C922::PreProcess" name="cpart_IO_MM74C922::PreProcess">
-<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,49,169,90"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="235,5,405,32"/>
-<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="217,56,423,83"/>
-<area shape="rect" id="node4" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="225,107,415,133"/>
+<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,23,169,65"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="217,5,423,32"/>
+<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="225,56,415,83"/>
 </map>

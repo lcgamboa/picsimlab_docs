@@ -1,7 +1,7 @@
 var searchData=
 [
   ['saveprefs_0',['SavePrefs',['../class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6',1,'CPICSimLab']]],
-  ['setawaysupdate_1',['SetAwaysUpdate',['../classpart.html#a7f56a107a2ff894aff3ae2836910e654',1,'part']]],
+  ['setalwaysupdate_1',['SetAlwaysUpdate',['../classpart.html#a6bec4d4284240282e1d7629ff58f8e87',1,'part']]],
   ['setdebugport_2',['SetDebugPort',['../class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1',1,'CPICSimLab']]],
   ['setdebugstatus_3',['SetDebugStatus',['../class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230',1,'CPICSimLab']]],
   ['setdebugtype_4',['SetDebugType',['../class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22',1,'CPICSimLab']]],

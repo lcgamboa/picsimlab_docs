@@ -1,5 +1,4 @@
 <map id="cpart_hcsr04::Process" name="cpart_hcsr04::Process">
-<area shape="rect" id="node1" title="Called every CPU step." alt="" coords="5,31,168,57"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="227,5,396,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="216,56,407,83"/>
+<area shape="rect" id="node1" title="Called every CPU step." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="216,5,407,32"/>
 </map>

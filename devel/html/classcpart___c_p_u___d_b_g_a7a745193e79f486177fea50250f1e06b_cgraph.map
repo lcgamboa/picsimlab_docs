@@ -1,8 +1,7 @@
 <map id="cpart_CPU_DBG::OnMouseButtonPress" name="cpart_CPU_DBG::OnMouseButtonPress">
-<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,99,243,141"/>
+<area shape="rect" id="node1" title="Event handler on the part." alt="" coords="5,74,243,115"/>
 <area shape="rect" id="node2" href="$classboard.html#a0397ca2fcd8e5d59289aa7e78c895571" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="298,5,475,32"/>
-<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="302,56,471,83"/>
-<area shape="rect" id="node4" href="$classboard.html#a7cf2409343e66c32e2da522b7b6ad75e" title="Get board name registered in PICSimLab." alt="" coords="322,107,451,133"/>
-<area shape="rect" id="node5" href="$classboard.html#a0553a5c6eccd40e19fc6a32e8089d0f3" title="Get board processor in use." alt="" coords="291,157,483,184"/>
-<area shape="rect" id="node6" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="333,208,441,235"/>
+<area shape="rect" id="node3" href="$classboard.html#a7cf2409343e66c32e2da522b7b6ad75e" title="Get board name registered in PICSimLab." alt="" coords="322,56,451,83"/>
+<area shape="rect" id="node4" href="$classboard.html#a0553a5c6eccd40e19fc6a32e8089d0f3" title="Get board processor in use." alt="" coords="291,107,483,133"/>
+<area shape="rect" id="node5" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="333,157,441,184"/>
 </map>

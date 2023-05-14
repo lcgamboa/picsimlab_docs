@@ -9,7 +9,7 @@ var searchData=
   ['sen_5fds1621_5ft_6',['sen_ds1621_t',['../structsen__ds1621__t.html',1,'']]],
   ['sen_5fds18b20_5ft_7',['sen_ds18b20_t',['../structsen__ds18b20__t.html',1,'']]],
   ['sen_5fhx711_5ft_8',['sen_hx711_t',['../structsen__hx711__t.html',1,'']]],
-  ['setawaysupdate_9',['SetAwaysUpdate',['../classpart.html#a7f56a107a2ff894aff3ae2836910e654',1,'part']]],
+  ['setalwaysupdate_9',['SetAlwaysUpdate',['../classpart.html#a6bec4d4284240282e1d7629ff58f8e87',1,'part']]],
   ['setdebugport_10',['SetDebugPort',['../class_c_p_i_c_sim_lab.html#aa183ae2a8ecfbc63a5202277886427f1',1,'CPICSimLab']]],
   ['setdebugstatus_11',['SetDebugStatus',['../class_c_p_i_c_sim_lab.html#aa9bbdbcb4a5fe56e318b1d1b97a88230',1,'CPICSimLab']]],
   ['setdebugtype_12',['SetDebugType',['../class_c_p_i_c_sim_lab.html#af1b9e31473f78b6ad3dcabd66821cd22',1,'CPICSimLab']]],

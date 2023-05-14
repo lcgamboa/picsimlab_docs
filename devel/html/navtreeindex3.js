@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124":[3,0,34,11],
 "classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436":[3,0,34,14],
 "classcboard__x.html#a870b8977726aba5c91a863efb1175c1f":[3,0,34,7],
 "classcboard__x.html#a99605f65ae5f4a210d57113fa805194e":[3,0,34,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "classcpart___l_c_d__ssd1306.html#a2f19378dca9c255ed17d234e3c77f046":[3,0,72,8],
 "classcpart___l_c_d__ssd1306.html#a5da6df277db5cf3be0faaa334e85a643":[3,0,72,2],
 "classcpart___l_c_d__ssd1306.html#a8a948e3c2517ae36f2a53719b1a4f09e":[3,0,72,3],
-"classcpart___l_c_d__ssd1306.html#a92d61193f8ed0b14a99909bfe37c9bc6":[3,0,72,9],
-"classcpart___l_c_d__ssd1306.html#a9d3d103a79dd11ce7c7568b9d6478077":[3,0,72,5]
+"classcpart___l_c_d__ssd1306.html#a92d61193f8ed0b14a99909bfe37c9bc6":[3,0,72,9]
 };

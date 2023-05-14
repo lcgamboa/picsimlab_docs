@@ -1,13 +1,13 @@
 <map id="cboard_PICGenios" name="cboard_PICGenios">
-<area shape="rect" id="node1" title=" " alt="" coords="225,389,364,416"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="61,249,165,276"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
-<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="151,199,260,225"/>
-<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
-<area shape="rect" id="node7" href="$structlcd__t.html" title=" " alt="" coords="372,300,425,327"/>
-<area shape="rect" id="node8" href="$structmi2c__t.html" title=" " alt="" coords="151,300,217,327"/>
-<area shape="rect" id="node10" href="$structrtc__ds1307__t.html" title=" " alt="" coords="242,300,347,327"/>
-<area shape="rect" id="node11" href="$struct_s_w_bounce__t.html" title=" " alt="" coords="450,300,553,327"/>
+<area shape="rect" id="node1" title=" " alt="" coords="131,389,269,416"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html" title=" " alt="" coords="5,249,109,276"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="159,109,217,136"/>
+<area shape="rect" id="node7" href="$structlcd__t.html" title=" " alt="" coords="116,249,169,276"/>
+<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="180,199,289,225"/>
+<area shape="rect" id="node10" href="$structrtc__ds1307__t.html" title=" " alt="" coords="258,300,363,327"/>
+<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="59,5,125,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="150,5,226,32"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="250,5,329,32"/>
+<area shape="rect" id="node8" href="$structmi2c__t.html" title=" " alt="" coords="167,300,233,327"/>
+<area shape="rect" id="node11" href="$struct_s_w_bounce__t.html" title=" " alt="" coords="387,300,490,327"/>
 </map>

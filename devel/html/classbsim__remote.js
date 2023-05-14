@@ -24,5 +24,6 @@ var classbsim__remote =
     [ "MSetPinDOV", "classbsim__remote.html#aaae5a2c8539d3b64d7b157cdf3351b61", null ],
     [ "MSetSerial", "classbsim__remote.html#a7cc90e1ac0f18d3c031432ee2722026e", null ],
     [ "MSetVCC", "classbsim__remote.html#a39ffca7017a6f75c49a4c95747282120", null ],
+    [ "MStep", "classbsim__remote.html#a5903584f1073e1aeeb6ffccad8a6b599", null ],
     [ "MStepResume", "classbsim__remote.html#adaafeee4be9f75e902c5718f86b528aa", null ]
 ];

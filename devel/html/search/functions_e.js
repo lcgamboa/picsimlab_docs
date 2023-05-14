@@ -6,5 +6,6 @@ var searchData=
   ['timerregister_5fms_3',['TimerRegister_ms',['../classboard.html#ad9ccc2d1a2b0ab151a83777aadca99d4',1,'board']]],
   ['timerregister_5fus_4',['TimerRegister_us',['../classboard.html#a38dfcf945444ee48a2fbc43a65c9f70e',1,'board']]],
   ['timersetstate_5',['TimerSetState',['../classboard.html#a4b3ef9bc2ce10eb6e3ee00882aa41cb6',1,'board']]],
-  ['timerunregister_6',['TimerUnregister',['../classboard.html#aca18038dc58dcf869e9e954037b1542c',1,'board']]]
+  ['timerunregister_6',['TimerUnregister',['../classboard.html#aca18038dc58dcf869e9e954037b1542c',1,'board']]],
+  ['timerupdatefrequency_7',['TimerUpdateFrequency',['../classboard.html#afea78f14cbd390b61eae0895277b770c',1,'board']]]
 ];

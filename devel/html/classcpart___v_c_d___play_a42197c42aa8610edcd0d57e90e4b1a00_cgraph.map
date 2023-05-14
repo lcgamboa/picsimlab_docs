@@ -1,5 +1,4 @@
 <map id="cpart_VCD_Play::PreProcess" name="cpart_VCD_Play::PreProcess">
-<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,31,208,57"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="267,5,436,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="256,56,447,83"/>
+<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="256,5,447,32"/>
 </map>

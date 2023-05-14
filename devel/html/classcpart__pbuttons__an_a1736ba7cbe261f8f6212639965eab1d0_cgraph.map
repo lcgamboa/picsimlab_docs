@@ -1,5 +1,4 @@
 <map id="cpart_pbuttons_an::Reset" name="cpart_pbuttons_an::Reset">
-<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,23,156,65"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="204,5,373,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="224,56,353,83"/>
+<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="204,13,333,39"/>
 </map>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classbsim__qemu.html#a4ff604deeb2e3826386e3632fd777b24":[3,0,11,7],
 "classbsim__qemu.html#a55f0a3e247a388b8036aa3a3e1b10bf4":[3,0,11,3],
 "classbsim__qemu.html#a5775ea3768b53c20cd7c84856eb9d1b4":[3,0,11,6],
 "classbsim__qemu.html#a65a472bc322bbaaf9e75cb0d2bf181ff":[3,0,11,22],
@@ -23,6 +24,7 @@ var NAVTREEINDEX1 =
 "classbsim__remote.html#a45ea073d3dc6d5fe70093e088bed2080":[3,0,12,3],
 "classbsim__remote.html#a5021c718b4a5718fb13a7223c8b6eed4":[3,0,12,5],
 "classbsim__remote.html#a532f3150f8fbc17f366a705583e23aa5":[3,0,12,1],
+"classbsim__remote.html#a5903584f1073e1aeeb6ffccad8a6b599":[3,0,12,24],
 "classbsim__remote.html#a69a3b16b618f4adde7e1395c1e72f621":[3,0,12,19],
 "classbsim__remote.html#a6bf13ca6a3bd787c01d467feff702e9e":[3,0,12,10],
 "classbsim__remote.html#a77832986d7b834ce989a33beac68524e":[3,0,12,9],
@@ -34,7 +36,7 @@ var NAVTREEINDEX1 =
 "classbsim__remote.html#ab056bdcc2adf0de5117430b16e1afee4":[3,0,12,4],
 "classbsim__remote.html#abd47918e4cc25e591d6855f705f17cdd":[3,0,12,11],
 "classbsim__remote.html#ad6cdab4f2deb6fe8c7214aad84e69fa2":[3,0,12,12],
-"classbsim__remote.html#adaafeee4be9f75e902c5718f86b528aa":[3,0,12,24],
+"classbsim__remote.html#adaafeee4be9f75e902c5718f86b528aa":[3,0,12,25],
 "classbsim__remote.html#af27f36a8c7ba01ad05244b33cfb9adba":[3,0,12,15],
 "classbsim__remote.html#af6761b49589357637609e577d720a83a":[3,0,12,8],
 "classbsim__remote.html#af6ef0b58cece6f620d10923f80f20c64":[3,0,12,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "classcboard___curiosity___h_p_c.html#ad585a67d4b6246f148ca5cc3914470e2":[3,0,22,16],
 "classcboard___curiosity___h_p_c.html#ad903095804c45bf48b9a3f3720dedfdd":[3,0,22,1],
 "classcboard___curiosity___h_p_c.html#adc917559b3ef48d2d6685259d584a409":[3,0,22,8],
-"classcboard___curiosity___h_p_c.html#adf07be3e004b3ae5ae068350d4155d13":[3,0,22,12],
-"classcboard___curiosity___h_p_c.html#ae718e0e2fc28a409a631733118868b75":[3,0,22,2],
-"classcboard___curiosity___h_p_c.html#af3e45fe090112fcb1280f7d4a3343a3e":[3,0,22,10]
+"classcboard___curiosity___h_p_c.html#adf07be3e004b3ae5ae068350d4155d13":[3,0,22,12]
 };
