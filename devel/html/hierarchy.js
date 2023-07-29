@@ -25,6 +25,7 @@ var hierarchy =
       ] ],
       [ "bsim_qemu", "classbsim__qemu.html", [
         [ "cboard_Blue_Pill", "classcboard___blue___pill.html", null ],
+        [ "cboard_C3_DevKitC", "classcboard___c3___dev_kit_c.html", null ],
         [ "cboard_DevKitC", "classcboard___dev_kit_c.html", null ],
         [ "cboard_STM32_H103", "classcboard___s_t_m32___h103.html", null ]
       ] ],
@@ -127,6 +128,7 @@ var hierarchy =
       [ "cpart_led_ws2812b", "classcpart__led__ws2812b.html", null ],
       [ "cpart_leds", "classcpart__leds.html", null ],
       [ "cpart_lm35", "classcpart__lm35.html", null ],
+      [ "cpart_ntc", "classcpart__ntc.html", null ],
       [ "cpart_pbuttons", "classcpart__pbuttons.html", null ],
       [ "cpart_pbuttons_an", "classcpart__pbuttons__an.html", null ],
       [ "cpart_pot", "classcpart__pot.html", null ],

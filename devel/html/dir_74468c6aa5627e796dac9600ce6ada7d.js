@@ -20,6 +20,7 @@ var dir_74468c6aa5627e796dac9600ce6ada7d =
     [ "input_LDR.h", "input___l_d_r_8h_source.html", null ],
     [ "input_lm35.h", "input__lm35_8h_source.html", null ],
     [ "input_MPU6050.h", "input___m_p_u6050_8h_source.html", null ],
+    [ "input_ntc.h", "input__ntc_8h_source.html", null ],
     [ "input_pot.h", "input__pot_8h_source.html", null ],
     [ "input_pot_r.h", "input__pot__r_8h_source.html", null ],
     [ "input_push_buttons.h", "input__push__buttons_8h_source.html", null ],

@@ -6,6 +6,7 @@ var classcpart___t_e_x_t =
     [ "GetInputId", "classcpart___t_e_x_t.html#adb71feca1e93fd6d62987618735a1bec", null ],
     [ "GetOutputId", "classcpart___t_e_x_t.html#a434d3ba8c776512a7bd7b23237167c39", null ],
     [ "LoadImage", "classcpart___t_e_x_t.html#abf6030761f2a2a4f5388cf8e6fe7c952", null ],
+    [ "OnMouseButtonPress", "classcpart___t_e_x_t.html#ad9b74d161d0989c1cc8469fe6fb0ff99", null ],
     [ "PostInit", "classcpart___t_e_x_t.html#a4070db279806406418f28863f133d15f", null ],
     [ "ReadPreferences", "classcpart___t_e_x_t.html#a50fa25a7ac977b8f32e6304a0eb3879f", null ],
     [ "ReadPropertiesWindow", "classcpart___t_e_x_t.html#aebaa19d9dcbce4a6f98216662d891904", null ],

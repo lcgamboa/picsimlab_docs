@@ -19,6 +19,8 @@ var classbsim__simavr =
     [ "EndServers", "classbsim__simavr.html#a5e87de88c526eb99d79dc48a884d0bac", null ],
     [ "GetDebugName", "classbsim__simavr.html#af356ffe18239c9b34ad7451d9b3161d5", null ],
     [ "GetDefaultClock", "classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406", null ],
+    [ "GetUARTRX", "classbsim__simavr.html#a7a5ca9f7b69ecab27fe94342d0dda995", null ],
+    [ "GetUARTTX", "classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4", null ],
     [ "MDumpMemory", "classbsim__simavr.html#ad6d7bec2a47b64016cbc19c07b064425", null ],
     [ "MEnd", "classbsim__simavr.html#af7cb8d186351e1cb35570aebb3a70487", null ],
     [ "MEraseFlash", "classbsim__simavr.html#ab7badad07808c386bc888d945cf1146a", null ],

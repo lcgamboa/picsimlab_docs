@@ -246,6 +246,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab60244ed087236dd5f3bf9b5ea378406"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406">GetDefaultClock</a> (void) override</td></tr>
 <tr class="memdesc:ab60244ed087236dd5f3bf9b5ea378406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <a href="classbsim__simavr.html#ab60244ed087236dd5f3bf9b5ea378406">More...</a><br /></td></tr>
 <tr class="separator:ab60244ed087236dd5f3bf9b5ea378406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a5ca9f7b69ecab27fe94342d0dda995"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a7a5ca9f7b69ecab27fe94342d0dda995">GetUARTRX</a> (const int uart_num) override</td></tr>
+<tr class="memdesc:a7a5ca9f7b69ecab27fe94342d0dda995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N RX pin number.  <a href="classbsim__simavr.html#a7a5ca9f7b69ecab27fe94342d0dda995">More...</a><br /></td></tr>
+<tr class="separator:a7a5ca9f7b69ecab27fe94342d0dda995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f64e1981ea397c46cb42609449ebe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4">GetUARTTX</a> (const int uart_num) override</td></tr>
+<tr class="memdesc:a97f64e1981ea397c46cb42609449ebe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <a href="classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4">More...</a><br /></td></tr>
+<tr class="separator:a97f64e1981ea397c46cb42609449ebe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54f2b9bab497352ff4c7d330b9aede2e"><td class="memItemLeft" align="right" valign="top"><a id="a54f2b9bab497352ff4c7d330b9aede2e" name="a54f2b9bab497352ff4c7d330b9aede2e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateHardware</b> (void)</td></tr>
 <tr class="separator:a54f2b9bab497352ff4c7d330b9aede2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,8 +268,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SerialSend</b> (<a cl
 <tr class="memitem:ab808d093c900ea339aaefaa265dce09c inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab808d093c900ea339aaefaa265dce09c">GetSupportedDevices</a> (void)=0</td></tr>
 <tr class="memdesc:ab808d093c900ea339aaefaa265dce09c inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported microcontrollers.  <a href="classboard.html#ab808d093c900ea339aaefaa265dce09c">More...</a><br /></td></tr>
 <tr class="separator:ab808d093c900ea339aaefaa265dce09c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acbdf435693ac0c2e592c1249a9437fc4">GetPictureFileName</a> (void)</td></tr>
-<tr class="memdesc:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of board picture.  <a href="classboard.html#acbdf435693ac0c2e592c1249a9437fc4">More...</a><br /></td></tr>
+<tr class="memitem:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="acbdf435693ac0c2e592c1249a9437fc4" name="acbdf435693ac0c2e592c1249a9437fc4"></a>
+virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetPictureFileName</b> (void)</td></tr>
+<tr class="memdesc:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of board picture. <br /></td></tr>
 <tr class="separator:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a0c609ceb2390a8ad8fc70b827272e6 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a0a0c609ceb2390a8ad8fc70b827272e6" name="a0a0c609ceb2390a8ad8fc70b827272e6"></a>
 virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetMapFile</b> (void)</td></tr>
@@ -557,6 +564,18 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>TimerGet_ns</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency</b> (float freq)</td></tr>
 <tr class="memdesc:afea78f14cbd390b61eae0895277b770c inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Timer counters on frequency change. <br /></td></tr>
 <tr class="separator:afea78f14cbd390b61eae0895277b770c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddba72237a6feeb73047bcf082c6d6a inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a2ddba72237a6feeb73047bcf082c6d6a">IoLockAccess</a> (void)</td></tr>
+<tr class="memdesc:a2ddba72237a6feeb73047bcf082c6d6a inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock IO to others threads access.  <a href="classboard.html#a2ddba72237a6feeb73047bcf082c6d6a">More...</a><br /></td></tr>
+<tr class="separator:a2ddba72237a6feeb73047bcf082c6d6a inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ad332d66c1b91a09433b8a52683d7ac9b">IoUnlockAccess</a> (void)</td></tr>
+<tr class="memdesc:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock IO to others threads access.  <a href="classboard.html#ad332d66c1b91a09433b8a52683d7ac9b">More...</a><br /></td></tr>
+<tr class="separator:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe49b0e8187f418f34958bd1d301237 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a1fe49b0e8187f418f34958bd1d301237">GetUARTRX</a> (const int uart_num)</td></tr>
+<tr class="memdesc:a1fe49b0e8187f418f34958bd1d301237 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N RX pin number.  <a href="classboard.html#a1fe49b0e8187f418f34958bd1d301237">More...</a><br /></td></tr>
+<tr class="separator:a1fe49b0e8187f418f34958bd1d301237 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">GetUARTTX</a> (const int uart_num)</td></tr>
+<tr class="memdesc:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <a href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">More...</a><br /></td></tr>
+<tr class="separator:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1289,6 +1308,66 @@ Here is the call graph for this function:</div>
 <p>Get board default clock in MHz. </p>
 
 <p>Reimplemented from <a class="el" href="classboard.html#ae280c2b8726314159cc6d9f408f4cff5">board</a>.</p>
+
+</div>
+</div>
+<a id="a7a5ca9f7b69ecab27fe94342d0dda995" name="a7a5ca9f7b69ecab27fe94342d0dda995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a5ca9f7b69ecab27fe94342d0dda995">&#9670;&nbsp;</a></span>GetUARTRX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bsim_simavr::GetUARTRX </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>uart_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the UART N RX pin number. </p>
+
+<p>Reimplemented from <a class="el" href="classboard.html#a1fe49b0e8187f418f34958bd1d301237">board</a>.</p>
+
+</div>
+</div>
+<a id="a97f64e1981ea397c46cb42609449ebe4" name="a97f64e1981ea397c46cb42609449ebe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97f64e1981ea397c46cb42609449ebe4">&#9670;&nbsp;</a></span>GetUARTTX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bsim_simavr::GetUARTTX </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>uart_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the UART N TX pin number. </p>
+
+<p>Reimplemented from <a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">board</a>.</p>
 
 </div>
 </div>

@@ -5,6 +5,8 @@ var classbsim__remote =
     [ "DebugLoop", "classbsim__remote.html#aa396f384e17fd8de217e64124ee9d271", null ],
     [ "EndServers", "classbsim__remote.html#a45ea073d3dc6d5fe70093e088bed2080", null ],
     [ "GetDebugName", "classbsim__remote.html#ab056bdcc2adf0de5117430b16e1afee4", null ],
+    [ "GetUARTRX", "classbsim__remote.html#a06ef4c67e160ccdf4fbc286c5b40490e", null ],
+    [ "GetUARTTX", "classbsim__remote.html#a1363bb3638687c64a40bf4656044a066", null ],
     [ "MDumpMemory", "classbsim__remote.html#a5021c718b4a5718fb13a7223c8b6eed4", null ],
     [ "MEnd", "classbsim__remote.html#a34335adc88b3597945b198b9d7ae2bc7", null ],
     [ "MEraseFlash", "classbsim__remote.html#afd9c6ee1666dc71a5d7a98598c913235", null ],

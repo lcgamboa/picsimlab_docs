@@ -1,0 +1,8 @@
+<map id="cboard_C3_DevKitC::EvMouseButtonPress" name="cboard_C3_DevKitC::EvMouseButtonPress">
+<area shape="rect" id="node1" title="Event on the board." alt="" coords="5,57,164,98"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="212,5,395,32"/>
+<area shape="rect" id="node3" href="$classcboard___c3___dev_kit_c.html#a143820c0d2207465c7a20e12f0991a2d" title="Reset board status." alt="" coords="224,57,383,98"/>
+<area shape="rect" id="node6" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="213,123,393,149"/>
+<area shape="rect" id="node4" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="453,35,607,61"/>
+<area shape="rect" id="node5" href="$classcboard___c3___dev_kit_c.html#a83268112217411cb7d6ed8f040e909ea" title="Register remote control variables." alt="" coords="443,86,617,127"/>
+</map>

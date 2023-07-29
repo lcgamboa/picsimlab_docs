@@ -31,6 +31,89 @@ The below table show the supported debug interface of each simulator:
 \end{center}
 
 
+\section{Arduino Mega}
+
+It emulates the Arduino Mega development board that uses one ATMEGA2560 microcontroller of 
+\hyperlink{def:simavr}{simavr backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.99\textwidth]{img/boardAMega.png} 
+\end{figure} 
+
+%\href{https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf}{Board Arduino Uno schematics}.\vspace{0.5cm}
+
+The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
+
+The source code of board Arduino Mega examples using the 
+\href{https://www.arduino.cc/en/Main/Software}{Arduino IDE with avr-gcc} are in the link: 
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Arduino_Mega.html}{board\_Arduino\_Mega}.
+
+More information about the Arduino in \href{https://www.arduino.cc/}{www.arduino.cc}
+
+Information on how to configure the PICSimLab integration with the Arduino IDE can be found in the 
+section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
+
+\section{Arduino Nano}
+
+It emulates the Arduino Nano development board that uses one ATMEGA328P microcontroller of
+\hyperlink{def:simavr}{simavr backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.60\textwidth]{img/boardANano.png} 
+\end{figure} 
+
+%\href{https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf}{Board Arduino Uno schematics}.\vspace{0.5cm}
+
+The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
+
+The source code of board Arduino Nano examples using the 
+\href{https://www.arduino.cc/en/Main/Software}{Arduino IDE with avr-gcc} are in the link: 
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Arduino_Nano.html}{board\_Arduino\_Nano}.
+
+More information about the Arduino in \href{https://www.arduino.cc/}{www.arduino.cc}
+
+Information on how to configure the PICSimLab integration with the Arduino IDE can be found in the 
+section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
+
+\section{Arduino Uno}
+
+It emulates the Arduino Uno development board that uses one ATMEGA328P microcontroller of
+\hyperlink{def:simavr}{simavr backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.80\textwidth]{img/picsimlab5.png} 
+\end{figure} 
+
+\href{https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf}{Board Arduino Uno schematics}.\vspace{0.5cm}
+
+The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
+
+The source code of board Arduino Uno examples using the 
+\href{https://www.arduino.cc/en/Main/Software}{Arduino IDE with avr-gcc} are in the link: 
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Arduino_Uno.html}{board\_Arduino\_Uno}.
+
+More information about the Arduino in \href{https://www.arduino.cc/}{www.arduino.cc}
+
+Information on how to configure the PICSimLab integration with the Arduino IDE can be found in the 
+section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
+
+\section{Blue Pill}
+
+It is a generic board only with reset, serial and crystal circuits and support to stm32f103c8t6 microcontroller of 
+\hyperlink{def:qemu-stm32}{qemu-stm32 backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/Blue_Pill.png} 
+\end{figure} 
+
+\hrefb{pdf/boards/Blue_Pill.pdf}{Board Blue Pill schematics}.\vspace{0.5cm}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Blue_Pill.html}{Examples}
+
 
 \section{Breadboard}
 
@@ -46,28 +129,74 @@ of \hyperlink{def:PICSim}{PICSim} and \hyperlink{def:simavr}{simavr} backend sim
 
 \href{https://lcgamboa.github.io/picsimlab_examples/board_Breadboard.html}{Examples}
 
-\section{McLab1}
+\section{Curiosity }
 
-It emulates the Labtools development board McLab1 that uses one PIC16F84, PIC16F628 or PIC16F648 
-of \hyperlink{def:PICSim}{PICSim backend simulator}.
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.85\textwidth]{img/blocks_p1.eps} 
-\end{figure} 
-
+This is a simple PIC microcontroller development board that uses the
+\hyperlink{def:PICSim}{PICSim backend simulator}.
 
 \begin{figure}[H]
 \center
-\includegraphics[width=0.7\textwidth]{img/picsimlab1.png} 
+\includegraphics[width=0.7\textwidth]{img/Curiosity.png} 
 \end{figure} 
 
-\hrefb{pdf/boards/McLab1.pdf}{Board McLab1 schematics}.\vspace{0.5cm}
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Curiosity.html}{Examples}
 
-The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
+\section{Curiosity HPC}
 
-The source code of board McLab1 examples using \href{http://www.microchip.com/mplabx}{MPLABX and XC8} compiler 
-are in the link: \href{https://lcgamboa.github.io/picsimlab_examples/board_McLab1.html}{board\_McLab1}.
+This is a simple PIC microcontroller development board that uses the
+\hyperlink{def:PICSim}{PICSim backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/Curiosity_HPC.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Curiosity_HPC.html}{Examples}
+
+\section{ESP32-C3-DevKitC-02}
+
+It is a simple board only with reset, serial and crystal circuits and support 
+for ESP32-C3 microcontroller of \hyperlink{def:qemu-esp32}{qemu-esp32 backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/C3_DevKitC_02.png} 
+\end{figure} 
+
+\hrefb{pdf/boards/C3_DevKitC_02.pdf}{Board DevKitC-02 schematics}.\vspace{0.5cm}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_ESP32_C3_DevKitC_02.html}{Examples}
+
+
+\section{ESP32-DevKitC}
+
+It is a simple board only with reset, serial and crystal circuits and support 
+for ESP32 microcontroller of \hyperlink{def:qemu-esp32}{qemu-esp32 backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/DevKitC.png} 
+\end{figure} 
+
+\hrefb{pdf/boards/DevKitC.pdf}{Board DevKitC schematics}.\vspace{0.5cm}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_ESP32_DevKitC.html}{Examples}
+
+
+\section{Franzininho DIY}
+
+The Franzininho DIY board is an openhardware project, more info at \href{https://franzininho.com.br/}{https://franzininho.com.br/}.
+It was developed to be used with the microcontroller ATtiny85 of 
+of \hyperlink{def:simavr}{simavr backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/board_Franzininho_DIY.png} 
+\end{figure} 
+
+\hrefb{pdf/boards/FranzininhoDIY.pdf}{Board Franzininho DIY schematics}.\vspace{0.5cm}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Franzininho_DIY.html}{Examples}
 
 \section{K16F}
 
@@ -91,6 +220,31 @@ The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
 
 The source code of board K16F examples using \href{http://www.microchip.com/mplabx}{MPLABX and XC8} compiler are in
 the link: \href{https://lcgamboa.github.io/picsimlab_examples/board_K16F.html}{board\_K16F}.
+
+
+
+\section{McLab1}
+
+It emulates the Labtools development board McLab1 that uses one PIC16F84, PIC16F628 or PIC16F648 
+of \hyperlink{def:PICSim}{PICSim backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.85\textwidth]{img/blocks_p1.eps} 
+\end{figure} 
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/picsimlab1.png} 
+\end{figure} 
+
+\hrefb{pdf/boards/McLab1.pdf}{Board McLab1 schematics}.\vspace{0.5cm}
+
+The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
+
+The source code of board McLab1 examples using \href{http://www.microchip.com/mplabx}{MPLABX and XC8} compiler 
+are in the link: \href{https://lcgamboa.github.io/picsimlab_examples/board_McLab1.html}{board\_McLab1}.
 
 
 \section{McLab2}
@@ -159,147 +313,18 @@ It was developed to be used with arduino/freedom boards, but adapted to use the 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/board_PQDB.html}{Examples}
 
+\section{Remote TCP}
 
-\section{Arduino Uno}
-
-It emulates the Arduino Uno development board that uses one ATMEGA328P microcontroller of
-\hyperlink{def:simavr}{simavr backend simulator}.
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.80\textwidth]{img/picsimlab5.png} 
-\end{figure} 
-
-\href{https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf}{Board Arduino Uno schematics}.\vspace{0.5cm}
-
-The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
-
-The source code of board Arduino Uno examples using the 
-\href{https://www.arduino.cc/en/Main/Software}{Arduino IDE with avr-gcc} are in the link: 
-\href{https://lcgamboa.github.io/picsimlab_examples/board_Arduino_Uno.html}{board\_Arduino\_Uno}.
-
-More information about the Arduino in \href{https://www.arduino.cc/}{www.arduino.cc}
-
-Information on how to configure the PICSimLab integration with the Arduino IDE can be found in the 
-section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
-
-\section{Arduino Nano}
-
-It emulates the Arduino Nano development board that uses one ATMEGA328P microcontroller of
-\hyperlink{def:simavr}{simavr backend simulator}.
+It is a virtual board controlled through one TCP connection. 
+Currently only supports the Risc-V simulator \href{https://github.com/mortbopet/Ripes}{Ripes} and 
+uses the \hyperlink{def:remote}{remote backend simulator}.
 
 \begin{figure}[H]
 \center
-\includegraphics[width=0.60\textwidth]{img/boardANano.png} 
+\includegraphics[width=0.7\textwidth]{img/RemoteTCP.png} 
 \end{figure} 
 
-%\href{https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf}{Board Arduino Uno schematics}.\vspace{0.5cm}
-
-The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
-
-The source code of board Arduino Nano examples using the 
-\href{https://www.arduino.cc/en/Main/Software}{Arduino IDE with avr-gcc} are in the link: 
-\href{https://lcgamboa.github.io/picsimlab_examples/board_Arduino_Nano.html}{board\_Arduino\_Nano}.
-
-More information about the Arduino in \href{https://www.arduino.cc/}{www.arduino.cc}
-
-Information on how to configure the PICSimLab integration with the Arduino IDE can be found in the 
-section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
-
-\section{Arduino Mega}
-
-It emulates the Arduino Mega development board that uses one ATMEGA2560 microcontroller of 
-\hyperlink{def:simavr}{simavr backend simulator}.
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.99\textwidth]{img/boardAMega.png} 
-\end{figure} 
-
-%\href{https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf}{Board Arduino Uno schematics}.\vspace{0.5cm}
-
-The code examples can be loaded in PICSimLab menu \textbf{Help->Examples}.
-
-The source code of board Arduino Mega examples using the 
-\href{https://www.arduino.cc/en/Main/Software}{Arduino IDE with avr-gcc} are in the link: 
-\href{https://lcgamboa.github.io/picsimlab_examples/board_Arduino_Mega.html}{board\_Arduino\_Mega}.
-
-More information about the Arduino in \href{https://www.arduino.cc/}{www.arduino.cc}
-
-Information on how to configure the PICSimLab integration with the Arduino IDE can be found in the 
-section: \hyperlink{def:arduinoide}{Arduino IDE Integration}.
-
-\section{Franzininho DIY}
-
-The Franzininho DIY board is an openhardware project, more info at \href{https://franzininho.com.br/}{https://franzininho.com.br/}.
-It was developed to be used with the microcontroller ATtiny85 of 
-of \hyperlink{def:simavr}{simavr backend simulator}.
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.7\textwidth]{img/board_Franzininho_DIY.png} 
-\end{figure} 
-
-\hrefb{pdf/boards/FranzininhoDIY.pdf}{Board Franzininho DIY schematics}.\vspace{0.5cm}
-
-\href{https://lcgamboa.github.io/picsimlab_examples/board_Franzininho_DIY.html}{Examples}
-
-
-\section{uCboard}
-
-It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
-(initially C51, Z80 and STM8S103 )of \hyperlink{def:ucsim}{ucsim backend simulator}..
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.7\textwidth]{img/uCboard.png} 
-\end{figure} 
-
-\href{https://lcgamboa.github.io/picsimlab_examples/board_uCboard.html}{Examples}
-
-
-\section{Blue Pill}
-
-It is a generic board only with reset, serial and crystal circuits and support to stm32f103c8t6 microcontroller of 
-\hyperlink{def:qemu-stm32}{qemu-stm32 backend simulator}.
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.7\textwidth]{img/Blue_Pill.png} 
-\end{figure} 
-
-\hrefb{pdf/boards/Blue_Pill.pdf}{Board Blue Pill schematics}.\vspace{0.5cm}
-
-\href{https://lcgamboa.github.io/picsimlab_examples/board_Blue_Pill.html}{Examples}
-
-
-\section{ESP32-DevKitC}
-
-It is a simple board only with reset, serial and crystal circuits and support 
-for ESP32 microcontroller of \hyperlink{def:qemu-esp32}{qemu-esp32 backend simulator}.
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.7\textwidth]{img/DevKitC.png} 
-\end{figure} 
-
-\hrefb{pdf/boards/DevKitC.pdf}{Board DevKitC schematics}.\vspace{0.5cm}
-
-\href{https://lcgamboa.github.io/picsimlab_examples/board_ESP32_DevKitC.html}{Examples}
-
-
-\section{gpboard}
-
-It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
-of \hyperlink{def:gpsim}{gpsim backend simulator}..
-
-\begin{figure}[H]
-\center
-\includegraphics[width=0.7\textwidth]{img/gpboard.png} 
-\end{figure} 
-
-\href{https://lcgamboa.github.io/picsimlab_examples/board_gpboard.html}{Examples}
-
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Remote_TCP.html}{Examples}
 
 \section{STM32 H103}
 
@@ -330,3 +355,43 @@ This board uses one PIC16F877A, PIC18F4550 or PIC18F4620 of \hyperlink{def:PICSi
 \hrefb{pdf/boards/X.pdf}{Board X schematics}.\vspace{0.5cm}
 
 \href{https://lcgamboa.github.io/picsimlab_examples/board_X.html}{Examples}
+
+
+\section{Xpress}
+
+This is a simple PIC microcontroller development board that uses the
+\hyperlink{def:PICSim}{PICSim backend simulator}.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/Xpress.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_Xpress.html}{Examples}
+
+
+
+\section{gpboard}
+
+It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
+of \hyperlink{def:gpsim}{gpsim backend simulator}..
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/gpboard.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_gpboard.html}{Examples}
+
+
+\section{uCboard}
+
+It is a generic board only with reset, serial and crystal circuits and support to multiple microcontrollers 
+(initially C51, Z80 and STM8S103 )of \hyperlink{def:ucsim}{ucsim backend simulator}..
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/uCboard.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/board_uCboard.html}{Examples}

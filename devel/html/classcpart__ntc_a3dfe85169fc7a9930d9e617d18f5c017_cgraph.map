@@ -1,0 +1,4 @@
+<map id="cpart_ntc::Reset" name="cpart_ntc::Reset">
+<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="180,5,309,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="cboard_C3_DevKitC::WritePreferences" name="cboard_C3_DevKitC::WritePreferences">
+<area shape="rect" id="node1" title="Called to save board preferences in configuration file." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6" title="Save the preferences." alt="" coords="212,13,385,39"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cboard_C3_DevKitC::Reset" name="cboard_C3_DevKitC::Reset">
+<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,27,164,69"/>
+<area shape="rect" id="node2" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="222,5,377,32"/>
+<area shape="rect" id="node3" href="$classcboard___c3___dev_kit_c.html#a83268112217411cb7d6ed8f040e909ea" title="Register remote control variables." alt="" coords="212,57,387,98"/>
+</map>

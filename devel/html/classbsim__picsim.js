@@ -21,6 +21,8 @@ var classbsim__picsim =
     [ "EndServers", "classbsim__picsim.html#aecd50bbd1b99a5f15ef795efcd370c54", null ],
     [ "GetDebugName", "classbsim__picsim.html#a2b111338a1e69588e721ab7a7e092e17", null ],
     [ "GetDefaultClock", "classbsim__picsim.html#a2685c12ffdc56d4d30a5aabc3e3b3c77", null ],
+    [ "GetUARTRX", "classbsim__picsim.html#abea135a8d7edba603c200fab45f77979", null ],
+    [ "GetUARTTX", "classbsim__picsim.html#aec1d60b5e027ee41cde738f0298358b4", null ],
     [ "MDumpMemory", "classbsim__picsim.html#a23ae5c391202089fd69d794d9ae70832", null ],
     [ "MEnd", "classbsim__picsim.html#ae5dcacd6043a5a0a7c3696c32e9af7b4", null ],
     [ "MEraseFlash", "classbsim__picsim.html#aaec8d191bec2729d32c2992d6ec4b78d", null ],

@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html lang='en' xml:lang='en'> 
-<head><title>7 Backend Simulators</title> 
+<head><title>6 Backend Simulators</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
@@ -41,33 +41,33 @@
     
     
     
-   <span class='chapterToc'>5 <a href='ExperimentalBoards.html#x34-330005'>Experimental Boards</a></span>
     
     
     
     
-   <span class='chapterToc'>6 <a href='SerialCommunication.html#x39-380006'>Serial Communication</a></span>
+    
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
     
     
     
-   <span class='chapterToc'>7 <a href='#x43-420007'>Backend Simulators</a></span>
-    <span class='sectionToc'>7.1 <a href='PICsim.html#x44-430007.1'>PICsim</a></span>
+   <span class='chapterToc'>6 <a href='#x43-420006'>Backend Simulators</a></span>
+    <span class='sectionToc'>6.1 <a href='PICsim.html#x44-430006.1'>PICsim</a></span>
      
                                                                   
 
                                                                   
-    <span class='sectionToc'>7.2 <a href='simavr.html#x46-450007.2'>simavr</a></span>
+    <span class='sectionToc'>6.2 <a href='simavr.html#x46-450006.2'>simavr</a></span>
      
      
-    <span class='sectionToc'>7.3 <a href='qemustm32.html#x49-480007.3'>qemu-stm32</a></span>
+    <span class='sectionToc'>6.3 <a href='qemustm32.html#x49-480006.3'>qemu-stm32</a></span>
      
-    <span class='sectionToc'>7.4 <a href='qemuESP32.html#x51-500007.4'>qemu-ESP32</a></span>
+    <span class='sectionToc'>6.4 <a href='qemuESP32.html#x51-500006.4'>qemu-ESP32</a></span>
      
-    <span class='sectionToc'>7.5 <a href='uCsim.html#x53-520007.5'>uCsim</a></span>
+    <span class='sectionToc'>6.5 <a href='uCsim.html#x53-520006.5'>uCsim</a></span>
      
-    <span class='sectionToc'>7.6 <a href='gpsim.html#x55-540007.6'>gpsim</a></span>
-    <span class='sectionToc'>7.7 <a href='Remote.html#x56-550007.7'>Remote</a></span>
-   <span class='chapterToc'>8 <a href='Tools.html#x57-560008'>Tools</a></span>
+    <span class='sectionToc'>6.6 <a href='gpsim.html#x55-540006.6'>gpsim</a></span>
+    <span class='sectionToc'>6.7 <a href='Remote.html#x56-550006.7'>Remote</a></span>
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
     
     
      
@@ -78,8 +78,8 @@
     
     
     
-   <span class='chapterToc'>9 <a href='Oscilloscope.html#x68-710009'>Oscilloscope</a></span>
-   <span class='chapterToc'>10 <a href='SpareParts.html#x69-7200010'>Spare Parts</a></span>
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
     
     
      
@@ -147,8 +147,8 @@
      
      
      
-   <span class='chapterToc'>11 <a href='Troubleshooting.html#x134-14100011'>Troubleshooting</a></span>
-   <span class='chapterToc'>12 <a href='License.html#x135-14200012'>License</a></span>
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
    <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
    <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
                                                                   
@@ -186,28 +186,28 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='SerialCommunication.html'>prev</a>] [<a href='picsimlab.html#BackendSimulators.html'>up</a>] [<a href='Tools.html'>next</a>] </nav> 
-<h2 class='chapterHead'><span class='titlemark'>Chapter 7</span><br /><a id='x43-420007'></a>Backend Simulators</h2>
+<h2 class='chapterHead'><span class='titlemark'>Chapter 6</span><br /><a id='x43-420006'></a>Backend Simulators</h2>
 <!--  l. 4  --><p class='noindent'>PICSimLab currently supports five backend simulators: <a href='https://github.com/lcgamboa/picsim' target='_blank'>picsim</a>, <a href='https://github.com/buserror/simavr' target='_blank'>simavr</a>, <a href='http://mazsola.iit.uni-miskolc.hu/%7edrdani/embedded/ucsim/' target='_blank'>uCsim</a>, <a href='http://gpsim.sourceforge.net/' target='_blank'>gpsim</a> and
 qemu (<a href='https://beckus.github.io/qemu_stm32/' target='_blank'>stm32</a> and <a href='https://github.com/a159x36/qemu' target='_blank'>esp32</a>).
 </p><!--  l. 12  --><p class='indent'>   The type of debug interface depends on the backend simulator utilized.
 </p>
    <div class='sectionTOCS'>
-    <span class='sectionToc'>7.1 <a href='PICsim.html#x44-430007.1'>PICsim</a></span>
-<br />     <span class='subsectionToc'>7.1.1 <a href='MPLABXIntegratedDebug.html#x45-440007.1.1'>MPLABX Integrated Debug </a></span>
-<br />    <span class='sectionToc'>7.2 <a href='simavr.html#x46-450007.2'>simavr</a></span>
-<br />     <span class='subsectionToc'>7.2.1 <a href='avrgdbDebug.html#x47-460007.2.1'>avr-gdb Debug</a></span>
-<br />     <span class='subsectionToc'>7.2.2 <a href='MPLABXIntDebug.html#x48-470007.2.2'>MPLABX Int. Debug </a></span>
-<br />    <span class='sectionToc'>7.3 <a href='qemustm32.html#x49-480007.3'>qemu-stm32</a></span>
-<br />     <span class='subsectionToc'>7.3.1 <a href='armgdbDebug.html#x50-490007.3.1'>arm-gdb Debug</a></span>
-<br />    <span class='sectionToc'>7.4 <a href='qemuESP32.html#x51-500007.4'>qemu-ESP32</a></span>
-<br />     <span class='subsectionToc'>7.4.1 <a href='ESP32gdbDebug.html#x52-510007.4.1'>ESP32-gdb Debug</a></span>
-<br />    <span class='sectionToc'>7.5 <a href='uCsim.html#x53-520007.5'>uCsim</a></span>
+    <span class='sectionToc'>6.1 <a href='PICsim.html#x44-430006.1'>PICsim</a></span>
+<br />     <span class='subsectionToc'>6.1.1 <a href='MPLABXIntegratedDebug.html#x45-440006.1.1'>MPLABX Integrated Debug </a></span>
+<br />    <span class='sectionToc'>6.2 <a href='simavr.html#x46-450006.2'>simavr</a></span>
+<br />     <span class='subsectionToc'>6.2.1 <a href='avrgdbDebug.html#x47-460006.2.1'>avr-gdb Debug</a></span>
+<br />     <span class='subsectionToc'>6.2.2 <a href='MPLABXIntDebug.html#x48-470006.2.2'>MPLABX Int. Debug </a></span>
+<br />    <span class='sectionToc'>6.3 <a href='qemustm32.html#x49-480006.3'>qemu-stm32</a></span>
+<br />     <span class='subsectionToc'>6.3.1 <a href='armgdbDebug.html#x50-490006.3.1'>arm-gdb Debug</a></span>
+<br />    <span class='sectionToc'>6.4 <a href='qemuESP32.html#x51-500006.4'>qemu-ESP32</a></span>
+<br />     <span class='subsectionToc'>6.4.1 <a href='ESP32gdbDebug.html#x52-510006.4.1'>ESP32-gdb Debug</a></span>
+<br />    <span class='sectionToc'>6.5 <a href='uCsim.html#x53-520006.5'>uCsim</a></span>
                                                                   
 
                                                                   
-<br />     <span class='subsectionToc'>7.5.1 <a href='uCsimDebug.html#x54-530007.5.1'>uCsim Debug</a></span>
-<br />    <span class='sectionToc'>7.6 <a href='gpsim.html#x55-540007.6'>gpsim</a></span>
-<br />    <span class='sectionToc'>7.7 <a href='Remote.html#x56-550007.7'>Remote</a></span>
+<br />     <span class='subsectionToc'>6.5.1 <a href='uCsimDebug.html#x54-530006.5.1'>uCsim Debug</a></span>
+<br />    <span class='sectionToc'>6.6 <a href='gpsim.html#x55-540006.6'>gpsim</a></span>
+<br />    <span class='sectionToc'>6.7 <a href='Remote.html#x56-550006.7'>Remote</a></span>
    </div>
 
 

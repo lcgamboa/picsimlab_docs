@@ -1,0 +1,5 @@
+<map id="cboard_Breadboard::GetUARTRX" name="cboard_Breadboard::GetUARTRX">
+<area shape="rect" id="node1" title="Return the UART N RX pin number." alt="" coords="5,23,161,65"/>
+<area shape="rect" id="node2" href="$classbsim__picsim.html#abea135a8d7edba603c200fab45f77979" title="Return the UART N RX pin number." alt="" coords="210,5,399,32"/>
+<area shape="rect" id="node3" href="$classbsim__simavr.html#a7a5ca9f7b69ecab27fe94342d0dda995" title="Return the UART N RX pin number." alt="" coords="209,56,400,83"/>
+</map>

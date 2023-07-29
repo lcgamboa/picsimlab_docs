@@ -1,0 +1,24 @@
+var classcboard___c3___dev_kit_c =
+[
+    [ "board_ButtonEvent", "classcboard___c3___dev_kit_c.html#afa4dd9cd7f95c759075d9b20f2aa256b", null ],
+    [ "board_Event", "classcboard___c3___dev_kit_c.html#ae52669701ba4afe0a8879a0d3d3d27c3", null ],
+    [ "Draw", "classcboard___c3___dev_kit_c.html#a5b5eafdda1228b84d5b7d00f14195ae9", null ],
+    [ "EvKeyPress", "classcboard___c3___dev_kit_c.html#ab715a2b970a8aff5959d44629667bf1f", null ],
+    [ "EvKeyRelease", "classcboard___c3___dev_kit_c.html#acebf777254e8d245895e7c48c2fbfbf9", null ],
+    [ "EvMouseButtonPress", "classcboard___c3___dev_kit_c.html#a7ea9ebdf09113cc1ce8f57ed06290fdf", null ],
+    [ "EvMouseButtonRelease", "classcboard___c3___dev_kit_c.html#ac1d6059b31123d6dc06bfb5e46971206", null ],
+    [ "GetAboutInfo", "classcboard___c3___dev_kit_c.html#a1783576b9b0cdcc0b749dbe4a132cc52", null ],
+    [ "GetInputId", "classcboard___c3___dev_kit_c.html#a471a202ec302b82f8c5444a1d09f420e", null ],
+    [ "GetName", "classcboard___c3___dev_kit_c.html#a3ff7cd63561f426c053a0d08ed57b970", null ],
+    [ "GetOutputId", "classcboard___c3___dev_kit_c.html#a6e23bd83c82aed4a385c4f47052e6eaf", null ],
+    [ "GetSupportedDevices", "classcboard___c3___dev_kit_c.html#a4b42a2e7fdc078cad26483011f7c09db", null ],
+    [ "MGetPinCount", "classcboard___c3___dev_kit_c.html#a6c4d9a5a679c88a6867774e05d6e8d7f", null ],
+    [ "MGetPinName", "classcboard___c3___dev_kit_c.html#a095f3c273a538cd73ad67cd4d95e6492", null ],
+    [ "MSetAPin", "classcboard___c3___dev_kit_c.html#a60eed120856f236d7dca78589bcf22ac", null ],
+    [ "ReadPreferences", "classcboard___c3___dev_kit_c.html#a9ab4fd69b781a112ffdefa8df73c0509", null ],
+    [ "RefreshStatus", "classcboard___c3___dev_kit_c.html#a693c4bc7b0d13f73ba33073c058a5669", null ],
+    [ "RegisterRemoteControl", "classcboard___c3___dev_kit_c.html#a83268112217411cb7d6ed8f040e909ea", null ],
+    [ "Reset", "classcboard___c3___dev_kit_c.html#a143820c0d2207465c7a20e12f0991a2d", null ],
+    [ "Run_CPU", "classcboard___c3___dev_kit_c.html#a6f142e4570c21be8099ee2878c2dd3ee", null ],
+    [ "WritePreferences", "classcboard___c3___dev_kit_c.html#a45835523c0c80e1b74edb5fb2404d976", null ]
+];

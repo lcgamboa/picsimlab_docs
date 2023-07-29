@@ -133,9 +133,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b8fe5c21ff36153c47542f9f7212d51"><td class="memItemLeft" align="right" valign="top">lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___curiosity___h_p_c.html#a7b8fe5c21ff36153c47542f9f7212d51">GetSupportedDevices</a> (void) override</td></tr>
 <tr class="memdesc:a7b8fe5c21ff36153c47542f9f7212d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported microcontrollers.  <a href="classcboard___curiosity___h_p_c.html#a7b8fe5c21ff36153c47542f9f7212d51">More...</a><br /></td></tr>
 <tr class="separator:a7b8fe5c21ff36153c47542f9f7212d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3e45fe090112fcb1280f7d4a3343a3e"><td class="memItemLeft" align="right" valign="top">lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___curiosity___h_p_c.html#af3e45fe090112fcb1280f7d4a3343a3e">GetPictureFileName</a> (void) override</td></tr>
-<tr class="memdesc:af3e45fe090112fcb1280f7d4a3343a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of board picture.  <a href="classcboard___curiosity___h_p_c.html#af3e45fe090112fcb1280f7d4a3343a3e">More...</a><br /></td></tr>
-<tr class="separator:af3e45fe090112fcb1280f7d4a3343a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad585a67d4b6246f148ca5cc3914470e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___curiosity___h_p_c.html#ad585a67d4b6246f148ca5cc3914470e2">Reset</a> (void) override</td></tr>
 <tr class="memdesc:ad585a67d4b6246f148ca5cc3914470e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset board status.  <a href="classcboard___curiosity___h_p_c.html#ad585a67d4b6246f148ca5cc3914470e2">More...</a><br /></td></tr>
 <tr class="separator:ad585a67d4b6246f148ca5cc3914470e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,6 +296,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2685c12ffdc56d4d30a5aabc3e3b3c77 inherit pub_methods_classbsim__picsim"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__picsim.html#a2685c12ffdc56d4d30a5aabc3e3b3c77">GetDefaultClock</a> (void) override</td></tr>
 <tr class="memdesc:a2685c12ffdc56d4d30a5aabc3e3b3c77 inherit pub_methods_classbsim__picsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <a href="classbsim__picsim.html#a2685c12ffdc56d4d30a5aabc3e3b3c77">More...</a><br /></td></tr>
 <tr class="separator:a2685c12ffdc56d4d30a5aabc3e3b3c77 inherit pub_methods_classbsim__picsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea135a8d7edba603c200fab45f77979 inherit pub_methods_classbsim__picsim"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__picsim.html#abea135a8d7edba603c200fab45f77979">GetUARTRX</a> (const int uart_num) override</td></tr>
+<tr class="memdesc:abea135a8d7edba603c200fab45f77979 inherit pub_methods_classbsim__picsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N RX pin number.  <a href="classbsim__picsim.html#abea135a8d7edba603c200fab45f77979">More...</a><br /></td></tr>
+<tr class="separator:abea135a8d7edba603c200fab45f77979 inherit pub_methods_classbsim__picsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1d60b5e027ee41cde738f0298358b4 inherit pub_methods_classbsim__picsim"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__picsim.html#aec1d60b5e027ee41cde738f0298358b4">GetUARTTX</a> (const int uart_num) override</td></tr>
+<tr class="memdesc:aec1d60b5e027ee41cde738f0298358b4 inherit pub_methods_classbsim__picsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <a href="classbsim__picsim.html#aec1d60b5e027ee41cde738f0298358b4">More...</a><br /></td></tr>
+<tr class="separator:aec1d60b5e027ee41cde738f0298358b4 inherit pub_methods_classbsim__picsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classboard"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classboard')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classboard.html">board</a></td></tr>
 <tr class="memitem:ab5c956d904ce755a885a59f413f8e7c9 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab5c956d904ce755a885a59f413f8e7c9">Draw</a> (CDraw *draw)=0</td></tr>
 <tr class="memdesc:ab5c956d904ce755a885a59f413f8e7c9 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board.  <a href="classboard.html#ab5c956d904ce755a885a59f413f8e7c9">More...</a><br /></td></tr>
@@ -309,8 +312,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab808d093c900ea339aaefaa265dce09c inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab808d093c900ea339aaefaa265dce09c">GetSupportedDevices</a> (void)=0</td></tr>
 <tr class="memdesc:ab808d093c900ea339aaefaa265dce09c inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported microcontrollers.  <a href="classboard.html#ab808d093c900ea339aaefaa265dce09c">More...</a><br /></td></tr>
 <tr class="separator:ab808d093c900ea339aaefaa265dce09c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acbdf435693ac0c2e592c1249a9437fc4">GetPictureFileName</a> (void)</td></tr>
-<tr class="memdesc:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of board picture.  <a href="classboard.html#acbdf435693ac0c2e592c1249a9437fc4">More...</a><br /></td></tr>
+<tr class="memitem:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="acbdf435693ac0c2e592c1249a9437fc4" name="acbdf435693ac0c2e592c1249a9437fc4"></a>
+virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetPictureFileName</b> (void)</td></tr>
+<tr class="memdesc:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of board picture. <br /></td></tr>
 <tr class="separator:acbdf435693ac0c2e592c1249a9437fc4 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a0c609ceb2390a8ad8fc70b827272e6 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top"><a id="a0a0c609ceb2390a8ad8fc70b827272e6" name="a0a0c609ceb2390a8ad8fc70b827272e6"></a>
 virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><b>GetMapFile</b> (void)</td></tr>
@@ -604,6 +608,18 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>TimerGet_ns</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency</b> (float freq)</td></tr>
 <tr class="memdesc:afea78f14cbd390b61eae0895277b770c inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Timer counters on frequency change. <br /></td></tr>
 <tr class="separator:afea78f14cbd390b61eae0895277b770c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddba72237a6feeb73047bcf082c6d6a inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a2ddba72237a6feeb73047bcf082c6d6a">IoLockAccess</a> (void)</td></tr>
+<tr class="memdesc:a2ddba72237a6feeb73047bcf082c6d6a inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock IO to others threads access.  <a href="classboard.html#a2ddba72237a6feeb73047bcf082c6d6a">More...</a><br /></td></tr>
+<tr class="separator:a2ddba72237a6feeb73047bcf082c6d6a inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ad332d66c1b91a09433b8a52683d7ac9b">IoUnlockAccess</a> (void)</td></tr>
+<tr class="memdesc:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock IO to others threads access.  <a href="classboard.html#ad332d66c1b91a09433b8a52683d7ac9b">More...</a><br /></td></tr>
+<tr class="separator:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe49b0e8187f418f34958bd1d301237 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a1fe49b0e8187f418f34958bd1d301237">GetUARTRX</a> (const int uart_num)</td></tr>
+<tr class="memdesc:a1fe49b0e8187f418f34958bd1d301237 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N RX pin number.  <a href="classboard.html#a1fe49b0e8187f418f34958bd1d301237">More...</a><br /></td></tr>
+<tr class="separator:a1fe49b0e8187f418f34958bd1d301237 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">GetUARTTX</a> (const int uart_num)</td></tr>
+<tr class="memdesc:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <a href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">More...</a><br /></td></tr>
+<tr class="separator:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -655,6 +671,12 @@ CLabel *&#160;</td><td class="memItemRight" valign="bottom"><b>label6</b></td></
 <tr class="memitem:a9da991b522ec7fe51f9303e921b9c934"><td class="memItemLeft" align="right" valign="top"><a id="a9da991b522ec7fe51f9303e921b9c934" name="a9da991b522ec7fe51f9303e921b9c934"></a>
 CCombo *&#160;</td><td class="memItemRight" valign="bottom"><b>combo1</b></td></tr>
 <tr class="separator:a9da991b522ec7fe51f9303e921b9c934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d496613a33ef0314aa4a54b35a9f8fe"><td class="memItemLeft" align="right" valign="top"><a id="a0d496613a33ef0314aa4a54b35a9f8fe" name="a0d496613a33ef0314aa4a54b35a9f8fe"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>ic28pins</b></td></tr>
+<tr class="separator:a0d496613a33ef0314aa4a54b35a9f8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004898e39ec582be067b8211f4ddc712"><td class="memItemLeft" align="right" valign="top"><a id="a004898e39ec582be067b8211f4ddc712" name="a004898e39ec582be067b8211f4ddc712"></a>
+lxFont&#160;</td><td class="memItemRight" valign="bottom"><b>font</b></td></tr>
+<tr class="separator:a004898e39ec582be067b8211f4ddc712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1159,36 +1181,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="af3e45fe090112fcb1280f7d4a3343a3e" name="af3e45fe090112fcb1280f7d4a3343a3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3e45fe090112fcb1280f7d4a3343a3e">&#9670;&nbsp;</a></span>GetPictureFileName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">lxString cboard_Curiosity_HPC::GetPictureFileName </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the filename of board picture. </p>
-
-<p>Reimplemented from <a class="el" href="classboard.html#acbdf435693ac0c2e592c1249a9437fc4">board</a>.</p>
-
-</div>
-</div>
 <a id="a7b8fe5c21ff36153c47542f9f7212d51" name="a7b8fe5c21ff36153c47542f9f7212d51"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b8fe5c21ff36153c47542f9f7212d51">&#9670;&nbsp;</a></span>GetSupportedDevices()</h2>
 
@@ -1245,7 +1237,7 @@ Here is the call graph for this function:</div>
 
 <p>Set serial port name to use. </p>
 
-<p>Reimplemented from <a class="el" href="classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f">bsim_picsim</a>.</p>
+<p>Implements <a class="el" href="classboard.html#ad4af1cf9e2222874ee86f1ea84fa0daa">board</a>.</p>
 
 </div>
 </div>
@@ -1477,8 +1469,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/boards/<a class="el" href="exp__board___curiosity___h_p_c_8h_source.html">exp_board_Curiosity_HPC.h</a></li>
-<li>src/boards/exp_board_Curiosity_HPC.cc</li>
+<li>src/boards/<a class="el" href="board___curiosity___h_p_c_8h_source.html">board_Curiosity_HPC.h</a></li>
+<li>src/boards/board_Curiosity_HPC.cc</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

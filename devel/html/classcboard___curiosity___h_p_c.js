@@ -10,7 +10,6 @@ var classcboard___curiosity___h_p_c =
     [ "GetInputId", "classcboard___curiosity___h_p_c.html#ab662c833bc06ae65734f4c605540190f", null ],
     [ "GetName", "classcboard___curiosity___h_p_c.html#adc917559b3ef48d2d6685259d584a409", null ],
     [ "GetOutputId", "classcboard___curiosity___h_p_c.html#a82bd547df5b0fa3b720db67531294faf", null ],
-    [ "GetPictureFileName", "classcboard___curiosity___h_p_c.html#af3e45fe090112fcb1280f7d4a3343a3e", null ],
     [ "GetSupportedDevices", "classcboard___curiosity___h_p_c.html#a7b8fe5c21ff36153c47542f9f7212d51", null ],
     [ "MSetSerial", "classcboard___curiosity___h_p_c.html#adf07be3e004b3ae5ae068350d4155d13", null ],
     [ "ReadPreferences", "classcboard___curiosity___h_p_c.html#a21f8ca50dbb5d4392cc15f64d62f5226", null ],

@@ -1,0 +1,6 @@
+<map id="cboard_C3_DevKitC::Run_CPU" name="cboard_C3_DevKitC::Run_CPU">
+<area shape="rect" id="node1" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,27,164,69"/>
+<area shape="rect" id="node2" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="429,5,583,32"/>
+<area shape="rect" id="node3" href="$classcboard___c3___dev_kit_c.html#a143820c0d2207465c7a20e12f0991a2d" title="Reset board status." alt="" coords="212,57,371,98"/>
+<area shape="rect" id="node4" href="$classcboard___c3___dev_kit_c.html#a83268112217411cb7d6ed8f040e909ea" title="Register remote control variables." alt="" coords="419,57,593,98"/>
+</map>

@@ -29,6 +29,8 @@ var classcboard___breadboard =
     [ "GetName", "classcboard___breadboard.html#aa09a52e07b02fc1aa5f6498431309070", null ],
     [ "GetOutputId", "classcboard___breadboard.html#aff2db808c4543a32a7f1505980267523", null ],
     [ "GetSupportedDevices", "classcboard___breadboard.html#a33ea917f3ead3f9d21278f48a38efb84", null ],
+    [ "GetUARTRX", "classcboard___breadboard.html#ae283bbd2b1db0bd484784f1e8d22ba5c", null ],
+    [ "GetUARTTX", "classcboard___breadboard.html#a2f006324eaa915e147c4b6d299d8f133", null ],
     [ "MDumpMemory", "classcboard___breadboard.html#a1f199b6cf35d7b21b8fd4342a3ad53c4", null ],
     [ "MEnd", "classcboard___breadboard.html#a78b393e9929e1cccba8325da9c3f30af", null ],
     [ "MEraseFlash", "classcboard___breadboard.html#a8a5a52712c33b6cafacbcda36dac15b4", null ],

@@ -10,7 +10,6 @@ var classcboard___xpress =
     [ "GetInputId", "classcboard___xpress.html#a2d1f710c388e491b68d7a03fadf726b2", null ],
     [ "GetName", "classcboard___xpress.html#a414166b9767e36c5c6f4091dcbf35851", null ],
     [ "GetOutputId", "classcboard___xpress.html#a7109784b8c0086abd95e719ff9c07505", null ],
-    [ "GetPictureFileName", "classcboard___xpress.html#a04b276c1795ae963a78adc1cb902165a", null ],
     [ "GetSupportedDevices", "classcboard___xpress.html#a4480cffe3edbb3d1fd648ba0a00f48f9", null ],
     [ "ReadPreferences", "classcboard___xpress.html#a699e03d498d7274fa36a87472e3d6a19", null ],
     [ "RefreshStatus", "classcboard___xpress.html#aa56c087941aebe9825ddfad4142b9971", null ],
