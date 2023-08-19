@@ -49,12 +49,22 @@ Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE
 It is also possible to debug using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
 \begin{verbatim}
 build_type = debug
-upload_port = /dev/tnt2
+upload_port = COM7
+;upload_port = /dev/tnt3
 debug_tool = custom
 debug_port = localhost:1234
-debug_build_flags = -O0 -ggdb3 -g3
+debug_build_flags = -O2 -g
+debug_init_cmds =
+  define pio_reset_halt_target
+  end
+  define pio_reset_run_target
+  end
+  target extended-remote $DEBUG_PORT
+  $LOAD_CMDS
+  pio_reset_halt_target
+  $INIT_BREAK
 \end{verbatim}
-Compile, and upload the code to PICSimLab before starting Debug.
+%Compile, and upload the code to PICSimLab before starting Debug.
 
 \subsection{MPLABX Int. Debug }
 PICSimLab also supports using MPLABX to debug simavr. The configuration is the same as described in PICSim section: \hyperlink{def:mplabxd}{MPLABX Integrated Debug}. 
@@ -102,11 +112,12 @@ in the Chapter \hyperlink{def:seriali}{Serial Communication} to flash PICSimLab 
 
 Graphic debug mode can be made using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
 \begin{verbatim}
-upload_port = /dev/tnt2
+upload_port = com7
+;upload_port = /dev/tnt2
 build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
-debug_build_flags = -O0 -ggdb3 -g3
+debug_build_flags = -O2 -g
 debug_init_break = tbreak setup
 debug_init_cmds =
   define pio_reset_halt_target
@@ -116,10 +127,11 @@ debug_init_cmds =
       monitor system_reset
   end
   target extended-remote $DEBUG_PORT
+  $LOAD_CMDS
   pio_reset_halt_target
   $INIT_BREAK
 \end{verbatim}
-Compile, and upload the code to PICSimLab before starting Debug.
+%Compile, and upload the code to PICSimLab before starting Debug.
  
  
 \section{uCsim} \hypertarget{def:ucsim}{}

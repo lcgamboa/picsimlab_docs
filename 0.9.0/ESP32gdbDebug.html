@@ -187,10 +187,10 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='qemuESP32.html#ESP32gdbDebug.html'>up</a>] </nav> 
 <h4 class='subsectionHead'><span class='titlemark'>6.4.1    </span> <a id='x52-510006.4.1'></a>ESP32-gdb Debug</h4>
-<!--  l. 90  --><p class='noindent'><a id='def:gdbesp'></a>
-</p><!--  l. 92  --><p class='indent'>   With debug support enabled you can use xtensa-esp32-elf-gdb to debug the code used in
+<!--  l. 100  --><p class='noindent'><a id='def:gdbesp'></a>
+</p><!--  l. 102  --><p class='indent'>   With debug support enabled you can use xtensa-esp32-elf-gdb to debug the code used in
 the simulator.
-</p><!--  l. 94  --><p class='indent'>   Use xtensa-esp32-elf-gdb with the .elf file as the parameter:
+</p><!--  l. 104  --><p class='indent'>   Use xtensa-esp32-elf-gdb with the .elf file as the parameter:
                                                                   
 
                                                                   
@@ -199,7 +199,7 @@ the simulator.
  xtensa-esp32-elf-gdb compiled_file.elf
  
 </pre>
-<!--  l. 97  --><p class='nopar'> and the command below to connect (1234 is the default port):
+<!--  l. 107  --><p class='nopar'> and the command below to connect (1234 is the default port):
                                                                   
 
                                                                   
@@ -208,19 +208,20 @@ the simulator.
  target remote localhost:1234
  
 </pre>
-<!--  l. 101  --><p class='nopar'>
-</p><!--  l. 103  --><p class='indent'>   Graphic debug mode can be made using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the
+<!--  l. 111  --><p class='nopar'>
+</p><!--  l. 113  --><p class='indent'>   Graphic debug mode can be made using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the
 configuration lines below in the project’s <span class='textbf'>platformio.ini</span> file:
                                                                   
 
                                                                   
 </p>
    <pre class='verbatim' id='verbatim-12'>
-upload_port = /dev/tnt2
+upload_port = com7
+;upload_port = /dev/tnt2
 build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
-debug_build_flags = -O0 -ggdb3 -g3
+debug_build_flags = -O2 -g
 debug_init_break = tbreak setup
 debug_init_cmds =
   define pio_reset_halt_target
@@ -230,10 +231,11 @@ debug_init_cmds =
       monitor system_reset
   end
   target extended-remote $DEBUG_PORT
+  $LOAD_CMDS
   pio_reset_halt_target
   $INIT_BREAK
 </pre>
-<!--  l. 121  --><p class='nopar'> Compile, and upload the code to PICSimLab before starting Debug.
+<!--  l. 133  --><p class='nopar'>
                                                                   
 
                                                                   
