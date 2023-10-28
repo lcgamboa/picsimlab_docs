@@ -2,6 +2,7 @@ var classcboard___c3___dev_kit_c =
 [
     [ "board_ButtonEvent", "classcboard___c3___dev_kit_c.html#afa4dd9cd7f95c759075d9b20f2aa256b", null ],
     [ "board_Event", "classcboard___c3___dev_kit_c.html#ae52669701ba4afe0a8879a0d3d3d27c3", null ],
+    [ "DBGGetROMSize", "classcboard___c3___dev_kit_c.html#acd0e9ee93e80fd2517a42b8fb4fc1c14", null ],
     [ "Draw", "classcboard___c3___dev_kit_c.html#a5b5eafdda1228b84d5b7d00f14195ae9", null ],
     [ "EvKeyPress", "classcboard___c3___dev_kit_c.html#ab715a2b970a8aff5959d44629667bf1f", null ],
     [ "EvKeyRelease", "classcboard___c3___dev_kit_c.html#acebf777254e8d245895e7c48c2fbfbf9", null ],

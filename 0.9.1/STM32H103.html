@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>STM32 H103</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    
+    
+    
+     
+     
+     
+     
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    <span class='sectionToc'>4.1 <a href='ArduinoMega.html#x18-170004.1'>Arduino Mega</a></span>
+    <span class='sectionToc'>4.2 <a href='ArduinoNano.html#x19-180004.2'>Arduino Nano</a></span>
+    <span class='sectionToc'>4.3 <a href='ArduinoUno.html#x20-190004.3'>Arduino Uno</a></span>
+    <span class='sectionToc'>4.4 <a href='BluePill.html#x21-200004.4'>Blue Pill</a></span>
+    <span class='sectionToc'>4.5 <a href='Breadboard.html#x22-210004.5'>Breadboard</a></span>
+    <span class='sectionToc'>4.6 <a href='Curiosity.html#x23-220004.6'>Curiosity </a></span>
+    <span class='sectionToc'>4.7 <a href='CuriosityHPC.html#x24-230004.7'>Curiosity HPC</a></span>
+    <span class='sectionToc'>4.8 <a href='ESP32C3DevKitC02.html#x25-240004.8'>ESP32-C3-DevKitC-02</a></span>
+    <span class='sectionToc'>4.9 <a href='ESP32DevKitC.html#x26-250004.9'>ESP32-DevKitC</a></span>
+    <span class='sectionToc'>4.10 <a href='FranzininhoDIY.html#x27-260004.10'>Franzininho DIY</a></span>
+    <span class='sectionToc'>4.11 <a href='K16F.html#x28-270004.11'>K16F</a></span>
+    <span class='sectionToc'>4.12 <a href='McLab1.html#x29-280004.12'>McLab1</a></span>
+    <span class='sectionToc'>4.13 <a href='McLab2.html#x30-290004.13'>McLab2</a></span>
+    <span class='sectionToc'>4.14 <a href='PICGenios.html#x31-300004.14'>PICGenios</a></span>
+    <span class='sectionToc'>4.15 <a href='PQDB.html#x32-310004.15'>PQDB</a></span>
+    <span class='sectionToc'>4.16 <a href='RemoteTCP.html#x33-320004.16'>Remote TCP</a></span>
+    <span class='sectionToc'>4.17 <a href='#x34-330004.17'>STM32 H103</a></span>
+    <span class='sectionToc'>4.18 <a href='X.html#x35-340004.18'>X</a></span>
+    <span class='sectionToc'>4.19 <a href='Xpress.html#x36-350004.19'>Xpress</a></span>
+    <span class='sectionToc'>4.20 <a href='gpboard.html#x37-360004.20'>gpboard</a></span>
+    <span class='sectionToc'>4.21 <a href='uCboard.html#x38-370004.21'>uCboard</a></span>
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
+    
+                                                                  
+
+                                                                  
+    
+    
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006'>Backend Simulators</a></span>
+    
+     
+    
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='RemoteTCP.html'>prev</a>] [<a href='Boards.html#STM32H103.html'>up</a>] [<a href='X.html'>next</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>4.17    </span> <a id='x34-330004.17'></a>STM32 H103</h3>
+<!--  l. 331  --><p class='noindent'>It is a generic board only with reset, one push button, serial and crystal circuits and support to
+stm32f103rbt6 microcontroller of <a href='qemustm32.html#def:qemu-stm32'>qemu-stm32 backend simulator</a>.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 336  --><p class='noindent'><img alt='PIC' src='img/STM32_H103.png' style='width:70%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!--  l. 339  --><p class='indent'>   <a href='pdf/boards/STM32_H103.pdf' target='_blank'>Board STM32 H103 schematics</a>.
+</p><!--  l. 341  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/board_STM32_H103.html' target='_blank'>Examples</a>
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='RemoteTCP.html'>prev</a>] [<a href='Boards.html#STM32H103.html'>up</a>] [<a href='X.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

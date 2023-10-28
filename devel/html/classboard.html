@@ -465,6 +465,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency<
 <tr class="memitem:acdc95bb7fd294f5f62d5dc732126c684"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">GetUARTTX</a> (const int uart_num)</td></tr>
 <tr class="memdesc:acdc95bb7fd294f5f62d5dc732126c684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <a href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">More...</a><br /></td></tr>
 <tr class="separator:acdc95bb7fd294f5f62d5dc732126c684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdabc90e248056926448a90992be846"><td class="memItemLeft" align="right" valign="top">virtual lxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a1fdabc90e248056926448a90992be846">GetClkLabel</a> (void)</td></tr>
+<tr class="memdesc:a1fdabc90e248056926448a90992be846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the description of clk label.  <a href="classboard.html#a1fdabc90e248056926448a90992be846">More...</a><br /></td></tr>
+<tr class="separator:a1fdabc90e248056926448a90992be846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -1098,7 +1101,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 <p>board microcontroller get ROM (FLASH) memory size </p>
 
-<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#aac02fced311476859d7b48f31868b005">cboard_Breadboard</a>, <a class="el" href="classbsim__picsim.html#a48fddc7c86c978acc32724e4a96f1ec9">bsim_picsim</a>, and <a class="el" href="classbsim__simavr.html#a69fc21623d5883616f1d8bb111e782b0">bsim_simavr</a>.</p>
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#aac02fced311476859d7b48f31868b005">cboard_Breadboard</a>, <a class="el" href="classcboard___c3___dev_kit_c.html#acd0e9ee93e80fd2517a42b8fb4fc1c14">cboard_C3_DevKitC</a>, <a class="el" href="classcboard___dev_kit_c.html#af3652bc3154ea2da53aaac2131e03d40">cboard_DevKitC</a>, <a class="el" href="classbsim__picsim.html#a48fddc7c86c978acc32724e4a96f1ec9">bsim_picsim</a>, and <a class="el" href="classbsim__simavr.html#a69fc21623d5883616f1d8bb111e782b0">bsim_simavr</a>.</p>
 
 </div>
 </div>
@@ -1575,6 +1578,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 <p>Return the about information of part. </p>
 
 <p>Implemented in <a class="el" href="classcboard___arduino___mega.html#aa708ba5ac2c82e26ed286aa2a1d816a1">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___nano.html#a4e8b90345148dc1e572c858ffffbd18a">cboard_Arduino_Nano</a>, <a class="el" href="classcboard___arduino___uno.html#a355dd49ce9b5930bfae71473598466ff">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#ae8592dc2bdc1fe964b202966382462d7">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a5e87c27c90c84cebf73b4046369d185d">cboard_Breadboard</a>, <a class="el" href="classcboard___c3___dev_kit_c.html#a1783576b9b0cdcc0b749dbe4a132cc52">cboard_C3_DevKitC</a>, <a class="el" href="classcboard___curiosity.html#aeb73bddb79a5e771c18f0a4f0db131cb">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a7aeb7e02faf2c90e3b775f8a8aa58700">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___dev_kit_c.html#ae8c84cef71b31c283e08cb6331f71180">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#aa4bd1155ac75ae9a6a5647907a178799">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#aced0c0ced635f58ce06d15f33703d3cb">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a391b50fdc1ce10a8d5da20f06601d9ac">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a85ef40841aca1ead88916f8876621538">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#ab9b104be77a26be0384ae994ff42dcfe">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a7a8a99d2b0ccc1a4b2403c7c06de80af">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a6b38eb77f48558465a8aa08e08f9ccdb">cboard_PQDB</a>, <a class="el" href="classcboard___remote_t_c_p.html#acad76def210a0f6f8d451b20499bed7e">cboard_RemoteTCP</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a9daf700f25b38e598542d9b3648138f3">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#ac1ad27ce280c65df1b2547a497cd2fd2">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a3d75167fedb903b74a8920476214f701">cboard_x</a>, and <a class="el" href="classcboard___xpress.html#a961670e67b7caf44756f968c173e9cbc">cboard_Xpress</a>.</p>
+
+</div>
+</div>
+<a id="a1fdabc90e248056926448a90992be846" name="a1fdabc90e248056926448a90992be846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fdabc90e248056926448a90992be846">&#9670;&nbsp;</a></span>GetClkLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual lxString board::GetClkLabel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the description of clk label. </p>
+
+<p>Reimplemented in <a class="el" href="classbsim__qemu.html#a7eb3fc87c6510dcc962b691ed92b683e">bsim_qemu</a>, and <a class="el" href="classbsim__remote.html#a6f3b2ad394959fa8de9f0d6747fe2d28">bsim_remote</a>.</p>
 
 </div>
 </div>

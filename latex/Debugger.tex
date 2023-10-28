@@ -54,6 +54,7 @@ upload_port = COM7
 debug_tool = custom
 debug_port = localhost:1234
 debug_build_flags = -O2 -g
+debug_init_break = tbreak setup
 debug_init_cmds =
   define pio_reset_halt_target
   end
@@ -87,7 +88,27 @@ It's possible import and debug a Arduino sketch into MPLABX using the \href{http
  \end{verbatim}
 
 Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with 
-\href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT}.
+\href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT} or using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
+\begin{verbatim}
+upload_port = com7
+;upload_port = /dev/tnt2
+build_type = debug
+debug_tool = custom
+debug_port = localhost:1234
+debug_build_flags = -O2 -g
+debug_init_break = tbreak main
+debug_init_cmds =
+  define pio_reset_halt_target
+      monitor system_reset
+  end
+  define pio_reset_run_target
+      monitor system_reset
+  end
+  target extended-remote $DEBUG_PORT
+  $LOAD_CMDS
+  pio_reset_halt_target
+  $INIT_BREAK
+\end{verbatim}
 
 \section{qemu-ESP32} \hypertarget{def:qemu-esp32}{}
  ``\href{https://github.com/a159x36/qemu}{Qemu ESP32}: Qemu Emulator for TTGO TDisplay esp32 board. ''
@@ -118,7 +139,7 @@ build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
 debug_build_flags = -O2 -g
-debug_init_break = tbreak setup
+debug_init_break = tbreak main
 debug_init_cmds =
   define pio_reset_halt_target
       monitor system_reset

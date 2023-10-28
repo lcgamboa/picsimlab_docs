@@ -1,0 +1,206 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Linux</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+    <span class='sectionToc'>2.1 <a href='Stableversionexecutablesdownload.html#x4-30002.1'>Stable version executables download</a></span>
+    <span class='sectionToc'>2.2 <a href='Unstableversionexecutablesdownload.html#x5-40002.2'>Unstable version executables download</a></span>
+    <span class='sectionToc'>2.3 <a href='Installfromsource.html#x6-50002.3'>Install from source</a></span>
+     <span class='subsectionToc'>2.3.1 <a href='#x7-60002.3.1'>Linux</a></span>
+     <span class='subsectionToc'>2.3.2 <a href='Windows.html#x8-70002.3.2'>Windows</a></span>
+     <span class='subsectionToc'>2.3.3 <a href='macOS.html#x9-80002.3.3'>macOS</a></span>
+     <span class='subsectionToc'>2.3.4 <a href='Experimentalversion.html#x10-90002.3.4'>Experimental version</a></span>
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+    
+    
+    
+    
+    
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
+    
+    
+    
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006'>Backend Simulators</a></span>
+    
+                                                                  
+
+                                                                  
+     
+    
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
+    
+    
+     
+     
+     
+    
+     
+    
+    
+    
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+                                                                  
+
+                                                                  
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+                                                                  
+
+                                                                  
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+    
+     
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+     
+    
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+    
+     
+     
+     
+     
+     
+     
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Installfromsource.html#Linux.html'>up</a>] [<a href='Windows.html'>next</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>2.3.1    </span> <a id='x7-60002.3.1'></a>Linux</h4>
+<!--  l. 29  --><p class='noindent'>In Debian Linux and derivatives Linux native:
+</p><!--  l. 31  --><p class='indent'>   <span class='textbf'>Using a user with permission to run the sudo command:</span>
+</p><!--  l. 33  --><p class='indent'>   In first time build: </p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb1'><a id='x7-6005r1'></a><span class='pcrr8t-x-x-80'>git</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>clone</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>--depth</span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>=</span></span><span class='textcolor-656565'><span class='pcrr8t-x-x-80'>1</span></span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>https://github.com/lcgamboa/picsimlab.git</span> 
+<a id='x7-6007r2'></a><span class='textcolor-007f00'><span class='pcrr8t-x-x-80'>cd</span></span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>picsimlab</span> 
+<a id='x7-6009r3'></a><span class='pcrr8t-x-x-80'>bscripts/build_all_and_install.sh</span></pre>
+</div>
+<!--  l. 40  --><p class='indent'>   To recompile use: </p><div class='minted-color-box' style='background-color:#F0F0F0'>
+   <pre class='fancyvrb' id='fancyvrb2'><a id='x7-6012r1'></a><span class='pcrr8t-x-x-80'>make</span><span class='textcolor-bababa'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>-j4</span></pre>
+</div>
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='Installfromsource.html#Linux.html'>up</a>] [<a href='Windows.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

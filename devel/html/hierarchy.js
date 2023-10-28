@@ -5,6 +5,7 @@ var hierarchy =
     [ "avr_gdb_t", "structavr__gdb__t.html", null ],
     [ "avr_gdb_watchpoints_t", "structavr__gdb__watchpoints__t.html", null ],
     [ "bitbang_i2c_t", "structbitbang__i2c__t.html", null ],
+    [ "bitbang_pwm_t", "structbitbang__pwm__t.html", null ],
     [ "bitbang_spi_t", "structbitbang__spi__t.html", null ],
     [ "bitbang_uart_t", "structbitbang__uart__t.html", null ],
     [ "board", "classboard.html", [

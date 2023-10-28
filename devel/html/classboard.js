@@ -33,6 +33,7 @@ var classboard =
     [ "EvOnShow", "classboard.html#aefaf6603834cb682be9c6a55fb0913e7", null ],
     [ "EvThreadRun", "classboard.html#ab6bb3d2977121ddb0701dcc03a884775", null ],
     [ "GetAboutInfo", "classboard.html#ab6ef377f7097d785acea08dde6ac7aa2", null ],
+    [ "GetClkLabel", "classboard.html#a1fdabc90e248056926448a90992be846", null ],
     [ "GetDebugName", "classboard.html#adf3f371f14f85e1222d27eceec4e1f55", null ],
     [ "GetDefaultClock", "classboard.html#ae280c2b8726314159cc6d9f408f4cff5", null ],
     [ "GetDefaultProcessor", "classboard.html#a3a732c9c6166c89ed87e0d2ec7dc8ab2", null ],

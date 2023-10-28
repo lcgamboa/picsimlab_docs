@@ -185,18 +185,29 @@ $(document).ready(function(){initNavTree('qemu_8h_source.html',''); initResizabl
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    int (*picsimlab_i2c_event)(<span class="keyword">const</span> uint8_t id, <span class="keyword">const</span> uint8_t addr, <span class="keyword">const</span> uint16_t event);</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    uint8_t (*picsimlab_spi_event)(<span class="keyword">const</span> uint8_t id, <span class="keyword">const</span> uint16_t event);</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    void (*picsimlab_uart_tx_event)(<span class="keyword">const</span> uint8_t id, <span class="keyword">const</span> uint8_t value);</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>} <a class="code hl_struct" href="structcallbacks__t.html">callbacks_t</a>;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">enum</span> i2c_event {</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    I2C_START_RECV,</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    I2C_START_SEND,</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    I2C_START_SEND_ASYNC,</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    I2C_FINISH,</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    I2C_NACK, <span class="comment">/* Masker NACKed a receive byte.  */</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    I2C_WRITE,</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    I2C_READ</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>}</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">const</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span>* pinmap;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>} <a class="code hl_struct" href="structcallbacks__t.html">callbacks_t</a>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">enum</span> i2c_event {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    I2C_START_RECV,</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    I2C_START_SEND,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    I2C_START_SEND_ASYNC,</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    I2C_FINISH,</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    I2C_NACK, <span class="comment">/* Masker NACKed a receive byte.  */</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    I2C_WRITE,</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    I2C_READ</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>};</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#define QEMU_INTERNAL_STRAP 0</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#define QEMU_INTERNAL_GPIO_IN_SEL 1</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">#define QEMU_INTERNAL_GPIO_OUT_SEL 2</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">#define QEMU_INTERNAL_IOMUX_GPIOS 3</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="preprocessor">#define QEMU_EXTRA_PIN_IN_CFG 1</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#define QEMU_EXTRA_PIN_OUT_CFG 2</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#define QEMU_EXTRA_PIN_IOMUX_CFG 4</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">#define QEMU_EXTRA_PIN_LEDC_CFG 5</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>}</div>
 <div class="ttc" id="astruct_q_e_m_u_timer_html"><div class="ttname"><a href="struct_q_e_m_u_timer.html">QEMUTimer</a></div><div class="ttdef"><b>Definition:</b> qemu.h:46</div></div>
 <div class="ttc" id="astructcallbacks__t_html"><div class="ttname"><a href="structcallbacks__t.html">callbacks_t</a></div><div class="ttdef"><b>Definition:</b> qemu.h:93</div></div>
 <div class="ttc" id="astructuser__timer__t_html"><div class="ttname"><a href="structuser__timer__t.html">user_timer_t</a></div><div class="ttdef"><b>Definition:</b> qemu.h:56</div></div>

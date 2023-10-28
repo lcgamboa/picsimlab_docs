@@ -4,6 +4,7 @@ var classbsim__remote =
     [ "DebugInit", "classbsim__remote.html#a532f3150f8fbc17f366a705583e23aa5", null ],
     [ "DebugLoop", "classbsim__remote.html#aa396f384e17fd8de217e64124ee9d271", null ],
     [ "EndServers", "classbsim__remote.html#a45ea073d3dc6d5fe70093e088bed2080", null ],
+    [ "GetClkLabel", "classbsim__remote.html#a6f3b2ad394959fa8de9f0d6747fe2d28", null ],
     [ "GetDebugName", "classbsim__remote.html#ab056bdcc2adf0de5117430b16e1afee4", null ],
     [ "GetUARTRX", "classbsim__remote.html#a06ef4c67e160ccdf4fbc286c5b40490e", null ],
     [ "GetUARTTX", "classbsim__remote.html#a1363bb3638687c64a40bf4656044a066", null ],

@@ -157,6 +157,9 @@ To use:
 This part is ADXL345 accelerometer with I2C/SPI interface. 
 Only raw values are available.
 
+To select SPI mode put low level in CS pin.
+In I2C mode (CS pin high), the address is 0x1D when SDO is NC or high and 0x53 when SDO pin is held in low. 
+
 \begin{figure}[H]
 \center
 \includegraphics[width=0.6\textwidth]{img/part_ADXL345.png} 
@@ -170,7 +173,7 @@ Only raw values are available.
 
 \subsection{BMP180 (Pressure I2C)} 
 
-This part is BMP180 I2C pressure and temperature sensor. 
+This part is BMP180 I2C pressure and temperature sensor (address 0x77). 
 The temperature  range is -40 to 85 °C  
 and the pressure range is 300 hPa to 1100 hPa.
 
@@ -190,6 +193,9 @@ and the pressure range is 300 hPa to 1100 hPa.
 This part is BMP280 I2C/SPI pressure and temperature sensor. 
 The temperature  range is -40 to 85 °C  
 and the pressure range is 300 hPa to 1100 hPa.
+
+To select SPI mode put low level in CSB pin.
+In I2C mode (CSB pin high), the address is 0x77 when SDO is NC or high and 0x76 when SDO pin is held in low. 
 
 \begin{figure}[H]
 \center
@@ -239,6 +245,8 @@ and the relative humidity range is 0 to 100 \%.
 
 
 This part is DS1621 I2C temperature sensor. The measurement range is -55 to 125 °C.
+
+The I2C address range is 0x48 to 0x4F. If pins A2, A1 and A0 are not connect (NC) the default address is 0x48.  
 
 \begin{figure}[H]
 \center
@@ -455,6 +463,8 @@ voltage output is 10mV/°C.
 
 This part is MPU6050 accelerometer and gyroscope with I2C interface. 
 Only raw values are available, DMP is not supported.
+
+Ihe I2C address is 0x68 when AD0 is NC or low and 0x69 when AD0 pin is held in high.
 
 \begin{figure}[H]
 \center
@@ -758,6 +768,8 @@ This part is a monochrome graphic display with 48x84 pixels. (Nokia 5110)
 This part is a monochrome oled graphic display with 128x64 pixels. 
 The part suport I2C and 4 SPI serial mode.
 
+In the I2C mode address is 0x3c when DC pin is NC or low and 0x3d when DC pin is held in high.
+
 \begin{figure}[H]
 \center
 \includegraphics[width=0.35\textwidth]{img/part_lcd_ssd1306.png} 
@@ -955,7 +967,7 @@ It is a MM74C922 key encoder.
 
 \subsection{IO PCF8574}
 
-It is a PCF8574 serial I2C IO expander.
+It is a PCF8574 serial I2C IO expander (Address 0x20 to 0x27).
 
 \begin{figure}[H]
 \center
@@ -964,6 +976,8 @@ It is a PCF8574 serial I2C IO expander.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_IO_PCF8574.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/PCF8574.pdf}{Datasheet} 
 
 \subsection{IO UART}
 
@@ -1004,9 +1018,15 @@ It is a 24CXXX serial I2C EEPROM part. There are support to the models 24C04 and
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_MEM_24CXXX.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/24C04.pdf}{Datasheet 24C04} 
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/24C512.pdf}{Datasheet 24C512} 
+
 \subsection{RTC ds1307}
 
-This part is a ds1307 real time clock with serial I2C interface.
+This part is a ds1307 real time clock with serial I2C interface (Address 0x68).
 
 \begin{figure}[H]
 \center
@@ -1015,10 +1035,12 @@ This part is a ds1307 real time clock with serial I2C interface.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_RTC_ds1307.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/DS1307.pdf}{Datasheet} 
 
 \subsection{RTC pfc8563}
 
-This part is a pfc8563 real time clock with serial I2C interface.
+This part is a pfc8563 real time clock with serial I2C interface (Address 0x51).
 
 \begin{figure}[H]
 \center
@@ -1027,6 +1049,8 @@ This part is a pfc8563 real time clock with serial I2C interface.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_RTC_pfc8563.html}{Examples}
 
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/PCF8563.pdf}{Datasheet} 
 
 \subsection{SD Card}
 

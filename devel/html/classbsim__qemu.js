@@ -4,6 +4,7 @@ var classbsim__qemu =
     [ "DebugInit", "classbsim__qemu.html#a6e85a7cd35b60a16cf145d96d3fec1e6", null ],
     [ "DebugLoop", "classbsim__qemu.html#ad87efbabb4bfc4085a891d03fba6b1a6", null ],
     [ "EvThreadRun", "classbsim__qemu.html#a55f0a3e247a388b8036aa3a3e1b10bf4", null ],
+    [ "GetClkLabel", "classbsim__qemu.html#a7eb3fc87c6510dcc962b691ed92b683e", null ],
     [ "GetDebugName", "classbsim__qemu.html#a1f9865e5adcda482d4b6f52977b20d67", null ],
     [ "GetDefaultClock", "classbsim__qemu.html#a3730acd468afb098500b9f228560fe3d", null ],
     [ "GetUARTRX", "classbsim__qemu.html#a8eb7c61f39b47b0bc82b9c12f9920f8b", null ],

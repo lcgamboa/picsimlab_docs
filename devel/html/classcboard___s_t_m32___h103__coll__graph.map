@@ -1,13 +1,14 @@
 <map id="cboard_STM32_H103" name="cboard_STM32_H103">
-<area shape="rect" id="node1" title=" " alt="" coords="149,364,307,391"/>
-<area shape="rect" id="node2" href="$classbsim__qemu.html" title=" " alt="" coords="179,288,277,315"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
-<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="40,199,149,225"/>
-<area shape="rect" id="node10" href="$structbitbang__spi__t.html" title=" " alt="" coords="173,199,283,225"/>
-<area shape="rect" id="node11" href="$structbitbang__uart__t.html" title=" " alt="" coords="307,199,423,225"/>
-<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
-<area shape="rect" id="node7" href="$structuser__timer__t.html" title=" " alt="" coords="448,199,552,225"/>
-<area shape="rect" id="node8" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="451,109,549,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="203,364,361,391"/>
+<area shape="rect" id="node2" href="$classbsim__qemu.html" title=" " alt="" coords="233,288,331,315"/>
+<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="185,109,243,136"/>
+<area shape="rect" id="node9" href="$structbitbang__i2c__t.html" title=" " alt="" coords="26,199,135,225"/>
+<area shape="rect" id="node10" href="$structbitbang__spi__t.html" title=" " alt="" coords="159,199,269,225"/>
+<area shape="rect" id="node11" href="$structbitbang__uart__t.html" title=" " alt="" coords="293,199,409,225"/>
+<area shape="rect" id="node12" href="$structbitbang__pwm__t.html" title=" " alt="" coords="434,199,557,225"/>
+<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="85,5,151,32"/>
+<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="176,5,252,32"/>
+<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="276,5,355,32"/>
+<area shape="rect" id="node7" href="$structuser__timer__t.html" title=" " alt="" coords="581,199,685,225"/>
+<area shape="rect" id="node8" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="583,109,682,136"/>
 </map>

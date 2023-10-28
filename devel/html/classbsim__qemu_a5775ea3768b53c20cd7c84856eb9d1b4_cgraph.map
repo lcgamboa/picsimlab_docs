@@ -1,0 +1,4 @@
+<map id="bsim_qemu::MDumpMemory" name="bsim_qemu::MDumpMemory">
+<area shape="rect" id="node1" title="board microcontroller save non volatile memory to hex file" alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$classboard.html#a0397ca2fcd8e5d59289aa7e78c895571" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="264,5,441,32"/>
+</map>
