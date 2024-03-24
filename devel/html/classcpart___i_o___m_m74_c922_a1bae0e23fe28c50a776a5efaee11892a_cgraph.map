@@ -1,5 +1,7 @@
 <map id="cpart_IO_MM74C922::PreProcess" name="cpart_IO_MM74C922::PreProcess">
-<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,23,169,65"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="217,5,423,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="225,56,415,83"/>
+<area shape="rect" id="Node000001" title="Called every start of CPU process." alt="" coords="5,23,169,63"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="217,5,423,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,32,203,28,204,33,170,37"/>
+<area shape="rect" id="Node000003" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="225,55,415,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,49,212,53,211,59,169,54"/>
 </map>

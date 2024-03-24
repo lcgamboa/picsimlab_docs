@@ -1,5 +1,7 @@
 <map id="cboard_uCboard::SetScale" name="cboard_uCboard::SetScale">
-<area shape="rect" id="node1" title="Set board draw scale." alt="" coords="5,31,196,57"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="246,5,443,32"/>
-<area shape="rect" id="node3" href="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47" title="board microcontroller pin count" alt="" coords="244,56,445,83"/>
+<area shape="rect" id="Node000001" title="Set board draw scale." alt="" coords="5,31,196,56"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="246,5,443,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,31,232,27,233,32,197,36"/>
+<area shape="rect" id="Node000003" href="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47" title="board microcontroller pin count" alt="" coords="244,55,445,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,50,231,53,230,59,196,55"/>
 </map>

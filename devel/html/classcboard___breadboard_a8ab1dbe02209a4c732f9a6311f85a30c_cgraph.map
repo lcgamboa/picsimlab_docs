@@ -1,6 +1,9 @@
 <map id="cboard_Breadboard::MSetPinDOV" name="cboard_Breadboard::MSetPinDOV">
-<area shape="rect" id="node1" title="board microcontroller set Default Open Value (external pull)" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#ab2e224716a743692f09f07041316ef69" title="board microcontroller set Default Open Value (external pull)" alt="" coords="210,5,405,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a91e563c022a8e6959466545f34a71e66" title="board microcontroller set Default Open Value (external pull)" alt="" coords="209,56,405,83"/>
-<area shape="rect" id="node4" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="453,56,660,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller set Default Open Value (external pull)" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ab2e224716a743692f09f07041316ef69" title="board microcontroller set Default Open Value (external pull)" alt="" coords="210,5,405,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a91e563c022a8e6959466545f34a71e66" title="board microcontroller set Default Open Value (external pull)" alt="" coords="209,55,405,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,195,58,161,54"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="453,55,660,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="405,65,440,65,440,70,405,70"/>
 </map>

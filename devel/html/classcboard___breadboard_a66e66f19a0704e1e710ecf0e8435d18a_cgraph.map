@@ -1,0 +1,9 @@
+<map id="cboard_Breadboard::MGetPinName" name="cboard_Breadboard::MGetPinName">
+<area shape="rect" id="Node000001" title="board microcontroller pin name" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a7ca5d29e8ecb75707bf2660dfca8fd0b" title="board microcontroller pin name" alt="" coords="210,5,417,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,197,34,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#af8464ccc91dae04bdf194014a7f688ca" title="board microcontroller pin name" alt="" coords="209,55,417,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="465,55,672,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="417,65,452,65,452,70,417,70"/>
+</map>

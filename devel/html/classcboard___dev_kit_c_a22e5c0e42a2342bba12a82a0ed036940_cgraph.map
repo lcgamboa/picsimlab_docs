@@ -1,0 +1,13 @@
+<map id="cboard_DevKitC::EvMouseButtonPress" name="cboard_DevKitC::EvMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,47,241,87"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="289,5,472,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,45,300,31,301,36,229,50"/>
+<area shape="rect" id="Node000003" href="$classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490" title="Reset board status." alt="" coords="295,55,466,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,65,282,65,282,70,242,70"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="291,104,471,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="229,85,301,99,300,104,228,90"/>
+<area shape="rect" id="Node000004" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="537,25,691,51"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="466,54,523,47,523,52,467,59"/>
+<area shape="rect" id="Node000005" href="$classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f" title="Register remote control variables." alt="" coords="520,75,708,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="467,75,507,80,506,85,466,80"/>
+</map>

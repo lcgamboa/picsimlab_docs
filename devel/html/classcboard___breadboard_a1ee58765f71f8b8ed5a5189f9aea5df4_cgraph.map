@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::DBGGetCONFIG_p" name="cboard_Breadboard::DBGGetCONFIG_p">
-<area shape="rect" id="node1" title="board microcontroller get CONFIG memory pointer" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a7dc783e613e2a460e996867718804703" title="board microcontroller get CONFIG memory pointer" alt="" coords="210,5,441,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a1ec3a732b1c645b6aff432d3b6401def" title="board microcontroller get CONFIG memory pointer" alt="" coords="209,56,441,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller get CONFIG memory pointer" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a7dc783e613e2a460e996867718804703" title="board microcontroller get CONFIG memory pointer" alt="" coords="210,5,441,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,33,196,29,197,34,162,38"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a1ec3a732b1c645b6aff432d3b6401def" title="board microcontroller get CONFIG memory pointer" alt="" coords="209,55,441,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,48,196,52,195,57,161,54"/>
 </map>

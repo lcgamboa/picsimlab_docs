@@ -1,0 +1,5 @@
+<map id="cpart_vterm::ReadPropertiesWindow" name="cpart_vterm::ReadPropertiesWindow">
+<area shape="rect" id="Node000001" title="Called when properties window close." alt="" coords="5,5,213,45"/>
+<area shape="rect" id="Node000002" href="$classcpart__vterm.html#ae44e66357ddb3f4f09bdf89384048bd4" title="Reset part status." alt="" coords="261,13,408,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,23,247,23,247,28,214,28"/>
+</map>

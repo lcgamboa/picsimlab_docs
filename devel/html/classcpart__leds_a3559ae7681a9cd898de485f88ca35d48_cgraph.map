@@ -1,0 +1,5 @@
+<map id="cpart_leds::ConfigurePropertiesWindow" name="cpart_leds::ConfigurePropertiesWindow">
+<area shape="rect" id="Node000001" title="Called to configure the properties window." alt="" coords="5,5,232,45"/>
+<area shape="rect" id="Node000002" href="$classcpart__leds.html#af418c55a487a1b49f2374189b026461e" title="Used by properties window spin." alt="" coords="280,13,455,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,23,266,23,266,28,232,28"/>
+</map>

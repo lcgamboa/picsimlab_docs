@@ -1,0 +1,7 @@
+<map id="cpart_IO_74xx595::ConfigurePropertiesWindow" name="cpart_IO_74xx595::ConfigurePropertiesWindow">
+<area shape="rect" id="Node000001" title="Called to configure the properties window." alt="" coords="5,5,216,45"/>
+<area shape="rect" id="Node000002" href="$class_c_spare_parts.html#a496a23d48734d388d20d059ddfb8652f" title="Return the name of all pins." alt="" coords="264,13,469,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,23,250,23,250,28,216,28"/>
+<area shape="rect" id="Node000003" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="517,13,677,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="470,23,504,23,504,28,470,28"/>
+</map>

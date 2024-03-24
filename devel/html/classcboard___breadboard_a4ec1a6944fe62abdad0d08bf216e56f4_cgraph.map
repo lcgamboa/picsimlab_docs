@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MGetVCC" name="cboard_Breadboard::MGetVCC">
-<area shape="rect" id="node1" title="board microcontroller get vcc" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#ad27ec4a58eb5bcde50c1462a4fd14d47" title="board microcontroller get vcc" alt="" coords="210,5,385,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a05d404ec6d5f04e120404314173cbd61" title="board microcontroller get vcc" alt="" coords="209,56,385,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller get vcc" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ad27ec4a58eb5bcde50c1462a4fd14d47" title="board microcontroller get vcc" alt="" coords="210,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,196,27,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a05d404ec6d5f04e120404314173cbd61" title="board microcontroller get vcc" alt="" coords="209,55,385,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,195,59,161,55"/>
 </map>

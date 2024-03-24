@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MReset" name="cboard_Breadboard::MReset">
-<area shape="rect" id="node1" title="board microcontroller reset" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="210,5,371,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="209,56,372,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller reset" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="210,5,371,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,196,27,197,32,162,36"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="209,55,372,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,50,196,54,195,59,161,55"/>
 </map>

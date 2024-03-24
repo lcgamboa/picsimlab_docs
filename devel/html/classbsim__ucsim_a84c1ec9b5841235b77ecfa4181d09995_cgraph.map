@@ -1,5 +1,7 @@
 <map id="bsim_ucsim::MInit" name="bsim_ucsim::MInit">
-<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,31,147,57"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="199,5,398,32"/>
-<area shape="rect" id="node3" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="195,56,403,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller init" alt="" coords="5,31,147,56"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="199,5,398,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,33,186,28,186,33,147,38"/>
+<area shape="rect" id="Node000003" href="$classboard.html#ad12ec2c3d4be15af9bf825abba887fef" title="Return a list of supported microcontrollers." alt="" coords="195,55,403,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,48,181,52,181,57,147,54"/>
 </map>

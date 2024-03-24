@@ -1,0 +1,15 @@
+<map id="cboard_Curiosity::EvMouseButtonPress" name="cboard_Curiosity::EvMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,97,203,137"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="276,5,408,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,94,190,66,250,40,271,32,273,37,252,44,192,71,141,99"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="251,55,433,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,94,266,80,267,85,202,99"/>
+<area shape="rect" id="Node000004" href="$classcboard___curiosity.html#a8b392a3f8820d42d0385269d7ebad27c" title="Reset board status." alt="" coords="255,104,429,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,114,241,114,241,119,203,119"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="252,153,432,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="202,134,267,148,266,153,201,139"/>
+<area shape="rect" id="Node000007" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="253,203,431,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="142,134,193,161,252,188,276,196,275,201,250,192,191,166,139,139"/>
+<area shape="rect" id="Node000005" href="$classcboard___curiosity.html#a023b60b5f83d2d9e80284063781ec9fd" title="Register remote control variables." alt="" coords="481,97,673,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="430,114,468,114,468,119,430,119"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cboard_Curiosity_HPC::Draw" name="cboard_Curiosity_HPC::Draw">
+<area shape="rect" id="Node000001" title="Called ever 100ms to draw board." alt="" coords="5,5,171,45"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="219,13,401,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,23,205,23,205,28,171,28"/>
+</map>

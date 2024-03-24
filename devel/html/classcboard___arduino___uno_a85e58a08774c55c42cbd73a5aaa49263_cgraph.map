@@ -1,5 +1,7 @@
 <map id="cboard_Arduino_Uno::Reset" name="cboard_Arduino_Uno::Reset">
-<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,27,161,69"/>
-<area shape="rect" id="node2" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="219,5,382,32"/>
-<area shape="rect" id="node3" href="$classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557" title="Register remote control variables." alt="" coords="209,57,392,98"/>
+<area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,27,161,67"/>
+<area shape="rect" id="Node000002" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="219,5,382,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,34,205,28,206,33,162,39"/>
+<area shape="rect" id="Node000003" href="$classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557" title="Register remote control variables." alt="" coords="209,55,392,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,55,196,59,195,64,161,60"/>
 </map>

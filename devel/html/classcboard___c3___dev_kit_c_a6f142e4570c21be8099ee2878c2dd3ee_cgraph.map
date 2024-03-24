@@ -1,6 +1,10 @@
 <map id="cboard_C3_DevKitC::Run_CPU" name="cboard_C3_DevKitC::Run_CPU">
-<area shape="rect" id="node1" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,27,164,69"/>
-<area shape="rect" id="node2" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="429,5,583,32"/>
-<area shape="rect" id="node3" href="$classcboard___c3___dev_kit_c.html#a143820c0d2207465c7a20e12f0991a2d" title="Reset board status." alt="" coords="212,57,371,98"/>
-<area shape="rect" id="node4" href="$classcboard___c3___dev_kit_c.html#a83268112217411cb7d6ed8f040e909ea" title="Register remote control variables." alt="" coords="419,57,593,98"/>
+<area shape="rect" id="Node000001" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,27,164,67"/>
+<area shape="rect" id="Node000002" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="429,5,583,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,39,415,22,415,27,164,45"/>
+<area shape="rect" id="Node000003" href="$classcboard___c3___dev_kit_c.html#a143820c0d2207465c7a20e12f0991a2d" title="Reset board status." alt="" coords="212,55,371,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,55,199,60,198,65,164,61"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="366,53,444,32,445,37,368,58"/>
+<area shape="rect" id="Node000004" href="$classcboard___c3___dev_kit_c.html#a83268112217411cb7d6ed8f040e909ea" title="Register remote control variables." alt="" coords="419,55,593,95"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="371,73,405,73,405,78,371,78"/>
 </map>

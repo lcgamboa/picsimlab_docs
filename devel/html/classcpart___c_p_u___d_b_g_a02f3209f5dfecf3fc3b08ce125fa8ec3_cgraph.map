@@ -1,0 +1,11 @@
+<map id="cpart_CPU_DBG::OnMouseButtonPress" name="cpart_CPU_DBG::OnMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event handler on the part." alt="" coords="5,73,243,113"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a0397ca2fcd8e5d59289aa7e78c895571" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="298,5,475,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,70,290,39,319,32,321,37,291,45,189,75"/>
+<area shape="rect" id="Node000003" href="$classboard.html#a07c2473fc11ab7d454c9c6a685a077c8" title="Get board name registered in PICSimLab." alt="" coords="322,55,451,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,79,308,72,308,78,243,84"/>
+<area shape="rect" id="Node000004" href="$classboard.html#aa8677648839a223bd3b68fda8167b564" title="Get board processor in use." alt="" coords="291,104,483,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,101,277,104,277,109,243,106"/>
+<area shape="rect" id="Node000005" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="333,153,441,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="194,110,291,138,325,147,324,152,290,143,192,115"/>
+</map>

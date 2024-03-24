@@ -1,4 +1,5 @@
 <map id="cboard_Curiosity::Reset" name="cboard_Curiosity::Reset">
-<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,13,180,39"/>
-<area shape="rect" id="node2" href="$classcboard___curiosity.html#a023b60b5f83d2d9e80284063781ec9fd" title="Register remote control variables." alt="" coords="228,5,420,47"/>
+<area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,13,180,38"/>
+<area shape="rect" id="Node000002" href="$classcboard___curiosity.html#a023b60b5f83d2d9e80284063781ec9fd" title="Register remote control variables." alt="" coords="228,5,420,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,23,214,23,214,28,180,28"/>
 </map>

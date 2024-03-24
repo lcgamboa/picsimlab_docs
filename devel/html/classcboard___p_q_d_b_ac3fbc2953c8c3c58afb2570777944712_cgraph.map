@@ -1,0 +1,15 @@
+<map id="cboard_PQDB::EvMouseButtonPress" name="cboard_PQDB::EvMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,97,225,137"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="299,5,431,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,94,208,67,272,40,295,32,297,37,274,44,211,71,155,99"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="273,55,456,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,94,286,80,287,85,218,99"/>
+<area shape="rect" id="Node000004" href="$classcboard___p_q_d_b.html#ad223b770a4994fbd3c0c80a9dea6e711" title="Reset board status." alt="" coords="287,104,442,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,114,274,114,274,119,226,119"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="275,153,455,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="218,134,287,148,286,153,216,139"/>
+<area shape="rect" id="Node000007" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="276,203,453,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="156,134,212,161,274,188,300,196,299,201,272,192,209,166,154,139"/>
+<area shape="rect" id="Node000005" href="$classcboard___p_q_d_b.html#a951416b94e7b5ebd298ff859c73f65ae" title="Register remote control variables." alt="" coords="504,97,727,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="442,114,490,114,490,119,442,119"/>
+</map>

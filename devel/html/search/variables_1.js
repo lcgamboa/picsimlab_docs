@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['background_0',['BackGround',['../classcpart__servo.html#a9b4c8f6557bae63ba5645c4aeb31a519',1,'cpart_servo']]],
-  ['bitmap_1',['Bitmap',['../classpart.html#a5edfdd836fc264f0e1047d002e4e7e18',1,'part']]]
+  ['background_0',['BackGround',['../classcpart__servo.html#a6bb8a504ef2eb28b64a76ca9d9e722d2',1,'cpart_servo']]],
+  ['bitmapid_1',['BitmapId',['../classpart.html#a8be6411af24128a67d40a780ca13949f',1,'part']]]
 ];

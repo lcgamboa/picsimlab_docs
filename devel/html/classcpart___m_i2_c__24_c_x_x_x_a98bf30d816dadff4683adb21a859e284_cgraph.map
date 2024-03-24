@@ -1,0 +1,5 @@
+<map id="cpart_MI2C_24CXXX::ReadPreferences" name="cpart_MI2C_24CXXX::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences." alt="" coords="5,5,168,45"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="216,13,309,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,23,202,23,202,28,168,28"/>
+</map>

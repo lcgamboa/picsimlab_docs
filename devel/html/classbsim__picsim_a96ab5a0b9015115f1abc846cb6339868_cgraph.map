@@ -1,4 +1,5 @@
 <map id="bsim_picsim::DebugInit" name="bsim_picsim::DebugInit">
-<area shape="rect" id="node1" title="Start debug support." alt="" coords="5,5,180,32"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="228,5,427,32"/>
+<area shape="rect" id="Node000001" title="Start debug support." alt="" coords="5,5,180,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="228,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,15,214,15,214,21,180,21"/>
 </map>

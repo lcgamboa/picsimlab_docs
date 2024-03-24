@@ -1,10 +1,20 @@
 <map id="cpart_ds18b20" name="cpart_ds18b20">
-<area shape="rect" id="node1" title=" " alt="" coords="186,291,303,317"/>
-<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="167,201,215,228"/>
-<area shape="rect" id="node3" href="$structinput__t.html" title="input map struct" alt="" coords="153,5,219,32"/>
-<area shape="rect" id="node5" href="$classboard.html" title="Board class." alt="" coords="270,111,329,137"/>
-<area shape="rect" id="node4" href="$structoutput__t.html" title="output map struct" alt="" coords="408,5,484,32"/>
-<area shape="rect" id="node8" href="$structsen__ds18b20__t.html" title=" " alt="" coords="240,201,359,228"/>
-<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="263,5,341,32"/>
-<area shape="rect" id="node7" href="$struct_p_c_w_prop.html" title=" " alt="" coords="5,111,87,137"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="186,288,303,313"/>
+<area shape="rect" id="Node000002" href="$classpart.html" title="PART class." alt="" coords="167,200,215,225"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,236,240,286,235,289,204,239"/>
+<area shape="rect" id="Node000003" href="$structinput__t.html" title="input map struct" alt="" coords="153,5,219,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,44,194,200,188,200,184,44"/>
+<area shape="rect" id="Node000005" href="$classboard.html" title="Board class." alt="" coords="270,110,329,135"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="202,41,217,62,236,82,275,107,272,112,232,86,213,65,198,44"/>
+<area shape="rect" id="Node000004" href="$structoutput__t.html" title="output map struct" alt="" coords="408,5,484,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="468,41,474,54,478,70,474,85,451,121,426,144,395,161,355,178,321,190,293,194,265,196,229,203,216,206,215,201,228,197,264,191,292,189,320,185,353,174,393,156,423,140,447,118,469,83,472,70,469,56,463,43"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="422,41,404,57,389,72,373,86,327,112,324,108,370,82,385,68,400,53,419,37"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="271,145,246,163,205,202,201,198,243,159,268,141"/>
+<area shape="rect" id="Node000008" href="$structsen__ds18b20__t.html" title=" " alt="" coords="240,200,359,225"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="302,149,302,200,297,200,297,149"/>
+<area shape="rect" id="Node000006" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="263,5,341,31"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="304,45,302,110,297,110,299,44"/>
+<area shape="rect" id="Node000007" href="$struct_p_c_w_prop.html" title=" " alt="" coords="5,110,87,135"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="43,149,44,163,49,174,68,186,99,195,168,206,167,212,98,200,66,191,45,178,39,164,38,149"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="287,238,255,289,250,286,282,235"/>
 </map>

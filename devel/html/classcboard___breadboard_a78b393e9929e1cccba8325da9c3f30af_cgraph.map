@@ -1,6 +1,9 @@
 <map id="cboard_Breadboard::MEnd" name="cboard_Breadboard::MEnd">
-<area shape="rect" id="node1" title="board microcontroller end" alt="" coords="5,31,197,57"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#ae5dcacd6043a5a0a7c3696c32e9af7b4" title="board microcontroller end" alt="" coords="247,5,395,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#af7cb8d186351e1cb35570aebb3a70487" title="board microcontroller end" alt="" coords="245,56,396,83"/>
-<area shape="rect" id="node4" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="444,56,651,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller end" alt="" coords="5,31,197,56"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ae5dcacd6043a5a0a7c3696c32e9af7b4" title="board microcontroller end" alt="" coords="247,5,395,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,30,233,25,233,31,198,35"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#af7cb8d186351e1cb35570aebb3a70487" title="board microcontroller end" alt="" coords="245,55,396,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,51,232,55,231,60,197,57"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="444,55,651,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="397,65,430,65,430,70,397,70"/>
 </map>

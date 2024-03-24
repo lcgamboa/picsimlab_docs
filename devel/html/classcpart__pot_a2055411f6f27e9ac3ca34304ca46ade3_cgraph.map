@@ -1,4 +1,5 @@
 <map id="cpart_pot::Reset" name="cpart_pot::Reset">
-<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,5,133,32"/>
-<area shape="rect" id="node2" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="181,5,311,32"/>
+<area shape="rect" id="Node000001" title="Reset part status." alt="" coords="5,5,133,31"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a9ebf88699647f1db19f5d0cb2f84533a" title="board microcontroller get vcc" alt="" coords="181,5,311,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,15,167,15,167,21,133,21"/>
 </map>

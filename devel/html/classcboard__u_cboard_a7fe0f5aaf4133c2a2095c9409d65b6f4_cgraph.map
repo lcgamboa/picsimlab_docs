@@ -1,0 +1,7 @@
+<map id="cboard_uCboard::Draw" name="cboard_uCboard::Draw">
+<area shape="rect" id="Node000001" title="Called ever 100ms to draw board." alt="" coords="5,31,175,56"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="232,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,31,218,27,219,32,176,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47" title="board microcontroller pin count" alt="" coords="223,55,424,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,49,209,53,209,58,175,55"/>
+</map>

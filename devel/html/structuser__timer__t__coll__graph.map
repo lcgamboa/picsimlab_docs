@@ -1,4 +1,6 @@
 <map id="user_timer_t" name="user_timer_t">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,109,121"/>
-<area shape="rect" id="node2" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="8,5,107,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,109,119"/>
+<area shape="rect" id="Node000002" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="8,5,107,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,45,60,93,55,93,55,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="122,9,133,18,125,26,107,29,106,23,123,21,128,18,119,14"/>
 </map>

@@ -1,0 +1,275 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head>
+   <title>
+PICSimLab 0.9.2</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <div class='maketitle'>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+
+<h2 class='titleHead'>   <br />
+  <br />
+  <br />
+<img alt='PIC' src='img/logo.png' style='width:18.62%' /><br />
+PICSimLab 0.9.2</h2>
+ <div class='author'><span class='ptmr8t-x-x-120'>Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span><br />
+<br />                   <span class='ptmr8t-x-x-120'>Download: </span><a href='https://github.com/lcgamboa/picsimlab' target='_blank'><span class='ptmr8t-x-x-120'>github</span></a><br />
+<br />             <a href='picsimlab.pdf' target='_blank'><span class='ptmr8t-x-x-120'>PDF version of documentation</span></a><br />
+<br />                 <a href='https://twitter.com/PICSimLab' target='_blank'><span class='ptmr8t-x-x-120'>PICSimLab on Twitter</span></a><br />
+<br />                <a href='https://discord.gg/fMT8szFYq7' target='_blank'><span class='ptmr8t-x-x-120'>PICSimLab on Discord</span></a> </div><br />
+<div class='date'><span class='ptmr8t-x-x-120'>March 24, 2024</span></div>
+                                                                  
+
+                                                                  
+   </div>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001' id='QQ2-2-1'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002' id='QQ2-3-2'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003' id='QQ2-11-10'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004' id='QQ2-17-16'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005' id='QQ2-39-39'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006' id='QQ2-43-43'>Backend Simulators</a></span>
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007' id='QQ2-57-57'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008' id='QQ2-68-72'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009' id='QQ2-69-73'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010' id='QQ2-134-142'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011' id='QQ2-135-143'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A' id='QQ2-136-144'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B' id='QQ2-137-145'>Use with MPLABX</a></span>
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C' id='QQ2-157-165'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   </nav> 
+ 
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<a id='x1-142001r143'></a>
+                                                                  
+
+                                                                  
+<a id='x1-143001r143'></a>
+                                                                  
+
+                                                                  
+<a id='x1-163001r143'></a><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

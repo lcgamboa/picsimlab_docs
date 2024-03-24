@@ -1,4 +1,5 @@
 <map id="cpart_step" name="cpart_step">
-<area shape="rect" id="node1" title="step motor part class" alt="" coords="5,80,96,107"/>
-<area shape="rect" id="node2" href="$classpart.html" title="PART class." alt="" coords="27,5,75,32"/>
+<area shape="rect" id="Node000001" title="step motor part class" alt="" coords="5,79,96,104"/>
+<area shape="rect" id="Node000002" href="$classpart.html" title="PART class." alt="" coords="27,5,75,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,44,53,79,48,79,48,44"/>
 </map>

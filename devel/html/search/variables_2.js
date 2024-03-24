@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['canvas_0',['canvas',['../classpart.html#a4adcfbd9da4f9e196fd7f50ce829d817',1,'part']]],
-  ['cx_1',['cx',['../structinput__t.html#ae63c55ca19134eccd72636e215e30529',1,'input_t::cx()'],['../structoutput__t.html#ad051fb510501ead87279b2500ff5b235',1,'output_t::cx()']]],
-  ['cy_2',['cy',['../structinput__t.html#ab0c200cf2cc9ad297b441c984ba9bde6',1,'input_t::cy()'],['../structoutput__t.html#a8c48df24637854cd5ff1f5942d13285a',1,'output_t::cy()']]]
+  ['cx_0',['cx',['../structinput__t.html#a60b9b16b7052718ec8db955f89ea1016',1,'input_t::cx'],['../structoutput__t.html#ac18979fb819695066bbba318fd652ee2',1,'output_t::cx']]],
+  ['cy_1',['cy',['../structinput__t.html#adf789317c01b283d183f7e41c2dd67cd',1,'input_t::cy'],['../structoutput__t.html#addda931aa862010662d5dd65146c73f7',1,'output_t::cy']]]
 ];

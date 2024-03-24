@@ -1,0 +1,5 @@
+<map id="cpart_pbuttons::ConfigurePropertiesWindow" name="cpart_pbuttons::ConfigurePropertiesWindow">
+<area shape="rect" id="Node000001" title="Called to configure the properties window." alt="" coords="5,5,196,45"/>
+<area shape="rect" id="Node000002" href="$classcpart__pbuttons.html#a31bf5d5caafddf64b0c468534c14111b" title="Used by properties window spin." alt="" coords="244,13,448,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,230,23,230,28,196,28"/>
+</map>

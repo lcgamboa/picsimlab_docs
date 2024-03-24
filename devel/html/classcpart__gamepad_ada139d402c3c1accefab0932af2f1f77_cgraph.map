@@ -1,0 +1,5 @@
+<map id="cpart_gamepad::OnMouseMove" name="cpart_gamepad::OnMouseMove">
+<area shape="rect" id="Node000001" title="Event handler on the part." alt="" coords="5,5,233,31"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a992a5000e6919e07c4553ed6817f8360" title="Return coords x y rotated by orientation." alt="" coords="281,5,425,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,15,267,15,267,21,234,21"/>
+</map>

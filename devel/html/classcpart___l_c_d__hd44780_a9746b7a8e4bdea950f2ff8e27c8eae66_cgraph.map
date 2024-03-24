@@ -1,0 +1,11 @@
+<map id="cpart_LCD_hd44780::ReadPropertiesWindow" name="cpart_LCD_hd44780::ReadPropertiesWindow">
+<area shape="rect" id="Node000001" title="Called when properties window close." alt="" coords="5,35,179,75"/>
+<area shape="rect" id="Node000002" href="$classcpart___l_c_d__hd44780.html#afa8ac47642b6f519199c7369080c804c" title="Reset part status." alt="" coords="227,35,385,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,52,213,52,213,57,179,57"/>
+<area shape="rect" id="Node000003" href="$classcpart___l_c_d__hd44780.html#af530eb43c2d4c636aa31a051711b7361" title="Load Part Image." alt="" coords="433,35,592,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,52,420,52,420,57,386,57"/>
+<area shape="rect" id="Node000004" href="$classcpart___l_c_d__hd44780.html#a1e25929b599ba3437ddedab081be82f3" title="Return the filename of part picture." alt="" coords="659,5,818,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="592,42,645,35,646,40,592,47"/>
+<area shape="rect" id="Node000005" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="640,70,837,95"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="592,62,626,66,626,71,592,67"/>
+</map>

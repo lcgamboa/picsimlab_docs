@@ -1,0 +1,5 @@
+<map id="bsim_ucsim::MGetPinName" name="bsim_ucsim::MGetPinName">
+<area shape="rect" id="Node000001" title="board microcontroller pin name" alt="" coords="5,5,208,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__ucsim.html#ab1e3a77786acfec3ea8d48e185476b47" title="board microcontroller pin count" alt="" coords="256,5,457,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,15,242,15,242,21,208,21"/>
+</map>

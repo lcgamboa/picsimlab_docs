@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MStep" name="cboard_Breadboard::MStep">
-<area shape="rect" id="node1" title="board microcontroller run one step" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae" title="board microcontroller run one step" alt="" coords="210,5,363,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a54284cbd4d9186ad1776d79cf6bd53c9" title="board microcontroller run one step" alt="" coords="209,56,364,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller run one step" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae" title="board microcontroller run one step" alt="" coords="210,5,363,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,196,27,196,32,162,36"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a54284cbd4d9186ad1776d79cf6bd53c9" title="board microcontroller run one step" alt="" coords="209,55,364,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,50,196,54,195,59,161,55"/>
 </map>

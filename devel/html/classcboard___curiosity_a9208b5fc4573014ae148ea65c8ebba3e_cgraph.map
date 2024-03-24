@@ -1,4 +1,5 @@
 <map id="cboard_Curiosity::WritePreferences" name="cboard_Curiosity::WritePreferences">
-<area shape="rect" id="node1" title="Called to save board preferences in configuration file." alt="" coords="5,5,256,32"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6" title="Save the preferences." alt="" coords="304,5,477,32"/>
+<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,5,256,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#af51368feda52c27ca672b7c7eab7319f" title="Save the preferences." alt="" coords="304,5,477,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,15,290,15,290,21,256,21"/>
 </map>

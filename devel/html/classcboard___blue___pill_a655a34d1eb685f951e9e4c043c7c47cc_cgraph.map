@@ -1,0 +1,5 @@
+<map id="cboard_Blue_Pill::Draw" name="cboard_Blue_Pill::Draw">
+<area shape="rect" id="Node000001" title="Called ever 100ms to draw board." alt="" coords="5,5,176,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="224,5,407,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,15,210,15,210,21,177,21"/>
+</map>

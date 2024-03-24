@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MStepResume" name="cboard_Breadboard::MStepResume">
-<area shape="rect" id="node1" title="board microcontroller run one or two steps to resume instruction" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf" title="board microcontroller run one or two steps to resume instruction" alt="" coords="210,5,417,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536" title="board microcontroller run one or two steps to resume instruction" alt="" coords="209,56,417,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller run one or two steps to resume instruction" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf" title="board microcontroller run one or two steps to resume instruction" alt="" coords="210,5,417,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,197,34,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536" title="board microcontroller run one or two steps to resume instruction" alt="" coords="209,55,417,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
 </map>

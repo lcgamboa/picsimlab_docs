@@ -1,16 +1,16 @@
 var classcpart__bmp180 =
 [
-    [ "ConfigurePropertiesWindow", "classcpart__bmp180.html#afcb9b697b016f8c59456d9aa31aab5d9", null ],
+    [ "ConfigurePropertiesWindow", "classcpart__bmp180.html#abb2248dec793f41ae56bba8a398d381c", null ],
     [ "DrawOutput", "classcpart__bmp180.html#aebde99d95943a91562612a1c6338dcdc", null ],
-    [ "GetAboutInfo", "classcpart__bmp180.html#a1d6f77dc75dc58b5f1a502e10ff23e9e", null ],
+    [ "GetAboutInfo", "classcpart__bmp180.html#a186388cbc5b7e1bfcd0e7106eed72033", null ],
     [ "GetInputId", "classcpart__bmp180.html#ab8252b86ab9115033da0c60ebc0edcd1", null ],
     [ "GetOutputId", "classcpart__bmp180.html#a52d85f502e3578967e557e528e3cd992", null ],
-    [ "OnMouseButtonPress", "classcpart__bmp180.html#ac845d836a83c0dc2b84035121da44d6a", null ],
-    [ "OnMouseButtonRelease", "classcpart__bmp180.html#a250f3437b89123de48a43685e821f82a", null ],
-    [ "OnMouseMove", "classcpart__bmp180.html#a2647a7bc83c122438883db7b643c4d94", null ],
+    [ "OnMouseButtonPress", "classcpart__bmp180.html#ad83a04d581159c43aab299e5c716e45f", null ],
+    [ "OnMouseButtonRelease", "classcpart__bmp180.html#a7a679001778033ca35012411b4696a4e", null ],
+    [ "OnMouseMove", "classcpart__bmp180.html#a4d8425c44b3fff09bb7428ce0fb494c0", null ],
     [ "PreProcess", "classcpart__bmp180.html#aefae0ef45ba7f5404bbbe87e548a9e79", null ],
     [ "Process", "classcpart__bmp180.html#aea59263a9c950c9eef8513f6328a2346", null ],
-    [ "ReadPreferences", "classcpart__bmp180.html#a90920307cd6a2dd02bd03178fa9c381f", null ],
-    [ "ReadPropertiesWindow", "classcpart__bmp180.html#a007b2aa28eb6426675db6e22278b873a", null ],
-    [ "WritePreferences", "classcpart__bmp180.html#af7f8de7aa610ee7941dcb844790b16bd", null ]
+    [ "ReadPreferences", "classcpart__bmp180.html#a32242033bb54388380cb280cd9743cb3", null ],
+    [ "ReadPropertiesWindow", "classcpart__bmp180.html#a25aa98163a2e7cb7170404e45f9da01b", null ],
+    [ "WritePreferences", "classcpart__bmp180.html#ad755e0b7bbaa8d77acec97b807be0d99", null ]
 ];

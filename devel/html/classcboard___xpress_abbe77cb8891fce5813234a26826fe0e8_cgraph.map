@@ -1,0 +1,15 @@
+<map id="cboard_Xpress::EvMouseButtonPress" name="cboard_Xpress::EvMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,97,232,137"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="305,5,437,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,94,214,67,279,39,302,32,304,37,281,45,216,71,159,99"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="280,55,463,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,94,292,80,293,85,222,99"/>
+<area shape="rect" id="Node000004" href="$classcboard___xpress.html#a7da0682766bfb81a0a2f126627ed4385" title="Reset board status." alt="" coords="290,104,453,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,114,276,114,276,119,232,119"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="281,153,461,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="222,134,293,148,292,153,221,139"/>
+<area shape="rect" id="Node000007" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="283,203,460,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="161,134,217,161,281,188,307,196,306,201,279,192,215,166,158,139"/>
+<area shape="rect" id="Node000005" href="$classcboard___xpress.html#a321af05f8371a28181cf4f1e95064b38" title="Register remote control variables." alt="" coords="511,97,741,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="453,114,497,114,497,119,453,119"/>
+</map>

@@ -1,8 +1,13 @@
 <map id="uart_t" name="uart_t">
-<area shape="rect" id="node1" title=" " alt="" coords="105,288,165,315"/>
-<area shape="rect" id="node2" href="$structbitbang__uart__t.html" title=" " alt="" coords="77,199,193,225"/>
-<area shape="rect" id="node3" href="$classboard.html" title="Board class." alt="" coords="105,109,164,136"/>
-<area shape="rect" id="node4" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node5" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,32"/>
-<area shape="rect" id="node6" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="105,284,165,309"/>
+<area shape="rect" id="Node000002" href="$structbitbang__uart__t.html" title=" " alt="" coords="77,196,193,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,235,137,283,132,283,132,235"/>
+<area shape="rect" id="Node000003" href="$classboard.html" title="Board class." alt="" coords="105,108,164,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,147,137,195,132,195,132,147"/>
+<area shape="rect" id="Node000004" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="49,43,58,63,71,82,88,96,106,106,103,110,85,100,67,86,53,66,44,45"/>
+<area shape="rect" id="Node000005" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="137,45,137,108,132,108,132,45"/>
+<area shape="rect" id="Node000006" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,31"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="232,45,223,66,209,86,188,102,165,113,163,108,185,97,205,82,218,63,227,43"/>
 </map>

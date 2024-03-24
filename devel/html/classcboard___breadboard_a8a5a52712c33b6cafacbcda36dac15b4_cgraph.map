@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MEraseFlash" name="cboard_Breadboard::MEraseFlash">
-<area shape="rect" id="node1" title="board microcontroller erase flash memory (program)" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#aaec8d191bec2729d32c2992d6ec4b78d" title="board microcontroller erase flash memory (program)" alt="" coords="211,5,405,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#ab7badad07808c386bc888d945cf1146a" title="board microcontroller erase flash memory (program)" alt="" coords="209,56,407,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller erase flash memory (program)" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#aaec8d191bec2729d32c2992d6ec4b78d" title="board microcontroller erase flash memory (program)" alt="" coords="211,5,405,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,197,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#ab7badad07808c386bc888d945cf1146a" title="board microcontroller erase flash memory (program)" alt="" coords="209,55,407,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,195,58,161,54"/>
 </map>

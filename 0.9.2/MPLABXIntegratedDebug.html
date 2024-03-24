@@ -1,0 +1,204 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>MPLABX Integrated Debug </title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006'>Backend Simulators</a></span>
+                                                                  
+
+                                                                  
+   <span class='sectionToc'>6.1 <a href='PICsim.html#x44-430006.1'>PICsim</a></span>
+   <span class='subsectionToc'>6.1.1 <a href='#x45-440006.1.1'>MPLABX Integrated Debug </a></span>
+   <span class='sectionToc'>6.2 <a href='simavr.html#x46-450006.2'>simavr</a></span>
+   
+   
+   <span class='sectionToc'>6.3 <a href='qemustm32.html#x49-480006.3'>qemu-stm32</a></span>
+   
+   <span class='sectionToc'>6.4 <a href='qemuESP32.html#x51-500006.4'>qemu-ESP32</a></span>
+   
+   <span class='sectionToc'>6.5 <a href='uCsim.html#x53-520006.5'>uCsim</a></span>
+   
+   <span class='sectionToc'>6.6 <a href='gpsim.html#x55-540006.6'>gpsim</a></span>
+   <span class='sectionToc'>6.7 <a href='Remote.html#x56-550006.7'>Remote</a></span>
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
+                                                                  
+
+                                                                  
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='PICsim.html#MPLABXIntegratedDebug.html'>up</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>6.1.1    </span> <a id='x45-440006.1.1'></a>MPLABX Integrated Debug </h4>
+<!--  l. 19  --><p class='noindent'><a id='def:mplabxd'></a>
+</p><!--  l. 21  --><p class='indent'>   To use the <a href='http://www.microchip.com/mplabx' target='_blank'>MPLABX</a> IDE for debug and program the PicsimLab, install the plugin
+<a href='https://github.com/lcgamboa/picsimlab_md/releases/' target='_blank'>com-picsim-picsimlab.nbm</a> in MPLABX.
+</p><!--  l. 23  --><p class='indent'>   The plugin connect to PICSimLab through a TCP socket using port 1234 (or
+other defined in configuration window), and you have to allow the access in the
+firewall.
+</p><!--  l. 25  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_docs/stable/UsewithMPLABX.html' target='_blank'>Tutorial: how to use MPLABX to program and debug PICsimLab</a>.
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='PICsim.html#MPLABXIntegratedDebug.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

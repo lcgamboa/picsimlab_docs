@@ -1,0 +1,262 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>7 Segments Display</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
+   <span class='sectionToc'>9.1 <a href='PinAlias.html#x70-730009.1'>Pin Alias</a></span>
+   <span class='sectionToc'>9.2 <a href='Inputs.html#x71-740009.2'>Inputs</a></span>
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='sectionToc'>9.3 <a href='Outputs.html#x96-990009.3'>Outputs</a></span>
+   <span class='subsectionToc'>9.3.1 <a href='#x97-1000009.3.1'>7 Segments Display</a></span>
+   <span class='subsectionToc'>9.3.2 <a href='7SegmentsDisplayDecoder.html#x98-1030009.3.2'>7 Segments Display (Decoder)</a></span>
+   <span class='subsectionToc'>9.3.3 <a href='Buzzer.html#x99-1060009.3.3'>Buzzer</a></span>
+   <span class='subsectionToc'>9.3.4 <a href='DCMotor.html#x100-1070009.3.4'>DC Motor</a></span>
+   <span class='subsectionToc'>9.3.5 <a href='LCDhd44780.html#x101-1080009.3.5'>LCD hd44780</a></span>
+   <span class='subsectionToc'>9.3.6 <a href='LCDili9341.html#x102-1090009.3.6'>LCD ili9341</a></span>
+   <span class='subsectionToc'>9.3.7 <a href='LCDpcf8833.html#x103-1100009.3.7'>LCD pcf8833</a></span>
+   <span class='subsectionToc'>9.3.8 <a href='LCDpcd8544.html#x104-1110009.3.8'>LCD pcd8544 </a></span>
+   <span class='subsectionToc'>9.3.9 <a href='LCDssd1306.html#x105-1120009.3.9'>LCD ssd1306 </a></span>
+   <span class='subsectionToc'>9.3.10 <a href='LEDMatrix.html#x106-1130009.3.10'>LED Matrix</a></span>
+   <span class='subsectionToc'>9.3.11 <a href='LEDs.html#x107-1140009.3.11'>LEDs</a></span>
+   <span class='subsectionToc'>9.3.12 <a href='RGBLED.html#x108-1150009.3.12'>RGB LED</a></span>
+   <span class='subsectionToc'>9.3.13 <a href='RGBLEDWS2812B.html#x109-1160009.3.13'>RGB LED WS2812B</a></span>
+   <span class='subsectionToc'>9.3.14 <a href='ServoMotor.html#x110-1170009.3.14'>Servo Motor</a></span>
+   <span class='subsectionToc'>9.3.15 <a href='StepMotor.html#x111-1180009.3.15'>Step Motor</a></span>
+   <span class='sectionToc'>9.4 <a href='Others.html#x112-1190009.4'>Others</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   <span class='sectionToc'>9.5 <a href='Virtual.html#x126-1330009.5'>Virtual</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Outputs.html#7SegmentsDisplay.html'>up</a>] [<a href='7SegmentsDisplayDecoder.html'>next</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>9.3.1    </span> <a id='x97-1000009.3.1'></a>7 Segments Display</h4>
+<!--  l. 593  --><p class='noindent'>This part can be configured as four multiplexed or one single 7 segments display.
+                                                                  
+
+                                                                  
+</p><!--  l. 595  --><p class='noindent'>
+</p>
+   <h5 class='subsubsectionHead'><a id='x97-101000'></a>Four Multiplexed</h5>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 598  --><p class='noindent'><img alt='PIC' src='img/part_7seg.png' style='width:50%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 603  --><p class='noindent'><img alt='PIC' src='img/part_7seg_.png' style='width:90%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+   <h5 class='subsubsectionHead'><a id='x97-102000'></a>Single Display</h5>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 610  --><p class='noindent'><img alt='PIC' src='img/part_7seg1.png' style='width:35%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 615  --><p class='noindent'><img alt='PIC' src='img/part_7seg1_.png' style='width:70%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!--  l. 619  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/parts_7_Segments_Display.html' target='_blank'>Examples</a>
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='Outputs.html#7SegmentsDisplay.html'>up</a>] [<a href='7SegmentsDisplayDecoder.html'>next</a>] </nav>  </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

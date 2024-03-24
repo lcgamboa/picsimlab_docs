@@ -1,0 +1,5 @@
+<map id="cpart_Wires::ReadPreferences" name="cpart_Wires::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences." alt="" coords="5,5,223,31"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="271,5,364,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,15,257,15,257,21,223,21"/>
+</map>

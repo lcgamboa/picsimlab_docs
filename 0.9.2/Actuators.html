@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Actuators</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
+   <span class='sectionToc'>7.1 <a href='SerialTerminal.html#x58-570007.1'>Serial Terminal</a></span>
+   <span class='sectionToc'>7.2 <a href='SerialRemoteTank.html#x59-580007.2'>Serial Remote Tank</a></span>
+   <span class='subsectionToc'>7.2.1 <a href='#x60-590007.2.1'>Actuators</a></span>
+   <span class='subsectionToc'>7.2.2 <a href='Sensors.html#x61-600007.2.2'>Sensors</a></span>
+   <span class='subsectionToc'>7.2.3 <a href='CommunicationProtocol.html#x62-610007.2.3'>Communication Protocol</a></span>
+   <span class='sectionToc'>7.3 <a href='Esp8266ModemSimulator.html#x63-660007.3'>Esp8266 Modem Simulator</a></span>
+   
+   <span class='sectionToc'>7.4 <a href='ArduinoBootloader.html#x65-680007.4'>Arduino Bootloader</a></span>
+   <span class='sectionToc'>7.5 <a href='MPLABXDebuggerPlugin.html#x66-690007.5'>MPLABX Debugger Plugin</a></span>
+   <span class='sectionToc'>7.6 <a href='PinViewer.html#x67-700007.6'>Pin Viewer</a></span>
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='SerialRemoteTank.html#Actuators.html'>up</a>] [<a href='Sensors.html'>next</a>] </nav> 
+<h4 class='subsectionHead'><span class='titlemark'>7.2.1    </span> <a id='x60-590007.2.1'></a>Actuators</h4>
+<!--  l. 39  --><p class='noindent'>Digital inputs:
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x60-59002x1'>Inlet valve
+     </li>
+<li class='enumerate' id='x60-59004x2'>Outlet valve
+     </li>
+<li class='enumerate' id='x60-59006x3'>Heater
+     </li>
+<li class='enumerate' id='x60-59008x4'>Cooler
+     </li>
+<li class='enumerate' id='x60-59010x5'>Stirrer</li></ol>
+<!--  l. 48  --><p class='indent'>   Analog inputs:
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x60-59012x1'>Minimal temperature alarm trigger level
+     </li>
+<li class='enumerate' id='x60-59014x2'>Maximal temperature alarm trigger level</li></ol>
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='SerialRemoteTank.html#Actuators.html'>up</a>] [<a href='Sensors.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

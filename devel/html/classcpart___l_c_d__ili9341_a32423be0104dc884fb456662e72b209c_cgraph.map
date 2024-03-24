@@ -1,0 +1,11 @@
+<map id="cpart_LCD_ili9341::LoadPartImage" name="cpart_LCD_ili9341::LoadPartImage">
+<area shape="rect" id="Node000001" title="Load Part Image." alt="" coords="5,23,152,63"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a3337267c6603d477536ca000b49e57b7" title="Load Part Image." alt="" coords="200,31,355,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,41,186,41,186,46,152,46"/>
+<area shape="rect" id="Node000003" href="$classpart.html#a316194e372aa24883e4c65685e3221e1" title="Return the filename of part picture." alt="" coords="409,5,594,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,32,395,27,395,33,355,37"/>
+<area shape="rect" id="Node000005" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="403,55,600,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="355,49,389,53,389,58,355,54"/>
+<area shape="rect" id="Node000004" href="$classpart.html#ab88558579adba5a524f6a7faca2308c0" title="Return the name of part." alt="" coords="648,5,767,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="594,15,634,15,634,21,594,21"/>
+</map>

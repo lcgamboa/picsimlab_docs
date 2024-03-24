@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::DBGGetROMSize" name="cboard_Breadboard::DBGGetROMSize">
-<area shape="rect" id="node1" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a48fddc7c86c978acc32724e4a96f1ec9" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="210,5,433,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a69fc21623d5883616f1d8bb111e782b0" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="209,56,433,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a48fddc7c86c978acc32724e4a96f1ec9" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="210,5,433,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,29,197,34,162,38"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a69fc21623d5883616f1d8bb111e782b0" title="board microcontroller get ROM (FLASH) memory size" alt="" coords="209,55,433,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,52,195,57,161,54"/>
 </map>

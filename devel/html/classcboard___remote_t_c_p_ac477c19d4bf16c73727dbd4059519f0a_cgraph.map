@@ -1,0 +1,7 @@
+<map id="cboard_RemoteTCP::Draw" name="cboard_RemoteTCP::Draw">
+<area shape="rect" id="Node000001" title="Called ever 100ms to draw board." alt="" coords="5,31,196,56"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="257,5,440,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,31,243,26,244,31,196,36"/>
+<area shape="rect" id="Node000003" href="$classbsim__remote.html#ad6cdab4f2deb6fe8c7214aad84e69fa2" title="board microcontroller pin count" alt="" coords="244,55,453,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,50,231,53,230,59,196,55"/>
+</map>

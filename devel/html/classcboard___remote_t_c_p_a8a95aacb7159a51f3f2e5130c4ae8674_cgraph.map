@@ -1,8 +1,13 @@
 <map id="cboard_RemoteTCP::MInit" name="cboard_RemoteTCP::MInit">
-<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,81,196,108"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="250,5,447,32"/>
-<area shape="rect" id="node3" href="$classbsim__remote.html#ad6cdab4f2deb6fe8c7214aad84e69fa2" title="board microcontroller pin count" alt="" coords="244,56,453,83"/>
-<area shape="rect" id="node4" href="$classbsim__remote.html#a9a6843b0476ea95e6eeef2ee2a196582" title="board microcontroller init" alt="" coords="274,107,423,133"/>
-<area shape="rect" id="node6" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="259,157,439,184"/>
-<area shape="rect" id="node5" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="501,107,709,133"/>
+<area shape="rect" id="Node000001" title="board microcontroller init" alt="" coords="5,80,196,105"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="250,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,77,243,39,274,31,275,36,245,45,135,82"/>
+<area shape="rect" id="Node000003" href="$classbsim__remote.html#ad6cdab4f2deb6fe8c7214aad84e69fa2" title="board microcontroller pin count" alt="" coords="244,55,453,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,80,230,77,231,82,196,86"/>
+<area shape="rect" id="Node000004" href="$classbsim__remote.html#a9a6843b0476ea95e6eeef2ee2a196582" title="board microcontroller init" alt="" coords="274,104,423,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,99,260,105,260,111,196,105"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="259,153,439,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="138,103,245,138,280,148,278,153,243,143,136,108"/>
+<area shape="rect" id="Node000005" href="$classboard.html#ad12ec2c3d4be15af9bf825abba887fef" title="Return a list of supported microcontrollers." alt="" coords="501,104,709,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="423,114,487,114,487,119,423,119"/>
 </map>

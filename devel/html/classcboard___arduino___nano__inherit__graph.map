@@ -1,6 +1,9 @@
 <map id="cboard_Arduino_Nano" name="cboard_Arduino_Nano">
-<area shape="rect" id="node1" title=" " alt="" coords="5,229,169,256"/>
-<area shape="rect" id="node2" href="$classcboard___arduino___uno.html" title=" " alt="" coords="9,155,165,181"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html" title=" " alt="" coords="34,80,141,107"/>
-<area shape="rect" id="node4" href="$classboard.html" title="Board class." alt="" coords="58,5,117,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,169,251"/>
+<area shape="rect" id="Node000002" href="$classcboard___arduino___uno.html" title=" " alt="" coords="9,152,165,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,191,90,225,85,225,85,191"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html" title=" " alt="" coords="34,79,141,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,118,90,152,85,152,85,118"/>
+<area shape="rect" id="Node000004" href="$classboard.html" title="Board class." alt="" coords="58,5,117,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,44,90,79,85,79,85,44"/>
 </map>

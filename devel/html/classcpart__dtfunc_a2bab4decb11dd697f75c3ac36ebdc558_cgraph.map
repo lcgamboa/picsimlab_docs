@@ -1,0 +1,5 @@
+<map id="cpart_dtfunc::ReadPropertiesWindow" name="cpart_dtfunc::ReadPropertiesWindow">
+<area shape="rect" id="Node000001" title="Called when properties window close." alt="" coords="5,5,216,45"/>
+<area shape="rect" id="Node000002" href="$classcpart__dtfunc.html#a051a440bede09236850a5445b810978b" title="Reset part status." alt="" coords="264,13,412,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,23,251,23,251,28,216,28"/>
+</map>

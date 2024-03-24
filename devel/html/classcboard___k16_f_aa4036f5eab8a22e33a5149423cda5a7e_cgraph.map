@@ -1,4 +1,5 @@
 <map id="cboard_K16F::Reset" name="cboard_K16F::Reset">
-<area shape="rect" id="node1" title="Reset board status." alt="" coords="5,13,156,39"/>
-<area shape="rect" id="node2" href="$classcboard___k16_f.html#a87c799cca48192bdfbcb4a3615b8a970" title="Register remote control variables." alt="" coords="204,5,423,47"/>
+<area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,13,156,38"/>
+<area shape="rect" id="Node000002" href="$classcboard___k16_f.html#a87c799cca48192bdfbcb4a3615b8a970" title="Register remote control variables." alt="" coords="204,5,423,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,23,190,23,190,28,156,28"/>
 </map>

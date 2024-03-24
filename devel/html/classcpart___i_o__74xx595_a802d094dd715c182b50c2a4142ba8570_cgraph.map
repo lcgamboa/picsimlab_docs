@@ -1,4 +1,5 @@
 <map id="cpart_IO_74xx595::PreProcess" name="cpart_IO_74xx595::PreProcess">
-<area shape="rect" id="node1" title="Called every start of CPU process." alt="" coords="5,5,224,32"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="272,5,477,32"/>
+<area shape="rect" id="Node000001" title="Called every start of CPU process." alt="" coords="5,5,224,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="272,5,477,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,15,258,15,258,21,224,21"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::MSetSerial" name="cboard_Breadboard::MSetSerial">
-<area shape="rect" id="node1" title="Set serial port name to use." alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f" title="Set serial port name to use." alt="" coords="210,5,393,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a9aa394b9f2f5e9890cd9989f70ffdd06" title="Set serial port name to use." alt="" coords="209,56,393,83"/>
+<area shape="rect" id="Node000001" title="Set serial port name to use." alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f" title="Set serial port name to use." alt="" coords="210,5,393,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a9aa394b9f2f5e9890cd9989f70ffdd06" title="Set serial port name to use." alt="" coords="209,55,393,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,195,58,162,55"/>
 </map>

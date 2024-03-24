@@ -1,3 +1,58 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structboard__desc.html" title=" " alt="" coords="5,5,101,32"/>
+<area shape="rect" id="Node000000" href="$classboard.html" title="Board class." alt="" coords="5,548,64,573"/>
+<area shape="rect" id="Node000001" href="$classbsim__gpsim.html" title=" " alt="" coords="115,43,217,68"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="33,535,36,460,46,354,69,234,87,174,110,117,128,89,148,66,152,70,132,92,114,119,92,176,74,236,51,355,41,461,38,535"/>
+<area shape="rect" id="Node000003" href="$classbsim__picsim.html" title=" " alt="" coords="114,400,218,425"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="54,536,151,424,155,427,58,539"/>
+<area shape="rect" id="Node000019" href="$classbsim__qemu.html" title=" " alt="" coords="117,696,215,721"/>
+<area shape="poly" id="edge14_Node000000_Node000019" title=" " alt="" coords="58,582,155,694,151,698,54,586"/>
+<area shape="rect" id="Node000024" href="$classbsim__remote.html" title=" " alt="" coords="112,795,220,820"/>
+<area shape="poly" id="edge19_Node000000_Node000024" title=" " alt="" coords="48,585,75,653,114,733,156,793,152,796,110,735,70,655,43,587"/>
+<area shape="rect" id="Node000005" href="$classbsim__simavr.html" title=" " alt="" coords="113,129,219,155"/>
+<area shape="poly" id="edge21_Node000000_Node000005" title=" " alt="" coords="41,534,158,154,163,156,47,535"/>
+<area shape="rect" id="Node000026" href="$classbsim__ucsim.html" title=" " alt="" coords="116,868,216,893"/>
+<area shape="poly" id="edge27_Node000000_Node000026" title=" " alt="" coords="41,587,48,635,61,698,83,767,114,831,130,850,148,866,144,870,126,854,110,834,78,768,56,700,43,636,36,588"/>
+<area shape="rect" id="Node000002" href="$classcboard__gpboard.html" title=" " alt="" coords="293,5,420,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="230,40,293,28,294,33,231,45"/>
+<area shape="rect" id="Node000004" href="$classcboard___breadboard.html" title=" " alt="" coords="283,153,431,179"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="169,386,180,343,198,290,227,236,245,211,266,189,287,177,290,181,270,193,249,215,231,239,203,292,185,344,175,387"/>
+<area shape="rect" id="Node000010" href="$classcboard___curiosity.html" title=" " alt="" coords="291,203,422,228"/>
+<area shape="poly" id="edge5_Node000003_Node000010" title=" " alt="" coords="173,386,186,352,206,313,233,273,266,239,290,225,292,230,270,243,237,276,211,315,191,355,178,388"/>
+<area shape="rect" id="Node000011" href="$classcboard___curiosity___h_p_c.html" title=" " alt="" coords="274,252,439,277"/>
+<area shape="poly" id="edge6_Node000003_Node000011" title=" " alt="" coords="179,386,215,336,239,310,267,288,292,275,295,280,269,292,242,314,219,340,183,389"/>
+<area shape="rect" id="Node000012" href="$classcboard___k16_f.html" title=" " alt="" coords="303,301,410,327"/>
+<area shape="poly" id="edge7_Node000003_Node000012" title=" " alt="" coords="191,389,225,362,267,337,302,323,304,328,269,342,228,366,194,393"/>
+<area shape="rect" id="Node000013" href="$classcboard___mc_lab1.html" title=" " alt="" coords="295,351,418,376"/>
+<area shape="poly" id="edge8_Node000003_Node000013" title=" " alt="" coords="228,394,306,374,307,379,230,399"/>
+<area shape="rect" id="Node000014" href="$classcboard___mc_lab2.html" title=" " alt="" coords="295,400,418,425"/>
+<area shape="poly" id="edge9_Node000003_Node000014" title=" " alt="" coords="232,410,295,410,295,415,232,415"/>
+<area shape="rect" id="Node000015" href="$classcboard___p_i_c_genios.html" title=" " alt="" coords="287,449,426,475"/>
+<area shape="poly" id="edge10_Node000003_Node000015" title=" " alt="" coords="230,426,307,447,306,452,228,431"/>
+<area shape="rect" id="Node000016" href="$classcboard___p_q_d_b.html" title=" " alt="" coords="301,499,412,524"/>
+<area shape="poly" id="edge11_Node000003_Node000016" title=" " alt="" coords="193,433,228,460,269,485,302,497,300,502,267,490,225,464,190,437"/>
+<area shape="rect" id="Node000017" href="$classcboard___xpress.html" title=" " alt="" coords="298,548,415,573"/>
+<area shape="poly" id="edge12_Node000003_Node000017" title=" " alt="" coords="183,435,218,486,242,512,269,534,299,548,297,553,267,539,238,516,214,489,178,438"/>
+<area shape="rect" id="Node000018" href="$classcboard__x.html" title=" " alt="" coords="316,597,397,623"/>
+<area shape="poly" id="edge13_Node000003_Node000018" title=" " alt="" coords="178,437,191,471,210,511,236,550,270,584,292,596,317,603,315,608,290,601,266,588,232,554,205,513,186,473,173,439"/>
+<area shape="rect" id="Node000020" href="$classcboard___blue___pill.html" title=" " alt="" coords="292,647,421,672"/>
+<area shape="poly" id="edge15_Node000019_Node000020" title=" " alt="" coords="228,690,306,670,307,675,230,695"/>
+<area shape="rect" id="Node000021" href="$classcboard___c3___dev_kit_c.html" title=" " alt="" coords="281,696,432,721"/>
+<area shape="poly" id="edge16_Node000019_Node000021" title=" " alt="" coords="229,706,281,706,281,711,229,711"/>
+<area shape="rect" id="Node000022" href="$classcboard___dev_kit_c.html" title=" " alt="" coords="293,745,420,771"/>
+<area shape="poly" id="edge17_Node000019_Node000022" title=" " alt="" coords="230,722,307,743,306,748,228,727"/>
+<area shape="rect" id="Node000023" href="$classcboard___s_t_m32___h103.html" title=" " alt="" coords="277,795,436,820"/>
+<area shape="poly" id="edge18_Node000019_Node000023" title=" " alt="" coords="193,729,228,756,269,781,298,792,296,797,267,786,225,760,190,733"/>
+<area shape="rect" id="Node000025" href="$classcboard___remote_t_c_p.html" title=" " alt="" coords="282,844,431,869"/>
+<area shape="poly" id="edge20_Node000024_Node000025" title=" " alt="" coords="230,821,307,841,306,846,228,826"/>
+<area shape="poly" id="edge25_Node000005_Node000004" title=" " alt="" coords="234,148,283,154,282,159,233,153"/>
+<area shape="rect" id="Node000006" href="$classcboard___arduino___uno.html" title=" " alt="" coords="279,55,435,80"/>
+<area shape="poly" id="edge22_Node000005_Node000006" title=" " alt="" coords="200,120,267,89,302,77,303,83,269,94,202,125"/>
+<area shape="rect" id="Node000009" href="$classcboard___franzininho___d_i_y.html" title=" " alt="" coords="268,104,445,129"/>
+<area shape="poly" id="edge26_Node000005_Node000009" title=" " alt="" coords="233,130,268,126,268,131,233,136"/>
+<area shape="rect" id="Node000007" href="$classcboard___arduino___mega.html" title=" " alt="" coords="493,31,660,56"/>
+<area shape="poly" id="edge23_Node000006_Node000007" title=" " alt="" coords="448,55,493,50,493,55,449,60"/>
+<area shape="rect" id="Node000008" href="$classcboard___arduino___nano.html" title=" " alt="" coords="495,80,659,105"/>
+<area shape="poly" id="edge24_Node000006_Node000008" title=" " alt="" coords="449,75,495,81,494,86,449,81"/>
+<area shape="rect" id="Node000027" href="$classcboard__u_cboard.html" title=" " alt="" coords="293,893,420,919"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="230,886,294,895,293,900,230,892"/>
 </map>

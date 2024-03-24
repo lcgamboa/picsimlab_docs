@@ -1,4 +1,5 @@
 <map id="avr_gdb_t" name="avr_gdb_t">
-<area shape="rect" id="node1" title=" " alt="" coords="48,109,135,136"/>
-<area shape="rect" id="node2" href="$structavr__gdb__watchpoints__t.html" title=" " alt="" coords="5,5,177,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,108,135,133"/>
+<area shape="rect" id="Node000002" href="$structavr__gdb__watchpoints__t.html" title=" " alt="" coords="5,5,177,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,45,94,108,89,108,89,45"/>
 </map>

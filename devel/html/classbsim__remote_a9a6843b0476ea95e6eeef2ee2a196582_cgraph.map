@@ -1,4 +1,5 @@
 <map id="bsim_remote::MInit" name="bsim_remote::MInit">
-<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,5,155,32"/>
-<area shape="rect" id="node2" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="203,5,411,32"/>
+<area shape="rect" id="Node000001" title="board microcontroller init" alt="" coords="5,5,155,31"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad12ec2c3d4be15af9bf825abba887fef" title="Return a list of supported microcontrollers." alt="" coords="203,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,15,189,15,189,21,155,21"/>
 </map>

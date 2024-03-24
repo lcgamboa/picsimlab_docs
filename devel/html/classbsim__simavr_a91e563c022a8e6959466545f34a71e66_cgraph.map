@@ -1,4 +1,5 @@
 <map id="bsim_simavr::MSetPinDOV" name="bsim_simavr::MSetPinDOV">
-<area shape="rect" id="node1" title="board microcontroller set Default Open Value (external pull)" alt="" coords="5,5,201,32"/>
-<area shape="rect" id="node2" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="249,5,456,32"/>
+<area shape="rect" id="Node000001" title="board microcontroller set Default Open Value (external pull)" alt="" coords="5,5,201,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="249,5,456,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,15,236,15,236,21,201,21"/>
 </map>

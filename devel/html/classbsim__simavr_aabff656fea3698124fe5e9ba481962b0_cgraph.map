@@ -1,4 +1,5 @@
 <map id="bsim_simavr::DebugLoop" name="bsim_simavr::DebugLoop">
-<area shape="rect" id="node1" title="debug step (pooling)" alt="" coords="5,5,192,32"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="240,5,423,32"/>
+<area shape="rect" id="Node000001" title="debug step (pooling)" alt="" coords="5,5,192,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="240,5,423,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,15,226,15,226,21,192,21"/>
 </map>

@@ -1,0 +1,9 @@
+<map id="cpart_servo::LoadPartImage" name="cpart_servo::LoadPartImage">
+<area shape="rect" id="Node000001" title="Load Part Image." alt="" coords="5,31,209,56"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a316194e372aa24883e4c65685e3221e1" title="Return the filename of part picture." alt="" coords="263,5,449,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,30,250,26,250,31,210,36"/>
+<area shape="rect" id="Node000004" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="257,55,455,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,51,244,54,244,59,209,56"/>
+<area shape="rect" id="Node000003" href="$classpart.html#ab88558579adba5a524f6a7faca2308c0" title="Return the name of part." alt="" coords="503,5,621,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,15,489,15,489,21,449,21"/>
+</map>

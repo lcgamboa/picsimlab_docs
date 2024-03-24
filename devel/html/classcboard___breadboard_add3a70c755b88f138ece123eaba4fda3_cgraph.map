@@ -1,6 +1,9 @@
 <map id="cboard_Breadboard::MSetPin" name="cboard_Breadboard::MSetPin">
-<area shape="rect" id="node1" title="board microcontroller set digital pin" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c" title="board microcontroller set digital pin" alt="" coords="210,5,375,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="209,56,376,83"/>
-<area shape="rect" id="node4" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="424,56,631,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller set digital pin" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c" title="board microcontroller set digital pin" alt="" coords="210,5,375,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,196,27,197,32,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="209,55,376,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,50,196,54,195,59,161,55"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="424,55,631,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="376,65,410,65,410,70,376,70"/>
 </map>

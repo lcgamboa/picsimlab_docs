@@ -84,14 +84,12 @@ It's possible import and debug a Arduino sketch into MPLABX using the \href{http
  \end{verbatim}
  and the command below to connect (1234 is the default port):
  \begin{verbatim}
- target remote localhost:1234
+ target extended-remote localhost:1234
  \end{verbatim}
 
 Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with 
 \href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT} or using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
 \begin{verbatim}
-upload_port = com7
-;upload_port = /dev/tnt2
 build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
@@ -128,7 +126,7 @@ in the Chapter \hyperlink{def:seriali}{Serial Communication} to flash PICSimLab 
  \end{verbatim}
  and the command below to connect (1234 is the default port):
  \begin{verbatim}
- target remote localhost:1234
+ target extended-remote localhost:1234
  \end{verbatim}
 
 Graphic debug mode can be made using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:

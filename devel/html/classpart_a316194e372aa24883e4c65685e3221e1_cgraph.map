@@ -1,0 +1,5 @@
+<map id="part::GetPictureFileName" name="part::GetPictureFileName">
+<area shape="rect" id="Node000001" title="Return the filename of part picture." alt="" coords="5,5,191,31"/>
+<area shape="rect" id="Node000002" href="$classpart.html#ab88558579adba5a524f6a7faca2308c0" title="Return the name of part." alt="" coords="239,5,357,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,15,225,15,225,21,191,21"/>
+</map>

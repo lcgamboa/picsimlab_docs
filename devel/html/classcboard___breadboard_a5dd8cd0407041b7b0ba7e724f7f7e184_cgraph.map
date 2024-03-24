@@ -1,7 +1,11 @@
 <map id="cboard_Breadboard::SetScale" name="cboard_Breadboard::SetScale">
-<area shape="rect" id="node1" title="Set board draw scale." alt="" coords="5,27,161,69"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="209,5,407,32"/>
-<area shape="rect" id="node3" href="$classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47" title="board microcontroller pin count" alt="" coords="230,57,386,98"/>
-<area shape="rect" id="node4" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="455,39,661,65"/>
-<area shape="rect" id="node5" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="455,89,661,116"/>
+<area shape="rect" id="Node000001" title="Set board draw scale." alt="" coords="5,27,161,67"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="209,5,407,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,35,197,30,197,35,162,40"/>
+<area shape="rect" id="Node000003" href="$classcboard___breadboard.html#a17f4b040199d09b630b8d90611469a47" title="board microcontroller pin count" alt="" coords="230,55,386,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,54,216,61,216,67,161,60"/>
+<area shape="rect" id="Node000004" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="455,37,661,63"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="386,65,441,59,442,64,387,70"/>
+<area shape="rect" id="Node000005" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="455,87,661,112"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="386,80,441,85,441,91,386,85"/>
 </map>

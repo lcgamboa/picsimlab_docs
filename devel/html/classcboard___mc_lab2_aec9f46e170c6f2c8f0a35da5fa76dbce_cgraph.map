@@ -1,0 +1,15 @@
+<map id="cboard_McLab2::EvMouseButtonPress" name="cboard_McLab2::EvMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,97,239,137"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="312,5,444,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,94,219,67,286,39,309,32,311,37,288,45,221,72,163,99"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="287,55,469,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,94,298,80,299,85,227,99"/>
+<area shape="rect" id="Node000004" href="$classcboard___mc_lab2.html#a26ea9adb073554e98fb132fc690e18a3" title="Reset board status." alt="" coords="294,104,462,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,114,280,114,280,119,239,119"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="288,153,468,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="227,134,299,148,298,153,226,139"/>
+<area shape="rect" id="Node000007" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="289,203,467,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="165,134,222,161,288,187,314,196,312,201,286,193,220,166,162,139"/>
+<area shape="rect" id="Node000005" href="$classcboard___mc_lab2.html#a234981b236b31368ba787e51ed5909ba" title="Register remote control variables." alt="" coords="517,97,753,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="462,114,504,114,504,119,462,119"/>
+</map>

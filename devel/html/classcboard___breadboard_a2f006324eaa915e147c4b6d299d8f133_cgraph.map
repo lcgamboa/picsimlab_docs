@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::GetUARTTX" name="cboard_Breadboard::GetUARTTX">
-<area shape="rect" id="node1" title="Return the UART N TX pin number." alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#aec1d60b5e027ee41cde738f0298358b4" title="Return the UART N TX pin number." alt="" coords="211,5,399,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4" title="Return the UART N TX pin number." alt="" coords="209,56,400,83"/>
+<area shape="rect" id="Node000001" title="Return the UART N TX pin number." alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#aec1d60b5e027ee41cde738f0298358b4" title="Return the UART N TX pin number." alt="" coords="211,5,399,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,197,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4" title="Return the UART N TX pin number." alt="" coords="209,55,400,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,196,58,161,54"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="bsim_remote::MEnd" name="bsim_remote::MEnd">
+<area shape="rect" id="Node000001" title="board microcontroller end" alt="" coords="5,5,157,31"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ab061d35988283d1a1e6b16b68c6ecae8" title="Stop parallel thread." alt="" coords="205,5,347,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,15,191,15,191,21,157,21"/>
+</map>

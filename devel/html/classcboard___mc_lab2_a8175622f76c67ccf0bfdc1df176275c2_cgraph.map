@@ -1,4 +1,5 @@
 <map id="cboard_McLab2::SetScale" name="cboard_McLab2::SetScale">
-<area shape="rect" id="node1" title="Set board draw scale." alt="" coords="5,5,192,32"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="240,5,437,32"/>
+<area shape="rect" id="Node000001" title="Set board draw scale." alt="" coords="5,5,192,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="240,5,437,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,15,226,15,226,21,192,21"/>
 </map>

@@ -1,15 +1,27 @@
 <map id="cboard_Franzininho_DIY::Run_CPU" name="cboard_Franzininho_DIY::Run_CPU">
-<area shape="rect" id="node1" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,175,153,217"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="220,5,403,32"/>
-<area shape="rect" id="node3" href="$classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66" title="Increment the Intructions Counter." alt="" coords="231,56,392,83"/>
-<area shape="rect" id="node4" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="208,107,415,133"/>
-<area shape="rect" id="node5" href="$classbsim__simavr.html#a39ac31f0749b87fa0475b9195eedbf18" title="board microcontroller get all pins list struct" alt="" coords="201,157,421,184"/>
-<area shape="rect" id="node6" href="$class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8" title="Execute the post process code of spare parts one time per 100ms." alt="" coords="218,208,405,235"/>
-<area shape="rect" id="node8" href="$class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f" title="Execute the pre process code of spare parts one time per 100ms." alt="" coords="221,259,401,285"/>
-<area shape="rect" id="node10" href="$class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724" title="Execute the process code of spare parts N times (where N is the number of steps in 100ms)" alt="" coords="232,309,391,336"/>
-<area shape="rect" id="node12" href="$class_c_oscilloscope.html#a4455bcb15a36ee7a8f2e8a6c2befea9e" title="Sample and update oscilloscope data aquisition." alt="" coords="216,360,407,387"/>
-<area shape="rect" id="node7" href="$classpart.html#a408fcb3683c2ab3609e0b4ec6c1efbb4" title="Called every end of CPU process." alt="" coords="489,208,623,235"/>
-<area shape="rect" id="node9" href="$classpart.html#abcfa8e9eec8b57a811f58c59497ea1c9" title="Called every start of CPU process." alt="" coords="493,259,619,285"/>
-<area shape="rect" id="node11" href="$classpart.html#a1cb9c0ebbfff69a40a60db51334a4ddd" title="Called every CPU step." alt="" coords="503,309,609,336"/>
-<area shape="rect" id="node13" href="$classboard.html#a6deb0090899228e1e7f3cb3d8eea35ed" title="board microcontroller get all pins list struct" alt="" coords="469,360,643,387"/>
+<area shape="rect" id="Node000001" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,171,153,211"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="220,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,170,131,105,163,69,200,40,212,33,214,38,203,44,166,73,135,108,93,173"/>
+<area shape="rect" id="Node000003" href="$classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66" title="Increment the Intructions Counter." alt="" coords="231,55,392,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="97,169,141,128,170,107,200,89,217,82,219,87,203,94,173,111,145,132,101,173"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="208,104,415,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="123,169,200,138,229,130,231,135,202,143,124,174"/>
+<area shape="rect" id="Node000005" href="$classbsim__simavr.html#a39ac31f0749b87fa0475b9195eedbf18" title="board microcontroller get all pins list struct" alt="" coords="201,153,421,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="154,181,187,177,188,182,154,186"/>
+<area shape="rect" id="Node000006" href="$class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8" title="Execute the post process code of spare parts one time per 100ms." alt="" coords="218,203,405,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="154,196,204,202,204,207,154,202"/>
+<area shape="rect" id="Node000008" href="$class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f" title="Execute the pre process code of spare parts one time per 100ms." alt="" coords="221,252,401,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="127,209,202,237,236,246,234,251,201,242,126,214"/>
+<area shape="rect" id="Node000010" href="$class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724" title="Execute the process code of spare parts N times (where N is the number of steps in 100ms)" alt="" coords="232,301,391,327"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="102,210,146,249,173,269,203,286,223,295,221,300,200,291,170,274,142,253,98,214"/>
+<area shape="rect" id="Node000012" href="$class_c_oscilloscope.html#a4455bcb15a36ee7a8f2e8a6c2befea9e" title="Sample and update oscilloscope data aquisition." alt="" coords="216,351,407,376"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="94,210,136,273,167,307,203,336,217,343,215,348,200,340,163,311,132,276,89,213"/>
+<area shape="rect" id="Node000007" href="$classpart.html#a408fcb3683c2ab3609e0b4ec6c1efbb4" title="Called every end of CPU process." alt="" coords="489,203,623,228"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="405,213,475,213,475,218,405,218"/>
+<area shape="rect" id="Node000009" href="$classpart.html#abcfa8e9eec8b57a811f58c59497ea1c9" title="Called every start of CPU process." alt="" coords="493,252,619,277"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="401,262,479,262,479,267,401,267"/>
+<area shape="rect" id="Node000011" href="$classpart.html#a1cb9c0ebbfff69a40a60db51334a4ddd" title="Called every CPU step." alt="" coords="503,301,609,327"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="391,311,489,311,489,317,391,317"/>
+<area shape="rect" id="Node000013" href="$classboard.html#a6deb0090899228e1e7f3cb3d8eea35ed" title="board microcontroller get all pins list struct" alt="" coords="469,351,643,376"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="407,361,456,361,456,366,407,366"/>
 </map>

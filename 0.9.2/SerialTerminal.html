@@ -1,0 +1,224 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Serial Terminal</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+                                                                  
+
+                                                                  
+   <span class='chapterToc'>1 <a href='Introduction.html#x2-10001'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#x3-20002'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#x11-100003'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#x17-160004'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#x39-380005'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#x43-420006'>Backend Simulators</a></span>
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#x57-560007'>Tools</a></span>
+   <span class='sectionToc'>7.1 <a href='#x58-570007.1'>Serial Terminal</a></span>
+   <span class='sectionToc'>7.2 <a href='SerialRemoteTank.html#x59-580007.2'>Serial Remote Tank</a></span>
+   
+   
+   
+   <span class='sectionToc'>7.3 <a href='Esp8266ModemSimulator.html#x63-660007.3'>Esp8266 Modem Simulator</a></span>
+   
+   <span class='sectionToc'>7.4 <a href='ArduinoBootloader.html#x65-680007.4'>Arduino Bootloader</a></span>
+   <span class='sectionToc'>7.5 <a href='MPLABXDebuggerPlugin.html#x66-690007.5'>MPLABX Debugger Plugin</a></span>
+   <span class='sectionToc'>7.6 <a href='PinViewer.html#x67-700007.6'>Pin Viewer</a></span>
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#x68-710008'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#x69-720009'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#x134-14100010'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#x135-14200011'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#x136-143000A'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#x137-144000B'>Use with MPLABX</a></span>
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#x157-164000C'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Tools.html#SerialTerminal.html'>up</a>] [<a href='SerialRemoteTank.html'>next</a>] </nav> 
+<h3 class='sectionHead'><span class='titlemark'>7.1    </span> <a id='x58-570007.1'></a>Serial Terminal</h3>
+<!--  l. 4  --><p class='noindent'><a id='def:sterm'></a>
+</p><!--  l. 6  --><p class='indent'>   Open the serial terminal (with system application associated with .sterm file extension ),
+the default application is the <a href='https://github.com/neundorf/CuteCom' target='_blank'>Cutecom</a>.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 11  --><p class='noindent'><img alt='PIC' src='img/cutecom.png' style='width:80%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!--  l. 14  --><p class='indent'>   A serial terminal is used to send and receive data over a serial communication
+channel. The use of this terminal can be replaced by others like the Arduino IDE serial
+monitor.
+</p><!--  l. 17  --><p class='indent'>   To use this tool with PICSimLab you first need to configure a virtual serial port as
+described in Chapter: <a href='SerialCommunication.html#def:seriali'>Serial Communication</a>. It is possible to use this tool with a real serial
+port connected to a real device.
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='Tools.html#SerialTerminal.html'>up</a>] [<a href='SerialRemoteTank.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2023 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

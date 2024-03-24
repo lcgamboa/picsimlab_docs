@@ -1,4 +1,5 @@
 <map id="cpart_LCD_pcf8833::DrawOutput" name="cpart_LCD_pcf8833::DrawOutput">
-<area shape="rect" id="node1" title="Called to draw every output." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="208,13,399,39"/>
+<area shape="rect" id="Node000001" title="Called to draw every output." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c" title="Return the name of one pin." alt="" coords="208,13,399,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,23,194,23,194,28,160,28"/>
 </map>

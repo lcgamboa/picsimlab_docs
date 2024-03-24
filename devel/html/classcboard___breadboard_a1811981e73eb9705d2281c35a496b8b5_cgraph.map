@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::DBGGetRAM_p" name="cboard_Breadboard::DBGGetRAM_p">
-<area shape="rect" id="node1" title="board microcontroller get RAM memory pointer" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a3b6124abb49fbe54a683114f1816aa63" title="board microcontroller get RAM memory pointer" alt="" coords="210,5,419,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#ab77c06fe0baf48845944f84a93d28894" title="board microcontroller get RAM memory pointer" alt="" coords="209,56,420,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller get RAM memory pointer" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a3b6124abb49fbe54a683114f1816aa63" title="board microcontroller get RAM memory pointer" alt="" coords="210,5,419,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,197,34,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#ab77c06fe0baf48845944f84a93d28894" title="board microcontroller get RAM memory pointer" alt="" coords="209,55,420,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
 </map>

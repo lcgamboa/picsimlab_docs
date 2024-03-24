@@ -1,4 +1,5 @@
 <map id="cboard_PICGenios::WritePreferences" name="cboard_PICGenios::WritePreferences">
-<area shape="rect" id="node1" title="Called to save board preferences in configuration file." alt="" coords="5,5,264,32"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#aa34fc994a2b560032d8fbcfdea16a8c6" title="Save the preferences." alt="" coords="312,5,485,32"/>
+<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,5,264,31"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#af51368feda52c27ca672b7c7eab7319f" title="Save the preferences." alt="" coords="312,5,485,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,15,299,15,299,21,264,21"/>
 </map>

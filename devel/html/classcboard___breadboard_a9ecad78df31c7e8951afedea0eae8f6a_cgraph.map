@@ -1,6 +1,10 @@
 <map id="cboard_Breadboard::DebugInit" name="cboard_Breadboard::DebugInit">
-<area shape="rect" id="node1" title="Start debug support." alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a96ab5a0b9015115f1abc846cb6339868" title="Start debug support." alt="" coords="211,5,385,32"/>
-<area shape="rect" id="node4" href="$classbsim__simavr.html#a0c3fc99291158602da47a3751ef00aa2" title="Start debug support." alt="" coords="209,56,387,83"/>
-<area shape="rect" id="node3" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="435,31,633,57"/>
+<area shape="rect" id="Node000001" title="Start debug support." alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a96ab5a0b9015115f1abc846cb6339868" title="Start debug support." alt="" coords="211,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,197,27,198,33,162,37"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a0c3fc99291158602da47a3751ef00aa2" title="Start debug support." alt="" coords="209,55,387,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,49,196,53,196,59,162,55"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#aeeaf92193396b7ed84ef4cfe6166cfe2" title="Return the selected debugger port." alt="" coords="435,31,633,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,25,421,29,421,34,385,30"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="387,56,421,52,421,57,387,61"/>
 </map>

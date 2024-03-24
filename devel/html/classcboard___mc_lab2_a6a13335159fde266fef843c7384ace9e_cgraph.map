@@ -1,0 +1,13 @@
+<map id="cboard_McLab2::EvMouseButtonRelease" name="cboard_McLab2::EvMouseButtonRelease">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,73,239,113"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18" title="Retunr if microcontroller reset pin is enabled." alt="" coords="287,5,466,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,70,286,39,313,32,314,37,287,45,187,75"/>
+<area shape="rect" id="Node000003" href="$classcboard___mc_lab2.html#a26ea9adb073554e98fb132fc690e18a3" title="Reset board status." alt="" coords="293,55,461,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,78,279,74,279,80,239,84"/>
+<area shape="rect" id="Node000005" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="287,104,467,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="239,101,273,104,273,110,239,106"/>
+<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="288,153,465,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="192,110,287,138,319,147,317,152,286,143,190,115"/>
+<area shape="rect" id="Node000004" href="$classcboard___mc_lab2.html#a234981b236b31368ba787e51ed5909ba" title="Register remote control variables." alt="" coords="515,47,751,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="461,65,501,65,501,70,461,70"/>
+</map>

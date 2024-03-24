@@ -1,0 +1,5 @@
+<map id="cpart_switches::ConfigurePropertiesWindow" name="cpart_switches::ConfigurePropertiesWindow">
+<area shape="rect" id="Node000001" title="Called to configure the properties window." alt="" coords="5,5,196,45"/>
+<area shape="rect" id="Node000002" href="$classcpart__switches.html#a76f09b6ed1961447ec779b2f6351dea1" title="Used by properties window spin." alt="" coords="244,13,448,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,230,23,230,28,196,28"/>
+</map>

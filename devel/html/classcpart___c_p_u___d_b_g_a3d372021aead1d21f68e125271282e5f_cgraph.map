@@ -1,0 +1,5 @@
+<map id="cpart_CPU_DBG::EvKeyPress" name="cpart_CPU_DBG::EvKeyPress">
+<area shape="rect" id="Node000001" title="Event handler on the part." alt="" coords="5,5,213,31"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad55b24f415d25c8daaf5a8ee946396b7" title="board microcontroller run one step" alt="" coords="261,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,15,248,15,248,21,214,21"/>
+</map>

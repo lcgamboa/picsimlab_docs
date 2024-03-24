@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::DBGGetID_p" name="cboard_Breadboard::DBGGetID_p">
-<area shape="rect" id="node1" title="board microcontroller get internal IDS memory pointer" alt="" coords="5,23,161,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#acaf6759562bfa85d12024794df4e941f" title="board microcontroller get internal IDS memory pointer" alt="" coords="210,5,403,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a55957146c43d01e135dd880464724748" title="board microcontroller get internal IDS memory pointer" alt="" coords="209,56,404,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller get internal IDS memory pointer" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#acaf6759562bfa85d12024794df4e941f" title="board microcontroller get internal IDS memory pointer" alt="" coords="210,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,32,196,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a55957146c43d01e135dd880464724748" title="board microcontroller get internal IDS memory pointer" alt="" coords="209,55,404,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,195,58,162,54"/>
 </map>

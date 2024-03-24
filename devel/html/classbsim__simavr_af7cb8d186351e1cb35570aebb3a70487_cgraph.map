@@ -1,4 +1,5 @@
 <map id="bsim_simavr::MEnd" name="bsim_simavr::MEnd">
-<area shape="rect" id="node1" title="board microcontroller end" alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="204,5,411,32"/>
+<area shape="rect" id="Node000001" title="board microcontroller end" alt="" coords="5,5,156,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="204,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,15,190,15,190,21,157,21"/>
 </map>

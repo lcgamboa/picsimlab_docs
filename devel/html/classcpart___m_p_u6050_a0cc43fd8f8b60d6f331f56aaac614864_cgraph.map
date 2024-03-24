@@ -1,4 +1,5 @@
 <map id="cpart_MPU6050::DrawOutput" name="cpart_MPU6050::DrawOutput">
-<area shape="rect" id="node1" title="Called to draw every output." alt="" coords="5,5,216,32"/>
-<area shape="rect" id="node2" href="$class_c_spare_parts.html#a56db36d1a8c49ca039b5feb083f4fed0" title="Return the name of one pin." alt="" coords="264,5,455,32"/>
+<area shape="rect" id="Node000001" title="Called to draw every output." alt="" coords="5,5,216,31"/>
+<area shape="rect" id="Node000002" href="$class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c" title="Return the name of one pin." alt="" coords="264,5,455,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,15,250,15,250,21,216,21"/>
 </map>

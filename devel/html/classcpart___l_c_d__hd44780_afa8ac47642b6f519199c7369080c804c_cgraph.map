@@ -1,6 +1,9 @@
 <map id="cpart_LCD_hd44780::Reset" name="cpart_LCD_hd44780::Reset">
-<area shape="rect" id="node1" title="Reset part status." alt="" coords="5,35,164,76"/>
-<area shape="rect" id="node2" href="$classcpart___l_c_d__hd44780.html#a60e52a27c528e127fbf4f56e033902a1" title="Load Part Image." alt="" coords="212,35,371,76"/>
-<area shape="rect" id="node3" href="$classcpart___l_c_d__hd44780.html#a54f7cb4adbe46e936ae2dd8c626c2862" title="Return the filename of part picture." alt="" coords="438,5,597,47"/>
-<area shape="rect" id="node4" href="$class_c_p_i_c_sim_lab.html#a108bb3e8dc99a955b2a7b98f76fedf69" title="Get the file path of resources." alt="" coords="419,71,616,98"/>
+<area shape="rect" id="Node000001" title="Reset part status." alt="" coords="5,35,164,75"/>
+<area shape="rect" id="Node000002" href="$classcpart___l_c_d__hd44780.html#af530eb43c2d4c636aa31a051711b7361" title="Load Part Image." alt="" coords="212,35,371,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,52,198,52,198,57,164,57"/>
+<area shape="rect" id="Node000003" href="$classcpart___l_c_d__hd44780.html#a1e25929b599ba3437ddedab081be82f3" title="Return the filename of part picture." alt="" coords="438,5,597,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,42,424,35,425,40,371,47"/>
+<area shape="rect" id="Node000004" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="419,70,616,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="371,62,405,66,404,71,370,67"/>
 </map>

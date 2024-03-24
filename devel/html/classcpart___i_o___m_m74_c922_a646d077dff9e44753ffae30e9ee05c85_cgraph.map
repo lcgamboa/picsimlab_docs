@@ -1,4 +1,5 @@
 <map id="cpart_IO_MM74C922::PostProcess" name="cpart_IO_MM74C922::PostProcess">
-<area shape="rect" id="node1" title="Called every end of CPU process." alt="" coords="5,5,169,47"/>
-<area shape="rect" id="node2" href="$class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708" title="Get the number of steps in 100ms of simulation." alt="" coords="217,13,395,39"/>
+<area shape="rect" id="Node000001" title="Called every end of CPU process." alt="" coords="5,5,169,45"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a2862a30e779f2086163beaebc6b47708" title="Get the number of steps in 100ms of simulation." alt="" coords="217,13,395,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,23,203,23,203,28,170,28"/>
 </map>

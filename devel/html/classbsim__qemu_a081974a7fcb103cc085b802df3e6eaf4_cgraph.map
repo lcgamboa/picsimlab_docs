@@ -1,8 +1,13 @@
 <map id="bsim_qemu::MInit" name="bsim_qemu::MInit">
-<area shape="rect" id="node1" title="board microcontroller init" alt="" coords="5,56,144,83"/>
-<area shape="rect" id="node2" href="$classboard.html#ab808d093c900ea339aaefaa265dce09c" title="Return a list of supported microcontrollers." alt="" coords="192,5,400,32"/>
-<area shape="rect" id="node3" href="$classbsim__qemu.html#a093221288c9b5344f18cd4db3871dc96" title="board microcontroller set frequency" alt="" coords="213,56,379,83"/>
-<area shape="rect" id="node6" href="$classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e" title="Start parallel thread." alt="" coords="225,107,367,133"/>
-<area shape="rect" id="node4" href="$classboard.html#afea78f14cbd390b61eae0895277b770c" title="Update Timer counters on frequency change." alt="" coords="448,56,667,83"/>
-<area shape="rect" id="node5" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="715,56,905,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller init" alt="" coords="5,55,144,80"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad12ec2c3d4be15af9bf825abba887fef" title="Return a list of supported microcontrollers." alt="" coords="192,5,400,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,52,224,31,225,36,133,57"/>
+<area shape="rect" id="Node000003" href="$classbsim__qemu.html#a093221288c9b5344f18cd4db3871dc96" title="board microcontroller set frequency" alt="" coords="213,55,379,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,65,199,65,199,70,145,70"/>
+<area shape="rect" id="Node000006" href="$classboard.html#a0ba64b3d66e98b2a7dbc050dcc897d4e" title="Start parallel thread." alt="" coords="225,104,367,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="133,77,225,98,224,104,132,83"/>
+<area shape="rect" id="Node000004" href="$classboard.html#afea78f14cbd390b61eae0895277b770c" title="Update Timer counters on frequency change." alt="" coords="448,55,667,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="380,65,434,65,434,70,380,70"/>
+<area shape="rect" id="Node000005" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="715,55,905,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="667,65,701,65,701,70,667,70"/>
 </map>

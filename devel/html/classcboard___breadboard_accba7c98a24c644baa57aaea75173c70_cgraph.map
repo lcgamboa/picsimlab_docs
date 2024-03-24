@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::DBGGetEEPROM_Size" name="cboard_Breadboard::DBGGetEEPROM_Size">
-<area shape="rect" id="node1" title="board microcontroller get data EEPROM memory size" alt="" coords="5,23,168,65"/>
-<area shape="rect" id="node2" href="$classbsim__picsim.html#a444ef8feefead7f7bcb3ca0dd81fae3f" title="board microcontroller get data EEPROM memory size" alt="" coords="217,5,470,32"/>
-<area shape="rect" id="node3" href="$classbsim__simavr.html#a1e6109d0ec5e67c8b292a019d6d46341" title="board microcontroller get data EEPROM memory size" alt="" coords="216,56,471,83"/>
+<area shape="rect" id="Node000001" title="board microcontroller get data EEPROM memory size" alt="" coords="5,23,168,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a444ef8feefead7f7bcb3ca0dd81fae3f" title="board microcontroller get data EEPROM memory size" alt="" coords="217,5,470,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,33,203,29,203,35,168,38"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a1e6109d0ec5e67c8b292a019d6d46341" title="board microcontroller get data EEPROM memory size" alt="" coords="216,55,471,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,48,203,52,202,57,168,54"/>
 </map>

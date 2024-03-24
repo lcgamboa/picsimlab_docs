@@ -1,0 +1,5 @@
+<map id="cpart_WiresRec::DrawOutput" name="cpart_WiresRec::DrawOutput">
+<area shape="rect" id="Node000001" title="Called to draw every output." alt="" coords="5,5,215,31"/>
+<area shape="rect" id="Node000002" href="$class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c" title="Return the name of one pin." alt="" coords="263,5,453,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,15,249,15,249,21,215,21"/>
+</map>

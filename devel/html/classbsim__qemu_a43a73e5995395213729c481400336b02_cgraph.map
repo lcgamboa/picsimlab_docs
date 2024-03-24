@@ -1,4 +1,5 @@
 <map id="bsim_qemu::MGetPin" name="bsim_qemu::MGetPin">
-<area shape="rect" id="node1" title="board microcontroller get digital pin value" alt="" coords="5,5,167,32"/>
-<area shape="rect" id="node2" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="215,5,375,32"/>
+<area shape="rect" id="Node000001" title="board microcontroller get digital pin value" alt="" coords="5,5,167,31"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a670f0ecc8e8b3208a863588ebfeef533" title="board microcontroller pin count" alt="" coords="215,5,375,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,15,201,15,201,21,167,21"/>
 </map>

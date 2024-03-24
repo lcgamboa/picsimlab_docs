@@ -1,0 +1,5 @@
+<map id="cboard_Curiosity_HPC::EvMouseMove" name="cboard_Curiosity_HPC::EvMouseMove">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,5,171,45"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ad33f3c379cd910e781572ea1c110f844" title="Calc rotary potentiometer angle." alt="" coords="219,13,351,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,23,205,23,205,28,171,28"/>
+</map>

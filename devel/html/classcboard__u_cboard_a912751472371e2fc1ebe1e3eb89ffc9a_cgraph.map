@@ -1,0 +1,12 @@
+<map id="cboard_uCboard::EvMouseButtonPress" name="cboard_uCboard::EvMouseButtonPress">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,74,243,114"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="291,5,473,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,71,324,32,325,37,194,76"/>
+<area shape="rect" id="Node000003" href="$classbsim__ucsim.html#a7d90bfbfcc6742ce6c7c84a72073321d" title="board microcontroller reset" alt="" coords="521,81,679,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,91,508,91,508,97,243,97"/>
+<area shape="rect" id="Node000004" href="$classcboard__u_cboard.html#ab69f4630f517cf177b855d60aa2696b0" title="Reset board status." alt="" coords="296,107,468,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,103,283,107,282,112,243,108"/>
+<area shape="rect" id="Node000005" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="292,156,472,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="192,111,291,141,323,150,321,155,290,146,191,117"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="468,107,507,102,508,107,469,112"/>
+</map>

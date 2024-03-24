@@ -1,0 +1,7 @@
+<map id="cboard_gpboard::Draw" name="cboard_gpboard::Draw">
+<area shape="rect" id="Node000001" title="Called ever 100ms to draw board." alt="" coords="5,31,173,56"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="231,5,414,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,32,217,27,218,32,174,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__gpsim.html#a67e13c0ae2d5bf0b6ef1440233c43bdb" title="board microcontroller pin count" alt="" coords="221,55,424,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,49,208,53,208,58,174,55"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cboard_STM32_H103::EvMouseButtonRelease" name="cboard_STM32_H103::EvMouseButtonRelease">
+<area shape="rect" id="Node000001" title="Event on the board." alt="" coords="5,47,181,87"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a17031743eb40a15b9ed14272f6187f18" title="Retunr if microcontroller reset pin is enabled." alt="" coords="230,5,409,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,46,247,31,248,36,182,51"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="229,55,409,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,65,215,65,215,70,182,70"/>
+<area shape="rect" id="Node000004" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="231,104,408,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,84,248,98,247,104,181,89"/>
+</map>
