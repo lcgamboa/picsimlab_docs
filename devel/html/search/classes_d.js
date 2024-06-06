@@ -7,6 +7,7 @@ var searchData=
   ['sen_5fds1621_5ft_4',['sen_ds1621_t',['../structsen__ds1621__t.html',1,'']]],
   ['sen_5fds18b20_5ft_5',['sen_ds18b20_t',['../structsen__ds18b20__t.html',1,'']]],
   ['sen_5fhx711_5ft_6',['sen_hx711_t',['../structsen__hx711__t.html',1,'']]],
-  ['socketinfo_7',['SocketInfo',['../struct_socket_info.html',1,'']]],
-  ['swbounce_5ft_8',['SWBounce_t',['../struct_s_w_bounce__t.html',1,'']]]
+  ['shared_5fblock_5ft_7',['shared_block_t',['../structshared__block__t.html',1,'']]],
+  ['smem_5fblock_8',['SMEM_BLOCK',['../struct_s_m_e_m___b_l_o_c_k.html',1,'']]],
+  ['swbounce_5ft_9',['SWBounce_t',['../struct_s_w_bounce__t.html',1,'']]]
 ];

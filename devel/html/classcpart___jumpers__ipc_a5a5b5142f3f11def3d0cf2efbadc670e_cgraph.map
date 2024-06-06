@@ -1,0 +1,5 @@
+<map id="cpart_Jumpers_ipc::PreProcess" name="cpart_Jumpers_ipc::PreProcess">
+<area shape="rect" id="Node000001" title="Called every start of CPU process." alt="" coords="5,5,155,45"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="203,13,393,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,23,189,23,189,28,155,28"/>
+</map>

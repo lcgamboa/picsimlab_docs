@@ -1,0 +1,5 @@
+<map id="cpart_lblock::ConfigurePropertiesWindow" name="cpart_lblock::ConfigurePropertiesWindow">
+<area shape="rect" id="Node000001" title="Called to configure the properties window." alt="" coords="5,5,244,45"/>
+<area shape="rect" id="Node000002" href="$classcpart__lblock.html#a2e9cdc10401b18d8eef0d98e301df0b8" title="Used by properties window spin." alt="" coords="292,13,479,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,23,278,23,278,28,244,28"/>
+</map>

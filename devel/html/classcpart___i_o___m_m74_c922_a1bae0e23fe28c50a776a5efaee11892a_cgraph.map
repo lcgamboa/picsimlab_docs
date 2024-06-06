@@ -1,7 +1,14 @@
 <map id="cpart_IO_MM74C922::PreProcess" name="cpart_IO_MM74C922::PreProcess">
-<area shape="rect" id="Node000001" title="Called every start of CPU process." alt="" coords="5,23,169,63"/>
-<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="217,5,423,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,32,203,28,204,33,170,37"/>
-<area shape="rect" id="Node000003" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="225,55,415,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,49,212,53,211,59,169,54"/>
+<area shape="rect" id="Node000001" title="Called every start of CPU process." alt="" coords="5,73,169,113"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="254,5,423,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,70,217,39,249,31,251,36,218,45,135,75"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="236,55,441,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,82,222,76,222,82,170,87"/>
+<area shape="rect" id="Node000004" href="$classboard.html#a7ec1b293571088430b6db2f0610c0687" title="board microcontroller get Clock pulses per instruction (in PIC equal to 4)" alt="" coords="217,104,460,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="170,98,204,101,204,106,169,103"/>
+<area shape="rect" id="Node000006" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="508,153,699,179"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="132,110,173,126,218,139,289,152,361,160,494,165,494,171,361,165,288,157,217,145,171,131,130,115"/>
+<area shape="rect" id="Node000005" href="$classboard.html#ade6a05c12a7ad4712e8428681efdc421" title="board microcontroller get frequency" alt="" coords="538,104,669,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="460,114,524,114,524,119,460,119"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="408,127,522,148,521,153,407,132"/>
 </map>

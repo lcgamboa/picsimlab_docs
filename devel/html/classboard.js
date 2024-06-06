@@ -63,6 +63,7 @@ var classboard =
     [ "MEnd", "classboard.html#ab5ff3776f5029a4467b11bd70bec0523", null ],
     [ "MEraseFlash", "classboard.html#a803827850c5c111d0af986ca992f8bdb", null ],
     [ "MGetArchitecture", "classboard.html#a6711ed3c431bc78e132554cf292e7bdd", null ],
+    [ "MGetClocksPerInstructions", "classboard.html#a7ec1b293571088430b6db2f0610c0687", null ],
     [ "MGetFreq", "classboard.html#ade6a05c12a7ad4712e8428681efdc421", null ],
     [ "MGetInstClockFreq", "classboard.html#a2c5a0def304361ca54f770b2cd9520fd", null ],
     [ "MGetPin", "classboard.html#a4465e37c88ae83651dd63dc99e07e262", null ],

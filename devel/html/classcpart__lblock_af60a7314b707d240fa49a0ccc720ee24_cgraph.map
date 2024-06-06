@@ -1,0 +1,7 @@
+<map id="cpart_lblock::ComboChange" name="cpart_lblock::ComboChange">
+<area shape="rect" id="Node000001" title="Used by properties window combos." alt="" coords="5,13,209,38"/>
+<area shape="rect" id="Node000002" href="$classcpart__lblock.html#a0a0121279d517696e632b4b272852275" title="Called to configure the properties window." alt="" coords="257,5,496,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,23,244,23,244,28,209,28"/>
+<area shape="rect" id="Node000003" href="$classcpart__lblock.html#a2e9cdc10401b18d8eef0d98e301df0b8" title="Used by properties window spin." alt="" coords="544,13,731,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="496,23,530,23,530,28,496,28"/>
+</map>

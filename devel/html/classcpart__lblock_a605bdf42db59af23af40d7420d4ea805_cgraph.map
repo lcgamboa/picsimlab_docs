@@ -1,0 +1,13 @@
+<map id="cpart_lblock::PreProcess" name="cpart_lblock::PreProcess">
+<area shape="rect" id="Node000001" title="Called every start of CPU process." alt="" coords="5,55,185,80"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#aeae1956b61d48261081fc1b2bf339017" title="Return a pointer to board object." alt="" coords="270,5,439,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,52,273,31,274,36,163,57"/>
+<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4" title="Get the number of steps to be skipped in board update." alt="" coords="252,55,457,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,65,238,65,238,70,185,70"/>
+<area shape="rect" id="Node000004" href="$classboard.html#a7ec1b293571088430b6db2f0610c0687" title="board microcontroller get Clock pulses per instruction (in PIC equal to 4)" alt="" coords="233,104,476,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,77,274,99,273,104,162,83"/>
+<area shape="rect" id="Node000005" href="$classboard.html#ade6a05c12a7ad4712e8428681efdc421" title="board microcontroller get frequency" alt="" coords="554,79,685,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="476,102,540,96,541,102,477,108"/>
+<area shape="rect" id="Node000006" href="$classboard.html#a2c5a0def304361ca54f770b2cd9520fd" title="board microcontroller get cpu internal clock (in PIC frequency/4)" alt="" coords="524,128,715,153"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="477,125,511,128,510,133,476,130"/>
+</map>

@@ -1,6 +1,5 @@
 var dir_74468c6aa5627e796dac9600ce6ada7d =
 [
-    [ "teste", "dir_c1a7114d2b5c21c26c28862d25b9e2a9.html", "dir_c1a7114d2b5c21c26c28862d25b9e2a9" ],
     [ "exp_virtual_CPU_DBG.h", "exp__virtual___c_p_u___d_b_g_8h_source.html", null ],
     [ "exp_virtual_VCD_Dump_DBG.h", "exp__virtual___v_c_d___dump___d_b_g_8h_source.html", null ],
     [ "input_ADXL345.h", "input___a_d_x_l345_8h_source.html", null ],
@@ -35,6 +34,8 @@ var dir_74468c6aa5627e796dac9600ce6ada7d =
     [ "other_IO_MM74C922.h", "other___i_o___m_m74_c922_8h_source.html", null ],
     [ "other_IO_PCF8574.h", "other___i_o___p_c_f8574_8h_source.html", null ],
     [ "other_jumpers.h", "other__jumpers_8h_source.html", null ],
+    [ "other_jumpers_ipc.h", "other__jumpers__ipc_8h_source.html", null ],
+    [ "other_logic_block.h", "other__logic__block_8h_source.html", null ],
     [ "other_MI2C_24CXXX.h", "other___m_i2_c__24_c_x_x_x_8h_source.html", null ],
     [ "other_RTC_ds1307.h", "other___r_t_c__ds1307_8h_source.html", null ],
     [ "other_RTC_pfc8563.h", "other___r_t_c__pfc8563_8h_source.html", null ],
