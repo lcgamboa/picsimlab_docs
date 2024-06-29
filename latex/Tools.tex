@@ -178,3 +178,23 @@ programming.
 \center
 \includegraphics[width=0.7\textwidth]{img/pinviewer.png} 
 \end{figure} 
+
+
+\section{picsimlab\_tool} \hypertarget{def:ptool}{}
+
+The \textbf{picsimlab\_tool} is a simple command line tool to update the firmware running in the PICSimLab simulator. 
+It can be used integrated in development tools (like platformio).
+
+After open the PICSimLab you can use the \textbf{loadhex} with boards based on AVR or PICs:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+picsimlab_tool loadhex file.hex
+\end{minted}
+
+And use the \textbf{loadbin} with boards based on ESP32 or STM32.
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+picsimlab_tool loadbin file.bin
+\end{minted}
+
+
+
+

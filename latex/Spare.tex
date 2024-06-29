@@ -74,11 +74,13 @@ The main window has the menu with the following functions:
    \item ETH w5500 - Adds a ethernet shield w5500
    \item IO 74xx573 - Adds a 74xx573 octal latch
    \item IO 74xx595 - Adds a 74xx595 SIPO 8 bit shift register
+   \item IO MCP23017 - Adds a MCP23017 serial I2C IO expander
    \item IO MCP23S17 - Adds a MCP23S17 serial SPI IO expander
    \item IO MM74C922 - Adds a MM74C922 key encoder
    \item IO PCF8574 - Adds a PCF8574 serial I2C IO expander
    \item IO UART - Adds a UART serial port 
    \item Jumper Wires - Adds sixteen jumper wires 
+   \item Logic Block - Adds one logic gate block
    \item MEM 24CXXX - Adds a 24CXXX serial I2C EEPROM  memory
    \item RTC ds1307 - Adds a ds1307 real time clock 
    \item RTC pfc8563 - Adds a pfc8563 real time clock
@@ -940,6 +942,21 @@ This is one 74xx595 serial input and parallel output 8 bit shift register.
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_IO_74xx595.html}{Examples}
 
+
+\subsection{IO MCP23017}
+
+It is a MCP23017 serial I2C IO expander part.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.6\textwidth]{img/part_MCP23017.png} 
+\end{figure} 
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_IO_MCP23017.html}{Examples}
+
+\vspace{0.5cm}
+\hrefb{pdf/parts/datasheet/other/MCP23X17.pdf}{Datasheet}
+
 \subsection{IO MCP23S17}
 
 It is a MCP23S17 serial SPI IO expander part.
@@ -1009,6 +1026,20 @@ spare parts pins.
 \end{figure} 
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_Jumper_Wires.html}{Examples}
+
+
+\subsection{Logic Block}
+
+This is a logic gate block. They implements the NOT, BUFFER, AND, NAND, OR, NOR, XOR and XNOR 
+logic gates. All gates have one simulation time step delay.   
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.9\textwidth]{img/part_logicblock.png} 
+\end{figure}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_Logic_Block.html}{Examples}
+
 
 \subsection{MEM 24CXXX}
 
