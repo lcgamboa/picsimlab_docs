@@ -48,9 +48,16 @@ Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE
 
 It is also possible to debug using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
 \begin{verbatim}
-build_type = debug
-upload_port = COM7
+;upload_protocol = arduino
+;upload_port = COM7
 ;upload_port = /dev/tnt3
+;monitor_port = /dev/tnt3
+
+upload_protocol = custom
+upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadhex "$BUILD_DIR/firmware.hex"
+;upload_command = /usr/bin/picsimlab_tool loadhex "$BUILD_DIR/firmware.hex"
+
+build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
 debug_build_flags = -O2 -g
@@ -90,6 +97,10 @@ It's possible import and debug a Arduino sketch into MPLABX using the \href{http
 Graphic debug mode can be made using \href{https://www.eclipse.org/}{eclipse IDE} with 
 \href{https://projects.eclipse.org/projects/iot.embed-cdt}{Eclipse Embedded CDT} or using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
 \begin{verbatim}
+upload_protocol = custom
+upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin"
+;upload_command = /usr/bin/picsimlab_tool loadbin "$BUILD_DIR/firmware.bin"
+
 build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
@@ -132,12 +143,12 @@ in the Chapter \hyperlink{def:seriali}{Serial Communication} to flash PICSimLab 
 Graphic debug mode can be made using \href{https://platformio.org/}{platformIO in VSCode}, just add the configuration lines below in the project's \textbf{platformio.ini} file:
 \begin{verbatim}
 ;upload_protocol = esptool
-;upload_port = com7
+;upload_port = COM7
 ;upload_port = /dev/tnt2
 
 upload_protocol = custom
-upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin
-;upload_command = /usr/bin/picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin
+upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin"
+;upload_command = /usr/bin/picsimlab_tool loadbin "$BUILD_DIR/firmware.bin"
 
 build_type = debug
 debug_tool = custom

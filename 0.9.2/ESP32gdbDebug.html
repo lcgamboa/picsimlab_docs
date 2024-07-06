@@ -190,10 +190,10 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='qemuESP32.html#ESP32gdbDebug.html'>up</a>] </nav> 
 <h4 class='subsectionHead'><span class='titlemark'>6.4.1    </span> <a id='x52-510006.4.1'></a>ESP32-gdb Debug</h4>
-<!--  l. 119  --><p class='noindent'><a id='def:gdbesp'></a>
-</p><!--  l. 121  --><p class='indent'>   With debug support enabled you can use xtensa-esp32-elf-gdb to debug the code used in
+<!--  l. 130  --><p class='noindent'><a id='def:gdbesp'></a>
+</p><!--  l. 132  --><p class='indent'>   With debug support enabled you can use xtensa-esp32-elf-gdb to debug the code used in
 the simulator.
-</p><!--  l. 123  --><p class='indent'>   Use xtensa-esp32-elf-gdb with the .elf file as the parameter:
+</p><!--  l. 134  --><p class='indent'>   Use xtensa-esp32-elf-gdb with the .elf file as the parameter:
                                                                   
 
                                                                   
@@ -202,7 +202,7 @@ the simulator.
  xtensa-esp32-elf-gdb compiled_file.elf
  
 </pre>
-<!--  l. 126  --><p class='nopar'> and the command below to connect (1234 is the default port):
+<!--  l. 137  --><p class='nopar'> and the command below to connect (1234 is the default port):
                                                                   
 
                                                                   
@@ -211,8 +211,8 @@ the simulator.
  target extended-remote localhost:1234
  
 </pre>
-<!--  l. 130  --><p class='nopar'>
-</p><!--  l. 132  --><p class='indent'>   Graphic debug mode can be made using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the
+<!--  l. 141  --><p class='nopar'>
+</p><!--  l. 143  --><p class='indent'>   Graphic debug mode can be made using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the
 configuration lines below in the project’s <span class='textbf'>platformio.ini</span> file:
                                                                   
 
@@ -220,12 +220,12 @@ configuration lines below in the project’s <span class='textbf'>platformio.ini
 </p>
    <pre class='verbatim' id='verbatim-13'>
 ;upload_protocol = esptool
-;upload_port = com7
+;upload_port = COM7
 ;upload_port = /dev/tnt2
 
 upload_protocol = custom
-upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin
-;upload_command = /usr/bin/picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin
+upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadbin "$BUILD_DIR/firmware.bin"
+;upload_command = /usr/bin/picsimlab_tool loadbin "$BUILD_DIR/firmware.bin"
 
 build_type = debug
 debug_tool = custom
@@ -244,8 +244,8 @@ debug_init_cmds =
   pio_reset_halt_target
   $INIT_BREAK
 </pre>
-<!--  l. 158  --><p class='nopar'>
-</p><!--  l. 160  --><p class='indent'>   Compile, and upload the code to PICSimLab before starting Debug.
+<!--  l. 169  --><p class='nopar'>
+</p><!--  l. 171  --><p class='indent'>   Compile, and upload the code to PICSimLab before starting Debug.
                                                                   
 
                                                                   

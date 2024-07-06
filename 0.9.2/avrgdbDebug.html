@@ -222,9 +222,16 @@ below in the project’s <span class='textbf'>platformio.ini</span> file:
                                                                   
 </p>
    <pre class='verbatim' id='verbatim-7'>
-build_type = debug
-upload_port = COM7
+;upload_protocol = arduino
+;upload_port = COM7
 ;upload_port = /dev/tnt3
+;monitor_port = /dev/tnt3
+
+upload_protocol = custom
+upload_command = C:\"Program Files"\PicsimLab\picsimlab_tool.exe loadhex "$BUILD_DIR/firmware.hex"
+;upload_command = /usr/bin/picsimlab_tool loadhex "$BUILD_DIR/firmware.hex"
+
+build_type = debug
 debug_tool = custom
 debug_port = localhost:1234
 debug_build_flags = -O2 -g
@@ -239,7 +246,7 @@ debug_init_cmds =
   pio_reset_halt_target
   $INIT_BREAK
 </pre>
-<!--  l. 67  --><p class='nopar'>
+<!--  l. 74  --><p class='nopar'>
                                                                   
 
                                                                   
