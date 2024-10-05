@@ -1,11 +1,13 @@
 <map id="bitbang_pwm_t" name="bitbang_pwm_t">
-<area shape="rect" id="Node000001" title=" " alt="" coords="73,196,196,221"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="132,196,255,221"/>
 <area shape="rect" id="Node000002" href="$classboard.html" title="Board class." alt="" coords="105,108,164,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,147,137,195,132,195,132,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,144,165,170,184,194,180,197,160,174,144,147"/>
 <area shape="rect" id="Node000003" href="$structinput__t.html" title="input map struct" alt="" coords="5,5,72,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="49,43,58,63,71,82,88,96,106,106,103,110,85,100,67,86,53,66,44,45"/>
 <area shape="rect" id="Node000004" href="$structoutput__t.html" title="output map struct" alt="" coords="97,5,173,31"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="137,45,137,108,132,108,132,45"/>
 <area shape="rect" id="Node000005" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="197,5,275,31"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="232,45,223,66,209,86,188,102,165,113,163,108,185,97,205,82,218,63,227,43"/>
+<area shape="rect" id="Node000006" href="$structchannel__pwm__t.html" title=" " alt="" coords="189,108,313,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="238,146,204,197,199,194,233,143"/>
 </map>

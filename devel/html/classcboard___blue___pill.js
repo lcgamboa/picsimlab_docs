@@ -1,5 +1,6 @@
 var classcboard___blue___pill =
 [
+    [ "board_ButtonEvent", "classcboard___blue___pill.html#ad25927c45792376f8dfed79b41b6d33a", null ],
     [ "board_Event", "classcboard___blue___pill.html#afac935c06ac3c1e11282e7c5144d2792", null ],
     [ "Draw", "classcboard___blue___pill.html#a655a34d1eb685f951e9e4c043c7c47cc", null ],
     [ "EvKeyPress", "classcboard___blue___pill.html#a2b8573bebbf8b39b0ffc3f7a4bf1b835", null ],

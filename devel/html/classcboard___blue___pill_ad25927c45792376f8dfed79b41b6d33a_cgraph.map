@@ -1,0 +1,5 @@
+<map id="cboard_Blue_Pill::board_ButtonEvent" name="cboard_Blue_Pill::board_ButtonEvent">
+<area shape="rect" id="Node000001" title="Called when window side controls are activated." alt="" coords="5,5,180,45"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="228,13,425,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,23,214,23,214,28,180,28"/>
+</map>

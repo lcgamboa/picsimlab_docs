@@ -4,12 +4,17 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,82,247,41,274,32,276,37,249,46,149,87"/>
 <area shape="rect" id="Node000003" href="$classcboard___franzininho___d_i_y.html#a075e49cea6b98a20588b6ba3a0426aab" title="Reset board status." alt="" coords="265,55,413,95"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,90,251,83,252,89,201,95"/>
-<area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="249,120,429,145"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="201,114,236,118,236,123,200,119"/>
-<area shape="rect" id="Node000007" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="251,169,428,195"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="155,122,249,155,274,163,273,168,247,161,154,127"/>
-<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="503,35,665,60"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="414,64,489,55,490,61,414,70"/>
-<area shape="rect" id="Node000005" href="$classcboard___franzininho___d_i_y.html#a6cb48a2dd7cab87bcbb3d5d72a7300aa" title="Register remote control variables." alt="" coords="479,85,689,125"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="414,82,465,88,465,93,414,87"/>
+<area shape="rect" id="Node000008" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="249,120,429,145"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="201,114,236,118,236,123,200,119"/>
+<area shape="rect" id="Node000009" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="251,169,428,195"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="155,122,249,155,274,163,273,168,247,161,154,127"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="503,33,665,59"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="414,64,489,55,490,60,414,69"/>
+<area shape="rect" id="Node000007" href="$classcboard___franzininho___d_i_y.html#a6cb48a2dd7cab87bcbb3d5d72a7300aa" title="Register remote control variables." alt="" coords="479,83,689,123"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="414,81,465,87,465,92,414,86"/>
+<area shape="rect" id="Node000005" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="952,33,1159,59"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="665,43,938,43,938,49,665,49"/>
+<area shape="rect" id="Node000006" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="737,59,904,84"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="666,52,724,58,723,64,666,57"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="904,60,938,56,939,61,905,65"/>
 </map>

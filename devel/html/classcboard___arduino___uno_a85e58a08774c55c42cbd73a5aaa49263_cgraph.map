@@ -2,6 +2,11 @@
 <area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,27,161,67"/>
 <area shape="rect" id="Node000002" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="219,5,382,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,34,205,28,206,33,162,39"/>
-<area shape="rect" id="Node000003" href="$classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557" title="Register remote control variables." alt="" coords="209,55,392,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,55,196,59,195,64,161,60"/>
+<area shape="rect" id="Node000005" href="$classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557" title="Register remote control variables." alt="" coords="209,55,392,95"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="162,55,196,59,195,64,161,60"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="655,5,861,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="382,15,641,15,641,21,382,21"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="440,31,607,56"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="382,25,427,30,426,35,382,30"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="607,32,641,28,641,33,607,37"/>
 </map>

@@ -57,6 +57,7 @@ var classpart =
     [ "Reset", "classpart.html#a9da0412a19116a4f52381c17af4e530f", null ],
     [ "RotateCoords", "classpart.html#a992a5000e6919e07c4553ed6817f8360", null ],
     [ "SetAlwaysUpdate", "classpart.html#a6bec4d4284240282e1d7629ff58f8e87", null ],
+    [ "SetId", "classpart.html#a3a5de2b1ea70f391d6a64ff1acc7ffb2", null ],
     [ "SetOrientation", "classpart.html#a2e5becd7108e8fab479a0a47a013c460", null ],
     [ "SetScale", "classpart.html#ab03241df923fde44292d847d034af546", null ],
     [ "SetUpdate", "classpart.html#a5898264d532b99966bb50ca246a1de01", null ],

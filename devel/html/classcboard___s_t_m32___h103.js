@@ -1,5 +1,6 @@
 var classcboard___s_t_m32___h103 =
 [
+    [ "board_ButtonEvent", "classcboard___s_t_m32___h103.html#aae5ad2bc14bbd74127b3c6cd5fc612ef", null ],
     [ "board_Event", "classcboard___s_t_m32___h103.html#a1397b98f29986f4fcb5e33c274897bb8", null ],
     [ "Draw", "classcboard___s_t_m32___h103.html#a7344ee9871ec4b05b5c3f57c64f3f952", null ],
     [ "EvKeyPress", "classcboard___s_t_m32___h103.html#aea77ba8e569d78dcfbeea0239581355c", null ],

@@ -4,20 +4,25 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,102,228,61,255,52,256,57,230,66,136,107"/>
 <area shape="rect" id="Node000003" href="$classcboard___breadboard.html#a6f71b61ad3ad0f2a660e7760b83b8aa6" title="Reset board status." alt="" coords="241,75,397,115"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,111,227,105,228,110,182,116"/>
-<area shape="rect" id="Node000010" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="229,140,409,165"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="182,133,216,137,215,142,181,138"/>
-<area shape="rect" id="Node000011" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="231,189,408,215"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="142,142,230,175,255,183,253,188,228,181,141,147"/>
+<area shape="rect" id="Node000012" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="229,140,409,165"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="182,133,216,137,215,142,181,138"/>
+<area shape="rect" id="Node000013" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="231,189,408,215"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="142,142,230,175,255,183,253,188,228,181,141,147"/>
 <area shape="rect" id="Node000004" href="$classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="457,43,613,83"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="397,81,443,74,444,80,398,86"/>
-<area shape="rect" id="Node000007" href="$classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="457,107,613,147"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="398,104,444,111,443,116,397,110"/>
+<area shape="rect" id="Node000009" href="$classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="457,107,613,147"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="398,104,444,111,443,116,397,110"/>
 <area shape="rect" id="Node000005" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="668,5,829,31"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="613,44,674,31,675,36,614,49"/>
 <area shape="rect" id="Node000006" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="667,55,830,80"/>
 <area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="614,62,654,63,654,68,614,67"/>
-<area shape="rect" id="Node000008" href="$classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96" title="board microcontroller set vcc" alt="" coords="663,111,835,136"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="614,123,649,123,649,128,614,129"/>
-<area shape="rect" id="Node000009" href="$classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0" title="board microcontroller set vcc" alt="" coords="661,160,836,185"/>
-<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="614,141,675,154,674,160,613,147"/>
+<area shape="rect" id="Node000007" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="1099,55,1305,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="830,65,1085,65,1085,70,830,70"/>
+<area shape="rect" id="Node000008" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="884,80,1051,105"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="831,74,871,79,870,84,830,79"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="1051,81,1085,77,1085,83,1051,86"/>
+<area shape="rect" id="Node000010" href="$classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96" title="board microcontroller set vcc" alt="" coords="663,111,835,136"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="614,123,649,123,649,128,614,129"/>
+<area shape="rect" id="Node000011" href="$classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0" title="board microcontroller set vcc" alt="" coords="661,160,836,185"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="614,141,675,154,674,160,613,147"/>
 </map>

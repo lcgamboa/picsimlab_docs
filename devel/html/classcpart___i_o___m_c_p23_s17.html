@@ -159,6 +159,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac181dd874bbb2b5c1713a4de7b890c8" id="r_aac181dd874bbb2b5c1713a4de7b890c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___i_o___m_c_p23_s17.html#aac181dd874bbb2b5c1713a4de7b890c8">PostProcess</a> (void) override</td></tr>
 <tr class="memdesc:aac181dd874bbb2b5c1713a4de7b890c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every end of CPU process.  <br /></td></tr>
 <tr class="separator:aac181dd874bbb2b5c1713a4de7b890c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2485df55172ad6e80b83b33e0666b3b" id="r_ae2485df55172ad6e80b83b33e0666b3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___i_o___m_c_p23_s17.html#ae2485df55172ad6e80b83b33e0666b3b">Reset</a> (void) override</td></tr>
+<tr class="memdesc:ae2485df55172ad6e80b83b33e0666b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset part status.  <br /></td></tr>
+<tr class="separator:ae2485df55172ad6e80b83b33e0666b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2805a5e357bb2b40d2cc5477656e2646" id="r_a2805a5e357bb2b40d2cc5477656e2646"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___i_o___m_c_p23_s17.html#a2805a5e357bb2b40d2cc5477656e2646">GetPictureFileName</a> (void) override</td></tr>
 <tr class="memdesc:a2805a5e357bb2b40d2cc5477656e2646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of part picture.  <br /></td></tr>
 <tr class="separator:a2805a5e357bb2b40d2cc5477656e2646"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,9 +218,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>GetOutputCount</b> (vo
 <a class="el" href="structoutput__t.html">output_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetOutput</b> (int n)</td></tr>
 <tr class="memdesc:adadfab7f5d4dae37692188cb8ae3238d inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get part input. <br /></td></tr>
 <tr class="separator:adadfab7f5d4dae37692188cb8ae3238d inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da0412a19116a4f52381c17af4e530f inherit pub_methods_classpart" id="r_a9da0412a19116a4f52381c17af4e530f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a9da0412a19116a4f52381c17af4e530f">Reset</a> (void)</td></tr>
-<tr class="memdesc:a9da0412a19116a4f52381c17af4e530f inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset part status.  <br /></td></tr>
-<tr class="separator:a9da0412a19116a4f52381c17af4e530f inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a411d17e2445b3fd5b161b007ed18b054 inherit pub_methods_classpart" id="r_a411d17e2445b3fd5b161b007ed18b054"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpart.html#a411d17e2445b3fd5b161b007ed18b054">Stop</a> (void)</td></tr>
 <tr class="memdesc:a411d17e2445b3fd5b161b007ed18b054 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop part simulation.  <br /></td></tr>
 <tr class="separator:a411d17e2445b3fd5b161b007ed18b054 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,6 +340,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetScale</b> 
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetId</b> (void)</td></tr>
 <tr class="memdesc:a7d018182fe819a481c76d3564ab47381 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the part ID. <br /></td></tr>
 <tr class="separator:a7d018182fe819a481c76d3564ab47381 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5de2b1ea70f391d6a64ff1acc7ffb2 inherit pub_methods_classpart" id="r_a3a5de2b1ea70f391d6a64ff1acc7ffb2"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetId</b> (int id_)</td></tr>
+<tr class="memdesc:a3a5de2b1ea70f391d6a64ff1acc7ffb2 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the part ID. <br /></td></tr>
+<tr class="separator:a3a5de2b1ea70f391d6a64ff1acc7ffb2 inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcaef45094594208ec3d2ae29e7bcc47 inherit pub_methods_classpart" id="r_adcaef45094594208ec3d2ae29e7bcc47"><td class="memItemLeft" align="right" valign="top">
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>GetUpdate</b> (void)</td></tr>
 <tr class="memdesc:adcaef45094594208ec3d2ae29e7bcc47 inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if part need Draw update. <br /></td></tr>
@@ -401,6 +405,21 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_PA</b></td>
 <tr class="memitem:a84695c484e040d873a6d5b6582a32a0f" id="r_a84695c484e040d873a6d5b6582a32a0f"><td class="memItemLeft" align="right" valign="top"><a id="a84695c484e040d873a6d5b6582a32a0f" name="a84695c484e040d873a6d5b6582a32a0f"></a>
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_PB</b></td></tr>
 <tr class="separator:a84695c484e040d873a6d5b6582a32a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadd45543f26ceb384cb0ceba8626dad" id="r_acadd45543f26ceb384cb0ceba8626dad"><td class="memItemLeft" align="right" valign="top"><a id="acadd45543f26ceb384cb0ceba8626dad" name="acadd45543f26ceb384cb0ceba8626dad"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_PA_INT</b></td></tr>
+<tr class="separator:acadd45543f26ceb384cb0ceba8626dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ccf8d2f421de04406f6518300aca75" id="r_a06ccf8d2f421de04406f6518300aca75"><td class="memItemLeft" align="right" valign="top"><a id="a06ccf8d2f421de04406f6518300aca75" name="a06ccf8d2f421de04406f6518300aca75"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_PB_INT</b></td></tr>
+<tr class="separator:a06ccf8d2f421de04406f6518300aca75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584f333cbac2af9b08b26ec004a1d02a" id="r_a584f333cbac2af9b08b26ec004a1d02a"><td class="memItemLeft" align="right" valign="top"><a id="a584f333cbac2af9b08b26ec004a1d02a" name="a584f333cbac2af9b08b26ec004a1d02a"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_DIRA</b></td></tr>
+<tr class="separator:a584f333cbac2af9b08b26ec004a1d02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae666cf61b61c4dab0cbb5f9e6eb26855" id="r_ae666cf61b61c4dab0cbb5f9e6eb26855"><td class="memItemLeft" align="right" valign="top"><a id="ae666cf61b61c4dab0cbb5f9e6eb26855" name="ae666cf61b61c4dab0cbb5f9e6eb26855"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_DIRB</b></td></tr>
+<tr class="separator:ae666cf61b61c4dab0cbb5f9e6eb26855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28fc30edf68e5ba7d89edf34119340b" id="r_ac28fc30edf68e5ba7d89edf34119340b"><td class="memItemLeft" align="right" valign="top"><a id="ac28fc30edf68e5ba7d89edf34119340b" name="ac28fc30edf68e5ba7d89edf34119340b"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>_ret</b></td></tr>
+<tr class="separator:ac28fc30edf68e5ba7d89edf34119340b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -888,8 +907,8 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcpart___i_o___m_c_p23_s17_a4497a211583a4bc6f6bd50835ce3319b_cgraph.png" border="0" usemap="#aclasscpart___i_o___m_c_p23_s17_a4497a211583a4bc6f6bd50835ce3319b_cgraph" alt=""/></div>
 <map name="aclasscpart___i_o___m_c_p23_s17_a4497a211583a4bc6f6bd50835ce3319b_cgraph" id="aclasscpart___i_o___m_c_p23_s17_a4497a211583a4bc6f6bd50835ce3319b_cgraph">
 <area shape="rect" title="Called whe configuration file load preferences." alt="" coords="5,5,165,45"/>
-<area shape="rect" href="classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="213,13,307,38"/>
-<area shape="poly" title=" " alt="" coords="166,23,200,23,200,28,166,28"/>
+<area shape="rect" href="classcpart___i_o___m_c_p23_s17.html#ae2485df55172ad6e80b83b33e0666b3b" title="Reset part status." alt="" coords="213,5,373,45"/>
+<area shape="poly" title=" " alt="" coords="165,23,199,23,199,28,165,28"/>
 </map>
 </div>
 
@@ -922,6 +941,36 @@ Here is the call graph for this function:</div>
 <p>Called when properties window close. </p>
 
 <p>Implements <a class="el" href="classpart.html#a1217a4c6740a9437b71ef437c3acc189">part</a>.</p>
+
+</div>
+</div>
+<a id="ae2485df55172ad6e80b83b33e0666b3b" name="ae2485df55172ad6e80b83b33e0666b3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2485df55172ad6e80b83b33e0666b3b">&#9670;&#160;</a></span>Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cpart_IO_MCP23S17::Reset </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset part status. </p>
+
+<p>Reimplemented from <a class="el" href="classpart.html#a9da0412a19116a4f52381c17af4e530f">part</a>.</p>
 
 </div>
 </div>

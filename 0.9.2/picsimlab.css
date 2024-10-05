@@ -18,23 +18,23 @@
 .cmbsy-5{font-weight: bold;}
 .ptmr8t-x-x-172{font-size:172%;}
 .ptmr8t-x-x-120{font-size:120%;}
-.pcrr8t-{ font-family: 'Nimbus Mono L', serif;}
-.pcrr8t-{ font-family: 'Nimbus Mono L', serif;}
+.pcrr8t-{ font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrr8t-{ font-family: 'Nimbus Mono L', monospace,monospace;}
 .ptmb8t-{  font-weight: bold;}
-.pcrr8t-x-x-80{font-size:80%; font-family: 'Nimbus Mono L', serif;}
-.pcrr8t-x-x-80{ font-family: 'Nimbus Mono L', serif;}
-.pcrro8t-x-x-80{font-size:80%; font-style: oblique; font-family: 'Nimbus Mono L', serif;}
-.pcrro8t-x-x-80{ font-style: oblique; font-family: 'Nimbus Mono L', serif;}
+.pcrr8t-x-x-80{font-size:80%; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrr8t-x-x-80{ font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrro8t-x-x-80{font-size:80%; font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrro8t-x-x-80{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
 .tctt-1000{font-family: monospace,monospace;}
 .ptmb8c-{ font-weight: bold;}
-.pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', serif;}
-.pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', serif;}
-.pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', serif;}
-.pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', serif;}
+.pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
 .ptmr8t-x-x-50{font-size:50%;}
-.pcrb8t-x-x-80{font-size:80%; font-weight: bold; font-family: 'Nimbus Mono L', serif;}
-.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', serif;}
-.pcrr8c-x-x-80{font-size:80%; font-family: 'Nimbus Mono L', serif;}
+.pcrb8t-x-x-80{font-size:80%; font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrr8c-x-x-80{font-size:80%; font-family: 'Nimbus Mono L', monospace,monospace;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}

@@ -1,0 +1,5 @@
+<map id="cboard_STM32_H103::board_ButtonEvent" name="cboard_STM32_H103::board_ButtonEvent">
+<area shape="rect" id="Node000001" title="Called when window side controls are activated." alt="" coords="5,5,172,45"/>
+<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#a4c774f74f1b01a7be73d00ae5a236522" title="Get the file path of resources." alt="" coords="220,13,417,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,23,206,23,206,28,172,28"/>
+</map>

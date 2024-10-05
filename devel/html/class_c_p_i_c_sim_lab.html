@@ -375,9 +375,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>GetUseDSRReset</b> (vo
 <tr class="memitem:a3a7512e7f63d85c251c920697ce5c8f3" id="r_a3a7512e7f63d85c251c920697ce5c8f3"><td class="memItemLeft" align="right" valign="top"><a id="a3a7512e7f63d85c251c920697ce5c8f3" name="a3a7512e7f63d85c251c920697ce5c8f3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUseDSRReset</b> (int udsr)</td></tr>
 <tr class="separator:a3a7512e7f63d85c251c920697ce5c8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a720fe0c91846638d2912b7168ff036a3" id="r_a720fe0c91846638d2912b7168ff036a3"><td class="memItemLeft" align="right" valign="top"><a id="a720fe0c91846638d2912b7168ff036a3" name="a720fe0c91846638d2912b7168ff036a3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetToDestroy</b> (void)</td></tr>
-<tr class="separator:a720fe0c91846638d2912b7168ff036a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09d9ceb2a28433ea69f7ff3e68f261c" id="r_ab09d9ceb2a28433ea69f7ff3e68f261c"><td class="memItemLeft" align="right" valign="top"><a id="ab09d9ceb2a28433ea69f7ff3e68f261c" name="ab09d9ceb2a28433ea69f7ff3e68f261c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetToDestroy</b> (int reason=RC_EXIT)</td></tr>
+<tr class="separator:ab09d9ceb2a28433ea69f7ff3e68f261c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedd430e9a2b16991a71b7d897e9c893c" id="r_aedd430e9a2b16991a71b7d897e9c893c"><td class="memItemLeft" align="right" valign="top"><a id="aedd430e9a2b16991a71b7d897e9c893c" name="aedd430e9a2b16991a71b7d897e9c893c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetToDestroy</b> (void)</td></tr>
 <tr class="separator:aedd430e9a2b16991a71b7d897e9c893c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -414,20 +414,12 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>SystemCmd</b> (
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a631e57efc58ce2eaff2a5a0c9274d824" id="r_a631e57efc58ce2eaff2a5a0c9274d824"><td class="memItemLeft" ><a id="a631e57efc58ce2eaff2a5a0c9274d824" name="a631e57efc58ce2eaff2a5a0c9274d824"></a>
-union {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82b1642cb889f55e11f131fd9899c3c" id="r_ac82b1642cb889f55e11f131fd9899c3c"><td class="memItemLeft" >
-&#160;&#160;&#160;char&#160;&#160;&#160;<b>st</b> [2]&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:ac82b1642cb889f55e11f131fd9899c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a838711a8734a1db0f180d4cac32c1f4b" id="r_a838711a8734a1db0f180d4cac32c1f4b"><td class="memItemLeft" >
-&#160;&#160;&#160;unsigned short int&#160;&#160;&#160;<b>status</b>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a838711a8734a1db0f180d4cac32c1f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a631e57efc58ce2eaff2a5a0c9274d824" id="r_a631e57efc58ce2eaff2a5a0c9274d824"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a631e57efc58ce2eaff2a5a0c9274d824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bcab3d1a34f7c9fca1c64d6cb6a0ba5" id="r_a7bcab3d1a34f7c9fca1c64d6cb6a0ba5"><td class="memItemLeft" align="right" valign="top"><a id="a7bcab3d1a34f7c9fca1c64d6cb6a0ba5" name="a7bcab3d1a34f7c9fca1c64d6cb6a0ba5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>tgo</b></td></tr>
-<tr class="separator:a7bcab3d1a34f7c9fca1c64d6cb6a0ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4524c04dd57af80a35d2f8dbc68187" id="r_a2f4524c04dd57af80a35d2f8dbc68187"><td class="memItemLeft" align="right" valign="top"><a id="a2f4524c04dd57af80a35d2f8dbc68187" name="a2f4524c04dd57af80a35d2f8dbc68187"></a>
+std::atomic&lt; unsigned short int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:a2f4524c04dd57af80a35d2f8dbc68187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8f0c0ac640bfe2c577c24d8347f17d" id="r_a2d8f0c0ac640bfe2c577c24d8347f17d"><td class="memItemLeft" align="right" valign="top"><a id="a2d8f0c0ac640bfe2c577c24d8347f17d" name="a2d8f0c0ac640bfe2c577c24d8347f17d"></a>
+std::atomic&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tgo</b></td></tr>
+<tr class="separator:a2d8f0c0ac640bfe2c577c24d8347f17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf0d9b92848aaaa2fb7f9ec08ff0bb18" id="r_acf0d9b92848aaaa2fb7f9ec08ff0bb18"><td class="memItemLeft" align="right" valign="top"><a id="acf0d9b92848aaaa2fb7f9ec08ff0bb18" name="acf0d9b92848aaaa2fb7f9ec08ff0bb18"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>plWidth</b></td></tr>
 <tr class="separator:acf0d9b92848aaaa2fb7f9ec08ff0bb18"><td class="memSeparator" colspan="2">&#160;</td></tr>

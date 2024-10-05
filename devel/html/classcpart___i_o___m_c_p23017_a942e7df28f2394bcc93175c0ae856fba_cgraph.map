@@ -1,0 +1,5 @@
+<map id="cpart_IO_MCP23017::ReadPreferences" name="cpart_IO_MCP23017::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences." alt="" coords="5,5,165,45"/>
+<area shape="rect" id="Node000002" href="$classcpart___i_o___m_c_p23017.html#a48ebf373fa56d9645309935bdaccc1e4" title="Reset part status." alt="" coords="213,5,373,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,23,199,23,199,28,165,28"/>
+</map>

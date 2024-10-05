@@ -10,15 +10,19 @@
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="129,122,210,154,240,163,238,168,208,159,128,127"/>
 <area shape="rect" id="Node000004" href="$classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8" title="board microcontroller pin count" alt="" coords="456,17,661,43"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="386,59,474,43,475,48,387,64"/>
-<area shape="rect" id="Node000005" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="711,169,917,195"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="386,71,517,77,591,87,663,103,729,129,783,160,780,164,726,134,662,109,590,92,517,83,386,76"/>
+<area shape="rect" id="Node000005" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="967,220,1173,245"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="386,75,516,84,663,103,737,120,793,136,920,179,1020,213,1018,218,918,185,791,141,735,125,662,109,516,89,386,80"/>
 <area shape="rect" id="Node000007" href="$classboard.html#ad12ec2c3d4be15af9bf825abba887fef" title="Return a list of supported microcontrollers." alt="" coords="455,119,663,144"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="381,130,441,129,441,135,381,135"/>
-<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="381,179,697,179,697,185,381,185"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="382,179,621,185,770,192,919,205,991,215,991,220,918,210,769,198,621,190,382,185"/>
 <area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="371,167,482,144,483,149,372,172"/>
-<area shape="rect" id="Node000009" href="$classbsim__simavr.html#af8464ccc91dae04bdf194014a7f688ca" title="board microcontroller pin name" alt="" coords="455,220,663,245"/>
-<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="372,192,483,215,482,220,371,197"/>
-<area shape="rect" id="Node000010" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="477,269,640,295"/>
-<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="331,192,386,224,456,256,480,263,478,268,454,260,384,229,328,197"/>
-<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="623,217,735,195,736,200,624,222"/>
+<area shape="rect" id="Node000009" href="$classbsim__simavr.html#af8464ccc91dae04bdf194014a7f688ca" title="board microcontroller pin name" alt="" coords="711,220,919,245"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="382,189,455,198,697,221,697,226,454,203,381,194"/>
+<area shape="rect" id="Node000010" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="477,271,640,296"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="335,192,390,220,456,249,499,264,498,269,454,254,387,225,332,197"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="919,230,953,230,953,235,919,235"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="640,277,771,268,918,254,983,245,984,250,919,259,771,273,640,282"/>
+<area shape="rect" id="Node000011" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="731,321,898,347"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="624,294,737,316,736,321,623,299"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="861,319,918,300,1031,249,1033,254,920,304,862,324"/>
 </map>

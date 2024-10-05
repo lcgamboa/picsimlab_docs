@@ -12,5 +12,6 @@ var classcpart___i_o___m_c_p23_s17 =
     [ "Process", "classcpart___i_o___m_c_p23_s17.html#a7cb033879662cc0361c606fe81e28979", null ],
     [ "ReadPreferences", "classcpart___i_o___m_c_p23_s17.html#a4497a211583a4bc6f6bd50835ce3319b", null ],
     [ "ReadPropertiesWindow", "classcpart___i_o___m_c_p23_s17.html#abf83cc8d18d439250daeadbecb73d652", null ],
+    [ "Reset", "classcpart___i_o___m_c_p23_s17.html#ae2485df55172ad6e80b83b33e0666b3b", null ],
     [ "WritePreferences", "classcpart___i_o___m_c_p23_s17.html#a4b48e5b5070014fd51147513792311c8", null ]
 ];
