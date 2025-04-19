@@ -208,6 +208,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ab1dbe02209a4c732f9a6311f85a30c" id="r_a8ab1dbe02209a4c732f9a6311f85a30c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a8ab1dbe02209a4c732f9a6311f85a30c">MSetPinDOV</a> (int pin, unsigned char ovalue) override</td></tr>
 <tr class="memdesc:a8ab1dbe02209a4c732f9a6311f85a30c"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set Default Open Value (external pull)  <br /></td></tr>
 <tr class="separator:a8ab1dbe02209a4c732f9a6311f85a30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09dae3b2537f38e992062840a1a62b97" id="r_a09dae3b2537f38e992062840a1a62b97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a09dae3b2537f38e992062840a1a62b97">MSetPinOAV</a> (int pin, float value) override</td></tr>
+<tr class="memdesc:a09dae3b2537f38e992062840a1a62b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set digital pin output average value  <br /></td></tr>
+<tr class="separator:a09dae3b2537f38e992062840a1a62b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a818679a99524397e19f1fc1ca7327558" id="r_a818679a99524397e19f1fc1ca7327558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a818679a99524397e19f1fc1ca7327558">MSetAPin</a> (int pin, float value) override</td></tr>
 <tr class="memdesc:a818679a99524397e19f1fc1ca7327558"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set analog pin  <br /></td></tr>
 <tr class="separator:a818679a99524397e19f1fc1ca7327558"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,15 +220,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a872335c932a4160391e77ca512045254" id="r_a872335c932a4160391e77ca512045254"><td class="memItemLeft" align="right" valign="top">const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a872335c932a4160391e77ca512045254">MGetPinsValues</a> (void) override</td></tr>
 <tr class="memdesc:a872335c932a4160391e77ca512045254"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct  <br /></td></tr>
 <tr class="separator:a872335c932a4160391e77ca512045254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d480579d40299f63e392eddf522a2fd" id="r_a9d480579d40299f63e392eddf522a2fd"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a9d480579d40299f63e392eddf522a2fd">MGetPinOAVPtr</a> (int pin) override</td></tr>
+<tr class="memdesc:a9d480579d40299f63e392eddf522a2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to digital pin average value  <br /></td></tr>
+<tr class="separator:a9d480579d40299f63e392eddf522a2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84f6b6d793c78b0a3c2f72ce62209c07" id="r_a84f6b6d793c78b0a3c2f72ce62209c07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a84f6b6d793c78b0a3c2f72ce62209c07">MStep</a> (void) override</td></tr>
 <tr class="memdesc:a84f6b6d793c78b0a3c2f72ce62209c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step  <br /></td></tr>
 <tr class="separator:a84f6b6d793c78b0a3c2f72ce62209c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a644f7b4ad800e242937d3403e1d6cba6" id="r_a644f7b4ad800e242937d3403e1d6cba6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a644f7b4ad800e242937d3403e1d6cba6">MStepResume</a> (void) override</td></tr>
 <tr class="memdesc:a644f7b4ad800e242937d3403e1d6cba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one or two steps to resume instruction  <br /></td></tr>
 <tr class="separator:a644f7b4ad800e242937d3403e1d6cba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200bbecf0027cd5a53c188f7afcc0b1e" id="r_a200bbecf0027cd5a53c188f7afcc0b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e">MReset</a> (int flags) override</td></tr>
-<tr class="memdesc:a200bbecf0027cd5a53c188f7afcc0b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
-<tr class="separator:a200bbecf0027cd5a53c188f7afcc0b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5d5ddc9efa191355c745da40e8390e3" id="r_ad5d5ddc9efa191355c745da40e8390e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3">MReset</a> (int flags) override</td></tr>
+<tr class="memdesc:ad5d5ddc9efa191355c745da40e8390e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
+<tr class="separator:ad5d5ddc9efa191355c745da40e8390e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a3cc10d89443d4a3fd3bd255c954ad" id="r_a81a3cc10d89443d4a3fd3bd255c954ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a81a3cc10d89443d4a3fd3bd255c954ad">MGetResetPin</a> (void) override</td></tr>
+<tr class="memdesc:a81a3cc10d89443d4a3fd3bd255c954ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Reset pin of microcontroller.  <br /></td></tr>
+<tr class="separator:a81a3cc10d89443d4a3fd3bd255c954ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed26b4e080647f50690b7f908df6f9b" id="r_a9ed26b4e080647f50690b7f908df6f9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a9ed26b4e080647f50690b7f908df6f9b">MGetIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:a9ed26b4e080647f50690b7f908df6f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:a9ed26b4e080647f50690b7f908df6f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a425352c95f2300925c9e617c9041c" id="r_ac2a425352c95f2300925c9e617c9041c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#ac2a425352c95f2300925c9e617c9041c">MClearIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:ac2a425352c95f2300925c9e617c9041c"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:ac2a425352c95f2300925c9e617c9041c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59548ccae5b4834105c5f83b7ad6ff6a" id="r_a59548ccae5b4834105c5f83b7ad6ff6a"><td class="memItemLeft" align="right" valign="top">unsigned short *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a59548ccae5b4834105c5f83b7ad6ff6a">DBGGetProcID_p</a> (void) override</td></tr>
 <tr class="memdesc:a59548ccae5b4834105c5f83b7ad6ff6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to processor ID  <br /></td></tr>
 <tr class="separator:a59548ccae5b4834105c5f83b7ad6ff6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,6 +286,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f006324eaa915e147c4b6d299d8f133" id="r_a2f006324eaa915e147c4b6d299d8f133"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a2f006324eaa915e147c4b6d299d8f133">GetUARTTX</a> (const int uart_num) override</td></tr>
 <tr class="memdesc:a2f006324eaa915e147c4b6d299d8f133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <br /></td></tr>
 <tr class="separator:a2f006324eaa915e147c4b6d299d8f133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d3e7fbf8d7554c9e568ab4270cd08f8" id="r_a2d3e7fbf8d7554c9e568ab4270cd08f8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a2d3e7fbf8d7554c9e568ab4270cd08f8">GetUARTStrStatus</a> (const int uart_num) override</td></tr>
+<tr class="separator:a2d3e7fbf8d7554c9e568ab4270cd08f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7874c2164a19a1ed2f08d2cd96403d" id="r_a7e7874c2164a19a1ed2f08d2cd96403d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcboard___breadboard.html#a7e7874c2164a19a1ed2f08d2cd96403d">Draw</a> (void) override</td></tr>
 <tr class="memdesc:a7e7874c2164a19a1ed2f08d2cd96403d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw board.  <br /></td></tr>
 <tr class="separator:a7e7874c2164a19a1ed2f08d2cd96403d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -584,9 +601,9 @@ avr_t *&#160;</td><td class="memItemRight" valign="bottom"><b>avr</b></td></tr>
 <tr class="memitem:aa0e7a753b3b479fa0f5d2b561d6d680c inherit pro_attribs_classbsim__simavr" id="r_aa0e7a753b3b479fa0f5d2b561d6d680c"><td class="memItemLeft" align="right" valign="top">
 avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>serial_irq</b> [MAX_UART_COUNT]</td></tr>
 <tr class="separator:aa0e7a753b3b479fa0f5d2b561d6d680c inherit pro_attribs_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac93f9a08a3b3aa1e61aeb7985476aa12 inherit pro_attribs_classbsim__simavr" id="r_ac93f9a08a3b3aa1e61aeb7985476aa12"><td class="memItemLeft" align="right" valign="top">
-picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [256]</td></tr>
-<tr class="separator:ac93f9a08a3b3aa1e61aeb7985476aa12 inherit pro_attribs_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326124ddf77e1e197daaff1c5c890c12 inherit pro_attribs_classbsim__simavr" id="r_a326124ddf77e1e197daaff1c5c890c12"><td class="memItemLeft" align="right" valign="top">
+picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [MAX_PIN_COUNT]</td></tr>
+<tr class="separator:a326124ddf77e1e197daaff1c5c890c12 inherit pro_attribs_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5185149f566512eacdd79843e4305e05 inherit pro_attribs_classbsim__simavr" id="r_a5185149f566512eacdd79843e4305e05"><td class="memItemLeft" align="right" valign="top">
 avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>Write_stat_irq</b> [100]</td></tr>
 <tr class="separator:a5185149f566512eacdd79843e4305e05 inherit pro_attribs_classbsim__simavr"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1519,13 +1536,13 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="165,132,200,137,200,142,164,137"/>
 <area shape="rect" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="215,189,392,215"/>
 <area shape="poly" title=" " alt="" coords="130,142,213,175,237,183,236,188,211,181,128,147"/>
-<area shape="rect" href="classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="443,43,599,83"/>
+<area shape="rect" href="classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3" title="board microcontroller reset" alt="" coords="443,43,599,83"/>
 <area shape="poly" title=" " alt="" coords="381,81,429,74,430,79,382,87"/>
 <area shape="rect" href="classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="443,107,599,147"/>
 <area shape="poly" title=" " alt="" coords="382,104,430,111,429,117,381,109"/>
-<area shape="rect" href="classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="653,5,815,31"/>
+<area shape="rect" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071" title="board microcontroller reset" alt="" coords="653,5,815,31"/>
 <area shape="poly" title=" " alt="" coords="599,44,659,31,661,36,600,49"/>
-<area shape="rect" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="653,55,815,80"/>
+<area shape="rect" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="653,55,815,80"/>
 <area shape="poly" title=" " alt="" coords="599,62,639,63,639,68,599,67"/>
 <area shape="rect" href="classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="1084,55,1291,80"/>
 <area shape="poly" title=" " alt="" coords="815,65,1070,65,1070,70,815,70"/>
@@ -1604,13 +1621,13 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="182,133,216,137,215,142,181,138"/>
 <area shape="rect" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="231,189,408,215"/>
 <area shape="poly" title=" " alt="" coords="142,142,230,175,255,183,253,188,228,181,141,147"/>
-<area shape="rect" href="classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="457,43,613,83"/>
+<area shape="rect" href="classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3" title="board microcontroller reset" alt="" coords="457,43,613,83"/>
 <area shape="poly" title=" " alt="" coords="397,81,443,74,444,80,398,86"/>
 <area shape="rect" href="classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="457,107,613,147"/>
 <area shape="poly" title=" " alt="" coords="398,104,444,111,443,116,397,110"/>
-<area shape="rect" href="classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="668,5,829,31"/>
+<area shape="rect" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071" title="board microcontroller reset" alt="" coords="668,5,829,31"/>
 <area shape="poly" title=" " alt="" coords="613,44,674,31,675,36,614,49"/>
-<area shape="rect" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="667,55,830,80"/>
+<area shape="rect" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="667,55,830,80"/>
 <area shape="poly" title=" " alt="" coords="614,62,654,63,654,68,614,67"/>
 <area shape="rect" href="classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="1099,55,1305,80"/>
 <area shape="poly" title=" " alt="" coords="830,65,1085,65,1085,70,830,70"/>
@@ -1902,6 +1919,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a2d3e7fbf8d7554c9e568ab4270cd08f8" name="a2d3e7fbf8d7554c9e568ab4270cd08f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d3e7fbf8d7554c9e568ab4270cd08f8">&#9670;&#160;</a></span>GetUARTStrStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cboard_Breadboard::GetUARTStrStatus </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>uart_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html">bsim_picsim</a>.</p>
+
+</div>
+</div>
 <a id="a2f006324eaa915e147c4b6d299d8f133" name="a2f006324eaa915e147c4b6d299d8f133"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f006324eaa915e147c4b6d299d8f133">&#9670;&#160;</a></span>GetUARTTX()</h2>
 
@@ -1939,6 +1984,48 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="161,32,197,28,197,33,162,37"/>
 <area shape="rect" href="classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4" title="Return the UART N TX pin number." alt="" coords="209,55,400,80"/>
 <area shape="poly" title=" " alt="" coords="162,49,196,53,196,58,161,54"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac2a425352c95f2300925c9e617c9041c" name="ac2a425352c95f2300925c9e617c9041c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a425352c95f2300925c9e617c9041c">&#9670;&#160;</a></span>MClearIOUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cboard_Breadboard::MClearIOUpdated </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clear microcontroler status IO updated </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#ad202eb58507e7f72715b636c7c5b6262">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_ac2a425352c95f2300925c9e617c9041c_cgraph.png" border="0" usemap="#aclasscboard___breadboard_ac2a425352c95f2300925c9e617c9041c_cgraph" alt=""/></div>
+<map name="aclasscboard___breadboard_ac2a425352c95f2300925c9e617c9041c_cgraph" id="aclasscboard___breadboard_ac2a425352c95f2300925c9e617c9041c_cgraph">
+<area shape="rect" title="clear microcontroler status IO updated" alt="" coords="5,23,161,63"/>
+<area shape="rect" href="classbsim__picsim.html#ad202eb58507e7f72715b636c7c5b6262" title="clear microcontroler status IO updated" alt="" coords="211,5,437,31"/>
+<area shape="poly" title=" " alt="" coords="162,32,197,29,197,34,162,38"/>
+<area shape="rect" href="classbsim__simavr.html#afe38c5b05f5edc2cfa14e9ab93a8b892" title="clear microcontroler status IO updated" alt="" coords="209,55,439,80"/>
+<area shape="poly" title=" " alt="" coords="162,48,196,52,195,57,162,54"/>
 </map>
 </div>
 
@@ -2198,6 +2285,48 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a9ed26b4e080647f50690b7f908df6f9b" name="a9ed26b4e080647f50690b7f908df6f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed26b4e080647f50690b7f908df6f9b">&#9670;&#160;</a></span>MGetIOUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cboard_Breadboard::MGetIOUpdated </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get microcontroler status IO updated </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#add60f508df2921813a8f686c2accadd8">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a9ed26b4e080647f50690b7f908df6f9b_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a9ed26b4e080647f50690b7f908df6f9b_cgraph" alt=""/></div>
+<map name="aclasscboard___breadboard_a9ed26b4e080647f50690b7f908df6f9b_cgraph" id="aclasscboard___breadboard_a9ed26b4e080647f50690b7f908df6f9b_cgraph">
+<area shape="rect" title="get microcontroler status IO updated" alt="" coords="5,23,161,63"/>
+<area shape="rect" href="classbsim__picsim.html#add60f508df2921813a8f686c2accadd8" title="get microcontroler status IO updated" alt="" coords="211,5,427,31"/>
+<area shape="poly" title=" " alt="" coords="161,32,196,28,197,34,162,38"/>
+<area shape="rect" href="classbsim__simavr.html#a92b438304da2971883ca8e86466795bb" title="get microcontroler status IO updated" alt="" coords="209,55,428,80"/>
+<area shape="poly" title=" " alt="" coords="162,49,196,52,195,57,161,54"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a6f41eb48d298408a1f747e5c7582780e" name="a6f41eb48d298408a1f747e5c7582780e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f41eb48d298408a1f747e5c7582780e">&#9670;&#160;</a></span>MGetPin()</h2>
 
@@ -2328,6 +2457,48 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a9d480579d40299f63e392eddf522a2fd" name="a9d480579d40299f63e392eddf522a2fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d480579d40299f63e392eddf522a2fd">&#9670;&#160;</a></span>MGetPinOAVPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float * cboard_Breadboard::MGetPinOAVPtr </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>board microcontroller get pointer to digital pin average value </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a9d480579d40299f63e392eddf522a2fd_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a9d480579d40299f63e392eddf522a2fd_cgraph" alt=""/></div>
+<map name="aclasscboard___breadboard_a9d480579d40299f63e392eddf522a2fd_cgraph" id="aclasscboard___breadboard_a9d480579d40299f63e392eddf522a2fd_cgraph">
+<area shape="rect" title="board microcontroller get pointer to digital pin average value" alt="" coords="5,23,161,63"/>
+<area shape="rect" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9" title="board microcontroller get pointer to digital pin average value" alt="" coords="210,5,423,31"/>
+<area shape="poly" title=" " alt="" coords="161,32,196,28,197,34,162,38"/>
+<area shape="rect" href="classbsim__simavr.html#a474871bed67237c3feb3951529b6e2cd" title="board microcontroller get pointer to digital pin average value" alt="" coords="209,55,424,80"/>
+<area shape="poly" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a872335c932a4160391e77ca512045254" name="a872335c932a4160391e77ca512045254"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a872335c932a4160391e77ca512045254">&#9670;&#160;</a></span>MGetPinsValues()</h2>
 
@@ -2365,6 +2536,48 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="161,32,196,29,197,34,162,38"/>
 <area shape="rect" href="classbsim__simavr.html#a39ac31f0749b87fa0475b9195eedbf18" title="board microcontroller get all pins list struct" alt="" coords="209,55,429,80"/>
 <area shape="poly" title=" " alt="" coords="162,49,196,52,195,57,161,54"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a81a3cc10d89443d4a3fd3bd255c954ad" name="a81a3cc10d89443d4a3fd3bd255c954ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a3cc10d89443d4a3fd3bd255c954ad">&#9670;&#160;</a></span>MGetResetPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cboard_Breadboard::MGetResetPin </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Reset pin of microcontroller. </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a81a3cc10d89443d4a3fd3bd255c954ad_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a81a3cc10d89443d4a3fd3bd255c954ad_cgraph" alt=""/></div>
+<map name="aclasscboard___breadboard_a81a3cc10d89443d4a3fd3bd255c954ad_cgraph" id="aclasscboard___breadboard_a81a3cc10d89443d4a3fd3bd255c954ad_cgraph">
+<area shape="rect" title="Get the Reset pin of microcontroller." alt="" coords="5,23,161,63"/>
+<area shape="rect" href="classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72" title="Get the Reset pin of microcontroller." alt="" coords="211,5,415,31"/>
+<area shape="poly" title=" " alt="" coords="161,32,197,28,197,33,162,37"/>
+<area shape="rect" href="classbsim__simavr.html#aea8a32ebfc69b94501fac280d442eb03" title="Get the Reset pin of microcontroller." alt="" coords="209,55,416,80"/>
+<area shape="poly" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
 </map>
 </div>
 
@@ -2479,7 +2692,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="371,167,482,144,483,149,372,172"/>
 <area shape="rect" href="classbsim__simavr.html#af8464ccc91dae04bdf194014a7f688ca" title="board microcontroller pin name" alt="" coords="711,220,919,245"/>
 <area shape="poly" title=" " alt="" coords="382,189,455,198,697,221,697,226,454,203,381,194"/>
-<area shape="rect" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="477,271,640,296"/>
+<area shape="rect" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="477,271,640,296"/>
 <area shape="poly" title=" " alt="" coords="335,192,390,220,456,249,499,264,498,269,454,254,387,225,332,197"/>
 <area shape="poly" title=" " alt="" coords="919,230,953,230,953,235,919,235"/>
 <area shape="poly" title=" " alt="" coords="640,277,771,268,918,254,983,245,984,250,919,259,771,273,640,282"/>
@@ -2491,8 +2704,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a200bbecf0027cd5a53c188f7afcc0b1e" name="a200bbecf0027cd5a53c188f7afcc0b1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a200bbecf0027cd5a53c188f7afcc0b1e">&#9670;&#160;</a></span>MReset()</h2>
+<a id="ad5d5ddc9efa191355c745da40e8390e3" name="ad5d5ddc9efa191355c745da40e8390e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d5ddc9efa191355c745da40e8390e3">&#9670;&#160;</a></span>MReset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2501,7 +2714,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void cboard_Breadboard::MReset </td>
+          <td class="memname">int cboard_Breadboard::MReset </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>flags</em></td><td>)</td>
@@ -2517,16 +2730,16 @@ Here is the call graph for this function:</div>
 
 <p>board microcontroller reset </p>
 
-<p>Reimplemented from <a class="el" href="classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722">bsim_picsim</a>.</p>
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071">bsim_picsim</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classcboard___breadboard_a200bbecf0027cd5a53c188f7afcc0b1e_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a200bbecf0027cd5a53c188f7afcc0b1e_cgraph" alt=""/></div>
-<map name="aclasscboard___breadboard_a200bbecf0027cd5a53c188f7afcc0b1e_cgraph" id="aclasscboard___breadboard_a200bbecf0027cd5a53c188f7afcc0b1e_cgraph">
+<div class="center"><img src="classcboard___breadboard_ad5d5ddc9efa191355c745da40e8390e3_cgraph.png" border="0" usemap="#aclasscboard___breadboard_ad5d5ddc9efa191355c745da40e8390e3_cgraph" alt=""/></div>
+<map name="aclasscboard___breadboard_ad5d5ddc9efa191355c745da40e8390e3_cgraph" id="aclasscboard___breadboard_ad5d5ddc9efa191355c745da40e8390e3_cgraph">
 <area shape="rect" title="board microcontroller reset" alt="" coords="5,23,161,63"/>
-<area shape="rect" href="classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="210,5,371,31"/>
+<area shape="rect" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071" title="board microcontroller reset" alt="" coords="210,5,371,31"/>
 <area shape="poly" title=" " alt="" coords="161,31,196,27,197,32,162,36"/>
-<area shape="rect" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="209,55,372,80"/>
+<area shape="rect" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="209,55,372,80"/>
 <area shape="poly" title=" " alt="" coords="162,50,196,54,195,59,161,55"/>
 <area shape="rect" href="classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="635,55,841,80"/>
 <area shape="poly" title=" " alt="" coords="372,65,621,65,621,70,372,70"/>
@@ -2742,6 +2955,58 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="162,49,196,53,195,58,161,54"/>
 <area shape="rect" href="classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="453,55,660,80"/>
 <area shape="poly" title=" " alt="" coords="405,65,440,65,440,70,405,70"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a09dae3b2537f38e992062840a1a62b97" name="a09dae3b2537f38e992062840a1a62b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09dae3b2537f38e992062840a1a62b97">&#9670;&#160;</a></span>MSetPinOAV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cboard_Breadboard::MSetPinOAV </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>board microcontroller set digital pin output average value </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#a723ff508206680107bcfcfb711562d9c">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a09dae3b2537f38e992062840a1a62b97_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a09dae3b2537f38e992062840a1a62b97_cgraph" alt=""/></div>
+<map name="aclasscboard___breadboard_a09dae3b2537f38e992062840a1a62b97_cgraph" id="aclasscboard___breadboard_a09dae3b2537f38e992062840a1a62b97_cgraph">
+<area shape="rect" title="board microcontroller set digital pin output average value" alt="" coords="5,23,161,63"/>
+<area shape="rect" href="classbsim__picsim.html#a723ff508206680107bcfcfb711562d9c" title="board microcontroller set digital pin output average value" alt="" coords="210,5,403,31"/>
+<area shape="poly" title=" " alt="" coords="162,32,196,28,197,33,162,37"/>
+<area shape="rect" href="classbsim__simavr.html#a60cb156cb2dc94a48f1804b1a834a9bc" title="board microcontroller set digital pin output average value" alt="" coords="209,55,404,80"/>
+<area shape="poly" title=" " alt="" coords="162,49,196,53,195,58,162,54"/>
 </map>
 </div>
 
@@ -3028,13 +3293,13 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___breadboard_a6f71b61ad3ad0f2a660e7760b83b8aa6_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a6f71b61ad3ad0f2a660e7760b83b8aa6_cgraph" alt=""/></div>
 <map name="aclasscboard___breadboard_a6f71b61ad3ad0f2a660e7760b83b8aa6_cgraph" id="aclasscboard___breadboard_a6f71b61ad3ad0f2a660e7760b83b8aa6_cgraph">
 <area shape="rect" title="Reset board status." alt="" coords="5,75,161,115"/>
-<area shape="rect" href="classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="209,43,365,83"/>
+<area shape="rect" href="classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3" title="board microcontroller reset" alt="" coords="209,43,365,83"/>
 <area shape="poly" title=" " alt="" coords="161,81,195,75,196,80,162,86"/>
 <area shape="rect" href="classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="209,107,365,147"/>
 <area shape="poly" title=" " alt="" coords="162,105,196,110,195,116,161,110"/>
-<area shape="rect" href="classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="420,5,581,31"/>
+<area shape="rect" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071" title="board microcontroller reset" alt="" coords="420,5,581,31"/>
 <area shape="poly" title=" " alt="" coords="365,44,426,31,427,36,366,49"/>
-<area shape="rect" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="419,55,582,80"/>
+<area shape="rect" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="419,55,582,80"/>
 <area shape="poly" title=" " alt="" coords="366,62,406,63,406,68,366,67"/>
 <area shape="rect" href="classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="851,55,1057,80"/>
 <area shape="poly" title=" " alt="" coords="582,65,837,65,837,70,582,70"/>

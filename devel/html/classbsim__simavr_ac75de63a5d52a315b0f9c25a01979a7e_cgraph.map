@@ -1,0 +1,8 @@
+<map id="bsim_simavr::MReset" name="bsim_simavr::MReset">
+<area shape="rect" id="Node000001" title="board microcontroller reset" alt="" coords="5,5,168,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="431,5,637,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,15,417,15,417,21,168,21"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a2547c52838966bf99b40f1358b4e345e" title="board microcontroller set digital pin" alt="" coords="216,31,383,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,25,203,29,202,34,168,30"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="383,32,417,28,417,33,383,37"/>
+</map>

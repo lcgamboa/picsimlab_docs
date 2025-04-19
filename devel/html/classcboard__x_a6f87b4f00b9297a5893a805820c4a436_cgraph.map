@@ -1,5 +1,11 @@
 <map id="cboard_x::Reset" name="cboard_x::Reset">
-<area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,13,132,38"/>
-<area shape="rect" id="Node000002" href="$classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730" title="Register remote control variables." alt="" coords="180,5,375,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,23,166,23,166,28,132,28"/>
+<area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,55,132,80"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071" title="board microcontroller reset" alt="" coords="197,5,358,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,52,209,31,210,36,124,57"/>
+<area shape="rect" id="Node000003" href="$classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c" title="board microcontroller set digital pin" alt="" coords="195,55,360,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,65,181,65,181,70,132,70"/>
+<area shape="rect" id="Node000004" href="$classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730" title="Register remote control variables." alt="" coords="180,105,375,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,77,192,98,190,104,115,83"/>
+<area shape="rect" id="Node000005" href="$classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9" title="board microcontroller get pointer to digital pin average value" alt="" coords="423,112,636,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="375,122,409,122,409,127,375,127"/>
 </map>

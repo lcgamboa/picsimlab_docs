@@ -1,5 +1,5 @@
 <map id="cboard_gpboard::Reset" name="cboard_gpboard::Reset">
 <area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,5,176,31"/>
-<area shape="rect" id="Node000002" href="$classbsim__gpsim.html#a794acc39353910d9703afd2198e7a9af" title="board microcontroller reset" alt="" coords="224,5,383,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__gpsim.html#aa6182d75a9e3687e40d65e062c6117d7" title="board microcontroller reset" alt="" coords="224,5,383,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,15,210,15,210,21,176,21"/>
 </map>

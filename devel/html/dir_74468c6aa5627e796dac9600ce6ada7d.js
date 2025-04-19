@@ -61,7 +61,9 @@ var dir_74468c6aa5627e796dac9600ce6ada7d =
     [ "virtual_SignalGenerator.h", "virtual___signal_generator_8h_source.html", null ],
     [ "virtual_Text.h", "virtual___text_8h_source.html", null ],
     [ "virtual_VCD_Dump.h", "virtual___v_c_d___dump_8h_source.html", null ],
+    [ "virtual_VCD_Dump2.h", "virtual___v_c_d___dump2_8h_source.html", null ],
     [ "virtual_VCD_Dump_an.h", "virtual___v_c_d___dump__an_8h_source.html", null ],
+    [ "virtual_VCD_Dump_Mem.h", "virtual___v_c_d___dump___mem_8h_source.html", null ],
     [ "virtual_VCD_Play.h", "virtual___v_c_d___play_8h_source.html", null ],
     [ "virtual_vterm.h", "virtual__vterm_8h_source.html", null ]
 ];

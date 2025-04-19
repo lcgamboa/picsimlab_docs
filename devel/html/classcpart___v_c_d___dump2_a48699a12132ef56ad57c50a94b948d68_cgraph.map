@@ -1,0 +1,5 @@
+<map id="cpart_VCD_Dump2::DrawOutput" name="cpart_VCD_Dump2::DrawOutput">
+<area shape="rect" id="Node000001" title="Called to draw every output." alt="" coords="5,5,236,31"/>
+<area shape="rect" id="Node000002" href="$class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c" title="Return the name of one pin." alt="" coords="284,5,475,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,15,270,15,270,21,236,21"/>
+</map>

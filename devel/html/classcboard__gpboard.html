@@ -237,6 +237,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba1dfbb6aa1844cfabed2cf70923649c inherit pub_methods_classbsim__gpsim" id="r_aba1dfbb6aa1844cfabed2cf70923649c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#aba1dfbb6aa1844cfabed2cf70923649c">MSetPinDOV</a> (int pin, unsigned char ovalue) override</td></tr>
 <tr class="memdesc:aba1dfbb6aa1844cfabed2cf70923649c inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set Default Open Value (external pull)  <br /></td></tr>
 <tr class="separator:aba1dfbb6aa1844cfabed2cf70923649c inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84565cd1d61cd65f8d650a6a6391afb3 inherit pub_methods_classbsim__gpsim" id="r_a84565cd1d61cd65f8d650a6a6391afb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a84565cd1d61cd65f8d650a6a6391afb3">MSetPinOAV</a> (int pin, float value) override</td></tr>
+<tr class="memdesc:a84565cd1d61cd65f8d650a6a6391afb3 inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set digital pin output average value  <br /></td></tr>
+<tr class="separator:a84565cd1d61cd65f8d650a6a6391afb3 inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd3856c310cff8339855e081433ec1d inherit pub_methods_classbsim__gpsim" id="r_acdd3856c310cff8339855e081433ec1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#acdd3856c310cff8339855e081433ec1d">MSetAPin</a> (int pin, float value) override</td></tr>
 <tr class="memdesc:acdd3856c310cff8339855e081433ec1d inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set analog pin  <br /></td></tr>
 <tr class="separator:acdd3856c310cff8339855e081433ec1d inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,15 +249,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e65bb3bc8bd0bdcb00cbcd91b661486 inherit pub_methods_classbsim__gpsim" id="r_a7e65bb3bc8bd0bdcb00cbcd91b661486"><td class="memItemLeft" align="right" valign="top">const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a7e65bb3bc8bd0bdcb00cbcd91b661486">MGetPinsValues</a> (void) override</td></tr>
 <tr class="memdesc:a7e65bb3bc8bd0bdcb00cbcd91b661486 inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct  <br /></td></tr>
 <tr class="separator:a7e65bb3bc8bd0bdcb00cbcd91b661486 inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c2e3bb0506be8370e5da66d37f99ea inherit pub_methods_classbsim__gpsim" id="r_a03c2e3bb0506be8370e5da66d37f99ea"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a03c2e3bb0506be8370e5da66d37f99ea">MGetPinOAVPtr</a> (int pin) override</td></tr>
+<tr class="memdesc:a03c2e3bb0506be8370e5da66d37f99ea inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to digital pin average value  <br /></td></tr>
+<tr class="separator:a03c2e3bb0506be8370e5da66d37f99ea inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b5cec5ea5c6cf3a6b525321dbd9cfd1 inherit pub_methods_classbsim__gpsim" id="r_a8b5cec5ea5c6cf3a6b525321dbd9cfd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a8b5cec5ea5c6cf3a6b525321dbd9cfd1">MStep</a> (void) override</td></tr>
 <tr class="memdesc:a8b5cec5ea5c6cf3a6b525321dbd9cfd1 inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step  <br /></td></tr>
 <tr class="separator:a8b5cec5ea5c6cf3a6b525321dbd9cfd1 inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeebbc6ca796c64c69a8bef03c8764773 inherit pub_methods_classbsim__gpsim" id="r_aeebbc6ca796c64c69a8bef03c8764773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#aeebbc6ca796c64c69a8bef03c8764773">MStepResume</a> (void) override</td></tr>
 <tr class="memdesc:aeebbc6ca796c64c69a8bef03c8764773 inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one or two steps to resume instruction  <br /></td></tr>
 <tr class="separator:aeebbc6ca796c64c69a8bef03c8764773 inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794acc39353910d9703afd2198e7a9af inherit pub_methods_classbsim__gpsim" id="r_a794acc39353910d9703afd2198e7a9af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a794acc39353910d9703afd2198e7a9af">MReset</a> (int flags) override</td></tr>
-<tr class="memdesc:a794acc39353910d9703afd2198e7a9af inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
-<tr class="separator:a794acc39353910d9703afd2198e7a9af inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6182d75a9e3687e40d65e062c6117d7 inherit pub_methods_classbsim__gpsim" id="r_aa6182d75a9e3687e40d65e062c6117d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#aa6182d75a9e3687e40d65e062c6117d7">MReset</a> (int flags) override</td></tr>
+<tr class="memdesc:aa6182d75a9e3687e40d65e062c6117d7 inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
+<tr class="separator:aa6182d75a9e3687e40d65e062c6117d7 inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90bcfefade78946ac69de93afabb2e4e inherit pub_methods_classbsim__gpsim" id="r_a90bcfefade78946ac69de93afabb2e4e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a90bcfefade78946ac69de93afabb2e4e">MGetResetPin</a> (void) override</td></tr>
+<tr class="memdesc:a90bcfefade78946ac69de93afabb2e4e inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Reset pin of microcontroller.  <br /></td></tr>
+<tr class="separator:a90bcfefade78946ac69de93afabb2e4e inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a429f9b0eb5c4762710020736abb01a1d inherit pub_methods_classbsim__gpsim" id="r_a429f9b0eb5c4762710020736abb01a1d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#a429f9b0eb5c4762710020736abb01a1d">MGetIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:a429f9b0eb5c4762710020736abb01a1d inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">get microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:a429f9b0eb5c4762710020736abb01a1d inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3f56b12b2f59edfbba71ab6b3a17bb inherit pub_methods_classbsim__gpsim" id="r_afb3f56b12b2f59edfbba71ab6b3a17bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#afb3f56b12b2f59edfbba71ab6b3a17bb">MClearIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:afb3f56b12b2f59edfbba71ab6b3a17bb inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:afb3f56b12b2f59edfbba71ab6b3a17bb inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9394119e37ee162d953ba01ba1ab9f inherit pub_methods_classbsim__gpsim" id="r_aab9394119e37ee162d953ba01ba1ab9f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__gpsim.html#aab9394119e37ee162d953ba01ba1ab9f">GetDefaultClock</a> (void) override</td></tr>
 <tr class="memdesc:aab9394119e37ee162d953ba01ba1ab9f inherit pub_methods_classbsim__gpsim"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <br /></td></tr>
 <tr class="separator:aab9394119e37ee162d953ba01ba1ab9f inherit pub_methods_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -454,6 +469,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency<
 <tr class="memitem:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard" id="r_acdc95bb7fd294f5f62d5dc732126c684"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">GetUARTTX</a> (const int uart_num)</td></tr>
 <tr class="memdesc:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <br /></td></tr>
 <tr class="separator:acdc95bb7fd294f5f62d5dc732126c684 inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e1829feb45b9f79368978a37e51d1c inherit pub_methods_classboard" id="r_a40e1829feb45b9f79368978a37e51d1c"><td class="memItemLeft" align="right" valign="top">
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetUARTStrStatus</b> (const int uart_num)</td></tr>
+<tr class="separator:a40e1829feb45b9f79368978a37e51d1c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5573000eda25b437eb600e37e60eea inherit pub_methods_classboard" id="r_a1d5573000eda25b437eb600e37e60eea"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a1d5573000eda25b437eb600e37e60eea">GetClkLabel</a> (void)</td></tr>
 <tr class="memdesc:a1d5573000eda25b437eb600e37e60eea inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the description of clk label.  <br /></td></tr>
 <tr class="separator:a1d5573000eda25b437eb600e37e60eea inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -491,9 +509,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>StopThread</b> (void)
 <tr class="memdesc:ab061d35988283d1a1e6b16b68c6ecae8 inherit pro_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop parallel thread. <br /></td></tr>
 <tr class="separator:ab061d35988283d1a1e6b16b68c6ecae8 inherit pro_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classbsim__gpsim"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classbsim__gpsim')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classbsim__gpsim.html">bsim_gpsim</a></td></tr>
-<tr class="memitem:a196b1673735527cd70c993fb40eda299 inherit pro_attribs_classbsim__gpsim" id="r_a196b1673735527cd70c993fb40eda299"><td class="memItemLeft" align="right" valign="top">
-picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [256]</td></tr>
-<tr class="separator:a196b1673735527cd70c993fb40eda299 inherit pro_attribs_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a777b98c6ddb68acf657eabd389f837b7 inherit pro_attribs_classbsim__gpsim" id="r_a777b98c6ddb68acf657eabd389f837b7"><td class="memItemLeft" align="right" valign="top">
+picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [MAX_PIN_COUNT]</td></tr>
+<tr class="separator:a777b98c6ddb68acf657eabd389f837b7 inherit pro_attribs_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b7f6fd38b5d205a8b131b34c357d141 inherit pro_attribs_classbsim__gpsim" id="r_a8b7f6fd38b5d205a8b131b34c357d141"><td class="memItemLeft" align="right" valign="top">
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>serialbaud</b></td></tr>
 <tr class="separator:a8b7f6fd38b5d205a8b131b34c357d141 inherit pro_attribs_classbsim__gpsim"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -738,7 +756,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Event on the board." alt="" coords="5,74,241,114"/>
 <area shape="rect" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="289,5,472,31"/>
 <area shape="poly" title=" " alt="" coords="191,71,323,32,324,37,193,76"/>
-<area shape="rect" href="classbsim__gpsim.html#a794acc39353910d9703afd2198e7a9af" title="board microcontroller reset" alt="" coords="520,81,679,107"/>
+<area shape="rect" href="classbsim__gpsim.html#aa6182d75a9e3687e40d65e062c6117d7" title="board microcontroller reset" alt="" coords="520,81,679,107"/>
 <area shape="poly" title=" " alt="" coords="242,91,506,91,506,97,242,97"/>
 <area shape="rect" href="classcboard__gpboard.html#a8c69cafb811c397aca544e6516b34888" title="Reset board status." alt="" coords="295,107,466,132"/>
 <area shape="poly" title=" " alt="" coords="242,103,282,107,281,112,241,108"/>
@@ -1131,7 +1149,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard__gpboard_a8c69cafb811c397aca544e6516b34888_cgraph.png" border="0" usemap="#aclasscboard__gpboard_a8c69cafb811c397aca544e6516b34888_cgraph" alt=""/></div>
 <map name="aclasscboard__gpboard_a8c69cafb811c397aca544e6516b34888_cgraph" id="aclasscboard__gpboard_a8c69cafb811c397aca544e6516b34888_cgraph">
 <area shape="rect" title="Reset board status." alt="" coords="5,5,176,31"/>
-<area shape="rect" href="classbsim__gpsim.html#a794acc39353910d9703afd2198e7a9af" title="board microcontroller reset" alt="" coords="224,5,383,31"/>
+<area shape="rect" href="classbsim__gpsim.html#aa6182d75a9e3687e40d65e062c6117d7" title="board microcontroller reset" alt="" coords="224,5,383,31"/>
 <area shape="poly" title=" " alt="" coords="176,15,210,15,210,21,176,21"/>
 </map>
 </div>

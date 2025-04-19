@@ -1,0 +1,7 @@
+<map id="cboard_Breadboard::MGetPinOAVPtr" name="cboard_Breadboard::MGetPinOAVPtr">
+<area shape="rect" id="Node000001" title="board microcontroller get pointer to digital pin average value" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9" title="board microcontroller get pointer to digital pin average value" alt="" coords="210,5,423,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,197,34,162,38"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a474871bed67237c3feb3951529b6e2cd" title="board microcontroller get pointer to digital pin average value" alt="" coords="209,55,424,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
+</map>

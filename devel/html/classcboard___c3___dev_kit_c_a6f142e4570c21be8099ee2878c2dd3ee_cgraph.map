@@ -1,6 +1,6 @@
 <map id="cboard_C3_DevKitC::Run_CPU" name="cboard_C3_DevKitC::Run_CPU">
 <area shape="rect" id="Node000001" title="Paralle thread called ever 100ms to run cpu code." alt="" coords="5,27,164,67"/>
-<area shape="rect" id="Node000002" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="429,5,583,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__qemu.html#a61a5c565d4d6f935558c58a798757fa1" title="board microcontroller reset" alt="" coords="429,5,583,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,39,415,22,415,27,164,45"/>
 <area shape="rect" id="Node000003" href="$classcboard___c3___dev_kit_c.html#a143820c0d2207465c7a20e12f0991a2d" title="Reset board status." alt="" coords="212,55,371,95"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,55,199,60,198,65,164,61"/>

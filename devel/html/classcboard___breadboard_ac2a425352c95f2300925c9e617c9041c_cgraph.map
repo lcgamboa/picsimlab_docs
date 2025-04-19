@@ -1,0 +1,7 @@
+<map id="cboard_Breadboard::MClearIOUpdated" name="cboard_Breadboard::MClearIOUpdated">
+<area shape="rect" id="Node000001" title="clear microcontroler status IO updated" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ad202eb58507e7f72715b636c7c5b6262" title="clear microcontroler status IO updated" alt="" coords="211,5,437,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,32,197,29,197,34,162,38"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#afe38c5b05f5edc2cfa14e9ab93a8b892" title="clear microcontroler status IO updated" alt="" coords="209,55,439,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,48,196,52,195,57,162,54"/>
+</map>

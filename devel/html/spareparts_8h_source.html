@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('spareparts_8h_source.html',''); initRe
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   ########################################################################</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2024  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">   Copyright (c) : 2010-2025  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"></span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -132,120 +132,118 @@ $(document).ready(function(){initNavTree('spareparts_8h_source.html',''); initRe
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;part.h&quot;</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;types.h&quot;</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define IOINIT 110</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_c_spare_parts.html">   36</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_spare_parts.html">CSpareParts</a> {</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_class" href="class_c_spare_parts.html">CSpareParts</a>();</div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_c_spare_parts.html">   34</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_spare_parts.html">CSpareParts</a> {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_class" href="class_c_spare_parts.html">CSpareParts</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> Init(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> Init(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> UpdateAll(<span class="keyword">const</span> <span class="keywordtype">int</span> force = 0);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">int</span> GetCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> partsc; };</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="classpart.html">part</a>* GetPart(<span class="keyword">const</span> <span class="keywordtype">int</span> partn);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> DeleteParts(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> ResetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> SetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">Process</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">PreProcess</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">PostProcess</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::string <a class="code hl_function" href="class_c_spare_parts.html#a496a23d48734d388d20d059ddfb8652f">GetPinsNames</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    std::string <a class="code hl_function" href="class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c">GetPinName</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keyword">const</span> picpin* GetPinsValues(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> SetPin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">void</span> SetAPin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">float</span> value);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> SetPinDOV(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ovalue);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> SetPinDir(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dir);</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> WritePin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">void</span> WritePinA(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> avalue);</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> WritePinOA(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> oavalue);</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> RegisterIOpin(std::string pname, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin = 0, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dir = PD_OUT);</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> UnregisterIOpin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <a class="code hl_class" href="classpart.html">part</a>* AddPart(<span class="keyword">const</span> <span class="keywordtype">char</span>* partname, <span class="keyword">const</span> <span class="keywordtype">int</span> x, <span class="keyword">const</span> <span class="keywordtype">int</span> y, <span class="keyword">const</span> <span class="keywordtype">float</span> scale);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">void</span> DeletePart(<span class="keyword">const</span> <span class="keywordtype">int</span> partn);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> SetUseAlias(<span class="keyword">const</span> <span class="keywordtype">int</span> use) { useAlias = use; };</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetUseAlias(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> useAlias; };</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">bool</span> SavePinAlias(std::string fname);</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">bool</span> LoadPinAlias(std::string fname, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> show_error_msg = 0);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">bool</span> LoadConfig(std::string fname, <span class="keyword">const</span> <span class="keywordtype">int</span> disable_debug = 0);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> ClearPinAlias(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    std::string GetAliasFname(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> alias_fname; };</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">float</span> GetScale(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> scale; };</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> SetScale(<span class="keywordtype">float</span> s) { scale = s; };</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> Reset(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> UpdateAll(<span class="keyword">const</span> <span class="keywordtype">int</span> force = 0);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">int</span> GetCount(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> partsc; };</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_class" href="classpart.html">part</a>* GetPart(<span class="keyword">const</span> <span class="keywordtype">int</span> partn);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> DeleteParts(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> ResetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> SetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetPullupBus(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">Process</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">PreProcess</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">PostProcess</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::string <a class="code hl_function" href="class_c_spare_parts.html#a496a23d48734d388d20d059ddfb8652f">GetPinsNames</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::string <a class="code hl_function" href="class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c">GetPinName</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">const</span> picpin* GetPinsValues(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> SetPin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> SetAPin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">float</span> value);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> SetPinDOV(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ovalue);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">void</span> SetPinDir(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dir);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> WritePin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> WritePinA(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> avalue);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> WritePinOA(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> oavalue);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> RegisterIOpin(std::string pname, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin = 0, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dir = PD_OUT);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> UnregisterIOpin(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pin);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <a class="code hl_class" href="classpart.html">part</a>* AddPart(<span class="keyword">const</span> <span class="keywordtype">char</span>* partname, <span class="keyword">const</span> <span class="keywordtype">int</span> x, <span class="keyword">const</span> <span class="keywordtype">int</span> y, <span class="keyword">const</span> <span class="keywordtype">float</span> scale);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> DeletePart(<span class="keyword">const</span> <span class="keywordtype">int</span> partn);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> SetUseAlias(<span class="keyword">const</span> <span class="keywordtype">int</span> use) { useAlias = use; };</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetUseAlias(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> useAlias; };</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">bool</span> SavePinAlias(std::string fname);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">bool</span> LoadPinAlias(std::string fname, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> show_error_msg = 0);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">bool</span> LoadConfig(std::string fname, <span class="keyword">const</span> <span class="keywordtype">int</span> disable_debug = 0);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> ClearPinAlias(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    std::string GetAliasFname(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> alias_fname; };</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">float</span> GetScale(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> scale; };</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> SetScale(<span class="keywordtype">float</span> s) { scale = s; };</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> Reset(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> Setfdtype(<span class="keywordtype">int</span> value);</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> Setfdtype(<span class="keywordtype">int</span> value);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">int</span> Getfdtype(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> fdtype; };</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">int</span> Getfdtype(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> fdtype; };</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">void</span> ReadPreferences(<span class="keywordtype">char</span>* name, <span class="keywordtype">char</span>* value);</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> WritePreferences(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> ReadPreferences(<span class="keywordtype">char</span>* name, <span class="keywordtype">char</span>* value);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> WritePreferences(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">bool</span> SaveConfig(std::string fname);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">bool</span> SaveConfig(std::string fname);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    std::string GetLoadConfigFile(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> LoadConfigFile; };</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    std::string GetLoadConfigFile(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> LoadConfigFile; };</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> SetfdOldFilename(<span class="keyword">const</span> std::string ofn);</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> SetfdOldFilename(<span class="keyword">const</span> std::string ofn);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    std::string GetOldFilename(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> oldfname; };</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    std::string GetOldFilename(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> oldfname; };</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> SetPartOnDraw(<span class="keywordtype">int</span> pod) { PartOnDraw = pod; };</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">int</span> GetPartOnDraw(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> PartOnDraw; };</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">void</span> SetPartOnDraw(<span class="keywordtype">int</span> pod) { PartOnDraw = pod; };</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">int</span> GetPartOnDraw(<span class="keywordtype">void</span>) { <span class="keywordflow">return</span> PartOnDraw; };</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> CanvasCmd(<span class="keyword">const</span> <a class="code hl_struct" href="struct_canvas_cmd__t.html">CanvasCmd_t</a> cmd);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> CanvasCmd(<span class="keyword">const</span> <a class="code hl_struct" href="struct_canvas_cmd__t.html">CanvasCmd_t</a> cmd);</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> WPropCmd(<span class="keyword">const</span> <span class="keywordtype">char</span>* ControlName, <span class="keyword">const</span> PICSimLabWindowAction action, <span class="keyword">const</span> <span class="keywordtype">char</span>* Value,</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                        <span class="keywordtype">void</span>* ReturnBuff = NULL);</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> WindowCmd(<span class="keyword">const</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keyword">const</span> <span class="keywordtype">char</span>* ControlName, <span class="keyword">const</span> PICSimLabWindowAction action, <span class="keyword">const</span> <span class="keywordtype">char</span>* Value,</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                         <span class="keywordtype">void</span>* ReturnBuff = NULL);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> WPropCmd(<span class="keyword">const</span> <span class="keywordtype">char</span>* ControlName, <span class="keyword">const</span> PICSimLabWindowAction action, <span class="keyword">const</span> <span class="keywordtype">char</span>* Value,</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                        <span class="keywordtype">void</span>* ReturnBuff = NULL);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> WindowCmd(<span class="keyword">const</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keyword">const</span> <span class="keywordtype">char</span>* ControlName, <span class="keyword">const</span> PICSimLabWindowAction action, <span class="keyword">const</span> <span class="keywordtype">char</span>* Value,</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                         <span class="keywordtype">void</span>* ReturnBuff = NULL);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    int (*OnCanvasCmd)(<span class="keyword">const</span> <a class="code hl_struct" href="struct_canvas_cmd__t.html">CanvasCmd_t</a> cmd);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    int (*OnCanvasCmd)(<span class="keyword">const</span> <a class="code hl_struct" href="struct_canvas_cmd__t.html">CanvasCmd_t</a> cmd);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    int (*OnWindowCmd)(<span class="keyword">const</span> <span class="keywordtype">int</span> id, <span class="keyword">const</span> <span class="keywordtype">char</span>* ControlName, <span class="keyword">const</span> PICSimLabWindowAction action, <span class="keyword">const</span> <span class="keywordtype">char</span>* Value,</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                       <span class="keywordtype">void</span>* ReturnBuff);</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keywordtype">float</span> scale;</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <a class="code hl_class" href="classboard.html">board</a>* pboard;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    std::string PinNames[256];</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    std::string PinAlias[256];</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    std::string alias_fname;</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    std::string LoadConfigFile;</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    picpin* Pins;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> PinsCount;</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> useAlias;</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    std::atomic&lt;int&gt; partsc;</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <a class="code hl_class" href="classpart.html">part</a>* parts[MAX_PARTS];</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keywordtype">int</span> partsc_aup;              <span class="comment">// always update list</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <a class="code hl_class" href="classpart.html">part</a>* parts_aup[MAX_PARTS];  <span class="comment">// always update list</span></div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pullup_bus[IOINIT];</div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keywordtype">int</span> pullup_bus_count;</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pullup_bus_ptr[IOINIT];</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keywordtype">int</span> fdtype;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    std::string oldfname;</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keywordtype">int</span> PartOnDraw;</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>};</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    int (*OnWindowCmd)(<span class="keyword">const</span> <span class="keywordtype">int</span> id, <span class="keyword">const</span> <span class="keywordtype">char</span>* ControlName, <span class="keyword">const</span> PICSimLabWindowAction action, <span class="keyword">const</span> <span class="keywordtype">char</span>* Value,</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                       <span class="keywordtype">void</span>* ReturnBuff);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keywordtype">float</span> scale;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <a class="code hl_class" href="classboard.html">board</a>* pboard;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    std::string PinNames[MAX_PIN_COUNT];</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    std::string PinAlias[MAX_PIN_COUNT];</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    std::string alias_fname;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    std::string LoadConfigFile;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    picpin* Pins;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> PinsCount;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> useAlias;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    std::atomic&lt;int&gt; partsc;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <a class="code hl_class" href="classpart.html">part</a>* parts[MAX_PARTS];</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">int</span> partsc_aup;              <span class="comment">// always update list</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <a class="code hl_class" href="classpart.html">part</a>* parts_aup[MAX_PARTS];  <span class="comment">// always update list</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pullup_bus[IOINIT];</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keywordtype">int</span> pullup_bus_count;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pullup_bus_ptr[IOINIT];</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keywordtype">int</span> fdtype;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    std::string oldfname;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keywordtype">int</span> PartOnDraw;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>};</div>
 </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="keyword">extern</span> <a class="code hl_class" href="class_c_spare_parts.html">CSpareParts</a> SpareParts;</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="keyword">extern</span> <a class="code hl_class" href="class_c_spare_parts.html">CSpareParts</a> SpareParts;</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="preprocessor">#endif  </span><span class="comment">// SPAREPARTS</span></div>
-<div class="ttc" id="aclass_c_spare_parts_html"><div class="ttname"><a href="class_c_spare_parts.html">CSpareParts</a></div><div class="ttdef"><b>Definition</b> spareparts.h:36</div></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="preprocessor">#endif  </span><span class="comment">// SPAREPARTS</span></div>
+<div class="ttc" id="aclass_c_spare_parts_html"><div class="ttname"><a href="class_c_spare_parts.html">CSpareParts</a></div><div class="ttdef"><b>Definition</b> spareparts.h:34</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_a3c9d0706b999f36f96de45530f097724"><div class="ttname"><a href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">CSpareParts::Process</a></div><div class="ttdeci">void Process(void)</div><div class="ttdoc">Execute the process code of spare parts N times (where N is the number of steps in 100ms)</div><div class="ttdef"><b>Definition</b> spareparts.cc:548</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_a496a23d48734d388d20d059ddfb8652f"><div class="ttname"><a href="class_c_spare_parts.html#a496a23d48734d388d20d059ddfb8652f">CSpareParts::GetPinsNames</a></div><div class="ttdeci">std::string GetPinsNames(void)</div><div class="ttdoc">Return the name of all pins.</div><div class="ttdef"><b>Definition</b> spareparts.cc:119</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_ad7e1b221b4e7e910aa67374036a6353c"><div class="ttname"><a href="class_c_spare_parts.html#ad7e1b221b4e7e910aa67374036a6353c">CSpareParts::GetPinName</a></div><div class="ttdeci">std::string GetPinName(unsigned char pin)</div><div class="ttdoc">Return the name of one pin.</div><div class="ttdef"><b>Definition</b> spareparts.cc:146</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_adf2184d88f05dfb8d880c2c08473d0b8"><div class="ttname"><a href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">CSpareParts::PostProcess</a></div><div class="ttdeci">void PostProcess(void)</div><div class="ttdoc">Execute the post process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition</b> spareparts.cc:568</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_aeb04eb62a248ea4f07e83d8752baf96f"><div class="ttname"><a href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">CSpareParts::PreProcess</a></div><div class="ttdeci">void PreProcess(void)</div><div class="ttdoc">Execute the pre process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition</b> spareparts.cc:523</div></div>
-<div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition</b> board.h:111</div></div>
+<div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition</b> board.h:114</div></div>
 <div class="ttc" id="aclasspart_html"><div class="ttname"><a href="classpart.html">part</a></div><div class="ttdoc">PART class.</div><div class="ttdef"><b>Definition</b> part.h:49</div></div>
 <div class="ttc" id="astruct_canvas_cmd__t_html"><div class="ttname"><a href="struct_canvas_cmd__t.html">CanvasCmd_t</a></div><div class="ttdef"><b>Definition</b> draw.h:80</div></div>
 </div><!-- fragment --></div><!-- contents -->

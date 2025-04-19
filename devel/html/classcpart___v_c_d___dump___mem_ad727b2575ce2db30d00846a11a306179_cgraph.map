@@ -1,0 +1,5 @@
+<map id="cpart_VCD_Dump_Mem::ConfigurePropertiesWindow" name="cpart_VCD_Dump_Mem::ConfigurePropertiesWindow">
+<area shape="rect" id="Node000001" title="Called to configure the properties window." alt="" coords="5,5,216,45"/>
+<area shape="rect" id="Node000002" href="$classboard.html#aec217682acd4982846596d540423fe35" title="board microcontroller get RAM memory size" alt="" coords="264,13,440,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,23,250,23,250,28,216,28"/>
+</map>

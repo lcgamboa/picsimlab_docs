@@ -271,21 +271,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a038a2c61a2db37756176d8e57832700e inherit pub_methods_classbsim__qemu" id="r_a038a2c61a2db37756176d8e57832700e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a038a2c61a2db37756176d8e57832700e">MSetPinDOV</a> (int pin, unsigned char ovalue) override</td></tr>
 <tr class="memdesc:a038a2c61a2db37756176d8e57832700e inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set Default Open Value (external pull)  <br /></td></tr>
 <tr class="separator:a038a2c61a2db37756176d8e57832700e inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37fe713004d1c4b0611af29efb70e79c inherit pub_methods_classbsim__qemu" id="r_a37fe713004d1c4b0611af29efb70e79c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a37fe713004d1c4b0611af29efb70e79c">MSetPinOAV</a> (int pin, float value) override</td></tr>
+<tr class="memdesc:a37fe713004d1c4b0611af29efb70e79c inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set digital pin output average value  <br /></td></tr>
+<tr class="separator:a37fe713004d1c4b0611af29efb70e79c inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43a73e5995395213729c481400336b02 inherit pub_methods_classbsim__qemu" id="r_a43a73e5995395213729c481400336b02"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a43a73e5995395213729c481400336b02">MGetPin</a> (int pin) override</td></tr>
 <tr class="memdesc:a43a73e5995395213729c481400336b02 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get digital pin value  <br /></td></tr>
 <tr class="separator:a43a73e5995395213729c481400336b02 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdd5858432548f7866cbde79f635ff47 inherit pub_methods_classbsim__qemu" id="r_abdd5858432548f7866cbde79f635ff47"><td class="memItemLeft" align="right" valign="top">const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#abdd5858432548f7866cbde79f635ff47">MGetPinsValues</a> (void) override</td></tr>
 <tr class="memdesc:abdd5858432548f7866cbde79f635ff47 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct  <br /></td></tr>
 <tr class="separator:abdd5858432548f7866cbde79f635ff47 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4904444db3577c057c0cc1972552053e inherit pub_methods_classbsim__qemu" id="r_a4904444db3577c057c0cc1972552053e"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a4904444db3577c057c0cc1972552053e">MGetPinOAVPtr</a> (int pin) override</td></tr>
+<tr class="memdesc:a4904444db3577c057c0cc1972552053e inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to digital pin average value  <br /></td></tr>
+<tr class="separator:a4904444db3577c057c0cc1972552053e inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65a472bc322bbaaf9e75cb0d2bf181ff inherit pub_methods_classbsim__qemu" id="r_a65a472bc322bbaaf9e75cb0d2bf181ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a65a472bc322bbaaf9e75cb0d2bf181ff">MStep</a> (void) override</td></tr>
 <tr class="memdesc:a65a472bc322bbaaf9e75cb0d2bf181ff inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step  <br /></td></tr>
 <tr class="separator:a65a472bc322bbaaf9e75cb0d2bf181ff inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6867c479e896db9ff270bdb9046ce976 inherit pub_methods_classbsim__qemu" id="r_a6867c479e896db9ff270bdb9046ce976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a6867c479e896db9ff270bdb9046ce976">MStepResume</a> (void) override</td></tr>
 <tr class="memdesc:a6867c479e896db9ff270bdb9046ce976 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one or two steps to resume instruction  <br /></td></tr>
 <tr class="separator:a6867c479e896db9ff270bdb9046ce976 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a86757771ece014bf6f526d796cc35 inherit pub_methods_classbsim__qemu" id="r_a86a86757771ece014bf6f526d796cc35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35">MReset</a> (int flags) override</td></tr>
-<tr class="memdesc:a86a86757771ece014bf6f526d796cc35 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
-<tr class="separator:a86a86757771ece014bf6f526d796cc35 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61a5c565d4d6f935558c58a798757fa1 inherit pub_methods_classbsim__qemu" id="r_a61a5c565d4d6f935558c58a798757fa1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a61a5c565d4d6f935558c58a798757fa1">MReset</a> (int flags) override</td></tr>
+<tr class="memdesc:a61a5c565d4d6f935558c58a798757fa1 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
+<tr class="separator:a61a5c565d4d6f935558c58a798757fa1 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f1976cfefde20b2c6b130c2673ae18 inherit pub_methods_classbsim__qemu" id="r_a66f1976cfefde20b2c6b130c2673ae18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a66f1976cfefde20b2c6b130c2673ae18">MGetResetPin</a> (void) override</td></tr>
+<tr class="memdesc:a66f1976cfefde20b2c6b130c2673ae18 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Reset pin of microcontroller.  <br /></td></tr>
+<tr class="separator:a66f1976cfefde20b2c6b130c2673ae18 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7691afa3db1f732e91a38c30ef20b5b inherit pub_methods_classbsim__qemu" id="r_ae7691afa3db1f732e91a38c30ef20b5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#ae7691afa3db1f732e91a38c30ef20b5b">MGetIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:ae7691afa3db1f732e91a38c30ef20b5b inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">get microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:ae7691afa3db1f732e91a38c30ef20b5b inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ef4071547984e094d9a627f00cad26 inherit pub_methods_classbsim__qemu" id="r_ad5ef4071547984e094d9a627f00cad26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#ad5ef4071547984e094d9a627f00cad26">MClearIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:ad5ef4071547984e094d9a627f00cad26 inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:ad5ef4071547984e094d9a627f00cad26 inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aeee0db092abcd58749347080563d6d inherit pub_methods_classbsim__qemu" id="r_a6aeee0db092abcd58749347080563d6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__qemu.html#a6aeee0db092abcd58749347080563d6d">EvThreadRun</a> (void) override</td></tr>
 <tr class="memdesc:a6aeee0db092abcd58749347080563d6d inherit pub_methods_classbsim__qemu"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event on the board.  <br /></td></tr>
 <tr class="separator:a6aeee0db092abcd58749347080563d6d inherit pub_methods_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -488,6 +503,9 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>TimerGet_ns</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency</b> (float freq)</td></tr>
 <tr class="memdesc:afea78f14cbd390b61eae0895277b770c inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Timer counters on frequency change. <br /></td></tr>
 <tr class="separator:afea78f14cbd390b61eae0895277b770c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e1829feb45b9f79368978a37e51d1c inherit pub_methods_classboard" id="r_a40e1829feb45b9f79368978a37e51d1c"><td class="memItemLeft" align="right" valign="top">
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetUARTStrStatus</b> (const int uart_num)</td></tr>
+<tr class="separator:a40e1829feb45b9f79368978a37e51d1c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -576,9 +594,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>serialfd</b> [4]</td><
 <tr class="memitem:a00e46dca3dd131fd5022a188be161a64 inherit pro_attribs_classbsim__qemu" id="r_a00e46dca3dd131fd5022a188be161a64"><td class="memItemLeft" align="right" valign="top">
 int&#160;</td><td class="memItemRight" valign="bottom"><b>procid</b></td></tr>
 <tr class="separator:a00e46dca3dd131fd5022a188be161a64 inherit pro_attribs_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eaac45ea7f3689cb029e2983914e923 inherit pro_attribs_classbsim__qemu" id="r_a3eaac45ea7f3689cb029e2983914e923"><td class="memItemLeft" align="right" valign="top">
-picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [256]</td></tr>
-<tr class="separator:a3eaac45ea7f3689cb029e2983914e923 inherit pro_attribs_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb39f553910e27b3a9d38394c357ce26 inherit pro_attribs_classbsim__qemu" id="r_afb39f553910e27b3a9d38394c357ce26"><td class="memItemLeft" align="right" valign="top">
+picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [MAX_PIN_COUNT]</td></tr>
+<tr class="separator:afb39f553910e27b3a9d38394c357ce26 inherit pro_attribs_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f8ba7d36ad55258493534e276693a59 inherit pro_attribs_classbsim__qemu" id="r_a9f8ba7d36ad55258493534e276693a59"><td class="memItemLeft" align="right" valign="top">
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>serialbaud</b></td></tr>
 <tr class="separator:a9f8ba7d36ad55258493534e276693a59 inherit pro_attribs_classbsim__qemu"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -962,7 +980,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="173,73,214,73,214,78,173,78"/>
 <area shape="rect" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="221,120,401,145"/>
 <area shape="poly" title=" " alt="" coords="168,93,249,114,247,119,166,98"/>
-<area shape="rect" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="461,33,615,59"/>
+<area shape="rect" href="classbsim__qemu.html#a61a5c565d4d6f935558c58a798757fa1" title="board microcontroller reset" alt="" coords="461,33,615,59"/>
 <area shape="poly" title=" " alt="" coords="394,62,447,55,447,60,395,67"/>
 <area shape="rect" href="classcboard___s_t_m32___h103.html#a0df9f672e60d580d1a9606d75c52fdc5" title="Register remote control variables." alt="" coords="451,83,625,123"/>
 <area shape="poly" title=" " alt="" coords="395,83,437,88,437,94,394,88"/>
@@ -1476,7 +1494,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___s_t_m32___h103_a465560397de6244fa464793898fb2fde_cgraph.png" border="0" usemap="#aclasscboard___s_t_m32___h103_a465560397de6244fa464793898fb2fde_cgraph" alt=""/></div>
 <map name="aclasscboard___s_t_m32___h103_a465560397de6244fa464793898fb2fde_cgraph" id="aclasscboard___s_t_m32___h103_a465560397de6244fa464793898fb2fde_cgraph">
 <area shape="rect" title="Reset board status." alt="" coords="5,27,172,67"/>
-<area shape="rect" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="230,5,385,31"/>
+<area shape="rect" href="classbsim__qemu.html#a61a5c565d4d6f935558c58a798757fa1" title="board microcontroller reset" alt="" coords="230,5,385,31"/>
 <area shape="poly" title=" " alt="" coords="172,34,216,27,217,33,173,39"/>
 <area shape="rect" href="classcboard___s_t_m32___h103.html#a0df9f672e60d580d1a9606d75c52fdc5" title="Register remote control variables." alt="" coords="220,55,395,95"/>
 <area shape="poly" title=" " alt="" coords="173,55,207,60,206,65,172,61"/>

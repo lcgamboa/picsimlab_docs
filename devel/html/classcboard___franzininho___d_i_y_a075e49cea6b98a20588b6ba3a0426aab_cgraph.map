@@ -1,6 +1,6 @@
 <map id="cboard_Franzininho_DIY::Reset" name="cboard_Franzininho_DIY::Reset">
 <area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,27,153,67"/>
-<area shape="rect" id="Node000002" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="225,5,388,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="225,5,388,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,35,211,28,212,33,154,40"/>
 <area shape="rect" id="Node000005" href="$classcboard___franzininho___d_i_y.html#a6cb48a2dd7cab87bcbb3d5d72a7300aa" title="Register remote control variables." alt="" coords="201,55,412,95"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="154,54,188,58,187,63,153,59"/>

@@ -249,6 +249,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaae5a2c8539d3b64d7b157cdf3351b61 inherit pub_methods_classbsim__remote" id="r_aaae5a2c8539d3b64d7b157cdf3351b61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#aaae5a2c8539d3b64d7b157cdf3351b61">MSetPinDOV</a> (int pin, unsigned char ovalue) override</td></tr>
 <tr class="memdesc:aaae5a2c8539d3b64d7b157cdf3351b61 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set Default Open Value (external pull)  <br /></td></tr>
 <tr class="separator:aaae5a2c8539d3b64d7b157cdf3351b61 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39803180f8254adc20bfb3dea512482 inherit pub_methods_classbsim__remote" id="r_ae39803180f8254adc20bfb3dea512482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#ae39803180f8254adc20bfb3dea512482">MSetPinOAV</a> (int pin, float value) override</td></tr>
+<tr class="memdesc:ae39803180f8254adc20bfb3dea512482 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set digital pin output average value  <br /></td></tr>
+<tr class="separator:ae39803180f8254adc20bfb3dea512482 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95195443d8989c710a7bc0c80a49ce98 inherit pub_methods_classbsim__remote" id="r_a95195443d8989c710a7bc0c80a49ce98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a95195443d8989c710a7bc0c80a49ce98">MSetAPin</a> (int pin, float value) override</td></tr>
 <tr class="memdesc:a95195443d8989c710a7bc0c80a49ce98 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set analog pin  <br /></td></tr>
 <tr class="separator:a95195443d8989c710a7bc0c80a49ce98 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,15 +261,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a342d8e4bfdd0151d18b8851a602f0899 inherit pub_methods_classbsim__remote" id="r_a342d8e4bfdd0151d18b8851a602f0899"><td class="memItemLeft" align="right" valign="top">const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a342d8e4bfdd0151d18b8851a602f0899">MGetPinsValues</a> (void) override</td></tr>
 <tr class="memdesc:a342d8e4bfdd0151d18b8851a602f0899 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct  <br /></td></tr>
 <tr class="separator:a342d8e4bfdd0151d18b8851a602f0899 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b65f6014a791767e0aaf3a73b85915 inherit pub_methods_classbsim__remote" id="r_a83b65f6014a791767e0aaf3a73b85915"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a83b65f6014a791767e0aaf3a73b85915">MGetPinOAVPtr</a> (int pin) override</td></tr>
+<tr class="memdesc:a83b65f6014a791767e0aaf3a73b85915 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to digital pin average value  <br /></td></tr>
+<tr class="separator:a83b65f6014a791767e0aaf3a73b85915 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5903584f1073e1aeeb6ffccad8a6b599 inherit pub_methods_classbsim__remote" id="r_a5903584f1073e1aeeb6ffccad8a6b599"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a5903584f1073e1aeeb6ffccad8a6b599">MStep</a> (void) override</td></tr>
 <tr class="memdesc:a5903584f1073e1aeeb6ffccad8a6b599 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step  <br /></td></tr>
 <tr class="separator:a5903584f1073e1aeeb6ffccad8a6b599 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaafeee4be9f75e902c5718f86b528aa inherit pub_methods_classbsim__remote" id="r_adaafeee4be9f75e902c5718f86b528aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#adaafeee4be9f75e902c5718f86b528aa">MStepResume</a> (void) override</td></tr>
 <tr class="memdesc:adaafeee4be9f75e902c5718f86b528aa inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one or two steps to resume instruction  <br /></td></tr>
 <tr class="separator:adaafeee4be9f75e902c5718f86b528aa inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a392125f2242b257f6207aaf920a80388 inherit pub_methods_classbsim__remote" id="r_a392125f2242b257f6207aaf920a80388"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a392125f2242b257f6207aaf920a80388">MReset</a> (int flags) override</td></tr>
-<tr class="memdesc:a392125f2242b257f6207aaf920a80388 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
-<tr class="separator:a392125f2242b257f6207aaf920a80388 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcf954d404fbec80b1491cf81f21e36 inherit pub_methods_classbsim__remote" id="r_a6fcf954d404fbec80b1491cf81f21e36"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a6fcf954d404fbec80b1491cf81f21e36">MReset</a> (int flags) override</td></tr>
+<tr class="memdesc:a6fcf954d404fbec80b1491cf81f21e36 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
+<tr class="separator:a6fcf954d404fbec80b1491cf81f21e36 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ceafeed9f2265df30ad81a3921cfe3 inherit pub_methods_classbsim__remote" id="r_a22ceafeed9f2265df30ad81a3921cfe3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a22ceafeed9f2265df30ad81a3921cfe3">MGetResetPin</a> (void) override</td></tr>
+<tr class="memdesc:a22ceafeed9f2265df30ad81a3921cfe3 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Reset pin of microcontroller.  <br /></td></tr>
+<tr class="separator:a22ceafeed9f2265df30ad81a3921cfe3 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af984946cc484a2981f0775174d4753af inherit pub_methods_classbsim__remote" id="r_af984946cc484a2981f0775174d4753af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#af984946cc484a2981f0775174d4753af">MGetIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:af984946cc484a2981f0775174d4753af inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">get microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:af984946cc484a2981f0775174d4753af inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f242dd2e0e1fbc3e149027df718de60 inherit pub_methods_classbsim__remote" id="r_a2f242dd2e0e1fbc3e149027df718de60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a2f242dd2e0e1fbc3e149027df718de60">MClearIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:a2f242dd2e0e1fbc3e149027df718de60 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:a2f242dd2e0e1fbc3e149027df718de60 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ea073d3dc6d5fe70093e088bed2080 inherit pub_methods_classbsim__remote" id="r_a45ea073d3dc6d5fe70093e088bed2080"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__remote.html#a45ea073d3dc6d5fe70093e088bed2080">EndServers</a> (void) override</td></tr>
 <tr class="memdesc:a45ea073d3dc6d5fe70093e088bed2080 inherit pub_methods_classbsim__remote"><td class="mdescLeft">&#160;</td><td class="mdescRight">board servers shutdown  <br /></td></tr>
 <tr class="separator:a45ea073d3dc6d5fe70093e088bed2080 inherit pub_methods_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -472,6 +487,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency<
 <tr class="memitem:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard" id="r_ad332d66c1b91a09433b8a52683d7ac9b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ad332d66c1b91a09433b8a52683d7ac9b">IoUnlockAccess</a> (void)</td></tr>
 <tr class="memdesc:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock IO to others threads access.  <br /></td></tr>
 <tr class="separator:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e1829feb45b9f79368978a37e51d1c inherit pub_methods_classboard" id="r_a40e1829feb45b9f79368978a37e51d1c"><td class="memItemLeft" align="right" valign="top">
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetUARTStrStatus</b> (const int uart_num)</td></tr>
+<tr class="separator:a40e1829feb45b9f79368978a37e51d1c inherit pub_methods_classboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -539,9 +557,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>serialfd</b> [4]</td><
 <tr class="memitem:a00088a589e0621037072f1eb941311cc inherit pro_attribs_classbsim__remote" id="r_a00088a589e0621037072f1eb941311cc"><td class="memItemLeft" align="right" valign="top">
 int&#160;</td><td class="memItemRight" valign="bottom"><b>procid</b></td></tr>
 <tr class="separator:a00088a589e0621037072f1eb941311cc inherit pro_attribs_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa3ba0eebad8935aefc197e888776d2b inherit pro_attribs_classbsim__remote" id="r_afa3ba0eebad8935aefc197e888776d2b"><td class="memItemLeft" align="right" valign="top">
-picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [256]</td></tr>
-<tr class="separator:afa3ba0eebad8935aefc197e888776d2b inherit pro_attribs_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c3b2b7c3b4bdddb5eb5e23111462b3 inherit pro_attribs_classbsim__remote" id="r_af0c3b2b7c3b4bdddb5eb5e23111462b3"><td class="memItemLeft" align="right" valign="top">
+picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [MAX_PIN_COUNT]</td></tr>
+<tr class="separator:af0c3b2b7c3b4bdddb5eb5e23111462b3 inherit pro_attribs_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a7aca08d039ae245123aa2579ac9dd2 inherit pro_attribs_classbsim__remote" id="r_a8a7aca08d039ae245123aa2579ac9dd2"><td class="memItemLeft" align="right" valign="top">
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>serialbaud</b></td></tr>
 <tr class="separator:a8a7aca08d039ae245123aa2579ac9dd2 inherit pro_attribs_classbsim__remote"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -832,7 +850,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___remote_t_c_p_a8ca2c7e57f5b4178ed1d7d735aad930d_cgraph.png" border="0" usemap="#aclasscboard___remote_t_c_p_a8ca2c7e57f5b4178ed1d7d735aad930d_cgraph" alt=""/></div>
 <map name="aclasscboard___remote_t_c_p_a8ca2c7e57f5b4178ed1d7d735aad930d_cgraph" id="aclasscboard___remote_t_c_p_a8ca2c7e57f5b4178ed1d7d735aad930d_cgraph">
 <area shape="rect" title="Event on the board." alt="" coords="5,5,221,45"/>
-<area shape="rect" href="classbsim__remote.html#a392125f2242b257f6207aaf920a80388" title="board microcontroller reset" alt="" coords="269,13,435,38"/>
+<area shape="rect" href="classbsim__remote.html#a6fcf954d404fbec80b1491cf81f21e36" title="board microcontroller reset" alt="" coords="269,13,435,38"/>
 <area shape="poly" title=" " alt="" coords="222,23,256,23,256,28,222,28"/>
 </map>
 </div>
@@ -1292,7 +1310,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classcboard___remote_t_c_p_a24ab751fa86a6dc36115319b834c682d_cgraph.png" border="0" usemap="#aclasscboard___remote_t_c_p_a24ab751fa86a6dc36115319b834c682d_cgraph" alt=""/></div>
 <map name="aclasscboard___remote_t_c_p_a24ab751fa86a6dc36115319b834c682d_cgraph" id="aclasscboard___remote_t_c_p_a24ab751fa86a6dc36115319b834c682d_cgraph">
 <area shape="rect" title="Reset board status." alt="" coords="5,35,200,60"/>
-<area shape="rect" href="classbsim__remote.html#a392125f2242b257f6207aaf920a80388" title="board microcontroller reset" alt="" coords="271,5,436,31"/>
+<area shape="rect" href="classbsim__remote.html#a6fcf954d404fbec80b1491cf81f21e36" title="board microcontroller reset" alt="" coords="271,5,436,31"/>
 <area shape="poly" title=" " alt="" coords="200,33,257,27,257,32,201,39"/>
 <area shape="rect" href="classcboard___remote_t_c_p.html#ab99d7151813f0e561c57194813bee0fa" title="Register remote control variables." alt="" coords="248,55,459,95"/>
 <area shape="poly" title=" " alt="" coords="201,56,235,59,234,65,200,61"/>

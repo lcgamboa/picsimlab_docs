@@ -1,0 +1,5 @@
+<map id="cboard_x::RegisterRemoteControl" name="cboard_x::RegisterRemoteControl">
+<area shape="rect" id="Node000001" title="Register remote control variables." alt="" coords="5,5,200,45"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9" title="board microcontroller get pointer to digital pin average value" alt="" coords="248,13,461,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,23,234,23,234,28,200,28"/>
+</map>

@@ -203,6 +203,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91e563c022a8e6959466545f34a71e66" id="r_a91e563c022a8e6959466545f34a71e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a91e563c022a8e6959466545f34a71e66">MSetPinDOV</a> (int pin, unsigned char ovalue) override</td></tr>
 <tr class="memdesc:a91e563c022a8e6959466545f34a71e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set Default Open Value (external pull)  <br /></td></tr>
 <tr class="separator:a91e563c022a8e6959466545f34a71e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60cb156cb2dc94a48f1804b1a834a9bc" id="r_a60cb156cb2dc94a48f1804b1a834a9bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a60cb156cb2dc94a48f1804b1a834a9bc">MSetPinOAV</a> (int pin, float value) override</td></tr>
+<tr class="memdesc:a60cb156cb2dc94a48f1804b1a834a9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set digital pin output average value  <br /></td></tr>
+<tr class="separator:a60cb156cb2dc94a48f1804b1a834a9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348bedaf412d5d7e1ceb4b1275d61d0e" id="r_a348bedaf412d5d7e1ceb4b1275d61d0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a348bedaf412d5d7e1ceb4b1275d61d0e">MSetAPin</a> (int pin, float value) override</td></tr>
 <tr class="memdesc:a348bedaf412d5d7e1ceb4b1275d61d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set analog pin  <br /></td></tr>
 <tr class="separator:a348bedaf412d5d7e1ceb4b1275d61d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,15 +215,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a39ac31f0749b87fa0475b9195eedbf18" id="r_a39ac31f0749b87fa0475b9195eedbf18"><td class="memItemLeft" align="right" valign="top">const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a39ac31f0749b87fa0475b9195eedbf18">MGetPinsValues</a> (void) override</td></tr>
 <tr class="memdesc:a39ac31f0749b87fa0475b9195eedbf18"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct  <br /></td></tr>
 <tr class="separator:a39ac31f0749b87fa0475b9195eedbf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474871bed67237c3feb3951529b6e2cd" id="r_a474871bed67237c3feb3951529b6e2cd"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a474871bed67237c3feb3951529b6e2cd">MGetPinOAVPtr</a> (int pin) override</td></tr>
+<tr class="memdesc:a474871bed67237c3feb3951529b6e2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to digital pin average value  <br /></td></tr>
+<tr class="separator:a474871bed67237c3feb3951529b6e2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54284cbd4d9186ad1776d79cf6bd53c9" id="r_a54284cbd4d9186ad1776d79cf6bd53c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a54284cbd4d9186ad1776d79cf6bd53c9">MStep</a> (void) override</td></tr>
 <tr class="memdesc:a54284cbd4d9186ad1776d79cf6bd53c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step  <br /></td></tr>
 <tr class="separator:a54284cbd4d9186ad1776d79cf6bd53c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad438a0983a9cd1f3f915b48dbe1b2536" id="r_ad438a0983a9cd1f3f915b48dbe1b2536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536">MStepResume</a> (void) override</td></tr>
 <tr class="memdesc:ad438a0983a9cd1f3f915b48dbe1b2536"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one or two steps to resume instruction  <br /></td></tr>
 <tr class="separator:ad438a0983a9cd1f3f915b48dbe1b2536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127738c7f49db4ff7ddea8f24085ffad" id="r_a127738c7f49db4ff7ddea8f24085ffad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad">MReset</a> (int flags) override</td></tr>
-<tr class="memdesc:a127738c7f49db4ff7ddea8f24085ffad"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
-<tr class="separator:a127738c7f49db4ff7ddea8f24085ffad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75de63a5d52a315b0f9c25a01979a7e" id="r_ac75de63a5d52a315b0f9c25a01979a7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e">MReset</a> (int flags) override</td></tr>
+<tr class="memdesc:ac75de63a5d52a315b0f9c25a01979a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
+<tr class="separator:ac75de63a5d52a315b0f9c25a01979a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea8a32ebfc69b94501fac280d442eb03" id="r_aea8a32ebfc69b94501fac280d442eb03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#aea8a32ebfc69b94501fac280d442eb03">MGetResetPin</a> (void) override</td></tr>
+<tr class="memdesc:aea8a32ebfc69b94501fac280d442eb03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Reset pin of microcontroller.  <br /></td></tr>
+<tr class="separator:aea8a32ebfc69b94501fac280d442eb03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b438304da2971883ca8e86466795bb" id="r_a92b438304da2971883ca8e86466795bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a92b438304da2971883ca8e86466795bb">MGetIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:a92b438304da2971883ca8e86466795bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:a92b438304da2971883ca8e86466795bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe38c5b05f5edc2cfa14e9ab93a8b892" id="r_afe38c5b05f5edc2cfa14e9ab93a8b892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#afe38c5b05f5edc2cfa14e9ab93a8b892">MClearIOUpdated</a> (void) override</td></tr>
+<tr class="memdesc:afe38c5b05f5edc2cfa14e9ab93a8b892"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:afe38c5b05f5edc2cfa14e9ab93a8b892"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd012190bd20807e3d77b9261a299f32" id="r_afd012190bd20807e3d77b9261a299f32"><td class="memItemLeft" align="right" valign="top">unsigned short *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#afd012190bd20807e3d77b9261a299f32">DBGGetProcID_p</a> (void) override</td></tr>
 <tr class="memdesc:afd012190bd20807e3d77b9261a299f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to processor ID  <br /></td></tr>
 <tr class="separator:afd012190bd20807e3d77b9261a299f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +287,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a97f64e1981ea397c46cb42609449ebe4" id="r_a97f64e1981ea397c46cb42609449ebe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a97f64e1981ea397c46cb42609449ebe4">GetUARTTX</a> (const int uart_num) override</td></tr>
 <tr class="memdesc:a97f64e1981ea397c46cb42609449ebe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <br /></td></tr>
 <tr class="separator:a97f64e1981ea397c46cb42609449ebe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938f42571b668b38b963767dab2783f3" id="r_a938f42571b668b38b963767dab2783f3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbsim__simavr.html#a938f42571b668b38b963767dab2783f3">GetUARTStrStatus</a> (const int uart_num) override</td></tr>
+<tr class="separator:a938f42571b668b38b963767dab2783f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54f2b9bab497352ff4c7d330b9aede2e" id="r_a54f2b9bab497352ff4c7d330b9aede2e"><td class="memItemLeft" align="right" valign="top"><a id="a54f2b9bab497352ff4c7d330b9aede2e" name="a54f2b9bab497352ff4c7d330b9aede2e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateHardware</b> (void)</td></tr>
 <tr class="separator:a54f2b9bab497352ff4c7d330b9aede2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -527,9 +544,9 @@ avr_t *&#160;</td><td class="memItemRight" valign="bottom"><b>avr</b></td></tr>
 <tr class="memitem:aa0e7a753b3b479fa0f5d2b561d6d680c" id="r_aa0e7a753b3b479fa0f5d2b561d6d680c"><td class="memItemLeft" align="right" valign="top"><a id="aa0e7a753b3b479fa0f5d2b561d6d680c" name="aa0e7a753b3b479fa0f5d2b561d6d680c"></a>
 avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>serial_irq</b> [MAX_UART_COUNT]</td></tr>
 <tr class="separator:aa0e7a753b3b479fa0f5d2b561d6d680c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac93f9a08a3b3aa1e61aeb7985476aa12" id="r_ac93f9a08a3b3aa1e61aeb7985476aa12"><td class="memItemLeft" align="right" valign="top"><a id="ac93f9a08a3b3aa1e61aeb7985476aa12" name="ac93f9a08a3b3aa1e61aeb7985476aa12"></a>
-picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [256]</td></tr>
-<tr class="separator:ac93f9a08a3b3aa1e61aeb7985476aa12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326124ddf77e1e197daaff1c5c890c12" id="r_a326124ddf77e1e197daaff1c5c890c12"><td class="memItemLeft" align="right" valign="top"><a id="a326124ddf77e1e197daaff1c5c890c12" name="a326124ddf77e1e197daaff1c5c890c12"></a>
+picpin&#160;</td><td class="memItemRight" valign="bottom"><b>pins</b> [MAX_PIN_COUNT]</td></tr>
+<tr class="separator:a326124ddf77e1e197daaff1c5c890c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5185149f566512eacdd79843e4305e05" id="r_a5185149f566512eacdd79843e4305e05"><td class="memItemLeft" align="right" valign="top"><a id="a5185149f566512eacdd79843e4305e05" name="a5185149f566512eacdd79843e4305e05"></a>
 avr_irq_t *&#160;</td><td class="memItemRight" valign="bottom"><b>Write_stat_irq</b> [100]</td></tr>
 <tr class="separator:a5185149f566512eacdd79843e4305e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1288,6 +1305,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a938f42571b668b38b963767dab2783f3" name="a938f42571b668b38b963767dab2783f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a938f42571b668b38b963767dab2783f3">&#9670;&#160;</a></span>GetUARTStrStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string bsim_simavr::GetUARTStrStatus </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>uart_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classboard.html">board</a>.</p>
+
+</div>
+</div>
 <a id="a97f64e1981ea397c46cb42609449ebe4" name="a97f64e1981ea397c46cb42609449ebe4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97f64e1981ea397c46cb42609449ebe4">&#9670;&#160;</a></span>GetUARTTX()</h2>
 
@@ -1317,6 +1362,38 @@ Here is the call graph for this function:</div>
 <p>Reimplemented from <a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">board</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a2f006324eaa915e147c4b6d299d8f133">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
+<a id="afe38c5b05f5edc2cfa14e9ab93a8b892" name="afe38c5b05f5edc2cfa14e9ab93a8b892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe38c5b05f5edc2cfa14e9ab93a8b892">&#9670;&#160;</a></span>MClearIOUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bsim_simavr::MClearIOUpdated </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clear microcontroler status IO updated </p>
+
+<p>Implements <a class="el" href="classboard.html#a9f0a7b32b4caf384619654a8cd59c6a6">board</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#ac2a425352c95f2300925c9e617c9041c">cboard_Breadboard</a>.</p>
 
 </div>
 </div>
@@ -1522,6 +1599,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a92b438304da2971883ca8e86466795bb" name="a92b438304da2971883ca8e86466795bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b438304da2971883ca8e86466795bb">&#9670;&#160;</a></span>MGetIOUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bsim_simavr::MGetIOUpdated </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get microcontroler status IO updated </p>
+
+<p>Implements <a class="el" href="classboard.html#a3287fffc67058021a2a52cff5199240d">board</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a9ed26b4e080647f50690b7f908df6f9b">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
 <a id="a81daef51095b9fbad50e7b73f4099412" name="a81daef51095b9fbad50e7b73f4099412"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81daef51095b9fbad50e7b73f4099412">&#9670;&#160;</a></span>MGetPin()</h2>
 
@@ -1638,6 +1747,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a474871bed67237c3feb3951529b6e2cd" name="a474871bed67237c3feb3951529b6e2cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474871bed67237c3feb3951529b6e2cd">&#9670;&#160;</a></span>MGetPinOAVPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float * bsim_simavr::MGetPinOAVPtr </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>board microcontroller get pointer to digital pin average value </p>
+
+<p>Implements <a class="el" href="classboard.html#a7c1c6634d1fb268ef3d5ed9a2785f465">board</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a9d480579d40299f63e392eddf522a2fd">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
 <a id="a39ac31f0749b87fa0475b9195eedbf18" name="a39ac31f0749b87fa0475b9195eedbf18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39ac31f0749b87fa0475b9195eedbf18">&#9670;&#160;</a></span>MGetPinsValues()</h2>
 
@@ -1667,6 +1808,38 @@ Here is the call graph for this function:</div>
 <p>Implements <a class="el" href="classboard.html#a6deb0090899228e1e7f3cb3d8eea35ed">board</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a872335c932a4160391e77ca512045254">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
+<a id="aea8a32ebfc69b94501fac280d442eb03" name="aea8a32ebfc69b94501fac280d442eb03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea8a32ebfc69b94501fac280d442eb03">&#9670;&#160;</a></span>MGetResetPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bsim_simavr::MGetResetPin </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Reset pin of microcontroller. </p>
+
+<p>Implements <a class="el" href="classboard.html#ab782b6c0a756f00a9c94674bc24ee347">board</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a81a3cc10d89443d4a3fd3bd255c954ad">cboard_Breadboard</a>.</p>
 
 </div>
 </div>
@@ -1759,7 +1932,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="152,83,253,76,381,71,523,75,595,81,665,91,722,106,773,124,771,129,720,111,663,97,594,87,523,80,382,77,254,81,152,89"/>
 <area shape="rect" href="classbsim__simavr.html#af8464ccc91dae04bdf194014a7f688ca" title="board microcontroller pin name" alt="" coords="456,107,664,132"/>
 <area shape="poly" title=" " alt="" coords="152,95,442,110,442,116,152,100"/>
-<area shape="rect" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="223,157,385,183"/>
+<area shape="rect" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="223,157,385,183"/>
 <area shape="poly" title=" " alt="" coords="114,104,201,135,248,151,246,156,199,141,113,109"/>
 <area shape="poly" title=" " alt="" coords="664,127,699,130,698,136,664,132"/>
 <area shape="poly" title=" " alt="" coords="385,163,698,148,698,153,386,169"/>
@@ -1771,8 +1944,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a127738c7f49db4ff7ddea8f24085ffad" name="a127738c7f49db4ff7ddea8f24085ffad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a127738c7f49db4ff7ddea8f24085ffad">&#9670;&#160;</a></span>MReset()</h2>
+<a id="ac75de63a5d52a315b0f9c25a01979a7e" name="ac75de63a5d52a315b0f9c25a01979a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75de63a5d52a315b0f9c25a01979a7e">&#9670;&#160;</a></span>MReset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1781,7 +1954,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void bsim_simavr::MReset </td>
+          <td class="memname">int bsim_simavr::MReset </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>flags</em></td><td>)</td>
@@ -1797,14 +1970,14 @@ Here is the call graph for this function:</div>
 
 <p>board microcontroller reset </p>
 
-<p>Implements <a class="el" href="classboard.html#a8e4cb734bdf69e456dbdbce6ff875d61">board</a>.</p>
+<p>Implements <a class="el" href="classboard.html#ab458b826af58d8584bba41edfc876f9e">board</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e">cboard_Breadboard</a>.</p>
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3">cboard_Breadboard</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbsim__simavr_a127738c7f49db4ff7ddea8f24085ffad_cgraph.png" border="0" usemap="#aclassbsim__simavr_a127738c7f49db4ff7ddea8f24085ffad_cgraph" alt=""/></div>
-<map name="aclassbsim__simavr_a127738c7f49db4ff7ddea8f24085ffad_cgraph" id="aclassbsim__simavr_a127738c7f49db4ff7ddea8f24085ffad_cgraph">
+<div class="center"><img src="classbsim__simavr_ac75de63a5d52a315b0f9c25a01979a7e_cgraph.png" border="0" usemap="#aclassbsim__simavr_ac75de63a5d52a315b0f9c25a01979a7e_cgraph" alt=""/></div>
+<map name="aclassbsim__simavr_ac75de63a5d52a315b0f9c25a01979a7e_cgraph" id="aclassbsim__simavr_ac75de63a5d52a315b0f9c25a01979a7e_cgraph">
 <area shape="rect" title="board microcontroller reset" alt="" coords="5,5,168,31"/>
 <area shape="rect" href="classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="431,5,637,31"/>
 <area shape="poly" title=" " alt="" coords="168,15,417,15,417,21,168,21"/>
@@ -2016,6 +2189,48 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a60cb156cb2dc94a48f1804b1a834a9bc" name="a60cb156cb2dc94a48f1804b1a834a9bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60cb156cb2dc94a48f1804b1a834a9bc">&#9670;&#160;</a></span>MSetPinOAV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bsim_simavr::MSetPinOAV </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>board microcontroller set digital pin output average value </p>
+
+<p>Implements <a class="el" href="classboard.html#a28e23d8abf98cc1e98aba98449536502">board</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classcboard___breadboard.html#a09dae3b2537f38e992062840a1a62b97">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
 <a id="a9aa394b9f2f5e9890cd9989f70ffdd06" name="a9aa394b9f2f5e9890cd9989f70ffdd06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9aa394b9f2f5e9890cd9989f70ffdd06">&#9670;&#160;</a></span>MSetSerial()</h2>
 
@@ -2145,8 +2360,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/boards/<a class="el" href="bsim__simavr_8h_source.html">bsim_simavr.h</a></li>
-<li>src/boards/<b>bsim_simavr.cc</b></li>
+<li>src/sim_backend/<a class="el" href="bsim__simavr_8h_source.html">bsim_simavr.h</a></li>
+<li>src/sim_backend/<b>bsim_simavr.cc</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

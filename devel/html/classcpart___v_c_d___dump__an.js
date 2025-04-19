@@ -7,7 +7,6 @@ var classcpart___v_c_d___dump__an =
     [ "GetMapFile", "classcpart___v_c_d___dump__an.html#a5de92e9edb9c122f9f6e2ae4f60c1ab1", null ],
     [ "GetOutputId", "classcpart___v_c_d___dump__an.html#aa88fc96d8182d5b3ff4f777d066fe912", null ],
     [ "GetPictureFileName", "classcpart___v_c_d___dump__an.html#acff973500e95d9af4ea8d51262dad575", null ],
-    [ "GetPropertiesWindowFile", "classcpart___v_c_d___dump__an.html#aa6c016f104ea7c63f07cdda757d0faf3", null ],
     [ "OnMouseButtonPress", "classcpart___v_c_d___dump__an.html#ae7a1992508b7ec0be3f754b7a4b7d3d3", null ],
     [ "PostProcess", "classcpart___v_c_d___dump__an.html#a9d6b6bda18e40cc8586ddc6d9aed61e6", null ],
     [ "PreProcess", "classcpart___v_c_d___dump__an.html#a3826245592430b69bf4ddc99ada89e8c", null ],

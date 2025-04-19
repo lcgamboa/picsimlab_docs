@@ -1,0 +1,7 @@
+<map id="cboard_Breadboard::MSetPinOAV" name="cboard_Breadboard::MSetPinOAV">
+<area shape="rect" id="Node000001" title="board microcontroller set digital pin output average value" alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a723ff508206680107bcfcfb711562d9c" title="board microcontroller set digital pin output average value" alt="" coords="210,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,32,196,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a60cb156cb2dc94a48f1804b1a834a9bc" title="board microcontroller set digital pin output average value" alt="" coords="209,55,404,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,53,195,58,162,54"/>
+</map>

@@ -6,7 +6,7 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,73,214,73,214,78,173,78"/>
 <area shape="rect" id="Node000006" href="$class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6" title="Set the power status of microcontroller ON/OFF." alt="" coords="221,120,401,145"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="168,93,249,114,247,119,166,98"/>
-<area shape="rect" id="Node000004" href="$classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35" title="board microcontroller reset" alt="" coords="461,33,615,59"/>
+<area shape="rect" id="Node000004" href="$classbsim__qemu.html#a61a5c565d4d6f935558c58a798757fa1" title="board microcontroller reset" alt="" coords="461,33,615,59"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,62,447,55,447,60,395,67"/>
 <area shape="rect" id="Node000005" href="$classcboard___s_t_m32___h103.html#a0df9f672e60d580d1a9606d75c52fdc5" title="Register remote control variables." alt="" coords="451,83,625,123"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="395,83,437,88,437,94,394,88"/>

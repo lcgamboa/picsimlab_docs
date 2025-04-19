@@ -369,21 +369,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>MGetClocksPerInstructi
 <tr class="memitem:ac1d6ac217f57ad1ffd681d5fdd7ab205" id="r_ac1d6ac217f57ad1ffd681d5fdd7ab205"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ac1d6ac217f57ad1ffd681d5fdd7ab205">MSetAPin</a> (int pin, float value)=0</td></tr>
 <tr class="memdesc:ac1d6ac217f57ad1ffd681d5fdd7ab205"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set analog pin  <br /></td></tr>
 <tr class="separator:ac1d6ac217f57ad1ffd681d5fdd7ab205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e23d8abf98cc1e98aba98449536502" id="r_a28e23d8abf98cc1e98aba98449536502"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a28e23d8abf98cc1e98aba98449536502">MSetPinOAV</a> (int pin, float value)=0</td></tr>
+<tr class="memdesc:a28e23d8abf98cc1e98aba98449536502"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller set digital pin output average value  <br /></td></tr>
+<tr class="separator:a28e23d8abf98cc1e98aba98449536502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4465e37c88ae83651dd63dc99e07e262" id="r_a4465e37c88ae83651dd63dc99e07e262"><td class="memItemLeft" align="right" valign="top">virtual unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a4465e37c88ae83651dd63dc99e07e262">MGetPin</a> (int pin)=0</td></tr>
 <tr class="memdesc:a4465e37c88ae83651dd63dc99e07e262"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get digital pin value  <br /></td></tr>
 <tr class="separator:a4465e37c88ae83651dd63dc99e07e262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6deb0090899228e1e7f3cb3d8eea35ed" id="r_a6deb0090899228e1e7f3cb3d8eea35ed"><td class="memItemLeft" align="right" valign="top">virtual const picpin *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a6deb0090899228e1e7f3cb3d8eea35ed">MGetPinsValues</a> (void)=0</td></tr>
 <tr class="memdesc:a6deb0090899228e1e7f3cb3d8eea35ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get all pins list struct  <br /></td></tr>
 <tr class="separator:a6deb0090899228e1e7f3cb3d8eea35ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1c6634d1fb268ef3d5ed9a2785f465" id="r_a7c1c6634d1fb268ef3d5ed9a2785f465"><td class="memItemLeft" align="right" valign="top">virtual float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a7c1c6634d1fb268ef3d5ed9a2785f465">MGetPinOAVPtr</a> (int pin)=0</td></tr>
+<tr class="memdesc:a7c1c6634d1fb268ef3d5ed9a2785f465"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to digital pin average value  <br /></td></tr>
+<tr class="separator:a7c1c6634d1fb268ef3d5ed9a2785f465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad55b24f415d25c8daaf5a8ee946396b7" id="r_ad55b24f415d25c8daaf5a8ee946396b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ad55b24f415d25c8daaf5a8ee946396b7">MStep</a> (void)=0</td></tr>
 <tr class="memdesc:ad55b24f415d25c8daaf5a8ee946396b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one step  <br /></td></tr>
 <tr class="separator:ad55b24f415d25c8daaf5a8ee946396b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdaf797280c35e90b1abacf034792d80" id="r_acdaf797280c35e90b1abacf034792d80"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acdaf797280c35e90b1abacf034792d80">MStepResume</a> (void)=0</td></tr>
 <tr class="memdesc:acdaf797280c35e90b1abacf034792d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller run one or two steps to resume instruction  <br /></td></tr>
 <tr class="separator:acdaf797280c35e90b1abacf034792d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4cb734bdf69e456dbdbce6ff875d61" id="r_a8e4cb734bdf69e456dbdbce6ff875d61"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a8e4cb734bdf69e456dbdbce6ff875d61">MReset</a> (int flags)=0</td></tr>
-<tr class="memdesc:a8e4cb734bdf69e456dbdbce6ff875d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
-<tr class="separator:a8e4cb734bdf69e456dbdbce6ff875d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab458b826af58d8584bba41edfc876f9e" id="r_ab458b826af58d8584bba41edfc876f9e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab458b826af58d8584bba41edfc876f9e">MReset</a> (int flags)=0</td></tr>
+<tr class="memdesc:ab458b826af58d8584bba41edfc876f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller reset  <br /></td></tr>
+<tr class="separator:ab458b826af58d8584bba41edfc876f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab782b6c0a756f00a9c94674bc24ee347" id="r_ab782b6c0a756f00a9c94674bc24ee347"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#ab782b6c0a756f00a9c94674bc24ee347">MGetResetPin</a> (void)=0</td></tr>
+<tr class="memdesc:ab782b6c0a756f00a9c94674bc24ee347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Reset pin of microcontroller.  <br /></td></tr>
+<tr class="separator:ab782b6c0a756f00a9c94674bc24ee347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3287fffc67058021a2a52cff5199240d" id="r_a3287fffc67058021a2a52cff5199240d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a3287fffc67058021a2a52cff5199240d">MGetIOUpdated</a> (void)=0</td></tr>
+<tr class="memdesc:a3287fffc67058021a2a52cff5199240d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:a3287fffc67058021a2a52cff5199240d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f0a7b32b4caf384619654a8cd59c6a6" id="r_a9f0a7b32b4caf384619654a8cd59c6a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a9f0a7b32b4caf384619654a8cd59c6a6">MClearIOUpdated</a> (void)=0</td></tr>
+<tr class="memdesc:a9f0a7b32b4caf384619654a8cd59c6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear microcontroler status IO updated  <br /></td></tr>
+<tr class="separator:a9f0a7b32b4caf384619654a8cd59c6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20fe9617429ff785e19f184d0f78b46d" id="r_a20fe9617429ff785e19f184d0f78b46d"><td class="memItemLeft" align="right" valign="top">virtual unsigned short *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a20fe9617429ff785e19f184d0f78b46d">DBGGetProcID_p</a> (void)</td></tr>
 <tr class="memdesc:a20fe9617429ff785e19f184d0f78b46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller get pointer to processor ID  <br /></td></tr>
 <tr class="separator:a20fe9617429ff785e19f184d0f78b46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,6 +522,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency<
 <tr class="memitem:acdc95bb7fd294f5f62d5dc732126c684" id="r_acdc95bb7fd294f5f62d5dc732126c684"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#acdc95bb7fd294f5f62d5dc732126c684">GetUARTTX</a> (const int uart_num)</td></tr>
 <tr class="memdesc:acdc95bb7fd294f5f62d5dc732126c684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UART N TX pin number.  <br /></td></tr>
 <tr class="separator:acdc95bb7fd294f5f62d5dc732126c684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e1829feb45b9f79368978a37e51d1c" id="r_a40e1829feb45b9f79368978a37e51d1c"><td class="memItemLeft" align="right" valign="top"><a id="a40e1829feb45b9f79368978a37e51d1c" name="a40e1829feb45b9f79368978a37e51d1c"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetUARTStrStatus</b> (const int uart_num)</td></tr>
+<tr class="separator:a40e1829feb45b9f79368978a37e51d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5573000eda25b437eb600e37e60eea" id="r_a1d5573000eda25b437eb600e37e60eea"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a1d5573000eda25b437eb600e37e60eea">GetClkLabel</a> (void)</td></tr>
 <tr class="memdesc:a1d5573000eda25b437eb600e37e60eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the description of clk label.  <br /></td></tr>
 <tr class="separator:a1d5573000eda25b437eb600e37e60eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1957,6 +1975,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="a9f0a7b32b4caf384619654a8cd59c6a6" name="a9f0a7b32b4caf384619654a8cd59c6a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f0a7b32b4caf384619654a8cd59c6a6">&#9670;&#160;</a></span>MClearIOUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void board::MClearIOUpdated </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clear microcontroler status IO updated </p>
+
+<p>Implemented in <a class="el" href="classcboard___breadboard.html#ac2a425352c95f2300925c9e617c9041c">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#afb3f56b12b2f59edfbba71ab6b3a17bb">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#ad202eb58507e7f72715b636c7c5b6262">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#ad5ef4071547984e094d9a627f00cad26">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a2f242dd2e0e1fbc3e149027df718de60">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#afe38c5b05f5edc2cfa14e9ab93a8b892">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#ac9ef9cf644105f3b6998da1e2bc72f6e">bsim_ucsim</a>.</p>
+
+</div>
+</div>
 <a id="a6764acdeca48aa0370d680f0adfa523d" name="a6764acdeca48aa0370d680f0adfa523d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6764acdeca48aa0370d680f0adfa523d">&#9670;&#160;</a></span>MDumpMemory()</h2>
 
@@ -2137,6 +2185,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="a3287fffc67058021a2a52cff5199240d" name="a3287fffc67058021a2a52cff5199240d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3287fffc67058021a2a52cff5199240d">&#9670;&#160;</a></span>MGetIOUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int board::MGetIOUpdated </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get microcontroler status IO updated </p>
+
+<p>Implemented in <a class="el" href="classcboard___breadboard.html#a9ed26b4e080647f50690b7f908df6f9b">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#a429f9b0eb5c4762710020736abb01a1d">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#add60f508df2921813a8f686c2accadd8">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#ae7691afa3db1f732e91a38c30ef20b5b">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#af984946cc484a2981f0775174d4753af">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a92b438304da2971883ca8e86466795bb">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#a909189824ed3b3d192d5e2e8cdc1d556">bsim_ucsim</a>.</p>
+
+</div>
+</div>
 <a id="a4465e37c88ae83651dd63dc99e07e262" name="a4465e37c88ae83651dd63dc99e07e262"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4465e37c88ae83651dd63dc99e07e262">&#9670;&#160;</a></span>MGetPin()</h2>
 
@@ -2227,6 +2305,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="a7c1c6634d1fb268ef3d5ed9a2785f465" name="a7c1c6634d1fb268ef3d5ed9a2785f465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c1c6634d1fb268ef3d5ed9a2785f465">&#9670;&#160;</a></span>MGetPinOAVPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float * board::MGetPinOAVPtr </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>board microcontroller get pointer to digital pin average value </p>
+
+<p>Implemented in <a class="el" href="classcboard___breadboard.html#a9d480579d40299f63e392eddf522a2fd">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#a03c2e3bb0506be8370e5da66d37f99ea">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a4904444db3577c057c0cc1972552053e">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a83b65f6014a791767e0aaf3a73b85915">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a474871bed67237c3feb3951529b6e2cd">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#a90ed8c013adbb1e3ce2d6cbe3b8ef83b">bsim_ucsim</a>.</p>
+
+</div>
+</div>
 <a id="a6deb0090899228e1e7f3cb3d8eea35ed" name="a6deb0090899228e1e7f3cb3d8eea35ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6deb0090899228e1e7f3cb3d8eea35ed">&#9670;&#160;</a></span>MGetPinsValues()</h2>
 
@@ -2254,6 +2362,36 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 <p>board microcontroller get all pins list struct </p>
 
 <p>Implemented in <a class="el" href="classcboard___breadboard.html#a872335c932a4160391e77ca512045254">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#a7e65bb3bc8bd0bdcb00cbcd91b661486">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#ab650e99646909a5c379f5bc90bd36c3d">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#abdd5858432548f7866cbde79f635ff47">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a342d8e4bfdd0151d18b8851a602f0899">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a39ac31f0749b87fa0475b9195eedbf18">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#a4e43b8bc8cb33cff94d528ecb11d46bf">bsim_ucsim</a>.</p>
+
+</div>
+</div>
+<a id="ab782b6c0a756f00a9c94674bc24ee347" name="ab782b6c0a756f00a9c94674bc24ee347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab782b6c0a756f00a9c94674bc24ee347">&#9670;&#160;</a></span>MGetResetPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int board::MGetResetPin </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Reset pin of microcontroller. </p>
+
+<p>Implemented in <a class="el" href="classcboard___breadboard.html#a81a3cc10d89443d4a3fd3bd255c954ad">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#a90bcfefade78946ac69de93afabb2e4e">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a66f1976cfefde20b2c6b130c2673ae18">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a22ceafeed9f2265df30ad81a3921cfe3">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#aea8a32ebfc69b94501fac280d442eb03">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#ae7041f7fcd146d2da64ac02612c3d369">bsim_ucsim</a>.</p>
 
 </div>
 </div>
@@ -2333,8 +2471,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
-<a id="a8e4cb734bdf69e456dbdbce6ff875d61" name="a8e4cb734bdf69e456dbdbce6ff875d61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e4cb734bdf69e456dbdbce6ff875d61">&#9670;&#160;</a></span>MReset()</h2>
+<a id="ab458b826af58d8584bba41edfc876f9e" name="ab458b826af58d8584bba41edfc876f9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab458b826af58d8584bba41edfc876f9e">&#9670;&#160;</a></span>MReset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2343,7 +2481,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void board::MReset </td>
+          <td class="memname">virtual int board::MReset </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>flags</em></td><td>)</td>
@@ -2359,7 +2497,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 <p>board microcontroller reset </p>
 
-<p>Implemented in <a class="el" href="classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#a794acc39353910d9703afd2198e7a9af">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a86a86757771ece014bf6f526d796cc35">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a392125f2242b257f6207aaf920a80388">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#a7d90bfbfcc6742ce6c7c84a72073321d">bsim_ucsim</a>.</p>
+<p>Implemented in <a class="el" href="classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#aa6182d75a9e3687e40d65e062c6117d7">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a61a5c565d4d6f935558c58a798757fa1">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a6fcf954d404fbec80b1491cf81f21e36">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#a68dde07138a78fce52920a56b928c441">bsim_ucsim</a>.</p>
 
 </div>
 </div>
@@ -2510,6 +2648,46 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 <p>board microcontroller set Default Open Value (external pull) </p>
 
 <p>Implemented in <a class="el" href="classcboard___breadboard.html#a8ab1dbe02209a4c732f9a6311f85a30c">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#aba1dfbb6aa1844cfabed2cf70923649c">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#ab2e224716a743692f09f07041316ef69">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a038a2c61a2db37756176d8e57832700e">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#aaae5a2c8539d3b64d7b157cdf3351b61">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a91e563c022a8e6959466545f34a71e66">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#aeab2bf269b56e1f2f4876649dda7d17f">bsim_ucsim</a>.</p>
+
+</div>
+</div>
+<a id="a28e23d8abf98cc1e98aba98449536502" name="a28e23d8abf98cc1e98aba98449536502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e23d8abf98cc1e98aba98449536502">&#9670;&#160;</a></span>MSetPinOAV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void board::MSetPinOAV </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>board microcontroller set digital pin output average value </p>
+
+<p>Implemented in <a class="el" href="classcboard___breadboard.html#a09dae3b2537f38e992062840a1a62b97">cboard_Breadboard</a>, <a class="el" href="classbsim__gpsim.html#a84565cd1d61cd65f8d650a6a6391afb3">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#a723ff508206680107bcfcfb711562d9c">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a37fe713004d1c4b0611af29efb70e79c">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#ae39803180f8254adc20bfb3dea512482">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a60cb156cb2dc94a48f1804b1a834a9bc">bsim_simavr</a>, and <a class="el" href="classbsim__ucsim.html#aefd209a9c21ae8a54ba9cca8f5cb09b0">bsim_ucsim</a>.</p>
 
 </div>
 </div>

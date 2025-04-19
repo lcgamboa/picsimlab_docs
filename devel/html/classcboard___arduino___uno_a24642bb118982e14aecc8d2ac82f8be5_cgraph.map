@@ -8,7 +8,7 @@
 <area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="173,113,208,117,207,122,172,118"/>
 <area shape="rect" id="Node000009" href="$class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f" title="Set mcu rst flag (inform simulator about mcu reset state)" alt="" coords="223,169,400,195"/>
 <area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="136,122,221,155,246,163,244,168,219,161,134,127"/>
-<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="461,33,623,59"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="461,33,623,59"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="390,63,446,55,447,61,390,68"/>
 <area shape="rect" id="Node000007" href="$classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557" title="Register remote control variables." alt="" coords="451,83,633,123"/>
 <area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="390,82,438,88,437,93,390,87"/>

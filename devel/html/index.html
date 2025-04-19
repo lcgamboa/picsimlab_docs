@@ -105,7 +105,7 @@ output_step.h</h2>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">   Copyright (c) : 2010-2024  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
+<div class="line"><span class="comment">   Copyright (c) : 2010-2025  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -161,7 +161,7 @@ output_step.h</h2>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#endif </span><span class="comment">/* PART_STEP */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition</b> board.h:111</div></div>
+<div class="ttc" id="aclassboard_html"><div class="ttname"><a href="classboard.html">board</a></div><div class="ttdoc">Board class.</div><div class="ttdef"><b>Definition</b> board.h:114</div></div>
 <div class="ttc" id="aclasscpart__step_html"><div class="ttname"><a href="classcpart__step.html">cpart_step</a></div><div class="ttdoc">step motor part class</div><div class="ttdef"><b>Definition</b> output_step.h:38</div></div>
 <div class="ttc" id="aclasscpart__step_html_a18e01df76485247a833238fa5143adca"><div class="ttname"><a href="classcpart__step.html#a18e01df76485247a833238fa5143adca">cpart_step::GetAboutInfo</a></div><div class="ttdeci">std::string GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition</b> output_step.h:40</div></div>
 <div class="ttc" id="aclasscpart__step_html_a19c45dc044f0d8484d775a5da8fa95ec"><div class="ttname"><a href="classcpart__step.html#a19c45dc044f0d8484d775a5da8fa95ec">cpart_step::PreProcess</a></div><div class="ttdeci">void PreProcess(void) override</div><div class="ttdoc">Called every start of CPU process.</div><div class="ttdef"><b>Definition</b> output_step.cc:151</div></div>
@@ -187,7 +187,7 @@ output_step.cc</h2>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">   Copyright (c) : 2010-2024  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
+<div class="line"><span class="comment">   Copyright (c) : 2010-2025  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -631,7 +631,7 @@ board_x.h</h2>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">   Copyright (c) : 2015-2024  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
+<div class="line"><span class="comment">   Copyright (c) : 2015-2025  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -654,7 +654,7 @@ board_x.h</h2>
 <div class="line"><span class="preprocessor">#define BOARD_x_H</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &quot;../devices/swbounce.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;bsim_picsim.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;../sim_backend/bsim_picsim.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#define BOARD_x_Name &quot;X&quot;</span></div>
 <div class="line"> </div>
@@ -715,22 +715,22 @@ board_x.h</h2>
 <div class="line"><span class="preprocessor">#endif </span><span class="comment">/* BOARD_x_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aclassbsim__picsim_html"><div class="ttname"><a href="classbsim__picsim.html">bsim_picsim</a></div><div class="ttdef"><b>Definition</b> bsim_picsim.h:34</div></div>
 <div class="ttc" id="aclasscboard__x_html"><div class="ttname"><a href="classcboard__x.html">cboard_x</a></div><div class="ttdef"><b>Definition</b> board_x.h:35</div></div>
-<div class="ttc" id="aclasscboard__x_html_a1492d042e89665dba3924b193f5bf9cc"><div class="ttname"><a href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a></div><div class="ttdeci">void RefreshStatus(void) override</div><div class="ttdoc">Called ever 1s to refresh status.</div><div class="ttdef"><b>Definition</b> board_x.cc:183</div></div>
+<div class="ttc" id="aclasscboard__x_html_a1492d042e89665dba3924b193f5bf9cc"><div class="ttname"><a href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a></div><div class="ttdeci">void RefreshStatus(void) override</div><div class="ttdoc">Called ever 1s to refresh status.</div><div class="ttdef"><b>Definition</b> board_x.cc:174</div></div>
 <div class="ttc" id="aclasscboard__x_html_a1b3cd82ccb8f75820ac39966bc814bfe"><div class="ttname"><a href="classcboard__x.html#a1b3cd82ccb8f75820ac39966bc814bfe">cboard_x::GetSupportedDevices</a></div><div class="ttdeci">std::string GetSupportedDevices(void) override</div><div class="ttdoc">Return a list of supported microcontrollers.</div><div class="ttdef"><b>Definition</b> board_x.h:63</div></div>
-<div class="ttc" id="aclasscboard__x_html_a35a4d84f51f61a8588dd2210add76ec6"><div class="ttname"><a href="classcboard__x.html#a35a4d84f51f61a8588dd2210add76ec6">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:263</div></div>
+<div class="ttc" id="aclasscboard__x_html_a35a4d84f51f61a8588dd2210add76ec6"><div class="ttname"><a href="classcboard__x.html#a35a4d84f51f61a8588dd2210add76ec6">cboard_x::EvMouseButtonPress</a></div><div class="ttdeci">void EvMouseButtonPress(unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:245</div></div>
 <div class="ttc" id="aclasscboard__x_html_a53deb20060268afc55ebd0735749c808"><div class="ttname"><a href="classcboard__x.html#a53deb20060268afc55ebd0735749c808">cboard_x::GetName</a></div><div class="ttdeci">std::string GetName(void) override</div><div class="ttdoc">Get board name registered in PICSimLab.</div><div class="ttdef"><b>Definition</b> board_x.h:56</div></div>
-<div class="ttc" id="aclasscboard__x_html_a5603baefc099825eeb53634ece32b2f8"><div class="ttname"><a href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void) override</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition</b> board_x.cc:199</div></div>
-<div class="ttc" id="aclasscboard__x_html_a57f002f7c4329808257b80387bdcc4d1"><div class="ttname"><a href="classcboard__x.html#a57f002f7c4329808257b80387bdcc4d1">cboard_x::Draw</a></div><div class="ttdeci">void Draw(void) override</div><div class="ttdoc">Called ever 100ms to draw board.</div><div class="ttdef"><b>Definition</b> board_x.cc:384</div></div>
-<div class="ttc" id="aclasscboard__x_html_a6337aae979579d9d180026dfcd2c55c0"><div class="ttname"><a href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition</b> board_x.cc:517</div></div>
-<div class="ttc" id="aclasscboard__x_html_a696180daddb7dfc9b5bf5ad45fca0124"><div class="ttname"><a href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition</b> board_x.cc:212</div></div>
+<div class="ttc" id="aclasscboard__x_html_a5603baefc099825eeb53634ece32b2f8"><div class="ttname"><a href="classcboard__x.html#a5603baefc099825eeb53634ece32b2f8">cboard_x::WritePreferences</a></div><div class="ttdeci">void WritePreferences(void) override</div><div class="ttdoc">Called to save board preferences in configuration file.</div><div class="ttdef"><b>Definition</b> board_x.cc:181</div></div>
+<div class="ttc" id="aclasscboard__x_html_a57f002f7c4329808257b80387bdcc4d1"><div class="ttname"><a href="classcboard__x.html#a57f002f7c4329808257b80387bdcc4d1">cboard_x::Draw</a></div><div class="ttdeci">void Draw(void) override</div><div class="ttdoc">Called ever 100ms to draw board.</div><div class="ttdef"><b>Definition</b> board_x.cc:366</div></div>
+<div class="ttc" id="aclasscboard__x_html_a6337aae979579d9d180026dfcd2c55c0"><div class="ttname"><a href="classcboard__x.html#a6337aae979579d9d180026dfcd2c55c0">cboard_x::Run_CPU</a></div><div class="ttdeci">void Run_CPU(void) override</div><div class="ttdoc">Paralle thread called ever 100ms to run cpu code.</div><div class="ttdef"><b>Definition</b> board_x.cc:497</div></div>
+<div class="ttc" id="aclasscboard__x_html_a696180daddb7dfc9b5bf5ad45fca0124"><div class="ttname"><a href="classcboard__x.html#a696180daddb7dfc9b5bf5ad45fca0124">cboard_x::ReadPreferences</a></div><div class="ttdeci">void ReadPreferences(char *name, char *value) override</div><div class="ttdoc">Called whe configuration file load preferences.</div><div class="ttdef"><b>Definition</b> board_x.cc:194</div></div>
 <div class="ttc" id="aclasscboard__x_html_a6f87b4f00b9297a5893a805820c4a436"><div class="ttname"><a href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a></div><div class="ttdeci">void Reset(void) override</div><div class="ttdoc">Reset board status.</div><div class="ttdef"><b>Definition</b> board_x.cc:133</div></div>
 <div class="ttc" id="aclasscboard__x_html_a870b8977726aba5c91a863efb1175c1f"><div class="ttname"><a href="classcboard__x.html#a870b8977726aba5c91a863efb1175c1f">cboard_x::GetInputId</a></div><div class="ttdeci">unsigned short GetInputId(char *name) override</div><div class="ttdoc">return the input ids numbers of names used in input map</div><div class="ttdef"><b>Definition</b> board_x.cc:61</div></div>
-<div class="ttc" id="aclasscboard__x_html_a8a9c6d055e0956832fe171beb4d22b4f"><div class="ttname"><a href="classcboard__x.html#a8a9c6d055e0956832fe171beb4d22b4f">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:323</div></div>
-<div class="ttc" id="aclasscboard__x_html_a8c99a17217563667dc7e45275d278f97"><div class="ttname"><a href="classcboard__x.html#a8c99a17217563667dc7e45275d278f97">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:346</div></div>
-<div class="ttc" id="aclasscboard__x_html_a97c4888c156147762630f5d73d5c3bb7"><div class="ttname"><a href="classcboard__x.html#a97c4888c156147762630f5d73d5c3bb7">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(unsigned int key, unsigned int mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:237</div></div>
+<div class="ttc" id="aclasscboard__x_html_a8a9c6d055e0956832fe171beb4d22b4f"><div class="ttname"><a href="classcboard__x.html#a8a9c6d055e0956832fe171beb4d22b4f">cboard_x::EvMouseMove</a></div><div class="ttdeci">void EvMouseMove(unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:305</div></div>
+<div class="ttc" id="aclasscboard__x_html_a8c99a17217563667dc7e45275d278f97"><div class="ttname"><a href="classcboard__x.html#a8c99a17217563667dc7e45275d278f97">cboard_x::EvMouseButtonRelease</a></div><div class="ttdeci">void EvMouseButtonRelease(unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:328</div></div>
+<div class="ttc" id="aclasscboard__x_html_a97c4888c156147762630f5d73d5c3bb7"><div class="ttname"><a href="classcboard__x.html#a97c4888c156147762630f5d73d5c3bb7">cboard_x::EvKeyPress</a></div><div class="ttdeci">void EvKeyPress(unsigned int key, unsigned int mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:219</div></div>
 <div class="ttc" id="aclasscboard__x_html_a99605f65ae5f4a210d57113fa805194e"><div class="ttname"><a href="classcboard__x.html#a99605f65ae5f4a210d57113fa805194e">cboard_x::GetOutputId</a></div><div class="ttdeci">unsigned short GetOutputId(char *name) override</div><div class="ttdoc">return the output ids numbers of names used in output map</div><div class="ttdef"><b>Definition</b> board_x.cc:81</div></div>
-<div class="ttc" id="aclasscboard__x_html_a9c1664ce551c79209b4e6dc9d0ed8730"><div class="ttname"><a href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition</b> board_x.cc:163</div></div>
-<div class="ttc" id="aclasscboard__x_html_abf7fe80a9d70adcd34da8ce6749a36c2"><div class="ttname"><a href="classcboard__x.html#abf7fe80a9d70adcd34da8ce6749a36c2">cboard_x::EvKeyRelease</a></div><div class="ttdeci">void EvKeyRelease(unsigned int key, unsigned int mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:253</div></div>
+<div class="ttc" id="aclasscboard__x_html_a9c1664ce551c79209b4e6dc9d0ed8730"><div class="ttname"><a href="classcboard__x.html#a9c1664ce551c79209b4e6dc9d0ed8730">cboard_x::RegisterRemoteControl</a></div><div class="ttdeci">void RegisterRemoteControl(void) override</div><div class="ttdoc">Register remote control variables.</div><div class="ttdef"><b>Definition</b> board_x.cc:154</div></div>
+<div class="ttc" id="aclasscboard__x_html_abf7fe80a9d70adcd34da8ce6749a36c2"><div class="ttname"><a href="classcboard__x.html#abf7fe80a9d70adcd34da8ce6749a36c2">cboard_x::EvKeyRelease</a></div><div class="ttdeci">void EvKeyRelease(unsigned int key, unsigned int mask) override</div><div class="ttdoc">Event on the board.</div><div class="ttdef"><b>Definition</b> board_x.cc:235</div></div>
 <div class="ttc" id="aclasscboard__x_html_ade950561bb6b28e30fe9396a5033afe8"><div class="ttname"><a href="classcboard__x.html#ade950561bb6b28e30fe9396a5033afe8">cboard_x::GetAboutInfo</a></div><div class="ttdeci">std::string GetAboutInfo(void) override</div><div class="ttdoc">Return the about information of part.</div><div class="ttdef"><b>Definition</b> board_x.h:58</div></div>
 <div class="ttc" id="astruct_s_w_bounce__t_html"><div class="ttname"><a href="struct_s_w_bounce__t.html">SWBounce_t</a></div><div class="ttdef"><b>Definition</b> swbounce.h:29</div></div>
 </div><!-- fragment --> <h2><a class="anchor" id="bcode"></a>
@@ -741,7 +741,7 @@ board_x.cc</h2>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   ########################################################################</span></div>
 <div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">   Copyright (c) : 2015-2024  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
+<div class="line"><span class="comment">   Copyright (c) : 2015-2025  Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">   This program is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><span class="comment">   it under the terms of the GNU General Public License as published by</span></div>
@@ -868,26 +868,17 @@ board_x.cc</h2>
 <div class="line"><span class="comment">// Reset board status</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">cboard_x::Reset</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line">    pic_reset(&amp;pic, 1);</div>
+<div class="line">    <a class="code hl_function" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071">MReset</a>(1);</div>
 <div class="line"> </div>
 <div class="line">    p_BT1 = 1;  <span class="comment">// set push button  in default state (high)</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// write button state to pic pin 19 (RD0)</span></div>
-<div class="line">    pic_set_pin(&amp;pic, 19, p_BT1);</div>
-<div class="line">    <span class="comment">// write switch state to pic pin 20 (RD1)</span></div>
-<div class="line">    pic_set_pin(&amp;pic, 20, p_BT2);</div>
+<div class="line">    <span class="comment">// write button state to pin 19 (RD0)</span></div>
+<div class="line">    <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(19, p_BT1);</div>
+<div class="line">    <span class="comment">// write switch state to pin 20 (RD1)</span></div>
+<div class="line">    <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(20, p_BT2);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// verify serial port state and refresh status bar</span></div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (pic.serial[0].serialfd != INVALID_SERIAL)</div>
-<div class="line">        PICSimLab.UpdateStatus(</div>
-<div class="line">            PS_SERIAL,</div>
-<div class="line">            <span class="stringliteral">&quot;Serial: &quot;</span> + std::string(SERIALDEVICE) + <span class="stringliteral">&quot;:&quot;</span> + std::to_string(pic.serial[0].serialbaud) + <span class="stringliteral">&quot;(&quot;</span> +</div>
-<div class="line">                FloatStrFormat(<span class="stringliteral">&quot;%4.1f&quot;</span>, fabs((100.0 * pic.serial[0].serialexbaud - 100.0 * pic.serial[0].serialbaud) /</div>
-<div class="line">                                             pic.serial[0].serialexbaud)) +</div>
-<div class="line">                <span class="stringliteral">&quot;%)&quot;</span>);</div>
-<div class="line">    <span class="keywordflow">else</span></div>
-<div class="line">        PICSimLab.UpdateStatus(PS_SERIAL, <span class="stringliteral">&quot;Serial: &quot;</span> + std::string(SERIALDEVICE) + <span class="stringliteral">&quot; (ERROR)&quot;</span>);</div>
+<div class="line">    PICSimLab.UpdateStatus(PS_SERIAL, GetUARTStrStatus(0));</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#ac41e7f65ae979416dd133853774e206e">use_spare</a>)</div>
 <div class="line">        SpareParts.Reset();</div>
@@ -909,26 +900,17 @@ board_x.cc</h2>
 <div class="line">    <a class="code hl_variable" href="classboard.html#a112ae48766ff45fd7ddf88b246825509">input_ids</a>[I_POT1]-&gt;<a class="code hl_variable" href="structinput__t.html#a7a312dba32cd784ba2673747b24cd24c">update</a> = &amp;<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_POT1]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a>;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// register outputa</span></div>
-<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = &amp;pic.pins[32].oavalue;</div>
-<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = &amp;pic.pins[33].oavalue;</div>
-<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = &amp;pic.pins[18].oavalue;</div>
-<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = &amp;pic.pins[19].oavalue;</div>
+<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = <a class="code hl_function" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">MGetPinOAVPtr</a>(33);</div>
+<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = <a class="code hl_function" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">MGetPinOAVPtr</a>(34);</div>
+<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = <a class="code hl_function" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">MGetPinOAVPtr</a>(19);</div>
+<div class="line">    <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a394c193a9f75a821997918c3fe8525a5">status</a> = <a class="code hl_function" href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">MGetPinOAVPtr</a>(20);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Called ever 1s to refresh status</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcboard__x.html#a1492d042e89665dba3924b193f5bf9cc">cboard_x::RefreshStatus</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line">    <span class="comment">// verify serial port state and refresh status bar</span></div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (pic.serial[0].serialfd != INVALID_SERIAL)</div>
-<div class="line">        PICSimLab.UpdateStatus(</div>
-<div class="line">            PS_SERIAL,</div>
-<div class="line">            <span class="stringliteral">&quot;Serial: &quot;</span> + std::string(SERIALDEVICE) + <span class="stringliteral">&quot;:&quot;</span> + std::to_string(pic.serial[0].serialbaud) + <span class="stringliteral">&quot;(&quot;</span> +</div>
-<div class="line">                FloatStrFormat(<span class="stringliteral">&quot;%4.1f&quot;</span>, fabs((100.0 * pic.serial[0].serialexbaud - 100.0 * pic.serial[0].serialbaud) /</div>
-<div class="line">                                             pic.serial[0].serialexbaud)) +</div>
-<div class="line">                <span class="stringliteral">&quot;%)&quot;</span>);</div>
-<div class="line">    <span class="keywordflow">else</span></div>
-<div class="line">        PICSimLab.UpdateStatus(PS_SERIAL, <span class="stringliteral">&quot;Serial: &quot;</span> + std::string(SERIALDEVICE) + <span class="stringliteral">&quot; (ERROR)&quot;</span>);</div>
+<div class="line">    PICSimLab.UpdateStatus(PS_SERIAL, GetUARTStrStatus(0));</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Called to save board preferences in configuration file</span></div>
@@ -1025,7 +1007,7 @@ board_x.cc</h2>
 <div class="line">                    <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="comment">// if event is over I_RST area then turn off and reset</span></div>
 <div class="line">                <span class="keywordflow">case</span> I_RST:</div>
-<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>() &amp;&amp; pic_reset(&amp;pic, -1))  <span class="comment">// if powered</span></div>
+<div class="line">                    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>() &amp;&amp; <a class="code hl_function" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071">MReset</a>(-1))  <span class="comment">// if powered</span></div>
 <div class="line">                    {</div>
 <div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(0);</div>
 <div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">SetMcuRst</a>(1);</div>
@@ -1094,7 +1076,7 @@ board_x.cc</h2>
 <div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a9c6f3626c3818890de8b8d8f758cdca6">SetMcuPwr</a>(1);</div>
 <div class="line">                        PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#a077c76d5582e27431d8dceda7ff08d2f">SetMcuRst</a>(0);</div>
 <div class="line"> </div>
-<div class="line">                        <span class="keywordflow">if</span> (pic_reset(&amp;pic, -1)) {</div>
+<div class="line">                        <span class="keywordflow">if</span> (<a class="code hl_function" href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071">MReset</a>(-1)) {</div>
 <div class="line">                            <a class="code hl_function" href="classcboard__x.html#a6f87b4f00b9297a5893a805820c4a436">Reset</a>();</div>
 <div class="line">                        }</div>
 <div class="line">                    }</div>
@@ -1121,6 +1103,7 @@ board_x.cc</h2>
 <div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="classcboard__x.html#a57f002f7c4329808257b80387bdcc4d1">cboard_x::Draw</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line">    <span class="keywordtype">int</span> update = 0;  <span class="comment">// verifiy if updated is needed</span></div>
 <div class="line">    <span class="keywordtype">int</span> i;</div>
+<div class="line">    <span class="keyword">const</span> picpin* pins = <a class="code hl_function" href="classbsim__picsim.html#ab650e99646909a5c379f5bc90bd36c3d">MGetPinsValues</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// board_x draw</span></div>
 <div class="line">    <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code hl_variable" href="classboard.html#a52d4e88ddf5f29d1648ea94dafbf87de">outputc</a>; i++)  <span class="comment">// run over all outputs</span></div>
@@ -1211,27 +1194,24 @@ board_x.cc</h2>
 <div class="line">                <span class="keywordflow">switch</span> (<a class="code hl_variable" href="classboard.html#a0a6913bec3a1496007e51eb1c84e3a39">output</a>[i].<span class="keywordtype">id</span>)  <span class="comment">// search for color of output</span></div>
 <div class="line">                {</div>
 <div class="line">                    <span class="keywordflow">case</span> O_LD0:  <span class="comment">// White using pin 19 mean value (RD0)</span></div>
-<div class="line">                        PICSimLab.CanvasCmd(</div>
-<div class="line">                            {.cmd = CC_SETBGCOLOR,</div>
-<div class="line">                             .SetBgColor{(<span class="keywordtype">unsigned</span> int)pic.pins[18].oavalue, (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)pic.pins[18].oavalue,</div>
-<div class="line">                                         (<span class="keywordtype">unsigned</span> int)pic.pins[18].oavalue}});</div>
+<div class="line">                        PICSimLab.CanvasCmd({.cmd = CC_SETBGCOLOR,</div>
+<div class="line">                                             .SetBgColor{(<span class="keywordtype">unsigned</span> int)pins[18].oavalue, (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)pins[18].oavalue,</div>
+<div class="line">                                                         (<span class="keywordtype">unsigned</span> int)pins[18].oavalue}});</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="keywordflow">case</span> O_LD1:  <span class="comment">// Yelllow using pin 20 mean value (RD1)</span></div>
 <div class="line">                        PICSimLab.CanvasCmd(</div>
 <div class="line">                            {.cmd = CC_SETBGCOLOR,</div>
-<div class="line">                             .SetBgColor{(<span class="keywordtype">unsigned</span> int)pic.pins[19].oavalue, (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)pic.pins[19].oavalue, 0}});</div>
+<div class="line">                             .SetBgColor{(<span class="keywordtype">unsigned</span> int)pins[19].oavalue, (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)pins[19].oavalue, 0}});</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="keywordflow">case</span> O_LPWR:  <span class="comment">// Blue using mcupwr value</span></div>
 <div class="line">                        PICSimLab.CanvasCmd({.cmd = CC_SETBGCOLOR,</div>
 <div class="line">                                             .SetBgColor{0, 0, (<span class="keywordtype">unsigned</span> int)(200 * PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>() + 55)}});</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="keywordflow">case</span> O_RB0:  <span class="comment">// Green using pin 33 mean value (RB0)</span></div>
-<div class="line">                        PICSimLab.CanvasCmd(</div>
-<div class="line">                            {.cmd = CC_SETBGCOLOR, .SetBgColor{0, (<span class="keywordtype">unsigned</span> int)pic.pins[32].oavalue, 0}});</div>
+<div class="line">                        PICSimLab.CanvasCmd({.cmd = CC_SETBGCOLOR, .SetBgColor{0, (<span class="keywordtype">unsigned</span> int)pins[32].oavalue, 0}});</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                    <span class="keywordflow">case</span> O_RB1:  <span class="comment">// Red using pin 34 mean value (RB1)</span></div>
-<div class="line">                        PICSimLab.CanvasCmd(</div>
-<div class="line">                            {.cmd = CC_SETBGCOLOR, .SetBgColor{(<span class="keywordtype">unsigned</span> int)pic.pins[33].oavalue, 0, 0}});</div>
+<div class="line">                        PICSimLab.CanvasCmd({.cmd = CC_SETBGCOLOR, .SetBgColor{(<span class="keywordtype">unsigned</span> int)pins[33].oavalue, 0, 0}});</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
 <div class="line">                }</div>
 <div class="line"> </div>
@@ -1245,9 +1225,9 @@ board_x.cc</h2>
 <div class="line">        PICSimLab.CanvasCmd({.cmd = CC_END});</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordtype">int</span> value = (pic.pins[33].oavalue - 55) / 2;  <span class="comment">// RB0 mean value</span></div>
+<div class="line">    <span class="keywordtype">int</span> value = (pins[33].oavalue - 55) / 2;  <span class="comment">// RB0 mean value</span></div>
 <div class="line">    PICSimLab.UpdateGUI(PWM0, GT_GAUGE, GA_SET, (<span class="keywordtype">void</span>*)&amp;value);</div>
-<div class="line">    value = (pic.pins[32].oavalue - 55) / 2;  <span class="comment">// RB1 mean value</span></div>
+<div class="line">    value = (pins[32].oavalue - 55) / 2;  <span class="comment">// RB1 mean value</span></div>
 <div class="line">    PICSimLab.UpdateGUI(PWM1, GT_GAUGE, GA_SET, (<span class="keywordtype">void</span>*)&amp;value);</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -1261,17 +1241,15 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span> JUMPSTEPS = PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#ae7593e716065463586ba688d1d39d3c4">GetJUMPSTEPS</a>();  <span class="comment">// number of steps skipped</span></div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> NSTEP = PICSimLab.GetNSTEP();     <span class="comment">// number of steps in 100ms</span></div>
-<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span> RNSTEP = 200.0 * pic.PINCOUNT / NSTEP;</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span> RNSTEP = 200.0 * <a class="code hl_function" href="classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8">MGetPinCount</a>() / NSTEP;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// reset pins mean value</span></div>
 <div class="line">    memset(alm, 0, 40 * <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>));</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// read pic.pins to a local</span></div>
-<div class="line">    <span class="comment">// variable to speed up</span></div>
-<div class="line">    pins = pic.pins;</div>
+<div class="line">    <span class="comment">// read pins to a local variable to speed up</span></div>
+<div class="line">    pins = <a class="code hl_function" href="classbsim__picsim.html#ab650e99646909a5c379f5bc90bd36c3d">MGetPinsValues</a>();</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Spare parts window pre</span></div>
-<div class="line">    <span class="comment">// process</span></div>
+<div class="line">    <span class="comment">// Spare parts window pre process</span></div>
 <div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#ac41e7f65ae979416dd133853774e206e">use_spare</a>)</div>
 <div class="line">        SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">PreProcess</a>();</div>
 <div class="line"> </div>
@@ -1289,41 +1267,15 @@ board_x.cc</h2>
 <div class="line"> </div>
 <div class="line">    j = JUMPSTEPS;  <span class="comment">// step counter</span></div>
 <div class="line">    pi = 0;</div>
-<div class="line">    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>())       <span class="comment">// if</span></div>
-<div class="line">                                     <span class="comment">// powered</span></div>
-<div class="line">        <span class="keywordflow">for</span> (i = 0; i &lt; NSTEP; i++)  <span class="comment">// repeat for</span></div>
-<div class="line">                                     <span class="comment">// number of</span></div>
-<div class="line">                                     <span class="comment">// steps in 100ms</span></div>
+<div class="line">    <span class="keywordflow">if</span> (PICSimLab.<a class="code hl_function" href="class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498">GetMcuPwr</a>())       <span class="comment">// if powered</span></div>
+<div class="line">        <span class="keywordflow">for</span> (i = 0; i &lt; NSTEP; i++)  <span class="comment">// repeat for number of steps in 100ms</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordflow">if</span> (j &gt;= JUMPSTEPS)  <span class="comment">// if</span></div>
-<div class="line">                                 <span class="comment">// number</span></div>
-<div class="line">                                 <span class="comment">// of</span></div>
-<div class="line">                                 <span class="comment">// step</span></div>
-<div class="line">                                 <span class="comment">// is</span></div>
-<div class="line">                                 <span class="comment">// bigger</span></div>
-<div class="line">                                 <span class="comment">// than</span></div>
-<div class="line">                                 <span class="comment">// steps</span></div>
-<div class="line">                                 <span class="comment">// to</span></div>
-<div class="line">                                 <span class="comment">// skip</span></div>
+<div class="line">            <span class="keywordflow">if</span> (j &gt;= JUMPSTEPS)  <span class="comment">// if number of step is bigger than step to skip</span></div>
 <div class="line">            {</div>
-<div class="line">                pic_set_pin(&amp;pic, pic.mclr, <a class="code hl_variable" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a>);</div>
+<div class="line">                <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(<a class="code hl_function" href="classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72">MGetResetPin</a>(), <a class="code hl_variable" href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">p_RST</a>);</div>
 <div class="line">                <span class="keywordflow">if</span> (!bounce.do_bounce) {</div>
-<div class="line">                    pic_set_pin(&amp;pic, 19,</div>
-<div class="line">                                p_BT1_);  <span class="comment">// Set</span></div>
-<div class="line">                                          <span class="comment">// pin</span></div>
-<div class="line">                                          <span class="comment">// 19</span></div>
-<div class="line">                                          <span class="comment">// (RD0)</span></div>
-<div class="line">                                          <span class="comment">// with</span></div>
-<div class="line">                                          <span class="comment">// button</span></div>
-<div class="line">                                          <span class="comment">// state</span></div>
-<div class="line">                    pic_set_pin(&amp;pic, 20,</div>
-<div class="line">                                p_BT2_);  <span class="comment">// Set</span></div>
-<div class="line">                                          <span class="comment">// pin</span></div>
-<div class="line">                                          <span class="comment">// 20</span></div>
-<div class="line">                                          <span class="comment">// (RD1)</span></div>
-<div class="line">                                          <span class="comment">// with</span></div>
-<div class="line">                                          <span class="comment">// switch</span></div>
-<div class="line">                                          <span class="comment">// state</span></div>
+<div class="line">                    <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(19, p_BT1_);  <span class="comment">// Set pin 19 (RD0) with button state</span></div>
+<div class="line">                    <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(20, p_BT2_);  <span class="comment">// Set pin 20 (RD1) with switch state</span></div>
 <div class="line">                }</div>
 <div class="line">            }</div>
 <div class="line"> </div>
@@ -1332,95 +1284,74 @@ board_x.cc</h2>
 <div class="line">                <span class="keywordflow">if</span> (bret) {</div>
 <div class="line">                    <span class="keywordflow">if</span> (bounce.bounce[0]) {</div>
 <div class="line">                        <span class="keywordflow">if</span> (bret == 1) {</div>
-<div class="line">                            pic_set_pin(&amp;pic, 19, !pins[19 - 1].value);</div>
+<div class="line">                            <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(19, !pins[19 - 1].value);</div>
 <div class="line">                        } <span class="keywordflow">else</span> {</div>
-<div class="line">                            pic_set_pin(&amp;pic, 19, p_BT1_);</div>
+<div class="line">                            <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(19, p_BT1_);</div>
 <div class="line">                        }</div>
 <div class="line">                    }</div>
 <div class="line">                    <span class="keywordflow">if</span> (bounce.bounce[1]) {</div>
 <div class="line">                        <span class="keywordflow">if</span> (bret == 1) {</div>
-<div class="line">                            pic_set_pin(&amp;pic, 20, !pins[20 - 1].value);</div>
+<div class="line">                            <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(20, !pins[20 - 1].value);</div>
 <div class="line">                        } <span class="keywordflow">else</span> {</div>
-<div class="line">                            pic_set_pin(&amp;pic, 20, p_BT2_);</div>
+<div class="line">                            <a class="code hl_function" href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">MSetPin</a>(20, p_BT2_);</div>
 <div class="line">                        }</div>
 <div class="line">                    }</div>
 <div class="line">                }</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// verify if a</span></div>
-<div class="line">            <span class="comment">// breakpoint is reached</span></div>
-<div class="line">            <span class="comment">// if not run one</span></div>
-<div class="line">            <span class="comment">// instruction</span></div>
+<div class="line">            <span class="comment">// verify if a breakpoint is reached if not run one instruction</span></div>
 <div class="line">            <span class="keywordflow">if</span> (!mplabxd_testbp())</div>
-<div class="line">                pic_step(&amp;pic);</div>
-<div class="line">            ioupdated = pic.ioupdated;</div>
+<div class="line">                <a class="code hl_function" href="classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae">MStep</a>();</div>
+<div class="line">            ioupdated = <a class="code hl_function" href="classbsim__picsim.html#add60f508df2921813a8f686c2accadd8">MGetIOUpdated</a>();</div>
 <div class="line">            <a class="code hl_function" href="classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66">InstCounterInc</a>();</div>
-<div class="line">            <span class="comment">// Oscilloscope window</span></div>
-<div class="line">            <span class="comment">// process</span></div>
+<div class="line">            <span class="comment">// Oscilloscope window process</span></div>
 <div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a1f5dedbf50d1ebd86af96429a4a3d180">use_oscope</a>)</div>
 <div class="line">                Oscilloscope.<a class="code hl_function" href="class_c_oscilloscope.html#a4455bcb15a36ee7a8f2e8a6c2befea9e">SetSample</a>();</div>
-<div class="line">            <span class="comment">// Spare parts window</span></div>
-<div class="line">            <span class="comment">// process</span></div>
+<div class="line">            <span class="comment">// Spare parts window process</span></div>
 <div class="line">            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#ac41e7f65ae979416dd133853774e206e">use_spare</a>)</div>
 <div class="line">                SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">Process</a>();</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// increment mean value</span></div>
-<div class="line">            <span class="comment">// counter if pin is</span></div>
-<div class="line">            <span class="comment">// high</span></div>
+<div class="line">            <span class="comment">// increment mean value counter if pin is high</span></div>
 <div class="line">            alm[pi] += pins[pi].value;</div>
 <div class="line">            pi++;</div>
-<div class="line">            <span class="keywordflow">if</span> (pi == pic.PINCOUNT)</div>
+<div class="line">            <span class="keywordflow">if</span> (pi == <a class="code hl_function" href="classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8">MGetPinCount</a>())</div>
 <div class="line">                pi = 0;</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordflow">if</span> (j &gt;= JUMPSTEPS)  <span class="comment">// if</span></div>
-<div class="line">                                 <span class="comment">// number</span></div>
-<div class="line">                                 <span class="comment">// of</span></div>
-<div class="line">                                 <span class="comment">// step</span></div>
-<div class="line">                                 <span class="comment">// is</span></div>
-<div class="line">                                 <span class="comment">// bigger</span></div>
-<div class="line">                                 <span class="comment">// than</span></div>
-<div class="line">                                 <span class="comment">// steps</span></div>
-<div class="line">                                 <span class="comment">// to</span></div>
-<div class="line">                                 <span class="comment">// skip</span></div>
+<div class="line">            <span class="keywordflow">if</span> (j &gt;= JUMPSTEPS)  <span class="comment">// if number of step is bigger than steps to skip</span></div>
 <div class="line">            {</div>
-<div class="line">                <span class="comment">// set analog pin 2</span></div>
-<div class="line">                <span class="comment">// (AN0) with value</span></div>
-<div class="line">                <span class="comment">// from scroll</span></div>
-<div class="line">                pic_set_apin(&amp;pic, 2, (5.0 * pot1 / 199));</div>
+<div class="line">                <span class="comment">// set analog pin 2 (AN0) with value from scroll</span></div>
+<div class="line">                <a class="code hl_function" href="classbsim__picsim.html#a2254afa80b8a239297a27dac5d9950cd">MSetAPin</a>(2, (5.0 * pot1 / 199));</div>
 <div class="line"> </div>
-<div class="line">                j = -1;  <span class="comment">// reset</span></div>
-<div class="line">                         <span class="comment">// counter</span></div>
+<div class="line">                j = -1;  <span class="comment">// reset counter</span></div>
 <div class="line">            }</div>
-<div class="line">            j++;  <span class="comment">// counter</span></div>
-<div class="line">                  <span class="comment">// increment</span></div>
-<div class="line">            pic.ioupdated = 0;</div>
+<div class="line">            j++;  <span class="comment">// counter increment</span></div>
+<div class="line">            <a class="code hl_function" href="classbsim__picsim.html#ad202eb58507e7f72715b636c7c5b6262">MClearIOUpdated</a>();</div>
 <div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// calculate mean value</span></div>
-<div class="line">    <span class="keywordflow">for</span> (pi = 0; pi &lt; pic.PINCOUNT; pi++) {</div>
-<div class="line">        pic.pins[pi].oavalue = (int)((alm[pi] * RNSTEP) + 55);</div>
+<div class="line">    <span class="keywordflow">for</span> (pi = 0; pi &lt; <a class="code hl_function" href="classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8">MGetPinCount</a>(); pi++) {</div>
+<div class="line">        <a class="code hl_function" href="classbsim__picsim.html#a723ff508206680107bcfcfb711562d9c">MSetPinOAV</a>(pi + 1, (alm[pi] * RNSTEP) + 55);</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Spare parts window pre post</span></div>
-<div class="line">    <span class="comment">// process</span></div>
+<div class="line">    <span class="comment">// Spare parts window pre post process</span></div>
 <div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#ac41e7f65ae979416dd133853774e206e">use_spare</a>)</div>
 <div class="line">        SpareParts.<a class="code hl_function" href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">PostProcess</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// verifiy if LEDS need update</span></div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;value != pic.pins[18].oavalue) {</div>
-<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pic.pins[18].oavalue;</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;value != pins[18].oavalue) {</div>
+<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pins[18].oavalue;</div>
 <div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD0]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;value != pic.pins[19].oavalue) {</div>
-<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pic.pins[19].oavalue;</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;value != pins[19].oavalue) {</div>
+<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pins[19].oavalue;</div>
 <div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_LD1]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;value != pic.pins[32].oavalue) {</div>
-<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pic.pins[32].oavalue;</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;value != pins[32].oavalue) {</div>
+<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pins[32].oavalue;</div>
 <div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB0]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;value != pic.pins[33].oavalue) {</div>
-<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pic.pins[33].oavalue;</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;value != pins[33].oavalue) {</div>
+<div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;<a class="code hl_variable" href="structoutput__t.html#a23bc69196fed4d0e4924453a11e182bd">value</a> = pins[33].oavalue;</div>
 <div class="line">        <a class="code hl_variable" href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">output_ids</a>[O_RB1]-&gt;<a class="code hl_variable" href="structoutput__t.html#aa91b1205a6823abba2269f91bb87863d">update</a> = 1;</div>
 <div class="line">    }</div>
 <div class="line">}</div>
@@ -1438,19 +1369,30 @@ board_x.cc</h2>
 <div class="ttc" id="aclass_c_spare_parts_html_a3c9d0706b999f36f96de45530f097724"><div class="ttname"><a href="class_c_spare_parts.html#a3c9d0706b999f36f96de45530f097724">CSpareParts::Process</a></div><div class="ttdeci">void Process(void)</div><div class="ttdoc">Execute the process code of spare parts N times (where N is the number of steps in 100ms)</div><div class="ttdef"><b>Definition</b> spareparts.cc:548</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_adf2184d88f05dfb8d880c2c08473d0b8"><div class="ttname"><a href="class_c_spare_parts.html#adf2184d88f05dfb8d880c2c08473d0b8">CSpareParts::PostProcess</a></div><div class="ttdeci">void PostProcess(void)</div><div class="ttdoc">Execute the post process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition</b> spareparts.cc:568</div></div>
 <div class="ttc" id="aclass_c_spare_parts_html_aeb04eb62a248ea4f07e83d8752baf96f"><div class="ttname"><a href="class_c_spare_parts.html#aeb04eb62a248ea4f07e83d8752baf96f">CSpareParts::PreProcess</a></div><div class="ttdeci">void PreProcess(void)</div><div class="ttdoc">Execute the pre process code of spare parts one time per 100ms.</div><div class="ttdef"><b>Definition</b> spareparts.cc:523</div></div>
-<div class="ttc" id="aclassboard_html_a0a6913bec3a1496007e51eb1c84e3a39"><div class="ttname"><a href="classboard.html#a0a6913bec3a1496007e51eb1c84e3a39">board::output</a></div><div class="ttdeci">output_t output[MAX_IDS]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition</b> board.h:664</div></div>
-<div class="ttc" id="aclassboard_html_a112ae48766ff45fd7ddf88b246825509"><div class="ttname"><a href="classboard.html#a112ae48766ff45fd7ddf88b246825509">board::input_ids</a></div><div class="ttdeci">input_t * input_ids[MAX_IDS]</div><div class="ttdoc">input map elements by id order</div><div class="ttdef"><b>Definition</b> board.h:663</div></div>
-<div class="ttc" id="aclassboard_html_a1f5dedbf50d1ebd86af96429a4a3d180"><div class="ttname"><a href="classboard.html#a1f5dedbf50d1ebd86af96429a4a3d180">board::use_oscope</a></div><div class="ttdeci">int use_oscope</div><div class="ttdoc">use oscilloscope window</div><div class="ttdef"><b>Definition</b> board.h:668</div></div>
+<div class="ttc" id="aclassboard_html_a0a6913bec3a1496007e51eb1c84e3a39"><div class="ttname"><a href="classboard.html#a0a6913bec3a1496007e51eb1c84e3a39">board::output</a></div><div class="ttdeci">output_t output[MAX_IDS]</div><div class="ttdoc">output map elements</div><div class="ttdef"><b>Definition</b> board.h:694</div></div>
+<div class="ttc" id="aclassboard_html_a112ae48766ff45fd7ddf88b246825509"><div class="ttname"><a href="classboard.html#a112ae48766ff45fd7ddf88b246825509">board::input_ids</a></div><div class="ttdeci">input_t * input_ids[MAX_IDS]</div><div class="ttdoc">input map elements by id order</div><div class="ttdef"><b>Definition</b> board.h:693</div></div>
+<div class="ttc" id="aclassboard_html_a1f5dedbf50d1ebd86af96429a4a3d180"><div class="ttname"><a href="classboard.html#a1f5dedbf50d1ebd86af96429a4a3d180">board::use_oscope</a></div><div class="ttdeci">int use_oscope</div><div class="ttdoc">use oscilloscope window</div><div class="ttdef"><b>Definition</b> board.h:698</div></div>
 <div class="ttc" id="aclassboard_html_a2c5a0def304361ca54f770b2cd9520fd"><div class="ttname"><a href="classboard.html#a2c5a0def304361ca54f770b2cd9520fd">board::MGetInstClockFreq</a></div><div class="ttdeci">virtual float MGetInstClockFreq(void)=0</div><div class="ttdoc">board microcontroller get cpu internal clock (in PIC frequency/4)</div></div>
 <div class="ttc" id="aclassboard_html_a4baf2e6e854e2c46eac9104b82ed4d66"><div class="ttname"><a href="classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66">board::InstCounterInc</a></div><div class="ttdeci">void InstCounterInc(void)</div><div class="ttdoc">Increment the Intructions Counter.</div><div class="ttdef"><b>Definition</b> board.cc:402</div></div>
-<div class="ttc" id="aclassboard_html_a52d4e88ddf5f29d1648ea94dafbf87de"><div class="ttname"><a href="classboard.html#a52d4e88ddf5f29d1648ea94dafbf87de">board::outputc</a></div><div class="ttdeci">int outputc</div><div class="ttdoc">output map elements counter</div><div class="ttdef"><b>Definition</b> board.h:667</div></div>
-<div class="ttc" id="aclassboard_html_a67b4914bb614698b6b00bdc07cbcb95b"><div class="ttname"><a href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">board::output_ids</a></div><div class="ttdeci">output_t * output_ids[MAX_IDS]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition</b> board.h:665</div></div>
-<div class="ttc" id="aclassboard_html_a7a851447b6b05b5f600cb587aae0c778"><div class="ttname"><a href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">board::p_RST</a></div><div class="ttdeci">unsigned char p_RST</div><div class="ttdoc">board /RESET pin state</div><div class="ttdef"><b>Definition</b> board.h:670</div></div>
-<div class="ttc" id="aclassboard_html_a8263f81e92db703ec57c319e7785fc74"><div class="ttname"><a href="classboard.html#a8263f81e92db703ec57c319e7785fc74">board::input</a></div><div class="ttdeci">input_t input[MAX_IDS]</div><div class="ttdoc">input map elements</div><div class="ttdef"><b>Definition</b> board.h:662</div></div>
-<div class="ttc" id="aclassboard_html_ac41e7f65ae979416dd133853774e206e"><div class="ttname"><a href="classboard.html#ac41e7f65ae979416dd133853774e206e">board::use_spare</a></div><div class="ttdeci">int use_spare</div><div class="ttdoc">use spare parts window</div><div class="ttdef"><b>Definition</b> board.h:669</div></div>
-<div class="ttc" id="aclassboard_html_ad9f8dc51eeea817a22d9ffec01c1f0c2"><div class="ttname"><a href="classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2">board::inputc</a></div><div class="ttdeci">int inputc</div><div class="ttdoc">input map elements counter</div><div class="ttdef"><b>Definition</b> board.h:666</div></div>
+<div class="ttc" id="aclassboard_html_a52d4e88ddf5f29d1648ea94dafbf87de"><div class="ttname"><a href="classboard.html#a52d4e88ddf5f29d1648ea94dafbf87de">board::outputc</a></div><div class="ttdeci">int outputc</div><div class="ttdoc">output map elements counter</div><div class="ttdef"><b>Definition</b> board.h:697</div></div>
+<div class="ttc" id="aclassboard_html_a67b4914bb614698b6b00bdc07cbcb95b"><div class="ttname"><a href="classboard.html#a67b4914bb614698b6b00bdc07cbcb95b">board::output_ids</a></div><div class="ttdeci">output_t * output_ids[MAX_IDS]</div><div class="ttdoc">output map elements by id order</div><div class="ttdef"><b>Definition</b> board.h:695</div></div>
+<div class="ttc" id="aclassboard_html_a7a851447b6b05b5f600cb587aae0c778"><div class="ttname"><a href="classboard.html#a7a851447b6b05b5f600cb587aae0c778">board::p_RST</a></div><div class="ttdeci">unsigned char p_RST</div><div class="ttdoc">board /RESET pin state</div><div class="ttdef"><b>Definition</b> board.h:700</div></div>
+<div class="ttc" id="aclassboard_html_a8263f81e92db703ec57c319e7785fc74"><div class="ttname"><a href="classboard.html#a8263f81e92db703ec57c319e7785fc74">board::input</a></div><div class="ttdeci">input_t input[MAX_IDS]</div><div class="ttdoc">input map elements</div><div class="ttdef"><b>Definition</b> board.h:692</div></div>
+<div class="ttc" id="aclassboard_html_ac41e7f65ae979416dd133853774e206e"><div class="ttname"><a href="classboard.html#ac41e7f65ae979416dd133853774e206e">board::use_spare</a></div><div class="ttdeci">int use_spare</div><div class="ttdoc">use spare parts window</div><div class="ttdef"><b>Definition</b> board.h:699</div></div>
+<div class="ttc" id="aclassboard_html_ad9f8dc51eeea817a22d9ffec01c1f0c2"><div class="ttname"><a href="classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2">board::inputc</a></div><div class="ttdeci">int inputc</div><div class="ttdoc">input map elements counter</div><div class="ttdef"><b>Definition</b> board.h:696</div></div>
 <div class="ttc" id="aclassboard_html_aec4781344e8ceebccdc6ac543a04ce15"><div class="ttname"><a href="classboard.html#aec4781344e8ceebccdc6ac543a04ce15">board::ReadMaps</a></div><div class="ttdeci">void ReadMaps(void)</div><div class="ttdoc">Read maps.</div><div class="ttdef"><b>Definition</b> board.cc:61</div></div>
-<div class="ttc" id="aclassboard_html_afd891fba5b6023fcc2704717dec484ec"><div class="ttname"><a href="classboard.html#afd891fba5b6023fcc2704717dec484ec">board::Proc</a></div><div class="ttdeci">std::string Proc</div><div class="ttdoc">Name of processor in use.</div><div class="ttdef"><b>Definition</b> board.h:660</div></div>
+<div class="ttc" id="aclassboard_html_afd891fba5b6023fcc2704717dec484ec"><div class="ttname"><a href="classboard.html#afd891fba5b6023fcc2704717dec484ec">board::Proc</a></div><div class="ttdeci">std::string Proc</div><div class="ttdoc">Name of processor in use.</div><div class="ttdef"><b>Definition</b> board.h:690</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_a1292f439e9d10fa0d6c934b9394e4da8"><div class="ttname"><a href="classbsim__picsim.html#a1292f439e9d10fa0d6c934b9394e4da8">bsim_picsim::MGetPinCount</a></div><div class="ttdeci">int MGetPinCount(void) override</div><div class="ttdoc">board microcontroller pin count</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:149</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_a2254afa80b8a239297a27dac5d9950cd"><div class="ttname"><a href="classbsim__picsim.html#a2254afa80b8a239297a27dac5d9950cd">bsim_picsim::MSetAPin</a></div><div class="ttdeci">void MSetAPin(int pin, float value) override</div><div class="ttdoc">board microcontroller set analog pin</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:174</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_a4a2b619f9a83fdcf4e237db794e2a47c"><div class="ttname"><a href="classbsim__picsim.html#a4a2b619f9a83fdcf4e237db794e2a47c">bsim_picsim::MSetPin</a></div><div class="ttdeci">void MSetPin(int pin, unsigned char value) override</div><div class="ttdoc">board microcontroller set digital pin</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:162</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_a723ff508206680107bcfcfb711562d9c"><div class="ttname"><a href="classbsim__picsim.html#a723ff508206680107bcfcfb711562d9c">bsim_picsim::MSetPinOAV</a></div><div class="ttdeci">void MSetPinOAV(int pin, float value) override</div><div class="ttdoc">board microcontroller set digital pin output average value</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:170</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_a771e1c03ab778acae76004ba2340cb72"><div class="ttname"><a href="classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72">bsim_picsim::MGetResetPin</a></div><div class="ttdeci">int MGetResetPin(void) override</div><div class="ttdoc">Get the Reset pin of microcontroller.</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:203</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_ab650e99646909a5c379f5bc90bd36c3d"><div class="ttname"><a href="classbsim__picsim.html#ab650e99646909a5c379f5bc90bd36c3d">bsim_picsim::MGetPinsValues</a></div><div class="ttdeci">const picpin * MGetPinsValues(void) override</div><div class="ttdoc">board microcontroller get all pins list struct</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:182</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_aca8e96408f27a2c90b28b0b8fe0a0ad9"><div class="ttname"><a href="classbsim__picsim.html#aca8e96408f27a2c90b28b0b8fe0a0ad9">bsim_picsim::MGetPinOAVPtr</a></div><div class="ttdeci">float * MGetPinOAVPtr(int pin) override</div><div class="ttdoc">board microcontroller get pointer to digital pin average value</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:186</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_ad1f08d0a2a2e9ee9398faa300db9eeae"><div class="ttname"><a href="classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae">bsim_picsim::MStep</a></div><div class="ttdeci">void MStep(void) override</div><div class="ttdoc">board microcontroller run one step</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:190</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_ad202eb58507e7f72715b636c7c5b6262"><div class="ttname"><a href="classbsim__picsim.html#ad202eb58507e7f72715b636c7c5b6262">bsim_picsim::MClearIOUpdated</a></div><div class="ttdeci">void MClearIOUpdated(void) override</div><div class="ttdoc">clear microcontroler status IO updated</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:211</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_add60f508df2921813a8f686c2accadd8"><div class="ttname"><a href="classbsim__picsim.html#add60f508df2921813a8f686c2accadd8">bsim_picsim::MGetIOUpdated</a></div><div class="ttdeci">int MGetIOUpdated(void) override</div><div class="ttdoc">get microcontroler status IO updated</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:207</div></div>
+<div class="ttc" id="aclassbsim__picsim_html_af1c79adb0ee61952daf1791ea8c0b071"><div class="ttname"><a href="classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071">bsim_picsim::MReset</a></div><div class="ttdeci">int MReset(int flags) override</div><div class="ttdoc">board microcontroller reset</div><div class="ttdef"><b>Definition</b> bsim_picsim.cc:199</div></div>
 <div class="ttc" id="astructinput__t_html_a7a312dba32cd784ba2673747b24cd24c"><div class="ttname"><a href="structinput__t.html#a7a312dba32cd784ba2673747b24cd24c">input_t::update</a></div><div class="ttdeci">unsigned char * update</div><div class="ttdoc">output need draw update</div><div class="ttdef"><b>Definition</b> board.h:56</div></div>
 <div class="ttc" id="astructinput__t_html_aa159507da56a667157c4ce6b4930b44a"><div class="ttname"><a href="structinput__t.html#aa159507da56a667157c4ce6b4930b44a">input_t::x1</a></div><div class="ttdeci">float x1</div><div class="ttdoc">x1 position</div><div class="ttdef"><b>Definition</b> board.h:47</div></div>
 <div class="ttc" id="astructinput__t_html_aa46e9709c149cb3cdc28825ba28fb7ed"><div class="ttname"><a href="structinput__t.html#aa46e9709c149cb3cdc28825ba28fb7ed">input_t::status</a></div><div class="ttdeci">void * status</div><div class="ttdoc">rcontrol status</div><div class="ttdef"><b>Definition</b> board.h:55</div></div>

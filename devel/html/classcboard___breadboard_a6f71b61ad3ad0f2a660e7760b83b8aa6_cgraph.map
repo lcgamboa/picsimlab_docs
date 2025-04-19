@@ -1,12 +1,12 @@
 <map id="cboard_Breadboard::Reset" name="cboard_Breadboard::Reset">
 <area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,75,161,115"/>
-<area shape="rect" id="Node000002" href="$classcboard___breadboard.html#a200bbecf0027cd5a53c188f7afcc0b1e" title="board microcontroller reset" alt="" coords="209,43,365,83"/>
+<area shape="rect" id="Node000002" href="$classcboard___breadboard.html#ad5d5ddc9efa191355c745da40e8390e3" title="board microcontroller reset" alt="" coords="209,43,365,83"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,81,195,75,196,80,162,86"/>
 <area shape="rect" id="Node000007" href="$classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60" title="board microcontroller set vcc" alt="" coords="209,107,365,147"/>
 <area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="162,105,196,110,195,116,161,110"/>
-<area shape="rect" id="Node000003" href="$classbsim__picsim.html#a3877b5af8ad42e8bb5a7a307c02cf722" title="board microcontroller reset" alt="" coords="420,5,581,31"/>
+<area shape="rect" id="Node000003" href="$classbsim__picsim.html#af1c79adb0ee61952daf1791ea8c0b071" title="board microcontroller reset" alt="" coords="420,5,581,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,44,426,31,427,36,366,49"/>
-<area shape="rect" id="Node000004" href="$classbsim__simavr.html#a127738c7f49db4ff7ddea8f24085ffad" title="board microcontroller reset" alt="" coords="419,55,582,80"/>
+<area shape="rect" id="Node000004" href="$classbsim__simavr.html#ac75de63a5d52a315b0f9c25a01979a7e" title="board microcontroller reset" alt="" coords="419,55,582,80"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="366,62,406,63,406,68,366,67"/>
 <area shape="rect" id="Node000005" href="$classbsim__simavr.html#a90300fa31a3d35a069161744e0f55ec7" title="board microcontroller pin count" alt="" coords="851,55,1057,80"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="582,65,837,65,837,70,582,70"/>

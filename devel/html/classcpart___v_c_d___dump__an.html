@@ -158,9 +158,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5de92e9edb9c122f9f6e2ae4f60c1ab1" id="r_a5de92e9edb9c122f9f6e2ae4f60c1ab1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___v_c_d___dump__an.html#a5de92e9edb9c122f9f6e2ae4f60c1ab1">GetMapFile</a> (void) override</td></tr>
 <tr class="memdesc:a5de92e9edb9c122f9f6e2ae4f60c1ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of part picture map.  <br /></td></tr>
 <tr class="separator:a5de92e9edb9c122f9f6e2ae4f60c1ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6c016f104ea7c63f07cdda757d0faf3" id="r_aa6c016f104ea7c63f07cdda757d0faf3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___v_c_d___dump__an.html#aa6c016f104ea7c63f07cdda757d0faf3">GetPropertiesWindowFile</a> (void) override</td></tr>
-<tr class="memdesc:aa6c016f104ea7c63f07cdda757d0faf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of properties window XML file.  <br /></td></tr>
-<tr class="separator:aa6c016f104ea7c63f07cdda757d0faf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7a1992508b7ec0be3f754b7a4b7d3d3" id="r_ae7a1992508b7ec0be3f754b7a4b7d3d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcpart___v_c_d___dump__an.html#ae7a1992508b7ec0be3f754b7a4b7d3d3">OnMouseButtonPress</a> (unsigned int inputId, unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</td></tr>
 <tr class="memdesc:ae7a1992508b7ec0be3f754b7a4b7d3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event handler on the part.  <br /></td></tr>
 <tr class="separator:ae7a1992508b7ec0be3f754b7a4b7d3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +192,10 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetHel
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> (void)</td></tr>
 <tr class="memdesc:ab4d0aac333aef4f2b90a40843d219c4b inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ever 100ms to draw part. <br /></td></tr>
 <tr class="separator:ab4d0aac333aef4f2b90a40843d219c4b inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc2623c38f105555e21d2a67657f77fd inherit pub_methods_classpart" id="r_abc2623c38f105555e21d2a67657f77fd"><td class="memItemLeft" align="right" valign="top">
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPropertiesWindowFile</b> (void)</td></tr>
+<tr class="memdesc:abc2623c38f105555e21d2a67657f77fd inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of properties window XML file. <br /></td></tr>
+<tr class="separator:abc2623c38f105555e21d2a67657f77fd inherit pub_methods_classpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7826f1e427c074c10b7bc2c133c632fa inherit pub_methods_classpart" id="r_a7826f1e427c074c10b7bc2c133c632fa"><td class="memItemLeft" align="right" valign="top">
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetInputCount</b> (void)</td></tr>
 <tr class="memdesc:a7826f1e427c074c10b7bc2c133c632fa inherit pub_methods_classpart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get part input count. <br /></td></tr>
@@ -728,36 +729,6 @@ Here is the call graph for this function:</div>
 <p>Return the filename of part picture. </p>
 
 <p>Reimplemented from <a class="el" href="classpart.html#a316194e372aa24883e4c65685e3221e1">part</a>.</p>
-
-</div>
-</div>
-<a id="aa6c016f104ea7c63f07cdda757d0faf3" name="aa6c016f104ea7c63f07cdda757d0faf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6c016f104ea7c63f07cdda757d0faf3">&#9670;&#160;</a></span>GetPropertiesWindowFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string cpart_VCD_Dump_an::GetPropertiesWindowFile </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the filename of properties window XML file. </p>
-
-<p>Reimplemented from <a class="el" href="classpart.html#abc2623c38f105555e21d2a67657f77fd">part</a>.</p>
 
 </div>
 </div>

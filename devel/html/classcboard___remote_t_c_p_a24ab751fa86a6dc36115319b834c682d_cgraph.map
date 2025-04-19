@@ -1,6 +1,6 @@
 <map id="cboard_RemoteTCP::Reset" name="cboard_RemoteTCP::Reset">
 <area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,35,200,60"/>
-<area shape="rect" id="Node000002" href="$classbsim__remote.html#a392125f2242b257f6207aaf920a80388" title="board microcontroller reset" alt="" coords="271,5,436,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__remote.html#a6fcf954d404fbec80b1491cf81f21e36" title="board microcontroller reset" alt="" coords="271,5,436,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,33,257,27,257,32,201,39"/>
 <area shape="rect" id="Node000003" href="$classcboard___remote_t_c_p.html#ab99d7151813f0e561c57194813bee0fa" title="Register remote control variables." alt="" coords="248,55,459,95"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,56,235,59,234,65,200,61"/>

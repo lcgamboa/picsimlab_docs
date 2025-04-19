@@ -1,0 +1,7 @@
+<map id="cboard_Breadboard::MGetResetPin" name="cboard_Breadboard::MGetResetPin">
+<area shape="rect" id="Node000001" title="Get the Reset pin of microcontroller." alt="" coords="5,23,161,63"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72" title="Get the Reset pin of microcontroller." alt="" coords="211,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,197,28,197,33,162,37"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#aea8a32ebfc69b94501fac280d442eb03" title="Get the Reset pin of microcontroller." alt="" coords="209,55,416,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,49,196,52,195,58,161,54"/>
+</map>

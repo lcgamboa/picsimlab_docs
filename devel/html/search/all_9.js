@@ -16,6 +16,6 @@ var searchData=
   ['io_5fmcp23x17_5ft_13',['io_MCP23X17_t',['../structio___m_c_p23_x17__t.html',1,'']]],
   ['io_5fmm74c922_5ft_14',['io_MM74C922_t',['../structio___m_m74_c922__t.html',1,'']]],
   ['io_5fpcf8574_5ft_15',['io_PCF8574_t',['../structio___p_c_f8574__t.html',1,'']]],
-  ['iolockaccess_16',['iolockaccess',['../classbsim__qemu.html#a17fa167240e9f913af5dfc81ed8dfd0a',1,'bsim_qemu::IoLockAccess()'],['../classboard.html#a2ddba72237a6feeb73047bcf082c6d6a',1,'board::IoLockAccess()']]],
-  ['iounlockaccess_17',['iounlockaccess',['../classbsim__qemu.html#af82c801994f6fe7c9bb42ba2c99f00d2',1,'bsim_qemu::IoUnlockAccess()'],['../classboard.html#ad332d66c1b91a09433b8a52683d7ac9b',1,'board::IoUnlockAccess()']]]
+  ['iolockaccess_16',['iolockaccess',['../classboard.html#a2ddba72237a6feeb73047bcf082c6d6a',1,'board::IoLockAccess()'],['../classbsim__qemu.html#a17fa167240e9f913af5dfc81ed8dfd0a',1,'bsim_qemu::IoLockAccess()']]],
+  ['iounlockaccess_17',['iounlockaccess',['../classboard.html#ad332d66c1b91a09433b8a52683d7ac9b',1,'board::IoUnlockAccess()'],['../classbsim__qemu.html#af82c801994f6fe7c9bb42ba2c99f00d2',1,'bsim_qemu::IoUnlockAccess()']]]
 ];

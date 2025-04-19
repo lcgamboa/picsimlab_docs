@@ -1,5 +1,5 @@
 <map id="cboard_uCboard::Reset" name="cboard_uCboard::Reset">
 <area shape="rect" id="Node000001" title="Reset board status." alt="" coords="5,5,177,31"/>
-<area shape="rect" id="Node000002" href="$classbsim__ucsim.html#a7d90bfbfcc6742ce6c7c84a72073321d" title="board microcontroller reset" alt="" coords="225,5,383,31"/>
+<area shape="rect" id="Node000002" href="$classbsim__ucsim.html#a68dde07138a78fce52920a56b928c441" title="board microcontroller reset" alt="" coords="225,5,383,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,15,211,15,211,21,177,21"/>
 </map>

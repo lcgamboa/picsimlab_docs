@@ -20,13 +20,5 @@ var dir_44b8a28b46c46acb1deed65f25aca5e6 =
     [ "board_STM32_H103.h", "board___s_t_m32___h103_8h_source.html", null ],
     [ "board_uCboard.h", "board__u_cboard_8h_source.html", null ],
     [ "board_x.h", "board__x_8h_source.html", null ],
-    [ "board_Xpress.h", "board___xpress_8h_source.html", null ],
-    [ "bridge_gpsim.h", "bridge__gpsim_8h_source.html", null ],
-    [ "bsim_gpsim.h", "bsim__gpsim_8h_source.html", null ],
-    [ "bsim_picsim.h", "bsim__picsim_8h_source.html", null ],
-    [ "bsim_qemu.h", "bsim__qemu_8h_source.html", null ],
-    [ "bsim_remote.h", "bsim__remote_8h_source.html", null ],
-    [ "bsim_simavr.h", "bsim__simavr_8h_source.html", null ],
-    [ "bsim_ucsim.h", "bsim__ucsim_8h_source.html", null ],
-    [ "qemu.h", "qemu_8h_source.html", null ]
+    [ "board_Xpress.h", "board___xpress_8h_source.html", null ]
 ];
