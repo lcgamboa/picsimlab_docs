@@ -16,7 +16,6 @@ var classcboard___s_t_m32___h103 =
     [ "MGetPinName", "classcboard___s_t_m32___h103.html#ad6cad3cc8b2ab589bb8c25fc78ea1926", null ],
     [ "MSetAPin", "classcboard___s_t_m32___h103.html#a49c2150441cce0886462e577ad91a93c", null ],
     [ "ReadPreferences", "classcboard___s_t_m32___h103.html#a60ff90545cf10b3ae48818d4bfb67f53", null ],
-    [ "RefreshStatus", "classcboard___s_t_m32___h103.html#a32601c66acdb203333fcd8dd5a222fdc", null ],
     [ "RegisterRemoteControl", "classcboard___s_t_m32___h103.html#a0df9f672e60d580d1a9606d75c52fdc5", null ],
     [ "Reset", "classcboard___s_t_m32___h103.html#a465560397de6244fa464793898fb2fde", null ],
     [ "Run_CPU", "classcboard___s_t_m32___h103.html#a17831a14c5d65cbfd82f560d34b9b680", null ],

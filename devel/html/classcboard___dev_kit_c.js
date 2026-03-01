@@ -17,7 +17,6 @@ var classcboard___dev_kit_c =
     [ "MGetPinName", "classcboard___dev_kit_c.html#ad556ca9f2a042ff4832feb3c7755b14b", null ],
     [ "MSetAPin", "classcboard___dev_kit_c.html#ac655c2f6349d846cdb392ba458f78060", null ],
     [ "ReadPreferences", "classcboard___dev_kit_c.html#a0fbd8ca71e3e225ae95f1b46838a06b9", null ],
-    [ "RefreshStatus", "classcboard___dev_kit_c.html#ae8633a7e3e22eed85f32570007b45922", null ],
     [ "RegisterRemoteControl", "classcboard___dev_kit_c.html#a91582ddecfa6c571b4951738f43c8d1f", null ],
     [ "Reset", "classcboard___dev_kit_c.html#ae5ae4426c415e3ec24f5cb7dcdcdf490", null ],
     [ "Run_CPU", "classcboard___dev_kit_c.html#a19298fbb3ffc373fbcf0c9461536e043", null ],

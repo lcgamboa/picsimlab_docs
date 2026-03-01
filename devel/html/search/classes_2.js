@@ -12,5 +12,6 @@ var searchData=
   ['bsim_5fqemu_9',['bsim_qemu',['../classbsim__qemu.html',1,'']]],
   ['bsim_5fremote_10',['bsim_remote',['../classbsim__remote.html',1,'']]],
   ['bsim_5fsimavr_11',['bsim_simavr',['../classbsim__simavr.html',1,'']]],
-  ['bsim_5fucsim_12',['bsim_ucsim',['../classbsim__ucsim.html',1,'']]]
+  ['bsim_5fucsim_12',['bsim_ucsim',['../classbsim__ucsim.html',1,'']]],
+  ['bufferstruct_13',['BufferStruct',['../struct_buffer_struct.html',1,'']]]
 ];

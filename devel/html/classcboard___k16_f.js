@@ -14,7 +14,6 @@ var classcboard___k16_f =
     [ "MDumpMemory", "classcboard___k16_f.html#a0c90755a42881a51ec0865269de2990d", null ],
     [ "MInit", "classcboard___k16_f.html#a454799389dcfb3807a1ae24cfbad4c21", null ],
     [ "ReadPreferences", "classcboard___k16_f.html#a2fd59f0c8bef534376782578b7f1dfb4", null ],
-    [ "RefreshStatus", "classcboard___k16_f.html#a875d666015e204fa5b0a0e7adda9308b", null ],
     [ "RegisterRemoteControl", "classcboard___k16_f.html#a87c799cca48192bdfbcb4a3615b8a970", null ],
     [ "Reset", "classcboard___k16_f.html#aa4036f5eab8a22e33a5149423cda5a7e", null ],
     [ "Run_CPU", "classcboard___k16_f.html#ab99c02fc6b1fa22ce22a286ad5bfd2e6", null ],

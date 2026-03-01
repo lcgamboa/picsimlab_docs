@@ -46,5 +46,6 @@ var classbsim__simavr =
     [ "MSetSerial", "classbsim__simavr.html#a9aa394b9f2f5e9890cd9989f70ffdd06", null ],
     [ "MSetVCC", "classbsim__simavr.html#a96d1143b826f9a17f0a473bc191332a0", null ],
     [ "MStep", "classbsim__simavr.html#a54284cbd4d9186ad1776d79cf6bd53c9", null ],
-    [ "MStepResume", "classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536", null ]
+    [ "MStepResume", "classbsim__simavr.html#ad438a0983a9cd1f3f915b48dbe1b2536", null ],
+    [ "RefreshStatus", "classbsim__simavr.html#a78cc35a6927032d5320df2a52a07c935", null ]
 ];

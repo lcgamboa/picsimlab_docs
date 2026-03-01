@@ -15,7 +15,6 @@ var classcboard___p_q_d_b =
     [ "MGetPinCount", "classcboard___p_q_d_b.html#ac34f83c907711149e6661f7964bcb3e4", null ],
     [ "MGetPinName", "classcboard___p_q_d_b.html#a0b2009f88d24a11157cde4bb8f394423", null ],
     [ "ReadPreferences", "classcboard___p_q_d_b.html#a0151c892c5f0470971da1b97604f60c0", null ],
-    [ "RefreshStatus", "classcboard___p_q_d_b.html#a60877d5713b265b66baeb68b3833457e", null ],
     [ "RegisterRemoteControl", "classcboard___p_q_d_b.html#a951416b94e7b5ebd298ff859c73f65ae", null ],
     [ "Reset", "classcboard___p_q_d_b.html#ad223b770a4994fbd3c0c80a9dea6e711", null ],
     [ "Run_CPU", "classcboard___p_q_d_b.html#ab9c27bd79779be1888e2a372e923bf26", null ],

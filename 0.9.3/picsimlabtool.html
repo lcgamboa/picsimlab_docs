@@ -1,0 +1,222 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>picsimlab_tool</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
+   
+   
+                                                                  
+
+                                                                  
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
+   <span class='sectionToc'>7.1 <a href='SerialTerminal.html#serial-terminal'>Serial Terminal</a></span>
+   <span class='sectionToc'>7.2 <a href='SerialRemoteTank.html#serial-remote-tank'>Serial Remote Tank</a></span>
+   
+   
+   
+   <span class='sectionToc'>7.3 <a href='Esp8266ModemSimulator.html#esp-modem-simulator'>Esp8266 Modem Simulator</a></span>
+   
+   <span class='sectionToc'>7.4 <a href='ArduinoBootloader.html#arduino-bootloader'>Arduino Bootloader</a></span>
+   <span class='sectionToc'>7.5 <a href='MPLABXDebuggerPlugin.html#mplabx-debugger-plugin'>MPLABX Debugger Plugin</a></span>
+   <span class='sectionToc'>7.6 <a href='PinViewer.html#pin-viewer'>Pin Viewer</a></span>
+   <span class='sectionToc'>7.7 <a href='#picsimlabtool'>picsimlab_tool</a></span>
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='PinViewer.html'>prev</a>] [<a href='Tools.html#picsimlabtool.html'>up</a>] </nav> 
+<h3 class='sectionHead' id='picsimlabtool'><span class='titlemark'>7.7    </span> <a id='x68-710007.7'></a>picsimlab_tool</h3>
+<!--  l. 183  --><p class='noindent'><a id='def_ptool'></a>
+</p><!--  l. 185  --><p class='indent'>   The <span class='textbf'>picsimlab_tool</span> is a simple command line tool to update the firmware running
+in the PICSimLab simulator. It can be used integrated in development tools (like
+platformio).
+</p><!--  l. 188  --><p class='indent'>   After open the PICSimLab you can use the <span class='textbf'>loadhex</span> with boards based on AVR or
+PICs:
+</p>
+   <pre class='fancyvrb' id='fancyvrb24'><a id='x68-71003r1'></a><span class='pcrr8t-x-x-80'>picsimlab_tool</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>loadhex</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>file.hex</span></pre>
+<!--  l. 193  --><p class='indent'>   And use the <span class='textbf'>loadbin</span> with boards based on ESP32 or STM32.
+                                                                  
+
+                                                                  
+</p>
+   <pre class='fancyvrb' id='fancyvrb25'><a id='x68-71006r1'></a><span class='pcrr8t-x-x-80'>picsimlab_tool</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>loadbin</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>file.bin</span></pre>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='PinViewer.html'>prev</a>] [<a href='Tools.html#picsimlabtool.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

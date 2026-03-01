@@ -1,33 +1,33 @@
 <map id="bsim_qemu" name="bsim_qemu">
-<area shape="rect" id="Node000001" title=" " alt="" coords="691,195,789,220"/>
-<area shape="rect" id="Node000002" href="$classboard.html" title="Board class." alt="" coords="234,169,293,195"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,161,349,145,406,130,453,125,500,125,559,130,615,134,639,139,668,150,701,170,727,192,724,196,698,175,666,155,637,144,614,140,558,135,499,130,453,130,407,136,350,150,305,166"/>
-<area shape="rect" id="Node000008" href="$structbitbang__i2c__t.html" title=" " alt="" coords="443,145,552,171"/>
-<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="306,175,442,161,443,166,307,180"/>
-<area shape="rect" id="Node000009" href="$structbitbang__spi__t.html" title=" " alt="" coords="443,195,552,220"/>
-<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="307,186,350,191,443,200,442,206,349,197,306,191"/>
-<area shape="rect" id="Node000010" href="$structbitbang__uart__t.html" title=" " alt="" coords="439,244,555,269"/>
-<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="303,198,350,218,440,243,439,248,348,223,300,203"/>
-<area shape="rect" id="Node000011" href="$structbitbang__pwm__t.html" title=" " alt="" coords="436,44,559,69"/>
-<area shape="poly" id="edge15_Node000011_Node000002" title=" " alt="" coords="279,156,309,122,348,90,391,72,435,61,437,66,393,77,351,95,312,126,283,160"/>
-<area shape="rect" id="Node000013" href="$structbitbang__out__t.html" title=" " alt="" coords="442,293,553,319"/>
-<area shape="poly" id="edge18_Node000013_Node000002" title=" " alt="" coords="287,203,315,231,351,257,396,278,443,292,441,297,395,283,348,262,312,235,283,207"/>
-<area shape="rect" id="Node000003" href="$structinput__t.html" title="input map struct" alt="" coords="11,109,78,135"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,128,178,149,235,168,233,173,177,154,91,133"/>
-<area shape="rect" id="Node000004" href="$structoutput__t.html" title="output map struct" alt="" coords="7,169,83,195"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="97,179,234,179,234,185,97,185"/>
-<area shape="rect" id="Node000005" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="5,229,84,255"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="97,232,177,214,234,192,236,197,178,219,98,237"/>
-<area shape="rect" id="Node000006" href="$structuser__timer__t.html" title=" " alt="" coords="445,343,549,368"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="562,347,615,335,641,324,665,311,688,289,707,264,731,219,736,222,712,267,692,293,668,315,644,329,617,340,564,353"/>
-<area shape="rect" id="Node000007" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="214,343,313,368"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="327,353,445,353,445,358,327,358"/>
-<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="240,328,247,319,263,316,277,318,286,325,288,334,284,344,279,341,283,334,281,328,275,323,263,321,250,324,244,331"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="566,166,667,186,692,192,691,197,666,191,565,172"/>
-<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="566,205,690,205,690,210,566,210"/>
-<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="569,243,666,225,695,217,696,223,667,230,570,249"/>
-<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="573,56,622,66,646,75,668,88,694,112,714,141,737,193,732,195,709,144,690,116,665,92,644,80,620,71,572,61"/>
-<area shape="rect" id="Node000012" href="$structchannel__pwm__t.html" title=" " alt="" coords="201,5,325,31"/>
-<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="339,28,436,44,435,49,339,33"/>
-<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="565,294,616,281,665,262,698,241,724,218,728,222,702,245,668,267,617,286,567,299"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="700,207,798,234"/>
+<area shape="rect" id="Node000002" href="$classboard.html" title="Board class." alt="" coords="239,179,298,206"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,168,353,146,444,122,518,110,553,111,591,116,631,128,678,146,698,158,715,174,741,207,736,206,711,177,695,162,675,151,630,133,590,122,553,116,518,116,445,127,355,151,305,173"/>
+<area shape="rect" id="Node000008" href="$structbitbang__i2c__t.html" title=" " alt="" coords="450,156,559,184"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="312,186,453,174,448,176,313,191"/>
+<area shape="rect" id="Node000009" href="$structbitbang__spi__t.html" title=" " alt="" coords="450,208,559,236"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="312,203,354,212,452,221,447,223,354,217,313,208"/>
+<area shape="rect" id="Node000010" href="$structbitbang__uart__t.html" title=" " alt="" coords="447,263,562,290"/>
+<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="298,214,325,233,355,248,401,262,449,272,444,273,400,267,353,253,323,237,297,219"/>
+<area shape="rect" id="Node000011" href="$structbitbang__pwm__t.html" title=" " alt="" coords="444,55,565,82"/>
+<area shape="poly" id="edge15_Node000011_Node000002" title=" " alt="" coords="286,164,315,132,353,102,397,83,446,74,441,76,399,88,355,107,319,136,290,168"/>
+<area shape="rect" id="Node000013" href="$structbitbang__out__t.html" title=" " alt="" coords="450,319,560,346"/>
+<area shape="poly" id="edge18_Node000013_Node000002" title=" " alt="" coords="285,218,315,260,334,280,355,297,402,317,452,329,446,329,400,322,353,301,330,284,311,263,283,223"/>
+<area shape="rect" id="Node000003" href="$structinput__t.html" title="input map struct" alt="" coords="11,100,77,128"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,118,138,127,184,141,219,158,249,178,244,179,216,162,182,146,136,132,94,123"/>
+<area shape="rect" id="Node000004" href="$structoutput__t.html" title="output map struct" alt="" coords="6,179,82,206"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="96,190,240,190,237,195,97,195"/>
+<area shape="rect" id="Node000005" href="$struct_timers__t.html" title="internal timer struct" alt="" coords="5,257,83,285"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="97,263,139,255,182,243,217,225,251,205,247,208,220,229,184,248,141,261,99,268"/>
+<area shape="rect" id="Node000006" href="$structuser__timer__t.html" title=" " alt="" coords="453,375,556,402"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="572,387,625,377,651,368,675,354,701,326,721,293,734,260,743,236,747,233,739,262,726,296,706,330,678,358,653,373,626,383,572,392"/>
+<area shape="rect" id="Node000007" href="$struct_q_e_m_u_timer.html" title=" " alt="" coords="219,375,318,402"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="333,386,455,388,450,389,333,391"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="247,357,254,351,268,348,282,350,291,357,293,366,289,376,286,372,288,366,286,360,280,355,268,353,256,355,249,361"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="574,173,677,191,716,206,711,206,676,196,574,179"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="574,219,702,220,697,221,574,224"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="577,268,626,261,676,250,717,236,722,234,677,255,627,266,578,273"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="581,67,631,76,655,86,678,98,704,123,723,153,746,207,741,205,719,155,700,126,675,103,653,90,630,82,581,72"/>
+<area shape="rect" id="Node000012" href="$structchannel__pwm__t.html" title=" " alt="" coords="207,5,330,33"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="345,31,421,46,447,53,442,55,419,51,346,36"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="575,326,626,316,675,296,695,283,712,266,737,236,741,233,716,269,698,287,678,301,627,321,576,331"/>
 </map>

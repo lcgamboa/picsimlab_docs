@@ -33,5 +33,6 @@ var classbsim__qemu =
     [ "MSetSerial", "classbsim__qemu.html#a8e9409ea698be82692a0728f3bf85124", null ],
     [ "MSetVCC", "classbsim__qemu.html#af28908fa8b014a7726f89b4a9dfc952a", null ],
     [ "MStep", "classbsim__qemu.html#a65a472bc322bbaaf9e75cb0d2bf181ff", null ],
-    [ "MStepResume", "classbsim__qemu.html#a6867c479e896db9ff270bdb9046ce976", null ]
+    [ "MStepResume", "classbsim__qemu.html#a6867c479e896db9ff270bdb9046ce976", null ],
+    [ "RefreshStatus", "classbsim__qemu.html#a888ca3cb48b969f1938ca7caab257ca2", null ]
 ];

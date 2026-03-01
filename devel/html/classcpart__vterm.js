@@ -4,6 +4,7 @@ var classcpart__vterm =
     [ "ConfigurePropertiesWindow", "classcpart__vterm.html#a1f79b2660207eb3773bdc120473804dc", null ],
     [ "DrawOutput", "classcpart__vterm.html#a6952b15573b9a63bb22cacce2baf5f6d", null ],
     [ "Event", "classcpart__vterm.html#a0dc7c226c423014b84f0f8b239ab407b", null ],
+    [ "filedialog_EvOnClose", "classcpart__vterm.html#a8b23cbd488f16a31200b3ed3a16cd766", null ],
     [ "GetAboutInfo", "classcpart__vterm.html#a404cc9f97a68f447dcd98901c8b66eaf", null ],
     [ "GetInputId", "classcpart__vterm.html#ab0152432a0314adfb5faf871bc045ac0", null ],
     [ "GetOutputId", "classcpart__vterm.html#a988332f0cf4a85dab147c81c2db8d6b5", null ],
@@ -16,5 +17,6 @@ var classcpart__vterm =
     [ "ReadPropertiesWindow", "classcpart__vterm.html#aa42b65ed7dae63bbb27857153269dd3a", null ],
     [ "RegisterRemoteControl", "classcpart__vterm.html#a8495e99c6117d9dd51fec6dd1510363a", null ],
     [ "Reset", "classcpart__vterm.html#ae44e66357ddb3f4f09bdf89384048bd4", null ],
+    [ "SetId", "classcpart__vterm.html#a9de6f4f872c008358091e10c0d9a647d", null ],
     [ "WritePreferences", "classcpart__vterm.html#acc738c808f87a48cb7bb5ae81d707b6b", null ]
 ];

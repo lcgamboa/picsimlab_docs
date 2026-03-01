@@ -1,5 +1,5 @@
 
-VERSION=0.9.2
+VERSION=0.9.3
 
 all:
 	pdflatex -shell-escape  picsimlab.tex
@@ -11,7 +11,7 @@ all:
 clean:
 	rm -f *.log *.dvi *.lof *.lot *.toc *.aux *.ps *.pdf *.out *.bbl *.blg *.maf *.mtc* *.ptc*
 	rm -f *.backup *.bak *.*~ *.html *.4ct *.4tc *.idv *.tmp *.xref *.lg
-	rm -fr picsimlab/ _minted-picsimlab/
+	rm -fr picsimlab/ _minted-picsimlab/ _minted/
 
 
 html_old:

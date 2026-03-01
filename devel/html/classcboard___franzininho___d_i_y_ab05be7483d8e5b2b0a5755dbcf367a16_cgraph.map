@@ -1,0 +1,5 @@
+<map id="cboard_Franzininho_DIY::RefreshStatus" name="cboard_Franzininho_DIY::RefreshStatus">
+<area shape="rect" id="Node000001" title="Called ever 1s to refresh status." alt="" coords="5,5,154,50"/>
+<area shape="rect" id="Node000002" href="$classbsim__simavr.html#a78cc35a6927032d5320df2a52a07c935" title="Called ever 1s to refresh status." alt="" coords="202,14,406,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,25,189,27,183,28,154,30"/>
+</map>

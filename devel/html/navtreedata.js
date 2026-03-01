@@ -53,15 +53,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbsim__picsim.html#ab2e224716a743692f09f07041316ef69",
-"classcboard___breadboard.html#a81a3cc10d89443d4a3fd3bd255c954ad",
-"classcboard___remote_t_c_p.html#ab99d7151813f0e561c57194813bee0fa",
-"classcpart___i_o___m_m74_c922.html#a30db85cf47aa9ad21b1f5c70cff32f08",
-"classcpart___v_c_d___dump2.html#a0c64555eb6094f76954f9938754dc75a",
-"classcpart__gamepad__an.html",
-"classcpart__sht3x.html#a78a981a1be4f824b8b2d6149a330d7e7",
-"lcd__pcd8544_8h_source.html"
+"classbsim__picsim.html#aa656ff93e4bf0b12f1662efb922704f9",
+"classcboard___breadboard.html#a78b393e9929e1cccba8325da9c3f30af",
+"classcboard___remote_t_c_p.html#aa92916adc54b3634f3f10e7763a2850b",
+"classcpart___i_o___m_m74_c922.html#a544c78112414eb4e83a08f97609ff984",
+"classcpart___v_c_d___dump2.html#a1d0861fc73e89aaa6e0bac851766b80e",
+"classcpart__gamepad__an.html#a4bc74b888f2ecc377460e9b97289f282",
+"classcpart__sht3x.html#abd96599d33e8836de6a26d02db40ef85",
+"lcd__ssd1306_8h_source.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

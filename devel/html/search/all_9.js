@@ -8,7 +8,7 @@ var searchData=
   ['input_5fpin_5',['input_pin',['../classcpart__servo.html#ac943dc8cf327494608d6540db5349760',1,'cpart_servo']]],
   ['input_5fpins_6',['input_pins',['../classcpart__step.html#a3da50407c2419060293a8a7d6da931fa',1,'cpart_step']]],
   ['input_5ft_7',['input_t',['../structinput__t.html',1,'']]],
-  ['inputc_8',['inputc',['../classpart.html#aee21932edabee330ebfeafc1918f62be',1,'part::inputc'],['../classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2',1,'board::inputc']]],
+  ['inputc_8',['inputc',['../classboard.html#ad9f8dc51eeea817a22d9ffec01c1f0c2',1,'board::inputc'],['../classpart.html#aee21932edabee330ebfeafc1918f62be',1,'part::inputc']]],
   ['instcounterinc_9',['InstCounterInc',['../classboard.html#a4baf2e6e854e2c46eac9104b82ed4d66',1,'board']]],
   ['introduction_10',['Introduction',['../index.html#intro_sec',1,'']]],
   ['io_5f74xx573_5ft_11',['io_74xx573_t',['../structio__74xx573__t.html',1,'']]],
@@ -16,6 +16,6 @@ var searchData=
   ['io_5fmcp23x17_5ft_13',['io_MCP23X17_t',['../structio___m_c_p23_x17__t.html',1,'']]],
   ['io_5fmm74c922_5ft_14',['io_MM74C922_t',['../structio___m_m74_c922__t.html',1,'']]],
   ['io_5fpcf8574_5ft_15',['io_PCF8574_t',['../structio___p_c_f8574__t.html',1,'']]],
-  ['iolockaccess_16',['iolockaccess',['../classboard.html#a2ddba72237a6feeb73047bcf082c6d6a',1,'board::IoLockAccess()'],['../classbsim__qemu.html#a17fa167240e9f913af5dfc81ed8dfd0a',1,'bsim_qemu::IoLockAccess()']]],
-  ['iounlockaccess_17',['iounlockaccess',['../classboard.html#ad332d66c1b91a09433b8a52683d7ac9b',1,'board::IoUnlockAccess()'],['../classbsim__qemu.html#af82c801994f6fe7c9bb42ba2c99f00d2',1,'bsim_qemu::IoUnlockAccess()']]]
+  ['iolockaccess_16',['IoLockAccess',['../classboard.html#a2ddba72237a6feeb73047bcf082c6d6a',1,'board::IoLockAccess()'],['../classbsim__qemu.html#a17fa167240e9f913af5dfc81ed8dfd0a',1,'bsim_qemu::IoLockAccess()']]],
+  ['iounlockaccess_17',['IoUnlockAccess',['../classboard.html#ad332d66c1b91a09433b8a52683d7ac9b',1,'board::IoUnlockAccess()'],['../classbsim__qemu.html#af82c801994f6fe7c9bb42ba2c99f00d2',1,'bsim_qemu::IoUnlockAccess()']]]
 ];

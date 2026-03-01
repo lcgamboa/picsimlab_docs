@@ -1,0 +1,221 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>DS1621 (Temperature I2C)</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
+   
+                                                                  
+
+                                                                  
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
+   <span class='sectionToc'>9.1 <a href='PinAlias.html#pin-alias'>Pin Alias</a></span>
+   <span class='sectionToc'>9.2 <a href='Inputs.html#inputs'>Inputs</a></span>
+   <span class='subsectionToc'>9.2.1 <a href='ADXL345Accel.html#adxl-accel'>ADXL345 (Accel)</a></span>
+   <span class='subsectionToc'>9.2.2 <a href='BMP180PressureI2C.html#bmp-pressure-ic'>BMP180 (Pressure I2C)</a></span>
+   <span class='subsectionToc'>9.2.3 <a href='BMP280PressureI2C.html#bmp-pressure-ic1'>BMP280 (Pressure I2C)</a></span>
+   <span class='subsectionToc'>9.2.4 <a href='DHT11TempHum.html#dht-temp-hum'>DHT11 (Temp. Hum.)</a></span>
+   <span class='subsectionToc'>9.2.5 <a href='DHT22TempHum.html#dht-temp-hum1'>DHT22 (Temp. Hum.)</a></span>
+   <span class='subsectionToc'>9.2.6 <a href='#ds-temperature-ic'>DS1621 (Temperature I2C)</a></span>
+   <span class='subsectionToc'>9.2.7 <a href='DS18B20Temperature.html#dsb-temperature'>DS18B20 (Temperature)</a></span>
+   <span class='subsectionToc'>9.2.8 <a href='Encoder.html#encoder'>Encoder</a></span>
+   <span class='subsectionToc'>9.2.9 <a href='FM50Temperature.html#fm-temperature'>FM50 (Temperature)</a></span>
+   <span class='subsectionToc'>9.2.10 <a href='FixedVoltage.html#fixed-voltage'>Fixed Voltage</a></span>
+   <span class='subsectionToc'>9.2.11 <a href='Gamepad.html#gamepad'>Gamepad</a></span>
+   <span class='subsectionToc'>9.2.12 <a href='GamepadAnalogic.html#gamepad-analogic'>Gamepad (Analogic)</a></span>
+   <span class='subsectionToc'>9.2.13 <a href='HX711LoadCellAmp.html#hx-load-cell-amp'>HX711 (Load Cell Amp)</a></span>
+   <span class='subsectionToc'>9.2.14 <a href='Keypad.html#keypad'>Keypad</a></span>
+                                                                  
+
+                                                                  
+   <span class='subsectionToc'>9.2.15 <a href='LDR.html#ldr'>LDR</a></span>
+   <span class='subsectionToc'>9.2.16 <a href='LM35Temperature.html#lm-temperature'>LM35 (Temperature)</a></span>
+   <span class='subsectionToc'>9.2.17 <a href='MPU6050.html#mpu'>MPU6050</a></span>
+   <span class='subsectionToc'>9.2.18 <a href='Potentiometers.html#potentiometers'>Potentiometers</a></span>
+   <span class='subsectionToc'>9.2.19 <a href='PotentiometersRotary.html#potentiometers-rotary'>Potentiometers (Rotary)</a></span>
+   <span class='subsectionToc'>9.2.20 <a href='PushButtons.html#push-buttons'>Push Buttons</a></span>
+   <span class='subsectionToc'>9.2.21 <a href='PushButtonsAnalogic.html#push-buttons-analogic'>Push Buttons (Analogic)</a></span>
+   <span class='subsectionToc'>9.2.22 <a href='SHT3XTempHum.html#shtx-temp-hum'>SHT3X (Temp. Hum.)</a></span>
+   <span class='subsectionToc'>9.2.23 <a href='Switches.html#switches'>Switches</a></span>
+   <span class='subsectionToc'>9.2.24 <a href='UltrasonicHCSR04.html#ultrasonic-hcsr'>Ultrasonic HC-SR04</a></span>
+   <span class='sectionToc'>9.3 <a href='Outputs.html#outputs'>Outputs</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='sectionToc'>9.4 <a href='Others.html#others'>Others</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='sectionToc'>9.5 <a href='Virtual.html#virtual'>Virtual</a></span>
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='DHT22TempHum.html'>prev</a>] [<a href='Inputs.html#DS1621TemperatureI2C.html'>up</a>] [<a href='DS18B20Temperature.html'>next</a>] </nav> 
+<h4 class='subsectionHead' id='ds-temperature-ic'><span class='titlemark'>9.2.6    </span> <a id='x78-810009.2.6'></a>DS1621 (Temperature I2C)</h4>
+<!--  l. 249  --><p class='noindent'>This part is DS1621 I2C temperature sensor. The measurement range is -55 to 125
+<span class='ptmr8c-'>°</span>C.
+</p><!--  l. 251  --><p class='indent'>   The I2C address range is 0x48 to 0x4F. If pins A2, A1 and A0 are not connect (NC) the
+default address is 0x48.
+</p>
+   <figure class='figure'> 
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<!--  l. 255  --><p class='noindent'><img alt='PIC' src='img/part_ds1621.png' style='width:50%' />
+                                                                  
+
+                                                                  
+</p>
+   </figure>
+<!--  l. 259  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/parts_DS1621_(Temperature_I2C).html' target='_blank'>Examples</a>
+</p><!--  l. 262  --><p class='indent'>   <a href='pdf/parts/datasheet/input/DS1621.pdf' target='_blank'>Datasheet</a>
+                                                                  
+
+                                                                  
+</p>
+   <nav class='crosslinks-bottom'>[<a href='DHT22TempHum.html'>prev</a>] [<a href='Inputs.html#DS1621TemperatureI2C.html'>up</a>] [<a href='DS18B20Temperature.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

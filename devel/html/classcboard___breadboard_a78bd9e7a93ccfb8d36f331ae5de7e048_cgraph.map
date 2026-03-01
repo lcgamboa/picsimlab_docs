@@ -1,5 +1,7 @@
 <map id="cboard_Breadboard::RefreshStatus" name="cboard_Breadboard::RefreshStatus">
-<area shape="rect" id="Node000001" title="Called ever 1s to refresh status." alt="" coords="5,5,161,45"/>
-<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="209,13,392,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,23,196,23,196,28,162,28"/>
+<area shape="rect" id="Node000001" title="Called ever 1s to refresh status." alt="" coords="5,24,161,68"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ab7b99049118d65b4c8e32b8754162a42" title="Called ever 1s to refresh status." alt="" coords="210,5,412,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,34,197,32,191,33,162,39"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#a78cc35a6927032d5320df2a52a07c935" title="Called ever 1s to refresh status." alt="" coords="209,57,413,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,52,196,58,191,58,161,57"/>
 </map>

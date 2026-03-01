@@ -1,0 +1,276 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head>
+   <title>
+PICSimLab 0.9.3</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <div class='maketitle'>                                                               
+
+                                                                  
+                                                                  
+
+                                                                  
+
+<h1 class='titleHead'>   <br />
+  <br />
+  <br />
+<img alt='PIC' src='img/logo.png' style='width:18.62%' /><br />
+PICSimLab 0.9.3</h1>
+ <div class='author'><span class='ptmr8t-x-x-120'>Luis Claudio Gambôa Lopes &lt;lcgamboa@yahoo.com&gt;</span><br />
+<br />            <a href='https://github.com/lcgamboa/picsimlab' target='_blank'><span class='ptmr8t-x-x-120'>Download and support on Github</span></a><br />
+<br />             <a href='picsimlab.pdf' target='_blank'><span class='ptmr8t-x-x-120'>PDF version of documentation</span></a><br />
+<br />               <a href='https://www.instagram.com/picsimlab_simulator/' target='_blank'><span class='ptmr8t-x-x-120'>PICSimLab on Instagram</span></a> </div><br />
+<div class='date'><span class='ptmr8t-x-x-120'>March 1, 2026</span></div>
+                                                                  
+
+                                                                  
+   </div>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction' id='QQ2-2-1'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install' id='QQ2-3-2'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface' id='QQ2-11-10'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#boards' id='QQ2-17-16'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication' id='QQ2-39-39'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators' id='QQ2-43-43'>Backend Simulators</a></span>
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools' id='QQ2-57-57'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope' id='QQ2-69-73'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts' id='QQ2-70-74'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting' id='QQ2-137-145'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#license' id='QQ2-138-146'>License</a></span>
+                                                                  
+
+                                                                  
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator' id='QQ2-139-147'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx' id='QQ2-140-148'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards' id='QQ2-160-168'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   </nav> 
+ 
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+<a id='x1-145001r146'></a>
+                                                                  
+
+                                                                  
+<a id='x1-146001r146'></a>
+                                                                  
+
+                                                                  
+<a id='x1-166001r146'></a><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

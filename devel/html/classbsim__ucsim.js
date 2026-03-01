@@ -29,5 +29,6 @@ var classbsim__ucsim =
     [ "MSetSerial", "classbsim__ucsim.html#a1d2c45cfeb03efdf190b27ab4b8683ad", null ],
     [ "MSetVCC", "classbsim__ucsim.html#a92320cc3d74a9cdef7c761aaba3c7fb9", null ],
     [ "MStep", "classbsim__ucsim.html#a4101ac5777ef1d34d3733dfcb3fedfad", null ],
-    [ "MStepResume", "classbsim__ucsim.html#afa5a9cf0c7e7a42da78d126ef9974873", null ]
+    [ "MStepResume", "classbsim__ucsim.html#afa5a9cf0c7e7a42da78d126ef9974873", null ],
+    [ "RefreshStatus", "classbsim__ucsim.html#a5b6276ee9f6346e630f9801efd827322", null ]
 ];

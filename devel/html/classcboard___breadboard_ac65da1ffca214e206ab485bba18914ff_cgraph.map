@@ -1,10 +1,7 @@
 <map id="cboard_Breadboard::DebugLoop" name="cboard_Breadboard::DebugLoop">
-<area shape="rect" id="Node000001" title="debug step (pooling)" alt="" coords="5,23,161,63"/>
-<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a986aa0a25bfbc1d9a6d03c3fd08dcc4d" title="debug step (pooling)" alt="" coords="210,5,395,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,196,28,196,33,162,37"/>
-<area shape="rect" id="Node000004" href="$classbsim__simavr.html#aabff656fea3698124fe5e9ba481962b0" title="debug step (pooling)" alt="" coords="209,55,396,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,49,196,53,195,58,161,55"/>
-<area shape="rect" id="Node000003" href="$class_c_p_i_c_sim_lab.html#abe7b589c0de06036c5b167e815af9498" title="Return actual power status of microcontroller ON/OFF." alt="" coords="444,31,627,56"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,25,431,29,430,35,395,31"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="396,55,430,51,431,57,397,60"/>
+<area shape="rect" id="Node000001" title="debug step (pooling)" alt="" coords="5,24,161,68"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#a986aa0a25bfbc1d9a6d03c3fd08dcc4d" title="debug step (pooling)" alt="" coords="210,5,394,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,34,197,32,191,33,162,39"/>
+<area shape="rect" id="Node000003" href="$classbsim__simavr.html#aabff656fea3698124fe5e9ba481962b0" title="debug step (pooling)" alt="" coords="209,57,395,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,52,196,58,190,59,161,58"/>
 </map>

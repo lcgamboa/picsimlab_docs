@@ -12,7 +12,6 @@ var classcboard__gpboard =
     [ "GetSupportedDevices", "classcboard__gpboard.html#a5d563d155521b8414c41e5c7383a9508", null ],
     [ "MInit", "classcboard__gpboard.html#a2943e710c7c63d3b22837e9c1ad496c4", null ],
     [ "ReadPreferences", "classcboard__gpboard.html#ab1e3a8d8fd762cb2e59eb277ca16efd7", null ],
-    [ "RefreshStatus", "classcboard__gpboard.html#ae58ac200def477fcbc8ab745e9040640", null ],
     [ "Reset", "classcboard__gpboard.html#a8c69cafb811c397aca544e6516b34888", null ],
     [ "Run_CPU", "classcboard__gpboard.html#aba55b116a2860a12c0185cab9a616f86", null ],
     [ "SetScale", "classcboard__gpboard.html#a33dff041aa5585b192c7868b5afb0f01", null ],

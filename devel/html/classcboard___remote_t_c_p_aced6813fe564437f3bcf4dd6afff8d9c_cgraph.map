@@ -1,0 +1,5 @@
+<map id="cboard_RemoteTCP::RefreshStatus" name="cboard_RemoteTCP::RefreshStatus">
+<area shape="rect" id="Node000001" title="Called ever 1s to refresh status." alt="" coords="5,5,212,50"/>
+<area shape="rect" id="Node000002" href="$classbsim__remote.html#a9c9a1f466607284c0f2304af06311c82" title="Called ever 1s to refresh status." alt="" coords="260,14,466,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,25,247,27,242,28,212,30"/>
+</map>

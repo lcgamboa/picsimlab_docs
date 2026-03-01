@@ -48,5 +48,6 @@ var classbsim__picsim =
     [ "MSetSerial", "classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f", null ],
     [ "MSetVCC", "classbsim__picsim.html#aea1bb0d6297770adcd8cefadd6ae0e96", null ],
     [ "MStep", "classbsim__picsim.html#ad1f08d0a2a2e9ee9398faa300db9eeae", null ],
-    [ "MStepResume", "classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf", null ]
+    [ "MStepResume", "classbsim__picsim.html#ab87b564e49d6f22ae44e73bd94e5fedf", null ],
+    [ "RefreshStatus", "classbsim__picsim.html#ab7b99049118d65b4c8e32b8754162a42", null ]
 ];

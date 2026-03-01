@@ -17,6 +17,7 @@ var annotated_dup =
     [ "bsim_remote", "classbsim__remote.html", "classbsim__remote" ],
     [ "bsim_simavr", "classbsim__simavr.html", "classbsim__simavr" ],
     [ "bsim_ucsim", "classbsim__ucsim.html", "classbsim__ucsim" ],
+    [ "BufferStruct", "struct_buffer_struct.html", null ],
     [ "callbacks_t", "structcallbacks__t.html", null ],
     [ "CanvasCmd_t", "struct_canvas_cmd__t.html", null ],
     [ "cboard_Arduino_Mega", "classcboard___arduino___mega.html", "classcboard___arduino___mega" ],

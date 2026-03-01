@@ -1,0 +1,238 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Communication Protocol</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
+   
+   
+   <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
+   
+   
+                                                                  
+
+                                                                  
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
+   <span class='sectionToc'>7.1 <a href='SerialTerminal.html#serial-terminal'>Serial Terminal</a></span>
+   <span class='sectionToc'>7.2 <a href='SerialRemoteTank.html#serial-remote-tank'>Serial Remote Tank</a></span>
+   <span class='subsectionToc'>7.2.1 <a href='Actuators.html#actuators'>Actuators</a></span>
+   <span class='subsectionToc'>7.2.2 <a href='Sensors.html#sensors'>Sensors</a></span>
+   <span class='subsectionToc'>7.2.3 <a href='#communication-protocol'>Communication Protocol</a></span>
+   <span class='sectionToc'>7.3 <a href='Esp8266ModemSimulator.html#esp-modem-simulator'>Esp8266 Modem Simulator</a></span>
+   
+   <span class='sectionToc'>7.4 <a href='ArduinoBootloader.html#arduino-bootloader'>Arduino Bootloader</a></span>
+   <span class='sectionToc'>7.5 <a href='MPLABXDebuggerPlugin.html#mplabx-debugger-plugin'>MPLABX Debugger Plugin</a></span>
+   <span class='sectionToc'>7.6 <a href='PinViewer.html#pin-viewer'>Pin Viewer</a></span>
+   <span class='sectionToc'>7.7 <a href='picsimlabtool.html#picsimlabtool'>picsimlab_tool</a></span>
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                  
+
+                                                                  
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='Sensors.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav> 
+<h4 class='subsectionHead' id='communication-protocol'><span class='titlemark'>7.2.3    </span> <a id='x62-610007.2.3'></a>Communication Protocol</h4>
+   
+   <h5 class='subsubsectionHead' id='writing-on-digital-input'><a id='x62-62000'></a>Writing on Digital Input</h5>
+<!--  l. 74  --><p class='noindent'>Sent one byte in 0x0N hexadecimal format where N is the number of input followed by a
+second byte with value 0x00 for disable or 0x01 for enable.
+</p><!--  l. 76  --><p class='indent'>   Example to turn on the input 2:
+</p>
+   <pre class='fancyvrb' id='fancyvrb20'><a id='x62-62004r1'></a><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>Serial_write(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x02</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-62006r2'></a><span style='color:#BABABA;'>            </span><span class='pcrr8t-x-x-80'>Serial_write(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x01</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
+                                                                  
+
+                                                                  
+   
+   <h5 class='subsubsectionHead' id='reading-digital-output'><a id='x62-63000'></a>Reading Digital Output</h5>
+<!--  l. 84  --><p class='noindent'>Sent one byte in 0x1N hexadecimal format where N is the number of output and read one
+byte. The byte readed have value 0x00 for disable or 0x01 for enable.
+</p><!--  l. 86  --><p class='indent'>   Example to read output 3:
+</p>
+   <pre class='fancyvrb' id='fancyvrb21'><a id='x62-63004r1'></a><span style='color:#BABABA;'>            </span><span class='pcrr8t-x-x-80'>Serial_write(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x13</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-63006r2'></a><span style='color:#BABABA;'>      </span><span class='pcrr8t-x-x-80'>valor</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
+   
+   <h5 class='subsubsectionHead' id='writing-on-analog-input'><a id='x62-64000'></a>Writing on Analog Input</h5>
+<!--  l. 94  --><p class='noindent'>Sent one byte in 0x2N hexadecimal format where N is the number of input followed by two
+bytes with the 16 bits value.
+</p><!--  l. 96  --><p class='indent'>   Example to write the value 230 on analog input 1:
+</p>
+   <pre class='fancyvrb' id='fancyvrb22'><a id='x62-64006r1'></a><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>Serial_write(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x21</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-64008r2'></a><span style='color:#BABABA;'>            </span><span class='pcrr8t-x-x-80'>valor</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>230</span></span><span class='pcrr8t-x-x-80'>;</span> 
+<a id='x62-64010r3'></a><span style='color:#BABABA;'>            </span><span class='pcrr8t-x-x-80'>Serial_write((valor</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&amp;</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFF00</span></span><span class='pcrr8t-x-x-80'>)</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;&gt;</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>8</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-64012r4'></a><span style='color:#BABABA;'>            </span><span class='pcrr8t-x-x-80'>Serial_write(valor</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&amp;</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x00FF</span></span><span class='pcrr8t-x-x-80'>);</span></pre>
+   
+   <h5 class='subsubsectionHead' id='reading-analog-output'><a id='x62-65000'></a>Reading Analog Output</h5>
+<!--  l. 105  --><p class='noindent'>Sent one byte in 0x3N hexadecimal format where N is the number of output and read two
+bytes to form the 16 bits value.
+</p><!--  l. 107  --><p class='indent'>   Example to read analog output 2:
+</p>
+   <pre class='fancyvrb' id='fancyvrb23'><a id='x62-65006r1'></a><span style='color:#BABABA;'>            </span><span class='pcrr8t-x-x-80'>Serial_write(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x32</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-65008r2'></a><span style='color:#BABABA;'>      </span><span class='pcrr8t-x-x-80'>valorh</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-65010r3'></a><span style='color:#BABABA;'>      </span><span class='pcrr8t-x-x-80'>valorl</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Serial_read(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
+<a id='x62-65012r4'></a><span style='color:#BABABA;'>      </span><span class='pcrr8t-x-x-80'>valor</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>(valorh</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&lt;&lt;</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>8</span></span><span class='pcrr8t-x-x-80'>)</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>|</span></span><span class='pcrr8t-x-x-80'>valorl;</span></pre>
+                                                                  
+
+                                                                  
+   <nav class='crosslinks-bottom'>[<a href='Sensors.html'>prev</a>] [<a href='SerialRemoteTank.html#CommunicationProtocol.html'>up</a>] </nav>  </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

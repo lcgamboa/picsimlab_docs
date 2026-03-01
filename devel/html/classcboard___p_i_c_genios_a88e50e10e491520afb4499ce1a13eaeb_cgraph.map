@@ -1,0 +1,5 @@
+<map id="cboard_PICGenios::RefreshStatus" name="cboard_PICGenios::RefreshStatus">
+<area shape="rect" id="Node000001" title="Called ever 1s to refresh status." alt="" coords="5,5,202,50"/>
+<area shape="rect" id="Node000002" href="$classbsim__picsim.html#ab7b99049118d65b4c8e32b8754162a42" title="Called ever 1s to refresh status." alt="" coords="250,14,452,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,25,237,27,232,28,202,30"/>
+</map>

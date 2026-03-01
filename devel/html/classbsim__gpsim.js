@@ -30,5 +30,6 @@ var classbsim__gpsim =
     [ "MSetSerial", "classbsim__gpsim.html#a0bf8a38baf69303a4ae2947608814d75", null ],
     [ "MSetVCC", "classbsim__gpsim.html#a17070bbf68327786f8b7307c097bfa5a", null ],
     [ "MStep", "classbsim__gpsim.html#a8b5cec5ea5c6cf3a6b525321dbd9cfd1", null ],
-    [ "MStepResume", "classbsim__gpsim.html#aeebbc6ca796c64c69a8bef03c8764773", null ]
+    [ "MStepResume", "classbsim__gpsim.html#aeebbc6ca796c64c69a8bef03c8764773", null ],
+    [ "RefreshStatus", "classbsim__gpsim.html#acaa97e5b59df0d1ec44dae4824961d48", null ]
 ];

@@ -16,7 +16,6 @@ var classcboard___blue___pill =
     [ "MGetPinName", "classcboard___blue___pill.html#a9929c14322c8ad33b582beb09ddb5167", null ],
     [ "MSetAPin", "classcboard___blue___pill.html#aaf0cc94dfa9637e8c4218826fd46b072", null ],
     [ "ReadPreferences", "classcboard___blue___pill.html#a901b5aabf9da7bd34203df531255bf59", null ],
-    [ "RefreshStatus", "classcboard___blue___pill.html#ad96e37988fe24743a96bed8bc572f18c", null ],
     [ "RegisterRemoteControl", "classcboard___blue___pill.html#a963eba64736781d977fe0733e5cdbd91", null ],
     [ "Reset", "classcboard___blue___pill.html#ab430008e07eb59b30789d04e60518855", null ],
     [ "Run_CPU", "classcboard___blue___pill.html#aa3e9d98bcf089431ba41119da59ccf89", null ],

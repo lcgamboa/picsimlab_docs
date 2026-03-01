@@ -47,6 +47,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "board_desc", "structboard__desc.html", null ],
+    [ "BufferStruct", "struct_buffer_struct.html", null ],
     [ "callbacks_t", "structcallbacks__t.html", null ],
     [ "CanvasCmd_t", "struct_canvas_cmd__t.html", null ],
     [ "ch_status_t", "structch__status__t.html", null ],
