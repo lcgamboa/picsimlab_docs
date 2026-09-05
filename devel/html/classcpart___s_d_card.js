@@ -7,8 +7,9 @@ var classcpart___s_d_card =
     [ "GetInputId", "classcpart___s_d_card.html#a98c5ee14159f4363fd2f113a72430dbc", null ],
     [ "GetOutputId", "classcpart___s_d_card.html#a8a154d23bd53d52113d0da9e46db7983", null ],
     [ "OnMouseButtonPress", "classcpart___s_d_card.html#a33381880812fe5f1e01d1147cd7dee41", null ],
+    [ "PreferencesNumberFields", "classcpart___s_d_card.html#aa99e517387413ef87c43657d0ebf147f", null ],
     [ "Process", "classcpart___s_d_card.html#ad0b8782aaff20ae70ea468b871241794", null ],
-    [ "ReadPreferences", "classcpart___s_d_card.html#ab7002fcf1c0e5ddc86d5fba771f41ca0", null ],
+    [ "ReadPreferences", "classcpart___s_d_card.html#a384cfce66de887624f2d6e1742fe6281", null ],
     [ "ReadPropertiesWindow", "classcpart___s_d_card.html#ab8d6c4fe83004876421df3ae6ce29c00", null ],
     [ "Reset", "classcpart___s_d_card.html#a2f911b74b575cf24e84bc18490b7c41f", null ],
     [ "WritePreferences", "classcpart___s_d_card.html#a82bea034b794df8f35fe4d257dba56c4", null ]

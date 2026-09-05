@@ -8,9 +8,10 @@ var classcpart__encoder =
     [ "OnMouseButtonPress", "classcpart__encoder.html#a53f0b79e4f2439d4f80584a89e49a480", null ],
     [ "OnMouseButtonRelease", "classcpart__encoder.html#a85710f741ec7a6ee0125bb763166eeac", null ],
     [ "OnMouseMove", "classcpart__encoder.html#ab3255c20670423ae0f350d758c8ed9e8", null ],
+    [ "PreferencesNumberFields", "classcpart__encoder.html#aa3e6fa8b89e5748d7d872c78ece09d05", null ],
     [ "PreProcess", "classcpart__encoder.html#aa37ab0162371d49664d3df93702ae591", null ],
     [ "Process", "classcpart__encoder.html#a4064aeb7dc2996aac135c551aa7ca97d", null ],
-    [ "ReadPreferences", "classcpart__encoder.html#a40da7daa9925523f26511b002eb09950", null ],
+    [ "ReadPreferences", "classcpart__encoder.html#acccc1e2dfd6a09a7bad1f05ecdd13a5f", null ],
     [ "ReadPropertiesWindow", "classcpart__encoder.html#afe9848a1386edf62621904603f19393f", null ],
     [ "RegisterRemoteControl", "classcpart__encoder.html#a103c7610ae97af2c2d10b6e274dd20c4", null ],
     [ "WritePreferences", "classcpart__encoder.html#a50ec0c995f318b87d8e736356b1a3b76", null ]

@@ -10,6 +10,7 @@ var classcboard___arduino___uno =
     [ "GetName", "classcboard___arduino___uno.html#ac5052499305631e8eb141355a025c2b9", null ],
     [ "GetOutputId", "classcboard___arduino___uno.html#a27c536bd56ea9853543deee121668697", null ],
     [ "GetSupportedDevices", "classcboard___arduino___uno.html#a7b1d3b6873971f573ce7b7cdd53997a2", null ],
+    [ "GetSupportedIDEs", "classcboard___arduino___uno.html#a401ebd1ade3b45eef4cbb476ba2898c4", null ],
     [ "ReadPreferences", "classcboard___arduino___uno.html#a483f1ddce3141f9a6f0a8816d37ba841", null ],
     [ "RegisterRemoteControl", "classcboard___arduino___uno.html#a2019526e5d96ddc2d6c150386af77557", null ],
     [ "Reset", "classcboard___arduino___uno.html#a85e58a08774c55c42cbd73a5aaa49263", null ],

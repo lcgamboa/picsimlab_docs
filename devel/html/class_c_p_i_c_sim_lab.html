@@ -139,6 +139,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFNAME</b> (std::st
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetOldPath</b> (void)</td></tr>
 <tr class="memitem:aba8943e8576fa4fc84168c414aa92622" id="r_aba8943e8576fa4fc84168c414aa92622"><td class="memItemLeft" align="right" valign="top"><a id="aba8943e8576fa4fc84168c414aa92622" name="aba8943e8576fa4fc84168c414aa92622"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetOldPath</b> (std::string op)</td></tr>
+<tr class="memitem:ae0c1c326bb3e6689610c4f61615c5c9f" id="r_ae0c1c326bb3e6689610c4f61615c5c9f"><td class="memItemLeft" align="right" valign="top"><a id="ae0c1c326bb3e6689610c4f61615c5c9f" name="ae0c1c326bb3e6689610c4f61615c5c9f"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPWVscodePath</b> (void)</td></tr>
+<tr class="memitem:afaae8fce2824443a79aac374126a4508" id="r_afaae8fce2824443a79aac374126a4508"><td class="memItemLeft" align="right" valign="top"><a id="afaae8fce2824443a79aac374126a4508" name="afaae8fce2824443a79aac374126a4508"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPWVscodePath</b> (std::string path)</td></tr>
+<tr class="memitem:aeb936c3ffd82d9e93aadaf9baf4ede72" id="r_aeb936c3ffd82d9e93aadaf9baf4ede72"><td class="memItemLeft" align="right" valign="top"><a id="aeb936c3ffd82d9e93aadaf9baf4ede72" name="aeb936c3ffd82d9e93aadaf9baf4ede72"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPWMplabxPath</b> (void)</td></tr>
+<tr class="memitem:a7e5e5fe9140bea160df4126206a151be" id="r_a7e5e5fe9140bea160df4126206a151be"><td class="memItemLeft" align="right" valign="top"><a id="a7e5e5fe9140bea160df4126206a151be" name="a7e5e5fe9140bea160df4126206a151be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPWMplabxPath</b> (std::string path)</td></tr>
 <tr class="memitem:a20e6df90672c5d921f4d9bdd5bda2c0a" id="r_a20e6df90672c5d921f4d9bdd5bda2c0a"><td class="memItemLeft" align="right" valign="top"><a id="a20e6df90672c5d921f4d9bdd5bda2c0a" name="a20e6df90672c5d921f4d9bdd5bda2c0a"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetProcessorName</b> (void)</td></tr>
 <tr class="memitem:a66c54095199f923fa3c9f6f18203faa3" id="r_a66c54095199f923fa3c9f6f18203faa3"><td class="memItemLeft" align="right" valign="top"><a id="a66c54095199f923fa3c9f6f18203faa3" name="a66c54095199f923fa3c9f6f18203faa3"></a>
@@ -244,8 +252,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OpenLoadHexFileDialog
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetNeedReboot</b> (int nr=1)</td></tr>
 <tr class="memitem:a49138a7ebae28b4dfb846743c675ee68" id="r_a49138a7ebae28b4dfb846743c675ee68"><td class="memItemLeft" align="right" valign="top"><a id="a49138a7ebae28b4dfb846743c675ee68" name="a49138a7ebae28b4dfb846743c675ee68"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetNeedReboot</b> (void)</td></tr>
-<tr class="memitem:a7fe1d4a0985ed7b24bb23a9730fe4c0f" id="r_a7fe1d4a0985ed7b24bb23a9730fe4c0f"><td class="memItemLeft" align="right" valign="top"><a id="a7fe1d4a0985ed7b24bb23a9730fe4c0f" name="a7fe1d4a0985ed7b24bb23a9730fe4c0f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterError</b> (const std::string error)</td></tr>
+<tr class="memitem:ab86a6e9839b6fbb40af85de78709a1fb" id="r_ab86a6e9839b6fbb40af85de78709a1fb"><td class="memItemLeft" align="right" valign="top"><a id="ab86a6e9839b6fbb40af85de78709a1fb" name="ab86a6e9839b6fbb40af85de78709a1fb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterError</b> (const std::string module, const std::string error)</td></tr>
 <tr class="memitem:ad26f897e06d6866afd9043ab6eaaaad2" id="r_ad26f897e06d6866afd9043ab6eaaaad2"><td class="memItemLeft" align="right" valign="top"><a id="ad26f897e06d6866afd9043ab6eaaaad2" name="ad26f897e06d6866afd9043ab6eaaaad2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetErrorCount</b> (void)</td></tr>
 <tr class="memitem:af0a260810fa5c9d92dde515c52192736" id="r_af0a260810fa5c9d92dde515c52192736"><td class="memItemLeft" align="right" valign="top"><a id="af0a260810fa5c9d92dde515c52192736" name="af0a260810fa5c9d92dde515c52192736"></a>
@@ -254,20 +262,26 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetError</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteError</b> (int en)</td></tr>
 <tr class="memitem:ae9f596b85b8ee620bbedf8fea8f35082" id="r_ae9f596b85b8ee620bbedf8fea8f35082"><td class="memItemLeft" align="right" valign="top"><a id="ae9f596b85b8ee620bbedf8fea8f35082" name="ae9f596b85b8ee620bbedf8fea8f35082"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>EndSimulation</b> (int saveold=0, const char *newpath=NULL)</td></tr>
+<tr class="memitem:a61510d1aab700018932b717888e67a3e" id="r_a61510d1aab700018932b717888e67a3e"><td class="memItemLeft" align="right" valign="top"><a id="a61510d1aab700018932b717888e67a3e" name="a61510d1aab700018932b717888e67a3e"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetWorkspaceFileName</b> (void)</td></tr>
 <tr class="memitem:adfc4f6d4cbbd7a19cbbb91837aae3947" id="r_adfc4f6d4cbbd7a19cbbb91837aae3947"><td class="memItemLeft" align="right" valign="top"><a id="adfc4f6d4cbbd7a19cbbb91837aae3947" name="adfc4f6d4cbbd7a19cbbb91837aae3947"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetWorkspaceFileName</b> (const std::string fname)</td></tr>
+<tr class="memitem:a184c673eceed47b67f58b1a6ddb86633" id="r_a184c673eceed47b67f58b1a6ddb86633"><td class="memItemLeft" align="right" valign="top"><a id="a184c673eceed47b67f58b1a6ddb86633" name="a184c673eceed47b67f58b1a6ddb86633"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetLastWorkspaceFileName</b> (void)</td></tr>
+<tr class="memitem:aa0b059ea877e88a2f642b0e13f05663a" id="r_aa0b059ea877e88a2f642b0e13f05663a"><td class="memItemLeft" align="right" valign="top"><a id="aa0b059ea877e88a2f642b0e13f05663a" name="aa0b059ea877e88a2f642b0e13f05663a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetLastWorkspaceFileName</b> (const std::string fname)</td></tr>
 <tr class="memitem:ae303467981cb2a3f87cbf43441ce3a53" id="r_ae303467981cb2a3f87cbf43441ce3a53"><td class="memItemLeft" align="right" valign="top"><a id="ae303467981cb2a3f87cbf43441ce3a53" name="ae303467981cb2a3f87cbf43441ce3a53"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetLabs</b> (const int lb, const int lb_)</td></tr>
 <tr class="memitem:a3422758582432b84e96b87f2f7d91a63" id="r_a3422758582432b84e96b87f2f7d91a63"><td class="memItemLeft" align="right" valign="top"><a id="a3422758582432b84e96b87f2f7d91a63" name="a3422758582432b84e96b87f2f7d91a63"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetLab</b> (void)</td></tr>
 <tr class="memitem:a6c12ed8524ee4bef457f88601bd93ead" id="r_a6c12ed8524ee4bef457f88601bd93ead"><td class="memItemLeft" align="right" valign="top"><a id="a6c12ed8524ee4bef457f88601bd93ead" name="a6c12ed8524ee4bef457f88601bd93ead"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetLab_</b> (void)</td></tr>
-<tr class="memitem:a4a058e17214e74a5ea1be9171f5be5d3" id="r_a4a058e17214e74a5ea1be9171f5be5d3"><td class="memItemLeft" align="right" valign="top"><a id="a4a058e17214e74a5ea1be9171f5be5d3" name="a4a058e17214e74a5ea1be9171f5be5d3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>LoadHexFile</b> (std::string fname)</td></tr>
+<tr class="memitem:afe9169537d40905f4b2eb215325912ca" id="r_afe9169537d40905f4b2eb215325912ca"><td class="memItemLeft" align="right" valign="top"><a id="afe9169537d40905f4b2eb215325912ca" name="afe9169537d40905f4b2eb215325912ca"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>LoadHexFile</b> (std::string fname, const int saveold=0)</td></tr>
 <tr class="memitem:a1dceedb69624ffad8a4fe024939d3c5b" id="r_a1dceedb69624ffad8a4fe024939d3c5b"><td class="memItemLeft" align="right" valign="top"><a id="a1dceedb69624ffad8a4fe024939d3c5b" name="a1dceedb69624ffad8a4fe024939d3c5b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadWorkspace</b> (std::string fnpzw, const int show_readme=1)</td></tr>
-<tr class="memitem:a2732251f1361471ad8ba66c4d499825e" id="r_a2732251f1361471ad8ba66c4d499825e"><td class="memItemLeft" align="right" valign="top"><a id="a2732251f1361471ad8ba66c4d499825e" name="a2732251f1361471ad8ba66c4d499825e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveWorkspace</b> (std::string fnpzw)</td></tr>
+<tr class="memitem:a711ea8c6112462d5975556623d659fc0" id="r_a711ea8c6112462d5975556623d659fc0"><td class="memItemLeft" align="right" valign="top"><a id="a711ea8c6112462d5975556623d659fc0" name="a711ea8c6112462d5975556623d659fc0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SaveWorkspace</b> (std::string fnpzw)</td></tr>
 <tr class="memitem:a67725aad6f707eaa5085c8c367fe15e4" id="r_a67725aad6f707eaa5085c8c367fe15e4"><td class="memItemLeft" align="right" valign="top"><a id="a67725aad6f707eaa5085c8c367fe15e4" name="a67725aad6f707eaa5085c8c367fe15e4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSimulationRun</b> (int run)</td></tr>
 <tr class="memitem:ae26781a2c9f13fce08734258a1838575" id="r_ae26781a2c9f13fce08734258a1838575"><td class="memItemLeft" align="right" valign="top"><a id="ae26781a2c9f13fce08734258a1838575" name="ae26781a2c9f13fce08734258a1838575"></a>
@@ -304,6 +318,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSync</b> (unsigned
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>GetSync</b> (void)</td></tr>
 <tr class="memitem:a52efd547683f1553d02cb103290546b0" id="r_a52efd547683f1553d02cb103290546b0"><td class="memItemLeft" align="right" valign="top"><a id="a52efd547683f1553d02cb103290546b0" name="a52efd547683f1553d02cb103290546b0"></a>
 char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetPzwTmpdir</b> (void)</td></tr>
+<tr class="memitem:a0f2d2f1b2d6b1a4630fb10fa2e118ffe" id="r_a0f2d2f1b2d6b1a4630fb10fa2e118ffe"><td class="memItemLeft" align="right" valign="top"><a id="a0f2d2f1b2d6b1a4630fb10fa2e118ffe" name="a0f2d2f1b2d6b1a4630fb10fa2e118ffe"></a>
+char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetLastPzwTmpdir</b> (void)</td></tr>
+<tr class="memitem:aab3fe4fa34bcfc72a52c41002c452708" id="r_aab3fe4fa34bcfc72a52c41002c452708"><td class="memItemLeft" align="right" valign="top"><a id="aab3fe4fa34bcfc72a52c41002c452708" name="aab3fe4fa34bcfc72a52c41002c452708"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetSupportedBoards</b> (void)</td></tr>
 <tr class="memitem:a781ee87fdb8cd248dddcec828118fadf" id="r_a781ee87fdb8cd248dddcec828118fadf"><td class="memItemLeft" align="right" valign="top"><a id="a781ee87fdb8cd248dddcec828118fadf" name="a781ee87fdb8cd248dddcec828118fadf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateStatus</b> (const PICSimlabStatus field, const std::string msg)</td></tr>
 <tr class="memitem:ab6131d6c01830cf2306c845692366aee" id="r_ab6131d6c01830cf2306c845692366aee"><td class="memItemLeft" align="right" valign="top"><a id="ab6131d6c01830cf2306c845692366aee" name="ab6131d6c01830cf2306c845692366aee"></a>
@@ -424,6 +442,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>NeedReboot</b></td></t
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Errors</b></td></tr>
 <tr class="memitem:aafcaaee877fdda300ecf815fddd4bce0" id="r_aafcaaee877fdda300ecf815fddd4bce0"><td class="memItemLeft" align="right" valign="top"><a id="aafcaaee877fdda300ecf815fddd4bce0" name="aafcaaee877fdda300ecf815fddd4bce0"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Workspacefn</b></td></tr>
+<tr class="memitem:ac327bab616856ce3013c0e2cff92b3f9" id="r_ac327bab616856ce3013c0e2cff92b3f9"><td class="memItemLeft" align="right" valign="top"><a id="ac327bab616856ce3013c0e2cff92b3f9" name="ac327bab616856ce3013c0e2cff92b3f9"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>LastWorkspacefn</b></td></tr>
 <tr class="memitem:ac3ba1705800dd7d12f51d0bd4e50809d" id="r_ac3ba1705800dd7d12f51d0bd4e50809d"><td class="memItemLeft" align="right" valign="top"><a id="ac3ba1705800dd7d12f51d0bd4e50809d" name="ac3ba1705800dd7d12f51d0bd4e50809d"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b></td></tr>
 <tr class="memitem:a63b88ea3d1a48c4ebfdac32b56f71a98" id="r_a63b88ea3d1a48c4ebfdac32b56f71a98"><td class="memItemLeft" align="right" valign="top"><a id="a63b88ea3d1a48c4ebfdac32b56f71a98" name="a63b88ea3d1a48c4ebfdac32b56f71a98"></a>
@@ -434,8 +454,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>settodestroy</b></td><
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>sync</b></td></tr>
 <tr class="memitem:ae104423fdd113eb329fb2abb609982ae" id="r_ae104423fdd113eb329fb2abb609982ae"><td class="memItemLeft" align="right" valign="top"><a id="ae104423fdd113eb329fb2abb609982ae" name="ae104423fdd113eb329fb2abb609982ae"></a>
 char&#160;</td><td class="memItemRight" valign="bottom"><b>pzwtmpdir</b> [1024]</td></tr>
+<tr class="memitem:a476f415c509ce2dba009be8ae03c9c23" id="r_a476f415c509ce2dba009be8ae03c9c23"><td class="memItemLeft" align="right" valign="top"><a id="a476f415c509ce2dba009be8ae03c9c23" name="a476f415c509ce2dba009be8ae03c9c23"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>lastpzwtmpdir</b> [1024]</td></tr>
 <tr class="memitem:a6b89b55511c92a83d3234d12f65d8df7" id="r_a6b89b55511c92a83d3234d12f65d8df7"><td class="memItemLeft" align="right" valign="top"><a id="a6b89b55511c92a83d3234d12f65d8df7" name="a6b89b55511c92a83d3234d12f65d8df7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>check_for_devel</b></td></tr>
+<tr class="memitem:ad45fdffc821b65e587fb5ae21b54d73e" id="r_ad45fdffc821b65e587fb5ae21b54d73e"><td class="memItemLeft" align="right" valign="top"><a id="ad45fdffc821b65e587fb5ae21b54d73e" name="ad45fdffc821b65e587fb5ae21b54d73e"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>pw_vscode_path</b></td></tr>
+<tr class="memitem:a63c237da8a79a94f1a74cd236d5fa184" id="r_a63c237da8a79a94f1a74cd236d5fa184"><td class="memItemLeft" align="right" valign="top"><a id="a63c237da8a79a94f1a74cd236d5fa184" name="a63c237da8a79a94f1a74cd236d5fa184"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>pw_mplabx_path</b></td></tr>
+<tr class="memitem:a9e13d25ec7e5a53376839f9fef4fc1c3" id="r_a9e13d25ec7e5a53376839f9fef4fc1c3"><td class="memItemLeft" align="right" valign="top"><a id="a9e13d25ec7e5a53376839f9fef4fc1c3" name="a9e13d25ec7e5a53376839f9fef4fc1c3"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>pzw_creation_date</b></td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/lib/<a class="el" href="picsimlab_8h_source.html">picsimlab.h</a></li>

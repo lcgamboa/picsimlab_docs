@@ -19,29 +19,36 @@ In this case the simulation may present some difference than expected and the CP
 
 The on/off button to enable debugging is used to enable debugging support, when active simulation load is increased.
 
-The menus and their functions are listed below:
+\begin{figure}[H]
+\center
+\includegraphics[width=0.85\textwidth]{img/int1.png} 
+\end{figure} 
+
+The first part of the status bar shows the state of the simulation, in the middle part the status of the debug support and in the last part the name of the serial port used, its default speed and the error in relation to the real speed configured in the microcontroller.
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.85\textwidth]{img/int2.png} 
+\end{figure} 
+
+
+\subsection{Menus}
+
+The main window menus and their functions are listed below:
 \begin{itemize}
 \item File
 \begin{itemize}
 \item Load Hex - Load .hex files
 \item Reload Last - Reload the last used .hex file
 \item Save Hex - Save memory in a .hex file
-\item Configure - Open the configuration windows
+\item Configure - Open the \hyperlink{def:prjwizard}{Configuration} window
 \item Save Workspace - Saves all current workspace settings to a .pzw file
 \item Load Workspace - Loads saved settings from a .pzw file
 \item Exit
 \end{itemize}
 \item Board
 \begin{itemize}
-\item Arduino Uno - Choose board Arduino Uno
-\item Breadboard - Choose board Breadboard
-\item Franzininho - Choose board Franzininho
-\item K16F - Choose board K16F
-\item McLab1 - Choose board McLab1
-\item McLab2 - Choose board McLab2
-\item PICGenios - Choose board PICGenios
-\item PQDB - Choose board PQDB
-\item uCboard - Choose board uCboard
+\item xxxxx - Selects the board to be used 
 \end{itemize}
 \item Microcontroller
 \begin{itemize}
@@ -61,6 +68,12 @@ The menus and their functions are listed below:
  \item MPLABX Debugger Plugin - Open the web page to download the \hyperlink{def:mpdebug}{MPLABX Debugger Plugin} 
  \item Pin Viewer - Open the \hyperlink{def:pinv}{Pin Viewer} 
 \end{itemize}
+\item Code 
+\begin{itemize}
+ \item Project Wizard - Open the \hyperlink{def:prjwizard}{Project wizard} window 
+ \item Open Active Project - Open the active project (Create or selected from Project Wizard)
+ \item Open Active Project Dir - Open directory of active project (Create or selected from Project Wizard)
+ \end{itemize}
 \item Help 
 \begin{itemize}
  \item Contents - Open the Help window
@@ -68,21 +81,74 @@ The menus and their functions are listed below:
  \item Examples - Load the examples
  \item About Board - Show message about author and version of board
  \item About PICSimLab - Show message about author and version of PICSimLab
+ \item Check for Update - Check for new update version (stable or development)
 \end{itemize}
 \end{itemize}
 
 
-\begin{figure}[H]
-\center
-\includegraphics[width=0.85\textwidth]{img/int1.png} 
-\end{figure} 
 
-The first part of the status bar shows the state of the simulation, in the middle part the status of the debug support and in the last part the name of the serial port used, its default speed and the error in relation to the real speed configured in the microcontroller.
+
+\section{Configuration Window}\hypertarget{def:config}{}
+
 
 \begin{figure}[H]
 \center
-\includegraphics[width=0.85\textwidth]{img/int2.png} 
+\includegraphics[width=0.8\textwidth]{img/Configuration.png} 
 \end{figure} 
+
+The "PICSimLab - Configuration" window is an interface for configuring debugging and communication options.
+Here's how to use each option:
+\begin{itemize}
+\item HWSerial: Defines the serial port to be used. The "None" option disables any connection and the 
+other options listed are actual or virtual ports. This port can be used to connect the PICSimLab to other software.
+
+\item Debug TCP Port: Defines the TCP port used for remote debugging.
+
+\item AVR DBG: Defines the debugging protocol used for the AVR. The options are "gdb-avr" (GDB) and "microchip debugger" (MDB).
+
+\item Remote C Port: Defines the TCP port used for communication using the remote control protocol.
+
+\item Open Configuration Dir: Opens the directory where PICSimLab's configurations are stored.
+
+\item Check for development version updates: Checks for available updates for the PICSimLab's development 
+version instead of the stable version.
+
+\item Save: Saves the settings.
+
+\item Cancel: Cancels the changes and closes the window.
+\end{itemize}
+
+
+\section{Project Wizard Window}\hypertarget{def:prjwizard}{}
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.7\textwidth]{img/ProjectWizard.png} 
+\end{figure} 
+
+The "PICSimLab - Project Wizard" window is an interface for creating a new code project in PICSimLab. Here's how each option works:
+
+\begin{itemize}
+\item Board: Displays the name of the selected board.
+
+\item Microcontroller: Displays the name of the microcontroller selected for the chosen board.
+
+\item IDE: Specifies the integrated development environment (IDE) to be used for the project to be created. The options vary depending on the chosen board and microcontroller. The available options are "PlatformIO IDE for VSCode" and "MPLABX IDE".
+\item Framework: Specifies the framework to be used according to the chosen board.
+
+\item Template: Specifies the code template to be loaded according to the chosen framework.
+\item Project Name: Specifies the name of your project.
+\item Button Create: Creates a new project with the selected settings.
+
+\item Button Create and Open: Creates a new project and opens the selected IDE.
+
+\item Button Cancel: Cancels the creation of the project and closes the window.
+
+\item Button Help: Opens this PICSimLab documentation about the ProjectWizard.
+
+\item Button Open Existing: Opens an existing project and associates it as the active project.
+\end{itemize}
 
 
 \section{Interaction with the Board}
@@ -107,10 +173,36 @@ One for load a PICSimLab Workspace file (.pzw)
   picsimlab file.pzw
 \end{minted}
 
-And other for load .hex files
+And other for load .hex/.bin files
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
-  picsimlab boardname microcontroller [file.hex] [file.pcf]
+  picsimlab boardname [microcontroller [file.hex [file.pcf]]]
 \end{minted}
+
+Supported boards \textbf{boardname} parameter:
+\begin{itemize}
+ \item Arduino\_Mega
+ \item Arduino\_Nano
+ \item Arduino\_Uno
+ \item Blue\_Pill
+ \item Breadboard
+ \item Curiosity
+ \item Curiosity\_HPC
+ \item ESP32\_C3\_DevKitC\_02
+ \item ESP32\_DevKitC
+ \item Franzininho\_DIY
+ \item K16F
+ \item McLab1
+ \item McLab2
+ \item PICGenios
+ \item PQDB
+ \item Remote\_TCP
+ \item STM32\_H103
+ \item X
+ \item Xpress
+ \item gpboard
+ \item uCboard 
+\end{itemize}
+
 
 
 \section{Remote Control Interface}\hypertarget{def:rcontrol}{}
@@ -131,22 +223,35 @@ The supported commands can be shown using the ``help'' command:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
  help
 List of supported commands:
-  dumpe [a] [s]- dump internal EEPROM memory
-  dumpf [a] [s]- dump Flash memory
-  dumpr [a] [s]- dump RAM memory
-  exit         - shutdown PICSimLab
-  get ob       - get object value
-  help         - show this message
-  info         - show actual setup info and objects
-  loadhex file - load hex file (use full path)  
-  pins         - show pins directions and values
-  pinsl        - show pins formated info
-  quit         - exit remote control interface
-  reset        - reset the board
-  set ob vl    - set object with value
-  sim [cmd]    - show simulation status or execute cmd start/stop
-  sync         - wait to syncronize with timer event
-  version      - show PICSimLab version
+  blist                - list supported boards
+  buclist              - list board supported MCUs
+  clk [val MHz]        - show or set simulation clock
+  dumpe [addr] [count] - dump internal EEPROM memory
+  dumpf [addr] [count] - dump Flash memory
+  dumpr [addr] [count] - dump RAM memory
+  exit                 - shutdown PICSimLab
+  get obj              - get object value
+  help                 - show this message
+  info                 - show actual setup info and objs
+  loadhex file         - load hex/bin file (full path)
+  oscmeasures ch       - read osc channel 1 or 2 measures
+  oscrdcfg             - read osc configuration
+  oscwrcfg idx "cfg"   - write osc configuration
+  oscshow [0/1]        - show status or toggle osc window
+  pins                 - show pins directions and values
+  pinsl                - show pins formatted info
+  quit                 - quit remote control interface
+  reset                - reset the board
+  set obj value        - set object with value
+  sim [start/stop]     - show status or start/stop sim
+  spadd "pname" x y    - adds the named spare part
+  spdel pid/all        - delete one spare part or all
+  sprdcfg pid          - read spare part configuration
+  spwrcfg pid "cfg"    - write spare part configuration
+  splist               - list supported spare parts
+  spshow [0/1]         - show status or toggle sp window
+  sync                 - wait to sync with timer event
+  version              - show PICSimLab version
 Ok
 \end{minted}
   

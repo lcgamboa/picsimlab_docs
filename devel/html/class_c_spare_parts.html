@@ -121,12 +121,14 @@ Collaboration diagram for CSpareParts:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ababb9ae2f9176ac60c87242d660b8023" id="r_ababb9ae2f9176ac60c87242d660b8023"><td class="memItemLeft" align="right" valign="top"><a id="ababb9ae2f9176ac60c87242d660b8023" name="ababb9ae2f9176ac60c87242d660b8023"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (void)</td></tr>
-<tr class="memitem:ae56d92e1c9936b7b964c20417f1cc9e3" id="r_ae56d92e1c9936b7b964c20417f1cc9e3"><td class="memItemLeft" align="right" valign="top"><a id="ae56d92e1c9936b7b964c20417f1cc9e3" name="ae56d92e1c9936b7b964c20417f1cc9e3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAll</b> (const int force=0)</td></tr>
+<tr class="memitem:aa817af61708ec6880b398346bff23574" id="r_aa817af61708ec6880b398346bff23574"><td class="memItemLeft" align="right" valign="top"><a id="aa817af61708ec6880b398346bff23574" name="aa817af61708ec6880b398346bff23574"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUpdateAll</b> (const int update)</td></tr>
+<tr class="memitem:a739008bf9e9d80a8be8883e53728c325" id="r_a739008bf9e9d80a8be8883e53728c325"><td class="memItemLeft" align="right" valign="top"><a id="a739008bf9e9d80a8be8883e53728c325" name="a739008bf9e9d80a8be8883e53728c325"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetUpdateAll</b> (void)</td></tr>
 <tr class="memitem:a5e91f9d07f4f0534c6be54fbc1a3a4b7" id="r_a5e91f9d07f4f0534c6be54fbc1a3a4b7"><td class="memItemLeft" align="right" valign="top"><a id="a5e91f9d07f4f0534c6be54fbc1a3a4b7" name="a5e91f9d07f4f0534c6be54fbc1a3a4b7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetCount</b> (void)</td></tr>
-<tr class="memitem:aebbdbbe0a324aa1e4e0b0e48696cfbc7" id="r_aebbdbbe0a324aa1e4e0b0e48696cfbc7"><td class="memItemLeft" align="right" valign="top"><a id="aebbdbbe0a324aa1e4e0b0e48696cfbc7" name="aebbdbbe0a324aa1e4e0b0e48696cfbc7"></a>
-<a class="el" href="classpart.html">part</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetPart</b> (const int partn)</td></tr>
+<tr class="memitem:aac5e0684b5278f95738c838d8587c099" id="r_aac5e0684b5278f95738c838d8587c099"><td class="memItemLeft" align="right" valign="top"><a id="aac5e0684b5278f95738c838d8587c099" name="aac5e0684b5278f95738c838d8587c099"></a>
+<a class="el" href="classpart.html">part</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetPart</b> (const unsigned int partn)</td></tr>
 <tr class="memitem:a19c1a5ce8e2053c7dd2b2eff3dc326ac" id="r_a19c1a5ce8e2053c7dd2b2eff3dc326ac"><td class="memItemLeft" align="right" valign="top"><a id="a19c1a5ce8e2053c7dd2b2eff3dc326ac" name="a19c1a5ce8e2053c7dd2b2eff3dc326ac"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteParts</b> (void)</td></tr>
 <tr class="memitem:ae78b0e4afe6a63cffc00ef6624121e47" id="r_ae78b0e4afe6a63cffc00ef6624121e47"><td class="memItemLeft" align="right" valign="top"><a id="ae78b0e4afe6a63cffc00ef6624121e47" name="ae78b0e4afe6a63cffc00ef6624121e47"></a>
@@ -170,8 +172,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>WritePinOA</b> (unsig
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterIOpin</b> (std::string pname, unsigned char pin=0, unsigned char dir=PD_OUT)</td></tr>
 <tr class="memitem:a84b1eccc5f21c96961f45a9f849cfb2e" id="r_a84b1eccc5f21c96961f45a9f849cfb2e"><td class="memItemLeft" align="right" valign="top"><a id="a84b1eccc5f21c96961f45a9f849cfb2e" name="a84b1eccc5f21c96961f45a9f849cfb2e"></a>
 unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>UnregisterIOpin</b> (unsigned char pin)</td></tr>
-<tr class="memitem:a179fc94e5e4da890bccaf3970d4e1244" id="r_a179fc94e5e4da890bccaf3970d4e1244"><td class="memItemLeft" align="right" valign="top"><a id="a179fc94e5e4da890bccaf3970d4e1244" name="a179fc94e5e4da890bccaf3970d4e1244"></a>
-<a class="el" href="classpart.html">part</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>AddPart</b> (const char *partname, const int x, const int y, const float scale)</td></tr>
+<tr class="memitem:afeb29dc80ecfab5d6b73722adb5cb19f" id="r_afeb29dc80ecfab5d6b73722adb5cb19f"><td class="memItemLeft" align="right" valign="top"><a id="afeb29dc80ecfab5d6b73722adb5cb19f" name="afeb29dc80ecfab5d6b73722adb5cb19f"></a>
+<a class="el" href="classpart.html">part</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>AddPart</b> (const char *partname, const int x, const int y)</td></tr>
 <tr class="memitem:afb26628d7529dabf32ef0d922773a107" id="r_afb26628d7529dabf32ef0d922773a107"><td class="memItemLeft" align="right" valign="top"><a id="afb26628d7529dabf32ef0d922773a107" name="afb26628d7529dabf32ef0d922773a107"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DeletePart</b> (const int partn)</td></tr>
 <tr class="memitem:aa6ceaae251bbf0acb8a59ecf699f0e8e" id="r_aa6ceaae251bbf0acb8a59ecf699f0e8e"><td class="memItemLeft" align="right" valign="top"><a id="aa6ceaae251bbf0acb8a59ecf699f0e8e" name="aa6ceaae251bbf0acb8a59ecf699f0e8e"></a>
@@ -214,10 +216,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetLoadConfigF
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetfdOldFilename</b> (const std::string ofn)</td></tr>
 <tr class="memitem:a68b097d80f3fc5a245321a66f436e699" id="r_a68b097d80f3fc5a245321a66f436e699"><td class="memItemLeft" align="right" valign="top"><a id="a68b097d80f3fc5a245321a66f436e699" name="a68b097d80f3fc5a245321a66f436e699"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetOldFilename</b> (void)</td></tr>
-<tr class="memitem:a6ecaa71ee6e6778a6b4a415435f1f60a" id="r_a6ecaa71ee6e6778a6b4a415435f1f60a"><td class="memItemLeft" align="right" valign="top"><a id="a6ecaa71ee6e6778a6b4a415435f1f60a" name="a6ecaa71ee6e6778a6b4a415435f1f60a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPartOnDraw</b> (int pod)</td></tr>
-<tr class="memitem:aba39858b70a3f904d5628a552c832455" id="r_aba39858b70a3f904d5628a552c832455"><td class="memItemLeft" align="right" valign="top"><a id="aba39858b70a3f904d5628a552c832455" name="aba39858b70a3f904d5628a552c832455"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPartOnDraw</b> (void)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -277,6 +275,8 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>oldfname</b></
 int&#160;</td><td class="memItemRight" valign="bottom"><b>PartOnDraw</b></td></tr>
 <tr class="memitem:aa9079a671ddfd46c73b2a46fa3f15bfd" id="r_aa9079a671ddfd46c73b2a46fa3f15bfd"><td class="memItemLeft" align="right" valign="top"><a id="aa9079a671ddfd46c73b2a46fa3f15bfd" name="aa9079a671ddfd46c73b2a46fa3f15bfd"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>bgcolor</b></td></tr>
+<tr class="memitem:a2d7b17908516182a0b02f4acf8574161" id="r_a2d7b17908516182a0b02f4acf8574161"><td class="memItemLeft" align="right" valign="top"><a id="a2d7b17908516182a0b02f4acf8574161" name="a2d7b17908516182a0b02f4acf8574161"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>need_update</b></td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/lib/<a class="el" href="spareparts_8h_source.html">spareparts.h</a></li>

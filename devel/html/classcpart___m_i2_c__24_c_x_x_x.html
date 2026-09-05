@@ -151,10 +151,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8e5509ed6c1eeb6642d23012f2a923d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by properties window filedialogs.  <br /></td></tr>
 <tr class="memitem:ae6bd7fbd650fe1ccc07ef0135f6b4e4d" id="r_ae6bd7fbd650fe1ccc07ef0135f6b4e4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6bd7fbd650fe1ccc07ef0135f6b4e4d">ReadPropertiesWindow</a> (void) override</td></tr>
 <tr class="memdesc:ae6bd7fbd650fe1ccc07ef0135f6b4e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when properties window close.  <br /></td></tr>
+<tr class="memitem:ac1af368ccd4730a7f5d4537585f6b523" id="r_ac1af368ccd4730a7f5d4537585f6b523"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1af368ccd4730a7f5d4537585f6b523">PreferencesNumberFields</a> (void) override</td></tr>
+<tr class="memdesc:ac1af368ccd4730a7f5d4537585f6b523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of fields in preferences.  <br /></td></tr>
 <tr class="memitem:af4ae2a4651281eac4974da1da258db95" id="r_af4ae2a4651281eac4974da1da258db95"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ae2a4651281eac4974da1da258db95">WritePreferences</a> (void) override</td></tr>
 <tr class="memdesc:af4ae2a4651281eac4974da1da258db95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to save part preferences in configuration file.  <br /></td></tr>
-<tr class="memitem:a98bf30d816dadff4683adb21a859e284" id="r_a98bf30d816dadff4683adb21a859e284"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98bf30d816dadff4683adb21a859e284">ReadPreferences</a> (std::string value) override</td></tr>
-<tr class="memdesc:a98bf30d816dadff4683adb21a859e284"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences.  <br /></td></tr>
+<tr class="memitem:ae817f991bcc92f36ca6a0a100049c2a0" id="r_ae817f991bcc92f36ca6a0a100049c2a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae817f991bcc92f36ca6a0a100049c2a0">ReadPreferences</a> (std::string value) override</td></tr>
+<tr class="memdesc:ae817f991bcc92f36ca6a0a100049c2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences, return the number of preferences processed.  <br /></td></tr>
 <tr class="memitem:a2cb26a743dd60d7470e24e1bdd682df3" id="r_a2cb26a743dd60d7470e24e1bdd682df3"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cb26a743dd60d7470e24e1bdd682df3">GetInputId</a> (char *name) override</td></tr>
 <tr class="memdesc:a2cb26a743dd60d7470e24e1bdd682df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <br /></td></tr>
 <tr class="memitem:aea00510bee1fd6820925abaaf78c052a" id="r_aea00510bee1fd6820925abaaf78c052a"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea00510bee1fd6820925abaaf78c052a">GetOutputId</a> (char *name) override</td></tr>
@@ -625,6 +627,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
 
 </div>
 </div>
+<a id="ac1af368ccd4730a7f5d4537585f6b523" name="ac1af368ccd4730a7f5d4537585f6b523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1af368ccd4730a7f5d4537585f6b523">&#9670;&#160;</a></span>PreferencesNumberFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cpart_MI2C_24CXXX::PreferencesNumberFields </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of fields in preferences. </p>
+
+<p>Implements <a class="el" href="classpart.html#ace97836f99b44fd37bfbf046cb3bdb1d">part</a>.</p>
+
+</div>
+</div>
 <a id="ab0f0bd730bc8f58e5ae8f30aabd39e8c" name="ab0f0bd730bc8f58e5ae8f30aabd39e8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0f0bd730bc8f58e5ae8f30aabd39e8c">&#9670;&#160;</a></span>PreProcess()</h2>
 
@@ -683,8 +714,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
 
 </div>
 </div>
-<a id="a98bf30d816dadff4683adb21a859e284" name="a98bf30d816dadff4683adb21a859e284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98bf30d816dadff4683adb21a859e284">&#9670;&#160;</a></span>ReadPreferences()</h2>
+<a id="ae817f991bcc92f36ca6a0a100049c2a0" name="ae817f991bcc92f36ca6a0a100049c2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae817f991bcc92f36ca6a0a100049c2a0">&#9670;&#160;</a></span>ReadPreferences()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -693,7 +724,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void cpart_MI2C_24CXXX::ReadPreferences </td>
+          <td class="memname">int cpart_MI2C_24CXXX::ReadPreferences </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
           <td></td>
@@ -706,17 +737,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called whe configuration file load preferences. </p>
+<p>Called whe configuration file load preferences, return the number of preferences processed. </p>
 
-<p>Implements <a class="el" href="classpart.html#a1423b5007eb92871b76a1f6c6f366e27">part</a>.</p>
+<p>Implements <a class="el" href="classpart.html#a6065613a2f46ef350d7267f6c5ccaa52">part</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classcpart___m_i2_c__24_c_x_x_x_a98bf30d816dadff4683adb21a859e284_cgraph.png" border="0" usemap="#aclasscpart___m_i2_c__24_c_x_x_x_a98bf30d816dadff4683adb21a859e284_cgraph" loading="lazy" alt=""/></div>
-<map name="aclasscpart___m_i2_c__24_c_x_x_x_a98bf30d816dadff4683adb21a859e284_cgraph" id="aclasscpart___m_i2_c__24_c_x_x_x_a98bf30d816dadff4683adb21a859e284_cgraph">
-<area shape="rect" title="Called whe configuration file load preferences." alt="" coords="5,5,168,45"/>
-<area shape="rect" href="classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="216,13,309,38"/>
-<area shape="poly" title=" " alt="" coords="168,23,202,23,202,28,168,28"/>
+<div class="center"><img src="classcpart___m_i2_c__24_c_x_x_x_ae817f991bcc92f36ca6a0a100049c2a0_cgraph.png" border="0" usemap="#aclasscpart___m_i2_c__24_c_x_x_x_ae817f991bcc92f36ca6a0a100049c2a0_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscpart___m_i2_c__24_c_x_x_x_ae817f991bcc92f36ca6a0a100049c2a0_cgraph" id="aclasscpart___m_i2_c__24_c_x_x_x_ae817f991bcc92f36ca6a0a100049c2a0_cgraph">
+<area shape="rect" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,167,50"/>
+<area shape="rect" href="classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="215,14,307,42"/>
+<area shape="poly" title=" " alt="" coords="167,25,202,27,196,28,167,30"/>
 </map>
 </div>
 

@@ -10,6 +10,7 @@ var classcboard__u_cboard =
     [ "GetName", "classcboard__u_cboard.html#ac3272c4ccb1af179bbd5b9ff7e59d3a9", null ],
     [ "GetOutputId", "classcboard__u_cboard.html#a4c5ab5341a203aac20c84f7519acd46f", null ],
     [ "GetSupportedDevices", "classcboard__u_cboard.html#a804ec9165f313650aa8ce999bec69993", null ],
+    [ "GetSupportedIDEs", "classcboard__u_cboard.html#aee7d724a18d1d009ee3d0bfe3ddbc94c", null ],
     [ "MInit", "classcboard__u_cboard.html#a18d4f31f7ef492aaa64fe5d0a5cbe3ed", null ],
     [ "ReadPreferences", "classcboard__u_cboard.html#aa224f0893934ce82db986f5c7dda4b3c", null ],
     [ "Reset", "classcboard__u_cboard.html#ab69f4630f517cf177b855d60aa2696b0", null ],

@@ -5,8 +5,9 @@ var classcpart__tempsys =
     [ "GetAboutInfo", "classcpart__tempsys.html#aaa4c14c83980d283c8a43be1e3389772", null ],
     [ "GetInputId", "classcpart__tempsys.html#ac35ab2c50a4836823b929d2ef9a9db43", null ],
     [ "GetOutputId", "classcpart__tempsys.html#a0d38e884f4182665bef9ce736681eb0c", null ],
+    [ "PreferencesNumberFields", "classcpart__tempsys.html#a9e957c95c97908cb0bcb05bfaf88aeed", null ],
     [ "Process", "classcpart__tempsys.html#af5549ae5981f79c5c099a546b7c8636f", null ],
-    [ "ReadPreferences", "classcpart__tempsys.html#ae427f5a973c6d061d63d3f00bdce3ad5", null ],
+    [ "ReadPreferences", "classcpart__tempsys.html#aee74a29ca5de295396c7a48692402720", null ],
     [ "ReadPropertiesWindow", "classcpart__tempsys.html#ab79be0fe78201f93ac629319a2a0e1e7", null ],
     [ "WritePreferences", "classcpart__tempsys.html#a5390b9c7253cce0a27e1fe9a40d9b4c7", null ]
 ];

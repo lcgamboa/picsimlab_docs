@@ -11,12 +11,14 @@ var classcpart__vterm =
     [ "KeyEvent", "classcpart__vterm.html#a2ce82044818209b9e94c0f02428b88ca", null ],
     [ "OnMouseButtonPress", "classcpart__vterm.html#a31f6a14f7267358c4b0a26081478946f", null ],
     [ "PostProcess", "classcpart__vterm.html#abd780e122960bdfbc3ddc94f8400a6b2", null ],
+    [ "PreferencesNumberFields", "classcpart__vterm.html#ab37fdead72dc91f505db3b2d06c93469", null ],
     [ "PreProcess", "classcpart__vterm.html#a093d13da858e89d5ab798e21ce2530e9", null ],
     [ "Process", "classcpart__vterm.html#a9f5bba32f65667a35c501580a71a53a3", null ],
-    [ "ReadPreferences", "classcpart__vterm.html#a62843ec035d4e748f23ac9696b301e4b", null ],
+    [ "ReadPreferences", "classcpart__vterm.html#a6573bb9ea68346f9bc2d92bd0ab57e64", null ],
     [ "ReadPropertiesWindow", "classcpart__vterm.html#aa42b65ed7dae63bbb27857153269dd3a", null ],
     [ "RegisterRemoteControl", "classcpart__vterm.html#a8495e99c6117d9dd51fec6dd1510363a", null ],
     [ "Reset", "classcpart__vterm.html#ae44e66357ddb3f4f09bdf89384048bd4", null ],
     [ "SetId", "classcpart__vterm.html#a9de6f4f872c008358091e10c0d9a647d", null ],
+    [ "Stop", "classcpart__vterm.html#a4582db1c7ec3d1daafc4a6c71d860fba", null ],
     [ "WritePreferences", "classcpart__vterm.html#acc738c808f87a48cb7bb5ae81d707b6b", null ]
 ];

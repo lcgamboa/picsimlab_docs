@@ -8,9 +8,10 @@ var classcpart__7s__display__dec =
     [ "GetOutputId", "classcpart__7s__display__dec.html#a57d6170c98f6cc80a7606b84f40909bb", null ],
     [ "GetPictureFileName", "classcpart__7s__display__dec.html#a653169c0038f85b100e139bb0c0cd5b5", null ],
     [ "PostProcess", "classcpart__7s__display__dec.html#ae8831ecf058d1a3866365b45cbb55129", null ],
+    [ "PreferencesNumberFields", "classcpart__7s__display__dec.html#a697029865c14455a23ad00c0fe269ebc", null ],
     [ "PreProcess", "classcpart__7s__display__dec.html#aae54508a2b62cbbfb8ef32f3e7428d3e", null ],
     [ "Process", "classcpart__7s__display__dec.html#a2da80279af1cf49b6d08f06b5e199e99", null ],
-    [ "ReadPreferences", "classcpart__7s__display__dec.html#adff795748995ef9a0ccbf44fb13d5c92", null ],
+    [ "ReadPreferences", "classcpart__7s__display__dec.html#ae4c3331cead357795f77b1d273ca4989", null ],
     [ "ReadPropertiesWindow", "classcpart__7s__display__dec.html#aa7aac1985c5884922ee58fafc2db5823", null ],
     [ "RegisterRemoteControl", "classcpart__7s__display__dec.html#a81c6ae0224f20ef51fb33ee0385f7a13", null ],
     [ "WritePreferences", "classcpart__7s__display__dec.html#a5e2e8d9224b3fff8b0fbf4eccc3ef7a4", null ]

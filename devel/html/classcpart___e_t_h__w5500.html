@@ -153,10 +153,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6c99be68bc4cd66ed8fc447cd5696c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to configure the properties window.  <br /></td></tr>
 <tr class="memitem:abbb15ef7ccbff4597cd6a7cc39c78731" id="r_abbb15ef7ccbff4597cd6a7cc39c78731"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbb15ef7ccbff4597cd6a7cc39c78731">ReadPropertiesWindow</a> (void) override</td></tr>
 <tr class="memdesc:abbb15ef7ccbff4597cd6a7cc39c78731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when properties window close.  <br /></td></tr>
+<tr class="memitem:a960f3774a824aecd7693ef6a9dced321" id="r_a960f3774a824aecd7693ef6a9dced321"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a960f3774a824aecd7693ef6a9dced321">PreferencesNumberFields</a> (void) override</td></tr>
+<tr class="memdesc:a960f3774a824aecd7693ef6a9dced321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of fields in preferences.  <br /></td></tr>
 <tr class="memitem:afaf850ba0cd2556e61dbae1454b262ec" id="r_afaf850ba0cd2556e61dbae1454b262ec"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf850ba0cd2556e61dbae1454b262ec">WritePreferences</a> (void) override</td></tr>
 <tr class="memdesc:afaf850ba0cd2556e61dbae1454b262ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to save part preferences in configuration file.  <br /></td></tr>
-<tr class="memitem:a3b21142db39d628ed4900afac772b834" id="r_a3b21142db39d628ed4900afac772b834"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b21142db39d628ed4900afac772b834">ReadPreferences</a> (std::string value) override</td></tr>
-<tr class="memdesc:a3b21142db39d628ed4900afac772b834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences.  <br /></td></tr>
+<tr class="memitem:a846c4eeb1e08535c1d7a4b98a0f28f43" id="r_a846c4eeb1e08535c1d7a4b98a0f28f43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a846c4eeb1e08535c1d7a4b98a0f28f43">ReadPreferences</a> (std::string value) override</td></tr>
+<tr class="memdesc:a846c4eeb1e08535c1d7a4b98a0f28f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whe configuration file load preferences, return the number of preferences processed.  <br /></td></tr>
 <tr class="memitem:a761c9851514cc86b7dde1b7292948442" id="r_a761c9851514cc86b7dde1b7292948442"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761c9851514cc86b7dde1b7292948442">GetInputId</a> (char *name) override</td></tr>
 <tr class="memdesc:a761c9851514cc86b7dde1b7292948442"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <br /></td></tr>
 <tr class="memitem:acacd711bbf6d9889c531b674a22981fe" id="r_acacd711bbf6d9889c531b674a22981fe"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acacd711bbf6d9889c531b674a22981fe">GetOutputId</a> (char *name) override</td></tr>
@@ -626,6 +628,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
 
 </div>
 </div>
+<a id="a960f3774a824aecd7693ef6a9dced321" name="a960f3774a824aecd7693ef6a9dced321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a960f3774a824aecd7693ef6a9dced321">&#9670;&#160;</a></span>PreferencesNumberFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cpart_ETH_w5500::PreferencesNumberFields </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of fields in preferences. </p>
+
+<p>Implements <a class="el" href="classpart.html#ace97836f99b44fd37bfbf046cb3bdb1d">part</a>.</p>
+
+</div>
+</div>
 <a id="aa77f8307094fcbb0a31cd4d7fc6805f7" name="aa77f8307094fcbb0a31cd4d7fc6805f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa77f8307094fcbb0a31cd4d7fc6805f7">&#9670;&#160;</a></span>PreProcess()</h2>
 
@@ -684,8 +715,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
 
 </div>
 </div>
-<a id="a3b21142db39d628ed4900afac772b834" name="a3b21142db39d628ed4900afac772b834"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b21142db39d628ed4900afac772b834">&#9670;&#160;</a></span>ReadPreferences()</h2>
+<a id="a846c4eeb1e08535c1d7a4b98a0f28f43" name="a846c4eeb1e08535c1d7a4b98a0f28f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846c4eeb1e08535c1d7a4b98a0f28f43">&#9670;&#160;</a></span>ReadPreferences()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,7 +725,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void cpart_ETH_w5500::ReadPreferences </td>
+          <td class="memname">int cpart_ETH_w5500::ReadPreferences </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
           <td></td>
@@ -707,17 +738,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Fsize</b></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called whe configuration file load preferences. </p>
+<p>Called whe configuration file load preferences, return the number of preferences processed. </p>
 
-<p>Implements <a class="el" href="classpart.html#a1423b5007eb92871b76a1f6c6f366e27">part</a>.</p>
+<p>Implements <a class="el" href="classpart.html#a6065613a2f46ef350d7267f6c5ccaa52">part</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classcpart___e_t_h__w5500_a3b21142db39d628ed4900afac772b834_cgraph.png" border="0" usemap="#aclasscpart___e_t_h__w5500_a3b21142db39d628ed4900afac772b834_cgraph" loading="lazy" alt=""/></div>
-<map name="aclasscpart___e_t_h__w5500_a3b21142db39d628ed4900afac772b834_cgraph" id="aclasscpart___e_t_h__w5500_a3b21142db39d628ed4900afac772b834_cgraph">
-<area shape="rect" title="Called whe configuration file load preferences." alt="" coords="5,5,261,31"/>
-<area shape="rect" href="classcpart___e_t_h__w5500.html#ace6ddf9598a6eb86f035da647f0e51c9" title="Reset part status." alt="" coords="309,5,492,31"/>
-<area shape="poly" title=" " alt="" coords="262,15,296,15,296,21,262,21"/>
+<div class="center"><img src="classcpart___e_t_h__w5500_a846c4eeb1e08535c1d7a4b98a0f28f43_cgraph.png" border="0" usemap="#aclasscpart___e_t_h__w5500_a846c4eeb1e08535c1d7a4b98a0f28f43_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscpart___e_t_h__w5500_a846c4eeb1e08535c1d7a4b98a0f28f43_cgraph" id="aclasscpart___e_t_h__w5500_a846c4eeb1e08535c1d7a4b98a0f28f43_cgraph">
+<area shape="rect" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,261,33"/>
+<area shape="rect" href="classcpart___e_t_h__w5500.html#ace6ddf9598a6eb86f035da647f0e51c9" title="Reset part status." alt="" coords="309,5,491,33"/>
+<area shape="poly" title=" " alt="" coords="261,17,296,19,290,19,261,22"/>
 </map>
 </div>
 

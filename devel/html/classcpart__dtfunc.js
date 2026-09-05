@@ -7,9 +7,10 @@ var classcpart__dtfunc =
     [ "GetAboutInfo", "classcpart__dtfunc.html#a63609ca23a8efca42d0ff54871d7b25d", null ],
     [ "GetInputId", "classcpart__dtfunc.html#a7d771c93f919d3a96e5eac20a875c441", null ],
     [ "GetOutputId", "classcpart__dtfunc.html#a35ea4f2d72bbdd60d734361966c85915", null ],
+    [ "PreferencesNumberFields", "classcpart__dtfunc.html#a2a98dc2916b5b26e9d801ba780534677", null ],
     [ "PreProcess", "classcpart__dtfunc.html#ab0439c5d83a3a6c13d4ab77e1bfe47e8", null ],
     [ "Process", "classcpart__dtfunc.html#a48a196627488317b3b4840802908f2c8", null ],
-    [ "ReadPreferences", "classcpart__dtfunc.html#ac7aa33e4f8f24433422bafa485585c85", null ],
+    [ "ReadPreferences", "classcpart__dtfunc.html#a3b2c4d1fcc3bbf9ae9587f31946d8def", null ],
     [ "ReadPropertiesWindow", "classcpart__dtfunc.html#a2bab4decb11dd697f75c3ac36ebdc558", null ],
     [ "Reset", "classcpart__dtfunc.html#a051a440bede09236850a5445b810978b", null ],
     [ "WritePreferences", "classcpart__dtfunc.html#a450355b2772907d21c1fd9a4f5779ca0", null ]

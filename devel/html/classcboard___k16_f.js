@@ -11,6 +11,7 @@ var classcboard___k16_f =
     [ "GetName", "classcboard___k16_f.html#a68243f2129f923a439efc404a4dc0774", null ],
     [ "GetOutputId", "classcboard___k16_f.html#afe4582b382dc7403a35041219e04482d", null ],
     [ "GetSupportedDevices", "classcboard___k16_f.html#a900905aafccafb728c393c299a6d6e57", null ],
+    [ "GetSupportedIDEs", "classcboard___k16_f.html#adc7bdbfebb85abc08c022b56f6a1b103", null ],
     [ "MDumpMemory", "classcboard___k16_f.html#a0c90755a42881a51ec0865269de2990d", null ],
     [ "MInit", "classcboard___k16_f.html#a454799389dcfb3807a1ae24cfbad4c21", null ],
     [ "ReadPreferences", "classcboard___k16_f.html#a2fd59f0c8bef534376782578b7f1dfb4", null ],

@@ -13,6 +13,7 @@ var classcboard___dev_kit_c =
     [ "GetName", "classcboard___dev_kit_c.html#a55a3b3cb2a8a2e231e6f9665e70aec87", null ],
     [ "GetOutputId", "classcboard___dev_kit_c.html#a7c6b78887e493eff734585b369a26ea9", null ],
     [ "GetSupportedDevices", "classcboard___dev_kit_c.html#ae4eab018d97114dbb84d076344e71a56", null ],
+    [ "GetSupportedIDEs", "classcboard___dev_kit_c.html#aa402f30bca33c342ab378242968df643", null ],
     [ "MGetPinCount", "classcboard___dev_kit_c.html#ae7dcaf8f73b1071563fdca0499a2df0e", null ],
     [ "MGetPinName", "classcboard___dev_kit_c.html#ad556ca9f2a042ff4832feb3c7755b14b", null ],
     [ "MSetAPin", "classcboard___dev_kit_c.html#ac655c2f6349d846cdb392ba458f78060", null ],

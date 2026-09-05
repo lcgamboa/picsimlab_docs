@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{set}\PYG{+w}{ }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}\PYG{+w}{  }\PYG{l+m}{0}
+\PYG{n+nb}{set}\PYG{+w}{ }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}\PYG{+w}{  }\PYG{l+m}{1}
+\end{MintedVerbatim}

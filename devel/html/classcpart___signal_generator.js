@@ -8,9 +8,10 @@ var classcpart___signal_generator =
     [ "OnMouseButtonPress", "classcpart___signal_generator.html#a52c37f8f12b94191c938089b834d95ef", null ],
     [ "OnMouseButtonRelease", "classcpart___signal_generator.html#a5965bc3be742605eb367bf7f5d675362", null ],
     [ "OnMouseMove", "classcpart___signal_generator.html#ae400749aec07db52ddedcfd7e7efce79", null ],
+    [ "PreferencesNumberFields", "classcpart___signal_generator.html#a5dd9eeb458a0c5fe029c1a25a855956b", null ],
     [ "PreProcess", "classcpart___signal_generator.html#a5806e127aca8cc2a650ef28659b5d326", null ],
     [ "Process", "classcpart___signal_generator.html#a677e1282e630a90a7162f9e0e3013bbd", null ],
-    [ "ReadPreferences", "classcpart___signal_generator.html#a4e5ef8efc6fd5a8d2d32341d2e78c11b", null ],
+    [ "ReadPreferences", "classcpart___signal_generator.html#a93d3f3986408dd75925b97741a5fa82a", null ],
     [ "ReadPropertiesWindow", "classcpart___signal_generator.html#abe3cdd21d95c83320a40828358470ef5", null ],
     [ "RegisterRemoteControl", "classcpart___signal_generator.html#a28865ea4dfe83f690735429c17ab66c3", null ],
     [ "WritePreferences", "classcpart___signal_generator.html#acc522a37ac0255f33d9fe91bba95e1ec", null ]

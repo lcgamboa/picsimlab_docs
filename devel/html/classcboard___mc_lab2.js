@@ -12,6 +12,7 @@ var classcboard___mc_lab2 =
     [ "GetName", "classcboard___mc_lab2.html#a1d59d8b62c6e10377abf09d92f0f3d37", null ],
     [ "GetOutputId", "classcboard___mc_lab2.html#ae30d4fc29e087aab90e78ca6e472a24c", null ],
     [ "GetSupportedDevices", "classcboard___mc_lab2.html#a6892d2914da1fff0b639b81c9580b0e0", null ],
+    [ "GetSupportedIDEs", "classcboard___mc_lab2.html#af1ea5211436219771f0fabcdfe7cd704", null ],
     [ "MDumpMemory", "classcboard___mc_lab2.html#abdd42295f43d47362fb7bfb1a398f6f4", null ],
     [ "MInit", "classcboard___mc_lab2.html#ac748f4a36852eb07bc18b683fbf5e220", null ],
     [ "ReadPreferences", "classcboard___mc_lab2.html#a64b3f1ca335c20aa30e6c5dd83ded209", null ],

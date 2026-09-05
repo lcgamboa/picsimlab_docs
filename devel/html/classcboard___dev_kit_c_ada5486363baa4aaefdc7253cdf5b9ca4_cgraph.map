@@ -1,5 +1,7 @@
 <map id="cboard_DevKitC::WritePreferences" name="cboard_DevKitC::WritePreferences">
-<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,5,252,31"/>
-<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#af51368feda52c27ca672b7c7eab7319f" title="Save the preferences." alt="" coords="300,5,473,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,15,286,15,286,21,252,21"/>
+<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,31,231,57"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a7c0070dacaaec7bb1ed30dc61ed5a0c9" title="Return the active project created by Project Wizard." alt="" coords="279,5,460,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,30,266,29,260,30,232,35"/>
+<area shape="rect" id="Node000003" href="$classboard.html#ac2ac59b404b3f9e44c9904cb5e5c7155" title="Return the active project type created by Project Wizard." alt="" coords="283,56,456,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,53,270,59,265,59,231,58"/>
 </map>

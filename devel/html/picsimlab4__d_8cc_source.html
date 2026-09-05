@@ -673,125 +673,126 @@ $(function(){initNavTree('picsimlab4__d_8cc_source.html','',''); });
 <div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span>    togglebutton7.SetPopupMenu(NULL);</div>
 <div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>    togglebutton7.SetText(lxT(<span class="stringliteral">&quot;Single&quot;</span>));</div>
 <div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>    togglebutton7.SetCheck(0);</div>
-<div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>    CreateChild(&amp;togglebutton7);</div>
-<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    <span class="comment">// button4</span></div>
-<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    button4.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>    button4.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    button4.SetName(lxT(<span class="stringliteral">&quot;button4&quot;</span>));</div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>    button4.SetTag(0);</div>
-<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>    button4.SetX(528);</div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>    button4.SetY(306);</div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    button4.SetWidth(150);</div>
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>    button4.SetHeight(32);</div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>    button4.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    button4.SetEnable(1);</div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    button4.SetVisible(1);</div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>    button4.SetPopupMenu(NULL);</div>
-<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>    button4.EvMouseButtonClick = EVMOUSEBUTTONCLICK &amp; CPWindow4::button4_EvMouseButtonClick;</div>
-<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    button4.SetText(lxT(<span class="stringliteral">&quot;Save Png&quot;</span>));</div>
-<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    CreateChild(&amp;button4);</div>
-<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>    <span class="comment">// filedialog1</span></div>
-<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>    filedialog1.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>    filedialog1.SetClass(lxT(<span class="stringliteral">&quot;CFileDialog&quot;</span>));</div>
-<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>    filedialog1.SetName(lxT(<span class="stringliteral">&quot;filedialog1&quot;</span>));</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>    filedialog1.SetTag(0);</div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    filedialog1.SetFileName(lxT(<span class="stringliteral">&quot;untitled.png&quot;</span>));</div>
-<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>    filedialog1.SetFilter(lxT(<span class="stringliteral">&quot;PNG Files (*.png)|*.png&quot;</span>));</div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>    filedialog1.SetType(129);</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    filedialog1.EvOnClose = EVONCLOSE &amp; CPWindow4::filedialog1_EvOnClose;</div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>    CreateChild(&amp;filedialog1);</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    <span class="comment">// button5</span></div>
-<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    button5.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    button5.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
-<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>    button5.SetName(lxT(<span class="stringliteral">&quot;button5&quot;</span>));</div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>    button5.SetTag(0);</div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    button5.SetX(450);</div>
-<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>    button5.SetY(46);</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>    button5.SetWidth(30);</div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>    button5.SetHeight(20);</div>
-<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>    button5.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>    button5.SetEnable(1);</div>
-<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>    button5.SetVisible(1);</div>
-<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>    button5.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
-<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>    button5.SetPopupMenu(NULL);</div>
-<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>    button5.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button5_EvMouseButtonPress;</div>
-<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>    button5.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>    CreateChild(&amp;button5);</div>
-<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>    <span class="comment">// button6</span></div>
-<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>    button6.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>    button6.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
-<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>    button6.SetName(lxT(<span class="stringliteral">&quot;button6&quot;</span>));</div>
-<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>    button6.SetTag(0);</div>
-<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>    button6.SetX(450);</div>
-<div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span>    button6.SetY(96);</div>
-<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>    button6.SetWidth(30);</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>    button6.SetHeight(20);</div>
-<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>    button6.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>    button6.SetEnable(1);</div>
-<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    button6.SetVisible(1);</div>
-<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>    button6.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
-<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    button6.SetPopupMenu(NULL);</div>
-<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    button6.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button6_EvMouseButtonPress;</div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    button6.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>    CreateChild(&amp;button6);</div>
-<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>    <span class="comment">// button7</span></div>
-<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>    button7.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>    button7.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
-<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>    button7.SetName(lxT(<span class="stringliteral">&quot;button7&quot;</span>));</div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>    button7.SetTag(0);</div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>    button7.SetX(450);</div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    button7.SetY(146);</div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>    button7.SetWidth(30);</div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>    button7.SetHeight(20);</div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>    button7.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    button7.SetEnable(1);</div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    button7.SetVisible(1);</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    button7.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    button7.SetPopupMenu(NULL);</div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    button7.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button7_EvMouseButtonPress;</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    button7.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    CreateChild(&amp;button7);</div>
-<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    <span class="comment">// button8</span></div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    button8.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>    button8.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
-<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>    button8.SetName(lxT(<span class="stringliteral">&quot;button8&quot;</span>));</div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    button8.SetTag(0);</div>
-<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>    button8.SetX(450);</div>
-<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    button8.SetY(196);</div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>    button8.SetWidth(30);</div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    button8.SetHeight(20);</div>
-<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>    button8.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    button8.SetEnable(1);</div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    button8.SetVisible(1);</div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>    button8.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    button8.SetPopupMenu(NULL);</div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>    button8.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button8_EvMouseButtonPress;</div>
-<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>    button8.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>    CreateChild(&amp;button8);</div>
-<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>    <span class="comment">// button9</span></div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    button9.SetFOwner(<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>    button9.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>    button9.SetName(lxT(<span class="stringliteral">&quot;button9&quot;</span>));</div>
-<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    button9.SetTag(0);</div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    button9.SetX(451);</div>
-<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>    button9.SetY(246);</div>
-<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>    button9.SetWidth(30);</div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>    button9.SetHeight(20);</div>
-<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>    button9.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>    button9.SetEnable(1);</div>
-<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>    button9.SetVisible(1);</div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>    button9.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
-<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>    button9.SetPopupMenu(NULL);</div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>    button9.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button9_EvMouseButtonPress;</div>
-<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>    button9.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>    CreateChild(&amp;button9);</div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>    <span class="comment">/*#Others*/</span></div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>    <span class="comment">// lxrad automatic generated block end, don&#39;t edit above!</span></div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>    button1.SetColor(255, 0, 0);</div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>    button2.SetColor(0, 255, 0);</div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span> </div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>    update_pos = 0;</div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>}</div>
+<div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>    togglebutton7.EvOnToggleButton = EVONTOGGLEBUTTON &amp; CPWindow4::togglebutton7_EvOnToggleButton;</div>
+<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    CreateChild(&amp;togglebutton7);</div>
+<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    <span class="comment">// button4</span></div>
+<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>    button4.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    button4.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>    button4.SetName(lxT(<span class="stringliteral">&quot;button4&quot;</span>));</div>
+<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>    button4.SetTag(0);</div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>    button4.SetX(528);</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    button4.SetY(306);</div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>    button4.SetWidth(150);</div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>    button4.SetHeight(32);</div>
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    button4.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    button4.SetEnable(1);</div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>    button4.SetVisible(1);</div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>    button4.SetPopupMenu(NULL);</div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    button4.EvMouseButtonClick = EVMOUSEBUTTONCLICK &amp; CPWindow4::button4_EvMouseButtonClick;</div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    button4.SetText(lxT(<span class="stringliteral">&quot;Save Png&quot;</span>));</div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>    CreateChild(&amp;button4);</div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>    <span class="comment">// filedialog1</span></div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>    filedialog1.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>    filedialog1.SetClass(lxT(<span class="stringliteral">&quot;CFileDialog&quot;</span>));</div>
+<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>    filedialog1.SetName(lxT(<span class="stringliteral">&quot;filedialog1&quot;</span>));</div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    filedialog1.SetTag(0);</div>
+<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>    filedialog1.SetFileName(lxT(<span class="stringliteral">&quot;untitled.png&quot;</span>));</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>    filedialog1.SetFilter(lxT(<span class="stringliteral">&quot;PNG Files (*.png)|*.png&quot;</span>));</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    filedialog1.SetType(129);</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>    filedialog1.EvOnClose = EVONCLOSE &amp; CPWindow4::filedialog1_EvOnClose;</div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    CreateChild(&amp;filedialog1);</div>
+<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    <span class="comment">// button5</span></div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    button5.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>    button5.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>    button5.SetName(lxT(<span class="stringliteral">&quot;button5&quot;</span>));</div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    button5.SetTag(0);</div>
+<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>    button5.SetX(450);</div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>    button5.SetY(46);</div>
+<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>    button5.SetWidth(30);</div>
+<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>    button5.SetHeight(20);</div>
+<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>    button5.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>    button5.SetEnable(1);</div>
+<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>    button5.SetVisible(1);</div>
+<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>    button5.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
+<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>    button5.SetPopupMenu(NULL);</div>
+<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>    button5.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button5_EvMouseButtonPress;</div>
+<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>    button5.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>    CreateChild(&amp;button5);</div>
+<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>    <span class="comment">// button6</span></div>
+<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>    button6.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>    button6.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
+<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>    button6.SetName(lxT(<span class="stringliteral">&quot;button6&quot;</span>));</div>
+<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>    button6.SetTag(0);</div>
+<div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span>    button6.SetX(450);</div>
+<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>    button6.SetY(96);</div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>    button6.SetWidth(30);</div>
+<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>    button6.SetHeight(20);</div>
+<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>    button6.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    button6.SetEnable(1);</div>
+<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>    button6.SetVisible(1);</div>
+<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    button6.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
+<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    button6.SetPopupMenu(NULL);</div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    button6.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button6_EvMouseButtonPress;</div>
+<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>    button6.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>    CreateChild(&amp;button6);</div>
+<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>    <span class="comment">// button7</span></div>
+<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>    button7.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>    button7.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
+<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>    button7.SetName(lxT(<span class="stringliteral">&quot;button7&quot;</span>));</div>
+<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>    button7.SetTag(0);</div>
+<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    button7.SetX(450);</div>
+<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>    button7.SetY(146);</div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>    button7.SetWidth(30);</div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>    button7.SetHeight(20);</div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    button7.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    button7.SetEnable(1);</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    button7.SetVisible(1);</div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    button7.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    button7.SetPopupMenu(NULL);</div>
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    button7.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button7_EvMouseButtonPress;</div>
+<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    button7.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    CreateChild(&amp;button7);</div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    <span class="comment">// button8</span></div>
+<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>    button8.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>    button8.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    button8.SetName(lxT(<span class="stringliteral">&quot;button8&quot;</span>));</div>
+<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>    button8.SetTag(0);</div>
+<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    button8.SetX(450);</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>    button8.SetY(196);</div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    button8.SetWidth(30);</div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>    button8.SetHeight(20);</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    button8.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    button8.SetEnable(1);</div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>    button8.SetVisible(1);</div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    button8.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>    button8.SetPopupMenu(NULL);</div>
+<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>    button8.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button8_EvMouseButtonPress;</div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>    button8.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>    CreateChild(&amp;button8);</div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    <span class="comment">// button9</span></div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>    button9.SetFOwner(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>    button9.SetClass(lxT(<span class="stringliteral">&quot;CButton&quot;</span>));</div>
+<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    button9.SetName(lxT(<span class="stringliteral">&quot;button9&quot;</span>));</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    button9.SetTag(0);</div>
+<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>    button9.SetX(451);</div>
+<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>    button9.SetY(246);</div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>    button9.SetWidth(30);</div>
+<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>    button9.SetHeight(20);</div>
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>    button9.SetHint(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>    button9.SetEnable(1);</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>    button9.SetVisible(1);</div>
+<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>    button9.SetColor(lxT(<span class="stringliteral">&quot;#000001&quot;</span>));</div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>    button9.SetPopupMenu(NULL);</div>
+<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>    button9.EvMouseButtonPress = EVMOUSEBUTTONPRESS &amp; CPWindow4::button9_EvMouseButtonPress;</div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>    button9.SetText(lxT(<span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>    CreateChild(&amp;button9);</div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>    <span class="comment">/*#Others*/</span></div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>    <span class="comment">// lxrad automatic generated block end, don&#39;t edit above!</span></div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>    button1.SetColor(255, 0, 0);</div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>    button2.SetColor(0, 255, 0);</div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span> </div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>    update_pos = 0;</div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -1,0 +1,33 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+pinsl
+\PYG{l+m}{28}\PYG{+w}{ }pins\PYG{+w}{ }\PYG{o}{[}atmega328p\PYG{o}{]}:
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC6/RST \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD0/0   \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{03}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD1/1   \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{04}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD2/2   \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{05}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{007}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD3/\PYGZti{}3  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{06}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD4/4   \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{07}\PYG{o}{]}\PYG{+w}{ }P\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}+5V     \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{08}\PYG{o}{]}\PYG{+w}{ }P\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}GND     \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{09}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB6/X1  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{10}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB7/X2  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{11}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD5/\PYGZti{}5  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{12}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD6/\PYGZti{}6  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{13}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD7/7   \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{14}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB0/8   \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{15}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB1/\PYGZti{}9  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{16}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB2/\PYGZti{}10 \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{17}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{006}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB3/\PYGZti{}11 \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{18}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB4/12  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{19}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PB5/13  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{20}\PYG{o}{]}\PYG{+w}{ }P\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}+5V     \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{21}\PYG{o}{]}\PYG{+w}{ }R\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}AREF    \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{22}\PYG{o}{]}\PYG{+w}{ }P\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}GND     \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{23}\PYG{o}{]}\PYG{+w}{ }A\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{0}.875\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC0/A0  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{24}\PYG{o}{]}\PYG{+w}{ }A\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{1}.925\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC1/A1  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{25}\PYG{o}{]}\PYG{+w}{ }A\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{2}.700\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC2/A2  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{26}\PYG{o}{]}\PYG{+w}{ }A\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{0}\PYG{+w}{ }\PYG{l+m}{000}\PYG{+w}{ }\PYG{l+m}{4}.275\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC3/A3  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{27}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{179}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC4/A4  \PYGZdq{}}
+\PYG{+w}{  }pin\PYG{o}{[}\PYG{l+m}{28}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }O\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{186}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PC5/A5  \PYGZdq{}}
+Ok
+\end{MintedVerbatim}

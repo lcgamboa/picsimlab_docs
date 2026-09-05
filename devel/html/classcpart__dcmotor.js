@@ -6,9 +6,10 @@ var classcpart__dcmotor =
     [ "GetInputId", "classcpart__dcmotor.html#aaef606e8b2fbffa12efa1f299844be79", null ],
     [ "GetOutputId", "classcpart__dcmotor.html#a719810a24feb05f9efa4b522d4b0ca7c", null ],
     [ "PostProcess", "classcpart__dcmotor.html#ac4b57c518e04df23eb1540cb30f7b549", null ],
+    [ "PreferencesNumberFields", "classcpart__dcmotor.html#ad5893b4148177ff2b479a7f9f5aeae28", null ],
     [ "PreProcess", "classcpart__dcmotor.html#ae6122a6fbd73bb3cf3716178182177c1", null ],
     [ "Process", "classcpart__dcmotor.html#a9876884d1ce6e9cde00115665e92dfc0", null ],
-    [ "ReadPreferences", "classcpart__dcmotor.html#af12f9fbc492fbd0aab50bb2d393b6afd", null ],
+    [ "ReadPreferences", "classcpart__dcmotor.html#adc35d5e9496de6ffb5e6ce5fea670402", null ],
     [ "ReadPropertiesWindow", "classcpart__dcmotor.html#aef747a123ac3ec50a81650c4e98974ee", null ],
     [ "RegisterRemoteControl", "classcpart__dcmotor.html#a1f7f835357f7d028db18b2169a57b501", null ],
     [ "WritePreferences", "classcpart__dcmotor.html#ac72dda8ea764709d2659e9071a4859b3", null ]

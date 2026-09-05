@@ -34,6 +34,7 @@ In first time build:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
 git clone --depth=1 https://github.com/lcgamboa/picsimlab.git
 cd picsimlab
+bscripts/install_deps.sh
 bscripts/build_all_and_install.sh
 \end{minted}
 
@@ -51,6 +52,7 @@ In first time build in Debian Linux and derivatives target Windows 64 bits:
  \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
 git clone https://github.com/lcgamboa/picsimlab.git
 cd picsimlab
+bscripts/install_deps.sh
 bscripts/build_w64.sh
 \end{minted}
 
@@ -65,6 +67,7 @@ For target Windows 32 bits:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
 git clone https://github.com/lcgamboa/picsimlab.git
 cd picsimlab
+bscripts/install_deps.sh
 bscripts/build_w32.sh
 \end{minted}
 
@@ -79,18 +82,18 @@ Theoretically it is possible to compile PICSimLab natively on macOS. But I do no
  with macOS to try to compile and until today nobody has communicated that they managed to do it. (help wanted) 
 
 
-\subsection{Experimental version}
-
-Experimental version can be built using the parameter "exp" on scripts:
-\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
-bscripts/build_all_and_install.sh exp
-bscripts/build_w64.sh exp
-bscripts/build_w32.sh exp
-\end{minted}
-And recompiled using the parameter "exp" on Makefiles:
-\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
-make -j4 exp
-make FILE=Makefile.cross -j4  exp
-make FILE=Makefile.cross_32 -j4 exp
-\end{minted}
+% \subsection{Experimental version}
+% 
+% Experimental version can be built using the parameter "exp" on scripts:
+% \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+% bscripts/build_all_and_install.sh exp
+% bscripts/build_w64.sh exp
+% bscripts/build_w32.sh exp
+% \end{minted}
+% And recompiled using the parameter "exp" on Makefiles:
+% \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+% make -j4 exp
+% make FILE=Makefile.cross -j4  exp
+% make FILE=Makefile.cross_32 -j4 exp
+% \end{minted}
  

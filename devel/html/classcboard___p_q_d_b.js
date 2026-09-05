@@ -12,6 +12,7 @@ var classcboard___p_q_d_b =
     [ "GetName", "classcboard___p_q_d_b.html#adbbd9e6b9476d42b5b2dab55fb09451c", null ],
     [ "GetOutputId", "classcboard___p_q_d_b.html#ab7097b9e1650877cd090996829ece990", null ],
     [ "GetSupportedDevices", "classcboard___p_q_d_b.html#a0c44115aee6a41abd68979c401b45e79", null ],
+    [ "GetSupportedIDEs", "classcboard___p_q_d_b.html#a78f534798d6f6fa6b5c6b395b8766e98", null ],
     [ "MGetPinCount", "classcboard___p_q_d_b.html#ac34f83c907711149e6661f7964bcb3e4", null ],
     [ "MGetPinName", "classcboard___p_q_d_b.html#a0b2009f88d24a11157cde4bb8f394423", null ],
     [ "ReadPreferences", "classcboard___p_q_d_b.html#a0151c892c5f0470971da1b97604f60c0", null ],

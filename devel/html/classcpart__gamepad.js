@@ -11,8 +11,9 @@ var classcpart__gamepad =
     [ "OnMouseButtonRelease", "classcpart__gamepad.html#a3912c71d1d0eb8c67227d333586ad1ca", null ],
     [ "OnMouseMove", "classcpart__gamepad.html#ada139d402c3c1accefab0932af2f1f77", null ],
     [ "PostInit", "classcpart__gamepad.html#a68dfa734fb97e6160d2188c049eced5e", null ],
+    [ "PreferencesNumberFields", "classcpart__gamepad.html#ac746974c98e5b6de58d3b62ee147c2f3", null ],
     [ "PreProcess", "classcpart__gamepad.html#aceaefc992935be00219b10108fc2bc54", null ],
-    [ "ReadPreferences", "classcpart__gamepad.html#ace2164c190c1158f2528f74a46173c19", null ],
+    [ "ReadPreferences", "classcpart__gamepad.html#a3cfb192aff0ffd9add05e2d0523fc65a", null ],
     [ "ReadPropertiesWindow", "classcpart__gamepad.html#a88b06301e885d35359e2b295619e498c", null ],
     [ "RegisterRemoteControl", "classcpart__gamepad.html#a811a32821fac52b1f0d24e44fd5bb800", null ],
     [ "WritePreferences", "classcpart__gamepad.html#adcea38ed7105c220f4d6d343ec599644", null ]

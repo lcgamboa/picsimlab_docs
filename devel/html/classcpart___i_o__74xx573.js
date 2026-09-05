@@ -8,9 +8,10 @@ var classcpart___i_o__74xx573 =
     [ "GetOutputId", "classcpart___i_o__74xx573.html#a035901aa8b91ebd516a6e029c1642adc", null ],
     [ "GetPictureFileName", "classcpart___i_o__74xx573.html#a3039e99cbe7b261571e0f21d1c63a588", null ],
     [ "PostProcess", "classcpart___i_o__74xx573.html#a8c097ee65aab211aeed56bc2156ba9fa", null ],
+    [ "PreferencesNumberFields", "classcpart___i_o__74xx573.html#ae45110adee9e2f06bf3c1544bdb8f530", null ],
     [ "PreProcess", "classcpart___i_o__74xx573.html#a26359eb146b27139ffbb29ad1ba7e510", null ],
     [ "Process", "classcpart___i_o__74xx573.html#a4b511b6999d9581393c73496c525579e", null ],
-    [ "ReadPreferences", "classcpart___i_o__74xx573.html#a7666af0a9f12778ee51fa5bcd5663f6a", null ],
+    [ "ReadPreferences", "classcpart___i_o__74xx573.html#aca7df11f0639a7bd82746d9062ce8ace", null ],
     [ "ReadPropertiesWindow", "classcpart___i_o__74xx573.html#a37002613aa8f0cba531fc8b53c8005ad", null ],
     [ "WritePreferences", "classcpart___i_o__74xx573.html#a8472503ed97c40c5222ac4caed163a2d", null ]
 ];

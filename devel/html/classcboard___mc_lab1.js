@@ -11,6 +11,7 @@ var classcboard___mc_lab1 =
     [ "GetName", "classcboard___mc_lab1.html#ad1f1c756d3d4ff04d939ec62562ad889", null ],
     [ "GetOutputId", "classcboard___mc_lab1.html#a2afcec563e3ecaeeaa5ec36e8e0ef110", null ],
     [ "GetSupportedDevices", "classcboard___mc_lab1.html#a996e5edb23b37b60f8798fb7c2ce137e", null ],
+    [ "GetSupportedIDEs", "classcboard___mc_lab1.html#a795e56b2ddced503625df3fc55b6cd3a", null ],
     [ "ReadPreferences", "classcboard___mc_lab1.html#ae0c889ee1ddcda790202d47a606d79de", null ],
     [ "RefreshStatus", "classcboard___mc_lab1.html#a64d121e25f1dedc76b169f2ff7900d53", null ],
     [ "RegisterRemoteControl", "classcboard___mc_lab1.html#a26e733832c8eb77a1ec1d9e6f460df0f", null ],

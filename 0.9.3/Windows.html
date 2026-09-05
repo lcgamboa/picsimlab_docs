@@ -17,8 +17,10 @@
    <span class='subsectionToc'>2.3.1 <a href='Linux.html#linux'>Linux</a></span>
    <span class='subsectionToc'>2.3.2 <a href='#windows'>Windows</a></span>
    <span class='subsectionToc'>2.3.3 <a href='macOS.html#macos'>macOS</a></span>
-   <span class='subsectionToc'>2.3.4 <a href='Experimentalversion.html#experimental-version'>Experimental version</a></span>
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
    
    
    
@@ -48,9 +50,6 @@
    
    <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
    
-                                                                  
-
-                                                                  
    
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
@@ -58,6 +57,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -97,9 +98,23 @@
    
    
    
-                                                                  
-
-                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
    
    
    
@@ -131,24 +146,6 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                  
-
-                                                                  
    
    
    
@@ -172,6 +169,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -190,33 +189,31 @@
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Linux.html'>prev</a>] [<a href='Installfromsource.html#Windows.html'>up</a>] [<a href='macOS.html'>next</a>] </nav> 
 <h4 class='subsectionHead' id='windows'><span class='titlemark'>2.3.2    </span> <a id='x8-70002.3.2'></a>Windows</h4>
-<!--  l. 47  --><p class='noindent'>Cross-compiling for Windows (from Linux or <a href='https://docs.microsoft.com/windows/wsl/install-win10' target='_blank'>WSL</a> on win10)
-</p><!--  l. 49  --><p class='indent'>   In first time build in Debian Linux and derivatives target Windows 64 bits:
+<!--  l. 48  --><p class='noindent'>Cross-compiling for Windows (from Linux or <a href='https://docs.microsoft.com/windows/wsl/install-win10' target='_blank'>WSL</a> on win10)
+</p><!--  l. 50  --><p class='indent'>   In first time build in Debian Linux and derivatives target Windows 64 bits:
 </p><!--  l. 1  --><p class='indent'>
 </p>
-   <pre class='fancyvrb' id='fancyvrb3'><a id='x8-7005r1'></a><span class='pcrr8t-x-x-80'>git</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>clone</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>https://github.com/lcgamboa/picsimlab.git</span> 
-<a id='x8-7007r2'></a><span style='color:#008000;'><span class='pcrr8t-x-x-80'>cd</span></span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>picsimlab</span> 
-<a id='x8-7009r3'></a><span class='pcrr8t-x-x-80'>bscripts/build_w64.sh</span></pre>
-<!--  l. 57  --><p class='indent'>   To recompile use:
-</p><!--  l. 1  --><p class='indent'>
-                                                                  
-
-                                                                  
-</p>
-   <pre class='fancyvrb' id='fancyvrb4'><a id='x8-7012r1'></a><span class='pcrr8t-x-x-80'>make</span><span style='color:#BABABA;'> </span><span style='color:#1A177D;'><span class='pcrr8t-x-x-80'>FILE</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>-j4</span></pre>
-<!--  l. 63  --><p class='indent'>   For target Windows 32 bits:
+   <pre class='fancyvrb' id='fancyvrb3'><span class='fancyvrblineno'><a id='x8-7006r1'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>git</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>clone</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>https://github.com/lcgamboa/picsimlab.git</span></span> 
+<span class='fancyvrblineno'><a id='x8-7008r2'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='pcrr8t-x-x-80'>cd</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>picsimlab</span></span> 
+<span class='fancyvrblineno'><a id='x8-7010r3'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>bscripts/install_deps.sh</span></span> 
+<span class='fancyvrblineno'><a id='x8-7012r4'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>bscripts/build_w64.sh</span></span></pre>
+<!--  l. 59  --><p class='indent'>   To recompile use:
 </p><!--  l. 1  --><p class='indent'>
 </p>
-   <pre class='fancyvrb' id='fancyvrb5'><a id='x8-7017r1'></a><span class='pcrr8t-x-x-80'>git</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>clone</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>https://github.com/lcgamboa/picsimlab.git</span> 
-<a id='x8-7019r2'></a><span style='color:#008000;'><span class='pcrr8t-x-x-80'>cd</span></span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>picsimlab</span> 
-<a id='x8-7021r3'></a><span class='pcrr8t-x-x-80'>bscripts/build_w32.sh</span></pre>
-<!--  l. 71  --><p class='indent'>   To recompile use:
+   <pre class='fancyvrb' id='fancyvrb4'><span class='fancyvrblineno'><a id='x8-7015r1'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>make</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#1A177D;'><span class='pcrr8t-x-x-80'>FILE</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>-j4</span></span></pre>
+<!--  l. 65  --><p class='indent'>   For target Windows 32 bits:
+</p><!--  l. 1  --><p class='indent'>
 </p>
-   <pre class='fancyvrb' id='fancyvrb6'><a id='x8-7024r1'></a><span class='pcrr8t-x-x-80'>make</span><span style='color:#BABABA;'> </span><span style='color:#1A177D;'><span class='pcrr8t-x-x-80'>FILE</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross_32</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>-j4</span></pre>
-                                                                  
-
-                                                                  
-   <nav class='crosslinks-bottom'>[<a href='Linux.html'>prev</a>] [<a href='Installfromsource.html#Windows.html'>up</a>] [<a href='macOS.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+   <pre class='fancyvrb' id='fancyvrb5'><span class='fancyvrblineno'><a id='x8-7021r1'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>git</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>clone</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>https://github.com/lcgamboa/picsimlab.git</span></span> 
+<span class='fancyvrblineno'><a id='x8-7023r2'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='pcrr8t-x-x-80'>cd</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>picsimlab</span></span> 
+<span class='fancyvrblineno'><a id='x8-7025r3'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>bscripts/install_deps.sh</span></span> 
+<span class='fancyvrblineno'><a id='x8-7027r4'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>bscripts/build_w32.sh</span></span></pre>
+<!--  l. 74  --><p class='indent'>   To recompile use:
+</p>
+   <pre class='fancyvrb' id='fancyvrb6'><span class='fancyvrblineno'><a id='x8-7030r1'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>make</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#1A177D;'><span class='pcrr8t-x-x-80'>FILE</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>Makefile.cross_32</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>-j4</span></span></pre>
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='Linux.html'>prev</a>] [<a href='Installfromsource.html#Windows.html'>up</a>] [<a href='macOS.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

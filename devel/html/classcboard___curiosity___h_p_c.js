@@ -11,6 +11,7 @@ var classcboard___curiosity___h_p_c =
     [ "GetName", "classcboard___curiosity___h_p_c.html#a546b7300b929a481e2e621253ac8b3df", null ],
     [ "GetOutputId", "classcboard___curiosity___h_p_c.html#a82bd547df5b0fa3b720db67531294faf", null ],
     [ "GetSupportedDevices", "classcboard___curiosity___h_p_c.html#a279bb61a4479d2eeed805ffc66dda323", null ],
+    [ "GetSupportedIDEs", "classcboard___curiosity___h_p_c.html#ab440dfdba9d2290cf2b1bbddc9a72b5a", null ],
     [ "MSetSerial", "classcboard___curiosity___h_p_c.html#adf07be3e004b3ae5ae068350d4155d13", null ],
     [ "ReadPreferences", "classcboard___curiosity___h_p_c.html#a21f8ca50dbb5d4392cc15f64d62f5226", null ],
     [ "RegisterRemoteControl", "classcboard___curiosity___h_p_c.html#a7585b32efabfb8f8690a0cd852a169a8", null ],

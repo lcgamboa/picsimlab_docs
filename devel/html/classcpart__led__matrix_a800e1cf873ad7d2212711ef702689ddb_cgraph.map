@@ -1,0 +1,5 @@
+<map id="cpart_led_matrix::ReadPreferences" name="cpart_led_matrix::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,255,33"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="303,5,395,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,17,290,19,284,19,255,22"/>
+</map>

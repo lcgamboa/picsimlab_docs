@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}digital state}
+get\PYG{+w}{ }pin\PYG{o}{[}\PYG{l+m}{19}\PYG{o}{]}
+pin\PYG{o}{[}\PYG{l+m}{19}\PYG{o}{]=}\PYG{+w}{ }\PYG{l+m}{0}
+Ok
+
+\PYG{c+c1}{\PYGZsh{}digital mean value (0\PYGZhy{}200)}
+get\PYG{+w}{ }pinm\PYG{o}{[}\PYG{l+m}{19}\PYG{o}{]}
+pin\PYG{o}{[}\PYG{l+m}{18}\PYG{o}{]=}\PYG{+w}{ }\PYG{l+m}{100}
+Ok
+
+\PYG{c+c1}{\PYGZsh{}analog state}
+get\PYG{+w}{ }apin\PYG{o}{[}\PYG{l+m}{25}\PYG{o}{]}
+apin\PYG{o}{[}\PYG{l+m}{25}\PYG{o}{]=}\PYG{+w}{ }\PYG{l+m}{2}.700
+Ok
+
+\PYG{c+c1}{\PYGZsh{}all info}
+get\PYG{+w}{ }pinl\PYG{o}{[}\PYG{l+m}{13}\PYG{o}{]}
+pin\PYG{o}{[}\PYG{l+m}{13}\PYG{o}{]}\PYG{+w}{ }D\PYG{+w}{ }I\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{l+m}{200}\PYG{+w}{ }\PYG{l+m}{0}.000\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}PD7/7   \PYGZdq{}}
+Ok
+\end{MintedVerbatim}

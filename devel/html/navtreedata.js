@@ -53,14 +53,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbsim__picsim.html#aa656ff93e4bf0b12f1662efb922704f9",
-"classcboard___breadboard.html#a78b393e9929e1cccba8325da9c3f30af",
-"classcboard___remote_t_c_p.html#aa92916adc54b3634f3f10e7763a2850b",
-"classcpart___i_o___m_m74_c922.html#a544c78112414eb4e83a08f97609ff984",
-"classcpart___v_c_d___dump2.html#a1d0861fc73e89aaa6e0bac851766b80e",
-"classcpart__gamepad__an.html#a4bc74b888f2ecc377460e9b97289f282",
-"classcpart__sht3x.html#abd96599d33e8836de6a26d02db40ef85",
-"lcd__ssd1306_8h_source.html"
+"classbsim__picsim.html#a771e1c03ab778acae76004ba2340cb72",
+"classcboard___breadboard.html#a14f32d501cb1910120a96b7394171a60",
+"classcboard___p_q_d_b.html#a0151c892c5f0470971da1b97604f60c0",
+"classcpart___i_o__74xx595.html#a961938f402088d7383dc2ff2dd844457",
+"classcpart___signal_generator.html",
+"classcpart__ds18b20.html#ae529b49c173c5e6e889ea785668613e7",
+"classcpart__pbuttons__an.html",
+"classpart.html#ae12008fd8e984236961dc08877c05e0a",
+"structsen__bmp180__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

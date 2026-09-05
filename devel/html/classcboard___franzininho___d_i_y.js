@@ -10,6 +10,7 @@ var classcboard___franzininho___d_i_y =
     [ "GetName", "classcboard___franzininho___d_i_y.html#a6c3462a077355094e4b2035324da51a1", null ],
     [ "GetOutputId", "classcboard___franzininho___d_i_y.html#a8bfe0bab0efb9affa03a6e993f5cfefb", null ],
     [ "GetSupportedDevices", "classcboard___franzininho___d_i_y.html#a86d221daf81620ccca1aac0540b53e0b", null ],
+    [ "GetSupportedIDEs", "classcboard___franzininho___d_i_y.html#aff29f17fab9a85b33f2a6b18ee1e2fd4", null ],
     [ "ReadPreferences", "classcboard___franzininho___d_i_y.html#a63a04c829b2770c4c2b1070699dd0032", null ],
     [ "RefreshStatus", "classcboard___franzininho___d_i_y.html#ab05be7483d8e5b2b0a5755dbcf367a16", null ],
     [ "RegisterRemoteControl", "classcboard___franzininho___d_i_y.html#a6cb48a2dd7cab87bcbb3d5d72a7300aa", null ],

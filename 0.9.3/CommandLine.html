@@ -17,13 +17,15 @@
    
    
    
-   
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
    <span class='sectionToc'>3.1 <a href='MainWindow.html#main-window'>Main Window</a></span>
-   <span class='sectionToc'>3.2 <a href='InteractionwiththeBoard.html#interaction-with-the-board'>Interaction with the Board</a></span>
-   <span class='sectionToc'>3.3 <a href='#command-line'>Command Line</a></span>
-   <span class='sectionToc'>3.4 <a href='RemoteControlInterface.html#remote-control-interface'>Remote Control Interface</a></span>
-   <span class='sectionToc'>3.5 <a href='PictureMapReference.html#picture-map-reference'>Picture Map Reference</a></span>
+   
+   <span class='sectionToc'>3.2 <a href='ConfigurationWindow.html#configuration-window'>Configuration Window</a></span>
+   <span class='sectionToc'>3.3 <a href='ProjectWizardWindow.html#project-wizard-window'>Project Wizard Window</a></span>
+   <span class='sectionToc'>3.4 <a href='InteractionwiththeBoard.html#interaction-with-the-board'>Interaction with the Board</a></span>
+   <span class='sectionToc'>3.5 <a href='#command-line'>Command Line</a></span>
+   <span class='sectionToc'>3.6 <a href='RemoteControlInterface.html#remote-control-interface'>Remote Control Interface</a></span>
+   <span class='sectionToc'>3.7 <a href='PictureMapReference.html#picture-map-reference'>Picture Map Reference</a></span>
    <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
    
    
@@ -49,15 +51,14 @@
    <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
    
    
-                                                                  
-
-                                                                  
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
    
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -98,9 +99,22 @@
    
    
    
-                                                                  
-
-                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
    
    
    
@@ -133,23 +147,6 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                  
-
-                                                                  
    
    
    
@@ -172,6 +169,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -189,18 +188,62 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='InteractionwiththeBoard.html'>prev</a>] [<a href='SimulatorInterface.html#CommandLine.html'>up</a>] [<a href='RemoteControlInterface.html'>next</a>] </nav> 
-<h3 class='sectionHead' id='command-line'><span class='titlemark'>3.3    </span> <a id='x14-130003.3'></a>Command Line</h3>
-<!--  l. 103  --><p class='noindent'>PICSimLab supports two command lines format:
-</p><!--  l. 105  --><p class='indent'>   One for load a PICSimLab Workspace file (.pzw)
+<h3 class='sectionHead' id='command-line'><span class='titlemark'>3.5    </span> <a id='x16-150003.5'></a>Command Line</h3>
+<!--  l. 169  --><p class='noindent'>PICSimLab supports two command lines format:
+</p><!--  l. 171  --><p class='indent'>   One for load a PICSimLab Workspace file (.pzw)
 </p>
-   <pre class='fancyvrb' id='fancyvrb9'><a id='x14-13003r1'></a><span style='color:#BABABA;'>    </span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>file.pzw</span></pre>
-<!--  l. 110  --><p class='indent'>   And other for load .hex files
+   <pre class='fancyvrb' id='fancyvrb7'><span class='fancyvrblineno'><a id='x16-15003r1'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>file.pzw</span></span></pre>
+<!--  l. 176  --><p class='indent'>   And other for load .hex/.bin files
 </p>
-   <pre class='fancyvrb' id='fancyvrb10'><a id='x14-13006r1'></a><span style='color:#BABABA;'>    </span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>boardname</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>microcontroller</span><span style='color:#BABABA;'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.hex</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>]</span></span><span style='color:#BABABA;'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.pcf</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>]</span></span></pre>
-                                                                  
-
-                                                                  
-   <nav class='crosslinks-bottom'>[<a href='InteractionwiththeBoard.html'>prev</a>] [<a href='SimulatorInterface.html#CommandLine.html'>up</a>] [<a href='RemoteControlInterface.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+   <pre class='fancyvrb' id='fancyvrb8'><span class='fancyvrblineno'><a id='x16-15006r1'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>boardname</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>microcontroller</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.hex</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.pcf</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>]]]</span></span></span></pre>
+<!--  l. 181  --><p class='indent'>   Supported boards <span class='textbf'>boardname</span> parameter: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>Arduino_Mega
+     </li>
+     <li class='itemize'>Arduino_Nano
+     </li>
+     <li class='itemize'>Arduino_Uno
+     </li>
+     <li class='itemize'>Blue_Pill
+     </li>
+     <li class='itemize'>Breadboard
+     </li>
+     <li class='itemize'>Curiosity
+     </li>
+     <li class='itemize'>Curiosity_HPC
+                                                                                         
+                                                                                         
+     </li>
+     <li class='itemize'>ESP32_C3_DevKitC_02
+     </li>
+     <li class='itemize'>ESP32_DevKitC
+     </li>
+     <li class='itemize'>Franzininho_DIY
+     </li>
+     <li class='itemize'>K16F
+     </li>
+     <li class='itemize'>McLab1
+     </li>
+     <li class='itemize'>McLab2
+     </li>
+     <li class='itemize'>PICGenios
+     </li>
+     <li class='itemize'>PQDB
+     </li>
+     <li class='itemize'>Remote_TCP
+     </li>
+     <li class='itemize'>STM32_H103
+     </li>
+     <li class='itemize'>X
+     </li>
+     <li class='itemize'>Xpress
+     </li>
+     <li class='itemize'>gpboard
+     </li>
+     <li class='itemize'>uCboard</li></ul>
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='InteractionwiththeBoard.html'>prev</a>] [<a href='SimulatorInterface.html#CommandLine.html'>up</a>] [<a href='RemoteControlInterface.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

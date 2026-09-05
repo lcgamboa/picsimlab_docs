@@ -8,9 +8,10 @@ var classcpart___v_c_d___play =
     [ "GetOutputId", "classcpart___v_c_d___play.html#a3757d0cd9e457a42356eee42d2fdfa3e", null ],
     [ "OnMouseButtonPress", "classcpart___v_c_d___play.html#a0bc33d9a97db1df27370e11c8314079c", null ],
     [ "PostProcess", "classcpart___v_c_d___play.html#a705bfedb4c9d44bda163d013ff7b58de", null ],
+    [ "PreferencesNumberFields", "classcpart___v_c_d___play.html#a2f74cdcc26dea7c09ca74a26a8b0de19", null ],
     [ "PreProcess", "classcpart___v_c_d___play.html#a42197c42aa8610edcd0d57e90e4b1a00", null ],
     [ "Process", "classcpart___v_c_d___play.html#a6beaa026dde611c93533746d9ceacb53", null ],
-    [ "ReadPreferences", "classcpart___v_c_d___play.html#a5d2a115208ed21222a4ba5f1b3fc178c", null ],
+    [ "ReadPreferences", "classcpart___v_c_d___play.html#a906b70f088b7ec8f5b4ee993d31dcbaf", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___play.html#a8850c49a8c1e1c5c3a80cb4a28def64e", null ],
     [ "RegisterRemoteControl", "classcpart___v_c_d___play.html#a7c501c58726a93a3facb700ad64cb2de", null ],
     [ "WritePreferences", "classcpart___v_c_d___play.html#a59f2945fdf902958a4581c66f1e05a12", null ]

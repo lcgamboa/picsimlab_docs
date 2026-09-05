@@ -1,0 +1,625 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* \PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+
+\PYG{c+cm}{   PICSimLab \PYGZhy{} Programmable IC Simulator Laboratory}
+
+\PYG{c+cm}{   \PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+
+\PYG{c+cm}{   Copyright (c) : 2015\PYGZhy{}2025  Luis Claudio Gambôa Lopes \PYGZlt{}lcgamboa@yahoo.com\PYGZgt{}}
+
+\PYG{c+cm}{   This program is free software; you can redistribute it and/or modify}
+\PYG{c+cm}{   it under the terms of the GNU General Public License as published by}
+\PYG{c+cm}{   the Free Software Foundation; either version 2, or (at your option)}
+\PYG{c+cm}{   any later version.}
+
+\PYG{c+cm}{   This program is distributed in the hope that it will be useful,}
+\PYG{c+cm}{   but WITHOUT ANY WARRANTY; without even the implied warranty of}
+\PYG{c+cm}{   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the}
+\PYG{c+cm}{   GNU General Public License for more details.}
+
+\PYG{c+cm}{   You should have received a copy of the GNU General Public License}
+\PYG{c+cm}{   along with this program; if not, write to the Free Software}
+\PYG{c+cm}{   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.}
+
+\PYG{c+cm}{   For e\PYGZhy{}mail suggestions :  lcgamboa@yahoo.com}
+\PYG{c+cm}{   \PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} */}
+
+\PYG{c+c1}{// include files}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}board\PYGZus{}x.h\PYGZdq{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}math.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}../lib/oscilloscope.h\PYGZdq{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}../lib/picsimlab.h\PYGZdq{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}../lib/spareparts.h\PYGZdq{}}
+
+\PYG{c+cm}{/* ids of inputs of input map*/}
+\PYG{k}{enum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{I\PYGZus{}POT1}\PYG{p}{,}\PYG{+w}{  }\PYG{c+c1}{// potentiometer}
+\PYG{+w}{    }\PYG{n}{I\PYGZus{}ICSP}\PYG{p}{,}\PYG{+w}{  }\PYG{c+c1}{// ICSP connector}
+\PYG{+w}{    }\PYG{n}{I\PYGZus{}PWR}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// Power button}
+\PYG{+w}{    }\PYG{n}{I\PYGZus{}RST}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// Reset button}
+\PYG{+w}{    }\PYG{n}{I\PYGZus{}BD0}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// RD0 push button}
+\PYG{+w}{    }\PYG{n}{I\PYGZus{}SD1}\PYG{+w}{    }\PYG{c+c1}{// RD1 switch}
+\PYG{p}{\PYGZcb{};}
+
+\PYG{c+cm}{/* ids of outputs of output map*/}
+\PYG{k}{enum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}POT1}\PYG{p}{,}\PYG{+w}{  }\PYG{c+c1}{// potentiometer}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}RST}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// Reset button}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}SD1}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// switch position (On/Off)}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}LD0}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// LED on RD0 push button}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}LD1}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// LED on RD1 switch}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}LPWR}\PYG{p}{,}\PYG{+w}{  }\PYG{c+c1}{// Power LED}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}RB0}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// LED on RB0 output}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}RB1}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// LED on RB1 output}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}BD0}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// RD1 switch}
+\PYG{+w}{    }\PYG{n}{O\PYGZus{}CPU}\PYG{+w}{    }\PYG{c+c1}{// CPU name}
+\PYG{p}{\PYGZcb{};}
+
+\PYG{k}{enum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n}{PWM0}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{PWM1}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+
+\PYG{c+c1}{// return the input ids numbers of names used in input map}
+
+\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{short}\PYG{+w}{ }\PYG{n+nf}{cboard\PYGZus{}x::GetInputId}\PYG{p}{(}\PYG{k+kt}{char}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PG\PYGZus{}ICSP\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{I\PYGZus{}ICSP}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}SW\PYGZus{}PWR\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{I\PYGZus{}PWR}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PB\PYGZus{}RST\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{I\PYGZus{}RST}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PB\PYGZus{}D0\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{I\PYGZus{}BD0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}SW\PYGZus{}D1\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{I\PYGZus{}SD1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PO\PYGZus{}1\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{I\PYGZus{}POT1}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Error input \PYGZsq{}\PYGZpc{}s\PYGZsq{} don\PYGZsq{}t have a valid id! }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{INVALID\PYGZus{}ID}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// return the output ids numbers of names used in output map}
+
+\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{short}\PYG{+w}{ }\PYG{n+nf}{cboard\PYGZus{}x::GetOutputId}\PYG{p}{(}\PYG{k+kt}{char}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}SW\PYGZus{}D1\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}SD1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}LD\PYGZus{}LD0\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}LD0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}LD\PYGZus{}LD1\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}LD1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}LD\PYGZus{}LPWR\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}LPWR}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}LD\PYGZus{}RB1\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}RB1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}LD\PYGZus{}RB0\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}RB0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PB\PYGZus{}D0\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}BD0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PO\PYGZus{}1\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}POT1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PB\PYGZus{}RST\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}RST}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}IC\PYGZus{}CPU\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{O\PYGZus{}CPU}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Error output \PYGZsq{}\PYGZpc{}s\PYGZsq{} don\PYGZsq{}t have a valid id! }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{INVALID\PYGZus{}ID}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Constructor called once on board creation}
+
+\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{cboard\PYGZus{}x}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{Proc}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}PIC18F4550\PYGZdq{}}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// default microcontroller if none defined in preferences}
+\PYG{+w}{    }\PYG{n}{ReadMaps}\PYG{p}{();}\PYG{+w}{           }\PYG{c+c1}{// Read input and output board maps}
+
+\PYG{+w}{    }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{n}{active}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateGUI}\PYG{p}{(}\PYG{n}{PWM0}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GT\PYGZus{}GAUGE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GA\PYGZus{}ADD}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{void}\PYG{o}{*}\PYG{p}{)}\PYG{l+s}{\PYGZdq{}*RB0\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateGUI}\PYG{p}{(}\PYG{n}{PWM1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GT\PYGZus{}GAUGE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GA\PYGZus{}ADD}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{void}\PYG{o}{*}\PYG{p}{)}\PYG{l+s}{\PYGZdq{}*RB1\PYGZdq{}}\PYG{p}{);}
+
+\PYG{+w}{    }\PYG{n}{SWBounce\PYGZus{}init}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{bounce}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Destructor called once on board destruction}
+
+\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::\PYGZti{}}\PYG{n}{cboard\PYGZus{}x}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateGUI}\PYG{p}{(}\PYG{n}{PWM0}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GT\PYGZus{}GAUGE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GA\PYGZus{}DEL}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{NULL}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateGUI}\PYG{p}{(}\PYG{n}{PWM1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GT\PYGZus{}GAUGE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GA\PYGZus{}DEL}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{NULL}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{SWBounce\PYGZus{}end}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{bounce}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Reset board status}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{Reset}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{MReset}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{);}
+
+\PYG{+w}{    }\PYG{n}{p\PYGZus{}BT1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// set push button  in default state (high)}
+
+\PYG{+w}{    }\PYG{c+c1}{// write button state to pin 19 (RD0)}
+\PYG{+w}{    }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{19}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT1}\PYG{p}{);}
+\PYG{+w}{    }\PYG{c+c1}{// write switch state to pin 20 (RD1)}
+\PYG{+w}{    }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT2}\PYG{p}{);}
+
+\PYG{+w}{    }\PYG{c+c1}{// verify serial port state and refresh status bar}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateStatus}\PYG{p}{(}\PYG{n}{PS\PYGZus{}SERIAL}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GetUARTStrStatus}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{));}
+
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{use\PYGZus{}spare}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n}{SpareParts}\PYG{p}{.}\PYG{n}{Reset}\PYG{p}{();}
+
+\PYG{+w}{    }\PYG{n}{RegisterRemoteControl}\PYG{p}{();}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Register variables to be controled by remote control}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{RegisterRemoteControl}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// register inputa}
+\PYG{+w}{    }\PYG{n}{input\PYGZus{}ids}\PYG{p}{[}\PYG{n}{I\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{p\PYGZus{}BT1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{input\PYGZus{}ids}\PYG{p}{[}\PYG{n}{I\PYGZus{}SD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{p\PYGZus{}BT2}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{input\PYGZus{}ids}\PYG{p}{[}\PYG{n}{I\PYGZus{}POT1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{pot1}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{// register output to be updated on input change}
+\PYG{+w}{    }\PYG{n}{input\PYGZus{}ids}\PYG{p}{[}\PYG{n}{I\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{input\PYGZus{}ids}\PYG{p}{[}\PYG{n}{I\PYGZus{}SD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}SD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{input\PYGZus{}ids}\PYG{p}{[}\PYG{n}{I\PYGZus{}POT1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}POT1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{// register outputa}
+\PYG{+w}{    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetPinOAVPtr}\PYG{p}{(}\PYG{l+m+mi}{33}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetPinOAVPtr}\PYG{p}{(}\PYG{l+m+mi}{34}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetPinOAVPtr}\PYG{p}{(}\PYG{l+m+mi}{19}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{status}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetPinOAVPtr}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Called ever 1s to refresh status}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{RefreshStatus}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// verify serial port state and refresh status bar}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateStatus}\PYG{p}{(}\PYG{n}{PS\PYGZus{}SERIAL}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GetUARTStrStatus}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{));}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Called to save board preferences in configuration file}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{WritePreferences}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// write selected microcontroller of board\PYGZus{}x to preferences}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SavePrefs}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}X\PYGZus{}proc\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Proc}\PYG{p}{);}
+\PYG{+w}{    }\PYG{c+c1}{// write switch state of board\PYGZus{}x to preferences}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SavePrefs}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}X\PYGZus{}bt2\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{std}\PYG{o}{::}\PYG{n}{to\PYGZus{}string}\PYG{p}{(}\PYG{n}{p\PYGZus{}BT2}\PYG{p}{));}
+\PYG{+w}{    }\PYG{c+c1}{// write microcontroller clock to preferences}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SavePrefs}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}X\PYGZus{}clock\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{FloatStrFormat}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZpc{}2.1f\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetClock}\PYG{p}{()));}
+\PYG{+w}{    }\PYG{c+c1}{// write potentiometer position to preferences}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SavePrefs}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}X\PYGZus{}pot1\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{std}\PYG{o}{::}\PYG{n}{to\PYGZus{}string}\PYG{p}{(}\PYG{n}{pot1}\PYG{p}{));}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Called whe configuration file load  preferences}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{ReadPreferences}\PYG{p}{(}\PYG{k+kt}{char}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{value}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// read switch state of board\PYGZus{}x of preferences}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}X\PYGZus{}bt2\PYGZdq{}}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{value}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}0\PYGZsq{}}\PYG{p}{)}
+\PYG{+w}{            }\PYG{n}{p\PYGZus{}BT2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k}{else}
+\PYG{+w}{            }\PYG{n}{p\PYGZus{}BT2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{c+c1}{// read microcontroller of preferences}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}X\PYGZus{}proc\PYGZdq{}}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{Proc}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{value}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{c+c1}{// read microcontroller clock}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}X\PYGZus{}clock\PYGZdq{}}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetClock}\PYG{p}{(}\PYG{n}{atof}\PYG{p}{(}\PYG{n}{value}\PYG{p}{));}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// read potentiometer position}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{strcmp}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}X\PYGZus{}pot1\PYGZdq{}}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{atoi}\PYG{p}{(}\PYG{n}{value}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Event on the board}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{EvKeyPress}\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{key}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{mask}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// if keyboard key 1 is pressed then activate button (state=0)}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{key}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{p\PYGZus{}BT1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// if keyboard key 2 is pressed then toggle switch state}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{key}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}2\PYGZsq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{p\PYGZus{}BT2}\PYG{+w}{ }\PYG{o}{\PYGZca{}=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}SD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Event on the board}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{EvKeyRelease}\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{key}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{mask}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// if keyboard key 1 is pressed then deactivate button (state=1)}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{key}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{p\PYGZus{}BT1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Event on the board}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{EvMouseButtonPress}\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{button}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{state}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{// search for the input area which owner the event}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{inputc}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(((}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k}{switch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}ISCP area then load hex file}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}ICSP}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{OpenLoadHexFileDialog}\PYG{p}{();}
+\PYG{+w}{                    }\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}PWR area then toggle board on/off}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}PWR}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetMcuPwr}\PYG{p}{())}\PYG{+w}{  }\PYG{c+c1}{// if on turn off}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetMcuPwr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{n}{Reset}\PYG{p}{();}
+\PYG{+w}{                        }\PYG{n}{p\PYGZus{}BT1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{  }\PYG{c+c1}{// if off turn on}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetMcuPwr}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{n}{Reset}\PYG{p}{();}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LPWR}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}RST area then turn off and reset}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}RST}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetMcuPwr}\PYG{p}{()}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n}{MReset}\PYG{p}{(}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{))}\PYG{+w}{  }\PYG{c+c1}{// if powered}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetMcuPwr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetMcuRst}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{);}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{n}{p\PYGZus{}RST}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RST}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}D0 area then activate button (state=0)}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}BD0}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{n}{p\PYGZus{}BT1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}D1 area then toggle switch state}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}SD1}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{n}{p\PYGZus{}BT2}\PYG{+w}{ }\PYG{o}{\PYGZca{}=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}SD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}POT1}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{active}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{2.77}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{199}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{199}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}POT1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Event on the board}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{EvMouseMove}\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{button}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{state}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{inputc}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{switch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}POT1}\PYG{p}{:}
+\PYG{+w}{                }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(((}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{active}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{2.77}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{199}\PYG{p}{)}
+\PYG{+w}{                            }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{199}\PYG{p}{;}
+\PYG{+w}{                        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}POT1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{active}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Event on the board}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{EvMouseButtonRelease}\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{button}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{state}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{// search for the input area which owner the event}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{inputc}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(((}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k}{switch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}RST area then turn on}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}RST}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetMcuRst}\PYG{p}{())}\PYG{+w}{  }\PYG{c+c1}{// if powered}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetMcuPwr}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{SetMcuRst}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{MReset}\PYG{p}{(}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{n}{Reset}\PYG{p}{();}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{n}{p\PYGZus{}RST}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RST}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{c+c1}{// if event is over I\PYGZus{}D0 area then deactivate button (state=1)}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}BD0}\PYG{p}{:}
+\PYG{+w}{                    }\PYG{n}{p\PYGZus{}BT1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}BD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{I\PYGZus{}POT1}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{active}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}POT1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Called ever 100ms to draw board}
+\PYG{c+c1}{// This is the critical code for simulator running speed}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{Draw}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// verifiy if updated is needed}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{picpin}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{pins}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetPinsValues}\PYG{p}{();}
+
+\PYG{+w}{    }\PYG{c+c1}{// board\PYGZus{}x draw}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{outputc}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// run over all outputs}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{update}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// only if need update}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{update}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}INIT}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{Init}\PYG{p}{\PYGZob{}}\PYG{n}{Scale}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Scale}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETFONTWEIGHT}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetFontWeight}\PYG{p}{\PYGZob{}}\PYG{n}{CC\PYGZus{}FONTWEIGHT\PYGZus{}BOLD}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{            }\PYG{n}{update}\PYG{o}{++}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// set to update buffer}
+
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{r}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// if output shape is a rectangle}
+\PYG{+w}{            }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{O\PYGZus{}SD1}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// if output is switch}
+\PYG{+w}{                }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{c+c1}{// draw a background white rectangle}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{255}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{255}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{255}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}RECTANGLE}\PYG{p}{,}
+\PYG{+w}{                                         }\PYG{p}{.}\PYG{n}{Rectangle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}
+\PYG{+w}{                                                    }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{p\PYGZus{}BT2}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// draw switch off}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{c+c1}{// draw a grey rectangle}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{70}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{70}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{70}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(}
+\PYG{+w}{                            }\PYG{p}{\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}RECTANGLE}\PYG{p}{,}
+\PYG{+w}{                             }\PYG{p}{.}\PYG{n}{Rectangle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{int}\PYG{p}{)((}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{0.35}\PYG{p}{)),}
+\PYG{+w}{                                        }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{0.65f}\PYG{p}{)\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{  }\PYG{c+c1}{// draw switch on}
+\PYG{+w}{                    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{c+c1}{// draw a grey rectangle}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{70}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{70}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{70}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}RECTANGLE}\PYG{p}{,}
+\PYG{+w}{                                             }\PYG{p}{.}\PYG{n}{Rectangle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}
+\PYG{+w}{                                                        }\PYG{p}{((}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{0.65f}\PYG{p}{)\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{O\PYGZus{}BD0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{102}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{102}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{102}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}CIRCLE}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{Circle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cx}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cy}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{p\PYGZus{}BT1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{15}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{55}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}CIRCLE}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{Circle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cx}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cy}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{O\PYGZus{}RST}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{102}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{102}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{102}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}CIRCLE}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{Circle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cx}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cy}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{p\PYGZus{}RST}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{15}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{55}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}CIRCLE}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{Circle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cx}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{cy}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{O\PYGZus{}POT1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{50}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{215}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}RECTANGLE}\PYG{p}{,}
+\PYG{+w}{                                         }\PYG{p}{.}\PYG{n}{Rectangle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}
+\PYG{+w}{                                                    }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{250}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{250}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{250}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(}
+\PYG{+w}{                        }\PYG{p}{\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}RECTANGLE}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{Rectangle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2.77f}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{15}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{O\PYGZus{}CPU}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETFONTSIZE}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetFontSize}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{10}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{w}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{h}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{26}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{26}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{26}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}RECTANGLE}\PYG{p}{,}
+\PYG{+w}{                                         }\PYG{p}{.}\PYG{n}{Rectangle}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{,}
+\PYG{+w}{                                                    }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{230}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{230}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{230}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                    }\PYG{n}{w}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{h}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y2}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{x1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{w}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{7}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{n}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{y1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{h}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Proc}\PYG{p}{.}\PYG{n}{length}\PYG{p}{());}
+\PYG{+w}{                    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}ROTATEDTEXT}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{RotatedText}\PYG{p}{\PYGZob{}}\PYG{n}{Proc}\PYG{p}{.}\PYG{n}{c\PYGZus{}str}\PYG{p}{(),}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{270}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{  }\PYG{c+c1}{// if output shape is a circle}
+\PYG{+w}{            }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETFGCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetFgColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{}\PYGZcb{});}\PYG{+w}{  }\PYG{c+c1}{// black}
+
+\PYG{+w}{                }\PYG{k}{switch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{id}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// search for color of output}
+\PYG{+w}{                }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{O\PYGZus{}LD0}\PYG{p}{:}\PYG{+w}{  }\PYG{c+c1}{// White using pin 19 mean value (RD0)}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}
+\PYG{+w}{                                             }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{18}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{18}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{,}
+\PYG{+w}{                                                         }\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{18}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{O\PYGZus{}LD1}\PYG{p}{:}\PYG{+w}{  }\PYG{c+c1}{// Yelllow using pin 20 mean value (RD1)}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(}
+\PYG{+w}{                            }\PYG{p}{\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}
+\PYG{+w}{                             }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{O\PYGZus{}LPWR}\PYG{p}{:}\PYG{+w}{  }\PYG{c+c1}{// Blue using mcupwr value}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}
+\PYG{+w}{                                             }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)(}\PYG{l+m+mi}{200}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetMcuPwr}\PYG{p}{()}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{)\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{O\PYGZus{}RB0}\PYG{p}{:}\PYG{+w}{  }\PYG{c+c1}{// Green using pin 33 mean value (RB0)}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{32}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                    }\PYG{k}{case}\PYG{+w}{ }\PYG{n+no}{O\PYGZus{}RB1}\PYG{p}{:}\PYG{+w}{  }\PYG{c+c1}{// Red using pin 34 mean value (RB1)}
+\PYG{+w}{                        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}SETBGCOLOR}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{SetBgColor}\PYG{p}{\PYGZob{}(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{)}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{33}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{}\PYGZcb{});}
+\PYG{+w}{                        }\PYG{k}{break}\PYG{p}{;}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                }\PYG{n}{DrawLED}\PYG{p}{(}\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{output}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{c+c1}{// end draw}
+
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{update}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{CanvasCmd}\PYG{p}{(\PYGZob{}.}\PYG{n}{cmd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CC\PYGZus{}END}\PYG{p}{\PYGZcb{});}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{33}\PYG{p}{].}\PYG{n}{oavalue}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// RB0 mean value}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateGUI}\PYG{p}{(}\PYG{n}{PWM0}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GT\PYGZus{}GAUGE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GA\PYGZus{}SET}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{void}\PYG{o}{*}\PYG{p}{)}\PYG{o}{\PYGZam{}}\PYG{n}{value}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{32}\PYG{p}{].}\PYG{n}{oavalue}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// RB1 mean value}
+\PYG{+w}{    }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{UpdateGUI}\PYG{p}{(}\PYG{n}{PWM1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GT\PYGZus{}GAUGE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GA\PYGZus{}SET}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{void}\PYG{o}{*}\PYG{p}{)}\PYG{o}{\PYGZam{}}\PYG{n}{value}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{o}{::}\PYG{n}{Run\PYGZus{}CPU}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{pi}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{picpin}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{alm}\PYG{p}{[}\PYG{l+m+mi}{40}\PYG{p}{];}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{bret}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{JUMPSTEPS}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetJUMPSTEPS}\PYG{p}{();}\PYG{+w}{  }\PYG{c+c1}{// number of steps skipped}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{long}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{NSTEP}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetNSTEP}\PYG{p}{();}\PYG{+w}{     }\PYG{c+c1}{// number of steps in 100ms}
+\PYG{+w}{    }\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{RNSTEP}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{200.0}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{MGetPinCount}\PYG{p}{()}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{NSTEP}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+c1}{// reset pins mean value}
+\PYG{+w}{    }\PYG{n}{memset}\PYG{p}{(}\PYG{n}{alm}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{40}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{p}{));}
+
+\PYG{+w}{    }\PYG{c+c1}{// read pins to a local variable to speed up}
+\PYG{+w}{    }\PYG{n}{pins}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetPinsValues}\PYG{p}{();}
+
+\PYG{+w}{    }\PYG{c+c1}{// Spare parts window pre process}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{use\PYGZus{}spare}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n}{SpareParts}\PYG{p}{.}\PYG{n}{PreProcess}\PYG{p}{();}
+
+\PYG{+w}{    }\PYG{n}{SWBounce\PYGZus{}prepare}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{bounce}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetBoard}\PYG{p}{()}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{MGetInstClockFreq}\PYG{p}{());}
+
+\PYG{+w}{    }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT1\PYGZus{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT2\PYGZus{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT2}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{].}\PYG{n}{dir}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{PD\PYGZus{}IN}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{].}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT1\PYGZus{}}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{SWBounce\PYGZus{}bounce}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{bounce}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{20}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{].}\PYG{n}{dir}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{PD\PYGZus{}IN}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{20}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{].}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT2\PYGZus{}}\PYG{p}{))}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{SWBounce\PYGZus{}bounce}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{bounce}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{JUMPSTEPS}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// step counter}
+\PYG{+w}{    }\PYG{n}{pi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{PICSimLab}\PYG{p}{.}\PYG{n}{GetMcuPwr}\PYG{p}{())}\PYG{+w}{       }\PYG{c+c1}{// if powered}
+\PYG{+w}{        }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NSTEP}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// repeat for number of steps in 100ms}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{JUMPSTEPS}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// if number of step is bigger than step to skip}
+\PYG{+w}{            }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{n}{MGetResetPin}\PYG{p}{(),}\PYG{+w}{ }\PYG{n}{p\PYGZus{}RST}\PYG{p}{);}
+\PYG{+w}{                }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{bounce}\PYG{p}{.}\PYG{n}{do\PYGZus{}bounce}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{19}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT1\PYGZus{}}\PYG{p}{);}\PYG{+w}{  }\PYG{c+c1}{// Set pin 19 (RD0) with button state}
+\PYG{+w}{                    }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT2\PYGZus{}}\PYG{p}{);}\PYG{+w}{  }\PYG{c+c1}{// Set pin 20 (RD1) with switch state}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{bounce}\PYG{p}{.}\PYG{n}{do\PYGZus{}bounce}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{n}{bret}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{SWBounce\PYGZus{}process}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{bounce}\PYG{p}{);}
+\PYG{+w}{                }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{bret}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{bounce}\PYG{p}{.}\PYG{n}{bounce}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{bret}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{19}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{!}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{].}\PYG{n}{value}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{19}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT1\PYGZus{}}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{bounce}\PYG{p}{.}\PYG{n}{bounce}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{bret}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{!}\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{20}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{].}\PYG{n}{value}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{n}{MSetPin}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p\PYGZus{}BT2\PYGZus{}}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{            }\PYG{c+c1}{// verify if a breakpoint is reached if not run one instruction}
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{mplabxd\PYGZus{}testbp}\PYG{p}{())}
+\PYG{+w}{                }\PYG{n}{MStep}\PYG{p}{();}
+\PYG{+w}{            }\PYG{n}{ioupdated}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{MGetIOUpdated}\PYG{p}{();}
+\PYG{+w}{            }\PYG{n}{InstCounterInc}\PYG{p}{();}
+\PYG{+w}{            }\PYG{c+c1}{// Oscilloscope window process}
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{use\PYGZus{}oscope}\PYG{p}{)}
+\PYG{+w}{                }\PYG{n}{Oscilloscope}\PYG{p}{.}\PYG{n}{SetSample}\PYG{p}{();}
+\PYG{+w}{            }\PYG{c+c1}{// Spare parts window process}
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{use\PYGZus{}spare}\PYG{p}{)}
+\PYG{+w}{                }\PYG{n}{SpareParts}\PYG{p}{.}\PYG{n}{Process}\PYG{p}{();}
+
+\PYG{+w}{            }\PYG{c+c1}{// increment mean value counter if pin is high}
+\PYG{+w}{            }\PYG{n}{alm}\PYG{p}{[}\PYG{n}{pi}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{n}{pi}\PYG{p}{].}\PYG{n}{value}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{pi}\PYG{o}{++}\PYG{p}{;}
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pi}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{MGetPinCount}\PYG{p}{())}
+\PYG{+w}{                }\PYG{n}{pi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{+w}{            }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{n}{JUMPSTEPS}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{// if number of step is bigger than steps to skip}
+\PYG{+w}{            }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{c+c1}{// set analog pin 2 (AN0) with value from scroll}
+\PYG{+w}{                }\PYG{n}{MSetAPin}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mf}{5.0}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{pot1}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{199}\PYG{p}{));}
+
+\PYG{+w}{                }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// reset counter}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{            }\PYG{n}{j}\PYG{o}{++}\PYG{p}{;}\PYG{+w}{  }\PYG{c+c1}{// counter increment}
+\PYG{+w}{            }\PYG{n}{MClearIOUpdated}\PYG{p}{();}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// calculate mean value}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{pi}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{pi}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{MGetPinCount}\PYG{p}{();}\PYG{+w}{ }\PYG{n}{pi}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{MSetPinOAV}\PYG{p}{(}\PYG{n}{pi}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{alm}\PYG{p}{[}\PYG{n}{pi}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{RNSTEP}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{55}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{c+c1}{// Spare parts window pre post process}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{use\PYGZus{}spare}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n}{SpareParts}\PYG{p}{.}\PYG{n}{PostProcess}\PYG{p}{();}
+
+\PYG{+w}{    }\PYG{c+c1}{// verifiy if LEDS need update}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{18}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{18}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{19}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}LD1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{32}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{32}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB0}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{33}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{value}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{pins}\PYG{p}{[}\PYG{l+m+mi}{33}\PYG{p}{].}\PYG{n}{oavalue}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{output\PYGZus{}ids}\PYG{p}{[}\PYG{n}{O\PYGZus{}RB1}\PYG{p}{]}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{update}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Register the board in PICSimLab}
+\PYG{n}{board\PYGZus{}init}\PYG{p}{(}\PYG{n}{BOARD\PYGZus{}x\PYGZus{}Name}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{cboard\PYGZus{}x}\PYG{p}{);}
+\end{MintedVerbatim}

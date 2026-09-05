@@ -1,5 +1,7 @@
 <map id="cboard_Franzininho_DIY::WritePreferences" name="cboard_Franzininho_DIY::WritePreferences">
-<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,5,176,45"/>
-<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#af51368feda52c27ca672b7c7eab7319f" title="Save the preferences." alt="" coords="224,13,397,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,23,210,23,210,28,176,28"/>
+<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,23,164,65"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a7c0070dacaaec7bb1ed30dc61ed5a0c9" title="Return the active project created by Project Wizard." alt="" coords="212,5,393,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,32,199,30,193,32,165,37"/>
+<area shape="rect" id="Node000003" href="$classboard.html#ac2ac59b404b3f9e44c9904cb5e5c7155" title="Return the active project type created by Project Wizard." alt="" coords="216,56,389,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,51,203,57,197,58,164,56"/>
 </map>

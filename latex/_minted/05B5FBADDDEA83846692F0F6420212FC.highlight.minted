@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{      }\PYG{n}{Serial\PYGZus{}write}\PYG{p}{(}\PYG{l+m+mh}{0x13}\PYG{p}{);}
+\PYG{+w}{      }\PYG{n}{valor}\PYG{o}{=}\PYG{n}{Serial\PYGZus{}read}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+\end{MintedVerbatim}

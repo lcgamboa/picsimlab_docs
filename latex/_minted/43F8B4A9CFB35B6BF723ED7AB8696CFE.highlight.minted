@@ -1,0 +1,61 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}xc.h\PYGZgt{}}\PYG{c+c1}{;}
+
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}config\PYGZus{}4550.h\PYGZdq{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}adc.h\PYGZdq{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}serial.h\PYGZdq{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}itoa.h\PYGZdq{}}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{  }\PYG{n}{val}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{buffer}\PYG{p}{[}\PYG{l+m+mi}{10}\PYG{p}{];}
+\PYG{+w}{  }
+\PYG{+w}{  }\PYG{n}{ADCON1}\PYG{o}{=}\PYG{l+m+mh}{0x02}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{TRISA}\PYG{o}{=}\PYG{l+m+mh}{0xFF}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{TRISB}\PYG{o}{=}\PYG{l+m+mh}{0xFC}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{TRISC}\PYG{o}{=}\PYG{l+m+mh}{0xBF}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{TRISD}\PYG{o}{=}\PYG{l+m+mh}{0xFF}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{TRISE}\PYG{o}{=}\PYG{l+m+mh}{0x0F}\PYG{p}{;}
+\PYG{+w}{  }
+\PYG{+w}{  }\PYG{n}{adc\PYGZus{}init}\PYG{p}{();}\PYG{+w}{ }
+\PYG{+w}{  }\PYG{n}{serial\PYGZus{}init}\PYG{p}{();}
+
+\PYG{+w}{ }
+\PYG{+w}{  }\PYG{k}{while}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{+w}{  }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{n}{val}\PYG{o}{=}\PYG{n}{adc\PYGZus{}amostra}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{      }
+\PYG{+w}{      }\PYG{k}{if}\PYG{p}{(}\PYG{n}{PORTDbits}\PYG{p}{.}\PYG{n}{RD1}\PYG{p}{)}
+\PYG{+w}{      }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{if}\PYG{p}{(}\PYG{n}{val}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{340}\PYG{p}{)}
+\PYG{+w}{           }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB0}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k}{else}
+\PYG{+w}{          }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB0}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{      }
+\PYG{+w}{        }\PYG{k}{if}\PYG{p}{(}\PYG{n}{val}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{680}\PYG{p}{)}
+\PYG{+w}{          }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB1}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k}{else}
+\PYG{+w}{          }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB1}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{      }\PYG{k}{else}
+\PYG{+w}{      }\PYG{p}{\PYGZob{}}
+\PYG{+w}{          }\PYG{k}{if}\PYG{p}{(}\PYG{n}{PORTDbits}\PYG{p}{.}\PYG{n}{RD0}\PYG{p}{)}
+\PYG{+w}{          }\PYG{p}{\PYGZob{}}
+\PYG{+w}{              }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB0}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{              }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB1}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{          }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{          }\PYG{k}{else}
+\PYG{+w}{          }\PYG{p}{\PYGZob{}}
+\PYG{+w}{              }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB0}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{              }\PYG{n}{PORTBbits}\PYG{p}{.}\PYG{n}{RB1}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{          }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{      }
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{      }
+\PYG{+w}{      }\PYG{n}{serial\PYGZus{}tx\PYGZus{}str}\PYG{p}{(}\PYG{n}{itoa}\PYG{p}{(}\PYG{n}{val}\PYG{p}{,}\PYG{n}{buffer}\PYG{p}{));}
+\PYG{+w}{      }\PYG{n}{serial\PYGZus{}tx\PYGZus{}str}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}r\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

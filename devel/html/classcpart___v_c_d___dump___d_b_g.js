@@ -9,9 +9,10 @@ var classcpart___v_c_d___dump___d_b_g =
     [ "GetPictureFileName", "classcpart___v_c_d___dump___d_b_g.html#aa2f11cc3427b66b188d8dae421a0b3ff", null ],
     [ "OnMouseButtonPress", "classcpart___v_c_d___dump___d_b_g.html#a176bd16f5f6cad0123d5985047621582", null ],
     [ "PostProcess", "classcpart___v_c_d___dump___d_b_g.html#a07363abb7812d2f78df365bad9e63c1a", null ],
+    [ "PreferencesNumberFields", "classcpart___v_c_d___dump___d_b_g.html#a1a8db977d45eb8832ca89b1184b77e4e", null ],
     [ "PreProcess", "classcpart___v_c_d___dump___d_b_g.html#ae2a8f76294b07d56cbe320dac26b0f84", null ],
     [ "Process", "classcpart___v_c_d___dump___d_b_g.html#a2dbbc3fe619950bd3e0a59537fc24ca7", null ],
-    [ "ReadPreferences", "classcpart___v_c_d___dump___d_b_g.html#ab6413318aee1199feed414fab22e874b", null ],
+    [ "ReadPreferences", "classcpart___v_c_d___dump___d_b_g.html#abfe4e994d8c0d43dff0d6a4dc776f366", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___dump___d_b_g.html#a9e2048d6e8e7f367c4f39126149756bf", null ],
     [ "RegisterRemoteControl", "classcpart___v_c_d___dump___d_b_g.html#ab2334c5c0046d7e982fcf2d25088207a", null ],
     [ "WritePreferences", "classcpart___v_c_d___dump___d_b_g.html#a4173458842d1321aec826fbfc8f3e72f", null ]

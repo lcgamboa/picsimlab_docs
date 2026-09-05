@@ -9,9 +9,10 @@ var classcpart___m_p_u6050 =
     [ "OnMouseButtonRelease", "classcpart___m_p_u6050.html#accb3cd1b22c06ad3fb4356efca34edad", null ],
     [ "OnMouseMove", "classcpart___m_p_u6050.html#a18a022924da00bd6789f53c2718dc0e8", null ],
     [ "PostProcess", "classcpart___m_p_u6050.html#af8c1919973f86dc47b4f219a5095b74f", null ],
+    [ "PreferencesNumberFields", "classcpart___m_p_u6050.html#a86038f94fa618cf42b9295be514dd7e7", null ],
     [ "PreProcess", "classcpart___m_p_u6050.html#a866af4e7eb5bc71a44ab176fe9c3752f", null ],
     [ "Process", "classcpart___m_p_u6050.html#a9184c570015611b9707a15febe838b47", null ],
-    [ "ReadPreferences", "classcpart___m_p_u6050.html#a5d49826b9f43c25fbaa8aeee987d339c", null ],
+    [ "ReadPreferences", "classcpart___m_p_u6050.html#a7ba10961ed46a3458ecd09b48ad7d73f", null ],
     [ "ReadPropertiesWindow", "classcpart___m_p_u6050.html#aadf8d3bc85f700e5d209b364265170fd", null ],
     [ "RegisterRemoteControl", "classcpart___m_p_u6050.html#acda575568de06a513e3c2a764409311b", null ],
     [ "WritePreferences", "classcpart___m_p_u6050.html#ad1ca076d7e49647c3c0eebe1d68cf219", null ]

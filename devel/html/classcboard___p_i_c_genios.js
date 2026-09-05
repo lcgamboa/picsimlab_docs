@@ -13,6 +13,7 @@ var classcboard___p_i_c_genios =
     [ "GetName", "classcboard___p_i_c_genios.html#abc4d6e2b61467c9e128d342d8df14cde", null ],
     [ "GetOutputId", "classcboard___p_i_c_genios.html#a3ca54569d0c5aac53fe5da98e4fff7b1", null ],
     [ "GetSupportedDevices", "classcboard___p_i_c_genios.html#adb1b102c415d617080565415b6f57e2d", null ],
+    [ "GetSupportedIDEs", "classcboard___p_i_c_genios.html#a370dfaccbb263daf8fbab55f918477de", null ],
     [ "MDumpMemory", "classcboard___p_i_c_genios.html#aed00d7c99ac0e0d9754e12ce99ba29a4", null ],
     [ "MInit", "classcboard___p_i_c_genios.html#a49047c67f91eb8b9d09ef380d4dd7846", null ],
     [ "ReadPreferences", "classcboard___p_i_c_genios.html#a5b8773f87af1e5e3460e800b9ddf51a8", null ],

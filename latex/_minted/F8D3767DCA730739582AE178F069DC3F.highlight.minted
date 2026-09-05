@@ -1,0 +1,23 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{img} \PYG{n+na}{src}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}[board\PYGZus{}x] (imported)\PYGZdq{}} \PYG{n+na}{width}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}448\PYGZdq{}} \PYG{n+na}{height}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}491\PYGZdq{}} \PYG{n+na}{border}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}0\PYGZdq{}} \PYG{n+na}{usemap}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}\PYGZsh{}map\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{map} \PYG{n+na}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}map\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} \PYGZsh{}\PYGZdl{}\PYGZhy{}:Image map file created by GIMP Image Map plug\PYGZhy{}in \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} \PYGZsh{}\PYGZdl{}\PYGZhy{}:GIMP Image Map plug\PYGZhy{}in by Maurits Rijk \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} \PYGZsh{}\PYGZdl{}\PYGZhy{}:Please do not edit lines starting with \PYGZdq{}\PYGZsh{}\PYGZdl{}\PYGZdq{} \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} \PYGZsh{}\PYGZdl{}VERSION:2.3 \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} \PYGZsh{}\PYGZdl{}AUTHOR:lcgamboa@yahoo.com          \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}196,45,280,58\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}I\PYGZus{}PG\PYGZus{}ICSP\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}409,30,441,46\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}I\PYGZus{}SW\PYGZus{}PWR\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}133,379,142,401\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}B\PYGZus{}SW\PYGZus{}D1\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}74,42,156,61\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}B\PYGZus{}PO\PYGZus{}1\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}105,162,138,195\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}B\PYGZus{}PB\PYGZus{}RST\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}37,327,70,360\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}B\PYGZus{}PB\PYGZus{}D0\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}circle\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}59,454,17\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}O\PYGZus{}LD\PYGZus{}LD0\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}circle\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}137,454,17\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}O\PYGZus{}LD\PYGZus{}LD1\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}circle\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}418,102,17\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}O\PYGZus{}LD\PYGZus{}LPWR\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}circle\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}418,189,17\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}O\PYGZus{}LD\PYGZus{}RB1\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}circle\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}418,232,17\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}O\PYGZus{}LD\PYGZus{}RB0\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{area} \PYG{n+na}{shape}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}rect\PYGZdq{}} \PYG{n+na}{coords}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}227,220,247,328\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}O\PYGZus{}IC\PYGZus{}CPU\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{map}\PYG{p}{\PYGZgt{}}
+\end{MintedVerbatim}

@@ -1,5 +1,7 @@
 <map id="cboard_STM32_H103::WritePreferences" name="cboard_STM32_H103::WritePreferences">
-<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,5,172,45"/>
-<area shape="rect" id="Node000002" href="$class_c_p_i_c_sim_lab.html#af51368feda52c27ca672b7c7eab7319f" title="Save the preferences." alt="" coords="220,13,393,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,23,207,23,207,28,172,28"/>
+<area shape="rect" id="Node000001" title="Called to save board preferences in configuration file." alt="" coords="5,23,161,65"/>
+<area shape="rect" id="Node000002" href="$classboard.html#a7c0070dacaaec7bb1ed30dc61ed5a0c9" title="Return the active project created by Project Wizard." alt="" coords="209,5,390,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,32,196,31,190,32,161,38"/>
+<area shape="rect" id="Node000003" href="$classboard.html#ac2ac59b404b3f9e44c9904cb5e5c7155" title="Return the active project type created by Project Wizard." alt="" coords="213,56,386,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,50,200,57,195,58,161,56"/>
 </map>

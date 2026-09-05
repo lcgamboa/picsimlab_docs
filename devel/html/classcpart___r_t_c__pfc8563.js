@@ -7,9 +7,10 @@ var classcpart___r_t_c__pfc8563 =
     [ "GetMapFile", "classcpart___r_t_c__pfc8563.html#aa7b965fd7adfca0af76ffce4dc11efcb", null ],
     [ "GetOutputId", "classcpart___r_t_c__pfc8563.html#ae4622bf0869c968091b6b6a6fa5cd55d", null ],
     [ "GetPictureFileName", "classcpart___r_t_c__pfc8563.html#a04eb7f41929741685c70b072dcbc6213", null ],
+    [ "PreferencesNumberFields", "classcpart___r_t_c__pfc8563.html#afed96ce4360e0c6b17fba8a1701468b7", null ],
     [ "PreProcess", "classcpart___r_t_c__pfc8563.html#a219ddc7e3928a5dcae3a6d2222ded7cf", null ],
     [ "Process", "classcpart___r_t_c__pfc8563.html#a6a2b9927f5d52e25e858e6df376f2e17", null ],
-    [ "ReadPreferences", "classcpart___r_t_c__pfc8563.html#a9edb03c97bf9887765eaacb1d2a45078", null ],
+    [ "ReadPreferences", "classcpart___r_t_c__pfc8563.html#a4209da5187cbb66f72cbeda3a15ac1f6", null ],
     [ "ReadPropertiesWindow", "classcpart___r_t_c__pfc8563.html#a49ad5470fd9e428a3bee7101f2731ac8", null ],
     [ "WritePreferences", "classcpart___r_t_c__pfc8563.html#a44e511f96761b047f3137b68ce039ee3", null ]
 ];

@@ -185,15 +185,12 @@ programming.
 The \textbf{picsimlab\_tool} is a simple command line tool to update the firmware running in the PICSimLab simulator. 
 It can be used integrated in development tools (like platformio).
 
-After open the PICSimLab you can use the \textbf{loadhex} with boards based on AVR or PICs:
+After open the PICSimLab you can use the picsimlab\_tool command to load .hex or .bin files:
 \begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
-picsimlab_tool loadhex file.hex
+picsimlab_tool file[.hex or .bin]
 \end{minted}
 
-And use the \textbf{loadbin} with boards based on ESP32 or STM32.
-\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
-picsimlab_tool loadbin file.bin
-\end{minted}
+
 
 
 

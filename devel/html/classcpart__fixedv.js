@@ -6,7 +6,8 @@ var classcpart__fixedv =
     [ "GetInputId", "classcpart__fixedv.html#a05f3da848c89a166042fbd05cd02908f", null ],
     [ "GetOutputId", "classcpart__fixedv.html#add4c07733b4d8ccb275954d85f9bf1b8", null ],
     [ "PostProcess", "classcpart__fixedv.html#a29cbef828bb05481c3b2fc3d4985f137", null ],
-    [ "ReadPreferences", "classcpart__fixedv.html#abaf95cfae2a49a600686ec1912afcbe1", null ],
+    [ "PreferencesNumberFields", "classcpart__fixedv.html#a7ce390610d64dc63a6481b099221b087", null ],
+    [ "ReadPreferences", "classcpart__fixedv.html#ab5a0266957e37cd4c41a9de9ef75e213", null ],
     [ "ReadPropertiesWindow", "classcpart__fixedv.html#a5a288e3659125bf091026be05b182d1c", null ],
     [ "RegisterRemoteControl", "classcpart__fixedv.html#a594dfd31ef6c4c718c36d3574a147bf4", null ],
     [ "WritePreferences", "classcpart__fixedv.html#a9137e0a22cacb98b4f5172dbbef0d371", null ]

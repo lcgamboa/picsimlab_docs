@@ -1,0 +1,5 @@
+<map id="cpart_UART::ReadPreferences" name="cpart_UART::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,220,33"/>
+<area shape="rect" id="Node000002" href="$classcpart___u_a_r_t.html#af6b6e86082e8531699c48da8ce25af08" title="Reset part status." alt="" coords="268,5,409,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,17,255,19,249,19,220,22"/>
+</map>

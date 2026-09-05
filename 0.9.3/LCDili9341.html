@@ -17,8 +17,10 @@
    
    
    
-   
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
    
    
    
@@ -48,9 +50,6 @@
    
    <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
    
-                                                                  
-
-                                                                  
    
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
@@ -58,6 +57,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -97,9 +98,6 @@
    
    
    
-                                                                  
-
-                                                                  
    
    
    
@@ -111,19 +109,21 @@
    
    
    <span class='sectionToc'>9.3 <a href='Outputs.html#outputs'>Outputs</a></span>
-   <span class='subsectionToc'>9.3.1 <a href='7SegmentsDisplay.html#segments-display'>7 Segments Display</a></span>
-   <span class='subsectionToc'>9.3.2 <a href='7SegmentsDisplayDecoder.html#segments-display-decoder'>7 Segments Display (Decoder)</a></span>
+   <span class='subsectionToc'>9.3.1 <a href='7SegmentsDisplay.html#x7-segments-display'>7 Segments Display</a></span>
+   <span class='subsectionToc'>9.3.2 <a href='7SegmentsDisplayDecoder.html#x7-segments-display-decoder'>7 Segments Display (Decoder)</a></span>
    <span class='subsectionToc'>9.3.3 <a href='Buzzer.html#buzzer'>Buzzer</a></span>
    <span class='subsectionToc'>9.3.4 <a href='DCMotor.html#dc-motor'>DC Motor</a></span>
-   <span class='subsectionToc'>9.3.5 <a href='LCDhd44780.html#lcd-hd'>LCD hd44780</a></span>
-   <span class='subsectionToc'>9.3.6 <a href='#lcd-ili'>LCD ili9341</a></span>
-   <span class='subsectionToc'>9.3.7 <a href='LCDpcf8833.html#lcd-pcf'>LCD pcf8833</a></span>
-   <span class='subsectionToc'>9.3.8 <a href='LCDpcd8544.html#lcd-pcd-'>LCD pcd8544 </a></span>
-   <span class='subsectionToc'>9.3.9 <a href='LCDssd1306.html#lcd-ssd-'>LCD ssd1306 </a></span>
+                                                                                         
+                                                                                         
+   <span class='subsectionToc'>9.3.5 <a href='LCDhd44780.html#lcd-hd44780'>LCD hd44780</a></span>
+   <span class='subsectionToc'>9.3.6 <a href='#lcd-ili9341'>LCD ili9341</a></span>
+   <span class='subsectionToc'>9.3.7 <a href='LCDpcf8833.html#lcd-pcf8833'>LCD pcf8833</a></span>
+   <span class='subsectionToc'>9.3.8 <a href='LCDpcd8544.html#lcd-pcd8544-'>LCD pcd8544 </a></span>
+   <span class='subsectionToc'>9.3.9 <a href='LCDssd1306.html#lcd-ssd1306-'>LCD ssd1306 </a></span>
    <span class='subsectionToc'>9.3.10 <a href='LEDMatrix.html#led-matrix'>LED Matrix</a></span>
    <span class='subsectionToc'>9.3.11 <a href='LEDs.html#leds'>LEDs</a></span>
    <span class='subsectionToc'>9.3.12 <a href='RGBLED.html#rgb-led'>RGB LED</a></span>
-   <span class='subsectionToc'>9.3.13 <a href='RGBLEDWS2812B.html#rgb-led-wsb'>RGB LED WS2812B</a></span>
+   <span class='subsectionToc'>9.3.13 <a href='RGBLEDWS2812B.html#rgb-led-ws2812b'>RGB LED WS2812B</a></span>
    <span class='subsectionToc'>9.3.14 <a href='ServoMotor.html#servo-motor'>Servo Motor</a></span>
    <span class='subsectionToc'>9.3.15 <a href='StepMotor.html#step-motor'>Step Motor</a></span>
    <span class='sectionToc'>9.4 <a href='Others.html#others'>Others</a></span>
@@ -146,9 +146,6 @@
    
    
    
-                                                                  
-
-                                                                  
    
    
    
@@ -172,6 +169,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -189,32 +188,28 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='LCDhd44780.html'>prev</a>] [<a href='Outputs.html#LCDili9341.html'>up</a>] [<a href='LCDpcf8833.html'>next</a>] </nav> 
-<h4 class='subsectionHead' id='lcd-ili'><span class='titlemark'>9.3.6    </span> <a id='x103-1100009.3.6'></a>LCD ili9341</h4>
-<!--  l. 725  --><p class='noindent'>This part is a color graphic display with 240x320 pixels with touchscreen (xpt2046
-controller). Only 4 SPI mode and 8 bits parallel mode is avaliable.
+<h4 class='subsectionHead' id='lcd-ili9341'><span class='titlemark'>9.3.6    </span> <a id='x105-1120009.3.6'></a>LCD ili9341</h4>
+<!--  l. 725  --><p class='noindent'>This part is a color graphic display with 240x320 pixels with touchscreen (xpt2046 controller). Only 4 SPI mode and 8 bits
+parallel mode is avaliable.
 </p>
    <figure class='figure'> 
 
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
 <!--  l. 730  --><p class='noindent'><img alt='PIC' src='img/part_lcd_ili9341.png' style='width:70%' />
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
 </p>
    </figure>
 <!--  l. 733  --><p class='indent'>   <a href='https://lcgamboa.github.io/picsimlab_examples/parts_LCD_ili9341.html' target='_blank'>Examples</a>
 </p><!--  l. 736  --><p class='indent'>   <a href='pdf/parts/datasheet/output/ILI9341.pdf' target='_blank'>Datasheet ILI9341</a>
 </p><!--  l. 739  --><p class='indent'>   <a href='pdf/parts/datasheet/output/xpt2046.pdf' target='_blank'>Datasheet xpt2046</a>
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
 </p>
-   <nav class='crosslinks-bottom'>[<a href='LCDhd44780.html'>prev</a>] [<a href='Outputs.html#LCDili9341.html'>up</a>] [<a href='LCDpcf8833.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='LCDhd44780.html'>prev</a>] [<a href='Outputs.html#LCDili9341.html'>up</a>] [<a href='LCDpcf8833.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

@@ -184,6 +184,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa937b818c495e08ae3c7ae09ec198656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paralle thread called ever 100ms to run cpu code.  <br /></td></tr>
 <tr class="memitem:ad12ec2c3d4be15af9bf825abba887fef" id="r_ad12ec2c3d4be15af9bf825abba887fef"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad12ec2c3d4be15af9bf825abba887fef">GetSupportedDevices</a> (void)=0</td></tr>
 <tr class="memdesc:ad12ec2c3d4be15af9bf825abba887fef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported microcontrollers.  <br /></td></tr>
+<tr class="memitem:a899a7635c30ade09550f368b39cfa29a" id="r_a899a7635c30ade09550f368b39cfa29a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a899a7635c30ade09550f368b39cfa29a">GetSupportedIDEs</a> (void)</td></tr>
+<tr class="memdesc:a899a7635c30ade09550f368b39cfa29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported IDEs in project wizard.  <br /></td></tr>
 <tr class="memitem:a65814237151523c5ef2d1240ae225b8c" id="r_a65814237151523c5ef2d1240ae225b8c"><td class="memItemLeft" align="right" valign="top"><a id="a65814237151523c5ef2d1240ae225b8c" name="a65814237151523c5ef2d1240ae225b8c"></a>
 virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPictureFileName</b> (void)</td></tr>
 <tr class="memdesc:a65814237151523c5ef2d1240ae225b8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the filename of board picture. <br /></td></tr>
@@ -276,8 +278,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>GetOutputCount</b> (vo
 <tr class="memdesc:ab5ff3776f5029a4467b11bd70bec0523"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller end  <br /></td></tr>
 <tr class="memitem:a6711ed3c431bc78e132554cf292e7bdd" id="r_a6711ed3c431bc78e132554cf292e7bdd"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6711ed3c431bc78e132554cf292e7bdd">MGetArchitecture</a> (void)=0</td></tr>
 <tr class="memdesc:a6711ed3c431bc78e132554cf292e7bdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return board microcontroller architecture.  <br /></td></tr>
-<tr class="memitem:a4b88ed79997741904b4a9a149d905e54" id="r_a4b88ed79997741904b4a9a149d905e54"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b88ed79997741904b4a9a149d905e54">EndServers</a> (void)</td></tr>
-<tr class="memdesc:a4b88ed79997741904b4a9a149d905e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">board servers shutdown  <br /></td></tr>
+<tr class="memitem:adc829016e5c9974a2673d63269d09682" id="r_adc829016e5c9974a2673d63269d09682"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc829016e5c9974a2673d63269d09682">GetSimBackends</a> (void)=0</td></tr>
+<tr class="memdesc:adc829016e5c9974a2673d63269d09682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return board backends name.  <br /></td></tr>
+<tr class="memitem:ada5e7ecf5a796f295fbe5349ecaa6ac7" id="r_ada5e7ecf5a796f295fbe5349ecaa6ac7"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada5e7ecf5a796f295fbe5349ecaa6ac7">GetDebuggers</a> (void)=0</td></tr>
+<tr class="memdesc:ada5e7ecf5a796f295fbe5349ecaa6ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return board supported debug interfaces name.  <br /></td></tr>
 <tr class="memitem:a6764acdeca48aa0370d680f0adfa523d" id="r_a6764acdeca48aa0370d680f0adfa523d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6764acdeca48aa0370d680f0adfa523d">MDumpMemory</a> (const char *fname)=0</td></tr>
 <tr class="memdesc:a6764acdeca48aa0370d680f0adfa523d"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller save non volatile memory to hex file  <br /></td></tr>
 <tr class="memitem:a803827850c5c111d0af986ca992f8bdb" id="r_a803827850c5c111d0af986ca992f8bdb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803827850c5c111d0af986ca992f8bdb">MEraseFlash</a> (void)=0</td></tr>
@@ -416,6 +420,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency<
 virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetUARTStrStatus</b> (const int uart_num)</td></tr>
 <tr class="memitem:a1d5573000eda25b437eb600e37e60eea" id="r_a1d5573000eda25b437eb600e37e60eea"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d5573000eda25b437eb600e37e60eea">GetClkLabel</a> (void)</td></tr>
 <tr class="memdesc:a1d5573000eda25b437eb600e37e60eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the description of clk label.  <br /></td></tr>
+<tr class="memitem:a67439dca120888716f103c1c5e829547" id="r_a67439dca120888716f103c1c5e829547"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67439dca120888716f103c1c5e829547">MSetSimulationRun</a> (int run)</td></tr>
+<tr class="memdesc:a67439dca120888716f103c1c5e829547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when simulation is paused or resumed.  <br /></td></tr>
+<tr class="memitem:a7c0070dacaaec7bb1ed30dc61ed5a0c9" id="r_a7c0070dacaaec7bb1ed30dc61ed5a0c9"><td class="memItemLeft" align="right" valign="top"><a id="a7c0070dacaaec7bb1ed30dc61ed5a0c9" name="a7c0070dacaaec7bb1ed30dc61ed5a0c9"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPWActiveProject</b> (void)</td></tr>
+<tr class="memdesc:a7c0070dacaaec7bb1ed30dc61ed5a0c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the active project created by Project Wizard. <br /></td></tr>
+<tr class="memitem:ac6bb705d66db31487894740fc2a14496" id="r_ac6bb705d66db31487894740fc2a14496"><td class="memItemLeft" align="right" valign="top"><a id="ac6bb705d66db31487894740fc2a14496" name="ac6bb705d66db31487894740fc2a14496"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPWActiveProject</b> (std::string path)</td></tr>
+<tr class="memdesc:ac6bb705d66db31487894740fc2a14496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active project created by Project Wizard. <br /></td></tr>
+<tr class="memitem:ac2ac59b404b3f9e44c9904cb5e5c7155" id="r_ac2ac59b404b3f9e44c9904cb5e5c7155"><td class="memItemLeft" align="right" valign="top"><a id="ac2ac59b404b3f9e44c9904cb5e5c7155" name="ac2ac59b404b3f9e44c9904cb5e5c7155"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPWProjectType</b> (void)</td></tr>
+<tr class="memdesc:ac2ac59b404b3f9e44c9904cb5e5c7155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the active project type created by Project Wizard. <br /></td></tr>
+<tr class="memitem:a4166a16d7f90c8a20717ddaf8b151582" id="r_a4166a16d7f90c8a20717ddaf8b151582"><td class="memItemLeft" align="right" valign="top"><a id="a4166a16d7f90c8a20717ddaf8b151582" name="a4166a16d7f90c8a20717ddaf8b151582"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPWProjectType</b> (std::string type)</td></tr>
+<tr class="memdesc:a4166a16d7f90c8a20717ddaf8b151582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active project type created by Project Wizard. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -491,6 +509,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 <a class="el" href="struct_timers__t.html">Timers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Timers</b> [MAX_TIMERS]</td></tr>
 <tr class="memitem:a7c60dc59e713fb33b828446774936d77" id="r_a7c60dc59e713fb33b828446774936d77"><td class="memItemLeft" align="right" valign="top"><a id="a7c60dc59e713fb33b828446774936d77" name="a7c60dc59e713fb33b828446774936d77"></a>
 <a class="el" href="struct_timers__t.html">Timers_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>TimersList</b> [MAX_TIMERS]</td></tr>
+<tr class="memitem:afa5ba230fc2c9f9559a2ee979acc39d9" id="r_afa5ba230fc2c9f9559a2ee979acc39d9"><td class="memItemLeft" align="right" valign="top"><a id="afa5ba230fc2c9f9559a2ee979acc39d9" name="afa5ba230fc2c9f9559a2ee979acc39d9"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>pw_active_project</b></td></tr>
+<tr class="memitem:a89eaadef1a5ecef8a17069e21859905e" id="r_a89eaadef1a5ecef8a17069e21859905e"><td class="memItemLeft" align="right" valign="top"><a id="a89eaadef1a5ecef8a17069e21859905e" name="a89eaadef1a5ecef8a17069e21859905e"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>pw_project_type</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Board class. </p>
@@ -1124,35 +1146,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
-<a id="a4b88ed79997741904b4a9a149d905e54" name="a4b88ed79997741904b4a9a149d905e54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b88ed79997741904b4a9a149d905e54">&#9670;&#160;</a></span>EndServers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void board::EndServers </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>board servers shutdown </p>
-
-<p>Reimplemented in <a class="el" href="classbsim__picsim.html#aecd50bbd1b99a5f15ef795efcd370c54">bsim_picsim</a>, <a class="el" href="classbsim__remote.html#a45ea073d3dc6d5fe70093e088bed2080">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a5e87de88c526eb99d79dc48a884d0bac">bsim_simavr</a>, and <a class="el" href="classcboard___breadboard.html#a4c280d38a15be321f3c091a1bf42dd98">cboard_Breadboard</a>.</p>
-
-</div>
-</div>
 <a id="af488862ed0473a290b5a61e0078fd206" name="af488862ed0473a290b5a61e0078fd206"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af488862ed0473a290b5a61e0078fd206">&#9670;&#160;</a></span>EvKeyPress()</h2>
 
@@ -1464,6 +1457,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="ada5e7ecf5a796f295fbe5349ecaa6ac7" name="ada5e7ecf5a796f295fbe5349ecaa6ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5e7ecf5a796f295fbe5349ecaa6ac7">&#9670;&#160;</a></span>GetDebuggers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string board::GetDebuggers </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return board supported debug interfaces name. </p>
+
+<p>Implemented in <a class="el" href="classbsim__gpsim.html#a5fb884e66a844ac15806ad2421dfe15d">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#ae47b6c27afddb41cae72542085cc2f07">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#ab233086ffed6e6691ce806dff55fb7b8">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a824c3959c3f735a1c97225631eb24c53">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#ad4f60b3270fe09aa77e75ba163ffa508">bsim_simavr</a>, <a class="el" href="classbsim__ucsim.html#a72f94bcbbe944d83bed4ca30fb9c16ca">bsim_ucsim</a>, and <a class="el" href="classcboard___breadboard.html#a5fbea368896b8a812d5c61a13106e561">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
 <a id="a8f65a9265cae61c7d5435858989f326c" name="a8f65a9265cae61c7d5435858989f326c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f65a9265cae61c7d5435858989f326c">&#9670;&#160;</a></span>GetDebugName()</h2>
 
@@ -1609,6 +1631,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 
 </div>
 </div>
+<a id="adc829016e5c9974a2673d63269d09682" name="adc829016e5c9974a2673d63269d09682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc829016e5c9974a2673d63269d09682">&#9670;&#160;</a></span>GetSimBackends()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string board::GetSimBackends </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return board backends name. </p>
+
+<p>Implemented in <a class="el" href="classbsim__gpsim.html#a211cc1e2f808ea9a055221e42c73f588">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#a8a654cfc1cbffcb5af1e73808a186c9d">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a823169eee94f177ea65fb0603753dc68">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a47af33f05e370728cc98524938470fa5">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a142055bb038ee0f73be322c046ca66d8">bsim_simavr</a>, <a class="el" href="classbsim__ucsim.html#a9669409cd30888adeccb9abf3bb13331">bsim_ucsim</a>, and <a class="el" href="classcboard___breadboard.html#a8c6162c822115a306f54d7cabf85ea24">cboard_Breadboard</a>.</p>
+
+</div>
+</div>
 <a id="ad12ec2c3d4be15af9bf825abba887fef" name="ad12ec2c3d4be15af9bf825abba887fef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad12ec2c3d4be15af9bf825abba887fef">&#9670;&#160;</a></span>GetSupportedDevices()</h2>
 
@@ -1635,6 +1686,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 <p>Return a list of supported microcontrollers. </p>
 
 <p>Implemented in <a class="el" href="classcboard___arduino___mega.html#a13f8aa45d6b2dc3aee475a0a6ef42c4d">cboard_Arduino_Mega</a>, <a class="el" href="classcboard___arduino___uno.html#a7b1d3b6873971f573ce7b7cdd53997a2">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#aadd287006f618fc521393a37dca6467f">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a68fd2f2288785ff4edbf11a1a8f939a4">cboard_Breadboard</a>, <a class="el" href="classcboard___c3___dev_kit_c.html#aa3d50d90393da43d45b4305734a27ebf">cboard_C3_DevKitC</a>, <a class="el" href="classcboard___curiosity.html#ab7c0ded5872c084d2df1b03e1b98f7e8">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#a279bb61a4479d2eeed805ffc66dda323">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___dev_kit_c.html#ae4eab018d97114dbb84d076344e71a56">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#a86d221daf81620ccca1aac0540b53e0b">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard__gpboard.html#a5d563d155521b8414c41e5c7383a9508">cboard_gpboard</a>, <a class="el" href="classcboard___k16_f.html#a900905aafccafb728c393c299a6d6e57">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a996e5edb23b37b60f8798fb7c2ce137e">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#a6892d2914da1fff0b639b81c9580b0e0">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#adb1b102c415d617080565415b6f57e2d">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a0c44115aee6a41abd68979c401b45e79">cboard_PQDB</a>, <a class="el" href="classcboard___remote_t_c_p.html#a6c7c1f0b1fd8cefbee6e1047ed8ee924">cboard_RemoteTCP</a>, <a class="el" href="classcboard___s_t_m32___h103.html#a7ae725f0d2322edc0ba49fed71fb30ca">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#a804ec9165f313650aa8ce999bec69993">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#a1b3cd82ccb8f75820ac39966bc814bfe">cboard_x</a>, and <a class="el" href="classcboard___xpress.html#a13a13561d9cf2061004d2a82995f442f">cboard_Xpress</a>.</p>
+
+</div>
+</div>
+<a id="a899a7635c30ade09550f368b39cfa29a" name="a899a7635c30ade09550f368b39cfa29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899a7635c30ade09550f368b39cfa29a">&#9670;&#160;</a></span>GetSupportedIDEs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string board::GetSupportedIDEs </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a list of supported IDEs in project wizard. </p>
+
+<p>Reimplemented in <a class="el" href="classcboard___arduino___uno.html#a401ebd1ade3b45eef4cbb476ba2898c4">cboard_Arduino_Uno</a>, <a class="el" href="classcboard___blue___pill.html#ab4f9379aa81bab8f2cc2e799da0b21d9">cboard_Blue_Pill</a>, <a class="el" href="classcboard___breadboard.html#a762fc78cea30a64013fc74620304c85e">cboard_Breadboard</a>, <a class="el" href="classcboard___c3___dev_kit_c.html#ad55c8668012810d1b7e4c6fdf7eb495b">cboard_C3_DevKitC</a>, <a class="el" href="classcboard___curiosity.html#a5c1c1d11be23fe1d475dd3072cba0c26">cboard_Curiosity</a>, <a class="el" href="classcboard___curiosity___h_p_c.html#ab440dfdba9d2290cf2b1bbddc9a72b5a">cboard_Curiosity_HPC</a>, <a class="el" href="classcboard___dev_kit_c.html#aa402f30bca33c342ab378242968df643">cboard_DevKitC</a>, <a class="el" href="classcboard___franzininho___d_i_y.html#aff29f17fab9a85b33f2a6b18ee1e2fd4">cboard_Franzininho_DIY</a>, <a class="el" href="classcboard___k16_f.html#adc7bdbfebb85abc08c022b56f6a1b103">cboard_K16F</a>, <a class="el" href="classcboard___mc_lab1.html#a795e56b2ddced503625df3fc55b6cd3a">cboard_McLab1</a>, <a class="el" href="classcboard___mc_lab2.html#af1ea5211436219771f0fabcdfe7cd704">cboard_McLab2</a>, <a class="el" href="classcboard___p_i_c_genios.html#a370dfaccbb263daf8fbab55f918477de">cboard_PICGenios</a>, <a class="el" href="classcboard___p_q_d_b.html#a78f534798d6f6fa6b5c6b395b8766e98">cboard_PQDB</a>, <a class="el" href="classcboard___s_t_m32___h103.html#ae25273b7cf3848572384a99b0796ca1d">cboard_STM32_H103</a>, <a class="el" href="classcboard__u_cboard.html#aee7d724a18d1d009ee3d0bfe3ddbc94c">cboard_uCboard</a>, <a class="el" href="classcboard__x.html#afd4627145f8ca4fd384fab540f57c28a">cboard_x</a>, and <a class="el" href="classcboard___xpress.html#a138b6ab8eca5235e6746dc4db909457a">cboard_Xpress</a>.</p>
 
 </div>
 </div>
@@ -2443,6 +2523,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TimersCount</b></td></
 <p>Set serial port name to use. </p>
 
 <p>Implemented in <a class="el" href="classbsim__gpsim.html#a0bf8a38baf69303a4ae2947608814d75">bsim_gpsim</a>, <a class="el" href="classbsim__picsim.html#a7902304a7b07f6551b78fe6d1a3bb37f">bsim_picsim</a>, <a class="el" href="classbsim__qemu.html#a8e9409ea698be82692a0728f3bf85124">bsim_qemu</a>, <a class="el" href="classbsim__remote.html#a7cc90e1ac0f18d3c031432ee2722026e">bsim_remote</a>, <a class="el" href="classbsim__simavr.html#a9aa394b9f2f5e9890cd9989f70ffdd06">bsim_simavr</a>, <a class="el" href="classbsim__ucsim.html#a1d2c45cfeb03efdf190b27ab4b8683ad">bsim_ucsim</a>, <a class="el" href="classcboard___breadboard.html#ab2f791ee36f2e57cf1e105787ddf7085">cboard_Breadboard</a>, and <a class="el" href="classcboard___curiosity___h_p_c.html#adf07be3e004b3ae5ae068350d4155d13">cboard_Curiosity_HPC</a>.</p>
+
+</div>
+</div>
+<a id="a67439dca120888716f103c1c5e829547" name="a67439dca120888716f103c1c5e829547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67439dca120888716f103c1c5e829547">&#9670;&#160;</a></span>MSetSimulationRun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void board::MSetSimulationRun </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>run</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when simulation is paused or resumed. </p>
+
+<p>Reimplemented in <a class="el" href="classbsim__qemu.html#aaa9dae025f269b254d2cf12a19faf1b6">bsim_qemu</a>.</p>
 
 </div>
 </div>

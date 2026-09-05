@@ -8,9 +8,10 @@ var classcpart__ds1621 =
     [ "OnMouseButtonPress", "classcpart__ds1621.html#a6b4cba3fb1bf7de61acd3d1339a3ae7b", null ],
     [ "OnMouseButtonRelease", "classcpart__ds1621.html#a246e32d6a0bc9ee01e220bc9f3fd5002", null ],
     [ "OnMouseMove", "classcpart__ds1621.html#af8de9a457f1cb682b7dd903dc8ea1b7c", null ],
+    [ "PreferencesNumberFields", "classcpart__ds1621.html#a2340044d5a8d21b2c1a3a75e23f6f187", null ],
     [ "PreProcess", "classcpart__ds1621.html#acf09b2f756aca26ef3fc077ab054d4ec", null ],
     [ "Process", "classcpart__ds1621.html#a87500762ca388801737ad355a730a860", null ],
-    [ "ReadPreferences", "classcpart__ds1621.html#a719aa00cffecdc55a1c50855a210f143", null ],
+    [ "ReadPreferences", "classcpart__ds1621.html#aa4ff82d94ce2b19979f886edd711b888", null ],
     [ "ReadPropertiesWindow", "classcpart__ds1621.html#ac205d3e38b06eb16fe12cd7a1af82f2b", null ],
     [ "WritePreferences", "classcpart__ds1621.html#a1b43a9acb1950994fff1b59558bb0f48", null ]
 ];

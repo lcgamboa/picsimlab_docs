@@ -1,0 +1,5 @@
+<map id="cpart_bmp280::ReadPreferences" name="cpart_bmp280::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,238,33"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="286,5,378,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,17,273,19,267,19,238,22"/>
+</map>

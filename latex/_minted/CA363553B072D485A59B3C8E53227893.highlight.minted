@@ -1,0 +1,28 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+info
+Board:\PYG{+w}{     }Arduino\PYG{+w}{ }Uno
+Processor:\PYG{+w}{ }atmega328p
+Frequency:\PYG{+w}{   }\PYG{l+m}{16000000}\PYG{+w}{ }Hz
+Use\PYG{+w}{ }Spare:\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }board.out\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}L}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{  }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}:\PYG{+w}{ }LEDs
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{08}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}1}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{09}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}2}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{30}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{10}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}3}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{11}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}4}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{12}\PYG{o}{]}\PYG{+w}{ }LD\PYGZus{}5\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{13}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}6}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{14}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}7}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{254}
+\PYG{+w}{  }part\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}:\PYG{+w}{ }Buzzer
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}.out\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{LD\PYGZus{}1}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{140}
+\PYG{+w}{  }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}:\PYG{+w}{ }Push\PYG{+w}{ }buttons
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}1}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}2}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{0}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}3}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{03}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}4}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{04}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}5}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{05}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}6}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{06}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}7}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+\PYG{+w}{    }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{07}\PYG{o}{]}\PYG{+w}{ }\PYG{n+nv}{PB\PYGZus{}8}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}
+Ok
+\end{MintedVerbatim}

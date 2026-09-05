@@ -1,3 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_c_spare_parts.html" title=" " alt="" coords="5,5,106,33"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,132,93,159"/>
+<area shape="rect" id="Node000001" href="$class_c_p_window1.html" title="CPWindow1 class." alt="" coords="141,5,235,32"/>
+<area shape="poly" id="edge29_Node000000_Node000001" title=" " alt="" coords="67,118,99,80,139,42,160,31,156,34,142,46,103,84,71,121"/>
+<area shape="rect" id="Node000002" href="$class_c_p_window2.html" title=" " alt="" coords="141,56,235,83"/>
+<area shape="poly" id="edge30_Node000000_Node000002" title=" " alt="" coords="86,122,139,92,163,81,159,85,142,97,90,126"/>
+<area shape="rect" id="Node000003" href="$class_c_p_window3.html" title=" " alt="" coords="141,107,235,133"/>
+<area shape="poly" id="edge31_Node000000_Node000003" title=" " alt="" coords="107,132,142,127,138,130,109,137"/>
+<area shape="rect" id="Node000004" href="$class_c_p_window4.html" title="CPWindow4 class." alt="" coords="141,157,235,184"/>
+<area shape="poly" id="edge32_Node000000_Node000004" title=" " alt="" coords="107,153,143,161,138,163,108,159"/>
+<area shape="rect" id="Node000005" href="$class_c_p_window5.html" title="CPWindow5 class." alt="" coords="141,208,235,235"/>
+<area shape="poly" id="edge33_Node000000_Node000005" title=" " alt="" coords="88,164,142,194,164,207,159,208,139,198,88,169"/>
+<area shape="rect" id="Node000006" href="$class_c_p_window6.html" title=" " alt="" coords="141,259,235,285"/>
+<area shape="poly" id="edge34_Node000000_Node000006" title=" " alt="" coords="70,168,103,207,142,245,161,258,155,258,139,249,99,210,68,173"/>
 </map>

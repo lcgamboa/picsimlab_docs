@@ -14,5 +14,9 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "picsimlab4.h", "picsimlab4_8h_source.html", null ],
     [ "picsimlab4_d.cc", "picsimlab4__d_8cc_source.html", null ],
     [ "picsimlab5.h", "picsimlab5_8h_source.html", null ],
-    [ "picsimlab5_d.cc", "picsimlab5__d_8cc_source.html", null ]
+    [ "picsimlab5_d.cc", "picsimlab5__d_8cc_source.html", null ],
+    [ "picsimlab6.h", "picsimlab6_8h_source.html", null ],
+    [ "picsimlab6_d.cc", "picsimlab6__d_8cc_source.html", null ],
+    [ "picsimlab6_mplabx.h", "picsimlab6__mplabx_8h_source.html", null ],
+    [ "picsimlab6_vspio.h", "picsimlab6__vspio_8h_source.html", null ]
 ];

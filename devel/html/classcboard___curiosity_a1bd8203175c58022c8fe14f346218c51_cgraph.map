@@ -1,0 +1,7 @@
+<map id="cboard_Curiosity::ReadPreferences" name="cboard_Curiosity::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences." alt="" coords="5,31,234,57"/>
+<area shape="rect" id="Node000002" href="$classboard.html#ac6bb705d66db31487894740fc2a14496" title="Set the active project created by Project Wizard." alt="" coords="282,5,462,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,30,269,29,264,30,234,35"/>
+<area shape="rect" id="Node000003" href="$classboard.html#a4166a16d7f90c8a20717ddaf8b151582" title="Set the active project type created by Project Wizard." alt="" coords="286,56,458,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,53,273,59,267,59,234,58"/>
+</map>

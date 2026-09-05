@@ -17,8 +17,10 @@
    
    
    
-   
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
    
    
    
@@ -35,6 +37,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -52,16 +56,13 @@
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
    <span class='sectionToc'>6.1 <a href='PICsim.html#picsim'>PICsim</a></span>
-                                                                  
-
-                                                                  
    
    <span class='sectionToc'>6.2 <a href='simavr.html#simavr'>simavr</a></span>
    
    
-   <span class='sectionToc'>6.3 <a href='qemustm32.html#qemustm'>qemu-stm32</a></span>
+   <span class='sectionToc'>6.3 <a href='qemustm32.html#qemustm32'>qemu-stm32</a></span>
    <span class='subsectionToc'>6.3.1 <a href='#armgdb-debug'>arm-gdb Debug</a></span>
-   <span class='sectionToc'>6.4 <a href='qemuESP32.html#qemuesp'>qemu-ESP32</a></span>
+   <span class='sectionToc'>6.4 <a href='qemuESP32.html#qemuesp32'>qemu-ESP32</a></span>
    
    <span class='sectionToc'>6.5 <a href='uCsim.html#ucsim'>uCsim</a></span>
    
@@ -92,18 +93,8 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
    
    
    
@@ -150,9 +141,17 @@
    
    
    
-                                                                  
-
-                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
    <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
    <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
    <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
@@ -189,35 +188,31 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='qemustm32.html#armgdbDebug.html'>up</a>] </nav> 
-<h4 class='subsectionHead' id='armgdb-debug'><span class='titlemark'>6.3.1    </span> <a id='x50-490006.3.1'></a>arm-gdb Debug</h4>
+<h4 class='subsectionHead' id='armgdb-debug'><span class='titlemark'>6.3.1    </span> <a id='x52-510006.3.1'></a>arm-gdb Debug</h4>
 <!--  l. 84  --><p class='noindent'><a id='def_gdbarm'></a>
-</p><!--  l. 86  --><p class='indent'>   With debug support enabled you can use arm-none-eabi-gdb (or gdb-multiarch) to debug
-the code used in the simulator.
+</p><!--  l. 86  --><p class='indent'>   With debug support enabled you can use arm-none-eabi-gdb (or gdb-multiarch) to debug the code used in the
+simulator.
 </p><!--  l. 88  --><p class='indent'>   Use arm-none-eabi-gdb with the .elf file as the parameter:
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
 </p>
    <pre class='verbatim' id='verbatim-8'>
  arm-none-eabi-gdb compiled_file.elf
  
 </pre>
 <!--  l. 91  --><p class='nopar'> and the command below to connect (1234 is the default port):
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
 </p>
    <pre class='verbatim' id='verbatim-9'>
  target extended-remote localhost:1234
  
 </pre>
 <!--  l. 95  --><p class='nopar'>
-</p><!--  l. 97  --><p class='indent'>   Graphic debug mode can be made using <a href='https://www.eclipse.org/' target='_blank'>eclipse IDE</a> with <a href='https://projects.eclipse.org/projects/iot.embed-cdt' target='_blank'>Eclipse Embedded CDT</a> or
-using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add the configuration lines below in the project’s
-<span class='textbf'>platformio.ini</span> file:
-                                                                  
-
-                                                                  
+</p><!--  l. 97  --><p class='indent'>   Graphic debug mode can be made using <a href='https://www.eclipse.org/' target='_blank'>eclipse IDE</a> with <a href='https://projects.eclipse.org/projects/iot.embed-cdt' target='_blank'>Eclipse Embedded CDT</a> or using <a href='https://platformio.org/' target='_blank'>platformIO in VSCode</a>, just add
+the configuration lines below in the project’s <span class='textbf'>platformio.ini</span> file:
+                                                                                         
+                                                                                         
 </p>
    <pre class='verbatim' id='verbatim-10'>
 upload_protocol = custom
@@ -246,22 +241,18 @@ debug_init_cmds =
 </p>
    <figure class='figure'> 
 
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
 <!--  l. 126  --><p class='noindent'><img alt='PIC' src='img/configcube.png' style='width:99%' />
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
 </p>
    </figure>
-                                                                  
-
-                                                                  
-   <nav class='crosslinks-bottom'>[<a href='qemustm32.html#armgdbDebug.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='qemustm32.html#armgdbDebug.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

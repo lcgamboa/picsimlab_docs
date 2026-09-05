@@ -1,0 +1,34 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{ }\PYG{n+nb}{help}
+List\PYG{+w}{ }of\PYG{+w}{ }supported\PYG{+w}{ }commands:
+\PYG{+w}{  }blist\PYG{+w}{                }\PYGZhy{}\PYG{+w}{ }list\PYG{+w}{ }supported\PYG{+w}{ }boards
+\PYG{+w}{  }buclist\PYG{+w}{              }\PYGZhy{}\PYG{+w}{ }list\PYG{+w}{ }board\PYG{+w}{ }supported\PYG{+w}{ }MCUs
+\PYG{+w}{  }clk\PYG{+w}{ }\PYG{o}{[}val\PYG{+w}{ }MHz\PYG{o}{]}\PYG{+w}{        }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }or\PYG{+w}{ }\PYG{n+nb}{set}\PYG{+w}{ }simulation\PYG{+w}{ }clock
+\PYG{+w}{  }dumpe\PYG{+w}{ }\PYG{o}{[}addr\PYG{o}{]}\PYG{+w}{ }\PYG{o}{[}count\PYG{o}{]}\PYG{+w}{ }\PYGZhy{}\PYG{+w}{ }dump\PYG{+w}{ }internal\PYG{+w}{ }EEPROM\PYG{+w}{ }memory
+\PYG{+w}{  }dumpf\PYG{+w}{ }\PYG{o}{[}addr\PYG{o}{]}\PYG{+w}{ }\PYG{o}{[}count\PYG{o}{]}\PYG{+w}{ }\PYGZhy{}\PYG{+w}{ }dump\PYG{+w}{ }Flash\PYG{+w}{ }memory
+\PYG{+w}{  }dumpr\PYG{+w}{ }\PYG{o}{[}addr\PYG{o}{]}\PYG{+w}{ }\PYG{o}{[}count\PYG{o}{]}\PYG{+w}{ }\PYGZhy{}\PYG{+w}{ }dump\PYG{+w}{ }RAM\PYG{+w}{ }memory
+\PYG{+w}{  }\PYG{n+nb}{exit}\PYG{+w}{                 }\PYGZhy{}\PYG{+w}{ }shutdown\PYG{+w}{ }PICSimLab
+\PYG{+w}{  }get\PYG{+w}{ }obj\PYG{+w}{              }\PYGZhy{}\PYG{+w}{ }get\PYG{+w}{ }object\PYG{+w}{ }value
+\PYG{+w}{  }\PYG{n+nb}{help}\PYG{+w}{                 }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }this\PYG{+w}{ }message
+\PYG{+w}{  }info\PYG{+w}{                 }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }actual\PYG{+w}{ }setup\PYG{+w}{ }info\PYG{+w}{ }and\PYG{+w}{ }objs
+\PYG{+w}{  }loadhex\PYG{+w}{ }file\PYG{+w}{         }\PYGZhy{}\PYG{+w}{ }load\PYG{+w}{ }hex/bin\PYG{+w}{ }file\PYG{+w}{ }\PYG{o}{(}full\PYG{+w}{ }path\PYG{o}{)}
+\PYG{+w}{  }oscmeasures\PYG{+w}{ }ch\PYG{+w}{       }\PYGZhy{}\PYG{+w}{ }\PYG{n+nb}{read}\PYG{+w}{ }osc\PYG{+w}{ }channel\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }or\PYG{+w}{ }\PYG{l+m}{2}\PYG{+w}{ }measures
+\PYG{+w}{  }oscrdcfg\PYG{+w}{             }\PYGZhy{}\PYG{+w}{ }\PYG{n+nb}{read}\PYG{+w}{ }osc\PYG{+w}{ }configuration
+\PYG{+w}{  }oscwrcfg\PYG{+w}{ }idx\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}cfg\PYGZdq{}}\PYG{+w}{   }\PYGZhy{}\PYG{+w}{ }write\PYG{+w}{ }osc\PYG{+w}{ }configuration
+\PYG{+w}{  }oscshow\PYG{+w}{ }\PYG{o}{[}\PYG{l+m}{0}/1\PYG{o}{]}\PYG{+w}{        }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }status\PYG{+w}{ }or\PYG{+w}{ }toggle\PYG{+w}{ }osc\PYG{+w}{ }window
+\PYG{+w}{  }pins\PYG{+w}{                 }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }pins\PYG{+w}{ }directions\PYG{+w}{ }and\PYG{+w}{ }values
+\PYG{+w}{  }pinsl\PYG{+w}{                }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }pins\PYG{+w}{ }formatted\PYG{+w}{ }info
+\PYG{+w}{  }quit\PYG{+w}{                 }\PYGZhy{}\PYG{+w}{ }quit\PYG{+w}{ }remote\PYG{+w}{ }control\PYG{+w}{ }interface
+\PYG{+w}{  }reset\PYG{+w}{                }\PYGZhy{}\PYG{+w}{ }reset\PYG{+w}{ }the\PYG{+w}{ }board
+\PYG{+w}{  }\PYG{n+nb}{set}\PYG{+w}{ }obj\PYG{+w}{ }value\PYG{+w}{        }\PYGZhy{}\PYG{+w}{ }\PYG{n+nb}{set}\PYG{+w}{ }object\PYG{+w}{ }with\PYG{+w}{ }value
+\PYG{+w}{  }sim\PYG{+w}{ }\PYG{o}{[}start/stop\PYG{o}{]}\PYG{+w}{     }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }status\PYG{+w}{ }or\PYG{+w}{ }start/stop\PYG{+w}{ }sim
+\PYG{+w}{  }spadd\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}pname\PYGZdq{}}\PYG{+w}{ }x\PYG{+w}{ }y\PYG{+w}{    }\PYGZhy{}\PYG{+w}{ }adds\PYG{+w}{ }the\PYG{+w}{ }named\PYG{+w}{ }spare\PYG{+w}{ }part
+\PYG{+w}{  }spdel\PYG{+w}{ }pid/all\PYG{+w}{        }\PYGZhy{}\PYG{+w}{ }delete\PYG{+w}{ }one\PYG{+w}{ }spare\PYG{+w}{ }part\PYG{+w}{ }or\PYG{+w}{ }all
+\PYG{+w}{  }sprdcfg\PYG{+w}{ }pid\PYG{+w}{          }\PYGZhy{}\PYG{+w}{ }\PYG{n+nb}{read}\PYG{+w}{ }spare\PYG{+w}{ }part\PYG{+w}{ }configuration
+\PYG{+w}{  }spwrcfg\PYG{+w}{ }pid\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}cfg\PYGZdq{}}\PYG{+w}{    }\PYGZhy{}\PYG{+w}{ }write\PYG{+w}{ }spare\PYG{+w}{ }part\PYG{+w}{ }configuration
+\PYG{+w}{  }splist\PYG{+w}{               }\PYGZhy{}\PYG{+w}{ }list\PYG{+w}{ }supported\PYG{+w}{ }spare\PYG{+w}{ }parts
+\PYG{+w}{  }spshow\PYG{+w}{ }\PYG{o}{[}\PYG{l+m}{0}/1\PYG{o}{]}\PYG{+w}{         }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }status\PYG{+w}{ }or\PYG{+w}{ }toggle\PYG{+w}{ }sp\PYG{+w}{ }window
+\PYG{+w}{  }sync\PYG{+w}{                 }\PYGZhy{}\PYG{+w}{ }\PYG{n+nb}{wait}\PYG{+w}{ }to\PYG{+w}{ }sync\PYG{+w}{ }with\PYG{+w}{ }timer\PYG{+w}{ }event
+\PYG{+w}{  }version\PYG{+w}{              }\PYGZhy{}\PYG{+w}{ }show\PYG{+w}{ }PICSimLab\PYG{+w}{ }version
+Ok
+\end{MintedVerbatim}

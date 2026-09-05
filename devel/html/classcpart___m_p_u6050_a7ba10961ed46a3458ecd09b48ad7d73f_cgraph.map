@@ -1,0 +1,5 @@
+<map id="cpart_MPU6050::ReadPreferences" name="cpart_MPU6050::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,247,33"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="295,5,387,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,17,282,19,276,19,247,22"/>
+</map>

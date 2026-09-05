@@ -1,0 +1,237 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Project Wizard Window</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   <span class='sectionToc'>3.1 <a href='MainWindow.html#main-window'>Main Window</a></span>
+   
+   <span class='sectionToc'>3.2 <a href='ConfigurationWindow.html#configuration-window'>Configuration Window</a></span>
+   <span class='sectionToc'>3.3 <a href='#project-wizard-window'>Project Wizard Window</a></span>
+   <span class='sectionToc'>3.4 <a href='InteractionwiththeBoard.html#interaction-with-the-board'>Interaction with the Board</a></span>
+   <span class='sectionToc'>3.5 <a href='CommandLine.html#command-line'>Command Line</a></span>
+   <span class='sectionToc'>3.6 <a href='RemoteControlInterface.html#remote-control-interface'>Remote Control Interface</a></span>
+   <span class='sectionToc'>3.7 <a href='PictureMapReference.html#picture-map-reference'>Picture Map Reference</a></span>
+   <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='ConfigurationWindow.html'>prev</a>] [<a href='SimulatorInterface.html#ProjectWizardWindow.html'>up</a>] [<a href='InteractionwiththeBoard.html'>next</a>] </nav> 
+<h3 class='sectionHead' id='project-wizard-window'><span class='titlemark'>3.3    </span> <a id='x14-130003.3'></a>Project Wizard Window</h3>
+<!--  l. 122  --><p class='noindent'><a id='def_prjwizard'></a>
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+<!--  l. 127  --><p class='noindent'><img alt='PIC' src='img/ProjectWizard.png' style='width:70%' />
+                                                                                         
+                                                                                         
+</p>
+   </figure>
+<!--  l. 130  --><p class='indent'>   The "PICSimLab - Project Wizard" window is an interface for creating a new code project in PICSimLab. Here’s how each
+option works:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>Board: Displays the name of the selected board.
+     </li>
+     <li class='itemize'>Microcontroller: Displays the name of the microcontroller selected for the chosen board.
+     </li>
+     <li class='itemize'>IDE:  Specifies  the  integrated  development  environment  (IDE)  to  be  used  for  the  project  to  be  created.  The
+     options vary depending on the chosen board and microcontroller. The available options are "PlatformIO IDE for
+     VSCode" and "MPLABX IDE".
+     </li>
+     <li class='itemize'>Framework: Specifies the framework to be used according to the chosen board.
+     </li>
+     <li class='itemize'>Template: Specifies the code template to be loaded according to the chosen framework.
+     </li>
+     <li class='itemize'>Project Name: Specifies the name of your project.
+     </li>
+     <li class='itemize'>Button Create: Creates a new project with the selected settings.
+     </li>
+     <li class='itemize'>Button Create and Open: Creates a new project and opens the selected IDE.
+     </li>
+     <li class='itemize'>Button Cancel: Cancels the creation of the project and closes the window.
+     </li>
+     <li class='itemize'>Button Help: Opens this PICSimLab documentation about the ProjectWizard.
+     </li>
+     <li class='itemize'>Button Open Existing: Opens an existing project and associates it as the active project.</li></ul>
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='ConfigurationWindow.html'>prev</a>] [<a href='SimulatorInterface.html#ProjectWizardWindow.html'>up</a>] [<a href='InteractionwiththeBoard.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

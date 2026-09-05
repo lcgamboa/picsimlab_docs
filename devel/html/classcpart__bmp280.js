@@ -8,9 +8,10 @@ var classcpart__bmp280 =
     [ "OnMouseButtonPress", "classcpart__bmp280.html#adfa61804066b92ef45a0fd8a4ff56649", null ],
     [ "OnMouseButtonRelease", "classcpart__bmp280.html#ae68fe8a83b80b0f5a93e369d7b4ead12", null ],
     [ "OnMouseMove", "classcpart__bmp280.html#a524c184420279d17c74b504cdceddd4b", null ],
+    [ "PreferencesNumberFields", "classcpart__bmp280.html#ad739467947390b7f15afef607379cf03", null ],
     [ "PreProcess", "classcpart__bmp280.html#a47b54455d4dad5236304b25408f7813f", null ],
     [ "Process", "classcpart__bmp280.html#a6458ae24c9a043a27aefa85e2adcce1b", null ],
-    [ "ReadPreferences", "classcpart__bmp280.html#ab339cfafebe435abdbe155262199bc2b", null ],
+    [ "ReadPreferences", "classcpart__bmp280.html#a03cf6f61b77c65a398791fd1f66d5c5c", null ],
     [ "ReadPropertiesWindow", "classcpart__bmp280.html#a5ecc2fa3a0ddfb627436a94975bdf705", null ],
     [ "WritePreferences", "classcpart__bmp280.html#a9714fdb654bd7deda5a71aafa8f95db0", null ]
 ];

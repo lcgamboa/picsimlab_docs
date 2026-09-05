@@ -52,6 +52,7 @@ var hierarchy =
     [ "CanvasCmd_t", "struct_canvas_cmd__t.html", null ],
     [ "ch_status_t", "structch__status__t.html", null ],
     [ "channel_pwm_t", "structchannel__pwm__t.html", null ],
+    [ "client_t", "structclient__t.html", null ],
     [ "cmd_header_t", "structcmd__header__t.html", null ],
     [ "colorval_t", "structcolorval__t.html", null ],
     [ "COscilloscope", "class_c_oscilloscope.html", null ],
@@ -61,7 +62,8 @@ var hierarchy =
       [ "CPWindow2", "class_c_p_window2.html", null ],
       [ "CPWindow3", "class_c_p_window3.html", null ],
       [ "CPWindow4", "class_c_p_window4.html", null ],
-      [ "CPWindow5", "class_c_p_window5.html", null ]
+      [ "CPWindow5", "class_c_p_window5.html", null ],
+      [ "CPWindow6", "class_c_p_window6.html", null ]
     ] ],
     [ "CSpareParts", "class_c_spare_parts.html", null ],
     [ "dhcp", "structdhcp.html", null ],

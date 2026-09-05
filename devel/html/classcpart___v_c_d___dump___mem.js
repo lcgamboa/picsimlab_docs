@@ -9,9 +9,10 @@ var classcpart___v_c_d___dump___mem =
     [ "GetPictureFileName", "classcpart___v_c_d___dump___mem.html#a142f3390487110f4325be66aea84f2fd", null ],
     [ "OnMouseButtonPress", "classcpart___v_c_d___dump___mem.html#a8d8471106135ed0e90386cdedfc321e5", null ],
     [ "PostProcess", "classcpart___v_c_d___dump___mem.html#ace2985f21b1a88bf4501e8675b8863c9", null ],
+    [ "PreferencesNumberFields", "classcpart___v_c_d___dump___mem.html#a0cfb28c7c1979230d0591dac9afe1434", null ],
     [ "PreProcess", "classcpart___v_c_d___dump___mem.html#a80d17912189ee8da94b54df1e709d61c", null ],
     [ "Process", "classcpart___v_c_d___dump___mem.html#a6810646109342e51cd5ae956e046bbdb", null ],
-    [ "ReadPreferences", "classcpart___v_c_d___dump___mem.html#a56cdb770e5de1c8aca140037ec68a4f6", null ],
+    [ "ReadPreferences", "classcpart___v_c_d___dump___mem.html#ae42f4f730d4807d12a416759e36168be", null ],
     [ "ReadPropertiesWindow", "classcpart___v_c_d___dump___mem.html#a7cde3d22a411d715fa9fe6b07352ea37", null ],
     [ "RegisterRemoteControl", "classcpart___v_c_d___dump___mem.html#a85f0176a6ca85d105d2e984e5b4bd086", null ],
     [ "WritePreferences", "classcpart___v_c_d___dump___mem.html#a53d3dc12230f6f63894c0e3a5eea3ea1", null ]

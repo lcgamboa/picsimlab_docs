@@ -1,0 +1,5 @@
+<map id="cpart_IO_MCP23S17::ReadPreferences" name="cpart_IO_MCP23S17::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,165,50"/>
+<area shape="rect" id="Node000002" href="$classcpart___i_o___m_c_p23_s17.html#ae2485df55172ad6e80b83b33e0666b3b" title="Reset part status." alt="" coords="213,5,372,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,25,200,27,195,28,165,30"/>
+</map>

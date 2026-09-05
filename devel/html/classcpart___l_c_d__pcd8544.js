@@ -7,8 +7,9 @@ var classcpart___l_c_d__pcd8544 =
     [ "GetOutputId", "classcpart___l_c_d__pcd8544.html#abb7f777d714d67bdcde030c335ff8df6", null ],
     [ "LoadPartImage", "classcpart___l_c_d__pcd8544.html#aceccc963428ba159d32e3bdaa66f278d", null ],
     [ "PostProcess", "classcpart___l_c_d__pcd8544.html#a47bce194c725fd9e2e175f89ffe442f9", null ],
+    [ "PreferencesNumberFields", "classcpart___l_c_d__pcd8544.html#a62db21cd7004e7f94514faaaf3fbdd8e", null ],
     [ "Process", "classcpart___l_c_d__pcd8544.html#ac2adf20ff2fb7714ba9eab21d9e4938c", null ],
-    [ "ReadPreferences", "classcpart___l_c_d__pcd8544.html#ab5a73a0c063c1d2cf3052eaad467f82f", null ],
+    [ "ReadPreferences", "classcpart___l_c_d__pcd8544.html#aeaca58bb4fe257ad741a7c659964848b", null ],
     [ "ReadPropertiesWindow", "classcpart___l_c_d__pcd8544.html#ab9e10d6b0bd0506285af79af0158a972", null ],
     [ "WritePreferences", "classcpart___l_c_d__pcd8544.html#a73d356c225067eb2f618c25548cef9f8", null ]
 ];

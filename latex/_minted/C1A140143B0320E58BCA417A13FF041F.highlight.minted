@@ -1,0 +1,5 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+get\PYG{+w}{ }board.out\PYG{o}{[}\PYG{l+m}{00}\PYG{o}{]}
+
+get\PYG{+w}{ }part\PYG{o}{[}\PYG{l+m}{02}\PYG{o}{]}.in\PYG{o}{[}\PYG{l+m}{01}\PYG{o}{]}
+\end{MintedVerbatim}

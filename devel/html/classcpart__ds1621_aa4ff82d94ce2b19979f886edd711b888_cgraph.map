@@ -1,0 +1,5 @@
+<map id="cpart_ds1621::ReadPreferences" name="cpart_ds1621::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,232,33"/>
+<area shape="rect" id="Node000002" href="$classpart.html#a9da0412a19116a4f52381c17af4e530f" title="Reset part status." alt="" coords="280,5,372,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,17,267,19,262,19,232,22"/>
+</map>

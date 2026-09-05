@@ -127,8 +127,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_EvOnCreate</b> (CCon
 void&#160;</td><td class="memItemRight" valign="bottom"><b>_EvOnDestroy</b> (CControl *control)</td></tr>
 <tr class="memitem:ada93e75e27fbd194bb2218c029f0c830" id="r_ada93e75e27fbd194bb2218c029f0c830"><td class="memItemLeft" align="right" valign="top"><a id="ada93e75e27fbd194bb2218c029f0c830" name="ada93e75e27fbd194bb2218c029f0c830"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>_EvOnShow</b> (CControl *control)</td></tr>
-<tr class="memitem:aa7485b8ae6ba7b9dbb77ed415df4c00e" id="r_aa7485b8ae6ba7b9dbb77ed415df4c00e"><td class="memItemLeft" align="right" valign="top"><a id="aa7485b8ae6ba7b9dbb77ed415df4c00e" name="aa7485b8ae6ba7b9dbb77ed415df4c00e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_EvOnDropFile</b> (CControl *control, const std::string fname)</td></tr>
+<tr class="memitem:a588f00e8309ee1cee5db4c35e2c0a056" id="r_a588f00e8309ee1cee5db4c35e2c0a056"><td class="memItemLeft" align="right" valign="top"><a id="a588f00e8309ee1cee5db4c35e2c0a056" name="a588f00e8309ee1cee5db4c35e2c0a056"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_EvOnDropFile</b> (CControl *control, const lxString fname)</td></tr>
 <tr class="memitem:a9f097f51e99f276bfa0ee9a2e6f55776" id="r_a9f097f51e99f276bfa0ee9a2e6f55776"><td class="memItemLeft" align="right" valign="top"><a id="a9f097f51e99f276bfa0ee9a2e6f55776" name="a9f097f51e99f276bfa0ee9a2e6f55776"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>timer1_EvOnTime</b> (CControl *control)</td></tr>
 <tr class="memitem:afe4d02d65216c404cc70927956cfadcd" id="r_afe4d02d65216c404cc70927956cfadcd"><td class="memItemLeft" align="right" valign="top"><a id="afe4d02d65216c404cc70927956cfadcd" name="afe4d02d65216c404cc70927956cfadcd"></a>
@@ -179,6 +179,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools_ArduinoBo
 void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools_MPLABXDebuggerPlugin_EvMenuActive</b> (CControl *control)</td></tr>
 <tr class="memitem:ab868aaf92417187aa3f97933fab2144d" id="r_ab868aaf92417187aa3f97933fab2144d"><td class="memItemLeft" align="right" valign="top"><a id="ab868aaf92417187aa3f97933fab2144d" name="ab868aaf92417187aa3f97933fab2144d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools_PinViewer_EvMenuActive</b> (CControl *control)</td></tr>
+<tr class="memitem:a4717cbf81b0a4aa8dec40f0e3a568cb9" id="r_a4717cbf81b0a4aa8dec40f0e3a568cb9"><td class="memItemLeft" align="right" valign="top"><a id="a4717cbf81b0a4aa8dec40f0e3a568cb9" name="a4717cbf81b0a4aa8dec40f0e3a568cb9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code_Project_Wizard_EvMenuActive</b> (CControl *control)</td></tr>
+<tr class="memitem:a00327230ef5bcf29760d30608e460d19" id="r_a00327230ef5bcf29760d30608e460d19"><td class="memItemLeft" align="right" valign="top"><a id="a00327230ef5bcf29760d30608e460d19" name="a00327230ef5bcf29760d30608e460d19"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code_Open_Active_Project_EvMenuActive</b> (CControl *control)</td></tr>
+<tr class="memitem:a9223707ea98bbdc6afcf21eb2235de21" id="r_a9223707ea98bbdc6afcf21eb2235de21"><td class="memItemLeft" align="right" valign="top"><a id="a9223707ea98bbdc6afcf21eb2235de21" name="a9223707ea98bbdc6afcf21eb2235de21"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code_Open_Active_Project_Dir_EvMenuActive</b> (CControl *control)</td></tr>
 <tr class="memitem:a547904d0850f5e0c74dc43f3b0344831" id="r_a547904d0850f5e0c74dc43f3b0344831"><td class="memItemLeft" align="right" valign="top"><a id="a547904d0850f5e0c74dc43f3b0344831" name="a547904d0850f5e0c74dc43f3b0344831"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Help_Contents_EvMenuActive</b> (CControl *control)</td></tr>
 <tr class="memitem:afe5fa5e41cf2a9d6175a8e30f29a27bc" id="r_afe5fa5e41cf2a9d6175a8e30f29a27bc"><td class="memItemLeft" align="right" valign="top"><a id="afe5fa5e41cf2a9d6175a8e30f29a27bc" name="afe5fa5e41cf2a9d6175a8e30f29a27bc"></a>
@@ -277,6 +283,8 @@ CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Microcontroll
 CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Modules</b></td></tr>
 <tr class="memitem:a50c686a4954faddb4ee3950d2d6f391f" id="r_a50c686a4954faddb4ee3950d2d6f391f"><td class="memItemLeft" align="right" valign="top"><a id="a50c686a4954faddb4ee3950d2d6f391f" name="a50c686a4954faddb4ee3950d2d6f391f"></a>
 CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools</b></td></tr>
+<tr class="memitem:a82177a124dbdc62843715cdad7055a38" id="r_a82177a124dbdc62843715cdad7055a38"><td class="memItemLeft" align="right" valign="top"><a id="a82177a124dbdc62843715cdad7055a38" name="a82177a124dbdc62843715cdad7055a38"></a>
+CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code</b></td></tr>
 <tr class="memitem:a26f7105786c241520ba36e9e0ce4f106" id="r_a26f7105786c241520ba36e9e0ce4f106"><td class="memItemLeft" align="right" valign="top"><a id="a26f7105786c241520ba36e9e0ce4f106" name="a26f7105786c241520ba36e9e0ce4f106"></a>
 CPMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Help</b></td></tr>
 <tr class="memitem:a93fa1bdae34a64823b422f5db3dcb376" id="r_a93fa1bdae34a64823b422f5db3dcb376"><td class="memItemLeft" align="right" valign="top"><a id="a93fa1bdae34a64823b422f5db3dcb376" name="a93fa1bdae34a64823b422f5db3dcb376"></a>
@@ -311,6 +319,12 @@ CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools_Ardu
 CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools_MPLABXDebuggerPlugin</b></td></tr>
 <tr class="memitem:ac6cd7f83f98d92aaeec6217be40b4c17" id="r_ac6cd7f83f98d92aaeec6217be40b4c17"><td class="memItemLeft" align="right" valign="top"><a id="ac6cd7f83f98d92aaeec6217be40b4c17" name="ac6cd7f83f98d92aaeec6217be40b4c17"></a>
 CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Tools_PinViewer</b></td></tr>
+<tr class="memitem:ab37513566e7679e14e8f40f1667fb4f6" id="r_ab37513566e7679e14e8f40f1667fb4f6"><td class="memItemLeft" align="right" valign="top"><a id="ab37513566e7679e14e8f40f1667fb4f6" name="ab37513566e7679e14e8f40f1667fb4f6"></a>
+CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code_Project_Wizard</b></td></tr>
+<tr class="memitem:ad398e10d159ae30b9a0f464f821d6ded" id="r_ad398e10d159ae30b9a0f464f821d6ded"><td class="memItemLeft" align="right" valign="top"><a id="ad398e10d159ae30b9a0f464f821d6ded" name="ad398e10d159ae30b9a0f464f821d6ded"></a>
+CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code_Open_Active_Project</b></td></tr>
+<tr class="memitem:a0c4b73afcdf46c44b0d7229acb07830c" id="r_a0c4b73afcdf46c44b0d7229acb07830c"><td class="memItemLeft" align="right" valign="top"><a id="a0c4b73afcdf46c44b0d7229acb07830c" name="a0c4b73afcdf46c44b0d7229acb07830c"></a>
+CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Code_Open_Active_Project_Dir</b></td></tr>
 <tr class="memitem:a5e436a1b7c8c2bd085262608be739d3e" id="r_a5e436a1b7c8c2bd085262608be739d3e"><td class="memItemLeft" align="right" valign="top"><a id="a5e436a1b7c8c2bd085262608be739d3e" name="a5e436a1b7c8c2bd085262608be739d3e"></a>
 CItemMenu&#160;</td><td class="memItemRight" valign="bottom"><b>menu1_Help_Contents</b></td></tr>
 <tr class="memitem:a00c82b2aa89d2489d6611fc92f67d8ca" id="r_a00c82b2aa89d2489d6611fc92f67d8ca"><td class="memItemLeft" align="right" valign="top"><a id="a00c82b2aa89d2489d6611fc92f67d8ca" name="a00c82b2aa89d2489d6611fc92f67d8ca"></a>
@@ -354,6 +368,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>crt</b></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>zerocount</b></td></tr>
 <tr class="memitem:a70a46713474cd9a786fcbc480bb449d2" id="r_a70a46713474cd9a786fcbc480bb449d2"><td class="memItemLeft" align="right" valign="top"><a id="a70a46713474cd9a786fcbc480bb449d2" name="a70a46713474cd9a786fcbc480bb449d2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>need_clkupdate</b></td></tr>
+<tr class="memitem:aa31e3127e3d7ed2f9eba4420429659ee" id="r_aa31e3127e3d7ed2f9eba4420429659ee"><td class="memItemLeft" align="right" valign="top"><a id="aa31e3127e3d7ed2f9eba4420429659ee" name="aa31e3127e3d7ed2f9eba4420429659ee"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>force_resize</b></td></tr>
 <tr class="memitem:adc5004b6b4ea4e9c42ca0a27e1155ba1" id="r_adc5004b6b4ea4e9c42ca0a27e1155ba1"><td class="memItemLeft" align="right" valign="top"><a id="adc5004b6b4ea4e9c42ca0a27e1155ba1" name="adc5004b6b4ea4e9c42ca0a27e1155ba1"></a>
 CThread&#160;</td><td class="memItemRight" valign="bottom"><b>thread1</b></td></tr>
 <tr class="memitem:abdb408a60b9f2e4619caca9af7dfa200" id="r_abdb408a60b9f2e4619caca9af7dfa200"><td class="memItemLeft" align="right" valign="top"><a id="abdb408a60b9f2e4619caca9af7dfa200" name="abdb408a60b9f2e4619caca9af7dfa200"></a>

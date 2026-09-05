@@ -17,8 +17,10 @@
    
    
    
-   
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
    
    
    
@@ -49,15 +51,14 @@
    <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
    
    
-                                                                  
-
-                                                                  
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
    
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -73,7 +74,7 @@
    
    
    
-   <span class='sectionToc'>7.3 <a href='Esp8266ModemSimulator.html#esp-modem-simulator'>Esp8266 Modem Simulator</a></span>
+   <span class='sectionToc'>7.3 <a href='Esp8266ModemSimulator.html#esp8266-modem-simulator'>Esp8266 Modem Simulator</a></span>
    
    <span class='sectionToc'>7.4 <a href='ArduinoBootloader.html#arduino-bootloader'>Arduino Bootloader</a></span>
    <span class='sectionToc'>7.5 <a href='MPLABXDebuggerPlugin.html#mplabx-debugger-plugin'>MPLABX Debugger Plugin</a></span>
@@ -98,9 +99,22 @@
    
    
    
-                                                                  
-
-                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
    
    
    
@@ -133,23 +147,6 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                  
-
-                                                                  
    
    
    
@@ -172,6 +169,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -189,34 +188,22 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='PinViewer.html'>prev</a>] [<a href='Tools.html#picsimlabtool.html'>up</a>] </nav> 
-<h3 class='sectionHead' id='picsimlabtool'><span class='titlemark'>7.7    </span> <a id='x68-710007.7'></a>picsimlab_tool</h3>
+<h3 class='sectionHead' id='picsimlabtool'><span class='titlemark'>7.7    </span> <a id='x70-730007.7'></a>picsimlab_tool</h3>
 <!--  l. 183  --><p class='noindent'><a id='def_ptool'></a>
-</p><!--  l. 185  --><p class='indent'>   The <span class='textbf'>picsimlab_tool</span> is a simple command line tool to update the firmware running
-in the PICSimLab simulator. It can be used integrated in development tools (like
-platformio).
-</p><!--  l. 188  --><p class='indent'>   After open the PICSimLab you can use the <span class='textbf'>loadhex</span> with boards based on AVR or
-PICs:
+</p><!--  l. 185  --><p class='indent'>   The <span class='textbf'>picsimlab_tool</span> is a simple command line tool to update the firmware running in the PICSimLab simulator. It can be
+used integrated in development tools (like platformio).
+</p><!--  l. 188  --><p class='indent'>   After open the PICSimLab you can use the picsimlab_tool command to load .hex or .bin files:
 </p>
-   <pre class='fancyvrb' id='fancyvrb24'><a id='x68-71003r1'></a><span class='pcrr8t-x-x-80'>picsimlab_tool</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>loadhex</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>file.hex</span></pre>
-<!--  l. 193  --><p class='indent'>   And use the <span class='textbf'>loadbin</span> with boards based on ESP32 or STM32.
-                                                                  
-
-                                                                  
-</p>
-   <pre class='fancyvrb' id='fancyvrb25'><a id='x68-71006r1'></a><span class='pcrr8t-x-x-80'>picsimlab_tool</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>loadbin</span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>file.bin</span></pre>
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
-   <nav class='crosslinks-bottom'>[<a href='PinViewer.html'>prev</a>] [<a href='Tools.html#picsimlabtool.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+   <pre class='fancyvrb' id='fancyvrb22'><span class='fancyvrblineno'><a id='x70-73003r1'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>picsimlab_tool</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>file</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>.hex</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>or</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>.bin</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>]</span></span></span></pre>
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='PinViewer.html'>prev</a>] [<a href='Tools.html#picsimlabtool.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

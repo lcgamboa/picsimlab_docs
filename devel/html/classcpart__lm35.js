@@ -9,7 +9,8 @@ var classcpart__lm35 =
     [ "OnMouseButtonRelease", "classcpart__lm35.html#ad4f45cd5b1ca9493aaf8cea657348fad", null ],
     [ "OnMouseMove", "classcpart__lm35.html#a2c473f86a16aecfa6fdaab70581c1222", null ],
     [ "PostProcess", "classcpart__lm35.html#adfa974ba7fff85d2f15dffc355c9be6e", null ],
-    [ "ReadPreferences", "classcpart__lm35.html#ab540444a5c0919512fcb19ff7cfbcff8", null ],
+    [ "PreferencesNumberFields", "classcpart__lm35.html#aa443bf84329547c36eea99a07ea4a0dc", null ],
+    [ "ReadPreferences", "classcpart__lm35.html#ae8ed7c9e9fb913f209ad846e0f3e470b", null ],
     [ "ReadPropertiesWindow", "classcpart__lm35.html#adf46635b6a1c9161bda4ecf24abccc72", null ],
     [ "RegisterRemoteControl", "classcpart__lm35.html#a6e4ab9cbb36c31fcd10f498d54ce1556", null ],
     [ "WritePreferences", "classcpart__lm35.html#a860ca49afd11b55631b7e53ea8f44871", null ]

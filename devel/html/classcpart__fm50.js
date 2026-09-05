@@ -9,7 +9,8 @@ var classcpart__fm50 =
     [ "OnMouseButtonRelease", "classcpart__fm50.html#af6d6e1a50a2915aee470d78af7a4d359", null ],
     [ "OnMouseMove", "classcpart__fm50.html#a00f2bc3bdf37c4c322eccfc64d781920", null ],
     [ "PostProcess", "classcpart__fm50.html#a8eff059cf03a82b62952bfa09896c98e", null ],
-    [ "ReadPreferences", "classcpart__fm50.html#ae55fa89ddf1c6e5ed60e738975a7c592", null ],
+    [ "PreferencesNumberFields", "classcpart__fm50.html#a380601ec7264e938486fe5028e28b5cb", null ],
+    [ "ReadPreferences", "classcpart__fm50.html#a86cded5cbe8a5bf0478378cbcfea6dd3", null ],
     [ "ReadPropertiesWindow", "classcpart__fm50.html#a208d1ee1b9216085305814f54d69a782", null ],
     [ "RegisterRemoteControl", "classcpart__fm50.html#a089d46f7aeb163cf29c8f3237f3eea07", null ],
     [ "WritePreferences", "classcpart__fm50.html#a28f537012dd1e039b4ddad07ce90d1a2", null ]

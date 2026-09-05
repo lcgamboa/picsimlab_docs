@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+git\PYG{+w}{ }clone\PYG{+w}{ }\PYGZhy{}\PYGZhy{}depth\PYG{o}{=}\PYG{l+m}{1}\PYG{+w}{ }https://github.com/lcgamboa/picsimlab.git
+\PYG{n+nb}{cd}\PYG{+w}{ }picsimlab
+bscripts/install\PYGZus{}deps.sh
+bscripts/build\PYGZus{}all\PYGZus{}and\PYGZus{}install.sh
+\end{MintedVerbatim}

@@ -1,0 +1,5 @@
+<map id="cpart_LCD_ili9341::ReadPreferences" name="cpart_LCD_ili9341::ReadPreferences">
+<area shape="rect" id="Node000001" title="Called whe configuration file load preferences, return the number of preferences processed." alt="" coords="5,5,152,50"/>
+<area shape="rect" id="Node000002" href="$classcpart___l_c_d__ili9341.html#a062ed63d65e36c88c7c6e471efa1c9d4" title="Reset part status." alt="" coords="200,5,346,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,25,187,27,182,28,152,30"/>
+</map>

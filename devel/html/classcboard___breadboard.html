@@ -159,6 +159,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a78b393e9929e1cccba8325da9c3f30af"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller end  <br /></td></tr>
 <tr class="memitem:a11eb88db9ecdd6cd99993fbb3460074e" id="r_a11eb88db9ecdd6cd99993fbb3460074e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11eb88db9ecdd6cd99993fbb3460074e">MGetArchitecture</a> (void) override</td></tr>
 <tr class="memdesc:a11eb88db9ecdd6cd99993fbb3460074e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return board microcontroller architecture.  <br /></td></tr>
+<tr class="memitem:a8c6162c822115a306f54d7cabf85ea24" id="r_a8c6162c822115a306f54d7cabf85ea24"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c6162c822115a306f54d7cabf85ea24">GetSimBackends</a> (void) override</td></tr>
+<tr class="memdesc:a8c6162c822115a306f54d7cabf85ea24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return board backends name.  <br /></td></tr>
+<tr class="memitem:a5fbea368896b8a812d5c61a13106e561" id="r_a5fbea368896b8a812d5c61a13106e561"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fbea368896b8a812d5c61a13106e561">GetDebuggers</a> (void) override</td></tr>
+<tr class="memdesc:a5fbea368896b8a812d5c61a13106e561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return board supported debug interfaces name.  <br /></td></tr>
 <tr class="memitem:a6d9f99cffcc68f6bc7bbb834f8b05041" id="r_a6d9f99cffcc68f6bc7bbb834f8b05041"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9f99cffcc68f6bc7bbb834f8b05041">MDumpMemory</a> (const char *fname) override</td></tr>
 <tr class="memdesc:a6d9f99cffcc68f6bc7bbb834f8b05041"><td class="mdescLeft">&#160;</td><td class="mdescRight">board microcontroller save non volatile memory to hex file  <br /></td></tr>
 <tr class="memitem:a8a5a52712c33b6cafacbcda36dac15b4" id="r_a8a5a52712c33b6cafacbcda36dac15b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a5a52712c33b6cafacbcda36dac15b4">MEraseFlash</a> (void) override</td></tr>
@@ -240,6 +244,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ada0e78378831074241a1d7937ca4e2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paralle thread called ever 100ms to run cpu code.  <br /></td></tr>
 <tr class="memitem:a68fd2f2288785ff4edbf11a1a8f939a4" id="r_a68fd2f2288785ff4edbf11a1a8f939a4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68fd2f2288785ff4edbf11a1a8f939a4">GetSupportedDevices</a> (void) override</td></tr>
 <tr class="memdesc:a68fd2f2288785ff4edbf11a1a8f939a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported microcontrollers.  <br /></td></tr>
+<tr class="memitem:a762fc78cea30a64013fc74620304c85e" id="r_a762fc78cea30a64013fc74620304c85e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a762fc78cea30a64013fc74620304c85e">GetSupportedIDEs</a> (void) override</td></tr>
+<tr class="memdesc:a762fc78cea30a64013fc74620304c85e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of supported IDEs in project wizard.  <br /></td></tr>
 <tr class="memitem:a6f71b61ad3ad0f2a660e7760b83b8aa6" id="r_a6f71b61ad3ad0f2a660e7760b83b8aa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f71b61ad3ad0f2a660e7760b83b8aa6">Reset</a> (void) override</td></tr>
 <tr class="memdesc:a6f71b61ad3ad0f2a660e7760b83b8aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset board status.  <br /></td></tr>
 <tr class="memitem:a801b2378597a16a6fb4ae3b0bc1ea073" id="r_a801b2378597a16a6fb4ae3b0bc1ea073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a801b2378597a16a6fb4ae3b0bc1ea073">EvMouseButtonPress</a> (unsigned int button, unsigned int x, unsigned int y, unsigned int state) override</td></tr>
@@ -260,8 +266,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aeef4509975c9a4af5fd32e0c1b5faf5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the input ids numbers of names used in input map  <br /></td></tr>
 <tr class="memitem:aff2db808c4543a32a7f1505980267523" id="r_aff2db808c4543a32a7f1505980267523"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff2db808c4543a32a7f1505980267523">GetOutputId</a> (char *name) override</td></tr>
 <tr class="memdesc:aff2db808c4543a32a7f1505980267523"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the output ids numbers of names used in output map  <br /></td></tr>
-<tr class="memitem:a4c280d38a15be321f3c091a1bf42dd98" id="r_a4c280d38a15be321f3c091a1bf42dd98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c280d38a15be321f3c091a1bf42dd98">EndServers</a> (void) override</td></tr>
-<tr class="memdesc:a4c280d38a15be321f3c091a1bf42dd98"><td class="mdescLeft">&#160;</td><td class="mdescRight">board servers shutdown  <br /></td></tr>
 <tr class="memitem:aeff9b290f9b8789fd79011656dc23289" id="r_aeff9b290f9b8789fd79011656dc23289"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff9b290f9b8789fd79011656dc23289">GetDefaultClock</a> (void) override</td></tr>
 <tr class="memdesc:aeff9b290f9b8789fd79011656dc23289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board default clock in MHz.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classbsim__picsim"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbsim__picsim')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classbsim__picsim.html">bsim_picsim</a></td></tr>
@@ -376,6 +380,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerUpdateFrequency<
 <tr class="memdesc:ad332d66c1b91a09433b8a52683d7ac9b inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock IO to others threads access.  <br /></td></tr>
 <tr class="memitem:a1d5573000eda25b437eb600e37e60eea inherit pub_methods_classboard" id="r_a1d5573000eda25b437eb600e37e60eea"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a1d5573000eda25b437eb600e37e60eea">GetClkLabel</a> (void)</td></tr>
 <tr class="memdesc:a1d5573000eda25b437eb600e37e60eea inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the description of clk label.  <br /></td></tr>
+<tr class="memitem:a67439dca120888716f103c1c5e829547 inherit pub_methods_classboard" id="r_a67439dca120888716f103c1c5e829547"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboard.html#a67439dca120888716f103c1c5e829547">MSetSimulationRun</a> (int run)</td></tr>
+<tr class="memdesc:a67439dca120888716f103c1c5e829547 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when simulation is paused or resumed.  <br /></td></tr>
+<tr class="memitem:a7c0070dacaaec7bb1ed30dc61ed5a0c9 inherit pub_methods_classboard" id="r_a7c0070dacaaec7bb1ed30dc61ed5a0c9"><td class="memItemLeft" align="right" valign="top">
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPWActiveProject</b> (void)</td></tr>
+<tr class="memdesc:a7c0070dacaaec7bb1ed30dc61ed5a0c9 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the active project created by Project Wizard. <br /></td></tr>
+<tr class="memitem:ac6bb705d66db31487894740fc2a14496 inherit pub_methods_classboard" id="r_ac6bb705d66db31487894740fc2a14496"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPWActiveProject</b> (std::string path)</td></tr>
+<tr class="memdesc:ac6bb705d66db31487894740fc2a14496 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active project created by Project Wizard. <br /></td></tr>
+<tr class="memitem:ac2ac59b404b3f9e44c9904cb5e5c7155 inherit pub_methods_classboard" id="r_ac2ac59b404b3f9e44c9904cb5e5c7155"><td class="memItemLeft" align="right" valign="top">
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPWProjectType</b> (void)</td></tr>
+<tr class="memdesc:ac2ac59b404b3f9e44c9904cb5e5c7155 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the active project type created by Project Wizard. <br /></td></tr>
+<tr class="memitem:a4166a16d7f90c8a20717ddaf8b151582 inherit pub_methods_classboard" id="r_a4166a16d7f90c8a20717ddaf8b151582"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPWProjectType</b> (std::string type)</td></tr>
+<tr class="memdesc:a4166a16d7f90c8a20717ddaf8b151582 inherit pub_methods_classboard"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active project type created by Project Wizard. <br /></td></tr>
 <tr class="inherit_header pub_methods_classbsim__simavr"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbsim__simavr')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classbsim__simavr.html">bsim_simavr</a></td></tr>
 <tr class="memitem:a54f2b9bab497352ff4c7d330b9aede2e inherit pub_methods_classbsim__simavr" id="r_a54f2b9bab497352ff4c7d330b9aede2e"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateHardware</b> (void)</td></tr>
@@ -1192,35 +1210,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a4c280d38a15be321f3c091a1bf42dd98" name="a4c280d38a15be321f3c091a1bf42dd98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c280d38a15be321f3c091a1bf42dd98">&#9670;&#160;</a></span>EndServers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cboard_Breadboard::EndServers </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>board servers shutdown </p>
-
-<p>Reimplemented from <a class="el" href="classbsim__picsim.html#aecd50bbd1b99a5f15ef795efcd370c54">bsim_picsim</a>.</p>
-
-</div>
-</div>
 <a id="a7d84e9ae56b1b3a7796646c9a13d1317" name="a7d84e9ae56b1b3a7796646c9a13d1317"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d84e9ae56b1b3a7796646c9a13d1317">&#9670;&#160;</a></span>EvKeyPress()</h2>
 
@@ -1456,6 +1445,45 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a5fbea368896b8a812d5c61a13106e561" name="a5fbea368896b8a812d5c61a13106e561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fbea368896b8a812d5c61a13106e561">&#9670;&#160;</a></span>GetDebuggers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cboard_Breadboard::GetDebuggers </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return board supported debug interfaces name. </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#ae47b6c27afddb41cae72542085cc2f07">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a5fbea368896b8a812d5c61a13106e561_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a5fbea368896b8a812d5c61a13106e561_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscboard___breadboard_a5fbea368896b8a812d5c61a13106e561_cgraph" id="aclasscboard___breadboard_a5fbea368896b8a812d5c61a13106e561_cgraph">
+<area shape="rect" title="Return board supported debug interfaces name." alt="" coords="5,5,147,48"/>
+<area shape="rect" href="classbsim__simavr.html#ad4f60b3270fe09aa77e75ba163ffa508" title="Return board supported debug interfaces name." alt="" coords="195,13,382,40"/>
+<area shape="poly" title=" " alt="" coords="147,24,182,26,176,27,147,29"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a106e995773893b39315aff46ee352a86" name="a106e995773893b39315aff46ee352a86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a106e995773893b39315aff46ee352a86">&#9670;&#160;</a></span>GetDebugName()</h2>
 
@@ -1625,6 +1653,47 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a8c6162c822115a306f54d7cabf85ea24" name="a8c6162c822115a306f54d7cabf85ea24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6162c822115a306f54d7cabf85ea24">&#9670;&#160;</a></span>GetSimBackends()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cboard_Breadboard::GetSimBackends </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return board backends name. </p>
+
+<p>Reimplemented from <a class="el" href="classbsim__picsim.html#a8a654cfc1cbffcb5af1e73808a186c9d">bsim_picsim</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a8c6162c822115a306f54d7cabf85ea24_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a8c6162c822115a306f54d7cabf85ea24_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscboard___breadboard_a8c6162c822115a306f54d7cabf85ea24_cgraph" id="aclasscboard___breadboard_a8c6162c822115a306f54d7cabf85ea24_cgraph">
+<area shape="rect" title="Return board backends name." alt="" coords="5,23,147,65"/>
+<area shape="rect" href="classbsim__picsim.html#a8a654cfc1cbffcb5af1e73808a186c9d" title="Return board backends name." alt="" coords="195,5,400,32"/>
+<area shape="poly" title=" " alt="" coords="147,33,182,32,177,33,148,39"/>
+<area shape="rect" href="classbsim__simavr.html#a142055bb038ee0f73be322c046ca66d8" title="Return board backends name." alt="" coords="195,56,400,83"/>
+<area shape="poly" title=" " alt="" coords="147,49,182,56,177,56,147,55"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a68fd2f2288785ff4edbf11a1a8f939a4" name="a68fd2f2288785ff4edbf11a1a8f939a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68fd2f2288785ff4edbf11a1a8f939a4">&#9670;&#160;</a></span>GetSupportedDevices()</h2>
 
@@ -1651,6 +1720,35 @@ Here is the call graph for this function:</div>
 <p>Return a list of supported microcontrollers. </p>
 
 <p>Implements <a class="el" href="classboard.html#ad12ec2c3d4be15af9bf825abba887fef">board</a>.</p>
+
+</div>
+</div>
+<a id="a762fc78cea30a64013fc74620304c85e" name="a762fc78cea30a64013fc74620304c85e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762fc78cea30a64013fc74620304c85e">&#9670;&#160;</a></span>GetSupportedIDEs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cboard_Breadboard::GetSupportedIDEs </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a list of supported IDEs in project wizard. </p>
+
+<p>Reimplemented from <a class="el" href="classboard.html#a899a7635c30ade09550f368b39cfa29a">board</a>.</p>
 
 </div>
 </div>
@@ -2925,6 +3023,18 @@ Here is the call graph for this function:</div>
 <p>Called whe configuration file load preferences. </p>
 
 <p>Reimplemented from <a class="el" href="classboard.html#a29f23632768352279226a2f9af5e83d5">board</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_a850802873e037974e1bd77e4fc9e0df8_cgraph.png" border="0" usemap="#aclasscboard___breadboard_a850802873e037974e1bd77e4fc9e0df8_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscboard___breadboard_a850802873e037974e1bd77e4fc9e0df8_cgraph" id="aclasscboard___breadboard_a850802873e037974e1bd77e4fc9e0df8_cgraph">
+<area shape="rect" title="Called whe configuration file load preferences." alt="" coords="5,23,147,65"/>
+<area shape="rect" href="classboard.html#ac6bb705d66db31487894740fc2a14496" title="Set the active project created by Project Wizard." alt="" coords="195,5,375,32"/>
+<area shape="poly" title=" " alt="" coords="147,33,181,31,176,32,148,38"/>
+<area shape="rect" href="classboard.html#a4166a16d7f90c8a20717ddaf8b151582" title="Set the active project type created by Project Wizard." alt="" coords="199,56,371,83"/>
+<area shape="poly" title=" " alt="" coords="147,50,185,57,180,57,147,55"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -3145,6 +3255,18 @@ Here is the call graph for this function:</div>
 <p>Called to save board preferences in configuration file. </p>
 
 <p>Reimplemented from <a class="el" href="classboard.html#a6ae7bb1e6cb15a381c871467b2189f4e">board</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcboard___breadboard_adbe637a84e684f6a3da4db5f8e7a3d5b_cgraph.png" border="0" usemap="#aclasscboard___breadboard_adbe637a84e684f6a3da4db5f8e7a3d5b_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscboard___breadboard_adbe637a84e684f6a3da4db5f8e7a3d5b_cgraph" id="aclasscboard___breadboard_adbe637a84e684f6a3da4db5f8e7a3d5b_cgraph">
+<area shape="rect" title="Called to save board preferences in configuration file." alt="" coords="5,23,147,65"/>
+<area shape="rect" href="classboard.html#a7c0070dacaaec7bb1ed30dc61ed5a0c9" title="Return the active project created by Project Wizard." alt="" coords="195,5,376,32"/>
+<area shape="poly" title=" " alt="" coords="147,33,182,31,177,32,148,38"/>
+<area shape="rect" href="classboard.html#ac2ac59b404b3f9e44c9904cb5e5c7155" title="Return the active project type created by Project Wizard." alt="" coords="199,56,372,83"/>
+<area shape="poly" title=" " alt="" coords="147,50,186,57,181,57,147,55"/>
+</map>
+</div>
 
 </div>
 </div>

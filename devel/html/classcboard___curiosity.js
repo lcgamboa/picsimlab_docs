@@ -11,6 +11,7 @@ var classcboard___curiosity =
     [ "GetName", "classcboard___curiosity.html#a1a2a8b111a4513dc38969f884c73b535", null ],
     [ "GetOutputId", "classcboard___curiosity.html#adb0f5c04cf664f1e9f43168f3a0ceb2d", null ],
     [ "GetSupportedDevices", "classcboard___curiosity.html#ab7c0ded5872c084d2df1b03e1b98f7e8", null ],
+    [ "GetSupportedIDEs", "classcboard___curiosity.html#a5c1c1d11be23fe1d475dd3072cba0c26", null ],
     [ "ReadPreferences", "classcboard___curiosity.html#a1bd8203175c58022c8fe14f346218c51", null ],
     [ "RegisterRemoteControl", "classcboard___curiosity.html#a023b60b5f83d2d9e80284063781ec9fd", null ],
     [ "Reset", "classcboard___curiosity.html#a8b392a3f8820d42d0385269d7ebad27c", null ],

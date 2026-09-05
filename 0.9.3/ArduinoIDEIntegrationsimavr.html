@@ -17,8 +17,10 @@
    
    
    
-   
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
    
    
    
@@ -47,16 +49,15 @@
    
    
    <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
-   <span class='sectionToc'>5.1 <a href='Com0comInstallationandConfigurationWindows.html#comcom-installation-and-configurationwindows'>Com0com Installation and Configuration(Windows)</a></span>
-                                                                  
-
-                                                                  
-   <span class='sectionToc'>5.2 <a href='tty0ttyInstallationandConfigurationLinux.html#ttytty-installation-and-configuration-linux'>tty0tty Installation and Configuration (Linux)</a></span>
+   <span class='sectionToc'>5.1 <a href='Com0comInstallationandConfigurationWindows.html#com0com-installation-and-configurationwindows'>Com0com Installation and Configuration(Windows)</a></span>
+   <span class='sectionToc'>5.2 <a href='tty0ttyInstallationandConfigurationLinux.html#tty0tty-installation-and-configuration-linux'>tty0tty Installation and Configuration (Linux)</a></span>
    <span class='sectionToc'>5.3 <a href='#arduino-ide-integration-simavr-'>Arduino IDE Integration (simavr) </a></span>
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -97,9 +98,22 @@
    
    
    
-                                                                  
-
-                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
    
    
    
@@ -132,23 +146,6 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                  
-
-                                                                  
    
    
    
@@ -171,6 +168,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -189,39 +188,29 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='tty0ttyInstallationandConfigurationLinux.html'>prev</a>] [<a href='SerialCommunication.html#ArduinoIDEIntegrationsimavr.html'>up</a>] </nav> 
-<h3 class='sectionHead' id='arduino-ide-integration-simavr-'><span class='titlemark'>5.3    </span> <a id='x42-410005.3'></a>Arduino IDE Integration (simavr) </h3>
+<h3 class='sectionHead' id='arduino-ide-integration-simavr-'><span class='titlemark'>5.3    </span> <a id='x44-430005.3'></a>Arduino IDE Integration (simavr) </h3>
 <!--  l. 98  --><p class='noindent'><a id='def_arduinoide'></a>
-</p><!--  l. 100  --><p class='indent'>   For integrated use with the Arduino IDE, simply configure the serial port as explained in
-the Chapter <a href='SerialCommunication.html#def_seriali'>Serial Communication</a> and load the Arduino bootloader. The bootloader can be
-loaded from the “Tools-&gt;Arduino bootloader” menu.
-</p><!--  l. 102  --><p class='indent'>   In Windows, considering com0com making a NULL-MODEM connection
-between COM1 and COM2, simply connect the PICSimLab on the COM1 port
-(defined in configuration window) and the Arduino IDE on the COM2 port or vice
+</p><!--  l. 100  --><p class='indent'>   For integrated use with the Arduino IDE, simply configure the serial port as explained in the Chapter <a href='SerialCommunication.html#def_seriali'>Serial
+Communication</a> and load the Arduino bootloader. The bootloader can be loaded from the “Tools-&gt;Arduino bootloader”
+menu.
+</p><!--  l. 102  --><p class='indent'>   In Windows, considering com0com making a NULL-MODEM connection between COM1 and COM2, simply connect the
+PICSimLab on the COM1 port (defined in configuration window) and the Arduino IDE on the COM2 port or vice
 versa.
-                                                                  
-
-                                                                  
-</p><!--  l. 104  --><p class='indent'>   On Linux the operation is the same, but using for example the ports /dev/tnt2 and
-/dev/tnt3.
-</p><!--  l. 106  --><p class='indent'>   In Linux for the virtual ports to be detected in Arduino IDE 1.8.xx it is necessary to
-replace the library lib/liblistSerialsj.so of the Arduino with a version which support the
-detection of tty0tty ports, that can be downloaded in the link <a href='https://github.com/lcgamboa/listSerialPortsC/releases' target='_blank'>listSerialC with tty0tty support</a>.
-The Arduino IDE 2.0 does not yet support virtual port detection, consider using IDE version
-1.8 or vscode.
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
+</p><!--  l. 104  --><p class='indent'>   On Linux the operation is the same, but using for example the ports /dev/tnt2 and /dev/tnt3.
+</p><!--  l. 106  --><p class='indent'>   In Linux for the virtual ports to be detected in Arduino IDE 1.8.xx it is necessary to replace the library lib/liblistSerialsj.so
+of the Arduino with a version which support the detection of tty0tty ports, that can be downloaded in the link <a href='https://github.com/lcgamboa/listSerialPortsC/releases' target='_blank'>listSerialC with
+tty0tty support</a>. The Arduino IDE 2.0 does not yet support virtual port detection, consider using IDE version 1.8 or
+vscode.
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
 </p>
-   <nav class='crosslinks-bottom'>[<a href='tty0ttyInstallationandConfigurationLinux.html'>prev</a>] [<a href='SerialCommunication.html#ArduinoIDEIntegrationsimavr.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+   <nav class='crosslinks-bottom'>[<a href='tty0ttyInstallationandConfigurationLinux.html'>prev</a>] [<a href='SerialCommunication.html#ArduinoIDEIntegrationsimavr.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

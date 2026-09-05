@@ -13,9 +13,10 @@ var classcpart___l_c_d__ili9341 =
     [ "OnMouseButtonRelease", "classcpart___l_c_d__ili9341.html#af4c430e675ceaea9925e22b8ff372472", null ],
     [ "OnMouseMove", "classcpart___l_c_d__ili9341.html#a5e3f63ae32104407634625ed8efee36d", null ],
     [ "PostProcess", "classcpart___l_c_d__ili9341.html#a05d0a6b86bdf66327b11e348fffa734b", null ],
+    [ "PreferencesNumberFields", "classcpart___l_c_d__ili9341.html#aa9ffe7feb7a04eca92eec7cdcc6836eb", null ],
     [ "PreProcess", "classcpart___l_c_d__ili9341.html#a98c72f43b3a82cabe567039222fc1ab9", null ],
     [ "Process", "classcpart___l_c_d__ili9341.html#a8b1e457f443a49c68b39aaeb280794bd", null ],
-    [ "ReadPreferences", "classcpart___l_c_d__ili9341.html#ad1e13d2fd139d3aeb93c3418c7046106", null ],
+    [ "ReadPreferences", "classcpart___l_c_d__ili9341.html#ad5117eabcc6a5b0a5c41a02240b97a67", null ],
     [ "ReadPropertiesWindow", "classcpart___l_c_d__ili9341.html#aa14453a56737d478617624ede69cda23", null ],
     [ "Reset", "classcpart___l_c_d__ili9341.html#a062ed63d65e36c88c7c6e471efa1c9d4", null ],
     [ "WritePreferences", "classcpart___l_c_d__ili9341.html#ab6afc1ef860e07f77ee58a17fdaf9afc", null ]

@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}digital}
+\PYG{n+nb}{set}\PYG{+w}{ }pin\PYG{o}{[}\PYG{l+m}{10}\PYG{o}{]}\PYG{+w}{  }\PYG{l+m}{2}
+
+\PYG{c+c1}{\PYGZsh{}analog}
+\PYG{n+nb}{set}\PYG{+w}{ }apin\PYG{o}{[}\PYG{l+m}{20}\PYG{o}{]}\PYG{+w}{ }\PYG{l+m}{2}.345
+\end{MintedVerbatim}

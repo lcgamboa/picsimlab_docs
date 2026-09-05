@@ -17,8 +17,10 @@
    
    
    
-   
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   
+   
+   
    
    
    
@@ -48,9 +50,6 @@
    
    <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
    
-                                                                  
-
-                                                                  
    
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
@@ -58,6 +57,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -97,9 +98,23 @@
    
    
    
-                                                                  
-
-                                                                  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
    
    
    
@@ -131,24 +146,6 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                  
-
-                                                                  
    
    
    
@@ -172,6 +169,8 @@
    
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -189,90 +188,84 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='IntegrationwithPICsimLab.html'>prev</a>] [<a href='CreatingaNewBoard.html#FinalResult.html'>up</a>] </nav> 
-<h4 class='subsectionHead' id='final-result'><span class='titlemark'>C.1.6    </span> <a id='x167-178000C.1.6'></a>Final Result</h4>
+<h4 class='subsectionHead' id='final-result'><span class='titlemark'>C.1.6    </span> <a id='x169-180000C.1.6'></a>Final Result</h4>
 <!--  l. 173  --><p class='noindent'>The PICSimLab board created for this tutorial are shown in the figure below. </p><figure class='figure'> 
 
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
 <!--  l. 176  --><p class='noindent'><img alt='PIC' src='img/hb/final.png' style='width:90%' />
-                                                                  
-
-                                                                  
+                                                                                         
+                                                                                         
 </p>
    </figure>
-<!--  l. 179  --><p class='indent'>   The sample program below can be used to test new board, this code is write for XC8
-compiler:
+<!--  l. 179  --><p class='indent'>   The sample program below can be used to test new board, this code is write for XC8 compiler:
 </p>
-   <pre class='fancyvrb' id='fancyvrb30'><a id='x167-178002r1'></a><span class='ptmr8t-x-x-50'>1</span><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'> </span><span style='color:#3D7A7A;'><span class='textit'>&lt;xc.h&gt;</span></span><span style='color:#3D7A7A;'><span class='textit'>;</span></span> 
-<a id='x167-178004r2'></a><span class='ptmr8t-x-x-50'>2</span> 
-<a id='x167-178006r3'></a><span class='ptmr8t-x-x-50'>3</span><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'> </span><span style='color:#3D7A7A;'><span class='textit'>"config_4550.h"</span></span> 
-<a id='x167-178008r4'></a><span class='ptmr8t-x-x-50'>4</span><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'> </span><span style='color:#3D7A7A;'><span class='textit'>"adc.h"</span></span> 
-<a id='x167-178010r5'></a><span class='ptmr8t-x-x-50'>5</span><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'> </span><span style='color:#3D7A7A;'><span class='textit'>"serial.h"</span></span> 
-<a id='x167-178012r6'></a><span class='ptmr8t-x-x-50'>6</span><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'> </span><span style='color:#3D7A7A;'><span class='textit'>"itoa.h"</span></span> 
-<a id='x167-178014r7'></a><span class='ptmr8t-x-x-50'>7</span> 
-<a id='x167-178016r8'></a><span class='ptmr8t-x-x-50'>8</span><span style='color:#B00040;'><span class='textbf'>void</span></span><span style='color:#BABABA;'> </span><span style='color:#0000FF;'><span class='pcrr8t-x-x-80'>main</span></span><span class='pcrr8t-x-x-80'>()</span> 
-<a id='x167-178018r9'></a><span class='ptmr8t-x-x-50'>9</span><span class='pcrr8t-x-x-80'>{</span> 
-<a id='x167-178020r10'></a><span class='ptmr8t-x-x-50'>10</span><span style='color:#BABABA;'>        </span><span style='color:#B00040;'><span class='textbf'>unsigned</span></span><span style='color:#BABABA;'> </span><span style='color:#B00040;'><span class='textbf'>int</span></span><span style='color:#BABABA;'>  </span><span class='pcrr8t-x-x-80'>val;</span> 
-<a id='x167-178022r11'></a><span class='ptmr8t-x-x-50'>11</span><span style='color:#BABABA;'>        </span><span style='color:#B00040;'><span class='textbf'>char</span></span><span style='color:#BABABA;'> </span><span class='pcrr8t-x-x-80'>buffer[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>10</span></span><span class='pcrr8t-x-x-80'>];</span> 
-<a id='x167-178024r12'></a><span class='ptmr8t-x-x-50'>12</span><span style='color:#BABABA;'>        </span> 
-<a id='x167-178026r13'></a><span class='ptmr8t-x-x-50'>13</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>ADCON1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x02</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178028r14'></a><span class='ptmr8t-x-x-50'>14</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>TRISA</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFF</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178030r15'></a><span class='ptmr8t-x-x-50'>15</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>TRISB</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFC</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178032r16'></a><span class='ptmr8t-x-x-50'>16</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>TRISC</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xBF</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178034r17'></a><span class='ptmr8t-x-x-50'>17</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>TRISD</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFF</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178036r18'></a><span class='ptmr8t-x-x-50'>18</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>TRISE</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x0F</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178038r19'></a><span class='ptmr8t-x-x-50'>19</span><span style='color:#BABABA;'>        </span> 
-<a id='x167-178040r20'></a><span class='ptmr8t-x-x-50'>20</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>adc_init();</span><span style='color:#BABABA;'> </span> 
-<a id='x167-178042r21'></a><span class='ptmr8t-x-x-50'>21</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>serial_init();</span> 
-<a id='x167-178044r22'></a><span class='ptmr8t-x-x-50'>22</span> 
-<a id='x167-178046r23'></a><span class='ptmr8t-x-x-50'>23</span><span style='color:#BABABA;'>    </span> 
-<a id='x167-178048r24'></a><span class='ptmr8t-x-x-50'>24</span><span style='color:#BABABA;'>        </span><span style='color:#008000;'><span class='textbf'>while</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>)</span> 
-<a id='x167-178050r25'></a><span class='ptmr8t-x-x-50'>25</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>{</span> 
-<a id='x167-178052r26'></a><span class='ptmr8t-x-x-50'>26</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>val</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>adc_amostra(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span> 
-<a id='x167-178054r27'></a><span class='ptmr8t-x-x-50'>27</span><span style='color:#BABABA;'>                       </span> 
-<a id='x167-178056r28'></a><span class='ptmr8t-x-x-50'>28</span><span style='color:#BABABA;'>                       </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(PORTDbits.RD1)</span> 
-<a id='x167-178058r29'></a><span class='ptmr8t-x-x-50'>29</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>{</span> 
-<a id='x167-178060r30'></a><span class='ptmr8t-x-x-50'>30</span><span style='color:#BABABA;'>                               </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(val</span><span style='color:#BABABA;'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span style='color:#BABABA;'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>340</span></span><span class='pcrr8t-x-x-80'>)</span> 
-<a id='x167-178062r31'></a><span class='ptmr8t-x-x-50'>31</span><span style='color:#BABABA;'>                                          </span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178064r32'></a><span class='ptmr8t-x-x-50'>32</span><span style='color:#BABABA;'>                               </span><span style='color:#008000;'><span class='textbf'>else</span></span> 
-<a id='x167-178066r33'></a><span class='ptmr8t-x-x-50'>33</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178068r34'></a><span class='ptmr8t-x-x-50'>34</span><span style='color:#BABABA;'>                       </span> 
-<a id='x167-178070r35'></a><span class='ptmr8t-x-x-50'>35</span><span style='color:#BABABA;'>                               </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(val</span><span style='color:#BABABA;'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span style='color:#BABABA;'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>680</span></span><span class='pcrr8t-x-x-80'>)</span> 
-<a id='x167-178072r36'></a><span class='ptmr8t-x-x-50'>36</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178074r37'></a><span class='ptmr8t-x-x-50'>37</span><span style='color:#BABABA;'>                               </span><span style='color:#008000;'><span class='textbf'>else</span></span> 
-<a id='x167-178076r38'></a><span class='ptmr8t-x-x-50'>38</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178078r39'></a><span class='ptmr8t-x-x-50'>39</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>}</span> 
-<a id='x167-178080r40'></a><span class='ptmr8t-x-x-50'>40</span><span style='color:#BABABA;'>                       </span><span style='color:#008000;'><span class='textbf'>else</span></span> 
-<a id='x167-178082r41'></a><span class='ptmr8t-x-x-50'>41</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>{</span> 
-<a id='x167-178084r42'></a><span class='ptmr8t-x-x-50'>42</span><span style='color:#BABABA;'>                                      </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(PORTDbits.RD0)</span> 
-<a id='x167-178086r43'></a><span class='ptmr8t-x-x-50'>43</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>{</span> 
-<a id='x167-178088r44'></a><span class='ptmr8t-x-x-50'>44</span><span style='color:#BABABA;'>                                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178090r45'></a><span class='ptmr8t-x-x-50'>45</span><span style='color:#BABABA;'>                                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178092r46'></a><span class='ptmr8t-x-x-50'>46</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>}</span> 
-<a id='x167-178094r47'></a><span class='ptmr8t-x-x-50'>47</span><span style='color:#BABABA;'>                                      </span><span style='color:#008000;'><span class='textbf'>else</span></span> 
-<a id='x167-178096r48'></a><span class='ptmr8t-x-x-50'>48</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>{</span> 
-<a id='x167-178098r49'></a><span class='ptmr8t-x-x-50'>49</span><span style='color:#BABABA;'>                                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178100r50'></a><span class='ptmr8t-x-x-50'>50</span><span style='color:#BABABA;'>                                                      </span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span> 
-<a id='x167-178102r51'></a><span class='ptmr8t-x-x-50'>51</span><span style='color:#BABABA;'>                                      </span><span class='pcrr8t-x-x-80'>}</span> 
-<a id='x167-178104r52'></a><span class='ptmr8t-x-x-50'>52</span><span style='color:#BABABA;'>                       </span> 
-<a id='x167-178106r53'></a><span class='ptmr8t-x-x-50'>53</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>}</span> 
-<a id='x167-178108r54'></a><span class='ptmr8t-x-x-50'>54</span><span style='color:#BABABA;'>                       </span> 
-<a id='x167-178110r55'></a><span class='ptmr8t-x-x-50'>55</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>serial_tx_str(itoa(val,buffer));</span> 
-<a id='x167-178112r56'></a><span class='ptmr8t-x-x-50'>56</span><span style='color:#BABABA;'>                       </span><span class='pcrr8t-x-x-80'>serial_tx_str(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span style='color:#AB5C1F;'><span class='textbf'>\r\n</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>);</span> 
-<a id='x167-178114r57'></a><span class='ptmr8t-x-x-50'>57</span><span style='color:#BABABA;'>        </span><span class='pcrr8t-x-x-80'>}</span> 
-<a id='x167-178116r58'></a><span class='ptmr8t-x-x-50'>58</span> 
-<a id='x167-178118r59'></a><span class='ptmr8t-x-x-50'>59</span><span class='pcrr8t-x-x-80'>}</span></pre>
-                                                                  
-
-                                                                  
-                                                                  
-
-                                                                  
-   <nav class='crosslinks-bottom'>[<a href='IntegrationwithPICsimLab.html'>prev</a>] [<a href='CreatingaNewBoard.html#FinalResult.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <p><script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> </p><div class='footer'>Copyright © 2024 lcgamboa. Built with make4ht.</div>  
+   <pre class='fancyvrb' id='fancyvrb27'><span class='fancyvrblineno'><a id='x169-180002r1'></a><span class='ptmr8t-x-x-50'>1</span></span><span class='fancyvrbline'><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#3D7A7A;'><span class='textit'>&lt;xc.h&gt;</span></span><span style='color:#3D7A7A;'><span class='textit'>;</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180004r2'></a><span class='ptmr8t-x-x-50'>2</span></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x169-180006r3'></a><span class='ptmr8t-x-x-50'>3</span></span><span class='fancyvrbline'><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#3D7A7A;'><span class='textit'>"config_4550.h"</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180008r4'></a><span class='ptmr8t-x-x-50'>4</span></span><span class='fancyvrbline'><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#3D7A7A;'><span class='textit'>"adc.h"</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180010r5'></a><span class='ptmr8t-x-x-50'>5</span></span><span class='fancyvrbline'><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#3D7A7A;'><span class='textit'>"serial.h"</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180012r6'></a><span class='ptmr8t-x-x-50'>6</span></span><span class='fancyvrbline'><span style='color:#9C6600;'><span class='textit'>#include</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#3D7A7A;'><span class='textit'>"itoa.h"</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180014r7'></a><span class='ptmr8t-x-x-50'>7</span></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x169-180016r8'></a><span class='ptmr8t-x-x-50'>8</span></span><span class='fancyvrbline'><span style='color:#B00040;'><span class='textbf'>void</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#0000FF;'><span class='pcrr8t-x-x-80'>main</span></span><span class='pcrr8t-x-x-80'>()</span></span> 
+<span class='fancyvrblineno'><a id='x169-180018r9'></a><span class='ptmr8t-x-x-50'>9</span></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>{</span></span> 
+<span class='fancyvrblineno'><a id='x169-180020r10'></a><span class='ptmr8t-x-x-50'>10</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span style='color:#B00040;'><span class='textbf'>unsigned</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#B00040;'><span class='textbf'>int</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>val;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180022r11'></a><span class='ptmr8t-x-x-50'>11</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span style='color:#B00040;'><span class='textbf'>char</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>buffer[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>10</span></span><span class='pcrr8t-x-x-80'>];</span></span> 
+<span class='fancyvrblineno'><a id='x169-180024r12'></a><span class='ptmr8t-x-x-50'>12</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180026r13'></a><span class='ptmr8t-x-x-50'>13</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>ADCON1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x02</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180028r14'></a><span class='ptmr8t-x-x-50'>14</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>TRISA</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFF</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180030r15'></a><span class='ptmr8t-x-x-50'>15</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>TRISB</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFC</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180032r16'></a><span class='ptmr8t-x-x-50'>16</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>TRISC</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xBF</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180034r17'></a><span class='ptmr8t-x-x-50'>17</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>TRISD</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0xFF</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180036r18'></a><span class='ptmr8t-x-x-50'>18</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>TRISE</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0x0F</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180038r19'></a><span class='ptmr8t-x-x-50'>19</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180040r20'></a><span class='ptmr8t-x-x-50'>20</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>adc_init();</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180042r21'></a><span class='ptmr8t-x-x-50'>21</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>serial_init();</span></span> 
+<span class='fancyvrblineno'><a id='x169-180044r22'></a><span class='ptmr8t-x-x-50'>22</span></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x169-180046r23'></a><span class='ptmr8t-x-x-50'>23</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180048r24'></a><span class='ptmr8t-x-x-50'>24</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span style='color:#008000;'><span class='textbf'>while</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x169-180050r25'></a><span class='ptmr8t-x-x-50'>25</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>{</span></span> 
+<span class='fancyvrblineno'><a id='x169-180052r26'></a><span class='ptmr8t-x-x-50'>26</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>val</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>adc_amostra(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>);</span></span> 
+<span class='fancyvrblineno'><a id='x169-180054r27'></a><span class='ptmr8t-x-x-50'>27</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180056r28'></a><span class='ptmr8t-x-x-50'>28</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(PORTDbits.RD1)</span></span> 
+<span class='fancyvrblineno'><a id='x169-180058r29'></a><span class='ptmr8t-x-x-50'>29</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>{</span></span> 
+<span class='fancyvrblineno'><a id='x169-180060r30'></a><span class='ptmr8t-x-x-50'>30</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>        </span></span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(val</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>340</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x169-180062r31'></a><span class='ptmr8t-x-x-50'>31</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>           </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180064r32'></a><span class='ptmr8t-x-x-50'>32</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>        </span></span><span style='color:#008000;'><span class='textbf'>else</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180066r33'></a><span class='ptmr8t-x-x-50'>33</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180068r34'></a><span class='ptmr8t-x-x-50'>34</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180070r35'></a><span class='ptmr8t-x-x-50'>35</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>        </span></span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(val</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>680</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x169-180072r36'></a><span class='ptmr8t-x-x-50'>36</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180074r37'></a><span class='ptmr8t-x-x-50'>37</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>        </span></span><span style='color:#008000;'><span class='textbf'>else</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180076r38'></a><span class='ptmr8t-x-x-50'>38</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180078r39'></a><span class='ptmr8t-x-x-50'>39</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>}</span></span> 
+<span class='fancyvrblineno'><a id='x169-180080r40'></a><span class='ptmr8t-x-x-50'>40</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span style='color:#008000;'><span class='textbf'>else</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180082r41'></a><span class='ptmr8t-x-x-50'>41</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>{</span></span> 
+<span class='fancyvrblineno'><a id='x169-180084r42'></a><span class='ptmr8t-x-x-50'>42</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'>(PORTDbits.RD0)</span></span> 
+<span class='fancyvrblineno'><a id='x169-180086r43'></a><span class='ptmr8t-x-x-50'>43</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>{</span></span> 
+<span class='fancyvrblineno'><a id='x169-180088r44'></a><span class='ptmr8t-x-x-50'>44</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>              </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180090r45'></a><span class='ptmr8t-x-x-50'>45</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>              </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180092r46'></a><span class='ptmr8t-x-x-50'>46</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>}</span></span> 
+<span class='fancyvrblineno'><a id='x169-180094r47'></a><span class='ptmr8t-x-x-50'>47</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span style='color:#008000;'><span class='textbf'>else</span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180096r48'></a><span class='ptmr8t-x-x-50'>48</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>{</span></span> 
+<span class='fancyvrblineno'><a id='x169-180098r49'></a><span class='ptmr8t-x-x-50'>49</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>              </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180100r50'></a><span class='ptmr8t-x-x-50'>50</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>              </span></span><span class='pcrr8t-x-x-80'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>;</span></span> 
+<span class='fancyvrblineno'><a id='x169-180102r51'></a><span class='ptmr8t-x-x-50'>51</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>          </span></span><span class='pcrr8t-x-x-80'>}</span></span> 
+<span class='fancyvrblineno'><a id='x169-180104r52'></a><span class='ptmr8t-x-x-50'>52</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180106r53'></a><span class='ptmr8t-x-x-50'>53</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>}</span></span> 
+<span class='fancyvrblineno'><a id='x169-180108r54'></a><span class='ptmr8t-x-x-50'>54</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span></span> 
+<span class='fancyvrblineno'><a id='x169-180110r55'></a><span class='ptmr8t-x-x-50'>55</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>serial_tx_str(itoa(val,buffer));</span></span> 
+<span class='fancyvrblineno'><a id='x169-180112r56'></a><span class='ptmr8t-x-x-50'>56</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>      </span></span><span class='pcrr8t-x-x-80'>serial_tx_str(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span style='color:#AB5C1F;'><span class='textbf'>\r\n</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>);</span></span> 
+<span class='fancyvrblineno'><a id='x169-180114r57'></a><span class='ptmr8t-x-x-50'>57</span></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>}</span></span> 
+<span class='fancyvrblineno'><a id='x169-180116r58'></a><span class='ptmr8t-x-x-50'>58</span></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x169-180118r59'></a><span class='ptmr8t-x-x-50'>59</span></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>}</span></span></pre>
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='IntegrationwithPICsimLab.html'>prev</a>] [<a href='CreatingaNewBoard.html#FinalResult.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
  
 </body> 
 </html>

@@ -12,6 +12,7 @@ var classcboard___blue___pill =
     [ "GetName", "classcboard___blue___pill.html#a2b96c50d4b686c6fbb520dacf973fa78", null ],
     [ "GetOutputId", "classcboard___blue___pill.html#a5f2a4af5a35840bfe54df9dbd4185d1a", null ],
     [ "GetSupportedDevices", "classcboard___blue___pill.html#aadd287006f618fc521393a37dca6467f", null ],
+    [ "GetSupportedIDEs", "classcboard___blue___pill.html#ab4f9379aa81bab8f2cc2e799da0b21d9", null ],
     [ "MGetPinCount", "classcboard___blue___pill.html#af19f566089959a3e82e4f87501375aff", null ],
     [ "MGetPinName", "classcboard___blue___pill.html#a9929c14322c8ad33b582beb09ddb5167", null ],
     [ "MSetAPin", "classcboard___blue___pill.html#aaf0cc94dfa9637e8c4218826fd46b072", null ],

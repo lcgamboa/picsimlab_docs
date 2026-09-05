@@ -7,9 +7,10 @@ var classcpart___m_i2_c__24_c_x_x_x =
     [ "GetInputId", "classcpart___m_i2_c__24_c_x_x_x.html#a2cb26a743dd60d7470e24e1bdd682df3", null ],
     [ "GetOutputId", "classcpart___m_i2_c__24_c_x_x_x.html#aea00510bee1fd6820925abaaf78c052a", null ],
     [ "OnMouseButtonPress", "classcpart___m_i2_c__24_c_x_x_x.html#a807c27f9f40b70cfbecd2241db79a408", null ],
+    [ "PreferencesNumberFields", "classcpart___m_i2_c__24_c_x_x_x.html#ac1af368ccd4730a7f5d4537585f6b523", null ],
     [ "PreProcess", "classcpart___m_i2_c__24_c_x_x_x.html#ab0f0bd730bc8f58e5ae8f30aabd39e8c", null ],
     [ "Process", "classcpart___m_i2_c__24_c_x_x_x.html#a3f308e58b5da3abefdda9f31b2829f45", null ],
-    [ "ReadPreferences", "classcpart___m_i2_c__24_c_x_x_x.html#a98bf30d816dadff4683adb21a859e284", null ],
+    [ "ReadPreferences", "classcpart___m_i2_c__24_c_x_x_x.html#ae817f991bcc92f36ca6a0a100049c2a0", null ],
     [ "ReadPropertiesWindow", "classcpart___m_i2_c__24_c_x_x_x.html#ae6bd7fbd650fe1ccc07ef0135f6b4e4d", null ],
     [ "WritePreferences", "classcpart___m_i2_c__24_c_x_x_x.html#af4ae2a4651281eac4974da1da258db95", null ]
 ];
