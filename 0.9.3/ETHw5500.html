@@ -20,13 +20,18 @@
    <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
    
    
-   
-   
-   
-   
-   
                                                                                          
                                                                                          
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
    
@@ -71,6 +76,8 @@
    <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
    
    
+                                                                                         
+                                                                                         
    
    
    
@@ -81,8 +88,6 @@
    
    
    <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
-                                                                                         
-                                                                                         
    <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
    <span class='sectionToc'>9.1 <a href='PinAlias.html#pin-alias'>Pin Alias</a></span>
    <span class='sectionToc'>9.2 <a href='Inputs.html#inputs'>Inputs</a></span>
@@ -127,6 +132,8 @@
    
    
    <span class='sectionToc'>9.4 <a href='Others.html#others'>Others</a></span>
+                                                                                         
+                                                                                         
    <span class='subsectionToc'>9.4.1 <a href='#eth-w5500'>ETH w5500</a></span>
    <span class='subsectionToc'>9.4.2 <a href='IO74xx573.html#io-74xx573'>IO 74xx573</a></span>
    <span class='subsectionToc'>9.4.3 <a href='IO74xx595.html#io-74xx595'>IO 74xx595</a></span>
@@ -137,8 +144,6 @@
    <span class='subsectionToc'>9.4.8 <a href='IOUART.html#io-uart'>IO UART</a></span>
    <span class='subsectionToc'>9.4.9 <a href='JumperWires.html#jumper-wires'>Jumper Wires</a></span>
    <span class='subsectionToc'>9.4.10 <a href='LogicBlock.html#logic-block'>Logic Block</a></span>
-                                                                                         
-                                                                                         
    <span class='subsectionToc'>9.4.11 <a href='MEM24CXXX.html#mem-24cxxx'>MEM 24CXXX</a></span>
    <span class='subsectionToc'>9.4.12 <a href='RTCds1307.html#rtc-ds1307'>RTC ds1307</a></span>
    <span class='subsectionToc'>9.4.13 <a href='RTCpfc8563.html#rtc-pfc8563'>RTC pfc8563</a></span>
@@ -183,29 +188,29 @@
    
    
    
+                                                                                         
+                                                                                         
     
 
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='Others.html#ETHw5500.html'>up</a>] [<a href='IO74xx573.html'>next</a>] </nav> 
-<h4 class='subsectionHead' id='eth-w5500'><span class='titlemark'>9.4.1    </span> <a id='x116-1230009.4.1'></a>ETH w5500</h4>
+<h4 class='subsectionHead' id='eth-w5500'><span class='titlemark'>9.4.1    </span> <a id='x121-1280009.4.1'></a>ETH w5500</h4>
 <!--  l. 885  --><p class='noindent'>This part is a ethernet shield w5500 with support to 8 sockets simultaneously.
 </p><!--  l. 887  --><p class='indent'>   Only TCP/UDP unicast address sockets is supported. DHCP is emulated and return a fake ipv4 address.
 </p><!--  l. 890  --><p class='indent'>   All listening ports below 2000 are increased by 2000 to avoid operational system services ports. For example listening on
 port 80 becomes 2080.
 </p><!--  l. 893  --><p class='indent'>   w5500 Status Legend: </p>
-                                                                                         
-                                                                                         
 <div class='center'>
 <!--  l. 894  --><p class='noindent'>
 </p>
-<div class='tabular'> <table class='tabular' id='TBL-6' rules='groups'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /></colgroup><colgroup id='TBL-6-2g'><col id='TBL-6-2' /></colgroup><colgroup id='TBL-6-3g'><col id='TBL-6-3' /></colgroup><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-06-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-06-3-1' style='text-align:left; white-space:nowrap;'> <span class='textbf'>1º Letter - Type</span>                                                                                                                                                                     </td><td class='td11' id='TBL-06-3-2' style='text-align:left; white-space:nowrap;'> <span class='textbf'>2º Letter - Status</span>                           </td><td class='td11' id='TBL-06-3-3' style='text-align:left; white-space:nowrap;'> <span class='textbf'>3º Letter - Error</span>  </td>
-</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-0006-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-0006-8-1' style='text-align:left; white-space:nowrap;'> C - Closed                                                                                                                                                                              </td><td class='td11' id='TBL-0006-8-2' style='text-align:left; white-space:nowrap;'> C - Closed                                       </td><td class='td11' id='TBL-0006-8-3' style='text-align:left; white-space:nowrap;'> B - Bind                 </td></tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-00006-11-' style='vertical-align:baseline;'><td class='td11' id='TBL-00006-11-1' style='text-align:left; white-space:nowrap;'> T - TCP </td><td class='td11' id='TBL-00006-11-2' style='text-align:left; white-space:nowrap;'> I - Initialized                                   </td><td class='td11' id='TBL-00006-11-3' style='text-align:left; white-space:nowrap;'> S - Send                 </td>
-</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-000006-14-' style='vertical-align:baseline;'><td class='td11' id='TBL-000006-14-1' style='text-align:left; white-space:nowrap;'> U - UDP                                                                                                                                                                                 </td><td class='td11' id='TBL-000006-14-2' style='text-align:left; white-space:nowrap;'> L - Listen                                        </td><td class='td11' id='TBL-000006-14-3' style='text-align:left; white-space:nowrap;'> R - Receive            </td></tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-0000006-17-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000006-17-1' style='text-align:left; white-space:nowrap;'> M - MACRAW (don’t supported)                                                                                                                                          </td><td class='td11' id='TBL-0000006-17-2' style='text-align:left; white-space:nowrap;'> S - Syn sent                                     </td><td class='td11' id='TBL-0000006-17-3' style='text-align:left; white-space:nowrap;'> L - Listen               </td>
-</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-00000006-20-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000006-20-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-00000006-20-2' style='text-align:left; white-space:nowrap;'> E - Established                                </td><td class='td11' id='TBL-00000006-20-3' style='text-align:left; white-space:nowrap;'> U - Reuse               </td>
-</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-000000006-23-' style='vertical-align:baseline;'><td class='td11' id='TBL-000000006-23-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-000000006-23-2' style='text-align:left; white-space:nowrap;'> W - Close wait                                </td><td class='td11' id='TBL-000000006-23-3' style='text-align:left; white-space:nowrap;'> C - Connecting      </td>
-</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-0000000006-26-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000000006-26-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-0000000006-26-2' style='text-align:left; white-space:nowrap;'> U - UDP                                          </td><td class='td11' id='TBL-0000000006-26-3' style='text-align:left; white-space:nowrap;'> D - Shutdown        </td>
-</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-00000000006-29-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000000006-29-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-00000000006-29-2' style='text-align:left; white-space:nowrap;'> M - MACRAW (don’t supported)  </td><td class='td11' id='TBL-00000000006-29-3' style='text-align:left; white-space:nowrap;'>              </td>
+<div class='tabular'> <table class='tabular' id='TBL-7' rules='groups'><colgroup id='TBL-7-1g'><col id='TBL-7-1' /></colgroup><colgroup id='TBL-7-2g'><col id='TBL-7-2' /></colgroup><colgroup id='TBL-7-3g'><col id='TBL-7-3' /></colgroup><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-07-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-07-3-1' style='text-align:left; white-space:nowrap;'> <span class='textbf'>1º Letter - Type</span>                                                                                                                                                                     </td><td class='td11' id='TBL-07-3-2' style='text-align:left; white-space:nowrap;'> <span class='textbf'>2º Letter - Status</span>                           </td><td class='td11' id='TBL-07-3-3' style='text-align:left; white-space:nowrap;'> <span class='textbf'>3º Letter - Error</span>  </td>
+</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-0007-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-0007-8-1' style='text-align:left; white-space:nowrap;'> C - Closed                                                                                                                                                                              </td><td class='td11' id='TBL-0007-8-2' style='text-align:left; white-space:nowrap;'> C - Closed                                       </td><td class='td11' id='TBL-0007-8-3' style='text-align:left; white-space:nowrap;'> B - Bind                 </td></tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-00007-11-' style='vertical-align:baseline;'><td class='td11' id='TBL-00007-11-1' style='text-align:left; white-space:nowrap;'> T - TCP </td><td class='td11' id='TBL-00007-11-2' style='text-align:left; white-space:nowrap;'> I - Initialized                                   </td><td class='td11' id='TBL-00007-11-3' style='text-align:left; white-space:nowrap;'> S - Send                 </td>
+</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-000007-14-' style='vertical-align:baseline;'><td class='td11' id='TBL-000007-14-1' style='text-align:left; white-space:nowrap;'> U - UDP                                                                                                                                                                                 </td><td class='td11' id='TBL-000007-14-2' style='text-align:left; white-space:nowrap;'> L - Listen                                        </td><td class='td11' id='TBL-000007-14-3' style='text-align:left; white-space:nowrap;'> R - Receive            </td></tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-0000007-17-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000007-17-1' style='text-align:left; white-space:nowrap;'> M - MACRAW (don’t supported)                                                                                                                                          </td><td class='td11' id='TBL-0000007-17-2' style='text-align:left; white-space:nowrap;'> S - Syn sent                                     </td><td class='td11' id='TBL-0000007-17-3' style='text-align:left; white-space:nowrap;'> L - Listen               </td>
+</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-00000007-20-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000007-20-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-00000007-20-2' style='text-align:left; white-space:nowrap;'> E - Established                                </td><td class='td11' id='TBL-00000007-20-3' style='text-align:left; white-space:nowrap;'> U - Reuse               </td>
+</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-000000007-23-' style='vertical-align:baseline;'><td class='td11' id='TBL-000000007-23-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-000000007-23-2' style='text-align:left; white-space:nowrap;'> W - Close wait                                </td><td class='td11' id='TBL-000000007-23-3' style='text-align:left; white-space:nowrap;'> C - Connecting      </td>
+</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-0000000007-26-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000000007-26-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-0000000007-26-2' style='text-align:left; white-space:nowrap;'> U - UDP                                          </td><td class='td11' id='TBL-0000000007-26-3' style='text-align:left; white-space:nowrap;'> D - Shutdown        </td>
+</tr><tr class='array-hline'><td></td><td></td><td></td></tr><tr id='TBL-00000000007-29-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000000007-29-1' style='text-align:left; white-space:nowrap;'>                                                                                 </td><td class='td11' id='TBL-00000000007-29-2' style='text-align:left; white-space:nowrap;'> M - MACRAW (don’t supported)  </td><td class='td11' id='TBL-00000000007-29-3' style='text-align:left; white-space:nowrap;'>              </td>
 </tr><tr class='array-hline'><td></td><td></td><td></td></tr></table>                                                </div></div>
 <!--  l. 910  --><p class='indent'>   Click on connector to toggle link status.
 </p>

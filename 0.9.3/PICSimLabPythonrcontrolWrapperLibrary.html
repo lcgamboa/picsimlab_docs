@@ -1,0 +1,286 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>PICSimLab Python rcontrol Wrapper Library</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   <span class='sectionToc'>3.1 <a href='MainWindow.html#main-window'>Main Window</a></span>
+   
+   <span class='sectionToc'>3.2 <a href='ConfigurationWindow.html#configuration-window'>Configuration Window</a></span>
+   <span class='sectionToc'>3.3 <a href='ProjectWizard.html#project-wizard'>Project Wizard</a></span>
+   
+   
+   
+   
+   <span class='sectionToc'>3.4 <a href='InteractionwiththeBoard.html#interaction-with-the-board'>Interaction with the Board</a></span>
+   <span class='sectionToc'>3.5 <a href='CommandLine.html#command-line'>Command Line</a></span>
+   <span class='sectionToc'>3.6 <a href='RemoteControlInterface.html#remote-control-interface'>Remote Control Interface</a></span>
+   <span class='subsectionToc'>3.6.1 <a href='#picsimlab-python-rcontrol-wrapper-library'>PICSimLab Python rcontrol Wrapper Library</a></span>
+   <span class='sectionToc'>3.7 <a href='PictureMapReference.html#picture-map-reference'>Picture Map Reference</a></span>
+   <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
+                                                                                         
+                                                                                         
+   <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='RemoteControlInterface.html#PICSimLabPythonrcontrolWrapperLibrary.html'>up</a>] </nav> 
+<h4 class='subsectionHead' id='picsimlab-python-rcontrol-wrapper-library'><span class='titlemark'>3.6.1    </span> <a id='x22-210003.6.1'></a>PICSimLab Python rcontrol Wrapper Library</h4>
+<!--  l. 521  --><p class='noindent'>The <a href='https://pypi.org/project/PICSimLab-rcontrol/' target='_blank'>PICSimLab python rcontrol wrapper library</a> is a Python library for controlling the PICSimLab simulator using the rcontrol
+remote control protocol.
+</p><!--  l. 524  --><p class='indent'>   They can be installed using pip:
+</p>
+   <pre class='fancyvrb' id='fancyvrb18'><span class='fancyvrblineno'><a id='x22-21003r1'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>pip</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>install</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>PICSimlab_rcontrol</span></span></pre>
+<!--  l. 529  --><p class='indent'>   Python code example:
+</p>
+   <pre class='fancyvrb' id='fancyvrb19'><span class='fancyvrblineno'><a id='x22-21082r1'></a></span><span class='fancyvrbline'><span style='color:#3D7A7A;'><span class='textit'>#use python -u hardware_list.py | tee hardware.md</span></span></span> 
+<span class='fancyvrblineno'><a id='x22-21084r2'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21086r3'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>import</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#0000FF;'><span class='textbf'>time</span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>,</span></span><span style='color:#0000FF;'><span class='textbf'>re</span></span></span> 
+<span class='fancyvrblineno'><a id='x22-21088r4'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>import</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#0000FF;'><span class='textbf'>subprocess</span></span></span> 
+<span class='fancyvrblineno'><a id='x22-21090r5'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>from</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#0000FF;'><span class='textbf'>pathlib</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#008000;'><span class='textbf'>import</span></span><span class='pcrr8t-x-x-80'> Path</span></span> 
+<span class='fancyvrblineno'><a id='x22-21092r6'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>from</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#0000FF;'><span class='textbf'>PICSimLab_rcontrol</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#008000;'><span class='textbf'>import</span></span><span class='pcrr8t-x-x-80'> PICSimLab_rcontrol</span></span> 
+<span class='fancyvrblineno'><a id='x22-21094r7'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21096r8'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21098r9'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>def</span></span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#0000FF;'><span class='pcrr8t-x-x-80'>run_picsimlab</span></span><span class='pcrr8t-x-x-80'>(board</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>, processor</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>, file_path</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>):</span></span> 
+<span class='fancyvrblineno'><a id='x22-21100r10'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    exe_path </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>r</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"/usr/bin/picsimlab"</span></span></span> 
+<span class='fancyvrblineno'><a id='x22-21102r11'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>len</span></span><span class='pcrr8t-x-x-80'>(board)  </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21104r12'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>len</span></span><span class='pcrr8t-x-x-80'>(processor) </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21106r13'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>len</span></span><span class='pcrr8t-x-x-80'>(file_path) </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>&gt;</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>0</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21108r14'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#AB21FF;'><span class='textbf'>not</span></span><span class='pcrr8t-x-x-80'> file_path</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>is_file():</span></span> 
+<span class='fancyvrblineno'><a id='x22-21110r15'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                    </span><span style='color:#008000;'><span class='textbf'>raise</span></span><span class='pcrr8t-x-x-80'>  </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"File not found </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>file_path</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21112r16'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='textbf'>return</span></span><span class='pcrr8t-x-x-80'> subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>Popen([exe_path, board, processor, </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>str</span></span><span class='pcrr8t-x-x-80'>(file_path)], stdout</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>DEVNULL)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21114r17'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>else</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21116r18'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='textbf'>return</span></span><span class='pcrr8t-x-x-80'> subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>Popen([exe_path, board, processor], stdout</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>DEVNULL)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21118r19'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        </span><span style='color:#008000;'><span class='textbf'>else</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21120r20'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>return</span></span><span class='pcrr8t-x-x-80'> subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>Popen([exe_path, board], stdout</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>DEVNULL)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21122r21'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    </span><span style='color:#008000;'><span class='textbf'>else</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21124r22'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        </span><span style='color:#008000;'><span class='textbf'>return</span></span><span class='pcrr8t-x-x-80'> subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>Popen(exe_path, stdout</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'>subprocess</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>DEVNULL)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21126r23'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21128r24'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>process</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> run_picsimlab()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21130r25'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>try</span></span><span class='pcrr8t-x-x-80'>:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21132r26'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    time</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>sleep(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21134r27'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    </span><span style='color:#008000;'><span class='textbf'>with</span></span><span class='pcrr8t-x-x-80'> PICSimLab_rcontrol(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>5000</span></span><span class='pcrr8t-x-x-80'>) </span><span style='color:#008000;'><span class='textbf'>as</span></span><span class='pcrr8t-x-x-80'> rc:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21136r28'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_blist()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21138r29'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        line </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>get_cmd_response()</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>splitlines()[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>]</span></span> 
+<span class='fancyvrblineno'><a id='x22-21140r30'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        boards </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> [item</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>strip() </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> item </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> line</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>split(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>","</span></span><span class='pcrr8t-x-x-80'>) </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> item</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>strip()]</span></span> 
+<span class='fancyvrblineno'><a id='x22-21142r31'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_exit()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21144r32'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        process</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>wait()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21146r33'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21148r34'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> board </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> boards:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21150r35'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"## </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>board</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21152r36'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        process</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> run_picsimlab(board)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21154r37'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        time</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>sleep(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>2</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21156r38'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>        </span><span style='color:#008000;'><span class='textbf'>with</span></span><span class='pcrr8t-x-x-80'> PICSimLab_rcontrol(</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>5000</span></span><span class='pcrr8t-x-x-80'>) </span><span style='color:#008000;'><span class='textbf'>as</span></span><span class='pcrr8t-x-x-80'> rc:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21158r39'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_buclist()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21160r40'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            line </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>get_cmd_response()</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>splitlines()[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>]</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>split(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>","</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21162r41'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            processors </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> [item </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> item </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> line </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> item]</span></span> 
+<span class='fancyvrblineno'><a id='x22-21164r42'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" - Processors:"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21166r43'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> proc </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> processors:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21168r44'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>proc</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>", "</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21170r45'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21172r46'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21174r47'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_bblist()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21176r48'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            line </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>get_cmd_response()</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>splitlines()[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>]</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>split(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>","</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21178r49'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            backends </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> [item </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> item </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> line </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> item]</span></span> 
+<span class='fancyvrblineno'><a id='x22-21180r50'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" - Backends:"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21182r51'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> proc </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> backends:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21184r52'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>proc</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>", "</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21186r53'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21188r54'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21190r55'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_bdlist()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21192r56'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            line </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>get_cmd_response()</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>splitlines()[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>]</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>split(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>","</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21194r57'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            debuggers </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> [item </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> item </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> line </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> item]</span></span> 
+<span class='fancyvrblineno'><a id='x22-21196r58'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" - Debuggers:"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21198r59'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> proc </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> debuggers:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21200r60'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>proc</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>", "</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21202r61'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21204r62'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21206r63'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_bilist()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21208r64'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            line </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>get_cmd_response()</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>splitlines()[</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>1</span></span><span class='pcrr8t-x-x-80'>]</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>split(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>","</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21210r65'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            ides </span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span class='pcrr8t-x-x-80'> [item </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> item </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> line </span><span style='color:#008000;'><span class='textbf'>if</span></span><span class='pcrr8t-x-x-80'> item]</span></span> 
+<span class='fancyvrblineno'><a id='x22-21212r66'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" - IDEs:"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21214r67'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='textbf'>for</span></span><span class='pcrr8t-x-x-80'> proc </span><span style='color:#AB21FF;'><span class='textbf'>in</span></span><span class='pcrr8t-x-x-80'> ides:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21216r68'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>                </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>" </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>proc</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>,end</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>=</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>", "</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21218r69'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>""</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21220r70'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21222r71'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            rc</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>cmd_exit()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21224r72'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>            process</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>.</span></span><span class='pcrr8t-x-x-80'>wait()</span></span> 
+<span class='fancyvrblineno'><a id='x22-21226r73'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21228r74'></a></span><span class='fancyvrbline'><span style='color:#008000;'><span class='textbf'>except</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#CC4038;'><span class='textbf'>ConnectionError</span></span><span class='pcrr8t-x-x-80'> </span><span style='color:#008000;'><span class='textbf'>as</span></span><span class='pcrr8t-x-x-80'> e:</span></span> 
+<span class='fancyvrblineno'><a id='x22-21230r75'></a></span><span class='fancyvrbline'><span class='pcrr8t-x-x-80'>    </span><span style='color:#008000;'><span class='pcrr8t-x-x-80'>print</span></span><span class='pcrr8t-x-x-80'>(</span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>f</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"ConnectionError: </span></span><span style='color:#A35978;'><span class='textbf'>{</span></span><span class='pcrr8t-x-x-80'>e</span><span style='color:#A35978;'><span class='textbf'>}</span></span><span style='color:#BA2121;'><span class='pcrr8t-x-x-80'>"</span></span><span class='pcrr8t-x-x-80'>)</span></span> 
+<span class='fancyvrblineno'><a id='x22-21232r76'></a></span><span class='fancyvrbline'> 
+</span><span class='fancyvrblineno'><a id='x22-21234r77'></a></span><span class='fancyvrbline'></span></pre>
+                                                                                         
+                                                                                         
+   <nav class='crosslinks-bottom'>[<a href='RemoteControlInterface.html#PICSimLabPythonrcontrolWrapperLibrary.html'>up</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

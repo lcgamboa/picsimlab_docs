@@ -93,9 +93,11 @@ The main window has the menu with the following functions:
   \item IO Virtual term - Adds a virtual serial terminal 
   \item Signal Generator - Adds a virtual signal generator
   \item Text Box - Adds a static text box
-  \item VCD Dump - Adds a digital value file dump recorder 
-  \item VCD Dump (Analogic) - Adds a analog value file dump recorder  
-  \item VCD Play - Adds a digital value file dump player  
+  \item VCD Dump - Adds a 8 bits digital value file dump recorder 
+  \item VCD Dump (Analogic) - Adds a 8 channels analog value file dump recorder 
+  \item VCD Dump 16 - Adds a 16 bits digital value file dump recorder
+  \item VCD Dump Memory - Adds a RAM memory value file dump recorder 
+  \item VCD Play - Adds a digital value file dump player 8 bits
   \end{itemize}   
  \item Help
  \begin{itemize}
@@ -1179,7 +1181,7 @@ This part is static multiline text box.
 
 \subsection{VCD Dump}
 
-This part is a digital value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
+This part is a 8 bits digital value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
 \hrefb{https://sourceforge.net/projects/gtkwave/files/}{gtkwave} or \hrefb{https://sigrok.org/wiki/Downloads}{pulseview}. 
 
 \begin{figure}[H]
@@ -1200,7 +1202,7 @@ This part is a digital value file dump (VCD) recorder. The VCD generated file ca
 \subsection{VCD Dump (Analogic)}
 
 
-This part is a analog value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
+This part is a 8 channels analog value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
 \hrefb{https://sourceforge.net/projects/gtkwave/files/}{gtkwave} or \hrefb{https://sigrok.org/wiki/Downloads}{pulseview}.  
 
 \begin{figure}[H]
@@ -1217,11 +1219,52 @@ This part is a analog value file dump (VCD) recorder. The VCD generated file can
 
 \href{https://lcgamboa.github.io/picsimlab_examples/parts_VCD_Dump_(Analogic).html}{Examples}
 
- 
+
+\subsection{VCD Dump 16}
+
+This part is a 16 bits digital value file dump (VCD) recorder. The VCD generated file can be visualized with one external viewer like 
+\hrefb{https://sourceforge.net/projects/gtkwave/files/}{gtkwave} or \hrefb{https://sigrok.org/wiki/Downloads}{pulseview}. 
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.8\textwidth]{img/part_vcd_dump_16.png} 
+\end{figure}
+
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.99\textwidth]{img/part_vcd_dump_16_pulseview.png} 
+\end{figure}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_VCD_Dump_16.html}{Examples}
+
+\subsection{VCD Dump Memory}
+
+This part is RAM memory value file dump (VCD) recorder. 
+Currently, it is only supported by boards that use the backend PICSim or Simavr.
+The VCD generated file can be visualized with one external viewer like 
+\hrefb{https://sourceforge.net/projects/gtkwave/files/}{gtkwave} or \hrefb{https://sigrok.org/wiki/Downloads}{pulseview}. 
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.8\textwidth]{img/part_vcd_dump_memory.png} 
+\end{figure}
+
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=0.99\textwidth]{img/part_vcd_dump_memory_pulseview.png} 
+\end{figure}
+
+\href{https://lcgamboa.github.io/picsimlab_examples/parts_VCD_Dump_Memory.html}{Examples}
+
+
 \subsection{VCD Play}
 
 
-This part play a VCD file generated from VCD Dump part.  
+This part plays a 8 bit digital value VCD file generated from VCD Dump part.  
 
 \begin{figure}[H]
 \center

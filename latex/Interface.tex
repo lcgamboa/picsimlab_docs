@@ -119,8 +119,44 @@ version instead of the stable version.
 \end{itemize}
 
 
-\section{Project Wizard Window}\hypertarget{def:prjwizard}{}
+\section{Project Wizard}\hypertarget{def:prjwizard}{}
 
+\subsection{Introduction and Software Requirements}
+
+The PICSimLab Project Wizard provides a user interface for generating code projects
+utilizing pre-defined code templates. To facilitate compilation and debugging,
+the appropriate Integrated Development Environments (IDEs) must be installed prior
+to project creation.  These IDEs are dependent on the selected boards and
+microcontrollers.  For boards employing ESP32, STM32, Atmel (AVR), STM8, and C51
+microcontrollers, 
+the \href{https://platformio.org/install/ide?install=vscode}{PlatformIO IDE for VSCode}
+is required.  Furthermore, for boards 
+based on the PIC18F and PIC16F microcontrollers, 
+the \hyperlink{def:installmplabx}{MPLABX IDE and the XC8 compiler}
+must be installed.
+
+\subsection{Work With Workspaces Files}
+
+Upon saving a simulation containing a code project to a workspace file (.pzw),
+the project's code is also included within the workspace file. When the workspace 
+file is opened, it points to a copy of the stored code, not the original project code.
+Any modifications made to the code within the opened workspace file will be automatically
+saved during the file's closing.
+
+This feature has been added to simplify student assignment submission using PICSimLab for 
+simulation practice. The following steps outline its usage:
+\begin{enumerate}
+ \item Students begin by opening PICSimLab and utilizing the Project Wizard to
+ establish a new project.
+ \item Next, students will develop the code and conduct the required simulations within 
+ the project.
+ \item Finally, students save the workspace file and submit it for review.
+ \item The instructor then receives the workspace file, containing the simulation 
+ and code developed, for grading purposes.
+\end{enumerate}
+
+
+\subsection{Project Wizard Window}
 
 \begin{figure}[H]
 \center
@@ -149,6 +185,92 @@ The "PICSimLab - Project Wizard" window is an interface for creating a new code 
 
 \item Button Open Existing: Opens an existing project and associates it as the active project.
 \end{itemize}
+
+
+
+\subsection{Code Templates List}
+
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|p{8cm}|}
+\hline
+\textbf{IDE} & \textbf{Framework} & \textbf{Board} & \textbf{Code Template} & \textbf{Processor} \\
+\hline \hline
+\multirow{44}{*}{MPLAB X IDE} & \multirow{44}{*}{XC8} & \multirow{16}{*}{Breadboard}  & \multirow{11}{*}{Blink} & PIC16F1516, PIC16F1619, PIC16F1788, PIC16F1789, PIC16F1827, PIC16F1829, PIC16F18324, PIC16F1847, PIC16F18855, PIC16F1939, PIC16F1947, PIC16F628A, PIC16F648A, PIC16F688, PIC16F777, PIC16F819, PIC16F84A, PIC16F877A, PIC16F886, PIC16F887, PIC18F24Q10, PIC18F26K80, PIC18F27K40, PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F46J50, PIC18F47K40, PIC18F67J60, PIC18F67J94, atmega2560, atmega328p, attiny85\\
+\cline{4-5}
+ &  &   & \multirow{5}{*}{Blink FreeRTOS} & PIC18F24Q10, PIC18F26K80, PIC18F27K40, PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F46J50, PIC18F47K40, PIC18F67J60, PIC18F67J94\\
+\cline{3-5}
+ &  & \multirow{1}{*}{Curiosity}  & \multirow{1}{*}{Blink} & PIC16F1619\\
+\cline{3-5}
+ &  & \multirow{2}{*}{Curiosity\_HPC}  & \multirow{1}{*}{Blink} & PIC18F47K40\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & PIC18F47K40\\
+\cline{3-5}
+ &  & \multirow{1}{*}{K16F}  & \multirow{1}{*}{Blink} & PIC16F628A, PIC16F648A, PIC16F84A\\
+\cline{3-5}
+ &  & \multirow{1}{*}{McLab1}  & \multirow{1}{*}{Blink} & PIC16F628A, PIC16F648A, PIC16F84A\\
+\cline{3-5}
+ &  & \multirow{7}{*}{McLab2}  & \multirow{4}{*}{Blink} & PIC16F1789, PIC16F1939, PIC16F777, PIC16F877A, PIC16F887, PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F47K40\\
+\cline{4-5}
+ &  &   & \multirow{3}{*}{Blink FreeRTOS} & PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F47K40\\
+\cline{3-5}
+ &  & \multirow{11}{*}{PICGenios}  & \multirow{4}{*}{Blink} & PIC16F1789, PIC16F1939, PIC16F777, PIC16F877A, PIC16F887, PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F47K40\\
+\cline{4-5}
+ &  &   & \multirow{3}{*}{Blink FreeRTOS} & PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F47K40\\
+\cline{4-5}
+ &  &   & \multirow{4}{*}{Blink PICGenios} & PIC16F1789, PIC16F1939, PIC16F777, PIC16F877A, PIC16F887, PIC18F452, PIC18F4520, PIC18F4550, PIC18F4580, PIC18F45K50, PIC18F4620, PIC18F47K40\\
+\cline{3-5}
+ &  & \multirow{2}{*}{PQDB}  & \multirow{1}{*}{Blink} & PIC18F4520, PIC18F4550, PIC18F4620\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & PIC18F4520, PIC18F4550, PIC18F4620\\
+\cline{3-5}
+ &  & \multirow{2}{*}{X}  & \multirow{1}{*}{Blink} & PIC16F877A, PIC18F4550, PIC18F4620\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & PIC18F4550, PIC18F4620\\
+\cline{3-5}
+ &  & \multirow{1}{*}{Xpress}  & \multirow{1}{*}{Blink} & PIC16F18855\\
+\cline{1-5}
+\multirow{20}{*}{PlatformIO IDE for VSCode} & \multirow{16}{*}{Arduino} & \multirow{2}{*}{Arduino\_Mega}  & \multirow{1}{*}{Blink} & atmega2560\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & atmega2560\\
+\cline{3-5}
+ &  & \multirow{2}{*}{Arduino\_Nano}  & \multirow{1}{*}{Blink} & atmega328p\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & atmega328p\\
+\cline{3-5}
+ &  & \multirow{2}{*}{Arduino\_Uno}  & \multirow{1}{*}{Blink} & atmega328p\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & atmega328p\\
+\cline{3-5}
+ &  & \multirow{2}{*}{Blue\_Pill}  & \multirow{1}{*}{Blink} & stm32f103c8t6\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & stm32f103c8t6\\
+\cline{3-5}
+ &  & \multirow{2}{*}{ESP32\_C3\_DevKitC\_02}  & \multirow{1}{*}{Blink} & ESP32-C3\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & ESP32-C3\\
+\cline{3-5}
+ &  & \multirow{2}{*}{ESP32\_DevKitC}  & \multirow{1}{*}{Blink} & ESP32\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & ESP32\\
+\cline{3-5}
+ &  & \multirow{1}{*}{Franzininho\_DIY}  & \multirow{1}{*}{Blink} & attiny85\\
+\cline{3-5}
+ &  & \multirow{2}{*}{STM32\_H103}  & \multirow{1}{*}{Blink} & stm32f103rbt6\\
+\cline{4-5}
+ &  &   & \multirow{1}{*}{Blink FreeRTOS} & stm32f103rbt6\\
+\cline{3-5}
+ &  & \multirow{1}{*}{uCboard}  & \multirow{1}{*}{Blink} & STM8S103\\
+\cline{2-5}
+ & \multirow{2}{*}{CMSIS} & \multirow{1}{*}{Blue\_Pill}  & \multirow{1}{*}{Blink} & stm32f103c8t6\\
+\cline{3-5}
+ &  & \multirow{1}{*}{STM32\_H103}  & \multirow{1}{*}{Blink} & stm32f103rbt6\\
+\cline{2-5}
+ & \multirow{2}{*}{IDF} & \multirow{1}{*}{ESP32\_C3\_DevKitC\_02}  & \multirow{1}{*}{Blink} & ESP32-C3\\
+\cline{3-5}
+ &  & \multirow{1}{*}{ESP32\_DevKitC}  & \multirow{1}{*}{Blink} & ESP32\\
+\hline
+\end{tabular}
+}
 
 
 \section{Interaction with the Board}
@@ -207,7 +329,7 @@ Supported boards \textbf{boardname} parameter:
 
 \section{Remote Control Interface}\hypertarget{def:rcontrol}{}
 
-The remote control interface allows other programs to control the PICSimLab simulation
+The remote control interface (rcontrol) allows other programs to control the PICSimLab simulation
 through a TCP/IP socket using text formatted commands. 
 
 The PICSimLab remote control interface supports TCP connections using telnet or nc (netcat).
@@ -394,6 +516,96 @@ set apin[20] 2.345
 For windows users \href{https://www.putty.org/}{putty telnet client} is a good option 
 to access the remote control interface. 
 
+\subsection{PICSimLab Python rcontrol Wrapper Library}
+
+The \href{https://pypi.org/project/PICSimLab-rcontrol/}{PICSimLab python rcontrol wrapper library} is 
+a Python library for controlling the PICSimLab simulator using the rcontrol remote control protocol.
+
+They can be installed using pip:
+\begin{minted}[baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{bash}
+pip install PICSimlab_rcontrol
+\end{minted}
+
+Python code example:
+\begin{minted}[breaklines,baselinestretch=1.2,fontsize=\footnotesize,bgcolor=colorbash]{python}
+#use python -u hardware_list.py | tee hardware.md
+
+import time,re
+import subprocess
+from pathlib import Path
+from PICSimLab_rcontrol import PICSimLab_rcontrol
+
+
+def run_picsimlab(board="", processor="", file_path=""):
+    exe_path = r"/usr/bin/picsimlab"
+    if len(board)  > 0: 
+        if len(processor) > 0:
+            if len(file_path) > 0:
+                if not file_path.is_file():
+                    raise  print(f"File not found {file_path}")
+                return subprocess.Popen([exe_path, board, processor, str(file_path)], stdout=subprocess.DEVNULL)
+            else:
+                return subprocess.Popen([exe_path, board, processor], stdout=subprocess.DEVNULL)     
+        else:
+            return subprocess.Popen([exe_path, board], stdout=subprocess.DEVNULL)
+    else:
+        return subprocess.Popen(exe_path, stdout=subprocess.DEVNULL)
+    
+process= run_picsimlab()
+try:
+    time.sleep(2) 
+    with PICSimLab_rcontrol(5000) as rc:
+        rc.cmd_blist()
+        line = rc.get_cmd_response().splitlines()[1]
+        boards = [item.strip() for item in line.split(",") if item.strip()]
+        rc.cmd_exit()
+        process.wait()
+
+    for board in boards:
+        print(f"## {board}")
+        process= run_picsimlab(board)
+        time.sleep(2) 
+        with PICSimLab_rcontrol(5000) as rc:
+            rc.cmd_buclist()
+            line = rc.get_cmd_response().splitlines()[1].split(",")
+            processors = [item for item in line if item]
+            print(" - Processors:",end="") 
+            for proc in processors:
+                print(f" {proc}",end=", ") 
+            print("")   
+
+            rc.cmd_bblist()
+            line = rc.get_cmd_response().splitlines()[1].split(",")
+            backends = [item for item in line if item]
+            print(" - Backends:",end="") 
+            for proc in backends:
+                print(f" {proc}",end=", ") 
+            print("")   
+
+            rc.cmd_bdlist()
+            line = rc.get_cmd_response().splitlines()[1].split(",")
+            debuggers = [item for item in line if item]
+            print(" - Debuggers:",end="") 
+            for proc in debuggers:
+                print(f" {proc}",end=", ") 
+            print("")  
+
+            rc.cmd_bilist()
+            line = rc.get_cmd_response().splitlines()[1].split(",")
+            ides = [item for item in line if item]
+            print(" - IDEs:",end="") 
+            for proc in ides:
+                print(f" {proc}",end=", ") 
+            print("")  
+
+            rc.cmd_exit()
+            process.wait()
+                        
+except ConnectionError as e:
+    print(f"ConnectionError: {e}")
+
+ 
+\end{minted}
 
 \section{Picture Map Reference}\hypertarget{def:map}{}
 

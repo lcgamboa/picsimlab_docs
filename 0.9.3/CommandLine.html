@@ -21,10 +21,15 @@
    <span class='sectionToc'>3.1 <a href='MainWindow.html#main-window'>Main Window</a></span>
    
    <span class='sectionToc'>3.2 <a href='ConfigurationWindow.html#configuration-window'>Configuration Window</a></span>
-   <span class='sectionToc'>3.3 <a href='ProjectWizardWindow.html#project-wizard-window'>Project Wizard Window</a></span>
+   <span class='sectionToc'>3.3 <a href='ProjectWizard.html#project-wizard'>Project Wizard</a></span>
+   
+   
+   
+   
    <span class='sectionToc'>3.4 <a href='InteractionwiththeBoard.html#interaction-with-the-board'>Interaction with the Board</a></span>
    <span class='sectionToc'>3.5 <a href='#command-line'>Command Line</a></span>
    <span class='sectionToc'>3.6 <a href='RemoteControlInterface.html#remote-control-interface'>Remote Control Interface</a></span>
+   
    <span class='sectionToc'>3.7 <a href='PictureMapReference.html#picture-map-reference'>Picture Map Reference</a></span>
    <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
    
@@ -52,13 +57,13 @@
    
    
    
+                                                                                         
+                                                                                         
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
    
    
    
    
-                                                                                         
-                                                                                         
    
    
    
@@ -108,13 +113,13 @@
    
    
    
-   
-   
-   
-   
-   
                                                                                          
                                                                                          
+   
+   
+   
+   
+   
    
    
    
@@ -164,13 +169,13 @@
    
    
    
-   
-   
-   
-   
-   
                                                                                          
                                                                                          
+   
+   
+   
+   
+   
    
    
    
@@ -188,15 +193,15 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='InteractionwiththeBoard.html'>prev</a>] [<a href='SimulatorInterface.html#CommandLine.html'>up</a>] [<a href='RemoteControlInterface.html'>next</a>] </nav> 
-<h3 class='sectionHead' id='command-line'><span class='titlemark'>3.5    </span> <a id='x16-150003.5'></a>Command Line</h3>
-<!--  l. 169  --><p class='noindent'>PICSimLab supports two command lines format:
-</p><!--  l. 171  --><p class='indent'>   One for load a PICSimLab Workspace file (.pzw)
+<h3 class='sectionHead' id='command-line'><span class='titlemark'>3.5    </span> <a id='x20-190003.5'></a>Command Line</h3>
+<!--  l. 291  --><p class='noindent'>PICSimLab supports two command lines format:
+</p><!--  l. 293  --><p class='indent'>   One for load a PICSimLab Workspace file (.pzw)
 </p>
-   <pre class='fancyvrb' id='fancyvrb7'><span class='fancyvrblineno'><a id='x16-15003r1'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>file.pzw</span></span></pre>
-<!--  l. 176  --><p class='indent'>   And other for load .hex/.bin files
+   <pre class='fancyvrb' id='fancyvrb7'><span class='fancyvrblineno'><a id='x20-19003r1'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>file.pzw</span></span></pre>
+<!--  l. 298  --><p class='indent'>   And other for load .hex/.bin files
 </p>
-   <pre class='fancyvrb' id='fancyvrb8'><span class='fancyvrblineno'><a id='x16-15006r1'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>boardname</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>microcontroller</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.hex</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.pcf</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>]]]</span></span></span></pre>
-<!--  l. 181  --><p class='indent'>   Supported boards <span class='textbf'>boardname</span> parameter: </p>
+   <pre class='fancyvrb' id='fancyvrb8'><span class='fancyvrblineno'><a id='x20-19006r1'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'>  </span></span><span class='pcrr8t-x-x-80'>picsimlab</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span class='pcrr8t-x-x-80'>boardname</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>microcontroller</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.hex</span><span style='color:#BABABA;'><span class='pcrr8t-x-x-80'> </span></span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>[</span></span><span class='pcrr8t-x-x-80'>file.pcf</span><span style='color:#666666;'><span class='pcrr8t-x-x-80'>]]]</span></span></span></pre>
+<!--  l. 303  --><p class='indent'>   Supported boards <span class='textbf'>boardname</span> parameter: </p>
      <ul class='itemize1'>
      <li class='itemize'>Arduino_Mega
      </li>
@@ -209,10 +214,10 @@
      <li class='itemize'>Breadboard
      </li>
      <li class='itemize'>Curiosity
+                                                                                         
+                                                                                         
      </li>
      <li class='itemize'>Curiosity_HPC
-                                                                                         
-                                                                                         
      </li>
      <li class='itemize'>ESP32_C3_DevKitC_02
      </li>
@@ -239,6 +244,8 @@
      <li class='itemize'>Xpress
      </li>
      <li class='itemize'>gpboard
+                                                                                         
+                                                                                         
      </li>
      <li class='itemize'>uCboard</li></ul>
                                                                                          

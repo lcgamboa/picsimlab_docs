@@ -107,7 +107,7 @@ var annotated_dup =
     [ "cpart_TEXT", "classcpart___t_e_x_t.html", "classcpart___t_e_x_t" ],
     [ "cpart_UART", "classcpart___u_a_r_t.html", "classcpart___u_a_r_t" ],
     [ "cpart_VCD_Dump", "classcpart___v_c_d___dump.html", "classcpart___v_c_d___dump" ],
-    [ "cpart_VCD_Dump2", "classcpart___v_c_d___dump2.html", "classcpart___v_c_d___dump2" ],
+    [ "cpart_VCD_Dump16", "classcpart___v_c_d___dump16.html", "classcpart___v_c_d___dump16" ],
     [ "cpart_VCD_Dump_an", "classcpart___v_c_d___dump__an.html", "classcpart___v_c_d___dump__an" ],
     [ "cpart_VCD_Dump_DBG", "classcpart___v_c_d___dump___d_b_g.html", "classcpart___v_c_d___dump___d_b_g" ],
     [ "cpart_VCD_Dump_Mem", "classcpart___v_c_d___dump___mem.html", "classcpart___v_c_d___dump___mem" ],

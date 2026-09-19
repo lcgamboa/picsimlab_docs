@@ -1,0 +1,209 @@
+<!DOCTYPE html> 
+<html lang='en' xml:lang='en'> 
+<head><title>Introduction and Software Requirements</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='picsimlab.css' rel='stylesheet' type='text/css' /> 
+<meta content='picsimlab.tex' name='src' /> 
+<link href='style.css' rel='stylesheet' type='text/css' /> 
+</head><body>
+   <nav class='TOC'>
+   <span class='chapterToc'>1 <a href='Introduction.html#introduction'>Introduction</a></span>
+   <span class='chapterToc'>2 <a href='Install.html#install'>Install</a></span>
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>3 <a href='SimulatorInterface.html#simulator-interface'>Simulator Interface</a></span>
+   <span class='sectionToc'>3.1 <a href='MainWindow.html#main-window'>Main Window</a></span>
+   
+   <span class='sectionToc'>3.2 <a href='ConfigurationWindow.html#configuration-window'>Configuration Window</a></span>
+   <span class='sectionToc'>3.3 <a href='ProjectWizard.html#project-wizard'>Project Wizard</a></span>
+   <span class='subsectionToc'>3.3.1 <a href='#introduction-and-software-requirements'>Introduction and Software Requirements</a></span>
+   <span class='subsectionToc'>3.3.2 <a href='WorkWithWorkspacesFiles.html#work-with-workspaces-files'>Work With Workspaces Files</a></span>
+   <span class='subsectionToc'>3.3.3 <a href='ProjectWizardWindow.html#project-wizard-window'>Project Wizard Window</a></span>
+   <span class='subsectionToc'>3.3.4 <a href='CodeTemplatesList.html#code-templates-list'>Code Templates List</a></span>
+   <span class='sectionToc'>3.4 <a href='InteractionwiththeBoard.html#interaction-with-the-board'>Interaction with the Board</a></span>
+   <span class='sectionToc'>3.5 <a href='CommandLine.html#command-line'>Command Line</a></span>
+   <span class='sectionToc'>3.6 <a href='RemoteControlInterface.html#remote-control-interface'>Remote Control Interface</a></span>
+                                                                                         
+                                                                                         
+   
+   <span class='sectionToc'>3.7 <a href='PictureMapReference.html#picture-map-reference'>Picture Map Reference</a></span>
+   <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>5 <a href='SerialCommunication.html#serial-communication'>Serial Communication</a></span>
+   
+   
+   
+   <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>7 <a href='Tools.html#tools'>Tools</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   <span class='chapterToc'>8 <a href='Oscilloscope.html#oscilloscope'>Oscilloscope</a></span>
+   <span class='chapterToc'>9 <a href='SpareParts.html#spare-parts'>Spare Parts</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                         
+                                                                                         
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='chapterToc'>10 <a href='Troubleshooting.html#troubleshooting'>Troubleshooting</a></span>
+   <span class='chapterToc'>11 <a href='License.html#license'>License</a></span>
+   <span class='appendixToc'>A <a href='OnlineSimulator.html#online-simulator'>Online Simulator</a></span>
+   <span class='appendixToc'>B <a href='UsewithMPLABX.html#use-with-mplabx'>Use with MPLABX</a></span>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <span class='appendixToc'>C <a href='CreatingNewBoards.html#creating-new-boards'>Creating New Boards</a></span>
+   
+   
+   
+   
+   
+   
+   
+    
+
+   </nav> 
+<main class='main-content'> 
+<nav class='crosslinks-top'> [<a href='ProjectWizard.html#IntroductionandSoftwareRequirements.html'>up</a>] [<a href='WorkWithWorkspacesFiles.html'>next</a>] </nav> 
+<h4 class='subsectionHead' id='introduction-and-software-requirements'><span class='titlemark'>3.3.1    </span> <a id='x15-140003.3.1'></a>Introduction and Software Requirements</h4>
+<!--  l. 126  --><p class='noindent'>The PICSimLab Project Wizard provides a user interface for generating code projects utilizing pre-defined code templates. To
+facilitate compilation and debugging, the appropriate Integrated Development Environments (IDEs) must be installed prior to
+project creation. These IDEs are dependent on the selected boards and microcontrollers. For boards employing ESP32, STM32,
+Atmel (AVR), STM8, and C51 microcontrollers, the <a href='https://platformio.org/install/ide?install=vscode' target='_blank'>PlatformIO IDE for VSCode</a> is required. Furthermore, for
+boards based on the PIC18F and PIC16F microcontrollers, the <a href='InstallMPLABXIDEandXC8Compiler.html#def_installmplabx'>MPLABX IDE and the XC8 compiler</a> must be
+installed.
+                                                                                         
+                                                                                         
+</p>
+   <nav class='crosslinks-bottom'>[<a href='ProjectWizard.html#IntroductionandSoftwareRequirements.html'>up</a>] [<a href='WorkWithWorkspacesFiles.html'>next</a>] </nav> </main><div id='google_translate_element' style='position:absolute;right:0px;top:0px;width:200px;'> </div> <script src='picsimlab.js' type='text/javascript'></script> <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script> <script data-goatcounter='https://4017.goatcounter.com/count' src='https://gc.zgo.at/count.js'></script> <div class='footer'>Copyright © 2026 lcgamboa. Built with make4ht.</div>  
+ 
+</body> 
+</html>

@@ -89,7 +89,7 @@ var searchData=
   ['cpart_5ftext_86',['cpart_TEXT',['../classcpart___t_e_x_t.html',1,'']]],
   ['cpart_5fuart_87',['cpart_UART',['../classcpart___u_a_r_t.html',1,'']]],
   ['cpart_5fvcd_5fdump_88',['cpart_VCD_Dump',['../classcpart___v_c_d___dump.html',1,'']]],
-  ['cpart_5fvcd_5fdump2_89',['cpart_VCD_Dump2',['../classcpart___v_c_d___dump2.html',1,'']]],
+  ['cpart_5fvcd_5fdump16_89',['cpart_VCD_Dump16',['../classcpart___v_c_d___dump16.html',1,'']]],
   ['cpart_5fvcd_5fdump_5fan_90',['cpart_VCD_Dump_an',['../classcpart___v_c_d___dump__an.html',1,'']]],
   ['cpart_5fvcd_5fdump_5fdbg_91',['cpart_VCD_Dump_DBG',['../classcpart___v_c_d___dump___d_b_g.html',1,'']]],
   ['cpart_5fvcd_5fdump_5fmem_92',['cpart_VCD_Dump_Mem',['../classcpart___v_c_d___dump___mem.html',1,'']]],

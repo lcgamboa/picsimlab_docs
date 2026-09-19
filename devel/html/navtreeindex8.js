@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"classpart.html#ade934dcb5b405162e49c239f4b10153b":[3,0,139,20],
 "classpart.html#ae12008fd8e984236961dc08877c05e0a":[3,0,139,66],
 "classpart.html#aeb1dcec741ed0694dc2c779d7e2de2d1":[3,0,139,62],
 "classpart.html#aecbcd4d1e3d02ea8efda7633b3c277ba":[3,0,139,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "structpart__desc.html":[3,0,140],
 "structrgb__color.html":[3,0,145],
 "structrtc__ds1307__t.html":[3,0,146],
-"structrtc__pfc8563__t.html":[3,0,147],
-"structsdcard__t.html":[3,0,148]
+"structrtc__pfc8563__t.html":[3,0,147]
 };

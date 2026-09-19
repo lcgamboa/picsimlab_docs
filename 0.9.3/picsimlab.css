@@ -28,6 +28,9 @@
 .pcrro8t-x-x-80{font-size:80%; font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
 .pcrro8t-x-x-80{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
 .pcrro8t-x-x-80{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrb8t-x-x-80{font-size:80%; font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
+.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
 .tctt-1000{font-family: monospace,monospace;}
 .ptmb8c-{ font-weight: bold;}
 .pcrb8t-{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
@@ -37,9 +40,6 @@
 .pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
 .pcrro8t-{ font-style: oblique; font-family: 'Nimbus Mono L', monospace,monospace;}
 .ptmr8t-x-x-50{font-size:50%;}
-.pcrb8t-x-x-80{font-size:80%; font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
-.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
-.pcrb8t-x-x-80{ font-weight: bold; font-family: 'Nimbus Mono L', monospace,monospace;}
 .pcrr8t-x-x-70{font-size:70%; font-family: 'Nimbus Mono L', monospace,monospace;}
 .pcrr8t-x-x-70{ font-family: 'Nimbus Mono L', monospace,monospace;}
 .pcrr8t-x-x-70{ font-family: 'Nimbus Mono L', monospace,monospace;}
@@ -250,11 +250,15 @@ pre#fancyvrb21{ background-color: #F0F0F0;}
 #fancyvrb22 .fancyvrblineno span {padding-right: 11.95517pt;}
 pre#fancyvrb22{ background-color: #F0F0F0;}
 #fancyvrb23 .fancyvrblineno span {padding-right: 11.95517pt;}
+pre#fancyvrb23{ background-color: #F0F0F0;}
 #fancyvrb24 .fancyvrblineno span {padding-right: 11.95517pt;}
+pre#fancyvrb24{ background-color: #F0F0F0;}
 #fancyvrb25 .fancyvrblineno span {padding-right: 11.95517pt;}
-pre#fancyvrb25{ background-color: #F0F0F0;}
 #fancyvrb26 .fancyvrblineno span {padding-right: 11.95517pt;}
-pre#fancyvrb26{ background-color: #F0F0F0;}
 #fancyvrb27 .fancyvrblineno span {padding-right: 11.95517pt;}
+pre#fancyvrb27{ background-color: #F0F0F0;}
+#fancyvrb28 .fancyvrblineno span {padding-right: 11.95517pt;}
+pre#fancyvrb28{ background-color: #F0F0F0;}
+#fancyvrb29 .fancyvrblineno span {padding-right: 11.95517pt;}
 /* end css.sty */
 

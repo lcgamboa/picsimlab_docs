@@ -1,0 +1,79 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}use python \PYGZhy{}u hardware\PYGZus{}list.py | tee hardware.md}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{time}\PYG{o}{,}\PYG{n+nn}{re}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{subprocess}
+\PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{pathlib}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{Path}
+\PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{PICSimLab\PYGZus{}rcontrol}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{PICSimLab\PYGZus{}rcontrol}
+
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{run\PYGZus{}picsimlab}\PYG{p}{(}\PYG{n}{board}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{,} \PYG{n}{processor}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{,} \PYG{n}{file\PYGZus{}path}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{):}
+    \PYG{n}{exe\PYGZus{}path} \PYG{o}{=} \PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}/usr/bin/picsimlab\PYGZdq{}}
+    \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{board}\PYG{p}{)}  \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{processor}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{file\PYGZus{}path}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+                \PYG{k}{if} \PYG{o+ow}{not} \PYG{n}{file\PYGZus{}path}\PYG{o}{.}\PYG{n}{is\PYGZus{}file}\PYG{p}{():}
+                    \PYG{k}{raise}  \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}File not found }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{file\PYGZus{}path}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                \PYG{k}{return} \PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{Popen}\PYG{p}{([}\PYG{n}{exe\PYGZus{}path}\PYG{p}{,} \PYG{n}{board}\PYG{p}{,} \PYG{n}{processor}\PYG{p}{,} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{file\PYGZus{}path}\PYG{p}{)],} \PYG{n}{stdout}\PYG{o}{=}\PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{DEVNULL}\PYG{p}{)}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{k}{return} \PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{Popen}\PYG{p}{([}\PYG{n}{exe\PYGZus{}path}\PYG{p}{,} \PYG{n}{board}\PYG{p}{,} \PYG{n}{processor}\PYG{p}{],} \PYG{n}{stdout}\PYG{o}{=}\PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{DEVNULL}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{Popen}\PYG{p}{([}\PYG{n}{exe\PYGZus{}path}\PYG{p}{,} \PYG{n}{board}\PYG{p}{],} \PYG{n}{stdout}\PYG{o}{=}\PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{DEVNULL}\PYG{p}{)}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{k}{return} \PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{Popen}\PYG{p}{(}\PYG{n}{exe\PYGZus{}path}\PYG{p}{,} \PYG{n}{stdout}\PYG{o}{=}\PYG{n}{subprocess}\PYG{o}{.}\PYG{n}{DEVNULL}\PYG{p}{)}
+
+\PYG{n}{process}\PYG{o}{=} \PYG{n}{run\PYGZus{}picsimlab}\PYG{p}{()}
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{n}{time}\PYG{o}{.}\PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{k}{with} \PYG{n}{PICSimLab\PYGZus{}rcontrol}\PYG{p}{(}\PYG{l+m+mi}{5000}\PYG{p}{)} \PYG{k}{as} \PYG{n}{rc}\PYG{p}{:}
+        \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}blist}\PYG{p}{()}
+        \PYG{n}{line} \PYG{o}{=} \PYG{n}{rc}\PYG{o}{.}\PYG{n}{get\PYGZus{}cmd\PYGZus{}response}\PYG{p}{()}\PYG{o}{.}\PYG{n}{splitlines}\PYG{p}{()[}\PYG{l+m+mi}{1}\PYG{p}{]}
+        \PYG{n}{boards} \PYG{o}{=} \PYG{p}{[}\PYG{n}{item}\PYG{o}{.}\PYG{n}{strip}\PYG{p}{()} \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n}{line}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{},\PYGZdq{}}\PYG{p}{)} \PYG{k}{if} \PYG{n}{item}\PYG{o}{.}\PYG{n}{strip}\PYG{p}{()]}
+        \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}exit}\PYG{p}{()}
+        \PYG{n}{process}\PYG{o}{.}\PYG{n}{wait}\PYG{p}{()}
+
+    \PYG{k}{for} \PYG{n}{board} \PYG{o+ow}{in} \PYG{n}{boards}\PYG{p}{:}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}\PYGZsh{} }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{board}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{n}{process}\PYG{o}{=} \PYG{n}{run\PYGZus{}picsimlab}\PYG{p}{(}\PYG{n}{board}\PYG{p}{)}
+        \PYG{n}{time}\PYG{o}{.}\PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+        \PYG{k}{with} \PYG{n}{PICSimLab\PYGZus{}rcontrol}\PYG{p}{(}\PYG{l+m+mi}{5000}\PYG{p}{)} \PYG{k}{as} \PYG{n}{rc}\PYG{p}{:}
+            \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}buclist}\PYG{p}{()}
+            \PYG{n}{line} \PYG{o}{=} \PYG{n}{rc}\PYG{o}{.}\PYG{n}{get\PYGZus{}cmd\PYGZus{}response}\PYG{p}{()}\PYG{o}{.}\PYG{n}{splitlines}\PYG{p}{()[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{},\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{processors} \PYG{o}{=} \PYG{p}{[}\PYG{n}{item} \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n}{line} \PYG{k}{if} \PYG{n}{item}\PYG{p}{]}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{} \PYGZhy{} Processors:\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{for} \PYG{n}{proc} \PYG{o+ow}{in} \PYG{n}{processors}\PYG{p}{:}
+                \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{} }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{proc}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}}\PYG{p}{)}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+
+            \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}bblist}\PYG{p}{()}
+            \PYG{n}{line} \PYG{o}{=} \PYG{n}{rc}\PYG{o}{.}\PYG{n}{get\PYGZus{}cmd\PYGZus{}response}\PYG{p}{()}\PYG{o}{.}\PYG{n}{splitlines}\PYG{p}{()[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{},\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{backends} \PYG{o}{=} \PYG{p}{[}\PYG{n}{item} \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n}{line} \PYG{k}{if} \PYG{n}{item}\PYG{p}{]}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{} \PYGZhy{} Backends:\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{for} \PYG{n}{proc} \PYG{o+ow}{in} \PYG{n}{backends}\PYG{p}{:}
+                \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{} }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{proc}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}}\PYG{p}{)}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+
+            \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}bdlist}\PYG{p}{()}
+            \PYG{n}{line} \PYG{o}{=} \PYG{n}{rc}\PYG{o}{.}\PYG{n}{get\PYGZus{}cmd\PYGZus{}response}\PYG{p}{()}\PYG{o}{.}\PYG{n}{splitlines}\PYG{p}{()[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{},\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{debuggers} \PYG{o}{=} \PYG{p}{[}\PYG{n}{item} \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n}{line} \PYG{k}{if} \PYG{n}{item}\PYG{p}{]}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{} \PYGZhy{} Debuggers:\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{for} \PYG{n}{proc} \PYG{o+ow}{in} \PYG{n}{debuggers}\PYG{p}{:}
+                \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{} }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{proc}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}}\PYG{p}{)}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+
+            \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}bilist}\PYG{p}{()}
+            \PYG{n}{line} \PYG{o}{=} \PYG{n}{rc}\PYG{o}{.}\PYG{n}{get\PYGZus{}cmd\PYGZus{}response}\PYG{p}{()}\PYG{o}{.}\PYG{n}{splitlines}\PYG{p}{()[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{},\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{ides} \PYG{o}{=} \PYG{p}{[}\PYG{n}{item} \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n}{line} \PYG{k}{if} \PYG{n}{item}\PYG{p}{]}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{} \PYGZhy{} IDEs:\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{for} \PYG{n}{proc} \PYG{o+ow}{in} \PYG{n}{ides}\PYG{p}{:}
+                \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{} }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{proc}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}}\PYG{p}{)}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+
+            \PYG{n}{rc}\PYG{o}{.}\PYG{n}{cmd\PYGZus{}exit}\PYG{p}{()}
+            \PYG{n}{process}\PYG{o}{.}\PYG{n}{wait}\PYG{p}{()}
+
+\PYG{k}{except} \PYG{n+ne}{ConnectionError} \PYG{k}{as} \PYG{n}{e}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}ConnectionError: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{e}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+
+\end{MintedVerbatim}

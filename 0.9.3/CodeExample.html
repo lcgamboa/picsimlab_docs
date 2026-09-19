@@ -26,6 +26,11 @@
    
    
    
+   
+   
+   
+   
+   
    <span class='chapterToc'>4 <a href='Boards.html#boards'>Boards</a></span>
    
    
@@ -53,13 +58,13 @@
    
    
    <span class='chapterToc'>6 <a href='BackendSimulators.html#backend-simulators'>Backend Simulators</a></span>
-   
-   
-   
-   
-   
                                                                                          
                                                                                          
+   
+   
+   
+   
+   
    
    
    
@@ -109,13 +114,13 @@
    
    
    
-   
-   
-   
-   
-   
                                                                                          
                                                                                          
+   
+   
+   
+   
+   
    
    
    
@@ -165,13 +170,13 @@
    <span class='subsectionToc'>B.2.4 <a href='#code-example'>Code Example</a></span>
    <span class='subsectionToc'>B.2.5 <a href='BuildingtheProject.html#building-the-project'>Building the Project</a></span>
    <span class='sectionToc'>B.3 <a href='ProgramandDebugPICsimLabWithMPLABX.html#program-and-debug-picsimlab-with-mplabx'>Program and Debug PICsimLab With MPLABX</a></span>
-   
-   
-   
-   
-   
                                                                                          
                                                                                          
+   
+   
+   
+   
+   
    
    
    <span class='sectionToc'>B.4 <a href='ThisTutorialinVideo.html#this-tutorial-in-video'>This Tutorial in Video</a></span>
@@ -188,20 +193,20 @@
    </nav> 
 <main class='main-content'> 
 <nav class='crosslinks-top'> [<a href='PICConfigurationBits.html'>prev</a>] [<a href='ConfiguringaNewProjectinMPLABX.html#CodeExample.html'>up</a>] [<a href='BuildingtheProject.html'>next</a>] </nav> 
-<h4 class='subsectionHead' id='code-example'><span class='titlemark'>B.2.4    </span> <a id='x151-158000B.2.4'></a>Code Example</h4>
+<h4 class='subsectionHead' id='code-example'><span class='titlemark'>B.2.4    </span> <a id='x156-163000B.2.4'></a>Code Example</h4>
 <!--  l. 140  --><p class='noindent'>Paste the configuration and this simple code example in test.c:
 </p>
-   <pre class='fancyvrb' id='fancyvrb23'><span class='fancyvrblineno'><a id='x151-158013r1'></a></span><span class='fancyvrbline'><span style='color:#B00040;'><span class='textbf'>void</span></span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#0000FF;'><span class='pcrr8t-'>main</span></span><span class='pcrr8t-'>()</span></span> 
-<span class='fancyvrblineno'><a id='x151-158015r2'></a></span><span class='fancyvrbline'><span class='pcrr8t-'>{</span></span> 
-<span class='fancyvrblineno'><a id='x151-158017r3'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>TRISB</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>0x00</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#3D7A7A;'><span class='textit'>//All pins as output</span></span></span> 
-<span class='fancyvrblineno'><a id='x151-158019r4'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>PORTB</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>0</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span style='color:#3D7A7A;'><span class='textit'>//All pins off</span></span></span> 
-<span class='fancyvrblineno'><a id='x151-158021r5'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span style='color:#008000;'><span class='textbf'>while</span></span><span class='pcrr8t-'>(</span><span style='color:#666666;'><span class='pcrr8t-'>1</span></span><span class='pcrr8t-'>)</span><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span style='color:#3D7A7A;'><span class='textit'>//main loop</span></span></span> 
-<span class='fancyvrblineno'><a id='x151-158023r6'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>{</span></span> 
-<span class='fancyvrblineno'><a id='x151-158025r7'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>        </span></span><span class='pcrr8t-'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>1</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#3D7A7A;'><span class='textit'>//Turn RB0 on</span></span></span> 
-<span class='fancyvrblineno'><a id='x151-158027r8'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>        </span></span><span class='pcrr8t-'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>1</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#3D7A7A;'><span class='textit'>//Turn RB1 on</span></span></span> 
-<span class='fancyvrblineno'><a id='x151-158029r9'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>        </span></span><span class='pcrr8t-'>PORTB</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>0</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'>  </span></span><span style='color:#3D7A7A;'><span class='textit'>//All pins off</span></span></span> 
-<span class='fancyvrblineno'><a id='x151-158031r10'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>}</span></span> 
-<span class='fancyvrblineno'><a id='x151-158033r11'></a></span><span class='fancyvrbline'><span class='pcrr8t-'>}</span></span></pre>
+   <pre class='fancyvrb' id='fancyvrb25'><span class='fancyvrblineno'><a id='x156-163013r1'></a></span><span class='fancyvrbline'><span style='color:#B00040;'><span class='textbf'>void</span></span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#0000FF;'><span class='pcrr8t-'>main</span></span><span class='pcrr8t-'>()</span></span> 
+<span class='fancyvrblineno'><a id='x156-163015r2'></a></span><span class='fancyvrbline'><span class='pcrr8t-'>{</span></span> 
+<span class='fancyvrblineno'><a id='x156-163017r3'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>TRISB</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>0x00</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#3D7A7A;'><span class='textit'>//All pins as output</span></span></span> 
+<span class='fancyvrblineno'><a id='x156-163019r4'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>PORTB</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>0</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span style='color:#3D7A7A;'><span class='textit'>//All pins off</span></span></span> 
+<span class='fancyvrblineno'><a id='x156-163021r5'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span style='color:#008000;'><span class='textbf'>while</span></span><span class='pcrr8t-'>(</span><span style='color:#666666;'><span class='pcrr8t-'>1</span></span><span class='pcrr8t-'>)</span><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span style='color:#3D7A7A;'><span class='textit'>//main loop</span></span></span> 
+<span class='fancyvrblineno'><a id='x156-163023r6'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>{</span></span> 
+<span class='fancyvrblineno'><a id='x156-163025r7'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>        </span></span><span class='pcrr8t-'>PORTBbits.RB0</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>1</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#3D7A7A;'><span class='textit'>//Turn RB0 on</span></span></span> 
+<span class='fancyvrblineno'><a id='x156-163027r8'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>        </span></span><span class='pcrr8t-'>PORTBbits.RB1</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>1</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'> </span></span><span style='color:#3D7A7A;'><span class='textit'>//Turn RB1 on</span></span></span> 
+<span class='fancyvrblineno'><a id='x156-163029r9'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>        </span></span><span class='pcrr8t-'>PORTB</span><span style='color:#666666;'><span class='pcrr8t-'>=</span></span><span style='color:#666666;'><span class='pcrr8t-'>0</span></span><span class='pcrr8t-'>;</span><span style='color:#BABABA;'><span class='pcrr8t-'>  </span></span><span style='color:#3D7A7A;'><span class='textit'>//All pins off</span></span></span> 
+<span class='fancyvrblineno'><a id='x156-163031r10'></a></span><span class='fancyvrbline'><span style='color:#BABABA;'><span class='pcrr8t-'>    </span></span><span class='pcrr8t-'>}</span></span> 
+<span class='fancyvrblineno'><a id='x156-163033r11'></a></span><span class='fancyvrbline'><span class='pcrr8t-'>}</span></span></pre>
    <figure class='figure'> 
 
                                                                                          
